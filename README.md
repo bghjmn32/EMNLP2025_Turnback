@@ -1,10 +1,5 @@
 # TurnBack
 
-![Python](https://img.shields.io/badge/Python-3.12-3776AB)
-![Conference](https://img.shields.io/badge/EMNLP-2025-8A2BE2)
-![Dataset](https://img.shields.io/badge/Data-36kroutes-0A7EA4)
-![Core](https://img.shields.io/badge/Core-Path%20Builder-1f883d)
-
 English | [简体中文](README.zh-CN.md)
 
 Public release for **TurnBack: A Geospatial Route Cognition Benchmark for Large Language Models through Reverse Route**.
@@ -33,7 +28,7 @@ The paper contributes three pieces:
 Install:
 
 ```bash
-python3.12 -m venv .venv
+python -m venv .venv
 source .venv/bin/activate
 pip install -e .[dev,llm]
 ```
@@ -43,9 +38,9 @@ Generate new routes in three difficulty levels:
 ```bash
 path-builder generate-routes \
   --city Toronto_Canada \
-  --easy 20 \
-  --medium 20 \
-  --hard 20 \
+  --easy <NUM_EASY> \
+  --medium <NUM_MEDIUM> \
+  --hard <NUM_HARD> \
   --output-root tmp/generated_routes \
   --ors-api-key "$ORS_API_KEY"
 ```
@@ -56,7 +51,7 @@ Generate reverse instructions with your own LLM API key:
 path-builder generate-reverse \
   --provider openai \
   --city "Toronto, Canada" \
-  --input-file 36kroutes/Toronto_Canada/easy/0/natural_instructions.txt \
+  --input-file 36kroutes/Toronto_Canada/easy/<ROUTE_ID>/natural_instructions.txt \
   --raw-output tmp/reverse_raw.txt \
   --clean-output tmp/reverse_clean.txt
 ```
@@ -68,7 +63,7 @@ path-builder execute \
   --root 36kroutes \
   --city Toronto_Canada \
   --difficulty easy \
-  0 \
+  <ROUTE_ID> \
   --instructions tmp/reverse_clean.txt \
   --executor hybrid \
   --output tmp/recovered_route.geojson
@@ -79,7 +74,7 @@ Score the recovered route against the reference route:
 ```bash
 path-builder score \
   tmp/recovered_route.geojson \
-  36kroutes/Toronto_Canada/easy/0/route.geojson \
+  36kroutes/Toronto_Canada/easy/<ROUTE_ID>/route.geojson \
   --config configs/similarity.paper.json
 ```
 
@@ -87,7 +82,7 @@ path-builder score \
 
 ![Main benchmark results](assets/main_results.png)
 
-- The EMNLP 2025 paper introduces a `36,000`-route benchmark over `12` metropolitan areas and three difficulty levels.
+- The paper introduces a `36,000`-route benchmark over `12` metropolitan areas and three difficulty levels.
 - The paper reports that Path Builder reaches `96%` success in Toronto, `90%` in Tokyo, and `94%` in Munich.
 - On a representative easy reversal example, no model returned exactly to the start; Gemini reached `73.4` similarity while Llama reached `22.6`.
 - On `200` easy Toronto routes with GPT-4o, adding a vector map at inference time raised return rate from `6.4%` to `43.7%` and similarity from `41.06` to `73.08`.
@@ -96,22 +91,7 @@ path-builder score \
 
 `36kroutes` is the historical release name used in the paper. The directory currently published in this repository is a later raw release snapshot kept under the same name for continuity.
 
-Current on-disk snapshot:
-
-- city folders: `13`
-- route folders: `40,752`
-- populated route folders with `route.geojson`: `40,728`
-
-The paper-reported `36,000` routes refer to the original paper benchmark subset. The current raw release keeps the historical directory name instead of renaming the corpus after later additions.
-
-Concretely, the raw release no longer matches the paper roster one-to-one:
-
-- the paper benchmark is described as `12` cities and `36,000` routes
-- the current raw release contains `13` city folders
-- the current raw release includes `Paris_France` and `Rio_de_Janeiro_Brazil`
-- the paper text lists `São Paulo`, but there is no `Sao_Paulo` folder in the current raw release
-
-The current city list is documented in [36kroutes/README.md](36kroutes/README.md).
+The paper-reported `36,000` routes refer to the benchmark definition in the paper. The repository keeps the historical `36kroutes` folder name for continuity across released data and code. Directory-level details are documented in [36kroutes/README.md](36kroutes/README.md).
 
 ## Repository Layout
 
