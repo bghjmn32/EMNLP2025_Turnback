@@ -16,6 +16,16 @@
 3. `path-builder generate-routes`：`easy / medium / hard` 三档路线生成器
 4. `path-builder generate-reverse`：面向外部大模型 API 的反转指令生成器
 
+## 论文简介
+
+TurnBack 把 **路径反转** 当作检验大模型地理空间认知能力的具体任务。模型首先拿到正向导航指令，目标是生成一条回到起点的反向路线指令。随后，我们用 Path Builder 把模型输出的反向指令重新执行成几何路线，再把恢复出的路线与参考反向路线做对比。
+
+论文主要贡献有三部分：
+
+- 提出了论文中定义的 `12` 个大都市、`36,000` 条步行路线的大规模路径反转 benchmark
+- 提出了 Path Builder，把自然语言导航重新执行为街道级几何路径
+- 提出了基于恢复几何而不是文本表面重叠的 route-level 评测方法
+
 ![TurnBack 流程图](assets/route_generation.png)
 
 ## 快速开始
@@ -73,7 +83,7 @@ path-builder score \
   --config configs/similarity.paper.json
 ```
 
-## 论文结果摘要
+## 主要结果
 
 ![论文主结果图](assets/main_results.png)
 
@@ -92,7 +102,16 @@ path-builder score \
 - 路线文件夹总数：`40,752`
 - 含 `route.geojson` 的有效路线文件夹：`40,728`
 
-论文中写的 `36,000` 条路线，对应的是论文使用的原始 benchmark 子集；当前公开目录为了保持连续性，沿用了 `36kroutes` 这个历史名称，而没有在后续增补后改名。当前城市列表见 [36kroutes/README.md](36kroutes/README.md)。
+论文中写的 `36,000` 条路线，对应的是论文使用的原始 benchmark 子集；当前公开目录为了保持连续性，沿用了 `36kroutes` 这个历史名称，而没有在后续增补后改名。
+
+更具体地说，当前原始发布与论文中的 benchmark 城市集合并不完全一一对应：
+
+- 论文 benchmark 写的是 `12` 个城市、`36,000` 条路线
+- 当前原始发布目录里有 `13` 个城市目录
+- 当前原始发布包含 `Paris_France` 和 `Rio_de_Janeiro_Brazil`
+- 论文正文列出了 `São Paulo`，但当前原始发布目录里没有 `Sao_Paulo` 文件夹
+
+当前城市列表见 [36kroutes/README.md](36kroutes/README.md)。
 
 ## 仓库结构
 

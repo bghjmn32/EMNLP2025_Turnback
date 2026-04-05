@@ -31,6 +31,8 @@ Current city folders:
 
 The paper-reported benchmark refers to `36,000` routes across `12` cities. This release preserves the later raw corpus layout under the same historical folder name instead of renaming the directory after subsequent additions.
 
+Compared with the exact paper benchmark description, the current raw release includes `Paris_France` and `Rio_de_Janeiro_Brazil`, while the paper text lists `São Paulo` and the current directory tree does not contain a `Sao_Paulo` folder.
+
 Each populated route folder contains:
 
 - `route.geojson`
@@ -68,6 +70,8 @@ The public route-generation code that writes this directory format lives under `
 - `Toronto_Canada`
 
 论文中写的 benchmark 是 `12` 个城市、`36,000` 条路线。当前公开目录为了保持历史连续性，沿用了 `36kroutes` 这个名字，而不是在后续增补后重新命名。
+
+和论文中精确定义的 benchmark 城市集合相比，当前原始发布目录包含 `Paris_France` 与 `Rio_de_Janeiro_Brazil`，而论文正文列出的 `São Paulo` 在当前目录树中并没有对应的 `Sao_Paulo` 文件夹。
 
 每个有效路线目录包含：
 

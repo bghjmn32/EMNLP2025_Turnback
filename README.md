@@ -16,6 +16,16 @@ This repository is intentionally narrow. It gives you exactly four practical pie
 3. `path-builder generate-routes`: the easy / medium / hard route generator
 4. `path-builder generate-reverse`: the reverse-instruction generator for external LLM APIs
 
+## Paper Overview
+
+TurnBack studies **route reversal** as a concrete probe of geospatial cognition in large language models. A model receives forward navigation instructions and must produce a reverse route back to the start. We then use Path Builder to convert the predicted reverse instructions into geometry and compare that recovered route against the reference reverse route.
+
+The paper contributes three pieces:
+
+- a large-scale route-reversal benchmark introduced in the paper as `36,000` pedestrian routes over `12` metropolitan areas
+- Path Builder, a language-to-route execution engine that turns navigation text back into street-level geometry
+- a route-level evaluation protocol based on recovered geometry instead of only surface-form text overlap
+
 ![TurnBack pipeline](assets/route_generation.png)
 
 ## Quick Start
@@ -73,7 +83,7 @@ path-builder score \
   --config configs/similarity.paper.json
 ```
 
-## Paper Snapshot
+## Main Findings
 
 ![Main benchmark results](assets/main_results.png)
 
@@ -92,7 +102,16 @@ Current on-disk snapshot:
 - route folders: `40,752`
 - populated route folders with `route.geojson`: `40,728`
 
-The paper-reported `36,000` routes refer to the original paper benchmark subset. The current raw release keeps the historical directory name instead of renaming the corpus after later additions. The current city list is documented in [36kroutes/README.md](36kroutes/README.md).
+The paper-reported `36,000` routes refer to the original paper benchmark subset. The current raw release keeps the historical directory name instead of renaming the corpus after later additions.
+
+Concretely, the raw release no longer matches the paper roster one-to-one:
+
+- the paper benchmark is described as `12` cities and `36,000` routes
+- the current raw release contains `13` city folders
+- the current raw release includes `Paris_France` and `Rio_de_Janeiro_Brazil`
+- the paper text lists `São Paulo`, but there is no `Sao_Paulo` folder in the current raw release
+
+The current city list is documented in [36kroutes/README.md](36kroutes/README.md).
 
 ## Repository Layout
 
