@@ -33,7 +33,7 @@
 ├── 36kroutes/          # 已发布路线语料
 ├── configs/            # 公开评分配置
 ├── src/path_builder/   # Path Builder、生成、prompting、评分
-├── scripts/            # 维护脚本与 smoke check
+├── scripts/            # 小型辅助脚本
 ├── tests/              # 自包含公开测试集
 ├── README.md           # 英文 README
 ├── README.zh-CN.md     # 中文 README
@@ -119,13 +119,13 @@ path-builder score \
 - 私有 API 或内部服务
 - 本地冻结图缓存
 
-## 验证
+## 快速检查
 
 ```bash
 ruff check src/path_builder tests --select F,E9
 python -m compileall src/path_builder
 pytest -q
-./scripts/smoke_release.sh
+./scripts/quick_check.sh
 ```
 
 ## 引用

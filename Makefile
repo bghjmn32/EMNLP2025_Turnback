@@ -1,6 +1,6 @@
 PYTHON ?= python3
 
-.PHONY: install test lint compile smoke
+.PHONY: install test lint compile quick-check
 
 install:
 	$(PYTHON) -m pip install -e ".[dev,llm]"
@@ -14,8 +14,5 @@ lint:
 compile:
 	$(PYTHON) -m compileall src/path_builder
 
-smoke:
-	$(PYTHON) -m path_builder.cli --help >/dev/null
-	$(PYTHON) -m path_builder.cli generate-routes --help >/dev/null
-	$(PYTHON) -m path_builder.cli generate-reverse --help >/dev/null
-
+quick-check:
+	./scripts/quick_check.sh

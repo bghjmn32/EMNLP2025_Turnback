@@ -33,7 +33,7 @@ This repository does **not** depend on private benchmark splits, hidden graph ca
 ├── 36kroutes/          # released route corpus
 ├── configs/            # public scoring configs
 ├── src/path_builder/   # Path Builder, generation, prompting, scoring
-├── scripts/            # small maintenance and smoke-check scripts
+├── scripts/            # small helper scripts
 ├── tests/              # self-contained public test suite
 ├── README.md           # English README
 ├── README.zh-CN.md     # Chinese README
@@ -119,13 +119,13 @@ The raw directory state is preserved as released rather than cosmetically rewrit
 - private APIs or internal services
 - local frozen graph caches
 
-## Validation
+## Quick Check
 
 ```bash
 ruff check src/path_builder tests --select F,E9
 python -m compileall src/path_builder
 pytest -q
-./scripts/smoke_release.sh
+./scripts/quick_check.sh
 ```
 
 ## Citation
