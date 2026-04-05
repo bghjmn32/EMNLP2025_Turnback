@@ -1,0 +1,184 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.544575,
+    -33.925103,
+    18.550465,
+    -33.922262
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.544575,
+        -33.925103,
+        18.550465,
+        -33.922262
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 820.1,
+            "duration": 590.5,
+            "steps": [
+              {
+                "distance": 94.1,
+                "duration": 67.7,
+                "type": 11,
+                "instruction": "Head east",
+                "name": "-",
+                "way_points": [
+                  0,
+                  4
+                ]
+              },
+              {
+                "distance": 257.2,
+                "duration": 185.2,
+                "type": 5,
+                "instruction": "Turn slight right onto Mail Street",
+                "name": "Mail Street",
+                "way_points": [
+                  4,
+                  6
+                ]
+              },
+              {
+                "distance": 432.5,
+                "duration": 311.4,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  6,
+                  12
+                ]
+              },
+              {
+                "distance": 36.4,
+                "duration": 26.2,
+                "type": 0,
+                "instruction": "Turn left onto Showground Avenue",
+                "name": "Showground Avenue",
+                "way_points": [
+                  12,
+                  14
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Showground Avenue, straight ahead",
+                "name": "-",
+                "way_points": [
+                  14,
+                  14
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          14
+        ],
+        "summary": {
+          "distance": 820.1,
+          "duration": 590.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.544575,
+            -33.925103
+          ],
+          [
+            18.54533,
+            -33.925034
+          ],
+          [
+            18.545411,
+            -33.925017
+          ],
+          [
+            18.545487,
+            -33.92497
+          ],
+          [
+            18.545564,
+            -33.924949
+          ],
+          [
+            18.547353,
+            -33.924819
+          ],
+          [
+            18.54834,
+            -33.924738
+          ],
+          [
+            18.548319,
+            -33.924534
+          ],
+          [
+            18.548308,
+            -33.924413
+          ],
+          [
+            18.548292,
+            -33.924259
+          ],
+          [
+            18.548149,
+            -33.922808
+          ],
+          [
+            18.548186,
+            -33.922764
+          ],
+          [
+            18.550465,
+            -33.92259
+          ],
+          [
+            18.550457,
+            -33.922513
+          ],
+          [
+            18.550445,
+            -33.922262
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756805482684,
+    "query": {
+      "coordinates": [
+        [
+          18.5445747,
+          -33.9251032
+        ],
+        [
+          18.5504452,
+          -33.9222625
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

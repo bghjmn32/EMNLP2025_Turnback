@@ -1,0 +1,259 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -104.819564,
+    39.75111,
+    -104.818028,
+    39.754715
+  ],
+  "features": [
+    {
+      "bbox": [
+        -104.819564,
+        39.75111,
+        -104.818028,
+        39.754715
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 530.6,
+            "duration": 382.0,
+            "steps": [
+              {
+                "distance": 6.1,
+                "duration": 4.4,
+                "type": 11,
+                "instruction": "Head west",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 7.2,
+                "duration": 5.2,
+                "type": 0,
+                "instruction": "Turn left onto North Dearborn Way",
+                "name": "North Dearborn Way",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 105.8,
+                "duration": 76.2,
+                "type": 1,
+                "instruction": "Turn right onto East 26th Avenue",
+                "name": "East 26th Avenue",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 93.6,
+                "duration": 67.4,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  3,
+                  8
+                ]
+              },
+              {
+                "distance": 18.0,
+                "duration": 13.0,
+                "type": 13,
+                "instruction": "Keep right",
+                "name": "-",
+                "way_points": [
+                  8,
+                  10
+                ]
+              },
+              {
+                "distance": 17.2,
+                "duration": 12.4,
+                "type": 5,
+                "instruction": "Turn slight right",
+                "name": "-",
+                "way_points": [
+                  10,
+                  12
+                ]
+              },
+              {
+                "distance": 16.3,
+                "duration": 11.7,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  12,
+                  14
+                ]
+              },
+              {
+                "distance": 258.0,
+                "duration": 185.8,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  14,
+                  18
+                ]
+              },
+              {
+                "distance": 8.4,
+                "duration": 6.0,
+                "type": 12,
+                "instruction": "Keep left",
+                "name": "-",
+                "way_points": [
+                  18,
+                  19
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  19,
+                  19
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          19
+        ],
+        "summary": {
+          "distance": 530.6,
+          "duration": 382.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -104.818028,
+            39.754715
+          ],
+          [
+            -104.818099,
+            39.754714
+          ],
+          [
+            -104.818097,
+            39.754649
+          ],
+          [
+            -104.819334,
+            39.754645
+          ],
+          [
+            -104.819332,
+            39.754569
+          ],
+          [
+            -104.819348,
+            39.754534
+          ],
+          [
+            -104.819351,
+            39.753916
+          ],
+          [
+            -104.819345,
+            39.75383
+          ],
+          [
+            -104.819325,
+            39.753811
+          ],
+          [
+            -104.819327,
+            39.753728
+          ],
+          [
+            -104.819325,
+            39.753649
+          ],
+          [
+            -104.819342,
+            39.753634
+          ],
+          [
+            -104.819349,
+            39.753499
+          ],
+          [
+            -104.819424,
+            39.753495
+          ],
+          [
+            -104.819539,
+            39.7535
+          ],
+          [
+            -104.819539,
+            39.753177
+          ],
+          [
+            -104.819538,
+            39.753091
+          ],
+          [
+            -104.819541,
+            39.751207
+          ],
+          [
+            -104.819564,
+            39.751186
+          ],
+          [
+            -104.819562,
+            39.75111
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306230577,
+    "query": {
+      "coordinates": [
+        [
+          -104.8180276,
+          39.754715
+        ],
+        [
+          -104.8195617,
+          39.7511104
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

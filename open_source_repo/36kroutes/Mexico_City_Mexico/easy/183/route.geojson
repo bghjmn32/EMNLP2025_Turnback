@@ -1,0 +1,145 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.185812,
+    19.390353,
+    -99.181847,
+    19.393793
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.185812,
+        19.390353,
+        -99.181847,
+        19.393793
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 745.9,
+            "duration": 537.0,
+            "steps": [
+              {
+                "distance": 88.9,
+                "duration": 64.0,
+                "type": 11,
+                "instruction": "Head east on Calle 13",
+                "name": "Calle 13",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 369.9,
+                "duration": 266.3,
+                "type": 0,
+                "instruction": "Turn left onto Avenida 1",
+                "name": "Avenida 1",
+                "way_points": [
+                  1,
+                  4
+                ]
+              },
+              {
+                "distance": 287.1,
+                "duration": 206.7,
+                "type": 1,
+                "instruction": "Turn right onto Calle 5",
+                "name": "Calle 5",
+                "way_points": [
+                  4,
+                  7
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle 5, straight ahead",
+                "name": "-",
+                "way_points": [
+                  7,
+                  7
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          7
+        ],
+        "summary": {
+          "distance": 745.9,
+          "duration": 537.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.185812,
+            19.390438
+          ],
+          [
+            -99.18497,
+            19.390353
+          ],
+          [
+            -99.184872,
+            19.391181
+          ],
+          [
+            -99.184723,
+            19.392451
+          ],
+          [
+            -99.18458,
+            19.393659
+          ],
+          [
+            -99.183673,
+            19.393704
+          ],
+          [
+            -99.182765,
+            19.393756
+          ],
+          [
+            -99.181847,
+            19.393793
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756304837064,
+    "query": {
+      "coordinates": [
+        [
+          -99.1858125,
+          19.3904377
+        ],
+        [
+          -99.1818466,
+          19.393793
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

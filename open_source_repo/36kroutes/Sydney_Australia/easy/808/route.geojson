@@ -1,0 +1,203 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    151.023345,
+    -33.932667,
+    151.028718,
+    -33.931609
+  ],
+  "features": [
+    {
+      "bbox": [
+        151.023345,
+        -33.932667,
+        151.028718,
+        -33.931609
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 582.0,
+            "duration": 419.1,
+            "steps": [
+              {
+                "distance": 10.4,
+                "duration": 7.5,
+                "type": 11,
+                "instruction": "Head northwest on Northam Avenue",
+                "name": "Northam Avenue",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 5.4,
+                "duration": 3.9,
+                "type": 3,
+                "instruction": "Turn sharp right",
+                "name": "-",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 419.5,
+                "duration": 302.0,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  3,
+                  11
+                ]
+              },
+              {
+                "distance": 138.7,
+                "duration": 99.9,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  11,
+                  15
+                ]
+              },
+              {
+                "distance": 8.0,
+                "duration": 5.8,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  15,
+                  16
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  16,
+                  16
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          16
+        ],
+        "summary": {
+          "distance": 582.0,
+          "duration": 419.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            151.023358,
+            -33.93213
+          ],
+          [
+            151.023349,
+            -33.932117
+          ],
+          [
+            151.023345,
+            -33.932038
+          ],
+          [
+            151.023402,
+            -33.932049
+          ],
+          [
+            151.023423,
+            -33.93208
+          ],
+          [
+            151.026582,
+            -33.932514
+          ],
+          [
+            151.026652,
+            -33.932523
+          ],
+          [
+            151.026733,
+            -33.932534
+          ],
+          [
+            151.027592,
+            -33.932654
+          ],
+          [
+            151.027664,
+            -33.932659
+          ],
+          [
+            151.027783,
+            -33.932664
+          ],
+          [
+            151.02787,
+            -33.932667
+          ],
+          [
+            151.02789,
+            -33.932588
+          ],
+          [
+            151.028071,
+            -33.932296
+          ],
+          [
+            151.028344,
+            -33.932011
+          ],
+          [
+            151.028718,
+            -33.931652
+          ],
+          [
+            151.028648,
+            -33.931609
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756395348746,
+    "query": {
+      "coordinates": [
+        [
+          151.0233581,
+          -33.9321296
+        ],
+        [
+          151.0286476,
+          -33.9316091
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

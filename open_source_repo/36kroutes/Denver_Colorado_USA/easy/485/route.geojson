@@ -1,0 +1,185 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -104.94519,
+    39.812694,
+    -104.935303,
+    39.815236
+  ],
+  "features": [
+    {
+      "bbox": [
+        -104.94519,
+        39.812694,
+        -104.935303,
+        39.815236
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1031.4,
+            "duration": 742.6,
+            "steps": [
+              {
+                "distance": 695.0,
+                "duration": 500.4,
+                "type": 11,
+                "instruction": "Head east on East 64th Avenue",
+                "name": "East 64th Avenue",
+                "way_points": [
+                  0,
+                  12
+                ]
+              },
+              {
+                "distance": 191.9,
+                "duration": 138.1,
+                "type": 0,
+                "instruction": "Turn left onto North Brighton Boulevard, CO 265",
+                "name": "North Brighton Boulevard, CO 265",
+                "way_points": [
+                  12,
+                  13
+                ]
+              },
+              {
+                "distance": 144.5,
+                "duration": 104.0,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  13,
+                  17
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  17,
+                  17
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          17
+        ],
+        "summary": {
+          "distance": 1031.4,
+          "duration": 742.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -104.94519,
+            39.812697
+          ],
+          [
+            -104.943922,
+            39.812697
+          ],
+          [
+            -104.943345,
+            39.812694
+          ],
+          [
+            -104.94238,
+            39.812695
+          ],
+          [
+            -104.941802,
+            39.812696
+          ],
+          [
+            -104.941333,
+            39.812705
+          ],
+          [
+            -104.940455,
+            39.812724
+          ],
+          [
+            -104.939985,
+            39.812728
+          ],
+          [
+            -104.939448,
+            39.812734
+          ],
+          [
+            -104.938291,
+            39.812742
+          ],
+          [
+            -104.937845,
+            39.812739
+          ],
+          [
+            -104.937473,
+            39.812735
+          ],
+          [
+            -104.937053,
+            39.812731
+          ],
+          [
+            -104.936079,
+            39.814286
+          ],
+          [
+            -104.935862,
+            39.814289
+          ],
+          [
+            -104.935575,
+            39.814733
+          ],
+          [
+            -104.935303,
+            39.815169
+          ],
+          [
+            -104.935483,
+            39.815236
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756305924224,
+    "query": {
+      "coordinates": [
+        [
+          -104.9451896,
+          39.8126974
+        ],
+        [
+          -104.9354832,
+          39.8152356
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

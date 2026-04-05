@@ -1,0 +1,204 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.494498,
+    -33.996208,
+    18.495816,
+    -33.989623
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.494498,
+        -33.996208,
+        18.495816,
+        -33.989623
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 910.9,
+            "duration": 655.8,
+            "steps": [
+              {
+                "distance": 80.8,
+                "duration": 58.2,
+                "type": 11,
+                "instruction": "Head north on Chukker Road",
+                "name": "Chukker Road",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 6.6,
+                "duration": 4.8,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 665.0,
+                "duration": 478.8,
+                "type": 3,
+                "instruction": "Turn sharp right",
+                "name": "-",
+                "way_points": [
+                  3,
+                  17
+                ]
+              },
+              {
+                "distance": 158.5,
+                "duration": 114.1,
+                "type": 0,
+                "instruction": "Turn left onto Waterloo Road",
+                "name": "Waterloo Road",
+                "way_points": [
+                  17,
+                  19
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Waterloo Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  19,
+                  19
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          19
+        ],
+        "summary": {
+          "distance": 910.9,
+          "duration": 655.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.494498,
+            -33.990331
+          ],
+          [
+            18.494556,
+            -33.989856
+          ],
+          [
+            18.494662,
+            -33.989623
+          ],
+          [
+            18.494726,
+            -33.98965
+          ],
+          [
+            18.494706,
+            -33.989669
+          ],
+          [
+            18.494708,
+            -33.989691
+          ],
+          [
+            18.494735,
+            -33.989725
+          ],
+          [
+            18.49478,
+            -33.98974
+          ],
+          [
+            18.494781,
+            -33.989764
+          ],
+          [
+            18.494805,
+            -33.989872
+          ],
+          [
+            18.495111,
+            -33.991325
+          ],
+          [
+            18.495251,
+            -33.991973
+          ],
+          [
+            18.495388,
+            -33.992611
+          ],
+          [
+            18.495522,
+            -33.993255
+          ],
+          [
+            18.495659,
+            -33.993894
+          ],
+          [
+            18.495816,
+            -33.994617
+          ],
+          [
+            18.49579,
+            -33.994651
+          ],
+          [
+            18.494768,
+            -33.9948
+          ],
+          [
+            18.494895,
+            -33.995501
+          ],
+          [
+            18.49504,
+            -33.996208
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756805248068,
+    "query": {
+      "coordinates": [
+        [
+          18.4944984,
+          -33.9903315
+        ],
+        [
+          18.4950399,
+          -33.9962077
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

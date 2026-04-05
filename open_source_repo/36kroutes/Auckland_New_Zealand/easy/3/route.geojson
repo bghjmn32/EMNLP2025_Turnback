@@ -1,0 +1,208 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    174.698519,
+    -36.863716,
+    174.703274,
+    -36.859382
+  ],
+  "features": [
+    {
+      "bbox": [
+        174.698519,
+        -36.863716,
+        174.703274,
+        -36.859382
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 979.2,
+            "duration": 705.1,
+            "steps": [
+              {
+                "distance": 4.9,
+                "duration": 3.5,
+                "type": 11,
+                "instruction": "Head north",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 498.7,
+                "duration": 359.1,
+                "type": 1,
+                "instruction": "Turn right onto Saint Michael's Avenue",
+                "name": "Saint Michael's Avenue",
+                "way_points": [
+                  1,
+                  3
+                ]
+              },
+              {
+                "distance": 226.6,
+                "duration": 163.2,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  3,
+                  13
+                ]
+              },
+              {
+                "distance": 249.0,
+                "duration": 179.3,
+                "type": 0,
+                "instruction": "Turn left onto Raymond Street",
+                "name": "Raymond Street",
+                "way_points": [
+                  13,
+                  20
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Raymond Street, straight ahead",
+                "name": "-",
+                "way_points": [
+                  20,
+                  20
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          20
+        ],
+        "summary": {
+          "distance": 979.2,
+          "duration": 705.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            174.698537,
+            -36.863716
+          ],
+          [
+            174.698519,
+            -36.863675
+          ],
+          [
+            174.698642,
+            -36.863589
+          ],
+          [
+            174.703274,
+            -36.861303
+          ],
+          [
+            174.703221,
+            -36.861234
+          ],
+          [
+            174.703208,
+            -36.861198
+          ],
+          [
+            174.703048,
+            -36.861
+          ],
+          [
+            174.702652,
+            -36.860481
+          ],
+          [
+            174.702597,
+            -36.86041
+          ],
+          [
+            174.702531,
+            -36.860319
+          ],
+          [
+            174.702187,
+            -36.859856
+          ],
+          [
+            174.702184,
+            -36.859773
+          ],
+          [
+            174.702252,
+            -36.859577
+          ],
+          [
+            174.702267,
+            -36.859516
+          ],
+          [
+            174.702085,
+            -36.859454
+          ],
+          [
+            174.701792,
+            -36.859382
+          ],
+          [
+            174.701701,
+            -36.859389
+          ],
+          [
+            174.700728,
+            -36.85987
+          ],
+          [
+            174.700623,
+            -36.85992
+          ],
+          [
+            174.700168,
+            -36.860143
+          ],
+          [
+            174.699823,
+            -36.86031
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756373594096,
+    "query": {
+      "coordinates": [
+        [
+          174.698537,
+          -36.8637164
+        ],
+        [
+          174.6998234,
+          -36.8603104
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

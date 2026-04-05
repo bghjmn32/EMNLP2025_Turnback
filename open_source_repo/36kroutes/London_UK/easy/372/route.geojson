@@ -1,0 +1,188 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -0.310489,
+    51.491249,
+    -0.307524,
+    51.497416
+  ],
+  "features": [
+    {
+      "bbox": [
+        -0.310489,
+        51.491249,
+        -0.307524,
+        51.497416
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 750.9,
+            "duration": 540.7,
+            "steps": [
+              {
+                "distance": 253.2,
+                "duration": 182.3,
+                "type": 11,
+                "instruction": "Head north on Enfield Road",
+                "name": "Enfield Road",
+                "way_points": [
+                  0,
+                  5
+                ]
+              },
+              {
+                "distance": 6.9,
+                "duration": 5.0,
+                "type": 1,
+                "instruction": "Turn right onto Whitestile Road",
+                "name": "Whitestile Road",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 476.6,
+                "duration": 343.2,
+                "type": 0,
+                "instruction": "Turn left onto Whitestile Road",
+                "name": "Whitestile Road",
+                "way_points": [
+                  6,
+                  14
+                ]
+              },
+              {
+                "distance": 14.2,
+                "duration": 10.2,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  14,
+                  15
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  15,
+                  15
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          15
+        ],
+        "summary": {
+          "distance": 750.9,
+          "duration": 540.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -0.308425,
+            51.491249
+          ],
+          [
+            -0.308289,
+            51.491703
+          ],
+          [
+            -0.308122,
+            51.49228
+          ],
+          [
+            -0.308011,
+            51.492616
+          ],
+          [
+            -0.307578,
+            51.493375
+          ],
+          [
+            -0.307594,
+            51.493455
+          ],
+          [
+            -0.307524,
+            51.4935
+          ],
+          [
+            -0.307561,
+            51.493518
+          ],
+          [
+            -0.307981,
+            51.494169
+          ],
+          [
+            -0.308451,
+            51.494862
+          ],
+          [
+            -0.308929,
+            51.495581
+          ],
+          [
+            -0.309173,
+            51.495947
+          ],
+          [
+            -0.309475,
+            51.496254
+          ],
+          [
+            -0.309932,
+            51.496762
+          ],
+          [
+            -0.310489,
+            51.497354
+          ],
+          [
+            -0.31031,
+            51.497416
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756827845253,
+    "query": {
+      "coordinates": [
+        [
+          -0.3084246,
+          51.4912493
+        ],
+        [
+          -0.3103102,
+          51.4974159
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

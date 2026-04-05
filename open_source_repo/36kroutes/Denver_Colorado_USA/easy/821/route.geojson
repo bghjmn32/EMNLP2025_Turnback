@@ -1,0 +1,179 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -104.799624,
+    39.873929,
+    -104.79783,
+    39.878595
+  ],
+  "features": [
+    {
+      "bbox": [
+        -104.799624,
+        39.873929,
+        -104.79783,
+        39.878595
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 669.9,
+            "duration": 482.3,
+            "steps": [
+              {
+                "distance": 432.9,
+                "duration": 311.7,
+                "type": 11,
+                "instruction": "Head south on Mobile Street",
+                "name": "Mobile Street",
+                "way_points": [
+                  0,
+                  5
+                ]
+              },
+              {
+                "distance": 112.5,
+                "duration": 81.0,
+                "type": 1,
+                "instruction": "Turn right onto East 98th Avenue",
+                "name": "East 98th Avenue",
+                "way_points": [
+                  5,
+                  7
+                ]
+              },
+              {
+                "distance": 33.4,
+                "duration": 24.1,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 40.6,
+                "duration": 29.2,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  8,
+                  9
+                ]
+              },
+              {
+                "distance": 50.5,
+                "duration": 36.3,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  9,
+                  10
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  10,
+                  10
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          10
+        ],
+        "summary": {
+          "distance": 669.9,
+          "duration": 482.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -104.797897,
+            39.878595
+          ],
+          [
+            -104.797878,
+            39.877864
+          ],
+          [
+            -104.797868,
+            39.876786
+          ],
+          [
+            -104.797854,
+            39.876083
+          ],
+          [
+            -104.79783,
+            39.875383
+          ],
+          [
+            -104.797831,
+            39.874702
+          ],
+          [
+            -104.798744,
+            39.874693
+          ],
+          [
+            -104.79915,
+            39.874692
+          ],
+          [
+            -104.799149,
+            39.874391
+          ],
+          [
+            -104.799624,
+            39.874383
+          ],
+          [
+            -104.799618,
+            39.873929
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756307203143,
+    "query": {
+      "coordinates": [
+        [
+          -104.7978973,
+          39.8785948
+        ],
+        [
+          -104.7996177,
+          39.8739291
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

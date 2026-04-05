@@ -1,0 +1,306 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -0.064621,
+    51.545371,
+    -0.053737,
+    51.547345
+  ],
+  "features": [
+    {
+      "bbox": [
+        -0.064621,
+        51.545371,
+        -0.053737,
+        51.547345
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 868.2,
+            "duration": 625.1,
+            "steps": [
+              {
+                "distance": 418.4,
+                "duration": 301.3,
+                "type": 11,
+                "instruction": "Head east on Wilton Way",
+                "name": "Wilton Way",
+                "way_points": [
+                  0,
+                  12
+                ]
+              },
+              {
+                "distance": 68.9,
+                "duration": 49.6,
+                "type": 0,
+                "instruction": "Turn left onto Penpoll Road",
+                "name": "Penpoll Road",
+                "way_points": [
+                  12,
+                  16
+                ]
+              },
+              {
+                "distance": 188.8,
+                "duration": 135.9,
+                "type": 6,
+                "instruction": "Continue straight onto Sylvester Road",
+                "name": "Sylvester Road",
+                "way_points": [
+                  16,
+                  21
+                ]
+              },
+              {
+                "distance": 18.8,
+                "duration": 13.5,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  21,
+                  22
+                ]
+              },
+              {
+                "distance": 96.9,
+                "duration": 69.7,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  22,
+                  35
+                ]
+              },
+              {
+                "distance": 76.5,
+                "duration": 55.0,
+                "type": 1,
+                "instruction": "Turn right onto Bohemia Place",
+                "name": "Bohemia Place",
+                "way_points": [
+                  35,
+                  39
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Bohemia Place, straight ahead",
+                "name": "-",
+                "way_points": [
+                  39,
+                  39
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          39
+        ],
+        "summary": {
+          "distance": 868.2,
+          "duration": 625.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -0.064621,
+            51.545371
+          ],
+          [
+            -0.063497,
+            51.545447
+          ],
+          [
+            -0.063326,
+            51.545463
+          ],
+          [
+            -0.062999,
+            51.545494
+          ],
+          [
+            -0.06242,
+            51.545566
+          ],
+          [
+            -0.06214,
+            51.545585
+          ],
+          [
+            -0.061254,
+            51.545608
+          ],
+          [
+            -0.06077,
+            51.545643
+          ],
+          [
+            -0.060517,
+            51.545671
+          ],
+          [
+            -0.059873,
+            51.545718
+          ],
+          [
+            -0.059721,
+            51.545733
+          ],
+          [
+            -0.059467,
+            51.545736
+          ],
+          [
+            -0.058616,
+            51.545674
+          ],
+          [
+            -0.058569,
+            51.545747
+          ],
+          [
+            -0.058282,
+            51.545936
+          ],
+          [
+            -0.058002,
+            51.546103
+          ],
+          [
+            -0.057938,
+            51.54611
+          ],
+          [
+            -0.056706,
+            51.54623
+          ],
+          [
+            -0.055938,
+            51.546318
+          ],
+          [
+            -0.055752,
+            51.546356
+          ],
+          [
+            -0.055278,
+            51.5464
+          ],
+          [
+            -0.055251,
+            51.546399
+          ],
+          [
+            -0.055264,
+            51.546568
+          ],
+          [
+            -0.055211,
+            51.546567
+          ],
+          [
+            -0.055158,
+            51.546565
+          ],
+          [
+            -0.055111,
+            51.546564
+          ],
+          [
+            -0.055081,
+            51.546563
+          ],
+          [
+            -0.055041,
+            51.546561
+          ],
+          [
+            -0.054994,
+            51.54656
+          ],
+          [
+            -0.054975,
+            51.546559
+          ],
+          [
+            -0.054964,
+            51.546661
+          ],
+          [
+            -0.054913,
+            51.547012
+          ],
+          [
+            -0.054907,
+            51.547118
+          ],
+          [
+            -0.05486,
+            51.547183
+          ],
+          [
+            -0.054817,
+            51.547198
+          ],
+          [
+            -0.054807,
+            51.547226
+          ],
+          [
+            -0.054716,
+            51.547221
+          ],
+          [
+            -0.053995,
+            51.547266
+          ],
+          [
+            -0.053848,
+            51.547297
+          ],
+          [
+            -0.053737,
+            51.547345
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756828213045,
+    "query": {
+      "coordinates": [
+        [
+          -0.0646215,
+          51.5453707
+        ],
+        [
+          -0.0537374,
+          51.5473445
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

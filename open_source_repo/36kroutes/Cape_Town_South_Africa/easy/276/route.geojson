@@ -1,0 +1,211 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.438541,
+    -33.982299,
+    18.444425,
+    -33.97824
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.438541,
+        -33.982299,
+        18.444425,
+        -33.97824
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1090.4,
+            "duration": 785.0,
+            "steps": [
+              {
+                "distance": 451.4,
+                "duration": 325.0,
+                "type": 11,
+                "instruction": "Head southwest on Willow Road",
+                "name": "Willow Road",
+                "way_points": [
+                  0,
+                  8
+                ]
+              },
+              {
+                "distance": 151.2,
+                "duration": 108.9,
+                "type": 0,
+                "instruction": "Turn left onto Bisset Street",
+                "name": "Bisset Street",
+                "way_points": [
+                  8,
+                  11
+                ]
+              },
+              {
+                "distance": 144.0,
+                "duration": 103.7,
+                "type": 0,
+                "instruction": "Turn left onto Upper Holly Street",
+                "name": "Upper Holly Street",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 154.0,
+                "duration": 110.9,
+                "type": 1,
+                "instruction": "Turn right onto Rhodes Avenue, M63",
+                "name": "Rhodes Avenue, M63",
+                "way_points": [
+                  12,
+                  14
+                ]
+              },
+              {
+                "distance": 189.8,
+                "duration": 136.6,
+                "type": 1,
+                "instruction": "Turn right onto Upper Thistle Avenue",
+                "name": "Upper Thistle Avenue",
+                "way_points": [
+                  14,
+                  18
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Upper Thistle Avenue, straight ahead",
+                "name": "-",
+                "way_points": [
+                  18,
+                  18
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          18
+        ],
+        "summary": {
+          "distance": 1090.4,
+          "duration": 785.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.444425,
+            -33.97824
+          ],
+          [
+            18.443936,
+            -33.978761
+          ],
+          [
+            18.443401,
+            -33.979306
+          ],
+          [
+            18.442891,
+            -33.979844
+          ],
+          [
+            18.442448,
+            -33.980297
+          ],
+          [
+            18.442345,
+            -33.980302
+          ],
+          [
+            18.442285,
+            -33.980286
+          ],
+          [
+            18.442195,
+            -33.980234
+          ],
+          [
+            18.441068,
+            -33.97948
+          ],
+          [
+            18.440723,
+            -33.979827
+          ],
+          [
+            18.44033,
+            -33.980263
+          ],
+          [
+            18.440052,
+            -33.980548
+          ],
+          [
+            18.441275,
+            -33.981353
+          ],
+          [
+            18.44086,
+            -33.981658
+          ],
+          [
+            18.440055,
+            -33.982299
+          ],
+          [
+            18.439078,
+            -33.981664
+          ],
+          [
+            18.439042,
+            -33.981655
+          ],
+          [
+            18.438996,
+            -33.981665
+          ],
+          [
+            18.438541,
+            -33.98214
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756804499517,
+    "query": {
+      "coordinates": [
+        [
+          18.4444246,
+          -33.9782405
+        ],
+        [
+          18.438541,
+          -33.9821405
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

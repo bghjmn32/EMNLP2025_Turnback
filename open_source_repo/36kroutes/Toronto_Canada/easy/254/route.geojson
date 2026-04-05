@@ -1,0 +1,239 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -79.435237,
+    43.660226,
+    -79.426856,
+    43.662804
+  ],
+  "features": [
+    {
+      "bbox": [
+        -79.435237,
+        43.660226,
+        -79.426856,
+        43.662804
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 959.7,
+            "duration": 691.0,
+            "steps": [
+              {
+                "distance": 262.1,
+                "duration": 188.7,
+                "type": 11,
+                "instruction": "Head south on Gladstone Avenue",
+                "name": "Gladstone Avenue",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 4.0,
+                "duration": 2.9,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 39.1,
+                "duration": 28.2,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 606.5,
+                "duration": 436.7,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  3,
+                  23
+                ]
+              },
+              {
+                "distance": 48.0,
+                "duration": 34.6,
+                "type": 0,
+                "instruction": "Turn left onto Concord Avenue",
+                "name": "Concord Avenue",
+                "way_points": [
+                  23,
+                  25
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Concord Avenue, straight ahead",
+                "name": "-",
+                "way_points": [
+                  25,
+                  25
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          25
+        ],
+        "summary": {
+          "distance": 959.7,
+          "duration": 691.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -79.435237,
+            43.662804
+          ],
+          [
+            -79.434262,
+            43.660555
+          ],
+          [
+            -79.434213,
+            43.660562
+          ],
+          [
+            -79.434071,
+            43.660226
+          ],
+          [
+            -79.432984,
+            43.660459
+          ],
+          [
+            -79.432918,
+            43.660473
+          ],
+          [
+            -79.432861,
+            43.660486
+          ],
+          [
+            -79.432507,
+            43.660554
+          ],
+          [
+            -79.432367,
+            43.660587
+          ],
+          [
+            -79.431787,
+            43.660713
+          ],
+          [
+            -79.431745,
+            43.660733
+          ],
+          [
+            -79.431682,
+            43.660746
+          ],
+          [
+            -79.431628,
+            43.660758
+          ],
+          [
+            -79.430509,
+            43.661003
+          ],
+          [
+            -79.430446,
+            43.661016
+          ],
+          [
+            -79.430391,
+            43.661027
+          ],
+          [
+            -79.429567,
+            43.661205
+          ],
+          [
+            -79.429447,
+            43.661234
+          ],
+          [
+            -79.429342,
+            43.66126
+          ],
+          [
+            -79.428136,
+            43.661524
+          ],
+          [
+            -79.42805,
+            43.661543
+          ],
+          [
+            -79.427973,
+            43.66156
+          ],
+          [
+            -79.426941,
+            43.661784
+          ],
+          [
+            -79.426856,
+            43.661803
+          ],
+          [
+            -79.426967,
+            43.662089
+          ],
+          [
+            -79.427021,
+            43.662218
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756124759187,
+    "query": {
+      "coordinates": [
+        [
+          -79.4352367,
+          43.6628038
+        ],
+        [
+          -79.427021,
+          43.6622177
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

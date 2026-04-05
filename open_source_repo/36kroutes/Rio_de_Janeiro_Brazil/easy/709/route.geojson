@@ -1,0 +1,236 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.694423,
+    -22.957959,
+    -43.688019,
+    -22.954162
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.694423,
+        -22.957959,
+        -43.688019,
+        -22.954162
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 918.4,
+            "duration": 661.2,
+            "steps": [
+              {
+                "distance": 32.0,
+                "duration": 23.1,
+                "type": 11,
+                "instruction": "Head southwest",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 48.3,
+                "duration": 34.8,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 291.7,
+                "duration": 210.0,
+                "type": 0,
+                "instruction": "Turn left onto Rua 18",
+                "name": "Rua 18",
+                "way_points": [
+                  2,
+                  6
+                ]
+              },
+              {
+                "distance": 43.2,
+                "duration": 31.1,
+                "type": 0,
+                "instruction": "Turn left onto Rua Dez",
+                "name": "Rua Dez",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 60.0,
+                "duration": 43.2,
+                "type": 1,
+                "instruction": "Turn right onto Rua 16",
+                "name": "Rua 16",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 40.2,
+                "duration": 29.0,
+                "type": 1,
+                "instruction": "Turn right onto Rua 7",
+                "name": "Rua 7",
+                "way_points": [
+                  8,
+                  9
+                ]
+              },
+              {
+                "distance": 363.2,
+                "duration": 261.5,
+                "type": 0,
+                "instruction": "Turn left onto Rua 14",
+                "name": "Rua 14",
+                "way_points": [
+                  9,
+                  15
+                ]
+              },
+              {
+                "distance": 39.8,
+                "duration": 28.6,
+                "type": 1,
+                "instruction": "Turn right onto Rua 12",
+                "name": "Rua 12",
+                "way_points": [
+                  15,
+                  16
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Rua 12, straight ahead",
+                "name": "-",
+                "way_points": [
+                  16,
+                  16
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          16
+        ],
+        "summary": {
+          "distance": 918.4,
+          "duration": 661.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.688019,
+            -22.954345
+          ],
+          [
+            -43.688271,
+            -22.954516
+          ],
+          [
+            -43.688543,
+            -22.954162
+          ],
+          [
+            -43.688879,
+            -22.954375
+          ],
+          [
+            -43.689024,
+            -22.954496
+          ],
+          [
+            -43.689849,
+            -22.955066
+          ],
+          [
+            -43.690828,
+            -22.955728
+          ],
+          [
+            -43.690573,
+            -22.956038
+          ],
+          [
+            -43.691057,
+            -22.956343
+          ],
+          [
+            -43.691302,
+            -22.95606
+          ],
+          [
+            -43.691643,
+            -22.956263
+          ],
+          [
+            -43.692239,
+            -22.95667
+          ],
+          [
+            -43.692652,
+            -22.956951
+          ],
+          [
+            -43.692967,
+            -22.957162
+          ],
+          [
+            -43.693358,
+            -22.957407
+          ],
+          [
+            -43.694187,
+            -22.957959
+          ],
+          [
+            -43.694423,
+            -22.957675
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756393921884,
+    "query": {
+      "coordinates": [
+        [
+          -43.688019,
+          -22.9543452
+        ],
+        [
+          -43.6944233,
+          -22.9576753
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

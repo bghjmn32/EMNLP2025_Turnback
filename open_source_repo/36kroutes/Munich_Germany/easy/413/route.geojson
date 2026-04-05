@@ -1,0 +1,173 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    11.448481,
+    48.23017,
+    11.451873,
+    48.236799
+  ],
+  "features": [
+    {
+      "bbox": [
+        11.448481,
+        48.23017,
+        11.451873,
+        48.236799
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 910.8,
+            "duration": 655.8,
+            "steps": [
+              {
+                "distance": 91.4,
+                "duration": 65.8,
+                "type": 11,
+                "instruction": "Head east",
+                "name": "-",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 756.0,
+                "duration": 544.3,
+                "type": 0,
+                "instruction": "Turn left onto Alte Bayernwerkstraße",
+                "name": "Alte Bayernwerkstraße",
+                "way_points": [
+                  3,
+                  13
+                ]
+              },
+              {
+                "distance": 63.4,
+                "duration": 45.7,
+                "type": 0,
+                "instruction": "Turn left onto Alte Bayernwerkstraße",
+                "name": "Alte Bayernwerkstraße",
+                "way_points": [
+                  13,
+                  14
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Alte Bayernwerkstraße, straight ahead",
+                "name": "-",
+                "way_points": [
+                  14,
+                  14
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          14
+        ],
+        "summary": {
+          "distance": 910.8,
+          "duration": 655.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            11.450649,
+            48.23017
+          ],
+          [
+            11.451531,
+            48.230237
+          ],
+          [
+            11.451707,
+            48.230216
+          ],
+          [
+            11.451873,
+            48.230226
+          ],
+          [
+            11.45166,
+            48.230678
+          ],
+          [
+            11.450378,
+            48.233432
+          ],
+          [
+            11.450355,
+            48.233501
+          ],
+          [
+            11.450346,
+            48.233539
+          ],
+          [
+            11.450336,
+            48.233592
+          ],
+          [
+            11.450247,
+            48.233941
+          ],
+          [
+            11.45008,
+            48.234423
+          ],
+          [
+            11.450027,
+            48.234742
+          ],
+          [
+            11.449845,
+            48.235326
+          ],
+          [
+            11.449324,
+            48.236799
+          ],
+          [
+            11.448481,
+            48.236701
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756137789732,
+    "query": {
+      "coordinates": [
+        [
+          11.4506485,
+          48.2301695
+        ],
+        [
+          11.4484807,
+          48.236701
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

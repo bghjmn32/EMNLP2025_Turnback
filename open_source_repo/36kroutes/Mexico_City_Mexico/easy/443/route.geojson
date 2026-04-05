@@ -1,0 +1,194 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.201601,
+    19.504145,
+    -99.200935,
+    19.508055
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.201601,
+        19.504145,
+        -99.200935,
+        19.508055
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 516.6,
+            "duration": 372.0,
+            "steps": [
+              {
+                "distance": 10.3,
+                "duration": 7.4,
+                "type": 11,
+                "instruction": "Head west on Calle Aztecas",
+                "name": "Calle Aztecas",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 122.4,
+                "duration": 88.1,
+                "type": 0,
+                "instruction": "Turn left onto Calle Tarascos",
+                "name": "Calle Tarascos",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 33.1,
+                "duration": 23.9,
+                "type": 0,
+                "instruction": "Turn left onto Calle Planetas",
+                "name": "Calle Planetas",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 303.8,
+                "duration": 218.8,
+                "type": 1,
+                "instruction": "Turn right onto Calle Cananea",
+                "name": "Calle Cananea",
+                "way_points": [
+                  3,
+                  9
+                ]
+              },
+              {
+                "distance": 32.3,
+                "duration": 23.3,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  9,
+                  10
+                ]
+              },
+              {
+                "distance": 14.6,
+                "duration": 10.5,
+                "type": 1,
+                "instruction": "Turn right onto Calle Cultura Norte",
+                "name": "Calle Cultura Norte",
+                "way_points": [
+                  10,
+                  11
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Cultura Norte, straight ahead",
+                "name": "-",
+                "way_points": [
+                  11,
+                  11
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          11
+        ],
+        "summary": {
+          "distance": 516.6,
+          "duration": 372.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.201405,
+            19.508055
+          ],
+          [
+            -99.201501,
+            19.508037
+          ],
+          [
+            -99.201243,
+            19.506963
+          ],
+          [
+            -99.200935,
+            19.506895
+          ],
+          [
+            -99.201082,
+            19.506321
+          ],
+          [
+            -99.201504,
+            19.505842
+          ],
+          [
+            -99.201511,
+            19.50576
+          ],
+          [
+            -99.201471,
+            19.505544
+          ],
+          [
+            -99.201377,
+            19.505139
+          ],
+          [
+            -99.201601,
+            19.504364
+          ],
+          [
+            -99.201309,
+            19.504271
+          ],
+          [
+            -99.201349,
+            19.504145
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306076624,
+    "query": {
+      "coordinates": [
+        [
+          -99.2014048,
+          19.5080545
+        ],
+        [
+          -99.2013564,
+          19.5041474
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

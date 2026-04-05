@@ -1,0 +1,257 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.500191,
+    -33.919877,
+    18.505761,
+    -33.910164
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.500191,
+        -33.919877,
+        18.505761,
+        -33.910164
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1485.9,
+            "duration": 1069.9,
+            "steps": [
+              {
+                "distance": 125.1,
+                "duration": 90.1,
+                "type": 11,
+                "instruction": "Head southwest",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 74.8,
+                "duration": 53.8,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 169.3,
+                "duration": 121.9,
+                "type": 0,
+                "instruction": "Turn left onto 14th Street",
+                "name": "14th Street",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 226.8,
+                "duration": 163.3,
+                "type": 1,
+                "instruction": "Turn right onto 5th Avenue",
+                "name": "5th Avenue",
+                "way_points": [
+                  3,
+                  6
+                ]
+              },
+              {
+                "distance": 712.3,
+                "duration": 512.8,
+                "type": 6,
+                "instruction": "Continue straight onto 5th Avenue",
+                "name": "5th Avenue",
+                "way_points": [
+                  6,
+                  17
+                ]
+              },
+              {
+                "distance": 74.5,
+                "duration": 53.6,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  17,
+                  23
+                ]
+              },
+              {
+                "distance": 103.2,
+                "duration": 74.3,
+                "type": 0,
+                "instruction": "Turn left onto Voortrekker Road, R102",
+                "name": "Voortrekker Road, R102",
+                "way_points": [
+                  23,
+                  24
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Voortrekker Road, R102, straight ahead",
+                "name": "-",
+                "way_points": [
+                  24,
+                  24
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          24
+        ],
+        "summary": {
+          "distance": 1485.9,
+          "duration": 1069.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.501051,
+            -33.910164
+          ],
+          [
+            18.500191,
+            -33.911034
+          ],
+          [
+            18.500332,
+            -33.911696
+          ],
+          [
+            18.502129,
+            -33.911387
+          ],
+          [
+            18.502289,
+            -33.912059
+          ],
+          [
+            18.502449,
+            -33.912721
+          ],
+          [
+            18.502614,
+            -33.913387
+          ],
+          [
+            18.502778,
+            -33.914055
+          ],
+          [
+            18.502943,
+            -33.914724
+          ],
+          [
+            18.503108,
+            -33.915392
+          ],
+          [
+            18.503272,
+            -33.916057
+          ],
+          [
+            18.503434,
+            -33.91672
+          ],
+          [
+            18.503598,
+            -33.917407
+          ],
+          [
+            18.503665,
+            -33.917691
+          ],
+          [
+            18.503803,
+            -33.918257
+          ],
+          [
+            18.503944,
+            -33.918827
+          ],
+          [
+            18.504089,
+            -33.919396
+          ],
+          [
+            18.504154,
+            -33.919663
+          ],
+          [
+            18.504439,
+            -33.91961
+          ],
+          [
+            18.504557,
+            -33.919588
+          ],
+          [
+            18.504586,
+            -33.919582
+          ],
+          [
+            18.504595,
+            -33.919612
+          ],
+          [
+            18.504617,
+            -33.919691
+          ],
+          [
+            18.504666,
+            -33.919877
+          ],
+          [
+            18.505761,
+            -33.919689
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756808608940,
+    "query": {
+      "coordinates": [
+        [
+          18.501051,
+          -33.9101644
+        ],
+        [
+          18.5057609,
+          -33.9196887
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

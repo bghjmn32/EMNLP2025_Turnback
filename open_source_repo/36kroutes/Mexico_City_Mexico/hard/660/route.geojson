@@ -1,0 +1,274 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.036895,
+    19.349376,
+    -99.032444,
+    19.363265
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.036895,
+        19.349376,
+        -99.032444,
+        19.363265
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 2034.7,
+            "duration": 1465.0,
+            "steps": [
+              {
+                "distance": 135.7,
+                "duration": 97.7,
+                "type": 11,
+                "instruction": "Head south on Calle Benito Juárez",
+                "name": "Calle Benito Juárez",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 348.3,
+                "duration": 250.8,
+                "type": 0,
+                "instruction": "Turn left onto Calle Profesor Otilio Montaño",
+                "name": "Calle Profesor Otilio Montaño",
+                "way_points": [
+                  2,
+                  5
+                ]
+              },
+              {
+                "distance": 393.6,
+                "duration": 283.4,
+                "type": 1,
+                "instruction": "Turn right onto Calle Aquiles Serdán",
+                "name": "Calle Aquiles Serdán",
+                "way_points": [
+                  5,
+                  12
+                ]
+              },
+              {
+                "distance": 114.9,
+                "duration": 82.8,
+                "type": 0,
+                "instruction": "Turn left onto Calle Emiliano Zapata",
+                "name": "Calle Emiliano Zapata",
+                "way_points": [
+                  12,
+                  13
+                ]
+              },
+              {
+                "distance": 201.9,
+                "duration": 145.3,
+                "type": 1,
+                "instruction": "Turn right onto Calle Venustiano Carranza",
+                "name": "Calle Venustiano Carranza",
+                "way_points": [
+                  13,
+                  16
+                ]
+              },
+              {
+                "distance": 103.1,
+                "duration": 74.3,
+                "type": 0,
+                "instruction": "Turn left onto Calle Herminio Chavarría",
+                "name": "Calle Herminio Chavarría",
+                "way_points": [
+                  16,
+                  19
+                ]
+              },
+              {
+                "distance": 737.2,
+                "duration": 530.8,
+                "type": 7,
+                "instruction": "Enter the roundabout and take the 1st exit onto Calle Plan de Ayala",
+                "name": "Calle Plan de Ayala",
+                "exit_number": 1,
+                "way_points": [
+                  19,
+                  28
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Plan de Ayala, straight ahead",
+                "name": "-",
+                "way_points": [
+                  28,
+                  28
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          28
+        ],
+        "summary": {
+          "distance": 2034.7,
+          "duration": 1465.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.036671,
+            19.363265
+          ],
+          [
+            -99.036707,
+            19.363067
+          ],
+          [
+            -99.036895,
+            19.362063
+          ],
+          [
+            -99.035802,
+            19.361881
+          ],
+          [
+            -99.034717,
+            19.361695
+          ],
+          [
+            -99.033625,
+            19.36152
+          ],
+          [
+            -99.033666,
+            19.361339
+          ],
+          [
+            -99.033672,
+            19.361308
+          ],
+          [
+            -99.033805,
+            19.360523
+          ],
+          [
+            -99.033951,
+            19.359782
+          ],
+          [
+            -99.034029,
+            19.359291
+          ],
+          [
+            -99.034119,
+            19.358821
+          ],
+          [
+            -99.034266,
+            19.358033
+          ],
+          [
+            -99.033188,
+            19.357849
+          ],
+          [
+            -99.033277,
+            19.357374
+          ],
+          [
+            -99.033509,
+            19.356123
+          ],
+          [
+            -99.033521,
+            19.356061
+          ],
+          [
+            -99.033072,
+            19.355985
+          ],
+          [
+            -99.032855,
+            19.35595
+          ],
+          [
+            -99.032554,
+            19.355895
+          ],
+          [
+            -99.032527,
+            19.3558
+          ],
+          [
+            -99.032492,
+            19.355763
+          ],
+          [
+            -99.032444,
+            19.355596
+          ],
+          [
+            -99.032489,
+            19.355229
+          ],
+          [
+            -99.03271,
+            19.35413
+          ],
+          [
+            -99.033044,
+            19.352386
+          ],
+          [
+            -99.033356,
+            19.35065
+          ],
+          [
+            -99.033512,
+            19.349611
+          ],
+          [
+            -99.033552,
+            19.349376
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756316315353,
+    "query": {
+      "coordinates": [
+        [
+          -99.0366709,
+          19.3632649
+        ],
+        [
+          -99.033552,
+          19.3493755
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

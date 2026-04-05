@@ -1,0 +1,118 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    103.852398,
+    1.429223,
+    103.852569,
+    1.429511
+  ],
+  "features": [
+    {
+      "bbox": [
+        103.852398,
+        1.429223,
+        103.852569,
+        1.429511
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 44.2,
+            "duration": 31.8,
+            "steps": [
+              {
+                "distance": 29.2,
+                "duration": 21.0,
+                "type": 11,
+                "instruction": "Head northeast",
+                "name": "-",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 15.0,
+                "duration": 10.8,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, on the right",
+                "name": "-",
+                "way_points": [
+                  3,
+                  3
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          3
+        ],
+        "summary": {
+          "distance": 44.2,
+          "duration": 31.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            103.852398,
+            1.429223
+          ],
+          [
+            103.852501,
+            1.429335
+          ],
+          [
+            103.852569,
+            1.429422
+          ],
+          [
+            103.852469,
+            1.429511
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756393047279,
+    "query": {
+      "coordinates": [
+        [
+          103.8523978,
+          1.4292232
+        ],
+        [
+          103.8533091,
+          1.4304478
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

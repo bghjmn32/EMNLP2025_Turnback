@@ -1,0 +1,191 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    11.65256,
+    48.162527,
+    11.658296,
+    48.164107
+  ],
+  "features": [
+    {
+      "bbox": [
+        11.65256,
+        48.162527,
+        11.658296,
+        48.164107
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 730.7,
+            "duration": 526.1,
+            "steps": [
+              {
+                "distance": 62.4,
+                "duration": 44.9,
+                "type": 11,
+                "instruction": "Head northwest on Düppeler Straße",
+                "name": "Düppeler Straße",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 323.5,
+                "duration": 232.9,
+                "type": 2,
+                "instruction": "Turn sharp left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  7
+                ]
+              },
+              {
+                "distance": 132.2,
+                "duration": 95.2,
+                "type": 6,
+                "instruction": "Continue straight",
+                "name": "-",
+                "way_points": [
+                  7,
+                  11
+                ]
+              },
+              {
+                "distance": 171.5,
+                "duration": 123.5,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 41.1,
+                "duration": 29.6,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  12,
+                  13
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  13,
+                  13
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          13
+        ],
+        "summary": {
+          "distance": 730.7,
+          "duration": 526.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            11.658296,
+            48.163424
+          ],
+          [
+            11.657753,
+            48.163853
+          ],
+          [
+            11.657561,
+            48.163532
+          ],
+          [
+            11.657457,
+            48.163312
+          ],
+          [
+            11.657131,
+            48.163039
+          ],
+          [
+            11.656923,
+            48.162831
+          ],
+          [
+            11.656847,
+            48.162843
+          ],
+          [
+            11.654584,
+            48.163585
+          ],
+          [
+            11.653938,
+            48.163804
+          ],
+          [
+            11.653837,
+            48.163878
+          ],
+          [
+            11.653692,
+            48.163937
+          ],
+          [
+            11.652999,
+            48.164107
+          ],
+          [
+            11.65256,
+            48.162592
+          ],
+          [
+            11.653106,
+            48.162527
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756138570300,
+    "query": {
+      "coordinates": [
+        [
+          11.6582959,
+          48.1634238
+        ],
+        [
+          11.6531061,
+          48.1625269
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

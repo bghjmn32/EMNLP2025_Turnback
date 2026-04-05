@@ -1,0 +1,203 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    11.397328,
+    48.098,
+    11.403566,
+    48.09982
+  ],
+  "features": [
+    {
+      "bbox": [
+        11.397328,
+        48.098,
+        11.403566,
+        48.09982
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 708.7,
+            "duration": 510.3,
+            "steps": [
+              {
+                "distance": 325.8,
+                "duration": 234.6,
+                "type": 11,
+                "instruction": "Head northeast on Lärchenstraße",
+                "name": "Lärchenstraße",
+                "way_points": [
+                  0,
+                  4
+                ]
+              },
+              {
+                "distance": 106.1,
+                "duration": 76.4,
+                "type": 5,
+                "instruction": "Turn slight right",
+                "name": "-",
+                "way_points": [
+                  4,
+                  10
+                ]
+              },
+              {
+                "distance": 115.6,
+                "duration": 83.2,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  10,
+                  12
+                ]
+              },
+              {
+                "distance": 116.5,
+                "duration": 83.9,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  12,
+                  14
+                ]
+              },
+              {
+                "distance": 44.7,
+                "duration": 32.2,
+                "type": 0,
+                "instruction": "Turn left onto Buchenstraße",
+                "name": "Buchenstraße",
+                "way_points": [
+                  14,
+                  16
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Buchenstraße, straight ahead",
+                "name": "-",
+                "way_points": [
+                  16,
+                  16
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          16
+        ],
+        "summary": {
+          "distance": 708.7,
+          "duration": 510.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            11.397328,
+            48.098064
+          ],
+          [
+            11.397661,
+            48.098217
+          ],
+          [
+            11.400542,
+            48.099538
+          ],
+          [
+            11.400801,
+            48.099757
+          ],
+          [
+            11.400831,
+            48.0998
+          ],
+          [
+            11.400908,
+            48.09982
+          ],
+          [
+            11.400981,
+            48.09982
+          ],
+          [
+            11.401295,
+            48.099769
+          ],
+          [
+            11.402029,
+            48.099563
+          ],
+          [
+            11.402061,
+            48.099545
+          ],
+          [
+            11.402106,
+            48.099477
+          ],
+          [
+            11.402838,
+            48.099324
+          ],
+          [
+            11.403559,
+            48.099108
+          ],
+          [
+            11.403558,
+            48.09905
+          ],
+          [
+            11.402999,
+            48.098134
+          ],
+          [
+            11.403073,
+            48.098116
+          ],
+          [
+            11.403566,
+            48.098
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756136384291,
+    "query": {
+      "coordinates": [
+        [
+          11.3973283,
+          48.0980643
+        ],
+        [
+          11.4035664,
+          48.0980003
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

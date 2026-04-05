@@ -1,0 +1,161 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -105.042187,
+    39.685417,
+    -105.03787,
+    39.688187
+  ],
+  "features": [
+    {
+      "bbox": [
+        -105.042187,
+        39.685417,
+        -105.03787,
+        39.688187
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 610.5,
+            "duration": 439.6,
+            "steps": [
+              {
+                "distance": 1.4,
+                "duration": 1.0,
+                "type": 11,
+                "instruction": "Head east on West Mexico Avenue",
+                "name": "West Mexico Avenue",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 227.3,
+                "duration": 163.7,
+                "type": 0,
+                "instruction": "Turn left onto South Newton Street",
+                "name": "South Newton Street",
+                "way_points": [
+                  1,
+                  4
+                ]
+              },
+              {
+                "distance": 381.8,
+                "duration": 274.9,
+                "type": 0,
+                "instruction": "Turn left onto West Iowa Avenue",
+                "name": "West Iowa Avenue",
+                "way_points": [
+                  4,
+                  11
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at West Iowa Avenue, straight ahead",
+                "name": "-",
+                "way_points": [
+                  11,
+                  11
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          11
+        ],
+        "summary": {
+          "distance": 610.5,
+          "duration": 439.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -105.038106,
+            39.685417
+          ],
+          [
+            -105.038092,
+            39.685421
+          ],
+          [
+            -105.038076,
+            39.686701
+          ],
+          [
+            -105.038041,
+            39.686919
+          ],
+          [
+            -105.03787,
+            39.687447
+          ],
+          [
+            -105.038402,
+            39.687546
+          ],
+          [
+            -105.039063,
+            39.687566
+          ],
+          [
+            -105.039461,
+            39.687567
+          ],
+          [
+            -105.039863,
+            39.687597
+          ],
+          [
+            -105.040113,
+            39.687659
+          ],
+          [
+            -105.041166,
+            39.687982
+          ],
+          [
+            -105.042187,
+            39.688187
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306744780,
+    "query": {
+      "coordinates": [
+        [
+          -105.0381015,
+          39.6854059
+        ],
+        [
+          -105.0421871,
+          39.6881867
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

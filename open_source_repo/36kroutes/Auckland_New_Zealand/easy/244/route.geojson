@@ -1,0 +1,290 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    174.733944,
+    -36.915891,
+    174.735453,
+    -36.912211
+  ],
+  "features": [
+    {
+      "bbox": [
+        174.733944,
+        -36.915891,
+        174.735453,
+        -36.912211
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 575.6,
+            "duration": 414.5,
+            "steps": [
+              {
+                "distance": 7.4,
+                "duration": 5.3,
+                "type": 11,
+                "instruction": "Head southeast on Maea Lane",
+                "name": "Maea Lane",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 40.1,
+                "duration": 28.8,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 99.3,
+                "duration": 71.5,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  2,
+                  6
+                ]
+              },
+              {
+                "distance": 72.1,
+                "duration": 51.9,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  6,
+                  9
+                ]
+              },
+              {
+                "distance": 125.2,
+                "duration": 90.1,
+                "type": 0,
+                "instruction": "Turn left onto Gordon Alexander Lane",
+                "name": "Gordon Alexander Lane",
+                "way_points": [
+                  9,
+                  14
+                ]
+              },
+              {
+                "distance": 14.6,
+                "duration": 10.5,
+                "type": 0,
+                "instruction": "Turn left onto Kallu Crescent",
+                "name": "Kallu Crescent",
+                "way_points": [
+                  14,
+                  15
+                ]
+              },
+              {
+                "distance": 127.1,
+                "duration": 91.5,
+                "type": 1,
+                "instruction": "Turn right onto Kōtero Road",
+                "name": "Kōtero Road",
+                "way_points": [
+                  15,
+                  20
+                ]
+              },
+              {
+                "distance": 6.3,
+                "duration": 4.5,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  20,
+                  21
+                ]
+              },
+              {
+                "distance": 5.5,
+                "duration": 4.0,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  21,
+                  22
+                ]
+              },
+              {
+                "distance": 78.0,
+                "duration": 56.2,
+                "type": 1,
+                "instruction": "Turn right onto Balfron Avenue",
+                "name": "Balfron Avenue",
+                "way_points": [
+                  22,
+                  24
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Balfron Avenue, straight ahead",
+                "name": "-",
+                "way_points": [
+                  24,
+                  24
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          24
+        ],
+        "summary": {
+          "distance": 575.6,
+          "duration": 414.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            174.733944,
+            -36.912276
+          ],
+          [
+            174.733985,
+            -36.912335
+          ],
+          [
+            174.734408,
+            -36.912211
+          ],
+          [
+            174.734431,
+            -36.912224
+          ],
+          [
+            174.734888,
+            -36.912888
+          ],
+          [
+            174.734932,
+            -36.912945
+          ],
+          [
+            174.734962,
+            -36.912984
+          ],
+          [
+            174.734503,
+            -36.913187
+          ],
+          [
+            174.734377,
+            -36.913274
+          ],
+          [
+            174.73431,
+            -36.913354
+          ],
+          [
+            174.734454,
+            -36.913426
+          ],
+          [
+            174.734492,
+            -36.91346
+          ],
+          [
+            174.734949,
+            -36.914077
+          ],
+          [
+            174.734978,
+            -36.914264
+          ],
+          [
+            174.734981,
+            -36.914302
+          ],
+          [
+            174.735145,
+            -36.914301
+          ],
+          [
+            174.73514,
+            -36.914363
+          ],
+          [
+            174.735109,
+            -36.914948
+          ],
+          [
+            174.73512,
+            -36.915019
+          ],
+          [
+            174.735173,
+            -36.915095
+          ],
+          [
+            174.735453,
+            -36.915347
+          ],
+          [
+            174.735401,
+            -36.915385
+          ],
+          [
+            174.735442,
+            -36.915422
+          ],
+          [
+            174.734848,
+            -36.91585
+          ],
+          [
+            174.734789,
+            -36.915891
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756374302003,
+    "query": {
+      "coordinates": [
+        [
+          174.7339442,
+          -36.9122762
+        ],
+        [
+          174.7347889,
+          -36.9158907
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    150.993116,
+    -33.891823,
+    150.995004,
+    -33.88974
+  ],
+  "features": [
+    {
+      "bbox": [
+        150.993116,
+        -33.891823,
+        150.995004,
+        -33.88974
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 510.9,
+            "duration": 367.8,
+            "steps": [
+              {
+                "distance": 18.4,
+                "duration": 13.3,
+                "type": 11,
+                "instruction": "Head northwest on Bennett Street",
+                "name": "Bennett Street",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 7.9,
+                "duration": 5.7,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 172.8,
+                "duration": 124.4,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  2,
+                  4
+                ]
+              },
+              {
+                "distance": 223.1,
+                "duration": 160.6,
+                "type": 0,
+                "instruction": "Turn left onto Kawana Street",
+                "name": "Kawana Street",
+                "way_points": [
+                  4,
+                  8
+                ]
+              },
+              {
+                "distance": 88.7,
+                "duration": 63.9,
+                "type": 0,
+                "instruction": "Turn left onto Kyogle Road",
+                "name": "Kyogle Road",
+                "way_points": [
+                  8,
+                  9
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Kyogle Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  9,
+                  9
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          9
+        ],
+        "summary": {
+          "distance": 510.9,
+          "duration": 367.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            150.995004,
+            -33.89098
+          ],
+          [
+            150.994875,
+            -33.890854
+          ],
+          [
+            150.994807,
+            -33.890897
+          ],
+          [
+            150.99364,
+            -33.88979
+          ],
+          [
+            150.993559,
+            -33.88974
+          ],
+          [
+            150.993529,
+            -33.889787
+          ],
+          [
+            150.993354,
+            -33.890737
+          ],
+          [
+            150.993293,
+            -33.890991
+          ],
+          [
+            150.993116,
+            -33.89171
+          ],
+          [
+            150.994067,
+            -33.891823
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756395981264,
+    "query": {
+      "coordinates": [
+        [
+          150.9950041,
+          -33.8909799
+        ],
+        [
+          150.9940674,
+          -33.8918232
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

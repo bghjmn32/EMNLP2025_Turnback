@@ -1,0 +1,185 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.411762,
+    -22.839156,
+    -43.406813,
+    -22.837084
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.411762,
+        -22.839156,
+        -43.406813,
+        -22.837084
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 707.6,
+            "duration": 509.4,
+            "steps": [
+              {
+                "distance": 194.1,
+                "duration": 139.8,
+                "type": 11,
+                "instruction": "Head northeast on Rua Elvio de Moura",
+                "name": "Rua Elvio de Moura",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 139.3,
+                "duration": 100.3,
+                "type": 1,
+                "instruction": "Turn right onto Rua Elzo Ferreira",
+                "name": "Rua Elzo Ferreira",
+                "way_points": [
+                  3,
+                  5
+                ]
+              },
+              {
+                "distance": 374.1,
+                "duration": 269.4,
+                "type": 0,
+                "instruction": "Turn left onto Rua Coriolano de Melo",
+                "name": "Rua Coriolano de Melo",
+                "way_points": [
+                  5,
+                  17
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Rua Coriolano de Melo, straight ahead",
+                "name": "-",
+                "way_points": [
+                  17,
+                  17
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          17
+        ],
+        "summary": {
+          "distance": 707.6,
+          "duration": 509.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.411762,
+            -22.838209
+          ],
+          [
+            -43.411284,
+            -22.837871
+          ],
+          [
+            -43.410788,
+            -22.837458
+          ],
+          [
+            -43.410315,
+            -22.837084
+          ],
+          [
+            -43.409902,
+            -22.83754
+          ],
+          [
+            -43.409447,
+            -22.838049
+          ],
+          [
+            -43.409023,
+            -22.837628
+          ],
+          [
+            -43.40893,
+            -22.837571
+          ],
+          [
+            -43.408728,
+            -22.837492
+          ],
+          [
+            -43.408616,
+            -22.83747
+          ],
+          [
+            -43.408554,
+            -22.83748
+          ],
+          [
+            -43.408506,
+            -22.837511
+          ],
+          [
+            -43.408223,
+            -22.837768
+          ],
+          [
+            -43.407629,
+            -22.838343
+          ],
+          [
+            -43.40755,
+            -22.83842
+          ],
+          [
+            -43.407251,
+            -22.838722
+          ],
+          [
+            -43.407031,
+            -22.838938
+          ],
+          [
+            -43.406813,
+            -22.839156
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756390597388,
+    "query": {
+      "coordinates": [
+        [
+          -43.4117621,
+          -22.8382091
+        ],
+        [
+          -43.406813,
+          -22.8391562
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

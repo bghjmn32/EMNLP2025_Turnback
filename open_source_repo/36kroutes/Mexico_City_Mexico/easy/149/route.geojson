@@ -1,0 +1,191 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.134629,
+    19.296258,
+    -99.129807,
+    19.298321
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.134629,
+        19.296258,
+        -99.129807,
+        19.298321
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 773.8,
+            "duration": 557.1,
+            "steps": [
+              {
+                "distance": 30.4,
+                "duration": 21.9,
+                "type": 11,
+                "instruction": "Head north on Calzada de Guadalupe",
+                "name": "Calzada de Guadalupe",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 290.0,
+                "duration": 208.8,
+                "type": 3,
+                "instruction": "Turn sharp right onto Calle Hacienda de la Escalera",
+                "name": "Calle Hacienda de la Escalera",
+                "way_points": [
+                  1,
+                  7
+                ]
+              },
+              {
+                "distance": 221.7,
+                "duration": 159.6,
+                "type": 2,
+                "instruction": "Turn sharp left onto Calle Hacienda San José de Vista Hermosa",
+                "name": "Calle Hacienda San José de Vista Hermosa",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 84.0,
+                "duration": 60.5,
+                "type": 1,
+                "instruction": "Turn right onto Calle Rancho Piomo",
+                "name": "Calle Rancho Piomo",
+                "way_points": [
+                  8,
+                  11
+                ]
+              },
+              {
+                "distance": 147.5,
+                "duration": 106.2,
+                "type": 5,
+                "instruction": "Turn slight right onto Calle Rancho Piomo",
+                "name": "Calle Rancho Piomo",
+                "way_points": [
+                  11,
+                  13
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Rancho Piomo, straight ahead",
+                "name": "-",
+                "way_points": [
+                  13,
+                  13
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          13
+        ],
+        "summary": {
+          "distance": 773.8,
+          "duration": 557.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.134617,
+            19.296948
+          ],
+          [
+            -99.134629,
+            19.297221
+          ],
+          [
+            -99.134176,
+            19.297048
+          ],
+          [
+            -99.134039,
+            19.296995
+          ],
+          [
+            -99.133469,
+            19.296784
+          ],
+          [
+            -99.133068,
+            19.296622
+          ],
+          [
+            -99.132557,
+            19.296426
+          ],
+          [
+            -99.132061,
+            19.296258
+          ],
+          [
+            -99.131958,
+            19.29825
+          ],
+          [
+            -99.131836,
+            19.298256
+          ],
+          [
+            -99.131332,
+            19.298235
+          ],
+          [
+            -99.131184,
+            19.298321
+          ],
+          [
+            -99.130491,
+            19.298199
+          ],
+          [
+            -99.129807,
+            19.298056
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756304663584,
+    "query": {
+      "coordinates": [
+        [
+          -99.1346166,
+          19.2969477
+        ],
+        [
+          -99.1298067,
+          19.2980557
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

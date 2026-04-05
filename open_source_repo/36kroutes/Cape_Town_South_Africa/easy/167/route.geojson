@@ -1,0 +1,176 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.468633,
+    -33.976459,
+    18.472418,
+    -33.973516
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.468633,
+        -33.976459,
+        18.472418,
+        -33.973516
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 569.9,
+            "duration": 410.3,
+            "steps": [
+              {
+                "distance": 90.7,
+                "duration": 65.3,
+                "type": 11,
+                "instruction": "Head east on Kinkleway Avenue",
+                "name": "Kinkleway Avenue",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 29.9,
+                "duration": 21.5,
+                "type": 6,
+                "instruction": "Continue straight onto Kinkleway Avenue",
+                "name": "Kinkleway Avenue",
+                "way_points": [
+                  2,
+                  4
+                ]
+              },
+              {
+                "distance": 94.4,
+                "duration": 68.0,
+                "type": 6,
+                "instruction": "Continue straight onto Mariendahl Avenue",
+                "name": "Mariendahl Avenue",
+                "way_points": [
+                  4,
+                  6
+                ]
+              },
+              {
+                "distance": 354.9,
+                "duration": 255.5,
+                "type": 0,
+                "instruction": "Turn left onto Palmyra Road, M57",
+                "name": "Palmyra Road, M57",
+                "way_points": [
+                  6,
+                  12
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Palmyra Road, M57, straight ahead",
+                "name": "-",
+                "way_points": [
+                  12,
+                  12
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          12
+        ],
+        "summary": {
+          "distance": 569.9,
+          "duration": 410.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.468633,
+            -33.97614
+          ],
+          [
+            18.469411,
+            -33.976255
+          ],
+          [
+            18.469602,
+            -33.976281
+          ],
+          [
+            18.469791,
+            -33.976307
+          ],
+          [
+            18.469924,
+            -33.976306
+          ],
+          [
+            18.470863,
+            -33.976432
+          ],
+          [
+            18.470928,
+            -33.976459
+          ],
+          [
+            18.471197,
+            -33.975953
+          ],
+          [
+            18.471286,
+            -33.97578
+          ],
+          [
+            18.471524,
+            -33.975311
+          ],
+          [
+            18.471543,
+            -33.975274
+          ],
+          [
+            18.471575,
+            -33.975211
+          ],
+          [
+            18.472418,
+            -33.973516
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756804141637,
+    "query": {
+      "coordinates": [
+        [
+          18.4686331,
+          -33.9761399
+        ],
+        [
+          18.4724181,
+          -33.9735164
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

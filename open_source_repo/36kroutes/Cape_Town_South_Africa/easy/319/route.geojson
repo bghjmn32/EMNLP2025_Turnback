@@ -1,0 +1,175 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.54773,
+    -33.910526,
+    18.550712,
+    -33.904675
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.54773,
+        -33.910526,
+        18.550712,
+        -33.904675
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 827.4,
+            "duration": 595.7,
+            "steps": [
+              {
+                "distance": 66.5,
+                "duration": 47.9,
+                "type": 11,
+                "instruction": "Head west on Dingle Road",
+                "name": "Dingle Road",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 171.3,
+                "duration": 123.3,
+                "type": 1,
+                "instruction": "Turn right onto Church Road",
+                "name": "Church Road",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 77.0,
+                "duration": 55.4,
+                "type": 0,
+                "instruction": "Turn left onto Merriman Road",
+                "name": "Merriman Road",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 503.9,
+                "duration": 362.8,
+                "type": 1,
+                "instruction": "Turn right onto Alice Street",
+                "name": "Alice Street",
+                "way_points": [
+                  3,
+                  8
+                ]
+              },
+              {
+                "distance": 8.6,
+                "duration": 6.2,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  8,
+                  9
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  9,
+                  9
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          9
+        ],
+        "summary": {
+          "distance": 827.4,
+          "duration": 595.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.550712,
+            -33.910405
+          ],
+          [
+            18.550006,
+            -33.910526
+          ],
+          [
+            18.549637,
+            -33.909016
+          ],
+          [
+            18.54882,
+            -33.909154
+          ],
+          [
+            18.548465,
+            -33.907654
+          ],
+          [
+            18.548312,
+            -33.907033
+          ],
+          [
+            18.548083,
+            -33.906151
+          ],
+          [
+            18.547808,
+            -33.905032
+          ],
+          [
+            18.54773,
+            -33.904714
+          ],
+          [
+            18.547811,
+            -33.904675
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756804588307,
+    "query": {
+      "coordinates": [
+        [
+          18.5507117,
+          -33.910405
+        ],
+        [
+          18.5478106,
+          -33.9046753
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

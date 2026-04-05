@@ -1,0 +1,183 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.563682,
+    -33.884087,
+    18.567139,
+    -33.879997
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.563682,
+        -33.884087,
+        18.567139,
+        -33.879997
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 668.3,
+            "duration": 481.2,
+            "steps": [
+              {
+                "distance": 26.1,
+                "duration": 18.8,
+                "type": 11,
+                "instruction": "Head east on Panorama Road",
+                "name": "Panorama Road",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 141.3,
+                "duration": 101.7,
+                "type": 13,
+                "instruction": "Keep right onto Barendilla Street",
+                "name": "Barendilla Street",
+                "way_points": [
+                  1,
+                  3
+                ]
+              },
+              {
+                "distance": 106.6,
+                "duration": 76.8,
+                "type": 6,
+                "instruction": "Continue straight",
+                "name": "-",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 81.9,
+                "duration": 59.0,
+                "type": 6,
+                "instruction": "Continue straight onto Fick Street",
+                "name": "Fick Street",
+                "way_points": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "distance": 312.4,
+                "duration": 224.9,
+                "type": 1,
+                "instruction": "Turn right onto Louis Botha Way",
+                "name": "Louis Botha Way",
+                "way_points": [
+                  5,
+                  11
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Louis Botha Way, straight ahead",
+                "name": "-",
+                "way_points": [
+                  11,
+                  11
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          11
+        ],
+        "summary": {
+          "distance": 668.3,
+          "duration": 481.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.563682,
+            -33.880071
+          ],
+          [
+            18.563951,
+            -33.879997
+          ],
+          [
+            18.564535,
+            -33.880239
+          ],
+          [
+            18.565316,
+            -33.880571
+          ],
+          [
+            18.56635,
+            -33.880999
+          ],
+          [
+            18.567139,
+            -33.881336
+          ],
+          [
+            18.566886,
+            -33.881765
+          ],
+          [
+            18.566858,
+            -33.881924
+          ],
+          [
+            18.566808,
+            -33.882489
+          ],
+          [
+            18.566762,
+            -33.882879
+          ],
+          [
+            18.566719,
+            -33.883288
+          ],
+          [
+            18.566632,
+            -33.884087
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756805565648,
+    "query": {
+      "coordinates": [
+        [
+          18.5636823,
+          -33.8800712
+        ],
+        [
+          18.5666317,
+          -33.8840868
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

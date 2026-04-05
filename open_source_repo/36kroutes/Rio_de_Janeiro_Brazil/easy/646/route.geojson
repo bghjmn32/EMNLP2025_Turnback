@@ -1,0 +1,209 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.394713,
+    -22.823035,
+    -43.392048,
+    -22.818216
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.394713,
+        -22.823035,
+        -43.392048,
+        -22.818216
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 744.4,
+            "duration": 536.0,
+            "steps": [
+              {
+                "distance": 76.4,
+                "duration": 55.0,
+                "type": 11,
+                "instruction": "Head north on Rua Oliveira Bueno",
+                "name": "Rua Oliveira Bueno",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 162.4,
+                "duration": 116.9,
+                "type": 1,
+                "instruction": "Turn right onto Rua Tomas Edison",
+                "name": "Rua Tomas Edison",
+                "way_points": [
+                  2,
+                  4
+                ]
+              },
+              {
+                "distance": 122.9,
+                "duration": 88.5,
+                "type": 0,
+                "instruction": "Turn left onto Rua Sílvio Costa",
+                "name": "Rua Sílvio Costa",
+                "way_points": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "distance": 117.0,
+                "duration": 84.3,
+                "type": 1,
+                "instruction": "Turn right onto Rua Edgard Barbosa",
+                "name": "Rua Edgard Barbosa",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 219.2,
+                "duration": 157.8,
+                "type": 0,
+                "instruction": "Turn left onto Rua Alcobaça",
+                "name": "Rua Alcobaça",
+                "way_points": [
+                  6,
+                  8
+                ]
+              },
+              {
+                "distance": 31.0,
+                "duration": 22.3,
+                "type": 5,
+                "instruction": "Turn slight right",
+                "name": "-",
+                "way_points": [
+                  8,
+                  10
+                ]
+              },
+              {
+                "distance": 15.5,
+                "duration": 11.2,
+                "type": 5,
+                "instruction": "Turn slight right onto Avenida Chrisóstomo Pimentel Oliveira",
+                "name": "Avenida Chrisóstomo Pimentel Oliveira",
+                "way_points": [
+                  10,
+                  12
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Avenida Chrisóstomo Pimentel Oliveira, straight ahead",
+                "name": "-",
+                "way_points": [
+                  12,
+                  12
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          12
+        ],
+        "summary": {
+          "distance": 744.4,
+          "duration": 536.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.39466,
+            -22.823035
+          ],
+          [
+            -43.394678,
+            -22.822837
+          ],
+          [
+            -43.394713,
+            -22.822349
+          ],
+          [
+            -43.394199,
+            -22.822132
+          ],
+          [
+            -43.39326,
+            -22.821767
+          ],
+          [
+            -43.393641,
+            -22.820719
+          ],
+          [
+            -43.392577,
+            -22.820337
+          ],
+          [
+            -43.39252,
+            -22.819238
+          ],
+          [
+            -43.392449,
+            -22.81837
+          ],
+          [
+            -43.392386,
+            -22.818301
+          ],
+          [
+            -43.392199,
+            -22.818224
+          ],
+          [
+            -43.392137,
+            -22.818217
+          ],
+          [
+            -43.392048,
+            -22.818216
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756393579387,
+    "query": {
+      "coordinates": [
+        [
+          -43.3946602,
+          -22.8230349
+        ],
+        [
+          -43.3920479,
+          -22.8182158
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

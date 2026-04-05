@@ -1,0 +1,205 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.072976,
+    19.485526,
+    -99.068644,
+    19.490387
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.072976,
+        19.485526,
+        -99.068644,
+        19.490387
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 880.5,
+            "duration": 634.0,
+            "steps": [
+              {
+                "distance": 109.0,
+                "duration": 78.5,
+                "type": 11,
+                "instruction": "Head east on Calle Estado de Oaxaca",
+                "name": "Calle Estado de Oaxaca",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 122.0,
+                "duration": 87.9,
+                "type": 0,
+                "instruction": "Turn left onto Calle Estado de Durango",
+                "name": "Calle Estado de Durango",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 104.6,
+                "duration": 75.3,
+                "type": 1,
+                "instruction": "Turn right onto Calle Estado de Tabasco",
+                "name": "Calle Estado de Tabasco",
+                "way_points": [
+                  3,
+                  5
+                ]
+              },
+              {
+                "distance": 317.4,
+                "duration": 228.5,
+                "type": 0,
+                "instruction": "Turn left onto Calle Estado de Nuevo León",
+                "name": "Calle Estado de Nuevo León",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 15.9,
+                "duration": 11.5,
+                "type": 1,
+                "instruction": "Turn right onto Avenida Villa de Ayala, EJE 6 NTE",
+                "name": "Avenida Villa de Ayala, EJE 6 NTE",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 159.9,
+                "duration": 115.1,
+                "type": 0,
+                "instruction": "Turn left onto Calle Tulipán",
+                "name": "Calle Tulipán",
+                "way_points": [
+                  7,
+                  10
+                ]
+              },
+              {
+                "distance": 51.7,
+                "duration": 37.2,
+                "type": 0,
+                "instruction": "Turn left onto Calle Huajuapan de León",
+                "name": "Calle Huajuapan de León",
+                "way_points": [
+                  10,
+                  11
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Huajuapan de León, straight ahead",
+                "name": "-",
+                "way_points": [
+                  11,
+                  11
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          11
+        ],
+        "summary": {
+          "distance": 880.5,
+          "duration": 634.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.072976,
+            19.485859
+          ],
+          [
+            -99.072483,
+            19.485687
+          ],
+          [
+            -99.071999,
+            19.485526
+          ],
+          [
+            -99.071609,
+            19.486561
+          ],
+          [
+            -99.071161,
+            19.486437
+          ],
+          [
+            -99.070649,
+            19.486306
+          ],
+          [
+            -99.069593,
+            19.488981
+          ],
+          [
+            -99.069454,
+            19.488924
+          ],
+          [
+            -99.06941,
+            19.489047
+          ],
+          [
+            -99.069322,
+            19.489206
+          ],
+          [
+            -99.068644,
+            19.490137
+          ],
+          [
+            -99.06906,
+            19.490387
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756307651232,
+    "query": {
+      "coordinates": [
+        [
+          -99.0729765,
+          19.4858589
+        ],
+        [
+          -99.06906,
+          19.4903872
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

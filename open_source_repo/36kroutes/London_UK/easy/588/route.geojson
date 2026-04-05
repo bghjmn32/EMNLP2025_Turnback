@@ -1,0 +1,258 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    0.022905,
+    51.517892,
+    0.032106,
+    51.51971
+  ],
+  "features": [
+    {
+      "bbox": [
+        0.022905,
+        51.517892,
+        0.032106,
+        51.51971
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 856.8,
+            "duration": 616.9,
+            "steps": [
+              {
+                "distance": 442.9,
+                "duration": 318.9,
+                "type": 11,
+                "instruction": "Head west on Holborn Road",
+                "name": "Holborn Road",
+                "way_points": [
+                  0,
+                  11
+                ]
+              },
+              {
+                "distance": 161.2,
+                "duration": 116.1,
+                "type": 0,
+                "instruction": "Turn left onto Cumberland Road",
+                "name": "Cumberland Road",
+                "way_points": [
+                  11,
+                  17
+                ]
+              },
+              {
+                "distance": 99.8,
+                "duration": 71.9,
+                "type": 1,
+                "instruction": "Turn right onto Chadwin Road",
+                "name": "Chadwin Road",
+                "way_points": [
+                  17,
+                  21
+                ]
+              },
+              {
+                "distance": 32.0,
+                "duration": 23.0,
+                "type": 0,
+                "instruction": "Turn left onto New Barn Street",
+                "name": "New Barn Street",
+                "way_points": [
+                  21,
+                  22
+                ]
+              },
+              {
+                "distance": 40.5,
+                "duration": 29.1,
+                "type": 1,
+                "instruction": "Turn right onto Ravenscroft Road",
+                "name": "Ravenscroft Road",
+                "way_points": [
+                  22,
+                  24
+                ]
+              },
+              {
+                "distance": 80.4,
+                "duration": 57.9,
+                "type": 1,
+                "instruction": "Turn right onto Carson Road",
+                "name": "Carson Road",
+                "way_points": [
+                  24,
+                  27
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Carson Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  27,
+                  27
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          27
+        ],
+        "summary": {
+          "distance": 856.8,
+          "duration": 616.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            0.032106,
+            51.51971
+          ],
+          [
+            0.031345,
+            51.519656
+          ],
+          [
+            0.031043,
+            51.519613
+          ],
+          [
+            0.030589,
+            51.519523
+          ],
+          [
+            0.030091,
+            51.519365
+          ],
+          [
+            0.029932,
+            51.519308
+          ],
+          [
+            0.029765,
+            51.51928
+          ],
+          [
+            0.028787,
+            51.519286
+          ],
+          [
+            0.02863,
+            51.519284
+          ],
+          [
+            0.026775,
+            51.519371
+          ],
+          [
+            0.026561,
+            51.519377
+          ],
+          [
+            0.025838,
+            51.519398
+          ],
+          [
+            0.025641,
+            51.51881
+          ],
+          [
+            0.025585,
+            51.51874
+          ],
+          [
+            0.025372,
+            51.518615
+          ],
+          [
+            0.025267,
+            51.518553
+          ],
+          [
+            0.025198,
+            51.518487
+          ],
+          [
+            0.025028,
+            51.51808
+          ],
+          [
+            0.024309,
+            51.518092
+          ],
+          [
+            0.024039,
+            51.518099
+          ],
+          [
+            0.023704,
+            51.518154
+          ],
+          [
+            0.023602,
+            51.518173
+          ],
+          [
+            0.023505,
+            51.517892
+          ],
+          [
+            0.023042,
+            51.517976
+          ],
+          [
+            0.022939,
+            51.517977
+          ],
+          [
+            0.022906,
+            51.518243
+          ],
+          [
+            0.022905,
+            51.518482
+          ],
+          [
+            0.022967,
+            51.518696
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756828398456,
+    "query": {
+      "coordinates": [
+        [
+          0.0321064,
+          51.5197099
+        ],
+        [
+          0.022967,
+          51.5186962
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

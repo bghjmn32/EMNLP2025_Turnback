@@ -1,0 +1,202 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.078897,
+    19.328689,
+    -99.076314,
+    19.332304
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.078897,
+        19.328689,
+        -99.076314,
+        19.332304
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 650.6,
+            "duration": 468.4,
+            "steps": [
+              {
+                "distance": 10.4,
+                "duration": 7.5,
+                "type": 11,
+                "instruction": "Head north",
+                "name": "-",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 26.4,
+                "duration": 19.0,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 165.2,
+                "duration": 118.9,
+                "type": 0,
+                "instruction": "Turn left onto Calle Bellavista",
+                "name": "Calle Bellavista",
+                "way_points": [
+                  3,
+                  6
+                ]
+              },
+              {
+                "distance": 205.2,
+                "duration": 147.7,
+                "type": 0,
+                "instruction": "Turn left onto Privada Juárez",
+                "name": "Privada Juárez",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 33.4,
+                "duration": 24.0,
+                "type": 1,
+                "instruction": "Turn right onto Calle Sabadell",
+                "name": "Calle Sabadell",
+                "way_points": [
+                  7,
+                  9
+                ]
+              },
+              {
+                "distance": 210.1,
+                "duration": 151.3,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  9,
+                  13
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  13,
+                  13
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          13
+        ],
+        "summary": {
+          "distance": 650.6,
+          "duration": 468.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.076398,
+            19.331708
+          ],
+          [
+            -99.076403,
+            19.331754
+          ],
+          [
+            -99.07636,
+            19.331776
+          ],
+          [
+            -99.076314,
+            19.33201
+          ],
+          [
+            -99.077317,
+            19.332193
+          ],
+          [
+            -99.077562,
+            19.332243
+          ],
+          [
+            -99.077857,
+            19.332304
+          ],
+          [
+            -99.078194,
+            19.330486
+          ],
+          [
+            -99.078421,
+            19.330527
+          ],
+          [
+            -99.078507,
+            19.330542
+          ],
+          [
+            -99.07852,
+            19.330477
+          ],
+          [
+            -99.078698,
+            19.329615
+          ],
+          [
+            -99.078878,
+            19.328778
+          ],
+          [
+            -99.078897,
+            19.328689
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306380398,
+    "query": {
+      "coordinates": [
+        [
+          -99.0763984,
+          19.3317077
+        ],
+        [
+          -99.0788967,
+          19.3286888
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    151.123327,
+    -33.883853,
+    151.126593,
+    -33.88027
+  ],
+  "features": [
+    {
+      "bbox": [
+        151.123327,
+        -33.883853,
+        151.126593,
+        -33.88027
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 600.6,
+            "duration": 432.4,
+            "steps": [
+              {
+                "distance": 268.2,
+                "duration": 193.1,
+                "type": 11,
+                "instruction": "Head northeast",
+                "name": "-",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 75.5,
+                "duration": 54.3,
+                "type": 0,
+                "instruction": "Turn left onto John Street",
+                "name": "John Street",
+                "way_points": [
+                  3,
+                  5
+                ]
+              },
+              {
+                "distance": 177.8,
+                "duration": 128.0,
+                "type": 1,
+                "instruction": "Turn right onto Taringa Street",
+                "name": "Taringa Street",
+                "way_points": [
+                  5,
+                  8
+                ]
+              },
+              {
+                "distance": 57.3,
+                "duration": 41.2,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  8,
+                  10
+                ]
+              },
+              {
+                "distance": 21.9,
+                "duration": 15.7,
+                "type": 0,
+                "instruction": "Turn left onto Church Street",
+                "name": "Church Street",
+                "way_points": [
+                  10,
+                  11
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Church Street, straight ahead",
+                "name": "-",
+                "way_points": [
+                  11,
+                  11
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          11
+        ],
+        "summary": {
+          "distance": 600.6,
+          "duration": 432.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            151.123327,
+            -33.883853
+          ],
+          [
+            151.123774,
+            -33.883196
+          ],
+          [
+            151.124547,
+            -33.882034
+          ],
+          [
+            151.124897,
+            -33.881877
+          ],
+          [
+            151.12462,
+            -33.881491
+          ],
+          [
+            151.124481,
+            -33.881293
+          ],
+          [
+            151.125417,
+            -33.880817
+          ],
+          [
+            151.125955,
+            -33.880559
+          ],
+          [
+            151.126062,
+            -33.880706
+          ],
+          [
+            151.126544,
+            -33.880463
+          ],
+          [
+            151.126593,
+            -33.880439
+          ],
+          [
+            151.126472,
+            -33.88027
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756391276384,
+    "query": {
+      "coordinates": [
+        [
+          151.1233269,
+          -33.8838532
+        ],
+        [
+          151.1264724,
+          -33.8802696
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

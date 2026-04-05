@@ -1,0 +1,203 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.125818,
+    19.405226,
+    -99.121778,
+    19.407216
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.125818,
+        19.405226,
+        -99.121778,
+        19.407216
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 766.3,
+            "duration": 551.7,
+            "steps": [
+              {
+                "distance": 53.4,
+                "duration": 38.5,
+                "type": 11,
+                "instruction": "Head west",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 75.6,
+                "duration": 54.5,
+                "type": 2,
+                "instruction": "Turn sharp left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  6
+                ]
+              },
+              {
+                "distance": 61.6,
+                "duration": 44.3,
+                "type": 0,
+                "instruction": "Turn left onto Calzada Guillermo Prieto",
+                "name": "Calzada Guillermo Prieto",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 186.1,
+                "duration": 134.0,
+                "type": 1,
+                "instruction": "Turn right onto Avenida Congreso de la Unión, EJE 2 OTE",
+                "name": "Avenida Congreso de la Unión, EJE 2 OTE",
+                "way_points": [
+                  7,
+                  13
+                ]
+              },
+              {
+                "distance": 389.5,
+                "duration": 280.5,
+                "type": 3,
+                "instruction": "Turn sharp right onto Privada Rancho de la Cruz",
+                "name": "Privada Rancho de la Cruz",
+                "way_points": [
+                  13,
+                  16
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Privada Rancho de la Cruz, straight ahead",
+                "name": "-",
+                "way_points": [
+                  16,
+                  16
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          16
+        ],
+        "summary": {
+          "distance": 766.3,
+          "duration": 551.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.122492,
+            19.407216
+          ],
+          [
+            -99.123001,
+            19.407203
+          ],
+          [
+            -99.122866,
+            19.407063
+          ],
+          [
+            -99.122809,
+            19.407046
+          ],
+          [
+            -99.122564,
+            19.40705
+          ],
+          [
+            -99.122496,
+            19.407028
+          ],
+          [
+            -99.122395,
+            19.406932
+          ],
+          [
+            -99.121808,
+            19.406948
+          ],
+          [
+            -99.121778,
+            19.405939
+          ],
+          [
+            -99.121793,
+            19.40582
+          ],
+          [
+            -99.121825,
+            19.405738
+          ],
+          [
+            -99.121898,
+            19.405657
+          ],
+          [
+            -99.122114,
+            19.405482
+          ],
+          [
+            -99.122168,
+            19.405418
+          ],
+          [
+            -99.122226,
+            19.4055
+          ],
+          [
+            -99.122332,
+            19.405526
+          ],
+          [
+            -99.125818,
+            19.405226
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756308688534,
+    "query": {
+      "coordinates": [
+        [
+          -99.1224921,
+          19.4072159
+        ],
+        [
+          -99.1258181,
+          19.405226
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

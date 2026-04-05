@@ -1,0 +1,236 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    150.971274,
+    -33.87595,
+    150.977174,
+    -33.871031
+  ],
+  "features": [
+    {
+      "bbox": [
+        150.971274,
+        -33.87595,
+        150.977174,
+        -33.871031
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1254.3,
+            "duration": 903.1,
+            "steps": [
+              {
+                "distance": 8.1,
+                "duration": 5.8,
+                "type": 11,
+                "instruction": "Head north",
+                "name": "-",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 131.6,
+                "duration": 94.7,
+                "type": 1,
+                "instruction": "Turn right onto Lisbon Street",
+                "name": "Lisbon Street",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 199.5,
+                "duration": 143.6,
+                "type": 7,
+                "instruction": "Enter the roundabout and take the 1st exit onto Mandarin Street",
+                "name": "Mandarin Street",
+                "exit_number": 1,
+                "way_points": [
+                  3,
+                  8
+                ]
+              },
+              {
+                "distance": 336.1,
+                "duration": 242.0,
+                "type": 7,
+                "instruction": "Enter the roundabout and take the 2nd exit onto Mandarin Street",
+                "name": "Mandarin Street",
+                "exit_number": 2,
+                "way_points": [
+                  8,
+                  16
+                ]
+              },
+              {
+                "distance": 474.4,
+                "duration": 341.6,
+                "type": 1,
+                "instruction": "Turn right onto Montrose Avenue",
+                "name": "Montrose Avenue",
+                "way_points": [
+                  16,
+                  20
+                ]
+              },
+              {
+                "distance": 104.7,
+                "duration": 75.4,
+                "type": 2,
+                "instruction": "Turn sharp left onto Jamieson Lane",
+                "name": "Jamieson Lane",
+                "way_points": [
+                  20,
+                  21
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Jamieson Lane, straight ahead",
+                "name": "-",
+                "way_points": [
+                  21,
+                  21
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          21
+        ],
+        "summary": {
+          "distance": 1254.3,
+          "duration": 903.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            150.975638,
+            -33.871103
+          ],
+          [
+            150.975644,
+            -33.871087
+          ],
+          [
+            150.975654,
+            -33.871031
+          ],
+          [
+            150.97706,
+            -33.871225
+          ],
+          [
+            150.977058,
+            -33.871292
+          ],
+          [
+            150.977074,
+            -33.871322
+          ],
+          [
+            150.9771,
+            -33.871348
+          ],
+          [
+            150.977174,
+            -33.871374
+          ],
+          [
+            150.976858,
+            -33.872947
+          ],
+          [
+            150.976774,
+            -33.872969
+          ],
+          [
+            150.976732,
+            -33.873026
+          ],
+          [
+            150.976747,
+            -33.873099
+          ],
+          [
+            150.976821,
+            -33.873143
+          ],
+          [
+            150.976495,
+            -33.874858
+          ],
+          [
+            150.976381,
+            -33.875448
+          ],
+          [
+            150.976347,
+            -33.875622
+          ],
+          [
+            150.976312,
+            -33.875843
+          ],
+          [
+            150.975582,
+            -33.875744
+          ],
+          [
+            150.974924,
+            -33.875573
+          ],
+          [
+            150.973774,
+            -33.875384
+          ],
+          [
+            150.971274,
+            -33.875025
+          ],
+          [
+            150.971485,
+            -33.87595
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756399736919,
+    "query": {
+      "coordinates": [
+        [
+          150.9756378,
+          -33.8711028
+        ],
+        [
+          150.9714847,
+          -33.8759501
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,284 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.629958,
+    -22.925099,
+    -43.62779,
+    -22.917818
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.629958,
+        -22.925099,
+        -43.62779,
+        -22.917818
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1224.1,
+            "duration": 881.3,
+            "steps": [
+              {
+                "distance": 131.1,
+                "duration": 94.4,
+                "type": 11,
+                "instruction": "Head northwest on Rua D",
+                "name": "Rua D",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 45.2,
+                "duration": 32.6,
+                "type": 1,
+                "instruction": "Turn right onto Rua B",
+                "name": "Rua B",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 200.4,
+                "duration": 144.3,
+                "type": 0,
+                "instruction": "Turn left onto Estrada dos Vieiras",
+                "name": "Estrada dos Vieiras",
+                "way_points": [
+                  2,
+                  5
+                ]
+              },
+              {
+                "distance": 173.0,
+                "duration": 124.6,
+                "type": 3,
+                "instruction": "Turn sharp right onto Rua Humildade",
+                "name": "Rua Humildade",
+                "way_points": [
+                  5,
+                  8
+                ]
+              },
+              {
+                "distance": 358.5,
+                "duration": 258.1,
+                "type": 0,
+                "instruction": "Turn left onto Rua Triunfante",
+                "name": "Rua Triunfante",
+                "way_points": [
+                  8,
+                  16
+                ]
+              },
+              {
+                "distance": 144.2,
+                "duration": 103.8,
+                "type": 1,
+                "instruction": "Turn right onto Rua Polinesia",
+                "name": "Rua Polinesia",
+                "way_points": [
+                  16,
+                  17
+                ]
+              },
+              {
+                "distance": 133.9,
+                "duration": 96.4,
+                "type": 0,
+                "instruction": "Turn left onto Rua Messias",
+                "name": "Rua Messias",
+                "way_points": [
+                  17,
+                  20
+                ]
+              },
+              {
+                "distance": 37.7,
+                "duration": 27.1,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  20,
+                  28
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  28,
+                  28
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          28
+        ],
+        "summary": {
+          "distance": 1224.1,
+          "duration": 881.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.6282,
+            -22.925099
+          ],
+          [
+            -43.628844,
+            -22.92408
+          ],
+          [
+            -43.628467,
+            -22.923868
+          ],
+          [
+            -43.628865,
+            -22.92348
+          ],
+          [
+            -43.629367,
+            -22.923068
+          ],
+          [
+            -43.629958,
+            -22.922714
+          ],
+          [
+            -43.629626,
+            -22.922589
+          ],
+          [
+            -43.629456,
+            -22.922548
+          ],
+          [
+            -43.628326,
+            -22.922329
+          ],
+          [
+            -43.628452,
+            -22.921773
+          ],
+          [
+            -43.628598,
+            -22.921264
+          ],
+          [
+            -43.628818,
+            -22.920406
+          ],
+          [
+            -43.62889,
+            -22.920186
+          ],
+          [
+            -43.628938,
+            -22.920118
+          ],
+          [
+            -43.629019,
+            -22.919973
+          ],
+          [
+            -43.629048,
+            -22.919918
+          ],
+          [
+            -43.62917,
+            -22.919214
+          ],
+          [
+            -43.62779,
+            -22.918959
+          ],
+          [
+            -43.628027,
+            -22.918318
+          ],
+          [
+            -43.628084,
+            -22.918157
+          ],
+          [
+            -43.628205,
+            -22.917818
+          ],
+          [
+            -43.628233,
+            -22.917827
+          ],
+          [
+            -43.62827,
+            -22.917838
+          ],
+          [
+            -43.628301,
+            -22.917848
+          ],
+          [
+            -43.628339,
+            -22.91786
+          ],
+          [
+            -43.628355,
+            -22.917865
+          ],
+          [
+            -43.628381,
+            -22.917872
+          ],
+          [
+            -43.628415,
+            -22.917883
+          ],
+          [
+            -43.628557,
+            -22.917916
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756393107266,
+    "query": {
+      "coordinates": [
+        [
+          -43.6281996,
+          -22.9250993
+        ],
+        [
+          -43.628557,
+          -22.9179162
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

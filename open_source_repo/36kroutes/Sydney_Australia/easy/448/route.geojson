@@ -1,0 +1,167 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    150.908408,
+    -33.727551,
+    150.912415,
+    -33.725656
+  ],
+  "features": [
+    {
+      "bbox": [
+        150.908408,
+        -33.727551,
+        150.912415,
+        -33.725656
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 512.1,
+            "duration": 368.7,
+            "steps": [
+              {
+                "distance": 512.1,
+                "duration": 368.7,
+                "type": 11,
+                "instruction": "Head north on Tangerine Drive",
+                "name": "Tangerine Drive",
+                "way_points": [
+                  0,
+                  18
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Tangerine Drive, straight ahead",
+                "name": "-",
+                "way_points": [
+                  18,
+                  18
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          18
+        ],
+        "summary": {
+          "distance": 512.1,
+          "duration": 368.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            150.912346,
+            -33.727551
+          ],
+          [
+            150.912415,
+            -33.72717
+          ],
+          [
+            150.912371,
+            -33.727027
+          ],
+          [
+            150.912302,
+            -33.72694
+          ],
+          [
+            150.912206,
+            -33.726875
+          ],
+          [
+            150.912091,
+            -33.726832
+          ],
+          [
+            150.91,
+            -33.726543
+          ],
+          [
+            150.909426,
+            -33.72646
+          ],
+          [
+            150.90935,
+            -33.726454
+          ],
+          [
+            150.909224,
+            -33.72647
+          ],
+          [
+            150.909159,
+            -33.726485
+          ],
+          [
+            150.909036,
+            -33.726468
+          ],
+          [
+            150.908903,
+            -33.726411
+          ],
+          [
+            150.908743,
+            -33.726367
+          ],
+          [
+            150.908565,
+            -33.726344
+          ],
+          [
+            150.908436,
+            -33.726297
+          ],
+          [
+            150.908408,
+            -33.726241
+          ],
+          [
+            150.908411,
+            -33.72618
+          ],
+          [
+            150.908521,
+            -33.725656
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756392800286,
+    "query": {
+      "coordinates": [
+        [
+          150.9123457,
+          -33.7275506
+        ],
+        [
+          150.9085208,
+          -33.7256563
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

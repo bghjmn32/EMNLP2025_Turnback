@@ -1,0 +1,204 @@
+{
+    "type": "FeatureCollection",
+    "bbox": [
+        2.430853,
+        48.834881,
+        2.43648,
+        48.838449
+    ],
+    "features": [
+        {
+            "bbox": [
+                2.430853,
+                48.834881,
+                2.43648,
+                48.838449
+            ],
+            "type": "Feature",
+            "properties": {
+                "segments": [
+                    {
+                        "distance": 772.4,
+                        "duration": 556.2,
+                        "steps": [
+                            {
+                                "distance": 58.1,
+                                "duration": 41.8,
+                                "type": 11,
+                                "instruction": "Head southwest",
+                                "name": "-",
+                                "way_points": [
+                                    0,
+                                    4
+                                ]
+                            },
+                            {
+                                "distance": 336.3,
+                                "duration": 242.1,
+                                "type": 0,
+                                "instruction": "Turn left onto Route de la Cavalerie",
+                                "name": "Route de la Cavalerie",
+                                "way_points": [
+                                    4,
+                                    7
+                                ]
+                            },
+                            {
+                                "distance": 281.1,
+                                "duration": 202.4,
+                                "type": 1,
+                                "instruction": "Turn right",
+                                "name": "-",
+                                "way_points": [
+                                    7,
+                                    10
+                                ]
+                            },
+                            {
+                                "distance": 55.8,
+                                "duration": 40.2,
+                                "type": 0,
+                                "instruction": "Turn left onto Avenue du Polygone",
+                                "name": "Avenue du Polygone",
+                                "way_points": [
+                                    10,
+                                    13
+                                ]
+                            },
+                            {
+                                "distance": 41.3,
+                                "duration": 29.7,
+                                "type": 7,
+                                "instruction": "Enter the roundabout and take the 1st exit onto Avenue du Polygone",
+                                "name": "Avenue du Polygone",
+                                "exit_number": 1,
+                                "way_points": [
+                                    13,
+                                    16
+                                ]
+                            },
+                            {
+                                "distance": 0.0,
+                                "duration": 0.0,
+                                "type": 10,
+                                "instruction": "Arrive at Avenue du Polygone, straight ahead",
+                                "name": "-",
+                                "way_points": [
+                                    16,
+                                    16
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "way_points": [
+                    0,
+                    16
+                ],
+                "summary": {
+                    "distance": 772.4,
+                    "duration": 556.2
+                }
+            },
+            "geometry": {
+                "coordinates": [
+                    [
+                        2.43648,
+                        48.838449
+                    ],
+                    [
+                        2.436237,
+                        48.838335
+                    ],
+                    [
+                        2.436065,
+                        48.838229
+                    ],
+                    [
+                        2.435962,
+                        48.838189
+                    ],
+                    [
+                        2.435828,
+                        48.838163
+                    ],
+                    [
+                        2.435397,
+                        48.83597
+                    ],
+                    [
+                        2.43531,
+                        48.835641
+                    ],
+                    [
+                        2.435119,
+                        48.835178
+                    ],
+                    [
+                        2.433904,
+                        48.83533
+                    ],
+                    [
+                        2.431481,
+                        48.835609
+                    ],
+                    [
+                        2.431346,
+                        48.835642
+                    ],
+                    [
+                        2.431276,
+                        48.835536
+                    ],
+                    [
+                        2.431146,
+                        48.835215
+                    ],
+                    [
+                        2.431145,
+                        48.835161
+                    ],
+                    [
+                        2.431115,
+                        48.835124
+                    ],
+                    [
+                        2.431146,
+                        48.835066
+                    ],
+                    [
+                        2.430853,
+                        48.834881
+                    ]
+                ],
+                "type": "LineString"
+            }
+        }
+    ],
+    "metadata": {
+        "attribution": "openrouteservice.org | OpenStreetMap contributors",
+        "service": "routing",
+        "timestamp": 1755873316008,
+        "query": {
+            "coordinates": [
+                [
+                    2.4364795,
+                    48.8384492
+                ],
+                [
+                    2.4308525,
+                    48.8348808
+                ]
+            ],
+            "profile": "foot-walking",
+            "profileName": "foot-walking",
+            "format": "geojson"
+        },
+        "engine": {
+            "version": "9.3.0",
+            "build_date": "2025-06-06T15:39:25Z",
+            "graph_date": "2025-08-19T13:56:51Z",
+            "osm_date": "2025-08-10T23:59:57Z"
+        }
+    }
+}

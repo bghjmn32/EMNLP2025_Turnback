@@ -1,0 +1,300 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    150.851834,
+    -33.964117,
+    150.859772,
+    -33.95956
+  ],
+  "features": [
+    {
+      "bbox": [
+        150.851834,
+        -33.964117,
+        150.859772,
+        -33.95956
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1169.4,
+            "duration": 841.9,
+            "steps": [
+              {
+                "distance": 20.2,
+                "duration": 14.6,
+                "type": 11,
+                "instruction": "Head south on Somme Avenue",
+                "name": "Somme Avenue",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 325.0,
+                "duration": 234.0,
+                "type": 7,
+                "instruction": "Enter the roundabout and take the 2nd exit onto Somme Avenue",
+                "name": "Somme Avenue",
+                "exit_number": 2,
+                "way_points": [
+                  1,
+                  11
+                ]
+              },
+              {
+                "distance": 204.9,
+                "duration": 147.6,
+                "type": 7,
+                "instruction": "Enter the roundabout and take the 2nd exit onto Somme Avenue",
+                "name": "Somme Avenue",
+                "exit_number": 2,
+                "way_points": [
+                  11,
+                  21
+                ]
+              },
+              {
+                "distance": 362.4,
+                "duration": 260.9,
+                "type": 1,
+                "instruction": "Turn right onto McFarlane Road",
+                "name": "McFarlane Road",
+                "way_points": [
+                  21,
+                  29
+                ]
+              },
+              {
+                "distance": 234.2,
+                "duration": 168.6,
+                "type": 1,
+                "instruction": "Turn right onto Guillemont Road",
+                "name": "Guillemont Road",
+                "way_points": [
+                  29,
+                  35
+                ]
+              },
+              {
+                "distance": 22.7,
+                "duration": 16.4,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  35,
+                  37
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  37,
+                  37
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          37
+        ],
+        "summary": {
+          "distance": 1169.4,
+          "duration": 841.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            150.859772,
+            -33.95956
+          ],
+          [
+            150.859753,
+            -33.959742
+          ],
+          [
+            150.859721,
+            -33.95974
+          ],
+          [
+            150.859638,
+            -33.959774
+          ],
+          [
+            150.859609,
+            -33.95982
+          ],
+          [
+            150.859625,
+            -33.959899
+          ],
+          [
+            150.859704,
+            -33.959945
+          ],
+          [
+            150.859663,
+            -33.960025
+          ],
+          [
+            150.859477,
+            -33.960505
+          ],
+          [
+            150.859245,
+            -33.961128
+          ],
+          [
+            150.85898,
+            -33.961826
+          ],
+          [
+            150.858738,
+            -33.962425
+          ],
+          [
+            150.858673,
+            -33.962436
+          ],
+          [
+            150.858632,
+            -33.962479
+          ],
+          [
+            150.858627,
+            -33.962507
+          ],
+          [
+            150.858651,
+            -33.962558
+          ],
+          [
+            150.858709,
+            -33.962585
+          ],
+          [
+            150.858664,
+            -33.962666
+          ],
+          [
+            150.858451,
+            -33.963208
+          ],
+          [
+            150.858323,
+            -33.963502
+          ],
+          [
+            150.85826,
+            -33.963673
+          ],
+          [
+            150.858267,
+            -33.964117
+          ],
+          [
+            150.857412,
+            -33.964029
+          ],
+          [
+            150.856485,
+            -33.963929
+          ],
+          [
+            150.855622,
+            -33.96385
+          ],
+          [
+            150.855116,
+            -33.963785
+          ],
+          [
+            150.854949,
+            -33.963782
+          ],
+          [
+            150.85483,
+            -33.963802
+          ],
+          [
+            150.85467,
+            -33.963856
+          ],
+          [
+            150.85442,
+            -33.963979
+          ],
+          [
+            150.854288,
+            -33.963849
+          ],
+          [
+            150.854213,
+            -33.963774
+          ],
+          [
+            150.854134,
+            -33.963739
+          ],
+          [
+            150.853342,
+            -33.963679
+          ],
+          [
+            150.852574,
+            -33.963624
+          ],
+          [
+            150.852014,
+            -33.963588
+          ],
+          [
+            150.852002,
+            -33.963535
+          ],
+          [
+            150.851834,
+            -33.963592
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756394478953,
+    "query": {
+      "coordinates": [
+        [
+          150.8597724,
+          -33.9595604
+        ],
+        [
+          150.851834,
+          -33.9635921
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.50431,
+    -34.00078,
+    18.507742,
+    -33.997252
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.50431,
+        -34.00078,
+        18.507742,
+        -33.997252
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 736.4,
+            "duration": 530.2,
+            "steps": [
+              {
+                "distance": 295.2,
+                "duration": 212.5,
+                "type": 11,
+                "instruction": "Head northwest on Boundary Road",
+                "name": "Boundary Road",
+                "way_points": [
+                  0,
+                  5
+                ]
+              },
+              {
+                "distance": 41.6,
+                "duration": 30.0,
+                "type": 0,
+                "instruction": "Turn left onto York Road",
+                "name": "York Road",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 101.9,
+                "duration": 73.3,
+                "type": 1,
+                "instruction": "Turn right onto Walnut Road",
+                "name": "Walnut Road",
+                "way_points": [
+                  6,
+                  8
+                ]
+              },
+              {
+                "distance": 297.7,
+                "duration": 214.4,
+                "type": 2,
+                "instruction": "Turn sharp left onto Highgrove Road",
+                "name": "Highgrove Road",
+                "way_points": [
+                  8,
+                  13
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Highgrove Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  13,
+                  13
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          13
+        ],
+        "summary": {
+          "distance": 736.4,
+          "duration": 530.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.507518,
+            -34.00078
+          ],
+          [
+            18.507492,
+            -34.000748
+          ],
+          [
+            18.507478,
+            -34.000675
+          ],
+          [
+            18.507543,
+            -34.000055
+          ],
+          [
+            18.507623,
+            -33.999272
+          ],
+          [
+            18.507742,
+            -33.998142
+          ],
+          [
+            18.507291,
+            -33.998156
+          ],
+          [
+            18.507345,
+            -33.997879
+          ],
+          [
+            18.50747,
+            -33.997252
+          ],
+          [
+            18.506789,
+            -33.997377
+          ],
+          [
+            18.505976,
+            -33.997504
+          ],
+          [
+            18.505144,
+            -33.99767
+          ],
+          [
+            18.504791,
+            -33.997726
+          ],
+          [
+            18.50431,
+            -33.997803
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756804238347,
+    "query": {
+      "coordinates": [
+        [
+          18.5075182,
+          -34.00078
+        ],
+        [
+          18.5043104,
+          -33.9978029
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

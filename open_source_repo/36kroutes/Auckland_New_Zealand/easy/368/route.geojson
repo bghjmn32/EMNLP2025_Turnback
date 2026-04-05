@@ -1,0 +1,173 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    174.738027,
+    -36.803444,
+    174.743147,
+    -36.801508
+  ],
+  "features": [
+    {
+      "bbox": [
+        174.738027,
+        -36.803444,
+        174.743147,
+        -36.801508
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 571.8,
+            "duration": 411.7,
+            "steps": [
+              {
+                "distance": 36.1,
+                "duration": 26.0,
+                "type": 11,
+                "instruction": "Head northwest",
+                "name": "-",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 71.1,
+                "duration": 51.2,
+                "type": 1,
+                "instruction": "Turn right onto Fowler Street",
+                "name": "Fowler Street",
+                "way_points": [
+                  3,
+                  7
+                ]
+              },
+              {
+                "distance": 464.5,
+                "duration": 334.5,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  7,
+                  14
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  14,
+                  14
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          14
+        ],
+        "summary": {
+          "distance": 571.8,
+          "duration": 411.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            174.743147,
+            -36.803444
+          ],
+          [
+            174.743083,
+            -36.803353
+          ],
+          [
+            174.742883,
+            -36.803273
+          ],
+          [
+            174.742836,
+            -36.803257
+          ],
+          [
+            174.742887,
+            -36.80311
+          ],
+          [
+            174.742928,
+            -36.802994
+          ],
+          [
+            174.742989,
+            -36.802816
+          ],
+          [
+            174.743049,
+            -36.80264
+          ],
+          [
+            174.742994,
+            -36.802631
+          ],
+          [
+            174.742731,
+            -36.802568
+          ],
+          [
+            174.740695,
+            -36.80211
+          ],
+          [
+            174.738952,
+            -36.801716
+          ],
+          [
+            174.738877,
+            -36.801699
+          ],
+          [
+            174.738814,
+            -36.801686
+          ],
+          [
+            174.738027,
+            -36.801508
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756374557391,
+    "query": {
+      "coordinates": [
+        [
+          174.7431469,
+          -36.803444
+        ],
+        [
+          174.7380273,
+          -36.8015085
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

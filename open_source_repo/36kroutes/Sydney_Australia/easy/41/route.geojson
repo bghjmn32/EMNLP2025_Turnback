@@ -1,0 +1,305 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    150.888287,
+    -33.745482,
+    150.894872,
+    -33.739315
+  ],
+  "features": [
+    {
+      "bbox": [
+        150.888287,
+        -33.745482,
+        150.894872,
+        -33.739315
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1121.7,
+            "duration": 807.6,
+            "steps": [
+              {
+                "distance": 10.0,
+                "duration": 7.2,
+                "type": 11,
+                "instruction": "Head northeast on Shedworth Street",
+                "name": "Shedworth Street",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 531.1,
+                "duration": 382.4,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  18
+                ]
+              },
+              {
+                "distance": 93.6,
+                "duration": 67.4,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  18,
+                  23
+                ]
+              },
+              {
+                "distance": 280.1,
+                "duration": 201.7,
+                "type": 0,
+                "instruction": "Turn left onto Bombala Crescent",
+                "name": "Bombala Crescent",
+                "way_points": [
+                  23,
+                  27
+                ]
+              },
+              {
+                "distance": 83.6,
+                "duration": 60.2,
+                "type": 1,
+                "instruction": "Turn right onto Narrabri Street",
+                "name": "Narrabri Street",
+                "way_points": [
+                  27,
+                  29
+                ]
+              },
+              {
+                "distance": 116.0,
+                "duration": 83.5,
+                "type": 0,
+                "instruction": "Turn left onto Selwyn Place",
+                "name": "Selwyn Place",
+                "way_points": [
+                  29,
+                  35
+                ]
+              },
+              {
+                "distance": 7.2,
+                "duration": 5.2,
+                "type": 1,
+                "instruction": "Turn right onto Selwyn Place",
+                "name": "Selwyn Place",
+                "way_points": [
+                  35,
+                  36
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Selwyn Place, straight ahead",
+                "name": "-",
+                "way_points": [
+                  36,
+                  36
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          36
+        ],
+        "summary": {
+          "distance": 1121.7,
+          "duration": 807.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            150.894802,
+            -33.745482
+          ],
+          [
+            150.894872,
+            -33.745413
+          ],
+          [
+            150.894824,
+            -33.745389
+          ],
+          [
+            150.894759,
+            -33.745377
+          ],
+          [
+            150.894064,
+            -33.745065
+          ],
+          [
+            150.893999,
+            -33.745033
+          ],
+          [
+            150.893929,
+            -33.745006
+          ],
+          [
+            150.893811,
+            -33.744924
+          ],
+          [
+            150.89375,
+            -33.744899
+          ],
+          [
+            150.893682,
+            -33.744871
+          ],
+          [
+            150.892472,
+            -33.744334
+          ],
+          [
+            150.892464,
+            -33.744331
+          ],
+          [
+            150.892393,
+            -33.744299
+          ],
+          [
+            150.892308,
+            -33.74426
+          ],
+          [
+            150.891974,
+            -33.744097
+          ],
+          [
+            150.891,
+            -33.743381
+          ],
+          [
+            150.890921,
+            -33.743326
+          ],
+          [
+            150.890856,
+            -33.743278
+          ],
+          [
+            150.890157,
+            -33.742748
+          ],
+          [
+            150.890409,
+            -33.742507
+          ],
+          [
+            150.89059,
+            -33.742285
+          ],
+          [
+            150.890664,
+            -33.742217
+          ],
+          [
+            150.890687,
+            -33.742117
+          ],
+          [
+            150.890696,
+            -33.742057
+          ],
+          [
+            150.890561,
+            -33.742028
+          ],
+          [
+            150.890331,
+            -33.741906
+          ],
+          [
+            150.889154,
+            -33.740974
+          ],
+          [
+            150.888504,
+            -33.740351
+          ],
+          [
+            150.888795,
+            -33.740156
+          ],
+          [
+            150.889286,
+            -33.739987
+          ],
+          [
+            150.889248,
+            -33.739928
+          ],
+          [
+            150.889188,
+            -33.73988
+          ],
+          [
+            150.888768,
+            -33.739676
+          ],
+          [
+            150.888398,
+            -33.739416
+          ],
+          [
+            150.888334,
+            -33.739385
+          ],
+          [
+            150.888288,
+            -33.73938
+          ],
+          [
+            150.888287,
+            -33.739315
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756390144770,
+    "query": {
+      "coordinates": [
+        [
+          150.8948023,
+          -33.7454816
+        ],
+        [
+          150.8882865,
+          -33.7393153
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

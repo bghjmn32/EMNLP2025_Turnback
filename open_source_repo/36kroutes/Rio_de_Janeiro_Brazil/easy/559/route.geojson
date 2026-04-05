@@ -1,0 +1,142 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.249632,
+    -22.973417,
+    -43.244029,
+    -22.971316
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.249632,
+        -22.973417,
+        -43.244029,
+        -22.971316
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 864.2,
+            "duration": 622.2,
+            "steps": [
+              {
+                "distance": 849.7,
+                "duration": 611.8,
+                "type": 11,
+                "instruction": "Head north on Trilha Vista - Corrida",
+                "name": "Trilha Vista - Corrida",
+                "way_points": [
+                  0,
+                  7
+                ]
+              },
+              {
+                "distance": 14.5,
+                "duration": 10.4,
+                "type": 0,
+                "instruction": "Turn left onto Estrada da Vista Chinesa",
+                "name": "Estrada da Vista Chinesa",
+                "way_points": [
+                  7,
+                  9
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Estrada da Vista Chinesa, straight ahead",
+                "name": "-",
+                "way_points": [
+                  9,
+                  9
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          9
+        ],
+        "summary": {
+          "distance": 864.2,
+          "duration": 622.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.24477,
+            -22.973417
+          ],
+          [
+            -43.244029,
+            -22.971746
+          ],
+          [
+            -43.244972,
+            -22.971316
+          ],
+          [
+            -43.24656,
+            -22.972116
+          ],
+          [
+            -43.247296,
+            -22.972665
+          ],
+          [
+            -43.248494,
+            -22.973121
+          ],
+          [
+            -43.249483,
+            -22.972985
+          ],
+          [
+            -43.249632,
+            -22.973149
+          ],
+          [
+            -43.249606,
+            -22.973225
+          ],
+          [
+            -43.24963,
+            -22.97327
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756393164259,
+    "query": {
+      "coordinates": [
+        [
+          -43.2447699,
+          -22.9734174
+        ],
+        [
+          -43.2496302,
+          -22.9732704
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

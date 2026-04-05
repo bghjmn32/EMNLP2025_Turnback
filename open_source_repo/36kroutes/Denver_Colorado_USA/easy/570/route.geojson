@@ -1,0 +1,203 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -105.091974,
+    39.740207,
+    -105.088442,
+    39.744791
+  ],
+  "features": [
+    {
+      "bbox": [
+        -105.091974,
+        39.740207,
+        -105.088442,
+        39.744791
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 975.3,
+            "duration": 702.2,
+            "steps": [
+              {
+                "distance": 162.6,
+                "duration": 117.0,
+                "type": 11,
+                "instruction": "Head north on Cody Street",
+                "name": "Cody Street",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 101.2,
+                "duration": 72.9,
+                "type": 1,
+                "instruction": "Turn right onto West 18th Avenue",
+                "name": "West 18th Avenue",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 151.4,
+                "duration": 109.0,
+                "type": 1,
+                "instruction": "Turn right onto Carr Street",
+                "name": "Carr Street",
+                "way_points": [
+                  2,
+                  5
+                ]
+              },
+              {
+                "distance": 200.8,
+                "duration": 144.6,
+                "type": 0,
+                "instruction": "Turn left onto West 17th Avenue",
+                "name": "West 17th Avenue",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 359.3,
+                "duration": 258.7,
+                "type": 1,
+                "instruction": "Turn right onto Balsam Street",
+                "name": "Balsam Street",
+                "way_points": [
+                  6,
+                  16
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Balsam Street, straight ahead",
+                "name": "-",
+                "way_points": [
+                  16,
+                  16
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          16
+        ],
+        "summary": {
+          "distance": 975.3,
+          "duration": 702.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -105.091953,
+            39.74333
+          ],
+          [
+            -105.091974,
+            39.744791
+          ],
+          [
+            -105.090791,
+            39.744786
+          ],
+          [
+            -105.090791,
+            39.744528
+          ],
+          [
+            -105.090791,
+            39.743731
+          ],
+          [
+            -105.090791,
+            39.743424
+          ],
+          [
+            -105.088442,
+            39.743438
+          ],
+          [
+            -105.088463,
+            39.742532
+          ],
+          [
+            -105.088456,
+            39.742173
+          ],
+          [
+            -105.088445,
+            39.741529
+          ],
+          [
+            -105.088445,
+            39.741462
+          ],
+          [
+            -105.088446,
+            39.741142
+          ],
+          [
+            -105.088446,
+            39.74086
+          ],
+          [
+            -105.088446,
+            39.740541
+          ],
+          [
+            -105.088446,
+            39.740385
+          ],
+          [
+            -105.088447,
+            39.740331
+          ],
+          [
+            -105.088457,
+            39.740207
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306223553,
+    "query": {
+      "coordinates": [
+        [
+          -105.0919529,
+          39.7433296
+        ],
+        [
+          -105.0884571,
+          39.7402066
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

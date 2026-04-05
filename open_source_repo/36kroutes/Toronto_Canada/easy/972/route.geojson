@@ -1,0 +1,294 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -79.463435,
+    43.691979,
+    -79.458721,
+    43.697749
+  ],
+  "features": [
+    {
+      "bbox": [
+        -79.463435,
+        43.691979,
+        -79.458721,
+        43.697749
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1013.0,
+            "duration": 729.4,
+            "steps": [
+              {
+                "distance": 70.0,
+                "duration": 50.4,
+                "type": 11,
+                "instruction": "Head north on Gilbert Avenue",
+                "name": "Gilbert Avenue",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 99.8,
+                "duration": 71.8,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  2,
+                  7
+                ]
+              },
+              {
+                "distance": 39.0,
+                "duration": 28.1,
+                "type": 12,
+                "instruction": "Keep left",
+                "name": "-",
+                "way_points": [
+                  7,
+                  11
+                ]
+              },
+              {
+                "distance": 17.8,
+                "duration": 12.8,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  11,
+                  13
+                ]
+              },
+              {
+                "distance": 92.3,
+                "duration": 66.5,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  13,
+                  16
+                ]
+              },
+              {
+                "distance": 205.6,
+                "duration": 148.0,
+                "type": 0,
+                "instruction": "Turn left onto Snider Avenue",
+                "name": "Snider Avenue",
+                "way_points": [
+                  16,
+                  18
+                ]
+              },
+              {
+                "distance": 95.8,
+                "duration": 69.0,
+                "type": 1,
+                "instruction": "Turn right onto Bowie Avenue",
+                "name": "Bowie Avenue",
+                "way_points": [
+                  18,
+                  20
+                ]
+              },
+              {
+                "distance": 148.1,
+                "duration": 106.7,
+                "type": 0,
+                "instruction": "Turn left onto Montcalm Avenue",
+                "name": "Montcalm Avenue",
+                "way_points": [
+                  20,
+                  21
+                ]
+              },
+              {
+                "distance": 193.6,
+                "duration": 139.4,
+                "type": 1,
+                "instruction": "Turn right onto Schell Avenue",
+                "name": "Schell Avenue",
+                "way_points": [
+                  21,
+                  23
+                ]
+              },
+              {
+                "distance": 51.0,
+                "duration": 36.7,
+                "type": 0,
+                "instruction": "Turn left onto Ronald Avenue",
+                "name": "Ronald Avenue",
+                "way_points": [
+                  23,
+                  25
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Ronald Avenue, straight ahead",
+                "name": "-",
+                "way_points": [
+                  25,
+                  25
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          25
+        ],
+        "summary": {
+          "distance": 1013.0,
+          "duration": 729.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -79.463175,
+            43.691979
+          ],
+          [
+            -79.463345,
+            43.692371
+          ],
+          [
+            -79.463435,
+            43.69258
+          ],
+          [
+            -79.463348,
+            43.692624
+          ],
+          [
+            -79.46331,
+            43.692669
+          ],
+          [
+            -79.463232,
+            43.69271
+          ],
+          [
+            -79.462954,
+            43.692788
+          ],
+          [
+            -79.462314,
+            43.692925
+          ],
+          [
+            -79.46217,
+            43.692949
+          ],
+          [
+            -79.462092,
+            43.692962
+          ],
+          [
+            -79.462034,
+            43.692999
+          ],
+          [
+            -79.461862,
+            43.693037
+          ],
+          [
+            -79.461885,
+            43.6931
+          ],
+          [
+            -79.461927,
+            43.69319
+          ],
+          [
+            -79.46095,
+            43.693403
+          ],
+          [
+            -79.460916,
+            43.693435
+          ],
+          [
+            -79.460847,
+            43.693448
+          ],
+          [
+            -79.460987,
+            43.693778
+          ],
+          [
+            -79.461594,
+            43.695217
+          ],
+          [
+            -79.461475,
+            43.695265
+          ],
+          [
+            -79.460471,
+            43.695502
+          ],
+          [
+            -79.461012,
+            43.696776
+          ],
+          [
+            -79.459883,
+            43.697059
+          ],
+          [
+            -79.458721,
+            43.697311
+          ],
+          [
+            -79.458888,
+            43.697709
+          ],
+          [
+            -79.458911,
+            43.697749
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756126488053,
+    "query": {
+      "coordinates": [
+        [
+          -79.4631754,
+          43.6919789
+        ],
+        [
+          -79.4589107,
+          43.6977485
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -104.929946,
+    39.763779,
+    -104.924613,
+    39.765659
+  ],
+  "features": [
+    {
+      "bbox": [
+        -104.929946,
+        39.763779,
+        -104.924613,
+        39.765659
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 670.7,
+            "duration": 482.9,
+            "steps": [
+              {
+                "distance": 7.0,
+                "duration": 5.0,
+                "type": 11,
+                "instruction": "Head north",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 49.6,
+                "duration": 35.7,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  4
+                ]
+              },
+              {
+                "distance": 207.8,
+                "duration": 149.6,
+                "type": 1,
+                "instruction": "Turn right onto Elm Street",
+                "name": "Elm Street",
+                "way_points": [
+                  4,
+                  9
+                ]
+              },
+              {
+                "distance": 406.3,
+                "duration": 292.5,
+                "type": 0,
+                "instruction": "Turn left onto East 33rd Avenue",
+                "name": "East 33rd Avenue",
+                "way_points": [
+                  9,
+                  15
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at East 33rd Avenue, straight ahead",
+                "name": "-",
+                "way_points": [
+                  15,
+                  15
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          15
+        ],
+        "summary": {
+          "distance": 670.7,
+          "duration": 482.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -104.929946,
+            39.765584
+          ],
+          [
+            -104.929945,
+            39.765647
+          ],
+          [
+            -104.929488,
+            39.765648
+          ],
+          [
+            -104.929446,
+            39.765659
+          ],
+          [
+            -104.929367,
+            39.765658
+          ],
+          [
+            -104.929367,
+            39.765587
+          ],
+          [
+            -104.929367,
+            39.765514
+          ],
+          [
+            -104.929368,
+            39.765134
+          ],
+          [
+            -104.929368,
+            39.764687
+          ],
+          [
+            -104.929366,
+            39.763789
+          ],
+          [
+            -104.927591,
+            39.763779
+          ],
+          [
+            -104.926967,
+            39.763783
+          ],
+          [
+            -104.926352,
+            39.763783
+          ],
+          [
+            -104.9258,
+            39.763784
+          ],
+          [
+            -104.925204,
+            39.763786
+          ],
+          [
+            -104.924613,
+            39.763787
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756307763152,
+    "query": {
+      "coordinates": [
+        [
+          -104.9299456,
+          39.7655844
+        ],
+        [
+          -104.9246134,
+          39.7637871
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

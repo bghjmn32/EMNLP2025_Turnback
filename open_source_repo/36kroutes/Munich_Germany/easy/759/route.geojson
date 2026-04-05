@@ -1,0 +1,226 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    11.488276,
+    48.115307,
+    11.493414,
+    48.117364
+  ],
+  "features": [
+    {
+      "bbox": [
+        11.488276,
+        48.115307,
+        11.493414,
+        48.117364
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 600.7,
+            "duration": 432.5,
+            "steps": [
+              {
+                "distance": 33.7,
+                "duration": 24.3,
+                "type": 11,
+                "instruction": "Head west on Holzapfelkreuther Straße",
+                "name": "Holzapfelkreuther Straße",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 143.9,
+                "duration": 103.6,
+                "type": 1,
+                "instruction": "Turn right onto Tratzbergstraße",
+                "name": "Tratzbergstraße",
+                "way_points": [
+                  1,
+                  6
+                ]
+              },
+              {
+                "distance": 3.1,
+                "duration": 2.2,
+                "type": 1,
+                "instruction": "Turn right onto Gräfelfinger Straße",
+                "name": "Gräfelfinger Straße",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 6.0,
+                "duration": 4.3,
+                "type": 2,
+                "instruction": "Turn sharp left",
+                "name": "-",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 365.9,
+                "duration": 263.4,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  8,
+                  16
+                ]
+              },
+              {
+                "distance": 48.1,
+                "duration": 34.6,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  16,
+                  19
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  19,
+                  19
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          19
+        ],
+        "summary": {
+          "distance": 600.7,
+          "duration": 432.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            11.493414,
+            48.115307
+          ],
+          [
+            11.492968,
+            48.115364
+          ],
+          [
+            11.492986,
+            48.115459
+          ],
+          [
+            11.493039,
+            48.115804
+          ],
+          [
+            11.493135,
+            48.116088
+          ],
+          [
+            11.493184,
+            48.116298
+          ],
+          [
+            11.493264,
+            48.116642
+          ],
+          [
+            11.493304,
+            48.116636
+          ],
+          [
+            11.493303,
+            48.11669
+          ],
+          [
+            11.492341,
+            48.116844
+          ],
+          [
+            11.492206,
+            48.116859
+          ],
+          [
+            11.491579,
+            48.11692
+          ],
+          [
+            11.491086,
+            48.116939
+          ],
+          [
+            11.490734,
+            48.116946
+          ],
+          [
+            11.489872,
+            48.116916
+          ],
+          [
+            11.489441,
+            48.116912
+          ],
+          [
+            11.488413,
+            48.116955
+          ],
+          [
+            11.488404,
+            48.117185
+          ],
+          [
+            11.488285,
+            48.117305
+          ],
+          [
+            11.488276,
+            48.117364
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756139050767,
+    "query": {
+      "coordinates": [
+        [
+          11.4934139,
+          48.1153071
+        ],
+        [
+          11.488276,
+          48.1173636
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

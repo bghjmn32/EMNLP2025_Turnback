@@ -1,0 +1,188 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    11.533441,
+    48.216743,
+    11.541419,
+    48.221375
+  ],
+  "features": [
+    {
+      "bbox": [
+        11.533441,
+        48.216743,
+        11.541419,
+        48.221375
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 838.0,
+            "duration": 603.3,
+            "steps": [
+              {
+                "distance": 709.6,
+                "duration": 510.9,
+                "type": 11,
+                "instruction": "Head west on Hochmuttinger Straße",
+                "name": "Hochmuttinger Straße",
+                "way_points": [
+                  0,
+                  10
+                ]
+              },
+              {
+                "distance": 33.6,
+                "duration": 24.2,
+                "type": 4,
+                "instruction": "Turn slight left onto Hochmuttinger Straße",
+                "name": "Hochmuttinger Straße",
+                "way_points": [
+                  10,
+                  12
+                ]
+              },
+              {
+                "distance": 9.4,
+                "duration": 6.8,
+                "type": 0,
+                "instruction": "Turn left onto Herbergstraße",
+                "name": "Herbergstraße",
+                "way_points": [
+                  12,
+                  13
+                ]
+              },
+              {
+                "distance": 85.3,
+                "duration": 61.4,
+                "type": 1,
+                "instruction": "Turn right onto Herbert-Kadner-Straße",
+                "name": "Herbert-Kadner-Straße",
+                "way_points": [
+                  13,
+                  15
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Herbert-Kadner-Straße, straight ahead",
+                "name": "-",
+                "way_points": [
+                  15,
+                  15
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          15
+        ],
+        "summary": {
+          "distance": 838.0,
+          "duration": 603.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            11.541419,
+            48.221375
+          ],
+          [
+            11.541333,
+            48.221352
+          ],
+          [
+            11.540034,
+            48.220997
+          ],
+          [
+            11.539549,
+            48.220846
+          ],
+          [
+            11.539023,
+            48.220636
+          ],
+          [
+            11.537359,
+            48.219939
+          ],
+          [
+            11.536836,
+            48.219683
+          ],
+          [
+            11.53604,
+            48.219258
+          ],
+          [
+            11.534617,
+            48.21832
+          ],
+          [
+            11.533893,
+            48.217958
+          ],
+          [
+            11.533571,
+            48.217809
+          ],
+          [
+            11.533491,
+            48.217629
+          ],
+          [
+            11.533443,
+            48.217519
+          ],
+          [
+            11.533568,
+            48.217505
+          ],
+          [
+            11.533568,
+            48.217408
+          ],
+          [
+            11.533441,
+            48.216743
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756138512568,
+    "query": {
+      "coordinates": [
+        [
+          11.5414187,
+          48.2213746
+        ],
+        [
+          11.5334411,
+          48.2167426
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

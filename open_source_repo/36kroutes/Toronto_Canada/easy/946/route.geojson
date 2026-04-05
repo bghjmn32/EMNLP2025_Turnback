@@ -1,0 +1,176 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -79.430913,
+    43.683723,
+    -79.428467,
+    43.688752
+  ],
+  "features": [
+    {
+      "bbox": [
+        -79.430913,
+        43.683723,
+        -79.428467,
+        43.688752
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 789.3,
+            "duration": 568.3,
+            "steps": [
+              {
+                "distance": 80.6,
+                "duration": 58.0,
+                "type": 11,
+                "instruction": "Head west",
+                "name": "-",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 211.9,
+                "duration": 152.5,
+                "type": 2,
+                "instruction": "Turn sharp left onto Cherrywood Avenue",
+                "name": "Cherrywood Avenue",
+                "way_points": [
+                  3,
+                  6
+                ]
+              },
+              {
+                "distance": 180.4,
+                "duration": 129.9,
+                "type": 1,
+                "instruction": "Turn right onto Valewood Avenue",
+                "name": "Valewood Avenue",
+                "way_points": [
+                  6,
+                  8
+                ]
+              },
+              {
+                "distance": 316.5,
+                "duration": 227.8,
+                "type": 0,
+                "instruction": "Turn left onto Arlington Avenue",
+                "name": "Arlington Avenue",
+                "way_points": [
+                  8,
+                  12
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Arlington Avenue, straight ahead",
+                "name": "-",
+                "way_points": [
+                  12,
+                  12
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          12
+        ],
+        "summary": {
+          "distance": 789.3,
+          "duration": 568.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -79.428467,
+            43.688744
+          ],
+          [
+            -79.428468,
+            43.688745
+          ],
+          [
+            -79.429376,
+            43.688751
+          ],
+          [
+            -79.429469,
+            43.688752
+          ],
+          [
+            -79.429369,
+            43.688507
+          ],
+          [
+            -79.429288,
+            43.688334
+          ],
+          [
+            -79.428757,
+            43.686918
+          ],
+          [
+            -79.429875,
+            43.686703
+          ],
+          [
+            -79.430913,
+            43.686469
+          ],
+          [
+            -79.430561,
+            43.685517
+          ],
+          [
+            -79.430313,
+            43.684911
+          ],
+          [
+            -79.429917,
+            43.683916
+          ],
+          [
+            -79.429897,
+            43.683723
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756126429292,
+    "query": {
+      "coordinates": [
+        [
+          -79.4284668,
+          43.6887352
+        ],
+        [
+          -79.4298975,
+          43.6837234
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

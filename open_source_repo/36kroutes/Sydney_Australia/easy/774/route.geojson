@@ -1,0 +1,257 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    150.768365,
+    -33.769891,
+    150.774462,
+    -33.76792
+  ],
+  "features": [
+    {
+      "bbox": [
+        150.768365,
+        -33.769891,
+        150.774462,
+        -33.76792
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 851.9,
+            "duration": 613.4,
+            "steps": [
+              {
+                "distance": 132.6,
+                "duration": 95.5,
+                "type": 11,
+                "instruction": "Head south on East Lane",
+                "name": "East Lane",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 45.9,
+                "duration": 33.1,
+                "type": 1,
+                "instruction": "Turn right onto King Street",
+                "name": "King Street",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 100.3,
+                "duration": 72.2,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  4,
+                  6
+                ]
+              },
+              {
+                "distance": 303.6,
+                "duration": 218.6,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  6,
+                  12
+                ]
+              },
+              {
+                "distance": 71.0,
+                "duration": 51.1,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  12,
+                  13
+                ]
+              },
+              {
+                "distance": 7.9,
+                "duration": 5.7,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  13,
+                  14
+                ]
+              },
+              {
+                "distance": 190.5,
+                "duration": 137.1,
+                "type": 1,
+                "instruction": "Turn right onto Princess Mary Street",
+                "name": "Princess Mary Street",
+                "way_points": [
+                  14,
+                  24
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Princess Mary Street, straight ahead",
+                "name": "-",
+                "way_points": [
+                  24,
+                  24
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          24
+        ],
+        "summary": {
+          "distance": 851.9,
+          "duration": 613.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            150.774462,
+            -33.76792
+          ],
+          [
+            150.774451,
+            -33.767988
+          ],
+          [
+            150.774435,
+            -33.768075
+          ],
+          [
+            150.774232,
+            -33.769097
+          ],
+          [
+            150.77375,
+            -33.768997
+          ],
+          [
+            150.773738,
+            -33.769059
+          ],
+          [
+            150.7736,
+            -33.769891
+          ],
+          [
+            150.773499,
+            -33.769874
+          ],
+          [
+            150.773401,
+            -33.769859
+          ],
+          [
+            150.773389,
+            -33.769857
+          ],
+          [
+            150.771371,
+            -33.76953
+          ],
+          [
+            150.770916,
+            -33.769482
+          ],
+          [
+            150.770363,
+            -33.769439
+          ],
+          [
+            150.770347,
+            -33.768801
+          ],
+          [
+            150.770261,
+            -33.768801
+          ],
+          [
+            150.770256,
+            -33.7687
+          ],
+          [
+            150.770228,
+            -33.768653
+          ],
+          [
+            150.770203,
+            -33.768632
+          ],
+          [
+            150.770149,
+            -33.768624
+          ],
+          [
+            150.769637,
+            -33.768598
+          ],
+          [
+            150.769256,
+            -33.768601
+          ],
+          [
+            150.768849,
+            -33.768612
+          ],
+          [
+            150.768733,
+            -33.76861
+          ],
+          [
+            150.768581,
+            -33.768611
+          ],
+          [
+            150.768365,
+            -33.768612
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756395182917,
+    "query": {
+      "coordinates": [
+        [
+          150.7744624,
+          -33.76792
+        ],
+        [
+          150.7683648,
+          -33.768612
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

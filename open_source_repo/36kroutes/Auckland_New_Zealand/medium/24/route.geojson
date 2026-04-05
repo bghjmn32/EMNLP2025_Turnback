@@ -1,0 +1,170 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    174.647279,
+    -36.604471,
+    174.660055,
+    -36.598265
+  ],
+  "features": [
+    {
+      "bbox": [
+        174.647279,
+        -36.604471,
+        174.660055,
+        -36.598265
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1731.7,
+            "duration": 1246.8,
+            "steps": [
+              {
+                "distance": 1330.8,
+                "duration": 958.2,
+                "type": 11,
+                "instruction": "Head northwest on Wainui Road",
+                "name": "Wainui Road",
+                "way_points": [
+                  0,
+                  14
+                ]
+              },
+              {
+                "distance": 400.8,
+                "duration": 288.6,
+                "type": 2,
+                "instruction": "Turn sharp left onto Endsley Rise",
+                "name": "Endsley Rise",
+                "way_points": [
+                  14,
+                  16
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Endsley Rise, straight ahead",
+                "name": "-",
+                "way_points": [
+                  16,
+                  16
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          16
+        ],
+        "summary": {
+          "distance": 1731.7,
+          "duration": 1246.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            174.660055,
+            -36.599036
+          ],
+          [
+            174.659531,
+            -36.598723
+          ],
+          [
+            174.65923,
+            -36.598617
+          ],
+          [
+            174.658704,
+            -36.598487
+          ],
+          [
+            174.657838,
+            -36.598364
+          ],
+          [
+            174.657438,
+            -36.598293
+          ],
+          [
+            174.657157,
+            -36.598265
+          ],
+          [
+            174.656954,
+            -36.598267
+          ],
+          [
+            174.653398,
+            -36.598686
+          ],
+          [
+            174.65287,
+            -36.598779
+          ],
+          [
+            174.652653,
+            -36.598881
+          ],
+          [
+            174.652462,
+            -36.599018
+          ],
+          [
+            174.65015,
+            -36.600954
+          ],
+          [
+            174.649748,
+            -36.601262
+          ],
+          [
+            174.647279,
+            -36.602717
+          ],
+          [
+            174.647493,
+            -36.602812
+          ],
+          [
+            174.651201,
+            -36.604471
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756375994160,
+    "query": {
+      "coordinates": [
+        [
+          174.6600546,
+          -36.5990358
+        ],
+        [
+          174.6512013,
+          -36.6044713
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

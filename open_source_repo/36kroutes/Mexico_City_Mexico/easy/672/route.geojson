@@ -1,0 +1,153 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.105977,
+    19.225262,
+    -99.103125,
+    19.226994
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.105977,
+        19.225262,
+        -99.103125,
+        19.226994
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 590.1,
+            "duration": 424.9,
+            "steps": [
+              {
+                "distance": 235.4,
+                "duration": 169.5,
+                "type": 11,
+                "instruction": "Head northwest on Camino Real a Santa Cecilia",
+                "name": "Camino Real a Santa Cecilia",
+                "way_points": [
+                  0,
+                  6
+                ]
+              },
+              {
+                "distance": 143.6,
+                "duration": 103.4,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  6,
+                  8
+                ]
+              },
+              {
+                "distance": 211.1,
+                "duration": 152.0,
+                "type": 2,
+                "instruction": "Turn sharp left onto Calle Vicente Guerrero",
+                "name": "Calle Vicente Guerrero",
+                "way_points": [
+                  8,
+                  9
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Vicente Guerrero, straight ahead",
+                "name": "-",
+                "way_points": [
+                  9,
+                  9
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          9
+        ],
+        "summary": {
+          "distance": 590.1,
+          "duration": 424.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.103125,
+            19.225447
+          ],
+          [
+            -99.103204,
+            19.225487
+          ],
+          [
+            -99.104324,
+            19.225774
+          ],
+          [
+            -99.104823,
+            19.225924
+          ],
+          [
+            -99.104853,
+            19.225955
+          ],
+          [
+            -99.104857,
+            19.225997
+          ],
+          [
+            -99.104793,
+            19.22635
+          ],
+          [
+            -99.104999,
+            19.226489
+          ],
+          [
+            -99.105977,
+            19.226994
+          ],
+          [
+            -99.105152,
+            19.225262
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306957367,
+    "query": {
+      "coordinates": [
+        [
+          -99.1031248,
+          19.2254469
+        ],
+        [
+          -99.1051518,
+          19.2252624
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

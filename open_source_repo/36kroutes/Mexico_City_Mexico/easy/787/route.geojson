@@ -1,0 +1,179 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.073457,
+    19.485859,
+    -99.068912,
+    19.492202
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.073457,
+        19.485859,
+        -99.068912,
+        19.492202
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 997.2,
+            "duration": 718.0,
+            "steps": [
+              {
+                "distance": 53.2,
+                "duration": 38.3,
+                "type": 11,
+                "instruction": "Head west on Calle Estado de Oaxaca",
+                "name": "Calle Estado de Oaxaca",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 438.5,
+                "duration": 315.7,
+                "type": 1,
+                "instruction": "Turn right onto Calle Estado de Sonora",
+                "name": "Calle Estado de Sonora",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 15.2,
+                "duration": 10.9,
+                "type": 1,
+                "instruction": "Turn right onto Avenida Villa de Ayala, EJE 6 NTE",
+                "name": "Avenida Villa de Ayala, EJE 6 NTE",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 334.5,
+                "duration": 240.8,
+                "type": 0,
+                "instruction": "Turn left onto Calle Cumbres de Acultzingo",
+                "name": "Calle Cumbres de Acultzingo",
+                "way_points": [
+                  3,
+                  7
+                ]
+              },
+              {
+                "distance": 155.9,
+                "duration": 112.3,
+                "type": 1,
+                "instruction": "Turn right onto Calle Calpulalpan",
+                "name": "Calle Calpulalpan",
+                "way_points": [
+                  7,
+                  10
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Calpulalpan, straight ahead",
+                "name": "-",
+                "way_points": [
+                  10,
+                  10
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          10
+        ],
+        "summary": {
+          "distance": 997.2,
+          "duration": 718.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.072976,
+            19.485859
+          ],
+          [
+            -99.073457,
+            19.486012
+          ],
+          [
+            -99.072067,
+            19.489732
+          ],
+          [
+            -99.071925,
+            19.489706
+          ],
+          [
+            -99.071837,
+            19.489863
+          ],
+          [
+            -99.07138,
+            19.490508
+          ],
+          [
+            -99.070696,
+            19.491445
+          ],
+          [
+            -99.070148,
+            19.492202
+          ],
+          [
+            -99.069743,
+            19.491942
+          ],
+          [
+            -99.069326,
+            19.491692
+          ],
+          [
+            -99.068912,
+            19.491423
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756307635415,
+    "query": {
+      "coordinates": [
+        [
+          -99.0729765,
+          19.4858589
+        ],
+        [
+          -99.0689119,
+          19.4914229
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,274 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.172109,
+    19.405468,
+    -99.169926,
+    19.41258
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.172109,
+        19.405468,
+        -99.169926,
+        19.41258
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 876.8,
+            "duration": 631.3,
+            "steps": [
+              {
+                "distance": 242.0,
+                "duration": 174.3,
+                "type": 11,
+                "instruction": "Head north on Avenida Nuevo León",
+                "name": "Avenida Nuevo León",
+                "way_points": [
+                  0,
+                  6
+                ]
+              },
+              {
+                "distance": 205.9,
+                "duration": 148.3,
+                "type": 1,
+                "instruction": "Turn right onto Calle Citlaltépetl",
+                "name": "Calle Citlaltépetl",
+                "way_points": [
+                  6,
+                  9
+                ]
+              },
+              {
+                "distance": 213.2,
+                "duration": 153.5,
+                "type": 7,
+                "instruction": "Enter the roundabout and take the 5th exit onto Calle Citlaltépetl",
+                "name": "Calle Citlaltépetl",
+                "exit_number": 5,
+                "way_points": [
+                  9,
+                  22
+                ]
+              },
+              {
+                "distance": 72.7,
+                "duration": 52.3,
+                "type": 6,
+                "instruction": "Continue straight onto Avenida México",
+                "name": "Avenida México",
+                "way_points": [
+                  22,
+                  23
+                ]
+              },
+              {
+                "distance": 5.6,
+                "duration": 4.1,
+                "type": 1,
+                "instruction": "Turn right onto Calle Michoacán",
+                "name": "Calle Michoacán",
+                "way_points": [
+                  23,
+                  24
+                ]
+              },
+              {
+                "distance": 125.5,
+                "duration": 90.4,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  24,
+                  27
+                ]
+              },
+              {
+                "distance": 11.8,
+                "duration": 8.5,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  27,
+                  28
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  28,
+                  28
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          28
+        ],
+        "summary": {
+          "distance": 876.8,
+          "duration": 631.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.171588,
+            19.405468
+          ],
+          [
+            -99.171681,
+            19.405835
+          ],
+          [
+            -99.171802,
+            19.406366
+          ],
+          [
+            -99.171808,
+            19.40639
+          ],
+          [
+            -99.172038,
+            19.407361
+          ],
+          [
+            -99.172081,
+            19.407539
+          ],
+          [
+            -99.172109,
+            19.407587
+          ],
+          [
+            -99.171842,
+            19.408334
+          ],
+          [
+            -99.171523,
+            19.409041
+          ],
+          [
+            -99.171406,
+            19.409315
+          ],
+          [
+            -99.171336,
+            19.409321
+          ],
+          [
+            -99.171271,
+            19.409345
+          ],
+          [
+            -99.171216,
+            19.409386
+          ],
+          [
+            -99.17117,
+            19.409451
+          ],
+          [
+            -99.171153,
+            19.4095
+          ],
+          [
+            -99.171149,
+            19.409567
+          ],
+          [
+            -99.171166,
+            19.409633
+          ],
+          [
+            -99.171203,
+            19.409692
+          ],
+          [
+            -99.171256,
+            19.409737
+          ],
+          [
+            -99.171308,
+            19.409763
+          ],
+          [
+            -99.17106,
+            19.410341
+          ],
+          [
+            -99.170969,
+            19.410509
+          ],
+          [
+            -99.170781,
+            19.410924
+          ],
+          [
+            -99.170526,
+            19.411532
+          ],
+          [
+            -99.170472,
+            19.41153
+          ],
+          [
+            -99.170445,
+            19.411598
+          ],
+          [
+            -99.170099,
+            19.412423
+          ],
+          [
+            -99.170032,
+            19.41258
+          ],
+          [
+            -99.169926,
+            19.412543
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756307891886,
+    "query": {
+      "coordinates": [
+        [
+          -99.1715883,
+          19.4054684
+        ],
+        [
+          -99.1699261,
+          19.4125433
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

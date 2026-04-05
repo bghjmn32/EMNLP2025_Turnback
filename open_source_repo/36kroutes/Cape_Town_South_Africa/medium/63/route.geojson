@@ -1,0 +1,177 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.541853,
+    -33.914717,
+    18.545148,
+    -33.904742
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.541853,
+        -33.914717,
+        18.545148,
+        -33.904742
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1221.8,
+            "duration": 879.7,
+            "steps": [
+              {
+                "distance": 1130.4,
+                "duration": 813.9,
+                "type": 11,
+                "instruction": "Head south on Kimberley Street",
+                "name": "Kimberley Street",
+                "way_points": [
+                  0,
+                  13
+                ]
+              },
+              {
+                "distance": 74.0,
+                "duration": 53.2,
+                "type": 0,
+                "instruction": "Turn left onto Bowden Road",
+                "name": "Bowden Road",
+                "way_points": [
+                  13,
+                  14
+                ]
+              },
+              {
+                "distance": 17.4,
+                "duration": 12.6,
+                "type": 1,
+                "instruction": "Turn right onto Beaufort Street",
+                "name": "Beaufort Street",
+                "way_points": [
+                  14,
+                  15
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Beaufort Street, straight ahead",
+                "name": "-",
+                "way_points": [
+                  15,
+                  15
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          15
+        ],
+        "summary": {
+          "distance": 1221.8,
+          "duration": 879.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.541853,
+            -33.904742
+          ],
+          [
+            18.541913,
+            -33.904988
+          ],
+          [
+            18.542055,
+            -33.905565
+          ],
+          [
+            18.542452,
+            -33.907119
+          ],
+          [
+            18.542823,
+            -33.908617
+          ],
+          [
+            18.543192,
+            -33.910122
+          ],
+          [
+            18.543239,
+            -33.910314
+          ],
+          [
+            18.543438,
+            -33.911122
+          ],
+          [
+            18.543461,
+            -33.911218
+          ],
+          [
+            18.543568,
+            -33.911628
+          ],
+          [
+            18.54377,
+            -33.912441
+          ],
+          [
+            18.543936,
+            -33.913112
+          ],
+          [
+            18.543949,
+            -33.913181
+          ],
+          [
+            18.544327,
+            -33.914699
+          ],
+          [
+            18.545112,
+            -33.914564
+          ],
+          [
+            18.545148,
+            -33.914717
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756806346530,
+    "query": {
+      "coordinates": [
+        [
+          18.5418529,
+          -33.9047425
+        ],
+        [
+          18.5451476,
+          -33.9147175
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

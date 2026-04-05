@@ -1,0 +1,185 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.170273,
+    19.494753,
+    -99.161711,
+    19.504689
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.170273,
+        19.494753,
+        -99.161711,
+        19.504689
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1794.9,
+            "duration": 1292.3,
+            "steps": [
+              {
+                "distance": 528.9,
+                "duration": 380.8,
+                "type": 11,
+                "instruction": "Head east on Calle Poniente 134",
+                "name": "Calle Poniente 134",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 1134.6,
+                "duration": 816.9,
+                "type": 0,
+                "instruction": "Turn left onto Calle Norte 59",
+                "name": "Calle Norte 59",
+                "way_points": [
+                  3,
+                  16
+                ]
+              },
+              {
+                "distance": 131.4,
+                "duration": 94.6,
+                "type": 1,
+                "instruction": "Turn right onto Calle Poniente 152",
+                "name": "Calle Poniente 152",
+                "way_points": [
+                  16,
+                  17
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Poniente 152, straight ahead",
+                "name": "-",
+                "way_points": [
+                  17,
+                  17
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          17
+        ],
+        "summary": {
+          "distance": 1794.9,
+          "duration": 1292.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.170273,
+            19.495831
+          ],
+          [
+            -99.169843,
+            19.495741
+          ],
+          [
+            -99.168086,
+            19.495334
+          ],
+          [
+            -99.165358,
+            19.494753
+          ],
+          [
+            -99.164771,
+            19.497155
+          ],
+          [
+            -99.164717,
+            19.497386
+          ],
+          [
+            -99.16471,
+            19.497419
+          ],
+          [
+            -99.164703,
+            19.497448
+          ],
+          [
+            -99.164689,
+            19.497504
+          ],
+          [
+            -99.164187,
+            19.499494
+          ],
+          [
+            -99.164056,
+            19.500029
+          ],
+          [
+            -99.163798,
+            19.501081
+          ],
+          [
+            -99.163485,
+            19.502461
+          ],
+          [
+            -99.163399,
+            19.502841
+          ],
+          [
+            -99.163186,
+            19.503602
+          ],
+          [
+            -99.163004,
+            19.504292
+          ],
+          [
+            -99.162899,
+            19.504689
+          ],
+          [
+            -99.161711,
+            19.504311
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756314664614,
+    "query": {
+      "coordinates": [
+        [
+          -99.1702727,
+          19.4958307
+        ],
+        [
+          -99.1617115,
+          19.504311
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

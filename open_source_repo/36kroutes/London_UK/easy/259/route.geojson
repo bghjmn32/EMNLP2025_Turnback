@@ -1,0 +1,224 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -0.200448,
+    51.418707,
+    -0.193392,
+    51.419512
+  ],
+  "features": [
+    {
+      "bbox": [
+        -0.200448,
+        51.418707,
+        -0.193392,
+        51.419512
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 565.6,
+            "duration": 407.2,
+            "steps": [
+              {
+                "distance": 5.2,
+                "duration": 3.7,
+                "type": 11,
+                "instruction": "Head west on Griffiths Road",
+                "name": "Griffiths Road",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 528.2,
+                "duration": 380.3,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  21
+                ]
+              },
+              {
+                "distance": 14.4,
+                "duration": 10.3,
+                "type": 2,
+                "instruction": "Turn sharp left onto Palmerston Road",
+                "name": "Palmerston Road",
+                "way_points": [
+                  21,
+                  22
+                ]
+              },
+              {
+                "distance": 17.8,
+                "duration": 12.8,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  22,
+                  24
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  24,
+                  24
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          24
+        ],
+        "summary": {
+          "distance": 565.6,
+          "duration": 407.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -0.193392,
+            51.418717
+          ],
+          [
+            -0.193465,
+            51.418707
+          ],
+          [
+            -0.193536,
+            51.418791
+          ],
+          [
+            -0.19401,
+            51.419397
+          ],
+          [
+            -0.194078,
+            51.419468
+          ],
+          [
+            -0.19417,
+            51.419505
+          ],
+          [
+            -0.194312,
+            51.419512
+          ],
+          [
+            -0.19507,
+            51.419402
+          ],
+          [
+            -0.19556,
+            51.41934
+          ],
+          [
+            -0.196284,
+            51.419246
+          ],
+          [
+            -0.196332,
+            51.41924
+          ],
+          [
+            -0.196424,
+            51.419231
+          ],
+          [
+            -0.196511,
+            51.419224
+          ],
+          [
+            -0.196601,
+            51.419217
+          ],
+          [
+            -0.197797,
+            51.419109
+          ],
+          [
+            -0.197882,
+            51.419106
+          ],
+          [
+            -0.197963,
+            51.419103
+          ],
+          [
+            -0.198458,
+            51.419086
+          ],
+          [
+            -0.199477,
+            51.419087
+          ],
+          [
+            -0.199769,
+            51.419093
+          ],
+          [
+            -0.200146,
+            51.419123
+          ],
+          [
+            -0.200242,
+            51.41914
+          ],
+          [
+            -0.200197,
+            51.419014
+          ],
+          [
+            -0.200267,
+            51.419004
+          ],
+          [
+            -0.200448,
+            51.418978
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756827560013,
+    "query": {
+      "coordinates": [
+        [
+          -0.1933925,
+          51.418717
+        ],
+        [
+          -0.2004481,
+          51.4189781
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

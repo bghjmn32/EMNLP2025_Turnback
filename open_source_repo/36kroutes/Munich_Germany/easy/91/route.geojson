@@ -1,0 +1,192 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    11.695435,
+    48.139866,
+    11.707101,
+    48.140626
+  ],
+  "features": [
+    {
+      "bbox": [
+        11.695435,
+        48.139866,
+        11.707101,
+        48.140626
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 904.9,
+            "duration": 651.5,
+            "steps": [
+              {
+                "distance": 509.8,
+                "duration": 367.0,
+                "type": 11,
+                "instruction": "Head west",
+                "name": "-",
+                "way_points": [
+                  0,
+                  7
+                ]
+              },
+              {
+                "distance": 25.0,
+                "duration": 18.0,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 362.4,
+                "duration": 260.9,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  8,
+                  15
+                ]
+              },
+              {
+                "distance": 7.7,
+                "duration": 5.6,
+                "type": 0,
+                "instruction": "Turn left onto Riemer Straße",
+                "name": "Riemer Straße",
+                "way_points": [
+                  15,
+                  16
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Riemer Straße, straight ahead",
+                "name": "-",
+                "way_points": [
+                  16,
+                  16
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          16
+        ],
+        "summary": {
+          "distance": 904.9,
+          "duration": 651.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            11.707101,
+            48.140143
+          ],
+          [
+            11.7063,
+            48.140138
+          ],
+          [
+            11.70591,
+            48.140132
+          ],
+          [
+            11.705161,
+            48.14013
+          ],
+          [
+            11.70424,
+            48.140118
+          ],
+          [
+            11.702973,
+            48.140109
+          ],
+          [
+            11.701504,
+            48.140098
+          ],
+          [
+            11.700231,
+            48.140087
+          ],
+          [
+            11.700168,
+            48.139866
+          ],
+          [
+            11.698598,
+            48.140178
+          ],
+          [
+            11.697732,
+            48.140345
+          ],
+          [
+            11.69707,
+            48.140477
+          ],
+          [
+            11.696395,
+            48.140573
+          ],
+          [
+            11.695676,
+            48.140618
+          ],
+          [
+            11.695612,
+            48.140621
+          ],
+          [
+            11.695435,
+            48.140626
+          ],
+          [
+            11.69545,
+            48.140557
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756136706227,
+    "query": {
+      "coordinates": [
+        [
+          11.7071006,
+          48.140143
+        ],
+        [
+          11.6954496,
+          48.1405572
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

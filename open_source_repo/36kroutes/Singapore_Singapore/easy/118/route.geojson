@@ -1,0 +1,148 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    103.827215,
+    1.444227,
+    103.82734,
+    1.444434
+  ],
+  "features": [
+    {
+      "bbox": [
+        103.827215,
+        1.444227,
+        103.82734,
+        1.444434
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 37.9,
+            "duration": 27.3,
+            "steps": [
+              {
+                "distance": 8.0,
+                "duration": 5.8,
+                "type": 11,
+                "instruction": "Head southwest on Canberra Link",
+                "name": "Canberra Link",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 5.4,
+                "duration": 3.9,
+                "type": 0,
+                "instruction": "Turn left onto Canberra Drive",
+                "name": "Canberra Drive",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 11.4,
+                "duration": 8.2,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 13.0,
+                "duration": 9.4,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  3,
+                  5
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  5,
+                  5
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          5
+        ],
+        "summary": {
+          "distance": 37.9,
+          "duration": 27.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            103.82734,
+            1.444434
+          ],
+          [
+            103.827278,
+            1.444397
+          ],
+          [
+            103.827306,
+            1.444357
+          ],
+          [
+            103.827215,
+            1.444309
+          ],
+          [
+            103.827252,
+            1.444251
+          ],
+          [
+            103.827271,
+            1.444227
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756390759807,
+    "query": {
+      "coordinates": [
+        [
+          103.8273399,
+          1.4444338
+        ],
+        [
+          103.8272685,
+          1.4442247
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

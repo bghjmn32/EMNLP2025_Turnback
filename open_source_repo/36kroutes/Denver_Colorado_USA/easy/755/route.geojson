@@ -1,0 +1,244 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -104.978724,
+    39.64947,
+    -104.973155,
+    39.651397
+  ],
+  "features": [
+    {
+      "bbox": [
+        -104.978724,
+        39.64947,
+        -104.973155,
+        39.651397
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 764.2,
+            "duration": 550.2,
+            "steps": [
+              {
+                "distance": 36.8,
+                "duration": 26.5,
+                "type": 11,
+                "instruction": "Head west on East Hampden Bypass, US 285",
+                "name": "East Hampden Bypass, US 285",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 410.3,
+                "duration": 295.4,
+                "type": 0,
+                "instruction": "Turn left onto South Downing Street",
+                "name": "South Downing Street",
+                "way_points": [
+                  1,
+                  10
+                ]
+              },
+              {
+                "distance": 141.5,
+                "duration": 101.9,
+                "type": 5,
+                "instruction": "Turn slight right onto East Kenyon Avenue",
+                "name": "East Kenyon Avenue",
+                "way_points": [
+                  10,
+                  11
+                ]
+              },
+              {
+                "distance": 16.5,
+                "duration": 11.9,
+                "type": 3,
+                "instruction": "Turn sharp right",
+                "name": "-",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 64.9,
+                "duration": 46.7,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  12,
+                  14
+                ]
+              },
+              {
+                "distance": 41.2,
+                "duration": 29.7,
+                "type": 1,
+                "instruction": "Turn right onto South Clarkson Street",
+                "name": "South Clarkson Street",
+                "way_points": [
+                  14,
+                  15
+                ]
+              },
+              {
+                "distance": 19.9,
+                "duration": 14.4,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  15,
+                  16
+                ]
+              },
+              {
+                "distance": 33.1,
+                "duration": 23.8,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  16,
+                  18
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  18,
+                  18
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          18
+        ],
+        "summary": {
+          "distance": 764.2,
+          "duration": 550.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -104.973155,
+            39.651396
+          ],
+          [
+            -104.973585,
+            39.651397
+          ],
+          [
+            -104.973587,
+            39.651265
+          ],
+          [
+            -104.973592,
+            39.651068
+          ],
+          [
+            -104.973596,
+            39.650926
+          ],
+          [
+            -104.973611,
+            39.650381
+          ],
+          [
+            -104.973635,
+            39.649517
+          ],
+          [
+            -104.97473,
+            39.649504
+          ],
+          [
+            -104.975416,
+            39.649496
+          ],
+          [
+            -104.975879,
+            39.64949
+          ],
+          [
+            -104.975982,
+            39.64947
+          ],
+          [
+            -104.977635,
+            39.649479
+          ],
+          [
+            -104.977586,
+            39.649622
+          ],
+          [
+            -104.977852,
+            39.649742
+          ],
+          [
+            -104.978301,
+            39.649719
+          ],
+          [
+            -104.978295,
+            39.650089
+          ],
+          [
+            -104.978528,
+            39.65009
+          ],
+          [
+            -104.978529,
+            39.650238
+          ],
+          [
+            -104.978724,
+            39.650239
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306927532,
+    "query": {
+      "coordinates": [
+        [
+          -104.9731551,
+          39.6513963
+        ],
+        [
+          -104.9787238,
+          39.6502394
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

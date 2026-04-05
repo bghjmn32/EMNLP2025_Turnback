@@ -1,0 +1,218 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.069581,
+    19.349409,
+    -99.067239,
+    19.353105
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.069581,
+        19.349409,
+        -99.067239,
+        19.353105
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 621.5,
+            "duration": 447.5,
+            "steps": [
+              {
+                "distance": 117.8,
+                "duration": 84.8,
+                "type": 11,
+                "instruction": "Head north on Calle Amado Aguirre",
+                "name": "Calle Amado Aguirre",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 124.7,
+                "duration": 89.8,
+                "type": 1,
+                "instruction": "Turn right onto Calle Rafael Curiel",
+                "name": "Calle Rafael Curiel",
+                "way_points": [
+                  1,
+                  4
+                ]
+              },
+              {
+                "distance": 76.8,
+                "duration": 55.3,
+                "type": 0,
+                "instruction": "Turn left onto Calle Antonio de la Barrera",
+                "name": "Calle Antonio de la Barrera",
+                "way_points": [
+                  4,
+                  6
+                ]
+              },
+              {
+                "distance": 34.9,
+                "duration": 25.1,
+                "type": 4,
+                "instruction": "Turn slight left onto Calle Coronel Matías Rodríguez",
+                "name": "Calle Coronel Matías Rodríguez",
+                "way_points": [
+                  6,
+                  8
+                ]
+              },
+              {
+                "distance": 224.5,
+                "duration": 161.7,
+                "type": 13,
+                "instruction": "Keep right onto Calle General E. Andrade",
+                "name": "Calle General E. Andrade",
+                "way_points": [
+                  8,
+                  16
+                ]
+              },
+              {
+                "distance": 42.9,
+                "duration": 30.9,
+                "type": 1,
+                "instruction": "Turn right onto Calle Esteban Coronado",
+                "name": "Calle Esteban Coronado",
+                "way_points": [
+                  16,
+                  17
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Esteban Coronado, straight ahead",
+                "name": "-",
+                "way_points": [
+                  17,
+                  17
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          17
+        ],
+        "summary": {
+          "distance": 621.5,
+          "duration": 447.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.069581,
+            19.349409
+          ],
+          [
+            -99.069321,
+            19.350439
+          ],
+          [
+            -99.068945,
+            19.350358
+          ],
+          [
+            -99.068558,
+            19.350278
+          ],
+          [
+            -99.068162,
+            19.350194
+          ],
+          [
+            -99.068043,
+            19.350678
+          ],
+          [
+            -99.068008,
+            19.350869
+          ],
+          [
+            -99.068094,
+            19.351016
+          ],
+          [
+            -99.068135,
+            19.351157
+          ],
+          [
+            -99.068107,
+            19.351226
+          ],
+          [
+            -99.068032,
+            19.351305
+          ],
+          [
+            -99.06797,
+            19.351519
+          ],
+          [
+            -99.067898,
+            19.351853
+          ],
+          [
+            -99.067871,
+            19.351993
+          ],
+          [
+            -99.067791,
+            19.352371
+          ],
+          [
+            -99.067706,
+            19.352742
+          ],
+          [
+            -99.067639,
+            19.353105
+          ],
+          [
+            -99.067239,
+            19.353028
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306070021,
+    "query": {
+      "coordinates": [
+        [
+          -99.0695814,
+          19.3494091
+        ],
+        [
+          -99.067239,
+          19.3530279
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

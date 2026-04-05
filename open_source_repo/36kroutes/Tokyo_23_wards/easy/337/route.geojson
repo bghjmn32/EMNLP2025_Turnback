@@ -1,0 +1,243 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    139.585649,
+    35.750753,
+    139.59262,
+    35.751129
+  ],
+  "features": [
+    {
+      "bbox": [
+        139.585649,
+        35.750753,
+        139.59262,
+        35.751129
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 644.3,
+            "duration": 463.9,
+            "steps": [
+              {
+                "distance": 9.7,
+                "duration": 7.0,
+                "type": 11,
+                "instruction": "Head north on 大泉学園通り",
+                "name": "大泉学園通り",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 86.6,
+                "duration": 62.4,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  4
+                ]
+              },
+              {
+                "distance": 17.0,
+                "duration": 12.3,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  4,
+                  8
+                ]
+              },
+              {
+                "distance": 2.1,
+                "duration": 1.5,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  8,
+                  9
+                ]
+              },
+              {
+                "distance": 528.8,
+                "duration": 380.8,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  9,
+                  26
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  26,
+                  26
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          26
+        ],
+        "summary": {
+          "distance": 644.3,
+          "duration": 463.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            139.585649,
+            35.751042
+          ],
+          [
+            139.585661,
+            35.751129
+          ],
+          [
+            139.585739,
+            35.751127
+          ],
+          [
+            139.585791,
+            35.751098
+          ],
+          [
+            139.586609,
+            35.751072
+          ],
+          [
+            139.586609,
+            35.751089
+          ],
+          [
+            139.58665,
+            35.751087
+          ],
+          [
+            139.586704,
+            35.751086
+          ],
+          [
+            139.586777,
+            35.751085
+          ],
+          [
+            139.586776,
+            35.751066
+          ],
+          [
+            139.587176,
+            35.751054
+          ],
+          [
+            139.587363,
+            35.751049
+          ],
+          [
+            139.587642,
+            35.751038
+          ],
+          [
+            139.587904,
+            35.751028
+          ],
+          [
+            139.588073,
+            35.751021
+          ],
+          [
+            139.588525,
+            35.751002
+          ],
+          [
+            139.588571,
+            35.750999
+          ],
+          [
+            139.588793,
+            35.750981
+          ],
+          [
+            139.589287,
+            35.75094
+          ],
+          [
+            139.590025,
+            35.750883
+          ],
+          [
+            139.590563,
+            35.750834
+          ],
+          [
+            139.591329,
+            35.750779
+          ],
+          [
+            139.591421,
+            35.750771
+          ],
+          [
+            139.591799,
+            35.750762
+          ],
+          [
+            139.592518,
+            35.750753
+          ],
+          [
+            139.592567,
+            35.750755
+          ],
+          [
+            139.59262,
+            35.750754
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756133782962,
+    "query": {
+      "coordinates": [
+        [
+          139.5856494,
+          35.7510419
+        ],
+        [
+          139.5926201,
+          35.7507541
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

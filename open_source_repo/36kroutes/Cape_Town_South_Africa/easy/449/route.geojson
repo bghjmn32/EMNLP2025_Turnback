@@ -1,0 +1,165 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.450073,
+    -33.92975,
+    18.453278,
+    -33.926849
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.450073,
+        -33.92975,
+        18.453278,
+        -33.926849
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 604.1,
+            "duration": 435.0,
+            "steps": [
+              {
+                "distance": 5.0,
+                "duration": 3.6,
+                "type": 11,
+                "instruction": "Head south on Plein Street",
+                "name": "Plein Street",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 298.4,
+                "duration": 214.8,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  7
+                ]
+              },
+              {
+                "distance": 300.7,
+                "duration": 216.5,
+                "type": 1,
+                "instruction": "Turn right onto Dublin Street",
+                "name": "Dublin Street",
+                "way_points": [
+                  7,
+                  12
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Dublin Street, straight ahead",
+                "name": "-",
+                "way_points": [
+                  12,
+                  12
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          12
+        ],
+        "summary": {
+          "distance": 604.1,
+          "duration": 435.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.450091,
+            -33.926849
+          ],
+          [
+            18.450073,
+            -33.926892
+          ],
+          [
+            18.450664,
+            -33.926956
+          ],
+          [
+            18.451601,
+            -33.927062
+          ],
+          [
+            18.452402,
+            -33.927154
+          ],
+          [
+            18.452844,
+            -33.927205
+          ],
+          [
+            18.453034,
+            -33.927228
+          ],
+          [
+            18.453278,
+            -33.927255
+          ],
+          [
+            18.453191,
+            -33.927707
+          ],
+          [
+            18.452939,
+            -33.928156
+          ],
+          [
+            18.452887,
+            -33.928249
+          ],
+          [
+            18.452591,
+            -33.928776
+          ],
+          [
+            18.452065,
+            -33.92975
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756804846742,
+    "query": {
+      "coordinates": [
+        [
+          18.450091,
+          -33.9268493
+        ],
+        [
+          18.4520651,
+          -33.9297501
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

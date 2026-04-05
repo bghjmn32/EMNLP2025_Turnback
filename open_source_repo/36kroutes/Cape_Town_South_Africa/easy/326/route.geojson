@@ -1,0 +1,211 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.493088,
+    -33.892036,
+    18.495337,
+    -33.885407
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.493088,
+        -33.892036,
+        18.495337,
+        -33.885407
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 939.5,
+            "duration": 676.5,
+            "steps": [
+              {
+                "distance": 198.7,
+                "duration": 143.0,
+                "type": 11,
+                "instruction": "Head east on Jansen Road",
+                "name": "Jansen Road",
+                "way_points": [
+                  0,
+                  4
+                ]
+              },
+              {
+                "distance": 25.9,
+                "duration": 18.6,
+                "type": 1,
+                "instruction": "Turn right onto Koeberg Road, M5",
+                "name": "Koeberg Road, M5",
+                "way_points": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "distance": 18.3,
+                "duration": 13.2,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 684.8,
+                "duration": 493.1,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  6,
+                  17
+                ]
+              },
+              {
+                "distance": 11.8,
+                "duration": 8.5,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  17,
+                  18
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  18,
+                  18
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          18
+        ],
+        "summary": {
+          "distance": 939.5,
+          "duration": 676.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.493088,
+            -33.885407
+          ],
+          [
+            18.494014,
+            -33.885605
+          ],
+          [
+            18.49436,
+            -33.885679
+          ],
+          [
+            18.49497,
+            -33.88581
+          ],
+          [
+            18.495173,
+            -33.885853
+          ],
+          [
+            18.495141,
+            -33.886084
+          ],
+          [
+            18.495337,
+            -33.886113
+          ],
+          [
+            18.495261,
+            -33.886589
+          ],
+          [
+            18.495096,
+            -33.887249
+          ],
+          [
+            18.495008,
+            -33.887496
+          ],
+          [
+            18.494371,
+            -33.889268
+          ],
+          [
+            18.494314,
+            -33.889354
+          ],
+          [
+            18.494024,
+            -33.890212
+          ],
+          [
+            18.493905,
+            -33.890547
+          ],
+          [
+            18.493759,
+            -33.890956
+          ],
+          [
+            18.493571,
+            -33.891484
+          ],
+          [
+            18.493516,
+            -33.891591
+          ],
+          [
+            18.493351,
+            -33.892036
+          ],
+          [
+            18.493227,
+            -33.892008
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756804598241,
+    "query": {
+      "coordinates": [
+        [
+          18.4930884,
+          -33.8854073
+        ],
+        [
+          18.4932273,
+          -33.8920085
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -104.707874,
+    39.696513,
+    -104.70357,
+    39.698408
+  ],
+  "features": [
+    {
+      "bbox": [
+        -104.707874,
+        39.696513,
+        -104.70357,
+        39.698408
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 664.8,
+            "duration": 478.7,
+            "steps": [
+              {
+                "distance": 297.3,
+                "duration": 214.0,
+                "type": 11,
+                "instruction": "Head east on South Eaton Park Court",
+                "name": "South Eaton Park Court",
+                "way_points": [
+                  0,
+                  12
+                ]
+              },
+              {
+                "distance": 367.5,
+                "duration": 264.6,
+                "type": 1,
+                "instruction": "Turn right onto East Mississippi Avenue, CR 14",
+                "name": "East Mississippi Avenue, CR 14",
+                "way_points": [
+                  12,
+                  13
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at East Mississippi Avenue, CR 14, straight ahead",
+                "name": "-",
+                "way_points": [
+                  13,
+                  13
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          13
+        ],
+        "summary": {
+          "distance": 664.8,
+          "duration": 478.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -104.705226,
+            39.698408
+          ],
+          [
+            -104.704717,
+            39.698388
+          ],
+          [
+            -104.704322,
+            39.69829
+          ],
+          [
+            -104.704187,
+            39.698215
+          ],
+          [
+            -104.704071,
+            39.698152
+          ],
+          [
+            -104.703904,
+            39.698021
+          ],
+          [
+            -104.703827,
+            39.697932
+          ],
+          [
+            -104.703743,
+            39.697836
+          ],
+          [
+            -104.703625,
+            39.697612
+          ],
+          [
+            -104.703581,
+            39.697388
+          ],
+          [
+            -104.70357,
+            39.697131
+          ],
+          [
+            -104.703576,
+            39.696667
+          ],
+          [
+            -104.703579,
+            39.696538
+          ],
+          [
+            -104.707874,
+            39.696513
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756305869294,
+    "query": {
+      "coordinates": [
+        [
+          -104.7052264,
+          39.6984077
+        ],
+        [
+          -104.7078745,
+          39.6965129
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

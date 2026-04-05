@@ -1,0 +1,280 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.391179,
+    -22.923896,
+    -43.380141,
+    -22.919481
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.391179,
+        -22.923896,
+        -43.380141,
+        -22.919481
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1569.8,
+            "duration": 1130.3,
+            "steps": [
+              {
+                "distance": 42.6,
+                "duration": 30.6,
+                "type": 11,
+                "instruction": "Head east on Estrada Rodrigues Caldas",
+                "name": "Estrada Rodrigues Caldas",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 6.9,
+                "duration": 5.0,
+                "type": 2,
+                "instruction": "Turn sharp left onto Rua Pico do Papagaio",
+                "name": "Rua Pico do Papagaio",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 471.8,
+                "duration": 339.7,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  2,
+                  5
+                ]
+              },
+              {
+                "distance": 437.2,
+                "duration": 314.8,
+                "type": 1,
+                "instruction": "Turn right onto Rua Abram Lustman",
+                "name": "Rua Abram Lustman",
+                "way_points": [
+                  5,
+                  12
+                ]
+              },
+              {
+                "distance": 134.2,
+                "duration": 96.6,
+                "type": 0,
+                "instruction": "Turn left onto Rua Monte Verde",
+                "name": "Rua Monte Verde",
+                "way_points": [
+                  12,
+                  15
+                ]
+              },
+              {
+                "distance": 131.5,
+                "duration": 94.7,
+                "type": 1,
+                "instruction": "Turn right onto Rua Katrin Kemper",
+                "name": "Rua Katrin Kemper",
+                "way_points": [
+                  15,
+                  19
+                ]
+              },
+              {
+                "distance": 332.8,
+                "duration": 239.6,
+                "type": 0,
+                "instruction": "Turn left onto Estrada do Rio Grande",
+                "name": "Estrada do Rio Grande",
+                "way_points": [
+                  19,
+                  26
+                ]
+              },
+              {
+                "distance": 12.8,
+                "duration": 9.2,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  26,
+                  27
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  27,
+                  27
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          27
+        ],
+        "summary": {
+          "distance": 1569.8,
+          "duration": 1130.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.380554,
+            -22.923052
+          ],
+          [
+            -43.380141,
+            -22.923008
+          ],
+          [
+            -43.380173,
+            -22.922954
+          ],
+          [
+            -43.382133,
+            -22.923175
+          ],
+          [
+            -43.382841,
+            -22.92334
+          ],
+          [
+            -43.384645,
+            -22.923896
+          ],
+          [
+            -43.384704,
+            -22.923758
+          ],
+          [
+            -43.38488,
+            -22.923314
+          ],
+          [
+            -43.385147,
+            -22.922572
+          ],
+          [
+            -43.38535,
+            -22.922071
+          ],
+          [
+            -43.385482,
+            -22.921873
+          ],
+          [
+            -43.385688,
+            -22.921606
+          ],
+          [
+            -43.386645,
+            -22.920474
+          ],
+          [
+            -43.387263,
+            -22.92063
+          ],
+          [
+            -43.387642,
+            -22.920679
+          ],
+          [
+            -43.387929,
+            -22.92068
+          ],
+          [
+            -43.387957,
+            -22.920595
+          ],
+          [
+            -43.387939,
+            -22.920124
+          ],
+          [
+            -43.387936,
+            -22.91969
+          ],
+          [
+            -43.387931,
+            -22.919502
+          ],
+          [
+            -43.389464,
+            -22.919481
+          ],
+          [
+            -43.389801,
+            -22.9195
+          ],
+          [
+            -43.389942,
+            -22.919512
+          ],
+          [
+            -43.390327,
+            -22.919544
+          ],
+          [
+            -43.390591,
+            -22.919578
+          ],
+          [
+            -43.391023,
+            -22.919616
+          ],
+          [
+            -43.391172,
+            -22.919631
+          ],
+          [
+            -43.391179,
+            -22.919516
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756397000562,
+    "query": {
+      "coordinates": [
+        [
+          -43.3805541,
+          -22.9230523
+        ],
+        [
+          -43.3911795,
+          -22.9195164
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

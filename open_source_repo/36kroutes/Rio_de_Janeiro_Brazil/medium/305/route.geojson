@@ -1,0 +1,197 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.688122,
+    -22.949804,
+    -43.681163,
+    -22.93993
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.688122,
+        -22.949804,
+        -43.681163,
+        -22.93993
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1344.2,
+            "duration": 967.8,
+            "steps": [
+              {
+                "distance": 40.7,
+                "duration": 29.3,
+                "type": 11,
+                "instruction": "Head north on Estrada de Sepetiba",
+                "name": "Estrada de Sepetiba",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 1295.2,
+                "duration": 932.6,
+                "type": 0,
+                "instruction": "Turn left onto Estrada São Domingos Sávio",
+                "name": "Estrada São Domingos Sávio",
+                "way_points": [
+                  1,
+                  19
+                ]
+              },
+              {
+                "distance": 8.2,
+                "duration": 5.9,
+                "type": 0,
+                "instruction": "Turn left onto Estrada Vitor Dumas",
+                "name": "Estrada Vitor Dumas",
+                "way_points": [
+                  19,
+                  20
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Estrada Vitor Dumas, straight ahead",
+                "name": "-",
+                "way_points": [
+                  20,
+                  20
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          20
+        ],
+        "summary": {
+          "distance": 1344.2,
+          "duration": 967.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.681293,
+            -22.949804
+          ],
+          [
+            -43.681163,
+            -22.949458
+          ],
+          [
+            -43.681903,
+            -22.948776
+          ],
+          [
+            -43.68257,
+            -22.94811
+          ],
+          [
+            -43.682879,
+            -22.947807
+          ],
+          [
+            -43.68389,
+            -22.946743
+          ],
+          [
+            -43.684207,
+            -22.94641
+          ],
+          [
+            -43.684633,
+            -22.945949
+          ],
+          [
+            -43.684786,
+            -22.945808
+          ],
+          [
+            -43.685176,
+            -22.945414
+          ],
+          [
+            -43.685587,
+            -22.944973
+          ],
+          [
+            -43.685774,
+            -22.944777
+          ],
+          [
+            -43.686206,
+            -22.944159
+          ],
+          [
+            -43.686447,
+            -22.943798
+          ],
+          [
+            -43.686691,
+            -22.943334
+          ],
+          [
+            -43.68692,
+            -22.942948
+          ],
+          [
+            -43.687083,
+            -22.942667
+          ],
+          [
+            -43.687574,
+            -22.94174
+          ],
+          [
+            -43.687849,
+            -22.94062
+          ],
+          [
+            -43.688049,
+            -22.93993
+          ],
+          [
+            -43.688122,
+            -22.93996
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756397358469,
+    "query": {
+      "coordinates": [
+        [
+          -43.6812932,
+          -22.9498037
+        ],
+        [
+          -43.6881222,
+          -22.9399603
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

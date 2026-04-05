@@ -1,0 +1,278 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.599199,
+    -22.895169,
+    -43.593748,
+    -22.889178
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.599199,
+        -22.895169,
+        -43.593748,
+        -22.889178
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1163.0,
+            "duration": 837.4,
+            "steps": [
+              {
+                "distance": 56.7,
+                "duration": 40.8,
+                "type": 11,
+                "instruction": "Head east",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 125.8,
+                "duration": 90.6,
+                "type": 1,
+                "instruction": "Turn right onto Beco do Lazario",
+                "name": "Beco do Lazario",
+                "way_points": [
+                  1,
+                  4
+                ]
+              },
+              {
+                "distance": 471.2,
+                "duration": 339.3,
+                "type": 0,
+                "instruction": "Turn left onto Rua Caracaraí",
+                "name": "Rua Caracaraí",
+                "way_points": [
+                  4,
+                  15
+                ]
+              },
+              {
+                "distance": 105.4,
+                "duration": 75.9,
+                "type": 0,
+                "instruction": "Turn left onto Caminho da Tutóia",
+                "name": "Caminho da Tutóia",
+                "way_points": [
+                  15,
+                  17
+                ]
+              },
+              {
+                "distance": 177.6,
+                "duration": 127.9,
+                "type": 1,
+                "instruction": "Turn right onto Rua Raiz da Oliveira",
+                "name": "Rua Raiz da Oliveira",
+                "way_points": [
+                  17,
+                  22
+                ]
+              },
+              {
+                "distance": 166.2,
+                "duration": 119.7,
+                "type": 0,
+                "instruction": "Turn left onto Rua Soldado Manuel Gomes",
+                "name": "Rua Soldado Manuel Gomes",
+                "way_points": [
+                  22,
+                  23
+                ]
+              },
+              {
+                "distance": 60.1,
+                "duration": 43.3,
+                "type": 7,
+                "instruction": "Enter the roundabout and take the 5th exit onto Praça Cabo Luís Quevedo",
+                "name": "Praça Cabo Luís Quevedo",
+                "exit_number": 5,
+                "way_points": [
+                  23,
+                  29
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Praça Cabo Luís Quevedo, straight ahead",
+                "name": "-",
+                "way_points": [
+                  29,
+                  29
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          29
+        ],
+        "summary": {
+          "distance": 1163.0,
+          "duration": 837.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.599103,
+            -22.889178
+          ],
+          [
+            -43.598573,
+            -22.889326
+          ],
+          [
+            -43.598621,
+            -22.889491
+          ],
+          [
+            -43.599047,
+            -22.890018
+          ],
+          [
+            -43.599199,
+            -22.890287
+          ],
+          [
+            -43.599107,
+            -22.89035
+          ],
+          [
+            -43.598055,
+            -22.891071
+          ],
+          [
+            -43.59797,
+            -22.891122
+          ],
+          [
+            -43.59741,
+            -22.8915
+          ],
+          [
+            -43.597187,
+            -22.891676
+          ],
+          [
+            -43.597041,
+            -22.891848
+          ],
+          [
+            -43.596948,
+            -22.892052
+          ],
+          [
+            -43.596886,
+            -22.892264
+          ],
+          [
+            -43.596908,
+            -22.892619
+          ],
+          [
+            -43.596979,
+            -22.893334
+          ],
+          [
+            -43.596997,
+            -22.893521
+          ],
+          [
+            -43.596192,
+            -22.893496
+          ],
+          [
+            -43.595969,
+            -22.893489
+          ],
+          [
+            -43.595943,
+            -22.894027
+          ],
+          [
+            -43.595925,
+            -22.894551
+          ],
+          [
+            -43.595918,
+            -22.8948
+          ],
+          [
+            -43.595896,
+            -22.894992
+          ],
+          [
+            -43.595847,
+            -22.895073
+          ],
+          [
+            -43.594228,
+            -22.895169
+          ],
+          [
+            -43.594156,
+            -22.895057
+          ],
+          [
+            -43.5941,
+            -22.895015
+          ],
+          [
+            -43.594015,
+            -22.894979
+          ],
+          [
+            -43.593923,
+            -22.894968
+          ],
+          [
+            -43.593831,
+            -22.894983
+          ],
+          [
+            -43.593748,
+            -22.895022
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756394977214,
+    "query": {
+      "coordinates": [
+        [
+          -43.5991026,
+          -22.8891782
+        ],
+        [
+          -43.593748,
+          -22.8950218
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

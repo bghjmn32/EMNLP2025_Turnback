@@ -1,0 +1,161 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.649347,
+    -22.926226,
+    -43.645893,
+    -22.924357
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.649347,
+        -22.926226,
+        -43.645893,
+        -22.924357
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 529.1,
+            "duration": 381.0,
+            "steps": [
+              {
+                "distance": 213.9,
+                "duration": 154.0,
+                "type": 11,
+                "instruction": "Head southwest on Rua da Granja",
+                "name": "Rua da Granja",
+                "way_points": [
+                  0,
+                  7
+                ]
+              },
+              {
+                "distance": 62.9,
+                "duration": 45.3,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 252.3,
+                "duration": 181.7,
+                "type": 1,
+                "instruction": "Turn right onto Rua Fiorentina Cordeiro de Sousa",
+                "name": "Rua Fiorentina Cordeiro de Sousa",
+                "way_points": [
+                  8,
+                  11
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Rua Fiorentina Cordeiro de Sousa, straight ahead",
+                "name": "-",
+                "way_points": [
+                  11,
+                  11
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          11
+        ],
+        "summary": {
+          "distance": 529.1,
+          "duration": 381.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.645893,
+            -22.924357
+          ],
+          [
+            -43.646439,
+            -22.924983
+          ],
+          [
+            -43.646618,
+            -22.925177
+          ],
+          [
+            -43.646739,
+            -22.925323
+          ],
+          [
+            -43.6469,
+            -22.925505
+          ],
+          [
+            -43.647102,
+            -22.925768
+          ],
+          [
+            -43.647136,
+            -22.925855
+          ],
+          [
+            -43.647131,
+            -22.925888
+          ],
+          [
+            -43.647623,
+            -22.926226
+          ],
+          [
+            -43.647958,
+            -22.925866
+          ],
+          [
+            -43.648259,
+            -22.925581
+          ],
+          [
+            -43.649347,
+            -22.924607
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756391206573,
+    "query": {
+      "coordinates": [
+        [
+          -43.6458935,
+          -22.9243572
+        ],
+        [
+          -43.6493471,
+          -22.9246071
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,287 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    11.565922,
+    48.207841,
+    11.570889,
+    48.213226
+  ],
+  "features": [
+    {
+      "bbox": [
+        11.565922,
+        48.207841,
+        11.570889,
+        48.213226
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 915.8,
+            "duration": 659.3,
+            "steps": [
+              {
+                "distance": 17.3,
+                "duration": 12.5,
+                "type": 11,
+                "instruction": "Head east on Sandbienenweg",
+                "name": "Sandbienenweg",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 408.3,
+                "duration": 294.0,
+                "type": 1,
+                "instruction": "Turn right onto Graslilienanger",
+                "name": "Graslilienanger",
+                "way_points": [
+                  1,
+                  13
+                ]
+              },
+              {
+                "distance": 33.0,
+                "duration": 23.8,
+                "type": 1,
+                "instruction": "Turn right onto Schneeheideanger",
+                "name": "Schneeheideanger",
+                "way_points": [
+                  13,
+                  14
+                ]
+              },
+              {
+                "distance": 31.4,
+                "duration": 22.6,
+                "type": 0,
+                "instruction": "Turn left onto Neuherbergstraße",
+                "name": "Neuherbergstraße",
+                "way_points": [
+                  14,
+                  15
+                ]
+              },
+              {
+                "distance": 12.2,
+                "duration": 8.7,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  15,
+                  16
+                ]
+              },
+              {
+                "distance": 10.1,
+                "duration": 7.3,
+                "type": 0,
+                "instruction": "Turn left onto Neuherbergstraße",
+                "name": "Neuherbergstraße",
+                "way_points": [
+                  16,
+                  17
+                ]
+              },
+              {
+                "distance": 13.1,
+                "duration": 9.4,
+                "type": 1,
+                "instruction": "Turn right onto Neuherbergstraße",
+                "name": "Neuherbergstraße",
+                "way_points": [
+                  17,
+                  18
+                ]
+              },
+              {
+                "distance": 154.8,
+                "duration": 111.4,
+                "type": 6,
+                "instruction": "Continue straight onto Hugo-Wolf-Straße",
+                "name": "Hugo-Wolf-Straße",
+                "way_points": [
+                  18,
+                  22
+                ]
+              },
+              {
+                "distance": 235.6,
+                "duration": 169.7,
+                "type": 0,
+                "instruction": "Turn left onto Wegenerstraße",
+                "name": "Wegenerstraße",
+                "way_points": [
+                  22,
+                  26
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Wegenerstraße, straight ahead",
+                "name": "-",
+                "way_points": [
+                  26,
+                  26
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          26
+        ],
+        "summary": {
+          "distance": 915.8,
+          "duration": 659.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            11.565922,
+            48.213211
+          ],
+          [
+            11.566155,
+            48.213226
+          ],
+          [
+            11.566305,
+            48.212245
+          ],
+          [
+            11.566415,
+            48.211343
+          ],
+          [
+            11.566432,
+            48.21128
+          ],
+          [
+            11.566487,
+            48.210936
+          ],
+          [
+            11.566494,
+            48.21088
+          ],
+          [
+            11.5665,
+            48.210823
+          ],
+          [
+            11.56656,
+            48.210327
+          ],
+          [
+            11.566568,
+            48.210278
+          ],
+          [
+            11.566584,
+            48.210173
+          ],
+          [
+            11.566647,
+            48.209785
+          ],
+          [
+            11.566673,
+            48.209627
+          ],
+          [
+            11.566755,
+            48.209635
+          ],
+          [
+            11.566853,
+            48.209345
+          ],
+          [
+            11.567261,
+            48.20942
+          ],
+          [
+            11.567306,
+            48.209315
+          ],
+          [
+            11.567439,
+            48.209339
+          ],
+          [
+            11.567469,
+            48.209223
+          ],
+          [
+            11.567497,
+            48.209126
+          ],
+          [
+            11.567532,
+            48.20889
+          ],
+          [
+            11.56756,
+            48.208712
+          ],
+          [
+            11.567711,
+            48.207841
+          ],
+          [
+            11.567777,
+            48.207843
+          ],
+          [
+            11.568342,
+            48.207864
+          ],
+          [
+            11.56988,
+            48.20786
+          ],
+          [
+            11.570889,
+            48.207844
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756137222509,
+    "query": {
+      "coordinates": [
+        [
+          11.5659223,
+          48.2132112
+        ],
+        [
+          11.5708894,
+          48.2078438
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    150.945907,
+    -33.812862,
+    150.95902,
+    -33.809425
+  ],
+  "features": [
+    {
+      "bbox": [
+        150.945907,
+        -33.812862,
+        150.95902,
+        -33.809425
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1415.6,
+            "duration": 1019.2,
+            "steps": [
+              {
+                "distance": 9.4,
+                "duration": 6.8,
+                "type": 11,
+                "instruction": "Head northeast on Targo Road",
+                "name": "Targo Road",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 1208.6,
+                "duration": 870.2,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  11
+                ]
+              },
+              {
+                "distance": 85.8,
+                "duration": 61.8,
+                "type": 12,
+                "instruction": "Keep left",
+                "name": "-",
+                "way_points": [
+                  11,
+                  14
+                ]
+              },
+              {
+                "distance": 7.4,
+                "duration": 5.3,
+                "type": 1,
+                "instruction": "Turn right onto Frederick Street",
+                "name": "Frederick Street",
+                "way_points": [
+                  14,
+                  15
+                ]
+              },
+              {
+                "distance": 104.4,
+                "duration": 75.1,
+                "type": 0,
+                "instruction": "Turn left onto Jones Street",
+                "name": "Jones Street",
+                "way_points": [
+                  15,
+                  16
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Jones Street, straight ahead",
+                "name": "-",
+                "way_points": [
+                  16,
+                  16
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          16
+        ],
+        "summary": {
+          "distance": 1415.6,
+          "duration": 1019.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            150.945907,
+            -33.809499
+          ],
+          [
+            150.945956,
+            -33.809425
+          ],
+          [
+            150.948238,
+            -33.810387
+          ],
+          [
+            150.948701,
+            -33.810563
+          ],
+          [
+            150.949445,
+            -33.810803
+          ],
+          [
+            150.949537,
+            -33.810829
+          ],
+          [
+            150.949627,
+            -33.810854
+          ],
+          [
+            150.952291,
+            -33.81147
+          ],
+          [
+            150.9524,
+            -33.811496
+          ],
+          [
+            150.95251,
+            -33.811522
+          ],
+          [
+            150.95605,
+            -33.81233
+          ],
+          [
+            150.958321,
+            -33.812862
+          ],
+          [
+            150.958411,
+            -33.812826
+          ],
+          [
+            150.958624,
+            -33.812195
+          ],
+          [
+            150.958634,
+            -33.812163
+          ],
+          [
+            150.958711,
+            -33.812181
+          ],
+          [
+            150.95902,
+            -33.811278
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756400527417,
+    "query": {
+      "coordinates": [
+        [
+          150.9459068,
+          -33.8094991
+        ],
+        [
+          150.9590195,
+          -33.8112783
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

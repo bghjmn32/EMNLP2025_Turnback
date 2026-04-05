@@ -1,0 +1,194 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.337889,
+    -22.935519,
+    -43.332796,
+    -22.930948
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.337889,
+        -22.935519,
+        -43.332796,
+        -22.930948
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 781.2,
+            "duration": 562.5,
+            "steps": [
+              {
+                "distance": 39.7,
+                "duration": 28.6,
+                "type": 11,
+                "instruction": "Head southeast",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 509.9,
+                "duration": 367.1,
+                "type": 1,
+                "instruction": "Turn right onto Rua Joaquim Pinheiro",
+                "name": "Rua Joaquim Pinheiro",
+                "way_points": [
+                  1,
+                  10
+                ]
+              },
+              {
+                "distance": 231.6,
+                "duration": 166.8,
+                "type": 7,
+                "instruction": "Enter the roundabout and take the 3rd exit onto Rua Araguaia",
+                "name": "Rua Araguaia",
+                "exit_number": 3,
+                "way_points": [
+                  10,
+                  19
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Rua Araguaia, straight ahead",
+                "name": "-",
+                "way_points": [
+                  19,
+                  19
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          19
+        ],
+        "summary": {
+          "distance": 781.2,
+          "duration": 562.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.333105,
+            -22.930948
+          ],
+          [
+            -43.332796,
+            -22.931165
+          ],
+          [
+            -43.33304,
+            -22.931429
+          ],
+          [
+            -43.333244,
+            -22.931658
+          ],
+          [
+            -43.333472,
+            -22.931912
+          ],
+          [
+            -43.333664,
+            -22.932123
+          ],
+          [
+            -43.334581,
+            -22.933154
+          ],
+          [
+            -43.33548,
+            -22.934167
+          ],
+          [
+            -43.335783,
+            -22.934508
+          ],
+          [
+            -43.335821,
+            -22.934551
+          ],
+          [
+            -43.33596,
+            -22.934706
+          ],
+          [
+            -43.336085,
+            -22.934693
+          ],
+          [
+            -43.336201,
+            -22.93474
+          ],
+          [
+            -43.336264,
+            -22.934811
+          ],
+          [
+            -43.336286,
+            -22.93487
+          ],
+          [
+            -43.336278,
+            -22.934991
+          ],
+          [
+            -43.337004,
+            -22.935229
+          ],
+          [
+            -43.337348,
+            -22.935342
+          ],
+          [
+            -43.337376,
+            -22.935351
+          ],
+          [
+            -43.337889,
+            -22.935519
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756393291249,
+    "query": {
+      "coordinates": [
+        [
+          -43.3331047,
+          -22.9309482
+        ],
+        [
+          -43.337889,
+          -22.9355195
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

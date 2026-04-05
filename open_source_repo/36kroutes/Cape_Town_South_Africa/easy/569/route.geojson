@@ -1,0 +1,230 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.453467,
+    -34.046679,
+    18.459332,
+    -34.045159
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.453467,
+        -34.046679,
+        18.459332,
+        -34.045159
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 688.1,
+            "duration": 495.4,
+            "steps": [
+              {
+                "distance": 52.4,
+                "duration": 37.8,
+                "type": 11,
+                "instruction": "Head east",
+                "name": "-",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 9.4,
+                "duration": 6.8,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 46.5,
+                "duration": 33.5,
+                "type": 1,
+                "instruction": "Turn right onto Childrens Way",
+                "name": "Childrens Way",
+                "way_points": [
+                  4,
+                  6
+                ]
+              },
+              {
+                "distance": 290.1,
+                "duration": 208.9,
+                "type": 1,
+                "instruction": "Turn right onto Fountain Road",
+                "name": "Fountain Road",
+                "way_points": [
+                  6,
+                  10
+                ]
+              },
+              {
+                "distance": 24.9,
+                "duration": 17.9,
+                "type": 6,
+                "instruction": "Continue straight",
+                "name": "-",
+                "way_points": [
+                  10,
+                  12
+                ]
+              },
+              {
+                "distance": 264.8,
+                "duration": 190.6,
+                "type": 4,
+                "instruction": "Turn slight left onto Fountain Road",
+                "name": "Fountain Road",
+                "way_points": [
+                  12,
+                  20
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Fountain Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  20,
+                  20
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          20
+        ],
+        "summary": {
+          "distance": 688.1,
+          "duration": 495.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.458899,
+            -34.046064
+          ],
+          [
+            18.45898,
+            -34.046049
+          ],
+          [
+            18.459292,
+            -34.046141
+          ],
+          [
+            18.459239,
+            -34.046261
+          ],
+          [
+            18.459332,
+            -34.046296
+          ],
+          [
+            18.459208,
+            -34.046523
+          ],
+          [
+            18.45913,
+            -34.046679
+          ],
+          [
+            18.458617,
+            -34.046612
+          ],
+          [
+            18.458154,
+            -34.046543
+          ],
+          [
+            18.457098,
+            -34.0464
+          ],
+          [
+            18.456025,
+            -34.046247
+          ],
+          [
+            18.455797,
+            -34.046232
+          ],
+          [
+            18.455761,
+            -34.046214
+          ],
+          [
+            18.454657,
+            -34.046066
+          ],
+          [
+            18.454562,
+            -34.046053
+          ],
+          [
+            18.454286,
+            -34.046012
+          ],
+          [
+            18.454152,
+            -34.045976
+          ],
+          [
+            18.454027,
+            -34.045922
+          ],
+          [
+            18.453921,
+            -34.045856
+          ],
+          [
+            18.453735,
+            -34.045673
+          ],
+          [
+            18.453467,
+            -34.045159
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756805081838,
+    "query": {
+      "coordinates": [
+        [
+          18.4588987,
+          -34.0460642
+        ],
+        [
+          18.4534673,
+          -34.0451595
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

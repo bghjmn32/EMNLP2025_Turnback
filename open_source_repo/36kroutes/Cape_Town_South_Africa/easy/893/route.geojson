@@ -1,0 +1,211 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.359032,
+    -34.040529,
+    18.364436,
+    -34.038885
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.359032,
+        -34.040529,
+        18.364436,
+        -34.038885
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 688.2,
+            "duration": 495.5,
+            "steps": [
+              {
+                "distance": 135.1,
+                "duration": 97.3,
+                "type": 11,
+                "instruction": "Head southeast on Ixia Street",
+                "name": "Ixia Street",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 448.5,
+                "duration": 323.0,
+                "type": 1,
+                "instruction": "Turn right onto Andrews Road",
+                "name": "Andrews Road",
+                "way_points": [
+                  3,
+                  9
+                ]
+              },
+              {
+                "distance": 24.8,
+                "duration": 17.8,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  9,
+                  11
+                ]
+              },
+              {
+                "distance": 55.2,
+                "duration": 39.7,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  11,
+                  17
+                ]
+              },
+              {
+                "distance": 24.6,
+                "duration": 17.7,
+                "type": 1,
+                "instruction": "Turn right onto Main Road, M6",
+                "name": "Main Road, M6",
+                "way_points": [
+                  17,
+                  18
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Main Road, M6, straight ahead",
+                "name": "-",
+                "way_points": [
+                  18,
+                  18
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          18
+        ],
+        "summary": {
+          "distance": 688.2,
+          "duration": 495.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.364063,
+            -34.038885
+          ],
+          [
+            18.364295,
+            -34.039317
+          ],
+          [
+            18.364327,
+            -34.039568
+          ],
+          [
+            18.364436,
+            -34.040049
+          ],
+          [
+            18.363566,
+            -34.040136
+          ],
+          [
+            18.362958,
+            -34.040196
+          ],
+          [
+            18.362099,
+            -34.040284
+          ],
+          [
+            18.361331,
+            -34.040357
+          ],
+          [
+            18.361175,
+            -34.040373
+          ],
+          [
+            18.359603,
+            -34.040529
+          ],
+          [
+            18.359582,
+            -34.040413
+          ],
+          [
+            18.359516,
+            -34.040322
+          ],
+          [
+            18.359543,
+            -34.040307
+          ],
+          [
+            18.359546,
+            -34.040279
+          ],
+          [
+            18.359535,
+            -34.040196
+          ],
+          [
+            18.359516,
+            -34.040176
+          ],
+          [
+            18.359424,
+            -34.040161
+          ],
+          [
+            18.359117,
+            -34.040144
+          ],
+          [
+            18.359032,
+            -34.039935
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756805878203,
+    "query": {
+      "coordinates": [
+        [
+          18.3640632,
+          -34.0388847
+        ],
+        [
+          18.3590321,
+          -34.0399348
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

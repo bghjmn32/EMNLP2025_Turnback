@@ -1,0 +1,215 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    31.382321,
+    30.058297,
+    31.38465,
+    30.06174
+  ],
+  "features": [
+    {
+      "bbox": [
+        31.382321,
+        30.058297,
+        31.38465,
+        30.06174
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 521.0,
+            "duration": 375.1,
+            "steps": [
+              {
+                "distance": 24.7,
+                "duration": 17.8,
+                "type": 11,
+                "instruction": "Head south",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 31.2,
+                "duration": 22.5,
+                "type": 1,
+                "instruction": "Turn right onto شارع على بن ابى طالب",
+                "name": "شارع على بن ابى طالب",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 41.5,
+                "duration": 29.9,
+                "type": 1,
+                "instruction": "Turn right onto شارع الشيخ فتحى بن دياب",
+                "name": "شارع الشيخ فتحى بن دياب",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 34.4,
+                "duration": 24.8,
+                "type": 0,
+                "instruction": "Turn left onto شارع صالح بن سليمان",
+                "name": "شارع صالح بن سليمان",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 389.2,
+                "duration": 280.2,
+                "type": 1,
+                "instruction": "Turn right onto شارع نور الاسلام",
+                "name": "شارع نور الاسلام",
+                "way_points": [
+                  4,
+                  19
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at شارع نور الاسلام, straight ahead",
+                "name": "-",
+                "way_points": [
+                  19,
+                  19
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          19
+        ],
+        "summary": {
+          "distance": 521.0,
+          "duration": 375.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            31.384563,
+            30.05859
+          ],
+          [
+            31.38465,
+            30.058381
+          ],
+          [
+            31.384341,
+            30.058297
+          ],
+          [
+            31.384214,
+            30.058653
+          ],
+          [
+            31.383893,
+            30.058517
+          ],
+          [
+            31.38376,
+            30.058785
+          ],
+          [
+            31.383682,
+            30.058941
+          ],
+          [
+            31.383574,
+            30.059159
+          ],
+          [
+            31.383539,
+            30.059231
+          ],
+          [
+            31.38345,
+            30.059413
+          ],
+          [
+            31.383359,
+            30.059592
+          ],
+          [
+            31.383311,
+            30.059688
+          ],
+          [
+            31.383269,
+            30.059771
+          ],
+          [
+            31.383068,
+            30.060156
+          ],
+          [
+            31.382949,
+            30.060383
+          ],
+          [
+            31.382912,
+            30.060453
+          ],
+          [
+            31.382781,
+            30.060703
+          ],
+          [
+            31.382596,
+            30.061158
+          ],
+          [
+            31.382426,
+            30.061517
+          ],
+          [
+            31.382321,
+            30.06174
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756731100058,
+    "query": {
+      "coordinates": [
+        [
+          31.3845625,
+          30.0585898
+        ],
+        [
+          31.3823207,
+          30.0617403
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

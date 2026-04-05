@@ -1,0 +1,205 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    139.567045,
+    35.72348,
+    139.578394,
+    35.724033
+  ],
+  "features": [
+    {
+      "bbox": [
+        139.567045,
+        35.72348,
+        139.578394,
+        35.724033
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1110.1,
+            "duration": 799.3,
+            "steps": [
+              {
+                "distance": 32.2,
+                "duration": 23.2,
+                "type": 11,
+                "instruction": "Head south on 関町庚申通り",
+                "name": "関町庚申通り",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 1015.7,
+                "duration": 731.3,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  20
+                ]
+              },
+              {
+                "distance": 62.2,
+                "duration": 44.8,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  20,
+                  22
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  22,
+                  22
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          22
+        ],
+        "summary": {
+          "distance": 1110.1,
+          "duration": 799.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            139.578387,
+            35.724018
+          ],
+          [
+            139.578394,
+            35.723729
+          ],
+          [
+            139.577396,
+            35.723695
+          ],
+          [
+            139.576775,
+            35.723675
+          ],
+          [
+            139.576389,
+            35.723662
+          ],
+          [
+            139.575413,
+            35.723627
+          ],
+          [
+            139.574952,
+            35.723612
+          ],
+          [
+            139.574121,
+            35.72358
+          ],
+          [
+            139.573101,
+            35.72355
+          ],
+          [
+            139.57224,
+            35.723515
+          ],
+          [
+            139.571823,
+            35.723531
+          ],
+          [
+            139.571336,
+            35.723502
+          ],
+          [
+            139.570167,
+            35.723505
+          ],
+          [
+            139.570125,
+            35.723505
+          ],
+          [
+            139.569797,
+            35.723506
+          ],
+          [
+            139.56936,
+            35.723514
+          ],
+          [
+            139.568848,
+            35.723509
+          ],
+          [
+            139.568328,
+            35.723492
+          ],
+          [
+            139.568068,
+            35.723488
+          ],
+          [
+            139.567744,
+            35.72349
+          ],
+          [
+            139.567151,
+            35.72348
+          ],
+          [
+            139.567098,
+            35.723759
+          ],
+          [
+            139.567045,
+            35.724033
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756133300602,
+    "query": {
+      "coordinates": [
+        [
+          139.5783874,
+          35.7240184
+        ],
+        [
+          139.5670446,
+          35.7240332
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

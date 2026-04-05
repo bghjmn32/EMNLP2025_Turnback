@@ -1,0 +1,221 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.565971,
+    -33.920167,
+    18.574426,
+    -33.918392
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.565971,
+        -33.920167,
+        18.574426,
+        -33.918392
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 935.5,
+            "duration": 673.5,
+            "steps": [
+              {
+                "distance": 59.4,
+                "duration": 42.8,
+                "type": 11,
+                "instruction": "Head south on Halt Road, M76",
+                "name": "Halt Road, M76",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 164.0,
+                "duration": 118.1,
+                "type": 0,
+                "instruction": "Turn left onto 11th Avenue",
+                "name": "11th Avenue",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 10.7,
+                "duration": 7.7,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 32.5,
+                "duration": 23.4,
+                "type": 13,
+                "instruction": "Keep right",
+                "name": "-",
+                "way_points": [
+                  3,
+                  5
+                ]
+              },
+              {
+                "distance": 55.9,
+                "duration": 40.3,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  5,
+                  7
+                ]
+              },
+              {
+                "distance": 575.0,
+                "duration": 414.0,
+                "type": 4,
+                "instruction": "Turn slight left onto 11th Avenue",
+                "name": "11th Avenue",
+                "way_points": [
+                  7,
+                  14
+                ]
+              },
+              {
+                "distance": 38.0,
+                "duration": 27.3,
+                "type": 0,
+                "instruction": "Turn left onto Port Jackson Lane",
+                "name": "Port Jackson Lane",
+                "way_points": [
+                  14,
+                  15
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Port Jackson Lane, straight ahead",
+                "name": "-",
+                "way_points": [
+                  15,
+                  15
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          15
+        ],
+        "summary": {
+          "distance": 935.5,
+          "duration": 673.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.565971,
+            -33.919634
+          ],
+          [
+            18.566031,
+            -33.920167
+          ],
+          [
+            18.567799,
+            -33.92002
+          ],
+          [
+            18.567785,
+            -33.919924
+          ],
+          [
+            18.567903,
+            -33.919797
+          ],
+          [
+            18.567973,
+            -33.919679
+          ],
+          [
+            18.568319,
+            -33.919904
+          ],
+          [
+            18.568469,
+            -33.919964
+          ],
+          [
+            18.569266,
+            -33.919897
+          ],
+          [
+            18.570276,
+            -33.91982
+          ],
+          [
+            18.572094,
+            -33.919624
+          ],
+          [
+            18.57216,
+            -33.9196
+          ],
+          [
+            18.573392,
+            -33.919109
+          ],
+          [
+            18.573774,
+            -33.918959
+          ],
+          [
+            18.574426,
+            -33.918702
+          ],
+          [
+            18.574251,
+            -33.918392
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756804682945,
+    "query": {
+      "coordinates": [
+        [
+          18.5659711,
+          -33.9196344
+        ],
+        [
+          18.5742511,
+          -33.9183922
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.46428,
+    -33.915221,
+    18.467793,
+    -33.912817
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.46428,
+        -33.915221,
+        18.467793,
+        -33.912817
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 587.5,
+            "duration": 423.0,
+            "steps": [
+              {
+                "distance": 20.7,
+                "duration": 14.9,
+                "type": 11,
+                "instruction": "Head north",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 366.4,
+                "duration": 263.8,
+                "type": 13,
+                "instruction": "Keep right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  5
+                ]
+              },
+              {
+                "distance": 42.0,
+                "duration": 30.2,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  5,
+                  8
+                ]
+              },
+              {
+                "distance": 25.2,
+                "duration": 18.1,
+                "type": 1,
+                "instruction": "Turn right onto Neptune Street",
+                "name": "Neptune Street",
+                "way_points": [
+                  8,
+                  9
+                ]
+              },
+              {
+                "distance": 117.3,
+                "duration": 84.4,
+                "type": 1,
+                "instruction": "Turn right onto Marine Drive Service Road",
+                "name": "Marine Drive Service Road",
+                "way_points": [
+                  9,
+                  13
+                ]
+              },
+              {
+                "distance": 15.9,
+                "duration": 11.5,
+                "type": 0,
+                "instruction": "Turn left onto Verbena Street",
+                "name": "Verbena Street",
+                "way_points": [
+                  13,
+                  14
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Verbena Street, straight ahead",
+                "name": "-",
+                "way_points": [
+                  14,
+                  14
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          14
+        ],
+        "summary": {
+          "distance": 587.5,
+          "duration": 423.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.46428,
+            -33.915221
+          ],
+          [
+            18.46433,
+            -33.91504
+          ],
+          [
+            18.465101,
+            -33.914526
+          ],
+          [
+            18.465774,
+            -33.914033
+          ],
+          [
+            18.467182,
+            -33.912835
+          ],
+          [
+            18.467246,
+            -33.912817
+          ],
+          [
+            18.467452,
+            -33.912972
+          ],
+          [
+            18.467501,
+            -33.912956
+          ],
+          [
+            18.467585,
+            -33.91288
+          ],
+          [
+            18.467793,
+            -33.913026
+          ],
+          [
+            18.467591,
+            -33.913221
+          ],
+          [
+            18.46728,
+            -33.913485
+          ],
+          [
+            18.467051,
+            -33.913651
+          ],
+          [
+            18.466891,
+            -33.913767
+          ],
+          [
+            18.467022,
+            -33.91386
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756805110688,
+    "query": {
+      "coordinates": [
+        [
+          18.4642801,
+          -33.9152213
+        ],
+        [
+          18.4670219,
+          -33.9138597
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

@@ -1,0 +1,293 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.554623,
+    -33.989834,
+    18.558591,
+    -33.985588
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.554623,
+        -33.989834,
+        18.558591,
+        -33.985588
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 816.8,
+            "duration": 588.1,
+            "steps": [
+              {
+                "distance": 27.1,
+                "duration": 19.5,
+                "type": 11,
+                "instruction": "Head north on Manenberg Avenue",
+                "name": "Manenberg Avenue",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 55.6,
+                "duration": 40.1,
+                "type": 1,
+                "instruction": "Turn right onto Sabie Walk",
+                "name": "Sabie Walk",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 62.2,
+                "duration": 44.8,
+                "type": 0,
+                "instruction": "Turn left onto Sabie Walk",
+                "name": "Sabie Walk",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 72.2,
+                "duration": 52.0,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  3,
+                  6
+                ]
+              },
+              {
+                "distance": 38.8,
+                "duration": 27.9,
+                "type": 0,
+                "instruction": "Turn left onto Thames Avenue",
+                "name": "Thames Avenue",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 253.2,
+                "duration": 182.3,
+                "type": 1,
+                "instruction": "Turn right onto Storms River Way",
+                "name": "Storms River Way",
+                "way_points": [
+                  7,
+                  10
+                ]
+              },
+              {
+                "distance": 7.9,
+                "duration": 5.7,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  10,
+                  12
+                ]
+              },
+              {
+                "distance": 133.2,
+                "duration": 95.9,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  12,
+                  16
+                ]
+              },
+              {
+                "distance": 23.4,
+                "duration": 16.9,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  16,
+                  20
+                ]
+              },
+              {
+                "distance": 124.5,
+                "duration": 89.6,
+                "type": 0,
+                "instruction": "Turn left onto Duinefontein Road, M10",
+                "name": "Duinefontein Road, M10",
+                "way_points": [
+                  20,
+                  21
+                ]
+              },
+              {
+                "distance": 18.6,
+                "duration": 13.4,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  21,
+                  22
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  22,
+                  22
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          22
+        ],
+        "summary": {
+          "distance": 816.8,
+          "duration": 588.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.554638,
+            -33.989834
+          ],
+          [
+            18.554623,
+            -33.989591
+          ],
+          [
+            18.555226,
+            -33.989573
+          ],
+          [
+            18.555192,
+            -33.989014
+          ],
+          [
+            18.555558,
+            -33.988959
+          ],
+          [
+            18.555627,
+            -33.988949
+          ],
+          [
+            18.555968,
+            -33.98893
+          ],
+          [
+            18.555951,
+            -33.988582
+          ],
+          [
+            18.556484,
+            -33.988466
+          ],
+          [
+            18.55755,
+            -33.988201
+          ],
+          [
+            18.558591,
+            -33.987957
+          ],
+          [
+            18.558568,
+            -33.987898
+          ],
+          [
+            18.558571,
+            -33.987889
+          ],
+          [
+            18.558531,
+            -33.987846
+          ],
+          [
+            18.558186,
+            -33.986826
+          ],
+          [
+            18.55816,
+            -33.986806
+          ],
+          [
+            18.558094,
+            -33.986804
+          ],
+          [
+            18.558093,
+            -33.986787
+          ],
+          [
+            18.558108,
+            -33.98675
+          ],
+          [
+            18.558198,
+            -33.986729
+          ],
+          [
+            18.558287,
+            -33.986708
+          ],
+          [
+            18.557914,
+            -33.985633
+          ],
+          [
+            18.558108,
+            -33.985588
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756804394815,
+    "query": {
+      "coordinates": [
+        [
+          18.5546378,
+          -33.9898343
+        ],
+        [
+          18.5581084,
+          -33.9855884
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

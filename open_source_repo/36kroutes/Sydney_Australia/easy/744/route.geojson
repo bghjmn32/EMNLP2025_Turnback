@@ -1,0 +1,204 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    150.793863,
+    -34.113698,
+    150.795034,
+    -34.107124
+  ],
+  "features": [
+    {
+      "bbox": [
+        150.793863,
+        -34.113698,
+        150.795034,
+        -34.107124
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 789.9,
+            "duration": 568.7,
+            "steps": [
+              {
+                "distance": 6.3,
+                "duration": 4.5,
+                "type": 11,
+                "instruction": "Head southwest",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 718.1,
+                "duration": 517.0,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  17
+                ]
+              },
+              {
+                "distance": 8.2,
+                "duration": 5.9,
+                "type": 1,
+                "instruction": "Turn right onto Marcellus Place",
+                "name": "Marcellus Place",
+                "way_points": [
+                  17,
+                  18
+                ]
+              },
+              {
+                "distance": 57.4,
+                "duration": 41.3,
+                "type": 0,
+                "instruction": "Turn left onto Copperfield Drive",
+                "name": "Copperfield Drive",
+                "way_points": [
+                  18,
+                  19
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Copperfield Drive, straight ahead",
+                "name": "-",
+                "way_points": [
+                  19,
+                  19
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          19
+        ],
+        "summary": {
+          "distance": 789.9,
+          "duration": 568.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            150.795034,
+            -34.113649
+          ],
+          [
+            150.794999,
+            -34.113698
+          ],
+          [
+            150.794635,
+            -34.113447
+          ],
+          [
+            150.794463,
+            -34.113289
+          ],
+          [
+            150.794307,
+            -34.113109
+          ],
+          [
+            150.79415,
+            -34.112888
+          ],
+          [
+            150.793974,
+            -34.112534
+          ],
+          [
+            150.793888,
+            -34.112185
+          ],
+          [
+            150.793872,
+            -34.112051
+          ],
+          [
+            150.793863,
+            -34.111414
+          ],
+          [
+            150.793878,
+            -34.111193
+          ],
+          [
+            150.793881,
+            -34.110245
+          ],
+          [
+            150.7939,
+            -34.109626
+          ],
+          [
+            150.793945,
+            -34.109131
+          ],
+          [
+            150.79396,
+            -34.109049
+          ],
+          [
+            150.793984,
+            -34.108955
+          ],
+          [
+            150.794232,
+            -34.108035
+          ],
+          [
+            150.794382,
+            -34.107594
+          ],
+          [
+            150.794466,
+            -34.107617
+          ],
+          [
+            150.794648,
+            -34.107124
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756395048658,
+    "query": {
+      "coordinates": [
+        [
+          150.7950344,
+          -34.1136494
+        ],
+        [
+          150.7946479,
+          -34.1071241
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

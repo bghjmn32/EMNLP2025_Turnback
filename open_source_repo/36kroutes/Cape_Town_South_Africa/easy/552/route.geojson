@@ -1,0 +1,271 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.5466,
+    -33.907775,
+    18.550874,
+    -33.901289
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.5466,
+        -33.907775,
+        18.550874,
+        -33.901289
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1090.4,
+            "duration": 785.0,
+            "steps": [
+              {
+                "distance": 25.1,
+                "duration": 18.1,
+                "type": 11,
+                "instruction": "Head east on Rohm Road",
+                "name": "Rohm Road",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 20.7,
+                "duration": 14.9,
+                "type": 6,
+                "instruction": "Continue straight",
+                "name": "-",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 303.0,
+                "duration": 218.2,
+                "type": 1,
+                "instruction": "Turn right onto Alice Street",
+                "name": "Alice Street",
+                "way_points": [
+                  2,
+                  7
+                ]
+              },
+              {
+                "distance": 34.9,
+                "duration": 25.1,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 43.9,
+                "duration": 31.6,
+                "type": 0,
+                "instruction": "Turn left onto Alice Street",
+                "name": "Alice Street",
+                "way_points": [
+                  8,
+                  9
+                ]
+              },
+              {
+                "distance": 35.3,
+                "duration": 25.4,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  9,
+                  14
+                ]
+              },
+              {
+                "distance": 598.2,
+                "duration": 430.7,
+                "type": 2,
+                "instruction": "Turn sharp left",
+                "name": "-",
+                "way_points": [
+                  14,
+                  20
+                ]
+              },
+              {
+                "distance": 18.4,
+                "duration": 13.2,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  20,
+                  21
+                ]
+              },
+              {
+                "distance": 10.9,
+                "duration": 7.8,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  21,
+                  22
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  22,
+                  22
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          22
+        ],
+        "summary": {
+          "distance": 1090.4,
+          "duration": 785.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.5466,
+            -33.901365
+          ],
+          [
+            18.546867,
+            -33.901319
+          ],
+          [
+            18.547088,
+            -33.901289
+          ],
+          [
+            18.547252,
+            -33.901955
+          ],
+          [
+            18.547425,
+            -33.90262
+          ],
+          [
+            18.547581,
+            -33.903285
+          ],
+          [
+            18.54782,
+            -33.903847
+          ],
+          [
+            18.547895,
+            -33.903914
+          ],
+          [
+            18.547572,
+            -33.904076
+          ],
+          [
+            18.547671,
+            -33.904462
+          ],
+          [
+            18.547741,
+            -33.904459
+          ],
+          [
+            18.547813,
+            -33.904504
+          ],
+          [
+            18.547834,
+            -33.90457
+          ],
+          [
+            18.547842,
+            -33.904648
+          ],
+          [
+            18.547811,
+            -33.904675
+          ],
+          [
+            18.548599,
+            -33.904544
+          ],
+          [
+            18.548844,
+            -33.904503
+          ],
+          [
+            18.549133,
+            -33.904455
+          ],
+          [
+            18.550028,
+            -33.904305
+          ],
+          [
+            18.550396,
+            -33.905775
+          ],
+          [
+            18.550874,
+            -33.907737
+          ],
+          [
+            18.55068,
+            -33.907775
+          ],
+          [
+            18.550657,
+            -33.90768
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756805054243,
+    "query": {
+      "coordinates": [
+        [
+          18.5466001,
+          -33.9013653
+        ],
+        [
+          18.5506569,
+          -33.9076797
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

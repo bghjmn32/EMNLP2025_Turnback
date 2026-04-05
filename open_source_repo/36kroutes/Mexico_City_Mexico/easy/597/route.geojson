@@ -1,0 +1,182 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.057298,
+    19.332183,
+    -99.052989,
+    19.335012
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.057298,
+        19.332183,
+        -99.052989,
+        19.335012
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 641.2,
+            "duration": 461.6,
+            "steps": [
+              {
+                "distance": 126.6,
+                "duration": 91.2,
+                "type": 11,
+                "instruction": "Head southeast on Calle L. Parna",
+                "name": "Calle L. Parna",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 49.3,
+                "duration": 35.5,
+                "type": 3,
+                "instruction": "Turn sharp right onto Calle El Vergel",
+                "name": "Calle El Vergel",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 131.4,
+                "duration": 94.6,
+                "type": 0,
+                "instruction": "Turn left onto Calle Martín Carrera",
+                "name": "Calle Martín Carrera",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 7.6,
+                "duration": 5.5,
+                "type": 1,
+                "instruction": "Turn right onto Calle Pedro Vélez",
+                "name": "Calle Pedro Vélez",
+                "way_points": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "distance": 318.9,
+                "duration": 229.6,
+                "type": 0,
+                "instruction": "Turn left onto Calle Martín Carrera",
+                "name": "Calle Martín Carrera",
+                "way_points": [
+                  5,
+                  7
+                ]
+              },
+              {
+                "distance": 7.4,
+                "duration": 5.3,
+                "type": 3,
+                "instruction": "Turn sharp right onto Avenida Plan de Ayala",
+                "name": "Avenida Plan de Ayala",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Avenida Plan de Ayala, straight ahead",
+                "name": "-",
+                "way_points": [
+                  8,
+                  8
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          8
+        ],
+        "summary": {
+          "distance": 641.2,
+          "duration": 461.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.057298,
+            19.335012
+          ],
+          [
+            -99.056926,
+            19.334651
+          ],
+          [
+            -99.056275,
+            19.334493
+          ],
+          [
+            -99.056629,
+            19.334202
+          ],
+          [
+            -99.055771,
+            19.333341
+          ],
+          [
+            -99.055812,
+            19.333285
+          ],
+          [
+            -99.054972,
+            19.332948
+          ],
+          [
+            -99.052989,
+            19.332223
+          ],
+          [
+            -99.053045,
+            19.332183
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306627156,
+    "query": {
+      "coordinates": [
+        [
+          -99.0572985,
+          19.3350121
+        ],
+        [
+          -99.0530455,
+          19.3321829
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

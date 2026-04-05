@@ -1,0 +1,273 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    151.114067,
+    -34.045516,
+    151.120773,
+    -34.042202
+  ],
+  "features": [
+    {
+      "bbox": [
+        151.114067,
+        -34.045516,
+        151.120773,
+        -34.042202
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 949.0,
+            "duration": 683.2,
+            "steps": [
+              {
+                "distance": 384.5,
+                "duration": 276.9,
+                "type": 11,
+                "instruction": "Head north on Kanoona Street",
+                "name": "Kanoona Street",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 388.4,
+                "duration": 279.7,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  16
+                ]
+              },
+              {
+                "distance": 25.8,
+                "duration": 18.6,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  16,
+                  20
+                ]
+              },
+              {
+                "distance": 71.7,
+                "duration": 51.6,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  20,
+                  22
+                ]
+              },
+              {
+                "distance": 36.4,
+                "duration": 26.2,
+                "type": 0,
+                "instruction": "Turn left onto President Lane",
+                "name": "President Lane",
+                "way_points": [
+                  22,
+                  23
+                ]
+              },
+              {
+                "distance": 6.2,
+                "duration": 4.5,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  23,
+                  24
+                ]
+              },
+              {
+                "distance": 36.0,
+                "duration": 25.9,
+                "type": 0,
+                "instruction": "Turn left onto McDonald's Drivethru",
+                "name": "McDonald's Drivethru",
+                "way_points": [
+                  24,
+                  28
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at McDonald's Drivethru, straight ahead",
+                "name": "-",
+                "way_points": [
+                  28,
+                  28
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          28
+        ],
+        "summary": {
+          "distance": 949.0,
+          "duration": 683.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            151.114067,
+            -34.045516
+          ],
+          [
+            151.115257,
+            -34.042202
+          ],
+          [
+            151.115327,
+            -34.042211
+          ],
+          [
+            151.115802,
+            -34.04227
+          ],
+          [
+            151.115889,
+            -34.042284
+          ],
+          [
+            151.115963,
+            -34.042296
+          ],
+          [
+            151.11706,
+            -34.042447
+          ],
+          [
+            151.117141,
+            -34.042458
+          ],
+          [
+            151.117217,
+            -34.042469
+          ],
+          [
+            151.118136,
+            -34.042593
+          ],
+          [
+            151.118215,
+            -34.042604
+          ],
+          [
+            151.118296,
+            -34.042616
+          ],
+          [
+            151.118316,
+            -34.042619
+          ],
+          [
+            151.119156,
+            -34.042735
+          ],
+          [
+            151.119215,
+            -34.042738
+          ],
+          [
+            151.119319,
+            -34.042753
+          ],
+          [
+            151.119416,
+            -34.042767
+          ],
+          [
+            151.11943,
+            -34.042756
+          ],
+          [
+            151.119452,
+            -34.042702
+          ],
+          [
+            151.119492,
+            -34.042613
+          ],
+          [
+            151.119519,
+            -34.042552
+          ],
+          [
+            151.120233,
+            -34.042657
+          ],
+          [
+            151.120286,
+            -34.04266
+          ],
+          [
+            151.120404,
+            -34.042348
+          ],
+          [
+            151.12047,
+            -34.042356
+          ],
+          [
+            151.120484,
+            -34.042303
+          ],
+          [
+            151.120521,
+            -34.042273
+          ],
+          [
+            151.120701,
+            -34.042291
+          ],
+          [
+            151.120773,
+            -34.042243
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756390608359,
+    "query": {
+      "coordinates": [
+        [
+          151.1140665,
+          -34.0455161
+        ],
+        [
+          151.1207731,
+          -34.0422428
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.1561,
+    19.395921,
+    -99.150091,
+    19.398199
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.1561,
+        19.395921,
+        -99.150091,
+        19.398199
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 706.7,
+            "duration": 508.8,
+            "steps": [
+              {
+                "distance": 213.7,
+                "duration": 153.9,
+                "type": 11,
+                "instruction": "Head west on Calle La Morena",
+                "name": "Calle La Morena",
+                "way_points": [
+                  0,
+                  4
+                ]
+              },
+              {
+                "distance": 470.7,
+                "duration": 338.9,
+                "type": 12,
+                "instruction": "Keep left onto Avenida Diagonal San Antonio",
+                "name": "Avenida Diagonal San Antonio",
+                "way_points": [
+                  4,
+                  11
+                ]
+              },
+              {
+                "distance": 15.6,
+                "duration": 11.2,
+                "type": 5,
+                "instruction": "Turn slight right onto Xola, EJE 4 SUR",
+                "name": "Xola, EJE 4 SUR",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 6.8,
+                "duration": 4.9,
+                "type": 0,
+                "instruction": "Turn left onto Avenida Cuauhtémoc, EJE 1 PTE",
+                "name": "Avenida Cuauhtémoc, EJE 1 PTE",
+                "way_points": [
+                  12,
+                  13
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Avenida Cuauhtémoc, EJE 1 PTE, straight ahead",
+                "name": "-",
+                "way_points": [
+                  13,
+                  13
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          13
+        ],
+        "summary": {
+          "distance": 706.7,
+          "duration": 508.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.150091,
+            19.398185
+          ],
+          [
+            -99.150802,
+            19.398188
+          ],
+          [
+            -99.150934,
+            19.398189
+          ],
+          [
+            -99.151567,
+            19.398193
+          ],
+          [
+            -99.152129,
+            19.398199
+          ],
+          [
+            -99.152232,
+            19.398141
+          ],
+          [
+            -99.152916,
+            19.397748
+          ],
+          [
+            -99.153612,
+            19.397352
+          ],
+          [
+            -99.154418,
+            19.396869
+          ],
+          [
+            -99.155163,
+            19.39643
+          ],
+          [
+            -99.15574,
+            19.396095
+          ],
+          [
+            -99.155947,
+            19.395976
+          ],
+          [
+            -99.156095,
+            19.395982
+          ],
+          [
+            -99.1561,
+            19.395921
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756305720610,
+    "query": {
+      "coordinates": [
+        [
+          -99.1500912,
+          19.3981846
+        ],
+        [
+          -99.1560996,
+          19.3959214
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

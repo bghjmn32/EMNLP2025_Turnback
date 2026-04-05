@@ -1,0 +1,209 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -104.917617,
+    39.769329,
+    -104.915776,
+    39.772192
+  ],
+  "features": [
+    {
+      "bbox": [
+        -104.917617,
+        39.769329,
+        -104.915776,
+        39.772192
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 697.5,
+            "duration": 502.2,
+            "steps": [
+              {
+                "distance": 108.8,
+                "duration": 78.3,
+                "type": 11,
+                "instruction": "Head south",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 114.5,
+                "duration": 82.4,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 16.6,
+                "duration": 11.9,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 43.0,
+                "duration": 31.0,
+                "type": 1,
+                "instruction": "Turn right onto East 39th Avenue",
+                "name": "East 39th Avenue",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 191.1,
+                "duration": 137.6,
+                "type": 0,
+                "instruction": "Turn left onto Kearney Street",
+                "name": "Kearney Street",
+                "way_points": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "distance": 130.7,
+                "duration": 94.1,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  5,
+                  10
+                ]
+              },
+              {
+                "distance": 92.8,
+                "duration": 66.8,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  10,
+                  12
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  12,
+                  12
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          12
+        ],
+        "summary": {
+          "distance": 697.5,
+          "duration": 502.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -104.915778,
+            39.772192
+          ],
+          [
+            -104.915776,
+            39.771213
+          ],
+          [
+            -104.917116,
+            39.771214
+          ],
+          [
+            -104.917113,
+            39.771065
+          ],
+          [
+            -104.917617,
+            39.771062
+          ],
+          [
+            -104.917613,
+            39.769343
+          ],
+          [
+            -104.917539,
+            39.769333
+          ],
+          [
+            -104.917103,
+            39.769331
+          ],
+          [
+            -104.91699,
+            39.769331
+          ],
+          [
+            -104.916819,
+            39.769329
+          ],
+          [
+            -104.916085,
+            39.769332
+          ],
+          [
+            -104.916085,
+            39.769416
+          ],
+          [
+            -104.916078,
+            39.770166
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756304839205,
+    "query": {
+      "coordinates": [
+        [
+          -104.9157777,
+          39.7721916
+        ],
+        [
+          -104.9160782,
+          39.7701661
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

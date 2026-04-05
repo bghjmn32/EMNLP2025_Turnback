@@ -1,0 +1,199 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.39538,
+    -33.916481,
+    18.398278,
+    -33.913369
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.39538,
+        -33.916481,
+        18.398278,
+        -33.913369
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 557.0,
+            "duration": 401.0,
+            "steps": [
+              {
+                "distance": 21.3,
+                "duration": 15.3,
+                "type": 11,
+                "instruction": "Head north on Steep Acres",
+                "name": "Steep Acres",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 400.4,
+                "duration": 288.3,
+                "type": 1,
+                "instruction": "Turn right onto Ocean View Drive",
+                "name": "Ocean View Drive",
+                "way_points": [
+                  3,
+                  9
+                ]
+              },
+              {
+                "distance": 67.8,
+                "duration": 48.8,
+                "type": 1,
+                "instruction": "Turn right onto Upper Rhine Road",
+                "name": "Upper Rhine Road",
+                "way_points": [
+                  9,
+                  10
+                ]
+              },
+              {
+                "distance": 24.0,
+                "duration": 17.3,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  10,
+                  12
+                ]
+              },
+              {
+                "distance": 43.6,
+                "duration": 31.4,
+                "type": 5,
+                "instruction": "Turn slight right",
+                "name": "-",
+                "way_points": [
+                  12,
+                  15
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  15,
+                  15
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          15
+        ],
+        "summary": {
+          "distance": 557.0,
+          "duration": 401.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.395445,
+            -33.916481
+          ],
+          [
+            18.395458,
+            -33.916417
+          ],
+          [
+            18.395439,
+            -33.916374
+          ],
+          [
+            18.39538,
+            -33.91631
+          ],
+          [
+            18.395515,
+            -33.916065
+          ],
+          [
+            18.395871,
+            -33.914997
+          ],
+          [
+            18.39604,
+            -33.914718
+          ],
+          [
+            18.396236,
+            -33.9145
+          ],
+          [
+            18.396983,
+            -33.913901
+          ],
+          [
+            18.397664,
+            -33.913369
+          ],
+          [
+            18.398278,
+            -33.913704
+          ],
+          [
+            18.398134,
+            -33.913826
+          ],
+          [
+            18.398144,
+            -33.91387
+          ],
+          [
+            18.398063,
+            -33.913978
+          ],
+          [
+            18.397833,
+            -33.914003
+          ],
+          [
+            18.397804,
+            -33.914071
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756803727993,
+    "query": {
+      "coordinates": [
+        [
+          18.3954445,
+          -33.9164815
+        ],
+        [
+          18.397804,
+          -33.9140709
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

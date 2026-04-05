@@ -1,0 +1,160 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.274013,
+    -22.836371,
+    -43.27092,
+    -22.83238
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.274013,
+        -22.836371,
+        -43.27092,
+        -22.83238
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 574.8,
+            "duration": 413.9,
+            "steps": [
+              {
+                "distance": 12.3,
+                "duration": 8.8,
+                "type": 11,
+                "instruction": "Head northwest on Rua Cuba",
+                "name": "Rua Cuba",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 523.4,
+                "duration": 376.8,
+                "type": 0,
+                "instruction": "Turn left onto Rua Gruçaí",
+                "name": "Rua Gruçaí",
+                "way_points": [
+                  1,
+                  6
+                ]
+              },
+              {
+                "distance": 30.1,
+                "duration": 21.7,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 9.1,
+                "duration": 6.5,
+                "type": 0,
+                "instruction": "Turn left onto Rua do Couto",
+                "name": "Rua do Couto",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Rua do Couto, straight ahead",
+                "name": "-",
+                "way_points": [
+                  8,
+                  8
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          8
+        ],
+        "summary": {
+          "distance": 574.8,
+          "duration": 413.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.27092,
+            -22.832441
+          ],
+          [
+            -43.271021,
+            -22.83238
+          ],
+          [
+            -43.271887,
+            -22.833659
+          ],
+          [
+            -43.272752,
+            -22.834901
+          ],
+          [
+            -43.273113,
+            -22.8355
+          ],
+          [
+            -43.27354,
+            -22.83613
+          ],
+          [
+            -43.273726,
+            -22.836371
+          ],
+          [
+            -43.27397,
+            -22.83622
+          ],
+          [
+            -43.274013,
+            -22.836291
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756392076519,
+    "query": {
+      "coordinates": [
+        [
+          -43.2709205,
+          -22.8324409
+        ],
+        [
+          -43.2740128,
+          -22.8362915
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

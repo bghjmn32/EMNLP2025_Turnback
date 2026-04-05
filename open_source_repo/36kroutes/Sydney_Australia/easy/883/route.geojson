@@ -1,0 +1,162 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    150.993379,
+    -33.704384,
+    150.999315,
+    -33.703379
+  ],
+  "features": [
+    {
+      "bbox": [
+        150.993379,
+        -33.704384,
+        150.999315,
+        -33.703379
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 647.0,
+            "duration": 465.9,
+            "steps": [
+              {
+                "distance": 554.8,
+                "duration": 399.5,
+                "type": 11,
+                "instruction": "Head east on Fingal Avenue",
+                "name": "Fingal Avenue",
+                "way_points": [
+                  0,
+                  12
+                ]
+              },
+              {
+                "distance": 92.2,
+                "duration": 66.4,
+                "type": 4,
+                "instruction": "Turn slight left onto Fingal Avenue",
+                "name": "Fingal Avenue",
+                "way_points": [
+                  12,
+                  14
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Fingal Avenue, straight ahead",
+                "name": "-",
+                "way_points": [
+                  14,
+                  14
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          14
+        ],
+        "summary": {
+          "distance": 647.0,
+          "duration": 465.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            150.993379,
+            -33.704038
+          ],
+          [
+            150.9935,
+            -33.704063
+          ],
+          [
+            150.993717,
+            -33.704052
+          ],
+          [
+            150.994754,
+            -33.70372
+          ],
+          [
+            150.995113,
+            -33.703657
+          ],
+          [
+            150.995429,
+            -33.703661
+          ],
+          [
+            150.995749,
+            -33.703701
+          ],
+          [
+            150.996276,
+            -33.703848
+          ],
+          [
+            150.997893,
+            -33.704283
+          ],
+          [
+            150.998013,
+            -33.704341
+          ],
+          [
+            150.998595,
+            -33.704384
+          ],
+          [
+            150.99873,
+            -33.704361
+          ],
+          [
+            150.999095,
+            -33.704185
+          ],
+          [
+            150.999187,
+            -33.703977
+          ],
+          [
+            150.999315,
+            -33.703379
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756395726530,
+    "query": {
+      "coordinates": [
+        [
+          150.9933785,
+          -33.7040377
+        ],
+        [
+          150.9993151,
+          -33.7033795
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

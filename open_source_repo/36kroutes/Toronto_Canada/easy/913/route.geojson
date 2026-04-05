@@ -1,0 +1,148 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -79.411403,
+    43.729411,
+    -79.404458,
+    43.730736
+  ],
+  "features": [
+    {
+      "bbox": [
+        -79.411403,
+        43.729411,
+        -79.404458,
+        43.730736
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 660.0,
+            "duration": 475.2,
+            "steps": [
+              {
+                "distance": 104.0,
+                "duration": 74.9,
+                "type": 11,
+                "instruction": "Head south on Greer Road",
+                "name": "Greer Road",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 323.4,
+                "duration": 232.9,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  3
+                ]
+              },
+              {
+                "distance": 6.6,
+                "duration": 4.7,
+                "type": 1,
+                "instruction": "Turn right onto Jedburgh Road",
+                "name": "Jedburgh Road",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 226.0,
+                "duration": 162.7,
+                "type": 0,
+                "instruction": "Turn left onto Fairlawn Avenue",
+                "name": "Fairlawn Avenue",
+                "way_points": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Fairlawn Avenue, straight ahead",
+                "name": "-",
+                "way_points": [
+                  5,
+                  5
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          5
+        ],
+        "summary": {
+          "distance": 660.0,
+          "duration": 475.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -79.411403,
+            43.73031
+          ],
+          [
+            -79.411045,
+            43.729411
+          ],
+          [
+            -79.410958,
+            43.729419
+          ],
+          [
+            -79.40718,
+            43.730222
+          ],
+          [
+            -79.407158,
+            43.730165
+          ],
+          [
+            -79.404458,
+            43.730736
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756126298264,
+    "query": {
+      "coordinates": [
+        [
+          -79.4114033,
+          43.7303095
+        ],
+        [
+          -79.4044584,
+          43.7307362
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

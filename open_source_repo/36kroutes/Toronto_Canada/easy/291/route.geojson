@@ -1,0 +1,286 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -79.339876,
+    43.672481,
+    -79.338303,
+    43.678312
+  ],
+  "features": [
+    {
+      "bbox": [
+        -79.339876,
+        43.672481,
+        -79.338303,
+        43.678312
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 751.5,
+            "duration": 541.0,
+            "steps": [
+              {
+                "distance": 10.3,
+                "duration": 7.4,
+                "type": 11,
+                "instruction": "Head west on Harcourt Avenue",
+                "name": "Harcourt Avenue",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 161.9,
+                "duration": 116.6,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  6
+                ]
+              },
+              {
+                "distance": 8.7,
+                "duration": 6.2,
+                "type": 12,
+                "instruction": "Keep left",
+                "name": "-",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 33.7,
+                "duration": 24.3,
+                "type": 1,
+                "instruction": "Turn right onto Strathcona Avenue",
+                "name": "Strathcona Avenue",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 5.0,
+                "duration": 3.6,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  8,
+                  9
+                ]
+              },
+              {
+                "distance": 374.6,
+                "duration": 269.7,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  9,
+                  18
+                ]
+              },
+              {
+                "distance": 4.7,
+                "duration": 3.4,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  18,
+                  19
+                ]
+              },
+              {
+                "distance": 41.8,
+                "duration": 30.1,
+                "type": 0,
+                "instruction": "Turn left onto Blake Street",
+                "name": "Blake Street",
+                "way_points": [
+                  19,
+                  20
+                ]
+              },
+              {
+                "distance": 8.9,
+                "duration": 6.4,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  20,
+                  22
+                ]
+              },
+              {
+                "distance": 101.8,
+                "duration": 73.3,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  22,
+                  23
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  23,
+                  23
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          23
+        ],
+        "summary": {
+          "distance": 751.5,
+          "duration": 541.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -79.339475,
+            43.678312
+          ],
+          [
+            -79.339599,
+            43.678287
+          ],
+          [
+            -79.339583,
+            43.67824
+          ],
+          [
+            -79.339538,
+            43.678207
+          ],
+          [
+            -79.339304,
+            43.677658
+          ],
+          [
+            -79.339013,
+            43.676972
+          ],
+          [
+            -79.339003,
+            43.676903
+          ],
+          [
+            -79.338976,
+            43.676828
+          ],
+          [
+            -79.339384,
+            43.676757
+          ],
+          [
+            -79.339365,
+            43.676714
+          ],
+          [
+            -79.339817,
+            43.676629
+          ],
+          [
+            -79.339851,
+            43.676612
+          ],
+          [
+            -79.339876,
+            43.67656
+          ],
+          [
+            -79.339586,
+            43.675887
+          ],
+          [
+            -79.339534,
+            43.675835
+          ],
+          [
+            -79.33945,
+            43.675656
+          ],
+          [
+            -79.339144,
+            43.674941
+          ],
+          [
+            -79.33911,
+            43.674767
+          ],
+          [
+            -79.338674,
+            43.673751
+          ],
+          [
+            -79.338729,
+            43.673738
+          ],
+          [
+            -79.338574,
+            43.67338
+          ],
+          [
+            -79.338634,
+            43.673366
+          ],
+          [
+            -79.33868,
+            43.673356
+          ],
+          [
+            -79.338303,
+            43.672481
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756124823319,
+    "query": {
+      "coordinates": [
+        [
+          -79.339475,
+          43.6783116
+        ],
+        [
+          -79.3383034,
+          43.6724814
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

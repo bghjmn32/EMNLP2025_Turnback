@@ -1,0 +1,193 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    31.499966,
+    30.120553,
+    31.510183,
+    30.122538
+  ],
+  "features": [
+    {
+      "bbox": [
+        31.499966,
+        30.120553,
+        31.510183,
+        30.122538
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1237.2,
+            "duration": 890.8,
+            "steps": [
+              {
+                "distance": 227.0,
+                "duration": 163.4,
+                "type": 11,
+                "instruction": "Head south",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 938.1,
+                "duration": 675.4,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  18
+                ]
+              },
+              {
+                "distance": 72.1,
+                "duration": 51.9,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  18,
+                  19
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  19,
+                  19
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          19
+        ],
+        "summary": {
+          "distance": 1237.2,
+          "duration": 890.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            31.510183,
+            30.122538
+          ],
+          [
+            31.509631,
+            30.120553
+          ],
+          [
+            31.509267,
+            30.120625
+          ],
+          [
+            31.5086,
+            30.120763
+          ],
+          [
+            31.508316,
+            30.120823
+          ],
+          [
+            31.507966,
+            30.120894
+          ],
+          [
+            31.507407,
+            30.12101
+          ],
+          [
+            31.506936,
+            30.121107
+          ],
+          [
+            31.506496,
+            30.121197
+          ],
+          [
+            31.506475,
+            30.121201
+          ],
+          [
+            31.505942,
+            30.121311
+          ],
+          [
+            31.505086,
+            30.121487
+          ],
+          [
+            31.504739,
+            30.121558
+          ],
+          [
+            31.504198,
+            30.121669
+          ],
+          [
+            31.503982,
+            30.121714
+          ],
+          [
+            31.502995,
+            30.121917
+          ],
+          [
+            31.502068,
+            30.122107
+          ],
+          [
+            31.500848,
+            30.122358
+          ],
+          [
+            31.500141,
+            30.122503
+          ],
+          [
+            31.499966,
+            30.121873
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756734472206,
+    "query": {
+      "coordinates": [
+        [
+          31.5101829,
+          30.1225377
+        ],
+        [
+          31.4999663,
+          30.1218727
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

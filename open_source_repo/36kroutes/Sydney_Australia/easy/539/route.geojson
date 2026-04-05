@@ -1,0 +1,131 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    150.998721,
+    -33.883157,
+    151.00436,
+    -33.882384
+  ],
+  "features": [
+    {
+      "bbox": [
+        150.998721,
+        -33.883157,
+        151.00436,
+        -33.882384
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 527.7,
+            "duration": 379.9,
+            "steps": [
+              {
+                "distance": 527.7,
+                "duration": 379.9,
+                "type": 11,
+                "instruction": "Head east on Frost Lane",
+                "name": "Frost Lane",
+                "way_points": [
+                  0,
+                  9
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Frost Lane, straight ahead",
+                "name": "-",
+                "way_points": [
+                  9,
+                  9
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          9
+        ],
+        "summary": {
+          "distance": 527.7,
+          "duration": 379.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            150.998721,
+            -33.882384
+          ],
+          [
+            150.999655,
+            -33.882515
+          ],
+          [
+            150.999744,
+            -33.882528
+          ],
+          [
+            151.001023,
+            -33.882703
+          ],
+          [
+            151.002121,
+            -33.882852
+          ],
+          [
+            151.002208,
+            -33.882863
+          ],
+          [
+            151.002304,
+            -33.882877
+          ],
+          [
+            151.002718,
+            -33.882935
+          ],
+          [
+            151.003301,
+            -33.883013
+          ],
+          [
+            151.00436,
+            -33.883157
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756393705278,
+    "query": {
+      "coordinates": [
+        [
+          150.9987206,
+          -33.8823836
+        ],
+        [
+          151.0043603,
+          -33.8831574
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.48938,
+    -33.972742,
+    18.499822,
+    -33.968425
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.48938,
+        -33.972742,
+        18.499822,
+        -33.968425
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1437.6,
+            "duration": 1035.1,
+            "steps": [
+              {
+                "distance": 655.2,
+                "duration": 471.8,
+                "type": 11,
+                "instruction": "Head southeast on Kromboom Road, M43",
+                "name": "Kromboom Road, M43",
+                "way_points": [
+                  0,
+                  14
+                ]
+              },
+              {
+                "distance": 480.3,
+                "duration": 345.8,
+                "type": 0,
+                "instruction": "Turn left onto 7th Avenue",
+                "name": "7th Avenue",
+                "way_points": [
+                  14,
+                  16
+                ]
+              },
+              {
+                "distance": 302.1,
+                "duration": 217.5,
+                "type": 1,
+                "instruction": "Turn right onto Mosman Road",
+                "name": "Mosman Road",
+                "way_points": [
+                  16,
+                  20
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Mosman Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  20,
+                  20
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          20
+        ],
+        "summary": {
+          "distance": 1437.6,
+          "duration": 1035.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.48938,
+            -33.971972
+          ],
+          [
+            18.489441,
+            -33.971999
+          ],
+          [
+            18.490172,
+            -33.972075
+          ],
+          [
+            18.490947,
+            -33.972159
+          ],
+          [
+            18.491365,
+            -33.972203
+          ],
+          [
+            18.492211,
+            -33.972295
+          ],
+          [
+            18.492926,
+            -33.972371
+          ],
+          [
+            18.493271,
+            -33.972407
+          ],
+          [
+            18.493391,
+            -33.972421
+          ],
+          [
+            18.493558,
+            -33.972437
+          ],
+          [
+            18.49439,
+            -33.972531
+          ],
+          [
+            18.494593,
+            -33.972551
+          ],
+          [
+            18.495074,
+            -33.9726
+          ],
+          [
+            18.49552,
+            -33.972644
+          ],
+          [
+            18.49642,
+            -33.972742
+          ],
+          [
+            18.49647,
+            -33.970314
+          ],
+          [
+            18.496547,
+            -33.968425
+          ],
+          [
+            18.497366,
+            -33.96844
+          ],
+          [
+            18.498184,
+            -33.968456
+          ],
+          [
+            18.499003,
+            -33.968472
+          ],
+          [
+            18.499822,
+            -33.968488
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756806535320,
+    "query": {
+      "coordinates": [
+        [
+          18.48938,
+          -33.9719725
+        ],
+        [
+          18.4998221,
+          -33.9684877
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

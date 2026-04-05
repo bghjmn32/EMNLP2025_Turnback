@@ -1,0 +1,203 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    103.864931,
+    1.356629,
+    103.866263,
+    1.362189
+  ],
+  "features": [
+    {
+      "bbox": [
+        103.864931,
+        1.356629,
+        103.866263,
+        1.362189
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 718.0,
+            "duration": 517.0,
+            "steps": [
+              {
+                "distance": 120.3,
+                "duration": 86.6,
+                "type": 11,
+                "instruction": "Head south",
+                "name": "-",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 102.0,
+                "duration": 73.5,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  3,
+                  6
+                ]
+              },
+              {
+                "distance": 148.3,
+                "duration": 106.8,
+                "type": 0,
+                "instruction": "Turn left onto Conway Circle",
+                "name": "Conway Circle",
+                "way_points": [
+                  6,
+                  9
+                ]
+              },
+              {
+                "distance": 331.8,
+                "duration": 238.9,
+                "type": 6,
+                "instruction": "Continue straight onto Conway Grove",
+                "name": "Conway Grove",
+                "way_points": [
+                  9,
+                  15
+                ]
+              },
+              {
+                "distance": 15.6,
+                "duration": 11.3,
+                "type": 3,
+                "instruction": "Turn sharp right onto Burghley Drive",
+                "name": "Burghley Drive",
+                "way_points": [
+                  15,
+                  16
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Burghley Drive, straight ahead",
+                "name": "-",
+                "way_points": [
+                  16,
+                  16
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          16
+        ],
+        "summary": {
+          "distance": 718.0,
+          "duration": 517.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            103.866177,
+            1.362189
+          ],
+          [
+            103.866259,
+            1.361176
+          ],
+          [
+            103.866262,
+            1.361144
+          ],
+          [
+            103.866263,
+            1.361111
+          ],
+          [
+            103.865719,
+            1.361017
+          ],
+          [
+            103.865407,
+            1.360916
+          ],
+          [
+            103.865372,
+            1.360903
+          ],
+          [
+            103.865467,
+            1.360565
+          ],
+          [
+            103.865492,
+            1.360339
+          ],
+          [
+            103.865423,
+            1.359587
+          ],
+          [
+            103.865289,
+            1.35825
+          ],
+          [
+            103.865285,
+            1.358221
+          ],
+          [
+            103.865276,
+            1.35815
+          ],
+          [
+            103.865204,
+            1.357607
+          ],
+          [
+            103.865106,
+            1.356849
+          ],
+          [
+            103.865052,
+            1.356629
+          ],
+          [
+            103.864931,
+            1.3567
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756395905208,
+    "query": {
+      "coordinates": [
+        [
+          103.8661765,
+          1.3621891
+        ],
+        [
+          103.8649307,
+          1.3566996
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

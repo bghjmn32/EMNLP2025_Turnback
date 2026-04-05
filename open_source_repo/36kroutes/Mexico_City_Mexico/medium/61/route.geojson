@@ -1,0 +1,212 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.183686,
+    19.336489,
+    -99.179803,
+    19.343682
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.183686,
+        19.336489,
+        -99.179803,
+        19.343682
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1275.2,
+            "duration": 918.1,
+            "steps": [
+              {
+                "distance": 56.4,
+                "duration": 40.6,
+                "type": 11,
+                "instruction": "Head north",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 153.1,
+                "duration": 110.2,
+                "type": 0,
+                "instruction": "Turn left onto Cerro Xico",
+                "name": "Cerro Xico",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 765.8,
+                "duration": 551.4,
+                "type": 0,
+                "instruction": "Turn left onto Avenida Universidad",
+                "name": "Avenida Universidad",
+                "way_points": [
+                  2,
+                  19
+                ]
+              },
+              {
+                "distance": 299.8,
+                "duration": 215.9,
+                "type": 2,
+                "instruction": "Turn sharp left onto Avenida Copilco, EJE 10 SUR",
+                "name": "Avenida Copilco, EJE 10 SUR",
+                "way_points": [
+                  19,
+                  21
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Avenida Copilco, EJE 10 SUR, straight ahead",
+                "name": "-",
+                "way_points": [
+                  21,
+                  21
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          21
+        ],
+        "summary": {
+          "distance": 1275.2,
+          "duration": 918.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.179992,
+            19.342971
+          ],
+          [
+            -99.179803,
+            19.343447
+          ],
+          [
+            -99.18124,
+            19.343682
+          ],
+          [
+            -99.181271,
+            19.343506
+          ],
+          [
+            -99.181302,
+            19.343345
+          ],
+          [
+            -99.181589,
+            19.341992
+          ],
+          [
+            -99.181685,
+            19.341508
+          ],
+          [
+            -99.181707,
+            19.341386
+          ],
+          [
+            -99.181922,
+            19.34029
+          ],
+          [
+            -99.18196,
+            19.340087
+          ],
+          [
+            -99.182033,
+            19.339685
+          ],
+          [
+            -99.182094,
+            19.339407
+          ],
+          [
+            -99.182184,
+            19.33911
+          ],
+          [
+            -99.182235,
+            19.338968
+          ],
+          [
+            -99.182269,
+            19.33889
+          ],
+          [
+            -99.182376,
+            19.338693
+          ],
+          [
+            -99.182827,
+            19.338103
+          ],
+          [
+            -99.182948,
+            19.337962
+          ],
+          [
+            -99.183316,
+            19.337684
+          ],
+          [
+            -99.183686,
+            19.337454
+          ],
+          [
+            -99.181161,
+            19.336537
+          ],
+          [
+            -99.181018,
+            19.336489
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756309058426,
+    "query": {
+      "coordinates": [
+        [
+          -99.1799918,
+          19.3429713
+        ],
+        [
+          -99.1810176,
+          19.3364886
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

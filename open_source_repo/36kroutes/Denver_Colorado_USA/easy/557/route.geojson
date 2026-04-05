@@ -1,0 +1,119 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -104.67755,
+    39.853793,
+    -104.670687,
+    39.853841
+  ],
+  "features": [
+    {
+      "bbox": [
+        -104.67755,
+        39.853793,
+        -104.670687,
+        39.853841
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 585.9,
+            "duration": 421.9,
+            "steps": [
+              {
+                "distance": 585.9,
+                "duration": 421.9,
+                "type": 11,
+                "instruction": "Head east",
+                "name": "-",
+                "way_points": [
+                  0,
+                  6
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  6,
+                  6
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          6
+        ],
+        "summary": {
+          "distance": 585.9,
+          "duration": 421.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -104.67755,
+            39.853841
+          ],
+          [
+            -104.675894,
+            39.85383
+          ],
+          [
+            -104.674,
+            39.853819
+          ],
+          [
+            -104.673523,
+            39.853812
+          ],
+          [
+            -104.671675,
+            39.8538
+          ],
+          [
+            -104.670723,
+            39.853793
+          ],
+          [
+            -104.670687,
+            39.853793
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306170669,
+    "query": {
+      "coordinates": [
+        [
+          -104.6775499,
+          39.8538412
+        ],
+        [
+          -104.6706869,
+          39.8537927
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

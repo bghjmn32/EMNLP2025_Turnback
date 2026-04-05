@@ -1,0 +1,161 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.419774,
+    -22.886738,
+    -43.415528,
+    -22.884127
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.419774,
+        -22.886738,
+        -43.415528,
+        -22.884127
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 626.4,
+            "duration": 451.0,
+            "steps": [
+              {
+                "distance": 71.3,
+                "duration": 51.3,
+                "type": 11,
+                "instruction": "Head southwest on Rua General Deschamps Cavalcanti",
+                "name": "Rua General Deschamps Cavalcanti",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 63.4,
+                "duration": 45.7,
+                "type": 0,
+                "instruction": "Turn left onto Avenida Frederico Faulhaber",
+                "name": "Avenida Frederico Faulhaber",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 491.7,
+                "duration": 354.0,
+                "type": 0,
+                "instruction": "Turn left onto Rua José Maria de Abreu",
+                "name": "Rua José Maria de Abreu",
+                "way_points": [
+                  2,
+                  11
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Rua José Maria de Abreu, straight ahead",
+                "name": "-",
+                "way_points": [
+                  11,
+                  11
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          11
+        ],
+        "summary": {
+          "distance": 626.4,
+          "duration": 451.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.419241,
+            -22.88588
+          ],
+          [
+            -43.419774,
+            -22.886293
+          ],
+          [
+            -43.419387,
+            -22.886738
+          ],
+          [
+            -43.418898,
+            -22.886351
+          ],
+          [
+            -43.41778,
+            -22.88547
+          ],
+          [
+            -43.41764,
+            -22.885375
+          ],
+          [
+            -43.417558,
+            -22.885323
+          ],
+          [
+            -43.417086,
+            -22.885057
+          ],
+          [
+            -43.41658,
+            -22.884761
+          ],
+          [
+            -43.416078,
+            -22.884463
+          ],
+          [
+            -43.415713,
+            -22.884239
+          ],
+          [
+            -43.415528,
+            -22.884127
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756390675083,
+    "query": {
+      "coordinates": [
+        [
+          -43.4192409,
+          -22.8858802
+        ],
+        [
+          -43.4155279,
+          -22.8841274
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.566766,
+    -33.908151,
+    18.571909,
+    -33.893897
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.566766,
+        -33.908151,
+        18.571909,
+        -33.893897
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1695.7,
+            "duration": 1220.9,
+            "steps": [
+              {
+                "distance": 1211.2,
+                "duration": 872.1,
+                "type": 11,
+                "instruction": "Head north on Van Riebeeck Street",
+                "name": "Van Riebeeck Street",
+                "way_points": [
+                  0,
+                  22
+                ]
+              },
+              {
+                "distance": 34.7,
+                "duration": 25.0,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  22,
+                  23
+                ]
+              },
+              {
+                "distance": 449.7,
+                "duration": 323.8,
+                "type": 2,
+                "instruction": "Turn sharp left",
+                "name": "-",
+                "way_points": [
+                  23,
+                  26
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  26,
+                  26
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          26
+        ],
+        "summary": {
+          "distance": 1695.7,
+          "duration": 1220.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.571909,
+            -33.908151
+          ],
+          [
+            18.571583,
+            -33.906826
+          ],
+          [
+            18.57122,
+            -33.905323
+          ],
+          [
+            18.571029,
+            -33.904515
+          ],
+          [
+            18.570948,
+            -33.904221
+          ],
+          [
+            18.57084,
+            -33.904027
+          ],
+          [
+            18.570703,
+            -33.90366
+          ],
+          [
+            18.570668,
+            -33.90362
+          ],
+          [
+            18.569521,
+            -33.90098
+          ],
+          [
+            18.569506,
+            -33.90095
+          ],
+          [
+            18.569475,
+            -33.900878
+          ],
+          [
+            18.569442,
+            -33.900803
+          ],
+          [
+            18.569427,
+            -33.90077
+          ],
+          [
+            18.569414,
+            -33.900723
+          ],
+          [
+            18.569387,
+            -33.900604
+          ],
+          [
+            18.569359,
+            -33.900583
+          ],
+          [
+            18.568858,
+            -33.899424
+          ],
+          [
+            18.5685,
+            -33.898616
+          ],
+          [
+            18.56847,
+            -33.898547
+          ],
+          [
+            18.568484,
+            -33.898516
+          ],
+          [
+            18.568462,
+            -33.898437
+          ],
+          [
+            18.568291,
+            -33.898052
+          ],
+          [
+            18.568162,
+            -33.897757
+          ],
+          [
+            18.568517,
+            -33.897653
+          ],
+          [
+            18.568458,
+            -33.897631
+          ],
+          [
+            18.568418,
+            -33.897585
+          ],
+          [
+            18.566766,
+            -33.893897
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756807126182,
+    "query": {
+      "coordinates": [
+        [
+          18.5719087,
+          -33.9081514
+        ],
+        [
+          18.566766,
+          -33.8938973
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

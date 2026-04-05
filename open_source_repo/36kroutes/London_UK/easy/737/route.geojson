@@ -1,0 +1,176 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -0.225111,
+    51.466568,
+    -0.221872,
+    51.470347
+  ],
+  "features": [
+    {
+      "bbox": [
+        -0.225111,
+        51.466568,
+        -0.221872,
+        51.470347
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 604.1,
+            "duration": 434.9,
+            "steps": [
+              {
+                "distance": 229.7,
+                "duration": 165.4,
+                "type": 11,
+                "instruction": "Head northwest on Felsham Road",
+                "name": "Felsham Road",
+                "way_points": [
+                  0,
+                  7
+                ]
+              },
+              {
+                "distance": 143.5,
+                "duration": 103.3,
+                "type": 1,
+                "instruction": "Turn right onto Wymond Street",
+                "name": "Wymond Street",
+                "way_points": [
+                  7,
+                  9
+                ]
+              },
+              {
+                "distance": 21.3,
+                "duration": 15.3,
+                "type": 0,
+                "instruction": "Turn left onto Lower Richmond Road, B306",
+                "name": "Lower Richmond Road, B306",
+                "way_points": [
+                  9,
+                  10
+                ]
+              },
+              {
+                "distance": 209.6,
+                "duration": 150.9,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  10,
+                  12
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  12,
+                  12
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          12
+        ],
+        "summary": {
+          "distance": 604.1,
+          "duration": 434.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -0.221872,
+            51.466568
+          ],
+          [
+            -0.222556,
+            51.466783
+          ],
+          [
+            -0.22274,
+            51.466831
+          ],
+          [
+            -0.223504,
+            51.466981
+          ],
+          [
+            -0.224184,
+            51.467112
+          ],
+          [
+            -0.224248,
+            51.467124
+          ],
+          [
+            -0.224637,
+            51.46716
+          ],
+          [
+            -0.225013,
+            51.467176
+          ],
+          [
+            -0.225009,
+            51.467223
+          ],
+          [
+            -0.224803,
+            51.468459
+          ],
+          [
+            -0.225111,
+            51.468463
+          ],
+          [
+            -0.225107,
+            51.470288
+          ],
+          [
+            -0.225088,
+            51.470347
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756828735532,
+    "query": {
+      "coordinates": [
+        [
+          -0.2218723,
+          51.4665677
+        ],
+        [
+          -0.2250882,
+          51.470347
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

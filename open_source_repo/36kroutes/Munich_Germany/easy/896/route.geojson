@@ -1,0 +1,221 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    11.691258,
+    48.225511,
+    11.696506,
+    48.231081
+  ],
+  "features": [
+    {
+      "bbox": [
+        11.691258,
+        48.225511,
+        11.696506,
+        48.231081
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1171.6,
+            "duration": 843.5,
+            "steps": [
+              {
+                "distance": 103.0,
+                "duration": 74.2,
+                "type": 11,
+                "instruction": "Head east",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 38.7,
+                "duration": 27.8,
+                "type": 0,
+                "instruction": "Turn left onto Mayerbacherstraße",
+                "name": "Mayerbacherstraße",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 159.6,
+                "duration": 114.9,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  2,
+                  4
+                ]
+              },
+              {
+                "distance": 364.9,
+                "duration": 262.7,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  4,
+                  9
+                ]
+              },
+              {
+                "distance": 229.6,
+                "duration": 165.3,
+                "type": 0,
+                "instruction": "Turn left onto Mayerbacherstraße",
+                "name": "Mayerbacherstraße",
+                "way_points": [
+                  9,
+                  11
+                ]
+              },
+              {
+                "distance": 234.4,
+                "duration": 168.8,
+                "type": 1,
+                "instruction": "Turn right onto Mayerbacherstraße",
+                "name": "Mayerbacherstraße",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 41.4,
+                "duration": 29.8,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  12,
+                  15
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  15,
+                  15
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          15
+        ],
+        "summary": {
+          "distance": 1171.6,
+          "duration": 843.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            11.693067,
+            48.225511
+          ],
+          [
+            11.694456,
+            48.225564
+          ],
+          [
+            11.694357,
+            48.225905
+          ],
+          [
+            11.694863,
+            48.225927
+          ],
+          [
+            11.696506,
+            48.226003
+          ],
+          [
+            11.696098,
+            48.22804
+          ],
+          [
+            11.695893,
+            48.228662
+          ],
+          [
+            11.695657,
+            48.228899
+          ],
+          [
+            11.695377,
+            48.229051
+          ],
+          [
+            11.695334,
+            48.229109
+          ],
+          [
+            11.693457,
+            48.228944
+          ],
+          [
+            11.692259,
+            48.228846
+          ],
+          [
+            11.691618,
+            48.23091
+          ],
+          [
+            11.691384,
+            48.230901
+          ],
+          [
+            11.691269,
+            48.230963
+          ],
+          [
+            11.691258,
+            48.231081
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756139549869,
+    "query": {
+      "coordinates": [
+        [
+          11.6930669,
+          48.2255111
+        ],
+        [
+          11.6912579,
+          48.2310806
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

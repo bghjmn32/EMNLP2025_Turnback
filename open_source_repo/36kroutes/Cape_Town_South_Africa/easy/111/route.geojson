@@ -1,0 +1,237 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.53166,
+    -33.998367,
+    18.539473,
+    -33.994869
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.53166,
+        -33.998367,
+        18.539473,
+        -33.994869
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1105.5,
+            "duration": 796.0,
+            "steps": [
+              {
+                "distance": 176.7,
+                "duration": 127.2,
+                "type": 11,
+                "instruction": "Head north on Heinz Road",
+                "name": "Heinz Road",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 43.0,
+                "duration": 31.0,
+                "type": 12,
+                "instruction": "Keep left onto Heinz Road",
+                "name": "Heinz Road",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 34.2,
+                "duration": 24.6,
+                "type": 12,
+                "instruction": "Keep left",
+                "name": "-",
+                "way_points": [
+                  2,
+                  5
+                ]
+              },
+              {
+                "distance": 589.8,
+                "duration": 424.7,
+                "type": 4,
+                "instruction": "Turn slight left onto Lonedown Road",
+                "name": "Lonedown Road",
+                "way_points": [
+                  5,
+                  15
+                ]
+              },
+              {
+                "distance": 109.5,
+                "duration": 78.8,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  15,
+                  16
+                ]
+              },
+              {
+                "distance": 94.1,
+                "duration": 67.8,
+                "type": 13,
+                "instruction": "Keep right",
+                "name": "-",
+                "way_points": [
+                  16,
+                  18
+                ]
+              },
+              {
+                "distance": 58.2,
+                "duration": 41.9,
+                "type": 0,
+                "instruction": "Turn left onto Lanston Road",
+                "name": "Lanston Road",
+                "way_points": [
+                  18,
+                  19
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Lanston Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  19,
+                  19
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          19
+        ],
+        "summary": {
+          "distance": 1105.5,
+          "duration": 796.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.539473,
+            -33.998367
+          ],
+          [
+            18.539241,
+            -33.99679
+          ],
+          [
+            18.539157,
+            -33.996409
+          ],
+          [
+            18.539092,
+            -33.996329
+          ],
+          [
+            18.539027,
+            -33.996285
+          ],
+          [
+            18.53886,
+            -33.996257
+          ],
+          [
+            18.538538,
+            -33.99628
+          ],
+          [
+            18.53686,
+            -33.9964
+          ],
+          [
+            18.535694,
+            -33.996489
+          ],
+          [
+            18.535421,
+            -33.996509
+          ],
+          [
+            18.535181,
+            -33.996527
+          ],
+          [
+            18.53459,
+            -33.99657
+          ],
+          [
+            18.53308,
+            -33.996676
+          ],
+          [
+            18.532836,
+            -33.996695
+          ],
+          [
+            18.532645,
+            -33.996703
+          ],
+          [
+            18.532486,
+            -33.996693
+          ],
+          [
+            18.532381,
+            -33.995712
+          ],
+          [
+            18.532372,
+            -33.995626
+          ],
+          [
+            18.532289,
+            -33.994869
+          ],
+          [
+            18.53166,
+            -33.994912
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756803998510,
+    "query": {
+      "coordinates": [
+        [
+          18.5394725,
+          -33.9983669
+        ],
+        [
+          18.5316599,
+          -33.9949116
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

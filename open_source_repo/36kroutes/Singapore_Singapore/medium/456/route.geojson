@@ -1,0 +1,299 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    103.746259,
+    1.419178,
+    103.750623,
+    1.424526
+  ],
+  "features": [
+    {
+      "bbox": [
+        103.746259,
+        1.419178,
+        103.750623,
+        1.424526
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1250.9,
+            "duration": 900.7,
+            "steps": [
+              {
+                "distance": 27.4,
+                "duration": 19.7,
+                "type": 11,
+                "instruction": "Head southeast",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 64.2,
+                "duration": 46.2,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  3
+                ]
+              },
+              {
+                "distance": 180.6,
+                "duration": 130.1,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  3,
+                  8
+                ]
+              },
+              {
+                "distance": 13.4,
+                "duration": 9.7,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  8,
+                  9
+                ]
+              },
+              {
+                "distance": 22.9,
+                "duration": 16.5,
+                "type": 0,
+                "instruction": "Turn left onto Sungei Kadut Street 5",
+                "name": "Sungei Kadut Street 5",
+                "way_points": [
+                  9,
+                  10
+                ]
+              },
+              {
+                "distance": 9.6,
+                "duration": 6.9,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  10,
+                  11
+                ]
+              },
+              {
+                "distance": 224.6,
+                "duration": 161.7,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  11,
+                  16
+                ]
+              },
+              {
+                "distance": 427.3,
+                "duration": 307.7,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  16,
+                  22
+                ]
+              },
+              {
+                "distance": 280.9,
+                "duration": 202.3,
+                "type": 1,
+                "instruction": "Turn right onto Sungei Kadut Street 4",
+                "name": "Sungei Kadut Street 4",
+                "way_points": [
+                  22,
+                  29
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Sungei Kadut Street 4, straight ahead",
+                "name": "-",
+                "way_points": [
+                  29,
+                  29
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          29
+        ],
+        "summary": {
+          "distance": 1250.9,
+          "duration": 900.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            103.746403,
+            1.424526
+          ],
+          [
+            103.746602,
+            1.42438
+          ],
+          [
+            103.74647,
+            1.424202
+          ],
+          [
+            103.746259,
+            1.423915
+          ],
+          [
+            103.74638,
+            1.423812
+          ],
+          [
+            103.746644,
+            1.423647
+          ],
+          [
+            103.746857,
+            1.423551
+          ],
+          [
+            103.747279,
+            1.423461
+          ],
+          [
+            103.747768,
+            1.423434
+          ],
+          [
+            103.747771,
+            1.423313
+          ],
+          [
+            103.747978,
+            1.423314
+          ],
+          [
+            103.747972,
+            1.423228
+          ],
+          [
+            103.748195,
+            1.42323
+          ],
+          [
+            103.748593,
+            1.423277
+          ],
+          [
+            103.749327,
+            1.423385
+          ],
+          [
+            103.749835,
+            1.423487
+          ],
+          [
+            103.749947,
+            1.423409
+          ],
+          [
+            103.750025,
+            1.422953
+          ],
+          [
+            103.750144,
+            1.422354
+          ],
+          [
+            103.75028,
+            1.421598
+          ],
+          [
+            103.750393,
+            1.420871
+          ],
+          [
+            103.750503,
+            1.420215
+          ],
+          [
+            103.750623,
+            1.419626
+          ],
+          [
+            103.750217,
+            1.419553
+          ],
+          [
+            103.749966,
+            1.419508
+          ],
+          [
+            103.749577,
+            1.419438
+          ],
+          [
+            103.749368,
+            1.4194
+          ],
+          [
+            103.749028,
+            1.419339
+          ],
+          [
+            103.748926,
+            1.419321
+          ],
+          [
+            103.748136,
+            1.419178
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756399472087,
+    "query": {
+      "coordinates": [
+        [
+          103.7464033,
+          1.4245256
+        ],
+        [
+          103.7481357,
+          1.4191782
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

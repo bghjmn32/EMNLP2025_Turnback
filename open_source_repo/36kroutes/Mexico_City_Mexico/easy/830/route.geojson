@@ -1,0 +1,171 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.170636,
+    19.289932,
+    -99.168718,
+    19.294169
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.170636,
+        19.289932,
+        -99.168718,
+        19.294169
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 718.5,
+            "duration": 517.3,
+            "steps": [
+              {
+                "distance": 114.8,
+                "duration": 82.7,
+                "type": 11,
+                "instruction": "Head west on Calle Coapa",
+                "name": "Calle Coapa",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 281.3,
+                "duration": 202.5,
+                "type": 0,
+                "instruction": "Turn left onto Calle Las Fuentes",
+                "name": "Calle Las Fuentes",
+                "way_points": [
+                  1,
+                  4
+                ]
+              },
+              {
+                "distance": 83.3,
+                "duration": 60.0,
+                "type": 0,
+                "instruction": "Turn left onto Calle Ignacio Allende",
+                "name": "Calle Ignacio Allende",
+                "way_points": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "distance": 169.4,
+                "duration": 121.9,
+                "type": 1,
+                "instruction": "Turn right onto Calle Mariano Abasolo",
+                "name": "Calle Mariano Abasolo",
+                "way_points": [
+                  5,
+                  7
+                ]
+              },
+              {
+                "distance": 69.8,
+                "duration": 50.2,
+                "type": 0,
+                "instruction": "Turn left onto Calle Moneda",
+                "name": "Calle Moneda",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Moneda, straight ahead",
+                "name": "-",
+                "way_points": [
+                  8,
+                  8
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          8
+        ],
+        "summary": {
+          "distance": 718.5,
+          "duration": 517.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.168718,
+            19.29381
+          ],
+          [
+            -99.169743,
+            19.294169
+          ],
+          [
+            -99.1701,
+            19.293269
+          ],
+          [
+            -99.170091,
+            19.293138
+          ],
+          [
+            -99.170636,
+            19.291796
+          ],
+          [
+            -99.169881,
+            19.291565
+          ],
+          [
+            -99.170219,
+            19.290608
+          ],
+          [
+            -99.170391,
+            19.29012
+          ],
+          [
+            -99.169757,
+            19.289932
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756307831500,
+    "query": {
+      "coordinates": [
+        [
+          -99.168718,
+          19.2938095
+        ],
+        [
+          -99.1697567,
+          19.2899317
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

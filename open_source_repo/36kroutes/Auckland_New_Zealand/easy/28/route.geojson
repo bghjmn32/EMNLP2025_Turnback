@@ -1,0 +1,245 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    174.774824,
+    -36.329617,
+    174.7779,
+    -36.326572
+  ],
+  "features": [
+    {
+      "bbox": [
+        174.774824,
+        -36.329617,
+        174.7779,
+        -36.326572
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 623.7,
+            "duration": 449.0,
+            "steps": [
+              {
+                "distance": 59.2,
+                "duration": 42.6,
+                "type": 11,
+                "instruction": "Head east on Lagoon Way",
+                "name": "Lagoon Way",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 112.7,
+                "duration": 81.2,
+                "type": 1,
+                "instruction": "Turn right onto Lagoon Way",
+                "name": "Lagoon Way",
+                "way_points": [
+                  1,
+                  3
+                ]
+              },
+              {
+                "distance": 77.0,
+                "duration": 55.5,
+                "type": 7,
+                "instruction": "Enter the roundabout and take the 1st exit onto Excelsior Way",
+                "name": "Excelsior Way",
+                "exit_number": 1,
+                "way_points": [
+                  3,
+                  6
+                ]
+              },
+              {
+                "distance": 100.3,
+                "duration": 72.2,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  6,
+                  9
+                ]
+              },
+              {
+                "distance": 46.0,
+                "duration": 33.1,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  9,
+                  11
+                ]
+              },
+              {
+                "distance": 40.6,
+                "duration": 29.2,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  11,
+                  13
+                ]
+              },
+              {
+                "distance": 119.1,
+                "duration": 85.8,
+                "type": 1,
+                "instruction": "Turn right onto Reliance Way",
+                "name": "Reliance Way",
+                "way_points": [
+                  13,
+                  17
+                ]
+              },
+              {
+                "distance": 68.7,
+                "duration": 49.4,
+                "type": 0,
+                "instruction": "Turn left onto Ōmaha Drive",
+                "name": "Ōmaha Drive",
+                "way_points": [
+                  17,
+                  18
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Ōmaha Drive, straight ahead",
+                "name": "-",
+                "way_points": [
+                  18,
+                  18
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          18
+        ],
+        "summary": {
+          "distance": 623.7,
+          "duration": 449.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            174.777225,
+            -36.326572
+          ],
+          [
+            174.777854,
+            -36.326733
+          ],
+          [
+            174.7779,
+            -36.326821
+          ],
+          [
+            174.777717,
+            -36.327727
+          ],
+          [
+            174.77767,
+            -36.327736
+          ],
+          [
+            174.777642,
+            -36.327768
+          ],
+          [
+            174.776903,
+            -36.327618
+          ],
+          [
+            174.776819,
+            -36.327864
+          ],
+          [
+            174.776757,
+            -36.328273
+          ],
+          [
+            174.77667,
+            -36.328497
+          ],
+          [
+            174.776614,
+            -36.328497
+          ],
+          [
+            174.776178,
+            -36.32861
+          ],
+          [
+            174.776158,
+            -36.328796
+          ],
+          [
+            174.776199,
+            -36.328972
+          ],
+          [
+            174.775845,
+            -36.328964
+          ],
+          [
+            174.775391,
+            -36.328987
+          ],
+          [
+            174.774956,
+            -36.328975
+          ],
+          [
+            174.774876,
+            -36.329001
+          ],
+          [
+            174.774824,
+            -36.329617
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756373627803,
+    "query": {
+      "coordinates": [
+        [
+          174.7772245,
+          -36.3265723
+        ],
+        [
+          174.7748239,
+          -36.329617
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

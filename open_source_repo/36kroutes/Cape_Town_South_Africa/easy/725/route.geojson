@@ -1,0 +1,172 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.459322,
+    -33.988474,
+    18.461134,
+    -33.984568
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.459322,
+        -33.988474,
+        18.461134,
+        -33.984568
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 672.2,
+            "duration": 484.0,
+            "steps": [
+              {
+                "distance": 56.3,
+                "duration": 40.5,
+                "type": 11,
+                "instruction": "Head south",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 157.6,
+                "duration": 113.5,
+                "type": 0,
+                "instruction": "Turn left onto Eyton Road",
+                "name": "Eyton Road",
+                "way_points": [
+                  1,
+                  4
+                ]
+              },
+              {
+                "distance": 383.7,
+                "duration": 276.3,
+                "type": 0,
+                "instruction": "Turn left onto Linda Road",
+                "name": "Linda Road",
+                "way_points": [
+                  4,
+                  10
+                ]
+              },
+              {
+                "distance": 74.6,
+                "duration": 53.7,
+                "type": 1,
+                "instruction": "Turn right onto Carbrook Avenue",
+                "name": "Carbrook Avenue",
+                "way_points": [
+                  10,
+                  11
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Carbrook Avenue, straight ahead",
+                "name": "-",
+                "way_points": [
+                  11,
+                  11
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          11
+        ],
+        "summary": {
+          "distance": 672.2,
+          "duration": 484.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.459322,
+            -33.987983
+          ],
+          [
+            18.45947,
+            -33.988474
+          ],
+          [
+            18.459851,
+            -33.9884
+          ],
+          [
+            18.460777,
+            -33.988222
+          ],
+          [
+            18.461134,
+            -33.98815
+          ],
+          [
+            18.460953,
+            -33.98751
+          ],
+          [
+            18.460773,
+            -33.986868
+          ],
+          [
+            18.460595,
+            -33.986231
+          ],
+          [
+            18.46044,
+            -33.98568
+          ],
+          [
+            18.460399,
+            -33.985611
+          ],
+          [
+            18.459955,
+            -33.984859
+          ],
+          [
+            18.460684,
+            -33.984568
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756805512768,
+    "query": {
+      "coordinates": [
+        [
+          18.459322,
+          -33.9879828
+        ],
+        [
+          18.4606842,
+          -33.9845676
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

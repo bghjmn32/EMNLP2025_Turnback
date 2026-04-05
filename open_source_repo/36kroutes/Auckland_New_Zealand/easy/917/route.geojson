@@ -1,0 +1,181 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    174.711044,
+    -37.164961,
+    174.716155,
+    -37.160622
+  ],
+  "features": [
+    {
+      "bbox": [
+        174.711044,
+        -37.164961,
+        174.716155,
+        -37.160622
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 747.3,
+            "duration": 538.0,
+            "steps": [
+              {
+                "distance": 112.6,
+                "duration": 81.1,
+                "type": 11,
+                "instruction": "Head west on Beach Road",
+                "name": "Beach Road",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 530.1,
+                "duration": 381.7,
+                "type": 1,
+                "instruction": "Turn right onto Ronald Avenue",
+                "name": "Ronald Avenue",
+                "way_points": [
+                  2,
+                  12
+                ]
+              },
+              {
+                "distance": 104.5,
+                "duration": 75.3,
+                "type": 5,
+                "instruction": "Turn slight right onto Hill Road",
+                "name": "Hill Road",
+                "way_points": [
+                  12,
+                  16
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Hill Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  16,
+                  16
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          16
+        ],
+        "summary": {
+          "distance": 747.3,
+          "duration": 538.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            174.716155,
+            -37.164678
+          ],
+          [
+            174.716114,
+            -37.164688
+          ],
+          [
+            174.714936,
+            -37.164961
+          ],
+          [
+            174.714915,
+            -37.164863
+          ],
+          [
+            174.713512,
+            -37.163063
+          ],
+          [
+            174.712727,
+            -37.162072
+          ],
+          [
+            174.712572,
+            -37.161913
+          ],
+          [
+            174.712349,
+            -37.161741
+          ],
+          [
+            174.712135,
+            -37.161607
+          ],
+          [
+            174.711945,
+            -37.161554
+          ],
+          [
+            174.711824,
+            -37.161547
+          ],
+          [
+            174.711434,
+            -37.161573
+          ],
+          [
+            174.711262,
+            -37.161535
+          ],
+          [
+            174.711228,
+            -37.161512
+          ],
+          [
+            174.711192,
+            -37.161454
+          ],
+          [
+            174.711116,
+            -37.160988
+          ],
+          [
+            174.711044,
+            -37.160622
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756375781941,
+    "query": {
+      "coordinates": [
+        [
+          174.7161551,
+          -37.164678
+        ],
+        [
+          174.7110436,
+          -37.1606225
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -105.062073,
+    39.67539,
+    -105.055555,
+    39.675619
+  ],
+  "features": [
+    {
+      "bbox": [
+        -105.062073,
+        39.67539,
+        -105.055555,
+        39.675619
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 560.3,
+            "duration": 403.4,
+            "steps": [
+              {
+                "distance": 560.3,
+                "duration": 403.4,
+                "type": 11,
+                "instruction": "Head east on West Warren Avenue",
+                "name": "West Warren Avenue",
+                "way_points": [
+                  0,
+                  12
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at West Warren Avenue, straight ahead",
+                "name": "-",
+                "way_points": [
+                  12,
+                  12
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          12
+        ],
+        "summary": {
+          "distance": 560.3,
+          "duration": 403.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -105.062073,
+            39.67539
+          ],
+          [
+            -105.061104,
+            39.675403
+          ],
+          [
+            -105.060177,
+            39.675416
+          ],
+          [
+            -105.059207,
+            39.675416
+          ],
+          [
+            -105.05879,
+            39.675416
+          ],
+          [
+            -105.05828,
+            39.675416
+          ],
+          [
+            -105.058144,
+            39.675416
+          ],
+          [
+            -105.057255,
+            39.675416
+          ],
+          [
+            -105.056549,
+            39.675436
+          ],
+          [
+            -105.056463,
+            39.675452
+          ],
+          [
+            -105.056216,
+            39.675497
+          ],
+          [
+            -105.056019,
+            39.675534
+          ],
+          [
+            -105.055555,
+            39.675619
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756304310174,
+    "query": {
+      "coordinates": [
+        [
+          -105.0620735,
+          39.6753896
+        ],
+        [
+          -105.0555552,
+          39.6756191
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -79.443985,
+    43.735299,
+    -79.437583,
+    43.736021
+  ],
+  "features": [
+    {
+      "bbox": [
+        -79.443985,
+        43.735299,
+        -79.437583,
+        43.736021
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 612.2,
+            "duration": 440.7,
+            "steps": [
+              {
+                "distance": 7.6,
+                "duration": 5.4,
+                "type": 11,
+                "instruction": "Head north",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 101.8,
+                "duration": 73.3,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  5
+                ]
+              },
+              {
+                "distance": 20.0,
+                "duration": 14.4,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  5,
+                  7
+                ]
+              },
+              {
+                "distance": 227.9,
+                "duration": 164.1,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  7,
+                  12
+                ]
+              },
+              {
+                "distance": 80.3,
+                "duration": 57.8,
+                "type": 1,
+                "instruction": "Turn right onto Laurentia Crescent",
+                "name": "Laurentia Crescent",
+                "way_points": [
+                  12,
+                  15
+                ]
+              },
+              {
+                "distance": 174.5,
+                "duration": 125.6,
+                "type": 0,
+                "instruction": "Turn left onto Cadillac Avenue",
+                "name": "Cadillac Avenue",
+                "way_points": [
+                  15,
+                  17
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Cadillac Avenue, straight ahead",
+                "name": "-",
+                "way_points": [
+                  17,
+                  17
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          17
+        ],
+        "summary": {
+          "distance": 612.2,
+          "duration": 440.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -79.443959,
+            43.735299
+          ],
+          [
+            -79.443985,
+            43.735364
+          ],
+          [
+            -79.44348,
+            43.735469
+          ],
+          [
+            -79.443106,
+            43.735546
+          ],
+          [
+            -79.442871,
+            43.735595
+          ],
+          [
+            -79.442767,
+            43.735617
+          ],
+          [
+            -79.442737,
+            43.735543
+          ],
+          [
+            -79.442697,
+            43.735444
+          ],
+          [
+            -79.44256,
+            43.735472
+          ],
+          [
+            -79.442465,
+            43.735491
+          ],
+          [
+            -79.441912,
+            43.735602
+          ],
+          [
+            -79.440443,
+            43.735917
+          ],
+          [
+            -79.439975,
+            43.736021
+          ],
+          [
+            -79.439934,
+            43.73593
+          ],
+          [
+            -79.439851,
+            43.735728
+          ],
+          [
+            -79.439679,
+            43.735331
+          ],
+          [
+            -79.438541,
+            43.735538
+          ],
+          [
+            -79.437583,
+            43.735741
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756124719325,
+    "query": {
+      "coordinates": [
+        [
+          -79.4439593,
+          43.7352987
+        ],
+        [
+          -79.437583,
+          43.7357405
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

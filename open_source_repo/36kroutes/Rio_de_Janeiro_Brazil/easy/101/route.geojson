@@ -1,0 +1,157 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.539701,
+    -23.050784,
+    -43.533744,
+    -23.046901
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.539701,
+        -23.050784,
+        -43.533744,
+        -23.046901
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 944.2,
+            "duration": 679.8,
+            "steps": [
+              {
+                "distance": 24.7,
+                "duration": 17.8,
+                "type": 11,
+                "instruction": "Head northwest",
+                "name": "-",
+                "way_points": [
+                  0,
+                  5
+                ]
+              },
+              {
+                "distance": 547.8,
+                "duration": 394.4,
+                "type": 1,
+                "instruction": "Turn right onto Estrada do Grumari",
+                "name": "Estrada do Grumari",
+                "way_points": [
+                  5,
+                  8
+                ]
+              },
+              {
+                "distance": 371.8,
+                "duration": 267.7,
+                "type": 1,
+                "instruction": "Turn right onto Rua Santa Beatriz",
+                "name": "Rua Santa Beatriz",
+                "way_points": [
+                  8,
+                  10
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Rua Santa Beatriz, straight ahead",
+                "name": "-",
+                "way_points": [
+                  10,
+                  10
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          10
+        ],
+        "summary": {
+          "distance": 944.2,
+          "duration": 679.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.539563,
+            -23.050784
+          ],
+          [
+            -43.539607,
+            -23.050748
+          ],
+          [
+            -43.539657,
+            -23.050694
+          ],
+          [
+            -43.539686,
+            -23.050651
+          ],
+          [
+            -43.539695,
+            -23.050624
+          ],
+          [
+            -43.539701,
+            -23.050607
+          ],
+          [
+            -43.537552,
+            -23.04834
+          ],
+          [
+            -43.537102,
+            -23.04781
+          ],
+          [
+            -43.536177,
+            -23.046901
+          ],
+          [
+            -43.534041,
+            -23.049035
+          ],
+          [
+            -43.533744,
+            -23.049383
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756390599422,
+    "query": {
+      "coordinates": [
+        [
+          -43.5395634,
+          -23.050784
+        ],
+        [
+          -43.533744,
+          -23.0493829
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

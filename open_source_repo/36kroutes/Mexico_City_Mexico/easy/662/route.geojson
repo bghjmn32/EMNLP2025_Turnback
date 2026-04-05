@@ -1,0 +1,214 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.060104,
+    19.398043,
+    -99.057537,
+    19.403043
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.060104,
+        19.398043,
+        -99.057537,
+        19.403043
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 732.3,
+            "duration": 527.3,
+            "steps": [
+              {
+                "distance": 235.1,
+                "duration": 169.3,
+                "type": 11,
+                "instruction": "Head south on Calle 6",
+                "name": "Calle 6",
+                "way_points": [
+                  0,
+                  4
+                ]
+              },
+              {
+                "distance": 215.6,
+                "duration": 155.2,
+                "type": 0,
+                "instruction": "Turn left onto Avenida Puebla",
+                "name": "Avenida Puebla",
+                "way_points": [
+                  4,
+                  7
+                ]
+              },
+              {
+                "distance": 122.9,
+                "duration": 88.5,
+                "type": 1,
+                "instruction": "Turn right onto Calle 7",
+                "name": "Calle 7",
+                "way_points": [
+                  7,
+                  9
+                ]
+              },
+              {
+                "distance": 39.6,
+                "duration": 28.5,
+                "type": 12,
+                "instruction": "Keep left",
+                "name": "-",
+                "way_points": [
+                  9,
+                  13
+                ]
+              },
+              {
+                "distance": 39.9,
+                "duration": 28.7,
+                "type": 3,
+                "instruction": "Turn sharp right onto Calle 7",
+                "name": "Calle 7",
+                "way_points": [
+                  13,
+                  14
+                ]
+              },
+              {
+                "distance": 79.3,
+                "duration": 57.1,
+                "type": 0,
+                "instruction": "Turn left onto Calzada General Ignacio Zaragoza",
+                "name": "Calzada General Ignacio Zaragoza",
+                "way_points": [
+                  14,
+                  16
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calzada General Ignacio Zaragoza, straight ahead",
+                "name": "-",
+                "way_points": [
+                  16,
+                  16
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          16
+        ],
+        "summary": {
+          "distance": 732.3,
+          "duration": 527.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.059864,
+            19.403043
+          ],
+          [
+            -99.059924,
+            19.40253
+          ],
+          [
+            -99.059977,
+            19.402046
+          ],
+          [
+            -99.06002,
+            19.401558
+          ],
+          [
+            -99.060104,
+            19.400941
+          ],
+          [
+            -99.059157,
+            19.400421
+          ],
+          [
+            -99.059022,
+            19.400336
+          ],
+          [
+            -99.058342,
+            19.399942
+          ],
+          [
+            -99.058392,
+            19.399472
+          ],
+          [
+            -99.058463,
+            19.398843
+          ],
+          [
+            -99.058385,
+            19.398745
+          ],
+          [
+            -99.058341,
+            19.398724
+          ],
+          [
+            -99.058246,
+            19.398717
+          ],
+          [
+            -99.058155,
+            19.398763
+          ],
+          [
+            -99.058188,
+            19.398406
+          ],
+          [
+            -99.057868,
+            19.398228
+          ],
+          [
+            -99.057537,
+            19.398043
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306929553,
+    "query": {
+      "coordinates": [
+        [
+          -99.0598644,
+          19.4030427
+        ],
+        [
+          -99.0575371,
+          19.398043
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

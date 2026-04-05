@@ -1,0 +1,235 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -79.427368,
+    43.642903,
+    -79.422469,
+    43.645476
+  ],
+  "features": [
+    {
+      "bbox": [
+        -79.427368,
+        43.642903,
+        -79.422469,
+        43.645476
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 631.7,
+            "duration": 454.8,
+            "steps": [
+              {
+                "distance": 43.6,
+                "duration": 31.4,
+                "type": 11,
+                "instruction": "Head west on Humbert Street",
+                "name": "Humbert Street",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 174.0,
+                "duration": 125.3,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  2,
+                  5
+                ]
+              },
+              {
+                "distance": 399.6,
+                "duration": 287.7,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  5,
+                  21
+                ]
+              },
+              {
+                "distance": 6.8,
+                "duration": 4.9,
+                "type": 1,
+                "instruction": "Turn right onto Gladstone Avenue",
+                "name": "Gladstone Avenue",
+                "way_points": [
+                  21,
+                  23
+                ]
+              },
+              {
+                "distance": 7.6,
+                "duration": 5.5,
+                "type": 0,
+                "instruction": "Turn left onto Minowan Miikan Lane",
+                "name": "Minowan Miikan Lane",
+                "way_points": [
+                  23,
+                  24
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Minowan Miikan Lane, straight ahead",
+                "name": "-",
+                "way_points": [
+                  24,
+                  24
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          24
+        ],
+        "summary": {
+          "distance": 631.7,
+          "duration": 454.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -79.422503,
+            43.645476
+          ],
+          [
+            -79.422595,
+            43.645462
+          ],
+          [
+            -79.423026,
+            43.645373
+          ],
+          [
+            -79.423008,
+            43.645331
+          ],
+          [
+            -79.42302,
+            43.645304
+          ],
+          [
+            -79.422469,
+            43.643866
+          ],
+          [
+            -79.422514,
+            43.643857
+          ],
+          [
+            -79.422592,
+            43.643842
+          ],
+          [
+            -79.423134,
+            43.643738
+          ],
+          [
+            -79.423685,
+            43.643619
+          ],
+          [
+            -79.42373,
+            43.64361
+          ],
+          [
+            -79.423799,
+            43.643596
+          ],
+          [
+            -79.424307,
+            43.643492
+          ],
+          [
+            -79.424863,
+            43.643376
+          ],
+          [
+            -79.424906,
+            43.643368
+          ],
+          [
+            -79.424972,
+            43.643354
+          ],
+          [
+            -79.425528,
+            43.643243
+          ],
+          [
+            -79.426052,
+            43.643137
+          ],
+          [
+            -79.426099,
+            43.643128
+          ],
+          [
+            -79.426161,
+            43.643116
+          ],
+          [
+            -79.42716,
+            43.642921
+          ],
+          [
+            -79.427253,
+            43.642903
+          ],
+          [
+            -79.427269,
+            43.642944
+          ],
+          [
+            -79.427276,
+            43.642962
+          ],
+          [
+            -79.427368,
+            43.642944
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756126212983,
+    "query": {
+      "coordinates": [
+        [
+          -79.4225028,
+          43.6454758
+        ],
+        [
+          -79.4273677,
+          43.6429442
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.174456,
+    19.398758,
+    -99.171289,
+    19.405468
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.174456,
+        19.398758,
+        -99.171289,
+        19.405468
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 929.8,
+            "duration": 669.5,
+            "steps": [
+              {
+                "distance": 135.7,
+                "duration": 97.7,
+                "type": 11,
+                "instruction": "Head south on Avenida Nuevo León",
+                "name": "Avenida Nuevo León",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 30.3,
+                "duration": 21.8,
+                "type": 13,
+                "instruction": "Keep right onto Calle Agrarismo",
+                "name": "Calle Agrarismo",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 128.5,
+                "duration": 92.5,
+                "type": 13,
+                "instruction": "Keep right onto Calle Agrarismo",
+                "name": "Calle Agrarismo",
+                "way_points": [
+                  3,
+                  7
+                ]
+              },
+              {
+                "distance": 103.3,
+                "duration": 74.3,
+                "type": 1,
+                "instruction": "Turn right onto Cerrada Agrarismo",
+                "name": "Cerrada Agrarismo",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 109.3,
+                "duration": 78.7,
+                "type": 0,
+                "instruction": "Turn left onto Calle Sindicalismo",
+                "name": "Calle Sindicalismo",
+                "way_points": [
+                  8,
+                  10
+                ]
+              },
+              {
+                "distance": 422.7,
+                "duration": 304.3,
+                "type": 6,
+                "instruction": "Continue straight onto Calle Sindicalismo",
+                "name": "Calle Sindicalismo",
+                "way_points": [
+                  10,
+                  13
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Sindicalismo, straight ahead",
+                "name": "-",
+                "way_points": [
+                  13,
+                  13
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          13
+        ],
+        "summary": {
+          "distance": 929.8,
+          "duration": 669.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.171588,
+            19.405468
+          ],
+          [
+            -99.171309,
+            19.404361
+          ],
+          [
+            -99.171289,
+            19.404281
+          ],
+          [
+            -99.17141,
+            19.404034
+          ],
+          [
+            -99.171555,
+            19.403886
+          ],
+          [
+            -99.171598,
+            19.403786
+          ],
+          [
+            -99.171658,
+            19.403599
+          ],
+          [
+            -99.171886,
+            19.402984
+          ],
+          [
+            -99.172818,
+            19.403286
+          ],
+          [
+            -99.173055,
+            19.402635
+          ],
+          [
+            -99.173157,
+            19.402356
+          ],
+          [
+            -99.173676,
+            19.400921
+          ],
+          [
+            -99.174436,
+            19.398812
+          ],
+          [
+            -99.174456,
+            19.398758
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756307890654,
+    "query": {
+      "coordinates": [
+        [
+          -99.1715883,
+          19.4054684
+        ],
+        [
+          -99.1744561,
+          19.3987578
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

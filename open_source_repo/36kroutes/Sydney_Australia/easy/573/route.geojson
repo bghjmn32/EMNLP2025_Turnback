@@ -1,0 +1,143 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    150.888144,
+    -33.978768,
+    150.897987,
+    -33.977476
+  ],
+  "features": [
+    {
+      "bbox": [
+        150.888144,
+        -33.978768,
+        150.897987,
+        -33.977476
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 918.9,
+            "duration": 661.6,
+            "steps": [
+              {
+                "distance": 918.9,
+                "duration": 661.6,
+                "type": 11,
+                "instruction": "Head east on Fawcett Street",
+                "name": "Fawcett Street",
+                "way_points": [
+                  0,
+                  12
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Fawcett Street, straight ahead",
+                "name": "-",
+                "way_points": [
+                  12,
+                  12
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          12
+        ],
+        "summary": {
+          "distance": 918.9,
+          "duration": 661.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            150.888144,
+            -33.977476
+          ],
+          [
+            150.888826,
+            -33.977567
+          ],
+          [
+            150.88968,
+            -33.977681
+          ],
+          [
+            150.890282,
+            -33.977761
+          ],
+          [
+            150.890975,
+            -33.977861
+          ],
+          [
+            150.891053,
+            -33.977871
+          ],
+          [
+            150.891866,
+            -33.977974
+          ],
+          [
+            150.892685,
+            -33.978082
+          ],
+          [
+            150.893188,
+            -33.978149
+          ],
+          [
+            150.893714,
+            -33.978218
+          ],
+          [
+            150.895985,
+            -33.978513
+          ],
+          [
+            150.896339,
+            -33.978559
+          ],
+          [
+            150.897987,
+            -33.978768
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756393895868,
+    "query": {
+      "coordinates": [
+        [
+          150.8881442,
+          -33.9774764
+        ],
+        [
+          150.8979871,
+          -33.9787677
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

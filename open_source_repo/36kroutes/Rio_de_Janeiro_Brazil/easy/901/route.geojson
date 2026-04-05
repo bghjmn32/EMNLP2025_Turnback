@@ -1,0 +1,202 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.313004,
+    -22.880804,
+    -43.310439,
+    -22.876421
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.313004,
+        -22.880804,
+        -43.310439,
+        -22.876421
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 714.0,
+            "duration": 514.1,
+            "steps": [
+              {
+                "distance": 97.4,
+                "duration": 70.1,
+                "type": 11,
+                "instruction": "Head east",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 147.6,
+                "duration": 106.3,
+                "type": 1,
+                "instruction": "Turn right onto Rua Arthur Vargas",
+                "name": "Rua Arthur Vargas",
+                "way_points": [
+                  1,
+                  4
+                ]
+              },
+              {
+                "distance": 264.1,
+                "duration": 190.2,
+                "type": 5,
+                "instruction": "Turn slight right onto Rua Ada",
+                "name": "Rua Ada",
+                "way_points": [
+                  4,
+                  9
+                ]
+              },
+              {
+                "distance": 84.7,
+                "duration": 61.0,
+                "type": 0,
+                "instruction": "Turn left onto Travessa Newton Vasconcelos - Carrerinho",
+                "name": "Travessa Newton Vasconcelos - Carrerinho",
+                "way_points": [
+                  9,
+                  10
+                ]
+              },
+              {
+                "distance": 112.9,
+                "duration": 81.3,
+                "type": 1,
+                "instruction": "Turn right onto Calçada",
+                "name": "Calçada",
+                "way_points": [
+                  10,
+                  11
+                ]
+              },
+              {
+                "distance": 7.3,
+                "duration": 5.2,
+                "type": 0,
+                "instruction": "Turn left onto Rua Padre Manoel de Nóbrega",
+                "name": "Rua Padre Manoel de Nóbrega",
+                "way_points": [
+                  11,
+                  13
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Rua Padre Manoel de Nóbrega, straight ahead",
+                "name": "-",
+                "way_points": [
+                  13,
+                  13
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          13
+        ],
+        "summary": {
+          "distance": 714.0,
+          "duration": 514.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.311362,
+            -22.876421
+          ],
+          [
+            -43.310439,
+            -22.876631
+          ],
+          [
+            -43.31059,
+            -22.877304
+          ],
+          [
+            -43.310691,
+            -22.877745
+          ],
+          [
+            -43.310734,
+            -22.877931
+          ],
+          [
+            -43.311067,
+            -22.878205
+          ],
+          [
+            -43.311167,
+            -22.878284
+          ],
+          [
+            -43.312394,
+            -22.879255
+          ],
+          [
+            -43.312664,
+            -22.879472
+          ],
+          [
+            -43.312682,
+            -22.879487
+          ],
+          [
+            -43.312175,
+            -22.880088
+          ],
+          [
+            -43.313004,
+            -22.880756
+          ],
+          [
+            -43.312974,
+            -22.880784
+          ],
+          [
+            -43.312954,
+            -22.880804
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756395081808,
+    "query": {
+      "coordinates": [
+        [
+          -43.3113617,
+          -22.8764212
+        ],
+        [
+          -43.3129545,
+          -22.8808037
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

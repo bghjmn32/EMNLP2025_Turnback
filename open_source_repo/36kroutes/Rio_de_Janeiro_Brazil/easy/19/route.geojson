@@ -1,0 +1,202 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.330724,
+    -23.007702,
+    -43.327147,
+    -23.006246
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.330724,
+        -23.007702,
+        -43.327147,
+        -23.006246
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 572.1,
+            "duration": 411.9,
+            "steps": [
+              {
+                "distance": 192.3,
+                "duration": 138.5,
+                "type": 11,
+                "instruction": "Head west on Avenida Prefeito Dulcídio Cardoso",
+                "name": "Avenida Prefeito Dulcídio Cardoso",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 77.5,
+                "duration": 55.8,
+                "type": 3,
+                "instruction": "Turn sharp right onto Avenida Afonso Arinos de Melo Franco",
+                "name": "Avenida Afonso Arinos de Melo Franco",
+                "way_points": [
+                  3,
+                  5
+                ]
+              },
+              {
+                "distance": 29.4,
+                "duration": 21.1,
+                "type": 2,
+                "instruction": "Turn sharp left",
+                "name": "-",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 195.0,
+                "duration": 140.4,
+                "type": 12,
+                "instruction": "Keep left onto Avenida Afonso Arinos de Melo Franco",
+                "name": "Avenida Afonso Arinos de Melo Franco",
+                "way_points": [
+                  6,
+                  9
+                ]
+              },
+              {
+                "distance": 20.8,
+                "duration": 15.0,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  9,
+                  11
+                ]
+              },
+              {
+                "distance": 57.2,
+                "duration": 41.2,
+                "type": 0,
+                "instruction": "Turn left onto Avenida Evandro Lins e Silva",
+                "name": "Avenida Evandro Lins e Silva",
+                "way_points": [
+                  11,
+                  13
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Avenida Evandro Lins e Silva, straight ahead",
+                "name": "-",
+                "way_points": [
+                  13,
+                  13
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          13
+        ],
+        "summary": {
+          "distance": 572.1,
+          "duration": 411.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.327147,
+            -23.007035
+          ],
+          [
+            -43.327272,
+            -23.007017
+          ],
+          [
+            -43.327954,
+            -23.00692
+          ],
+          [
+            -43.328994,
+            -23.006718
+          ],
+          [
+            -43.328659,
+            -23.006404
+          ],
+          [
+            -43.328439,
+            -23.006246
+          ],
+          [
+            -43.328701,
+            -23.006354
+          ],
+          [
+            -43.329023,
+            -23.006634
+          ],
+          [
+            -43.329859,
+            -23.007349
+          ],
+          [
+            -43.330089,
+            -23.007555
+          ],
+          [
+            -43.33016,
+            -23.007499
+          ],
+          [
+            -43.330251,
+            -23.007443
+          ],
+          [
+            -43.330378,
+            -23.007562
+          ],
+          [
+            -43.330724,
+            -23.007702
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756390075189,
+    "query": {
+      "coordinates": [
+        [
+          -43.3271472,
+          -23.0070351
+        ],
+        [
+          -43.3307239,
+          -23.0077021
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

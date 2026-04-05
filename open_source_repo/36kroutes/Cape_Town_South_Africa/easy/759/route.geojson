@@ -1,0 +1,188 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.482473,
+    -33.824531,
+    18.486931,
+    -33.823282
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.482473,
+        -33.824531,
+        18.486931,
+        -33.823282
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 441.8,
+            "duration": 318.1,
+            "steps": [
+              {
+                "distance": 413.3,
+                "duration": 297.6,
+                "type": 11,
+                "instruction": "Head east on Service Road",
+                "name": "Service Road",
+                "way_points": [
+                  0,
+                  12
+                ]
+              },
+              {
+                "distance": 8.6,
+                "duration": 6.2,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  12,
+                  13
+                ]
+              },
+              {
+                "distance": 7.1,
+                "duration": 5.1,
+                "type": 1,
+                "instruction": "Turn right onto West Coast Cycle Path",
+                "name": "West Coast Cycle Path",
+                "way_points": [
+                  13,
+                  14
+                ]
+              },
+              {
+                "distance": 12.8,
+                "duration": 9.2,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  14,
+                  15
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  15,
+                  15
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          15
+        ],
+        "summary": {
+          "distance": 441.8,
+          "duration": 318.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.482473,
+            -33.823282
+          ],
+          [
+            18.482735,
+            -33.823351
+          ],
+          [
+            18.483497,
+            -33.823552
+          ],
+          [
+            18.483782,
+            -33.823627
+          ],
+          [
+            18.483917,
+            -33.823662
+          ],
+          [
+            18.484043,
+            -33.823695
+          ],
+          [
+            18.484499,
+            -33.823815
+          ],
+          [
+            18.485023,
+            -33.823952
+          ],
+          [
+            18.485186,
+            -33.823995
+          ],
+          [
+            18.486473,
+            -33.824336
+          ],
+          [
+            18.486644,
+            -33.824387
+          ],
+          [
+            18.486673,
+            -33.824402
+          ],
+          [
+            18.486702,
+            -33.824448
+          ],
+          [
+            18.486793,
+            -33.824434
+          ],
+          [
+            18.486799,
+            -33.824498
+          ],
+          [
+            18.486931,
+            -33.824531
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756805586061,
+    "query": {
+      "coordinates": [
+        [
+          18.4824733,
+          -33.8232816
+        ],
+        [
+          18.4869308,
+          -33.8245315
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.677884,
+    -22.95203,
+    -43.67456,
+    -22.947455
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.677884,
+        -22.95203,
+        -43.67456,
+        -22.947455
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 694.5,
+            "duration": 500.0,
+            "steps": [
+              {
+                "distance": 45.8,
+                "duration": 33.0,
+                "type": 11,
+                "instruction": "Head east on Estrada de Sepetiba",
+                "name": "Estrada de Sepetiba",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 591.4,
+                "duration": 425.8,
+                "type": 1,
+                "instruction": "Turn right onto Rua Maria Lorosa",
+                "name": "Rua Maria Lorosa",
+                "way_points": [
+                  2,
+                  15
+                ]
+              },
+              {
+                "distance": 57.3,
+                "duration": 41.3,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  15,
+                  16
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  16,
+                  16
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          16
+        ],
+        "summary": {
+          "distance": 694.5,
+          "duration": 500.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.677884,
+            -22.947609
+          ],
+          [
+            -43.677565,
+            -22.947496
+          ],
+          [
+            -43.67747,
+            -22.947455
+          ],
+          [
+            -43.676966,
+            -22.948076
+          ],
+          [
+            -43.676499,
+            -22.948634
+          ],
+          [
+            -43.675873,
+            -22.949477
+          ],
+          [
+            -43.67584,
+            -22.949558
+          ],
+          [
+            -43.675829,
+            -22.949641
+          ],
+          [
+            -43.675842,
+            -22.949725
+          ],
+          [
+            -43.676008,
+            -22.950258
+          ],
+          [
+            -43.676006,
+            -22.950477
+          ],
+          [
+            -43.675997,
+            -22.950554
+          ],
+          [
+            -43.67595,
+            -22.9507
+          ],
+          [
+            -43.67571,
+            -22.951109
+          ],
+          [
+            -43.675272,
+            -22.95169
+          ],
+          [
+            -43.675071,
+            -22.95203
+          ],
+          [
+            -43.67456,
+            -22.951819
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756393522345,
+    "query": {
+      "coordinates": [
+        [
+          -43.6778843,
+          -22.9476093
+        ],
+        [
+          -43.6745597,
+          -22.9518195
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

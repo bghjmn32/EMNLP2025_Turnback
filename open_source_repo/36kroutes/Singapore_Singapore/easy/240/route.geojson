@@ -1,0 +1,169 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    103.824947,
+    1.428281,
+    103.826184,
+    1.428917
+  ],
+  "features": [
+    {
+      "bbox": [
+        103.824947,
+        1.428281,
+        103.826184,
+        1.428917
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 222.1,
+            "duration": 159.9,
+            "steps": [
+              {
+                "distance": 41.5,
+                "duration": 29.9,
+                "type": 11,
+                "instruction": "Head southeast on Jalan Lengkok Sembawang",
+                "name": "Jalan Lengkok Sembawang",
+                "way_points": [
+                  0,
+                  4
+                ]
+              },
+              {
+                "distance": 2.7,
+                "duration": 2.0,
+                "type": 0,
+                "instruction": "Turn left onto Jalan Lengkok Sembawang",
+                "name": "Jalan Lengkok Sembawang",
+                "way_points": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "distance": 177.9,
+                "duration": 128.1,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  5,
+                  13
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, on the right",
+                "name": "-",
+                "way_points": [
+                  13,
+                  13
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          13
+        ],
+        "summary": {
+          "distance": 222.1,
+          "duration": 159.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            103.826076,
+            1.42863
+          ],
+          [
+            103.826135,
+            1.428574
+          ],
+          [
+            103.826153,
+            1.428522
+          ],
+          [
+            103.826154,
+            1.42845
+          ],
+          [
+            103.826119,
+            1.428289
+          ],
+          [
+            103.826143,
+            1.428281
+          ],
+          [
+            103.826183,
+            1.428442
+          ],
+          [
+            103.826184,
+            1.428513
+          ],
+          [
+            103.826173,
+            1.42857
+          ],
+          [
+            103.826121,
+            1.42863
+          ],
+          [
+            103.826055,
+            1.428668
+          ],
+          [
+            103.825161,
+            1.428917
+          ],
+          [
+            103.825084,
+            1.428915
+          ],
+          [
+            103.824947,
+            1.428869
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756391401752,
+    "query": {
+      "coordinates": [
+        [
+          103.826076,
+          1.4286303
+        ],
+        [
+          103.8247092,
+          1.4294825
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

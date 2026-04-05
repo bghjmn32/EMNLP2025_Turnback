@@ -1,0 +1,219 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    11.609531,
+    48.099544,
+    11.617779,
+    48.101306
+  ],
+  "features": [
+    {
+      "bbox": [
+        11.609531,
+        48.099544,
+        11.617779,
+        48.101306
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 849.2,
+            "duration": 611.4,
+            "steps": [
+              {
+                "distance": 6.8,
+                "duration": 4.9,
+                "type": 11,
+                "instruction": "Head north",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 282.8,
+                "duration": 203.6,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  7
+                ]
+              },
+              {
+                "distance": 90.7,
+                "duration": 65.3,
+                "type": 4,
+                "instruction": "Turn slight left onto Hochäckerstraße",
+                "name": "Hochäckerstraße",
+                "way_points": [
+                  7,
+                  9
+                ]
+              },
+              {
+                "distance": 198.8,
+                "duration": 143.1,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  9,
+                  13
+                ]
+              },
+              {
+                "distance": 270.2,
+                "duration": 194.5,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  13,
+                  20
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  20,
+                  20
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          20
+        ],
+        "summary": {
+          "distance": 849.2,
+          "duration": 611.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            11.617776,
+            48.10101
+          ],
+          [
+            11.617779,
+            48.101071
+          ],
+          [
+            11.617196,
+            48.101078
+          ],
+          [
+            11.617106,
+            48.101106
+          ],
+          [
+            11.616728,
+            48.101106
+          ],
+          [
+            11.616405,
+            48.101119
+          ],
+          [
+            11.61419,
+            48.101212
+          ],
+          [
+            11.614002,
+            48.101267
+          ],
+          [
+            11.613,
+            48.101299
+          ],
+          [
+            11.612782,
+            48.101306
+          ],
+          [
+            11.61277,
+            48.10122
+          ],
+          [
+            11.612908,
+            48.101004
+          ],
+          [
+            11.613022,
+            48.100737
+          ],
+          [
+            11.613167,
+            48.099552
+          ],
+          [
+            11.612728,
+            48.099547
+          ],
+          [
+            11.612019,
+            48.099544
+          ],
+          [
+            11.61136,
+            48.09957
+          ],
+          [
+            11.611301,
+            48.099573
+          ],
+          [
+            11.610837,
+            48.099591
+          ],
+          [
+            11.609685,
+            48.099593
+          ],
+          [
+            11.609531,
+            48.099593
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756137533402,
+    "query": {
+      "coordinates": [
+        [
+          11.6177762,
+          48.1010101
+        ],
+        [
+          11.6095305,
+          48.0995928
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

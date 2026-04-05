@@ -1,0 +1,123 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    150.982371,
+    -33.653554,
+    150.989787,
+    -33.653096
+  ],
+  "features": [
+    {
+      "bbox": [
+        150.982371,
+        -33.653554,
+        150.989787,
+        -33.653096
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 694.8,
+            "duration": 500.3,
+            "steps": [
+              {
+                "distance": 694.8,
+                "duration": 500.3,
+                "type": 11,
+                "instruction": "Head east on Pitt Town Road",
+                "name": "Pitt Town Road",
+                "way_points": [
+                  0,
+                  7
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Pitt Town Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  7,
+                  7
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          7
+        ],
+        "summary": {
+          "distance": 694.8,
+          "duration": 500.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            150.982371,
+            -33.653554
+          ],
+          [
+            150.983159,
+            -33.653464
+          ],
+          [
+            150.986703,
+            -33.653109
+          ],
+          [
+            150.987136,
+            -33.653096
+          ],
+          [
+            150.987613,
+            -33.653152
+          ],
+          [
+            150.98914,
+            -33.653348
+          ],
+          [
+            150.989433,
+            -33.653397
+          ],
+          [
+            150.989787,
+            -33.653519
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756391394356,
+    "query": {
+      "coordinates": [
+        [
+          150.9823706,
+          -33.653554
+        ],
+        [
+          150.9897866,
+          -33.6535188
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

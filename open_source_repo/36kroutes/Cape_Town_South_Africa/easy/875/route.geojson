@@ -1,0 +1,228 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.554678,
+    -33.921138,
+    18.562498,
+    -33.915547
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.554678,
+        -33.921138,
+        18.562498,
+        -33.915547
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1011.4,
+            "duration": 728.2,
+            "steps": [
+              {
+                "distance": 86.7,
+                "duration": 62.4,
+                "type": 11,
+                "instruction": "Head south on Gazania Street",
+                "name": "Gazania Street",
+                "way_points": [
+                  0,
+                  6
+                ]
+              },
+              {
+                "distance": 21.8,
+                "duration": 15.7,
+                "type": 0,
+                "instruction": "Turn left onto Dromedaris Street",
+                "name": "Dromedaris Street",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 433.6,
+                "duration": 312.2,
+                "type": 1,
+                "instruction": "Turn right onto Livingstone Avenue",
+                "name": "Livingstone Avenue",
+                "way_points": [
+                  7,
+                  14
+                ]
+              },
+              {
+                "distance": 110.1,
+                "duration": 79.3,
+                "type": 6,
+                "instruction": "Continue straight",
+                "name": "-",
+                "way_points": [
+                  14,
+                  18
+                ]
+              },
+              {
+                "distance": 359.1,
+                "duration": 258.6,
+                "type": 7,
+                "instruction": "Enter the roundabout and take the 1st exit onto Paul Kruger Avenue",
+                "name": "Paul Kruger Avenue",
+                "exit_number": 1,
+                "way_points": [
+                  18,
+                  22
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Paul Kruger Avenue, straight ahead",
+                "name": "-",
+                "way_points": [
+                  22,
+                  22
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          22
+        ],
+        "summary": {
+          "distance": 1011.4,
+          "duration": 728.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.562469,
+            -33.920753
+          ],
+          [
+            18.562498,
+            -33.920873
+          ],
+          [
+            18.56247,
+            -33.920919
+          ],
+          [
+            18.562439,
+            -33.920934
+          ],
+          [
+            18.561966,
+            -33.921036
+          ],
+          [
+            18.561902,
+            -33.921033
+          ],
+          [
+            18.56177,
+            -33.920993
+          ],
+          [
+            18.561611,
+            -33.921138
+          ],
+          [
+            18.561092,
+            -33.92064
+          ],
+          [
+            18.560067,
+            -33.919645
+          ],
+          [
+            18.559177,
+            -33.918781
+          ],
+          [
+            18.558981,
+            -33.918593
+          ],
+          [
+            18.558848,
+            -33.918459
+          ],
+          [
+            18.558644,
+            -33.91827
+          ],
+          [
+            18.55852,
+            -33.918207
+          ],
+          [
+            18.558342,
+            -33.918079
+          ],
+          [
+            18.558082,
+            -33.917884
+          ],
+          [
+            18.557811,
+            -33.917819
+          ],
+          [
+            18.557504,
+            -33.917731
+          ],
+          [
+            18.557479,
+            -33.917749
+          ],
+          [
+            18.556913,
+            -33.917306
+          ],
+          [
+            18.555862,
+            -33.916474
+          ],
+          [
+            18.554678,
+            -33.915547
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756805843658,
+    "query": {
+      "coordinates": [
+        [
+          18.5624689,
+          -33.9207529
+        ],
+        [
+          18.5546784,
+          -33.9155469
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

@@ -1,0 +1,280 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.562196,
+    -22.897739,
+    -43.558561,
+    -22.889345
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.562196,
+        -22.897739,
+        -43.558561,
+        -22.889345
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1231.6,
+            "duration": 886.8,
+            "steps": [
+              {
+                "distance": 86.6,
+                "duration": 62.3,
+                "type": 11,
+                "instruction": "Head north on Rua Barcelos Domingos",
+                "name": "Rua Barcelos Domingos",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 82.7,
+                "duration": 59.5,
+                "type": 12,
+                "instruction": "Keep left onto Rua Barcelos Domingos",
+                "name": "Rua Barcelos Domingos",
+                "way_points": [
+                  1,
+                  4
+                ]
+              },
+              {
+                "distance": 499.6,
+                "duration": 359.7,
+                "type": 6,
+                "instruction": "Continue straight onto Estrada da Caroba",
+                "name": "Estrada da Caroba",
+                "way_points": [
+                  4,
+                  14
+                ]
+              },
+              {
+                "distance": 62.8,
+                "duration": 45.2,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  14,
+                  15
+                ]
+              },
+              {
+                "distance": 73.8,
+                "duration": 53.2,
+                "type": 0,
+                "instruction": "Turn left onto Rua Valter Barbosa",
+                "name": "Rua Valter Barbosa",
+                "way_points": [
+                  15,
+                  16
+                ]
+              },
+              {
+                "distance": 82.1,
+                "duration": 59.1,
+                "type": 3,
+                "instruction": "Turn sharp right onto Rua Breno Pessoa",
+                "name": "Rua Breno Pessoa",
+                "way_points": [
+                  16,
+                  17
+                ]
+              },
+              {
+                "distance": 215.5,
+                "duration": 155.2,
+                "type": 0,
+                "instruction": "Turn left onto Rua do Rádio",
+                "name": "Rua do Rádio",
+                "way_points": [
+                  17,
+                  22
+                ]
+              },
+              {
+                "distance": 128.5,
+                "duration": 92.5,
+                "type": 1,
+                "instruction": "Turn right onto Rua do Manganês",
+                "name": "Rua do Manganês",
+                "way_points": [
+                  22,
+                  27
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Rua do Manganês, straight ahead",
+                "name": "-",
+                "way_points": [
+                  27,
+                  27
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          27
+        ],
+        "summary": {
+          "distance": 1231.6,
+          "duration": 886.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.558752,
+            -22.897739
+          ],
+          [
+            -43.558588,
+            -22.896975
+          ],
+          [
+            -43.558567,
+            -22.896727
+          ],
+          [
+            -43.558561,
+            -22.896421
+          ],
+          [
+            -43.558581,
+            -22.896233
+          ],
+          [
+            -43.55864,
+            -22.896022
+          ],
+          [
+            -43.558707,
+            -22.895859
+          ],
+          [
+            -43.558772,
+            -22.895739
+          ],
+          [
+            -43.558872,
+            -22.895573
+          ],
+          [
+            -43.55891,
+            -22.89551
+          ],
+          [
+            -43.559343,
+            -22.895169
+          ],
+          [
+            -43.56011,
+            -22.894564
+          ],
+          [
+            -43.560336,
+            -22.894393
+          ],
+          [
+            -43.561104,
+            -22.893825
+          ],
+          [
+            -43.562017,
+            -22.893159
+          ],
+          [
+            -43.561634,
+            -22.892718
+          ],
+          [
+            -43.562196,
+            -22.892303
+          ],
+          [
+            -43.56144,
+            -22.892058
+          ],
+          [
+            -43.561525,
+            -22.891759
+          ],
+          [
+            -43.56164,
+            -22.89143
+          ],
+          [
+            -43.561805,
+            -22.890993
+          ],
+          [
+            -43.562011,
+            -22.890458
+          ],
+          [
+            -43.562132,
+            -22.890231
+          ],
+          [
+            -43.56188,
+            -22.890031
+          ],
+          [
+            -43.561685,
+            -22.889852
+          ],
+          [
+            -43.561578,
+            -22.889722
+          ],
+          [
+            -43.561419,
+            -22.88946
+          ],
+          [
+            -43.561348,
+            -22.889345
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756391389014,
+    "query": {
+      "coordinates": [
+        [
+          -43.5587525,
+          -22.8977392
+        ],
+        [
+          -43.5613476,
+          -22.889345
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

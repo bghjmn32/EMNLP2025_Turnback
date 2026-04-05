@@ -1,0 +1,187 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    31.550136,
+    30.12019,
+    31.555119,
+    30.123005
+  ],
+  "features": [
+    {
+      "bbox": [
+        31.550136,
+        30.12019,
+        31.555119,
+        30.123005
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 951.3,
+            "duration": 685.0,
+            "steps": [
+              {
+                "distance": 78.7,
+                "duration": 56.6,
+                "type": 11,
+                "instruction": "Head north",
+                "name": "-",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 166.7,
+                "duration": 120.1,
+                "type": 12,
+                "instruction": "Keep left",
+                "name": "-",
+                "way_points": [
+                  2,
+                  5
+                ]
+              },
+              {
+                "distance": 384.0,
+                "duration": 276.5,
+                "type": 1,
+                "instruction": "Turn right onto محور اللواء محمود نصر",
+                "name": "محور اللواء محمود نصر",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 306.7,
+                "duration": 220.8,
+                "type": 13,
+                "instruction": "Keep right",
+                "name": "-",
+                "way_points": [
+                  6,
+                  11
+                ]
+              },
+              {
+                "distance": 15.2,
+                "duration": 11.0,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  12,
+                  12
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          12
+        ],
+        "summary": {
+          "distance": 951.3,
+          "duration": 685.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            31.550627,
+            30.12019
+          ],
+          [
+            31.550547,
+            30.120541
+          ],
+          [
+            31.550469,
+            30.120884
+          ],
+          [
+            31.550332,
+            30.121489
+          ],
+          [
+            31.550219,
+            30.121988
+          ],
+          [
+            31.550136,
+            30.122355
+          ],
+          [
+            31.554057,
+            30.123005
+          ],
+          [
+            31.554215,
+            30.122954
+          ],
+          [
+            31.554502,
+            30.122936
+          ],
+          [
+            31.554603,
+            30.12288
+          ],
+          [
+            31.554667,
+            30.122791
+          ],
+          [
+            31.555119,
+            30.120672
+          ],
+          [
+            31.554963,
+            30.120646
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756731155258,
+    "query": {
+      "coordinates": [
+        [
+          31.5506268,
+          30.1201898
+        ],
+        [
+          31.5549634,
+          30.1206462
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -104.767705,
+    39.665194,
+    -104.764755,
+    39.66613
+  ],
+  "features": [
+    {
+      "bbox": [
+        -104.767705,
+        39.665194,
+        -104.764755,
+        39.66613
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 383.1,
+            "duration": 275.8,
+            "steps": [
+              {
+                "distance": 111.3,
+                "duration": 80.1,
+                "type": 11,
+                "instruction": "Head west on East Bates Avenue",
+                "name": "East Bates Avenue",
+                "way_points": [
+                  0,
+                  5
+                ]
+              },
+              {
+                "distance": 7.8,
+                "duration": 5.6,
+                "type": 1,
+                "instruction": "Turn right onto Unnamed Creek Trail",
+                "name": "Unnamed Creek Trail",
+                "way_points": [
+                  5,
+                  7
+                ]
+              },
+              {
+                "distance": 46.8,
+                "duration": 33.7,
+                "type": 0,
+                "instruction": "Turn left onto Unnamed Creek Trail",
+                "name": "Unnamed Creek Trail",
+                "way_points": [
+                  7,
+                  10
+                ]
+              },
+              {
+                "distance": 151.2,
+                "duration": 108.9,
+                "type": 1,
+                "instruction": "Turn right onto Unnamed Creek Trail",
+                "name": "Unnamed Creek Trail",
+                "way_points": [
+                  10,
+                  11
+                ]
+              },
+              {
+                "distance": 38.2,
+                "duration": 27.5,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  11,
+                  13
+                ]
+              },
+              {
+                "distance": 27.8,
+                "duration": 20.0,
+                "type": 0,
+                "instruction": "Turn left onto East Linvale Place",
+                "name": "East Linvale Place",
+                "way_points": [
+                  13,
+                  14
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at East Linvale Place, straight ahead",
+                "name": "-",
+                "way_points": [
+                  14,
+                  14
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          14
+        ],
+        "summary": {
+          "distance": 383.1,
+          "duration": 275.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -104.764755,
+            39.666104
+          ],
+          [
+            -104.764875,
+            39.666098
+          ],
+          [
+            -104.765119,
+            39.66604
+          ],
+          [
+            -104.765297,
+            39.665948
+          ],
+          [
+            -104.765446,
+            39.665814
+          ],
+          [
+            -104.765729,
+            39.665515
+          ],
+          [
+            -104.76579,
+            39.665543
+          ],
+          [
+            -104.76581,
+            39.665543
+          ],
+          [
+            -104.765928,
+            39.665423
+          ],
+          [
+            -104.765966,
+            39.665375
+          ],
+          [
+            -104.766115,
+            39.665194
+          ],
+          [
+            -104.767396,
+            39.66613
+          ],
+          [
+            -104.767657,
+            39.665922
+          ],
+          [
+            -104.767705,
+            39.665883
+          ],
+          [
+            -104.767468,
+            39.665713
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756305121696,
+    "query": {
+      "coordinates": [
+        [
+          -104.764755,
+          39.666104
+        ],
+        [
+          -104.767468,
+          39.665713
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

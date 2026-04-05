@@ -1,0 +1,214 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    11.37448,
+    48.194822,
+    11.381604,
+    48.19673
+  ],
+  "features": [
+    {
+      "bbox": [
+        11.37448,
+        48.194822,
+        11.381604,
+        48.19673
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 665.2,
+            "duration": 478.9,
+            "steps": [
+              {
+                "distance": 128.4,
+                "duration": 92.4,
+                "type": 11,
+                "instruction": "Head northwest on Wildmoosstraße",
+                "name": "Wildmoosstraße",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 3.3,
+                "duration": 2.4,
+                "type": 0,
+                "instruction": "Turn left onto Geierstraße",
+                "name": "Geierstraße",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 74.9,
+                "duration": 53.9,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  2,
+                  4
+                ]
+              },
+              {
+                "distance": 199.9,
+                "duration": 143.9,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  4,
+                  11
+                ]
+              },
+              {
+                "distance": 256.4,
+                "duration": 184.6,
+                "type": 0,
+                "instruction": "Turn left onto Gröbenbachstraße",
+                "name": "Gröbenbachstraße",
+                "way_points": [
+                  11,
+                  15
+                ]
+              },
+              {
+                "distance": 2.2,
+                "duration": 1.6,
+                "type": 2,
+                "instruction": "Turn sharp left onto Dianastraße",
+                "name": "Dianastraße",
+                "way_points": [
+                  15,
+                  16
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Dianastraße, straight ahead",
+                "name": "-",
+                "way_points": [
+                  16,
+                  16
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          16
+        ],
+        "summary": {
+          "distance": 665.2,
+          "duration": 478.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            11.381604,
+            48.194822
+          ],
+          [
+            11.380077,
+            48.195367
+          ],
+          [
+            11.380057,
+            48.19534
+          ],
+          [
+            11.379324,
+            48.195648
+          ],
+          [
+            11.37918,
+            48.195656
+          ],
+          [
+            11.379136,
+            48.195694
+          ],
+          [
+            11.379091,
+            48.195755
+          ],
+          [
+            11.379048,
+            48.19581
+          ],
+          [
+            11.378164,
+            48.196229
+          ],
+          [
+            11.37737,
+            48.196645
+          ],
+          [
+            11.377288,
+            48.196667
+          ],
+          [
+            11.377059,
+            48.19673
+          ],
+          [
+            11.376976,
+            48.196657
+          ],
+          [
+            11.376158,
+            48.196163
+          ],
+          [
+            11.375256,
+            48.195617
+          ],
+          [
+            11.37448,
+            48.195196
+          ],
+          [
+            11.374508,
+            48.195188
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756137845683,
+    "query": {
+      "coordinates": [
+        [
+          11.381604,
+          48.1948221
+        ],
+        [
+          11.3745094,
+          48.1951898
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

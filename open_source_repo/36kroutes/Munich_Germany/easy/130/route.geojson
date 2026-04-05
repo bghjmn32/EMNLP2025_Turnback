@@ -1,0 +1,203 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    11.65944,
+    48.216179,
+    11.669013,
+    48.217982
+  ],
+  "features": [
+    {
+      "bbox": [
+        11.65944,
+        48.216179,
+        11.669013,
+        48.217982
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 783.8,
+            "duration": 564.3,
+            "steps": [
+              {
+                "distance": 285.5,
+                "duration": 205.5,
+                "type": 11,
+                "instruction": "Head west on Von-Poschinger-Straße",
+                "name": "Von-Poschinger-Straße",
+                "way_points": [
+                  0,
+                  4
+                ]
+              },
+              {
+                "distance": 211.6,
+                "duration": 152.3,
+                "type": 4,
+                "instruction": "Turn slight left",
+                "name": "-",
+                "way_points": [
+                  4,
+                  7
+                ]
+              },
+              {
+                "distance": 173.2,
+                "duration": 124.7,
+                "type": 6,
+                "instruction": "Continue straight",
+                "name": "-",
+                "way_points": [
+                  7,
+                  10
+                ]
+              },
+              {
+                "distance": 48.3,
+                "duration": 34.8,
+                "type": 1,
+                "instruction": "Turn right onto Unterföhringer Straße",
+                "name": "Unterföhringer Straße",
+                "way_points": [
+                  10,
+                  13
+                ]
+              },
+              {
+                "distance": 65.2,
+                "duration": 47.0,
+                "type": 0,
+                "instruction": "Turn left onto Böhmerwaldstraße",
+                "name": "Böhmerwaldstraße",
+                "way_points": [
+                  13,
+                  16
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Böhmerwaldstraße, straight ahead",
+                "name": "-",
+                "way_points": [
+                  16,
+                  16
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          16
+        ],
+        "summary": {
+          "distance": 783.8,
+          "duration": 564.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            11.669013,
+            48.216179
+          ],
+          [
+            11.667758,
+            48.216364
+          ],
+          [
+            11.666889,
+            48.216489
+          ],
+          [
+            11.665331,
+            48.216708
+          ],
+          [
+            11.665256,
+            48.216736
+          ],
+          [
+            11.662735,
+            48.217092
+          ],
+          [
+            11.662625,
+            48.217107
+          ],
+          [
+            11.662462,
+            48.217128
+          ],
+          [
+            11.661527,
+            48.217242
+          ],
+          [
+            11.660645,
+            48.217344
+          ],
+          [
+            11.660184,
+            48.217459
+          ],
+          [
+            11.66024,
+            48.217655
+          ],
+          [
+            11.660292,
+            48.217844
+          ],
+          [
+            11.660308,
+            48.217885
+          ],
+          [
+            11.659803,
+            48.217942
+          ],
+          [
+            11.659701,
+            48.217953
+          ],
+          [
+            11.65944,
+            48.217982
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756136836587,
+    "query": {
+      "coordinates": [
+        [
+          11.6690132,
+          48.2161788
+        ],
+        [
+          11.6594396,
+          48.2179823
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

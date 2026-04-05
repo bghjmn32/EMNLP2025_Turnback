@@ -1,0 +1,146 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.098515,
+    19.396522,
+    -99.097281,
+    19.400751
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.098515,
+        19.396522,
+        -99.097281,
+        19.400751
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 542.6,
+            "duration": 390.6,
+            "steps": [
+              {
+                "distance": 68.2,
+                "duration": 49.1,
+                "type": 11,
+                "instruction": "Head west on Calle Azafrán",
+                "name": "Calle Azafrán",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 474.4,
+                "duration": 341.5,
+                "type": 0,
+                "instruction": "Turn left onto Avenida Río Churubusco",
+                "name": "Avenida Río Churubusco",
+                "way_points": [
+                  1,
+                  10
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Avenida Río Churubusco, straight ahead",
+                "name": "-",
+                "way_points": [
+                  10,
+                  10
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          10
+        ],
+        "summary": {
+          "distance": 542.6,
+          "duration": 390.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.097281,
+            19.400647
+          ],
+          [
+            -99.097922,
+            19.400751
+          ],
+          [
+            -99.097968,
+            19.400428
+          ],
+          [
+            -99.098053,
+            19.39982
+          ],
+          [
+            -99.098193,
+            19.398773
+          ],
+          [
+            -99.098214,
+            19.398629
+          ],
+          [
+            -99.098323,
+            19.397868
+          ],
+          [
+            -99.098376,
+            19.397502
+          ],
+          [
+            -99.098461,
+            19.396905
+          ],
+          [
+            -99.098481,
+            19.396754
+          ],
+          [
+            -99.098515,
+            19.396522
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756304034043,
+    "query": {
+      "coordinates": [
+        [
+          -99.0972813,
+          19.4006472
+        ],
+        [
+          -99.0985149,
+          19.3965218
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

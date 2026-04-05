@@ -1,0 +1,184 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.531756,
+    -33.950261,
+    18.536392,
+    -33.948017
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.531756,
+        -33.950261,
+        18.536392,
+        -33.948017
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 609.4,
+            "duration": 438.7,
+            "steps": [
+              {
+                "distance": 14.1,
+                "duration": 10.2,
+                "type": 11,
+                "instruction": "Head south on Harry Gwala Street",
+                "name": "Harry Gwala Street",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 445.4,
+                "duration": 320.7,
+                "type": 3,
+                "instruction": "Turn sharp right onto Stanford Dyosini Road",
+                "name": "Stanford Dyosini Road",
+                "way_points": [
+                  1,
+                  11
+                ]
+              },
+              {
+                "distance": 18.3,
+                "duration": 13.2,
+                "type": 1,
+                "instruction": "Turn right onto Jungle Walk",
+                "name": "Jungle Walk",
+                "way_points": [
+                  11,
+                  13
+                ]
+              },
+              {
+                "distance": 131.6,
+                "duration": 94.7,
+                "type": 1,
+                "instruction": "Turn right onto Thabo Mbeki Street",
+                "name": "Thabo Mbeki Street",
+                "way_points": [
+                  13,
+                  14
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Thabo Mbeki Street, straight ahead",
+                "name": "-",
+                "way_points": [
+                  14,
+                  14
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          14
+        ],
+        "summary": {
+          "distance": 609.4,
+          "duration": 438.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.536392,
+            -33.950134
+          ],
+          [
+            18.536387,
+            -33.950261
+          ],
+          [
+            18.536185,
+            -33.950196
+          ],
+          [
+            18.535927,
+            -33.950104
+          ],
+          [
+            18.535719,
+            -33.950036
+          ],
+          [
+            18.535613,
+            -33.950001
+          ],
+          [
+            18.535316,
+            -33.949899
+          ],
+          [
+            18.535273,
+            -33.949884
+          ],
+          [
+            18.534487,
+            -33.949624
+          ],
+          [
+            18.534312,
+            -33.949564
+          ],
+          [
+            18.533292,
+            -33.94922
+          ],
+          [
+            18.531822,
+            -33.949021
+          ],
+          [
+            18.531803,
+            -33.948938
+          ],
+          [
+            18.531756,
+            -33.948869
+          ],
+          [
+            18.532745,
+            -33.948017
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756804332351,
+    "query": {
+      "coordinates": [
+        [
+          18.5363922,
+          -33.950134
+        ],
+        [
+          18.5327451,
+          -33.948017
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

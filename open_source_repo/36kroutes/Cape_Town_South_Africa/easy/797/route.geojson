@@ -1,0 +1,232 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.572697,
+    -33.947173,
+    18.578186,
+    -33.944599
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.572697,
+        -33.947173,
+        18.578186,
+        -33.944599
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 732.3,
+            "duration": 527.3,
+            "steps": [
+              {
+                "distance": 77.7,
+                "duration": 55.9,
+                "type": 11,
+                "instruction": "Head west on Koppiesdam Road",
+                "name": "Koppiesdam Road",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 17.2,
+                "duration": 12.4,
+                "type": 0,
+                "instruction": "Turn left onto 4th Street",
+                "name": "4th Street",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 10.9,
+                "duration": 7.8,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 137.2,
+                "duration": 98.8,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  3,
+                  6
+                ]
+              },
+              {
+                "distance": 309.5,
+                "duration": 222.8,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  6,
+                  9
+                ]
+              },
+              {
+                "distance": 88.3,
+                "duration": 63.6,
+                "type": 0,
+                "instruction": "Turn left onto Tafelberg Road",
+                "name": "Tafelberg Road",
+                "way_points": [
+                  9,
+                  12
+                ]
+              },
+              {
+                "distance": 21.5,
+                "duration": 15.5,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  12,
+                  14
+                ]
+              },
+              {
+                "distance": 70.1,
+                "duration": 50.5,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  14,
+                  15
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  15,
+                  15
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          15
+        ],
+        "summary": {
+          "distance": 732.3,
+          "duration": 527.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.578186,
+            -33.944655
+          ],
+          [
+            18.577347,
+            -33.944599
+          ],
+          [
+            18.577327,
+            -33.944753
+          ],
+          [
+            18.57721,
+            -33.944755
+          ],
+          [
+            18.577208,
+            -33.944803
+          ],
+          [
+            18.576328,
+            -33.945616
+          ],
+          [
+            18.576322,
+            -33.945709
+          ],
+          [
+            18.574743,
+            -33.945767
+          ],
+          [
+            18.574187,
+            -33.945762
+          ],
+          [
+            18.572969,
+            -33.945752
+          ],
+          [
+            18.572946,
+            -33.945838
+          ],
+          [
+            18.572941,
+            -33.946265
+          ],
+          [
+            18.572937,
+            -33.946544
+          ],
+          [
+            18.572814,
+            -33.946543
+          ],
+          [
+            18.572704,
+            -33.946542
+          ],
+          [
+            18.572697,
+            -33.947173
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756805661756,
+    "query": {
+      "coordinates": [
+        [
+          18.5781857,
+          -33.9446547
+        ],
+        [
+          18.5726969,
+          -33.9471726
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

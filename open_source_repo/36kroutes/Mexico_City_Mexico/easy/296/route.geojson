@@ -1,0 +1,184 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.125558,
+    19.290107,
+    -99.12419,
+    19.293905
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.125558,
+        19.290107,
+        -99.12419,
+        19.293905
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 531.9,
+            "duration": 383.0,
+            "steps": [
+              {
+                "distance": 129.2,
+                "duration": 93.0,
+                "type": 11,
+                "instruction": "Head south on Avenida Canal de Miramontes, EJE 1 OTE",
+                "name": "Avenida Canal de Miramontes, EJE 1 OTE",
+                "way_points": [
+                  0,
+                  5
+                ]
+              },
+              {
+                "distance": 154.8,
+                "duration": 111.5,
+                "type": 0,
+                "instruction": "Turn left onto Calzada Acoxpa",
+                "name": "Calzada Acoxpa",
+                "way_points": [
+                  5,
+                  8
+                ]
+              },
+              {
+                "distance": 148.7,
+                "duration": 107.1,
+                "type": 1,
+                "instruction": "Turn right onto Calle Vereda",
+                "name": "Calle Vereda",
+                "way_points": [
+                  8,
+                  11
+                ]
+              },
+              {
+                "distance": 99.2,
+                "duration": 71.4,
+                "type": 0,
+                "instruction": "Turn left onto Andador 7",
+                "name": "Andador 7",
+                "way_points": [
+                  11,
+                  14
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Andador 7, straight ahead",
+                "name": "-",
+                "way_points": [
+                  14,
+                  14
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          14
+        ],
+        "summary": {
+          "distance": 531.9,
+          "duration": 383.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.125445,
+            19.293905
+          ],
+          [
+            -99.125453,
+            19.293835
+          ],
+          [
+            -99.125502,
+            19.293359
+          ],
+          [
+            -99.125531,
+            19.293076
+          ],
+          [
+            -99.125549,
+            19.292896
+          ],
+          [
+            -99.125558,
+            19.292749
+          ],
+          [
+            -99.12525,
+            19.292635
+          ],
+          [
+            -99.125203,
+            19.292617
+          ],
+          [
+            -99.12419,
+            19.292229
+          ],
+          [
+            -99.124339,
+            19.291079
+          ],
+          [
+            -99.124385,
+            19.291019
+          ],
+          [
+            -99.124493,
+            19.290995
+          ],
+          [
+            -99.124507,
+            19.290866
+          ],
+          [
+            -99.124523,
+            19.290711
+          ],
+          [
+            -99.124585,
+            19.290107
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756305245426,
+    "query": {
+      "coordinates": [
+        [
+          -99.1254455,
+          19.2939052
+        ],
+        [
+          -99.1245852,
+          19.2901068
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

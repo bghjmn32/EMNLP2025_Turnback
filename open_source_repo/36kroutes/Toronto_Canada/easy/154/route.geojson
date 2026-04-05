@@ -1,0 +1,262 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -79.320668,
+    43.703796,
+    -79.311065,
+    43.7079
+  ],
+  "features": [
+    {
+      "bbox": [
+        -79.320668,
+        43.703796,
+        -79.311065,
+        43.7079
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 993.1,
+            "duration": 715.0,
+            "steps": [
+              {
+                "distance": 12.4,
+                "duration": 8.9,
+                "type": 11,
+                "instruction": "Head northwest",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 306.3,
+                "duration": 220.5,
+                "type": 2,
+                "instruction": "Turn sharp left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  8
+                ]
+              },
+              {
+                "distance": 13.0,
+                "duration": 9.3,
+                "type": 12,
+                "instruction": "Keep left",
+                "name": "-",
+                "way_points": [
+                  8,
+                  9
+                ]
+              },
+              {
+                "distance": 536.6,
+                "duration": 386.3,
+                "type": 13,
+                "instruction": "Keep right onto St Clair Avenue East",
+                "name": "St Clair Avenue East",
+                "way_points": [
+                  9,
+                  23
+                ]
+              },
+              {
+                "distance": 92.2,
+                "duration": 66.4,
+                "type": 0,
+                "instruction": "Turn left onto St Clair Avenue East",
+                "name": "St Clair Avenue East",
+                "way_points": [
+                  23,
+                  26
+                ]
+              },
+              {
+                "distance": 32.5,
+                "duration": 23.4,
+                "type": 0,
+                "instruction": "Turn left onto St. Clair Access Point",
+                "name": "St. Clair Access Point",
+                "way_points": [
+                  26,
+                  28
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at St. Clair Access Point, straight ahead",
+                "name": "-",
+                "way_points": [
+                  28,
+                  28
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          28
+        ],
+        "summary": {
+          "distance": 993.1,
+          "duration": 715.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -79.311065,
+            43.707857
+          ],
+          [
+            -79.311207,
+            43.7079
+          ],
+          [
+            -79.311217,
+            43.707848
+          ],
+          [
+            -79.311828,
+            43.706965
+          ],
+          [
+            -79.312166,
+            43.706511
+          ],
+          [
+            -79.312268,
+            43.706372
+          ],
+          [
+            -79.312379,
+            43.706216
+          ],
+          [
+            -79.312903,
+            43.705515
+          ],
+          [
+            -79.312963,
+            43.70546
+          ],
+          [
+            -79.31304,
+            43.705358
+          ],
+          [
+            -79.313125,
+            43.705339
+          ],
+          [
+            -79.313852,
+            43.705179
+          ],
+          [
+            -79.314003,
+            43.705145
+          ],
+          [
+            -79.314548,
+            43.705036
+          ],
+          [
+            -79.315057,
+            43.70513
+          ],
+          [
+            -79.315394,
+            43.705139
+          ],
+          [
+            -79.315595,
+            43.705119
+          ],
+          [
+            -79.316415,
+            43.704942
+          ],
+          [
+            -79.317142,
+            43.704775
+          ],
+          [
+            -79.318446,
+            43.704484
+          ],
+          [
+            -79.318633,
+            43.704442
+          ],
+          [
+            -79.31919,
+            43.704321
+          ],
+          [
+            -79.319354,
+            43.704319
+          ],
+          [
+            -79.319465,
+            43.704332
+          ],
+          [
+            -79.3195,
+            43.704266
+          ],
+          [
+            -79.320346,
+            43.704054
+          ],
+          [
+            -79.3205,
+            43.704059
+          ],
+          [
+            -79.320528,
+            43.703978
+          ],
+          [
+            -79.320668,
+            43.703796
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756124524781,
+    "query": {
+      "coordinates": [
+        [
+          -79.3110648,
+          43.707857
+        ],
+        [
+          -79.3206682,
+          43.7037956
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

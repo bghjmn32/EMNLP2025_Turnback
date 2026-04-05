@@ -1,0 +1,179 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.314744,
+    -22.879956,
+    -43.310439,
+    -22.876421
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.314744,
+        -22.879956,
+        -43.310439,
+        -22.876421
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 846.5,
+            "duration": 609.5,
+            "steps": [
+              {
+                "distance": 97.4,
+                "duration": 70.1,
+                "type": 11,
+                "instruction": "Head east",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 147.6,
+                "duration": 106.3,
+                "type": 1,
+                "instruction": "Turn right onto Rua Arthur Vargas",
+                "name": "Rua Arthur Vargas",
+                "way_points": [
+                  1,
+                  4
+                ]
+              },
+              {
+                "distance": 45.7,
+                "duration": 32.9,
+                "type": 5,
+                "instruction": "Turn slight right onto Rua Ada",
+                "name": "Rua Ada",
+                "way_points": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "distance": 123.8,
+                "duration": 89.1,
+                "type": 1,
+                "instruction": "Turn right onto Rua Baleares",
+                "name": "Rua Baleares",
+                "way_points": [
+                  5,
+                  7
+                ]
+              },
+              {
+                "distance": 432.0,
+                "duration": 311.0,
+                "type": 0,
+                "instruction": "Turn left onto Rua Amália",
+                "name": "Rua Amália",
+                "way_points": [
+                  7,
+                  10
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Rua Amália, straight ahead",
+                "name": "-",
+                "way_points": [
+                  10,
+                  10
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          10
+        ],
+        "summary": {
+          "distance": 846.5,
+          "duration": 609.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.311362,
+            -22.876421
+          ],
+          [
+            -43.310439,
+            -22.876631
+          ],
+          [
+            -43.31059,
+            -22.877304
+          ],
+          [
+            -43.310691,
+            -22.877745
+          ],
+          [
+            -43.310734,
+            -22.877931
+          ],
+          [
+            -43.311067,
+            -22.878205
+          ],
+          [
+            -43.311443,
+            -22.877689
+          ],
+          [
+            -43.311708,
+            -22.877262
+          ],
+          [
+            -43.313397,
+            -22.878688
+          ],
+          [
+            -43.314236,
+            -22.879493
+          ],
+          [
+            -43.314744,
+            -22.879956
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756395092257,
+    "query": {
+      "coordinates": [
+        [
+          -43.3113617,
+          -22.8764212
+        ],
+        [
+          -43.3147439,
+          -22.8799561
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

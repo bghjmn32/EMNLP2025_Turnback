@@ -1,0 +1,161 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.297908,
+    19.358136,
+    -99.294007,
+    19.359115
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.297908,
+        19.358136,
+        -99.294007,
+        19.359115
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 525.6,
+            "duration": 378.4,
+            "steps": [
+              {
+                "distance": 71.3,
+                "duration": 51.3,
+                "type": 11,
+                "instruction": "Head south on Privada Guillermo Prieto",
+                "name": "Privada Guillermo Prieto",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 416.8,
+                "duration": 300.1,
+                "type": 0,
+                "instruction": "Turn left onto Calle Guillermo Prieto",
+                "name": "Calle Guillermo Prieto",
+                "way_points": [
+                  1,
+                  10
+                ]
+              },
+              {
+                "distance": 37.5,
+                "duration": 27.0,
+                "type": 1,
+                "instruction": "Turn right onto Avenida José María Castorena",
+                "name": "Avenida José María Castorena",
+                "way_points": [
+                  10,
+                  11
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Avenida José María Castorena, straight ahead",
+                "name": "-",
+                "way_points": [
+                  11,
+                  11
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          11
+        ],
+        "summary": {
+          "distance": 525.6,
+          "duration": 378.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.297759,
+            19.359115
+          ],
+          [
+            -99.297908,
+            19.35849
+          ],
+          [
+            -99.297631,
+            19.358443
+          ],
+          [
+            -99.296554,
+            19.358227
+          ],
+          [
+            -99.296394,
+            19.358226
+          ],
+          [
+            -99.295746,
+            19.358381
+          ],
+          [
+            -99.29509,
+            19.358506
+          ],
+          [
+            -99.295044,
+            19.358516
+          ],
+          [
+            -99.294821,
+            19.358547
+          ],
+          [
+            -99.294552,
+            19.358525
+          ],
+          [
+            -99.294007,
+            19.35845
+          ],
+          [
+            -99.294136,
+            19.358136
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756305310519,
+    "query": {
+      "coordinates": [
+        [
+          -99.2977591,
+          19.3591152
+        ],
+        [
+          -99.2941365,
+          19.3581361
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

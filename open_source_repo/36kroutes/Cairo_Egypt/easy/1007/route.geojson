@@ -1,0 +1,288 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    31.306646,
+    30.121863,
+    31.312426,
+    30.126807
+  ],
+  "features": [
+    {
+      "bbox": [
+        31.306646,
+        30.121863,
+        31.312426,
+        30.126807
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 970.1,
+            "duration": 698.4,
+            "steps": [
+              {
+                "distance": 26.9,
+                "duration": 19.4,
+                "type": 11,
+                "instruction": "Head east on شارع البلسان",
+                "name": "شارع البلسان",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 122.8,
+                "duration": 88.4,
+                "type": 2,
+                "instruction": "Turn sharp left onto شارع منية مطر",
+                "name": "شارع منية مطر",
+                "way_points": [
+                  1,
+                  3
+                ]
+              },
+              {
+                "distance": 254.8,
+                "duration": 183.4,
+                "type": 6,
+                "instruction": "Continue straight onto شارع منية مطر",
+                "name": "شارع منية مطر",
+                "way_points": [
+                  3,
+                  10
+                ]
+              },
+              {
+                "distance": 66.6,
+                "duration": 48.0,
+                "type": 1,
+                "instruction": "Turn right onto شارع تل الحصن",
+                "name": "شارع تل الحصن",
+                "way_points": [
+                  10,
+                  12
+                ]
+              },
+              {
+                "distance": 248.9,
+                "duration": 179.2,
+                "type": 2,
+                "instruction": "Turn sharp left onto شارع السيد علي سكر",
+                "name": "شارع السيد علي سكر",
+                "way_points": [
+                  12,
+                  20
+                ]
+              },
+              {
+                "distance": 190.5,
+                "duration": 137.2,
+                "type": 0,
+                "instruction": "Turn left onto شارع محمد الامير",
+                "name": "شارع محمد الامير",
+                "way_points": [
+                  20,
+                  26
+                ]
+              },
+              {
+                "distance": 25.3,
+                "duration": 18.3,
+                "type": 1,
+                "instruction": "Turn right onto شارع التروللي",
+                "name": "شارع التروللي",
+                "way_points": [
+                  26,
+                  28
+                ]
+              },
+              {
+                "distance": 34.1,
+                "duration": 24.6,
+                "type": 1,
+                "instruction": "Turn right onto طريق مسطرد القديم",
+                "name": "طريق مسطرد القديم",
+                "way_points": [
+                  28,
+                  29
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at طريق مسطرد القديم, straight ahead",
+                "name": "-",
+                "way_points": [
+                  29,
+                  29
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          29
+        ],
+        "summary": {
+          "distance": 970.1,
+          "duration": 698.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            31.312159,
+            30.121863
+          ],
+          [
+            31.312426,
+            30.121935
+          ],
+          [
+            31.312096,
+            30.12208
+          ],
+          [
+            31.3113,
+            30.122456
+          ],
+          [
+            31.31071,
+            30.12274
+          ],
+          [
+            31.310601,
+            30.122793
+          ],
+          [
+            31.310227,
+            30.122987
+          ],
+          [
+            31.310122,
+            30.123041
+          ],
+          [
+            31.309865,
+            30.123163
+          ],
+          [
+            31.309175,
+            30.123489
+          ],
+          [
+            31.308994,
+            30.123582
+          ],
+          [
+            31.309183,
+            30.123902
+          ],
+          [
+            31.309309,
+            30.124116
+          ],
+          [
+            31.308888,
+            30.12412
+          ],
+          [
+            31.30885,
+            30.124125
+          ],
+          [
+            31.308805,
+            30.124175
+          ],
+          [
+            31.308777,
+            30.12435
+          ],
+          [
+            31.308711,
+            30.12472
+          ],
+          [
+            31.308707,
+            30.124745
+          ],
+          [
+            31.308578,
+            30.125509
+          ],
+          [
+            31.308507,
+            30.125934
+          ],
+          [
+            31.308456,
+            30.125947
+          ],
+          [
+            31.3082,
+            30.12601
+          ],
+          [
+            31.307973,
+            30.126066
+          ],
+          [
+            31.307839,
+            30.126095
+          ],
+          [
+            31.306966,
+            30.126369
+          ],
+          [
+            31.306646,
+            30.126509
+          ],
+          [
+            31.306716,
+            30.126605
+          ],
+          [
+            31.306733,
+            30.126718
+          ],
+          [
+            31.307072,
+            30.126807
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756732241682,
+    "query": {
+      "coordinates": [
+        [
+          31.312159,
+          30.1218626
+        ],
+        [
+          31.3070721,
+          30.1268073
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

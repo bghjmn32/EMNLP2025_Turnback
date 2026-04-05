@@ -1,0 +1,304 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    11.662304,
+    48.220432,
+    11.6738,
+    48.223449
+  ],
+  "features": [
+    {
+      "bbox": [
+        11.662304,
+        48.220432,
+        11.6738,
+        48.223449
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1138.7,
+            "duration": 819.8,
+            "steps": [
+              {
+                "distance": 71.9,
+                "duration": 51.8,
+                "type": 11,
+                "instruction": "Head northeast on Unterföhringer Straße",
+                "name": "Unterföhringer Straße",
+                "way_points": [
+                  0,
+                  4
+                ]
+              },
+              {
+                "distance": 212.8,
+                "duration": 153.2,
+                "type": 1,
+                "instruction": "Turn right onto Wasserturmstraße",
+                "name": "Wasserturmstraße",
+                "way_points": [
+                  4,
+                  8
+                ]
+              },
+              {
+                "distance": 364.8,
+                "duration": 262.6,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  8,
+                  21
+                ]
+              },
+              {
+                "distance": 280.1,
+                "duration": 201.7,
+                "type": 1,
+                "instruction": "Turn right onto Moarstraße",
+                "name": "Moarstraße",
+                "way_points": [
+                  21,
+                  27
+                ]
+              },
+              {
+                "distance": 33.3,
+                "duration": 24.0,
+                "type": 0,
+                "instruction": "Turn left onto Hauptstraße",
+                "name": "Hauptstraße",
+                "way_points": [
+                  27,
+                  29
+                ]
+              },
+              {
+                "distance": 98.4,
+                "duration": 70.9,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  29,
+                  30
+                ]
+              },
+              {
+                "distance": 40.3,
+                "duration": 29.0,
+                "type": 1,
+                "instruction": "Turn right onto Dorfstraße",
+                "name": "Dorfstraße",
+                "way_points": [
+                  30,
+                  32
+                ]
+              },
+              {
+                "distance": 37.0,
+                "duration": 26.6,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  32,
+                  33
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  33,
+                  33
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          33
+        ],
+        "summary": {
+          "distance": 1138.7,
+          "duration": 819.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            11.662304,
+            48.220432
+          ],
+          [
+            11.662393,
+            48.220463
+          ],
+          [
+            11.662486,
+            48.220529
+          ],
+          [
+            11.662884,
+            48.220906
+          ],
+          [
+            11.662909,
+            48.22093
+          ],
+          [
+            11.663558,
+            48.220854
+          ],
+          [
+            11.664397,
+            48.220766
+          ],
+          [
+            11.664788,
+            48.220721
+          ],
+          [
+            11.665739,
+            48.220603
+          ],
+          [
+            11.66589,
+            48.220696
+          ],
+          [
+            11.666059,
+            48.220847
+          ],
+          [
+            11.666245,
+            48.220999
+          ],
+          [
+            11.666598,
+            48.221257
+          ],
+          [
+            11.666769,
+            48.221325
+          ],
+          [
+            11.667095,
+            48.221534
+          ],
+          [
+            11.667459,
+            48.221827
+          ],
+          [
+            11.667629,
+            48.221987
+          ],
+          [
+            11.667835,
+            48.222217
+          ],
+          [
+            11.667986,
+            48.22242
+          ],
+          [
+            11.668208,
+            48.222709
+          ],
+          [
+            11.668491,
+            48.223074
+          ],
+          [
+            11.66861,
+            48.223223
+          ],
+          [
+            11.668704,
+            48.223215
+          ],
+          [
+            11.668859,
+            48.223214
+          ],
+          [
+            11.669261,
+            48.223215
+          ],
+          [
+            11.670449,
+            48.22324
+          ],
+          [
+            11.671283,
+            48.22319
+          ],
+          [
+            11.672385,
+            48.223163
+          ],
+          [
+            11.672419,
+            48.223249
+          ],
+          [
+            11.672516,
+            48.223449
+          ],
+          [
+            11.6738,
+            48.223221
+          ],
+          [
+            11.673784,
+            48.223155
+          ],
+          [
+            11.673727,
+            48.222862
+          ],
+          [
+            11.673228,
+            48.222873
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756139560231,
+    "query": {
+      "coordinates": [
+        [
+          11.6623039,
+          48.2204321
+        ],
+        [
+          11.673228,
+          48.2228726
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

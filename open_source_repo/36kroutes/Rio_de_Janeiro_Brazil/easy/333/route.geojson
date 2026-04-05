@@ -1,0 +1,203 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.614489,
+    -22.883851,
+    -43.611268,
+    -22.87623
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.614489,
+        -22.883851,
+        -43.611268,
+        -22.87623
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1064.7,
+            "duration": 766.6,
+            "steps": [
+              {
+                "distance": 11.8,
+                "duration": 8.5,
+                "type": 11,
+                "instruction": "Head east on Rua Onze",
+                "name": "Rua Onze",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 239.8,
+                "duration": 172.6,
+                "type": 0,
+                "instruction": "Turn left onto Rua Dezesseis",
+                "name": "Rua Dezesseis",
+                "way_points": [
+                  1,
+                  4
+                ]
+              },
+              {
+                "distance": 43.4,
+                "duration": 31.2,
+                "type": 5,
+                "instruction": "Turn slight right onto Rua Dezoito",
+                "name": "Rua Dezoito",
+                "way_points": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "distance": 39.7,
+                "duration": 28.6,
+                "type": 0,
+                "instruction": "Turn left onto Rua Dez",
+                "name": "Rua Dez",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 730.0,
+                "duration": 525.6,
+                "type": 1,
+                "instruction": "Turn right onto Estrada do Tinguí",
+                "name": "Estrada do Tinguí",
+                "way_points": [
+                  6,
+                  16
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Estrada do Tinguí, straight ahead",
+                "name": "-",
+                "way_points": [
+                  16,
+                  16
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          16
+        ],
+        "summary": {
+          "distance": 1064.7,
+          "duration": 766.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.614489,
+            -22.883829
+          ],
+          [
+            -43.614376,
+            -22.883851
+          ],
+          [
+            -43.61402,
+            -22.882471
+          ],
+          [
+            -43.613919,
+            -22.882122
+          ],
+          [
+            -43.613832,
+            -22.881754
+          ],
+          [
+            -43.613541,
+            -22.88147
+          ],
+          [
+            -43.613816,
+            -22.881219
+          ],
+          [
+            -43.613485,
+            -22.880705
+          ],
+          [
+            -43.612623,
+            -22.879396
+          ],
+          [
+            -43.612444,
+            -22.879101
+          ],
+          [
+            -43.612349,
+            -22.87895
+          ],
+          [
+            -43.611281,
+            -22.877259
+          ],
+          [
+            -43.611268,
+            -22.877122
+          ],
+          [
+            -43.611291,
+            -22.877063
+          ],
+          [
+            -43.61135,
+            -22.877008
+          ],
+          [
+            -43.612516,
+            -22.876361
+          ],
+          [
+            -43.612968,
+            -22.87623
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756391888425,
+    "query": {
+      "coordinates": [
+        [
+          -43.6144889,
+          -22.8838293
+        ],
+        [
+          -43.6129681,
+          -22.8762302
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

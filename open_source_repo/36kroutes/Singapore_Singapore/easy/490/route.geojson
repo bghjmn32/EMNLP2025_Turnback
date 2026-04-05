@@ -1,0 +1,205 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    103.890759,
+    1.300774,
+    103.893937,
+    1.301898
+  ],
+  "features": [
+    {
+      "bbox": [
+        103.890759,
+        1.300774,
+        103.893937,
+        1.301898
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 510.6,
+            "duration": 367.6,
+            "steps": [
+              {
+                "distance": 28.3,
+                "duration": 20.4,
+                "type": 11,
+                "instruction": "Head west",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 24.0,
+                "duration": 17.3,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  3
+                ]
+              },
+              {
+                "distance": 310.4,
+                "duration": 223.5,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 122.2,
+                "duration": 88.0,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  4,
+                  7
+                ]
+              },
+              {
+                "distance": 11.1,
+                "duration": 8.0,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  7,
+                  9
+                ]
+              },
+              {
+                "distance": 10.4,
+                "duration": 7.5,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  9,
+                  10
+                ]
+              },
+              {
+                "distance": 4.1,
+                "duration": 3.0,
+                "type": 1,
+                "instruction": "Turn right onto Mountbatten Road",
+                "name": "Mountbatten Road",
+                "way_points": [
+                  10,
+                  11
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Mountbatten Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  11,
+                  11
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          11
+        ],
+        "summary": {
+          "distance": 510.6,
+          "duration": 367.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            103.89106,
+            1.301146
+          ],
+          [
+            103.890809,
+            1.301102
+          ],
+          [
+            103.89078,
+            1.301249
+          ],
+          [
+            103.890759,
+            1.301312
+          ],
+          [
+            103.89349,
+            1.301898
+          ],
+          [
+            103.893757,
+            1.301017
+          ],
+          [
+            103.893781,
+            1.300949
+          ],
+          [
+            103.893816,
+            1.300848
+          ],
+          [
+            103.893871,
+            1.300864
+          ],
+          [
+            103.893912,
+            1.300876
+          ],
+          [
+            103.893937,
+            1.300786
+          ],
+          [
+            103.893902,
+            1.300774
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756392783488,
+    "query": {
+      "coordinates": [
+        [
+          103.8910596,
+          1.3011459
+        ],
+        [
+          103.8939021,
+          1.3007743
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

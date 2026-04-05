@@ -1,0 +1,160 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    31.618408,
+    30.150896,
+    31.621721,
+    30.15362
+  ],
+  "features": [
+    {
+      "bbox": [
+        31.618408,
+        30.150896,
+        31.621721,
+        30.15362
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 575.2,
+            "duration": 414.1,
+            "steps": [
+              {
+                "distance": 191.7,
+                "duration": 138.0,
+                "type": 11,
+                "instruction": "Head south on شارع مصطفى النحاس",
+                "name": "شارع مصطفى النحاس",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 13.5,
+                "duration": 9.7,
+                "type": 0,
+                "instruction": "Turn left onto شارع هدي شعراوى",
+                "name": "شارع هدي شعراوى",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 119.8,
+                "duration": 86.2,
+                "type": 1,
+                "instruction": "Turn right onto شارع مصطفى النحاس",
+                "name": "شارع مصطفى النحاس",
+                "way_points": [
+                  3,
+                  5
+                ]
+              },
+              {
+                "distance": 250.1,
+                "duration": 180.1,
+                "type": 0,
+                "instruction": "Turn left onto شارع عبد المنعم واصل",
+                "name": "شارع عبد المنعم واصل",
+                "way_points": [
+                  5,
+                  8
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at شارع عبد المنعم واصل, straight ahead",
+                "name": "-",
+                "way_points": [
+                  8,
+                  8
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          8
+        ],
+        "summary": {
+          "distance": 575.2,
+          "duration": 414.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            31.618408,
+            30.15362
+          ],
+          [
+            31.618419,
+            30.153572
+          ],
+          [
+            31.618792,
+            30.151929
+          ],
+          [
+            31.618931,
+            30.151952
+          ],
+          [
+            31.619014,
+            30.151588
+          ],
+          [
+            31.619173,
+            30.150896
+          ],
+          [
+            31.619382,
+            30.150933
+          ],
+          [
+            31.62162,
+            30.151329
+          ],
+          [
+            31.621721,
+            30.151347
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756730137273,
+    "query": {
+      "coordinates": [
+        [
+          31.6184084,
+          30.1536204
+        ],
+        [
+          31.6217213,
+          30.1513471
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

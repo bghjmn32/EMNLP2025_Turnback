@@ -1,0 +1,187 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -104.947492,
+    39.766973,
+    -104.941702,
+    39.769186
+  ],
+  "features": [
+    {
+      "bbox": [
+        -104.947492,
+        39.766973,
+        -104.941702,
+        39.769186
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 740.0,
+            "duration": 532.8,
+            "steps": [
+              {
+                "distance": 49.8,
+                "duration": 35.8,
+                "type": 11,
+                "instruction": "Head west on East 38th Avenue",
+                "name": "East 38th Avenue",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 121.4,
+                "duration": 87.4,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 339.1,
+                "duration": 244.2,
+                "type": 1,
+                "instruction": "Turn right onto East 37th Avenue",
+                "name": "East 37th Avenue",
+                "way_points": [
+                  2,
+                  9
+                ]
+              },
+              {
+                "distance": 125.4,
+                "duration": 90.3,
+                "type": 0,
+                "instruction": "Turn left onto Madison Street",
+                "name": "Madison Street",
+                "way_points": [
+                  9,
+                  10
+                ]
+              },
+              {
+                "distance": 104.4,
+                "duration": 75.1,
+                "type": 1,
+                "instruction": "Turn right onto East 36th Avenue",
+                "name": "East 36th Avenue",
+                "way_points": [
+                  10,
+                  12
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at East 36th Avenue, straight ahead",
+                "name": "-",
+                "way_points": [
+                  12,
+                  12
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          12
+        ],
+        "summary": {
+          "distance": 740.0,
+          "duration": 532.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -104.941702,
+            39.769184
+          ],
+          [
+            -104.942284,
+            39.769186
+          ],
+          [
+            -104.942295,
+            39.768095
+          ],
+          [
+            -104.942859,
+            39.768097
+          ],
+          [
+            -104.943443,
+            39.768099
+          ],
+          [
+            -104.944008,
+            39.7681
+          ],
+          [
+            -104.944596,
+            39.7681
+          ],
+          [
+            -104.945165,
+            39.7681
+          ],
+          [
+            -104.945653,
+            39.768101
+          ],
+          [
+            -104.946262,
+            39.768101
+          ],
+          [
+            -104.946271,
+            39.766974
+          ],
+          [
+            -104.946876,
+            39.766973
+          ],
+          [
+            -104.947492,
+            39.766973
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306480023,
+    "query": {
+      "coordinates": [
+        [
+          -104.9417016,
+          39.7691842
+        ],
+        [
+          -104.947492,
+          39.766973
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.662634,
+    -22.874228,
+    -43.658627,
+    -22.868223
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.662634,
+        -22.874228,
+        -43.658627,
+        -22.868223
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1009.6,
+            "duration": 726.9,
+            "steps": [
+              {
+                "distance": 149.4,
+                "duration": 107.5,
+                "type": 11,
+                "instruction": "Head northeast on Rua Rosário",
+                "name": "Rua Rosário",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 505.2,
+                "duration": 363.7,
+                "type": 1,
+                "instruction": "Turn right onto Estrada do Gambá",
+                "name": "Estrada do Gambá",
+                "way_points": [
+                  1,
+                  6
+                ]
+              },
+              {
+                "distance": 142.6,
+                "duration": 102.7,
+                "type": 3,
+                "instruction": "Turn sharp right onto Estrada da Lama Preta",
+                "name": "Estrada da Lama Preta",
+                "way_points": [
+                  6,
+                  10
+                ]
+              },
+              {
+                "distance": 212.5,
+                "duration": 153.0,
+                "type": 0,
+                "instruction": "Turn left onto Rua Pomar de Brisamar",
+                "name": "Rua Pomar de Brisamar",
+                "way_points": [
+                  10,
+                  15
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Rua Pomar de Brisamar, straight ahead",
+                "name": "-",
+                "way_points": [
+                  15,
+                  15
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          15
+        ],
+        "summary": {
+          "distance": 1009.6,
+          "duration": 726.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.662634,
+            -22.868774
+          ],
+          [
+            -43.661304,
+            -22.868223
+          ],
+          [
+            -43.661112,
+            -22.868493
+          ],
+          [
+            -43.660967,
+            -22.868755
+          ],
+          [
+            -43.660772,
+            -22.869107
+          ],
+          [
+            -43.659893,
+            -22.870322
+          ],
+          [
+            -43.658627,
+            -22.872033
+          ],
+          [
+            -43.659029,
+            -22.872139
+          ],
+          [
+            -43.659263,
+            -22.872241
+          ],
+          [
+            -43.659583,
+            -22.872445
+          ],
+          [
+            -43.659811,
+            -22.872659
+          ],
+          [
+            -43.659522,
+            -22.873031
+          ],
+          [
+            -43.659301,
+            -22.87333
+          ],
+          [
+            -43.659079,
+            -22.873633
+          ],
+          [
+            -43.658857,
+            -22.873919
+          ],
+          [
+            -43.658627,
+            -22.874228
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756391771503,
+    "query": {
+      "coordinates": [
+        [
+          -43.6626338,
+          -22.8687736
+        ],
+        [
+          -43.6586269,
+          -22.8742277
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

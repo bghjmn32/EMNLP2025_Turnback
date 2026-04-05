@@ -1,0 +1,305 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    151.029445,
+    -33.760486,
+    151.04166,
+    -33.757152
+  ],
+  "features": [
+    {
+      "bbox": [
+        151.029445,
+        -33.760486,
+        151.04166,
+        -33.757152
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1555.4,
+            "duration": 1119.9,
+            "steps": [
+              {
+                "distance": 52.3,
+                "duration": 37.7,
+                "type": 11,
+                "instruction": "Head north",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 15.4,
+                "duration": 11.1,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  3
+                ]
+              },
+              {
+                "distance": 329.0,
+                "duration": 236.9,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  3,
+                  16
+                ]
+              },
+              {
+                "distance": 7.9,
+                "duration": 5.7,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  16,
+                  17
+                ]
+              },
+              {
+                "distance": 497.8,
+                "duration": 358.4,
+                "type": 0,
+                "instruction": "Turn left onto Eaton Road",
+                "name": "Eaton Road",
+                "way_points": [
+                  17,
+                  26
+                ]
+              },
+              {
+                "distance": 179.1,
+                "duration": 128.9,
+                "type": 1,
+                "instruction": "Turn right onto Stanton Drive",
+                "name": "Stanton Drive",
+                "way_points": [
+                  26,
+                  31
+                ]
+              },
+              {
+                "distance": 473.8,
+                "duration": 341.2,
+                "type": 0,
+                "instruction": "Turn left onto Moolanda Avenue",
+                "name": "Moolanda Avenue",
+                "way_points": [
+                  31,
+                  36
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Moolanda Avenue, straight ahead",
+                "name": "-",
+                "way_points": [
+                  36,
+                  36
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          36
+        ],
+        "summary": {
+          "distance": 1555.4,
+          "duration": 1119.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            151.04166,
+            -33.760486
+          ],
+          [
+            151.041545,
+            -33.760025
+          ],
+          [
+            151.041456,
+            -33.760043
+          ],
+          [
+            151.041382,
+            -33.760058
+          ],
+          [
+            151.04138,
+            -33.760044
+          ],
+          [
+            151.041331,
+            -33.759813
+          ],
+          [
+            151.041318,
+            -33.759751
+          ],
+          [
+            151.04131,
+            -33.759715
+          ],
+          [
+            151.041278,
+            -33.759572
+          ],
+          [
+            151.04125,
+            -33.759472
+          ],
+          [
+            151.041242,
+            -33.759444
+          ],
+          [
+            151.041182,
+            -33.759295
+          ],
+          [
+            151.041118,
+            -33.759059
+          ],
+          [
+            151.04072,
+            -33.757503
+          ],
+          [
+            151.040674,
+            -33.757263
+          ],
+          [
+            151.040611,
+            -33.757223
+          ],
+          [
+            151.040569,
+            -33.757222
+          ],
+          [
+            151.040552,
+            -33.757152
+          ],
+          [
+            151.040278,
+            -33.757233
+          ],
+          [
+            151.040171,
+            -33.757279
+          ],
+          [
+            151.03975,
+            -33.75758
+          ],
+          [
+            151.039647,
+            -33.757641
+          ],
+          [
+            151.039389,
+            -33.757711
+          ],
+          [
+            151.039083,
+            -33.757762
+          ],
+          [
+            151.037681,
+            -33.758
+          ],
+          [
+            151.037188,
+            -33.758087
+          ],
+          [
+            151.035448,
+            -33.758368
+          ],
+          [
+            151.035344,
+            -33.757891
+          ],
+          [
+            151.035138,
+            -33.757641
+          ],
+          [
+            151.034838,
+            -33.757499
+          ],
+          [
+            151.034654,
+            -33.757456
+          ],
+          [
+            151.034218,
+            -33.757354
+          ],
+          [
+            151.034139,
+            -33.757619
+          ],
+          [
+            151.033907,
+            -33.757747
+          ],
+          [
+            151.032915,
+            -33.757898
+          ],
+          [
+            151.03222,
+            -33.757898
+          ],
+          [
+            151.029445,
+            -33.758293
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756396702854,
+    "query": {
+      "coordinates": [
+        [
+          151.0416596,
+          -33.7604862
+        ],
+        [
+          151.029445,
+          -33.7582929
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

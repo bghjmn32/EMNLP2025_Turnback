@@ -1,0 +1,198 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -104.914029,
+    39.798366,
+    -104.910555,
+    39.806555
+  ],
+  "features": [
+    {
+      "bbox": [
+        -104.914029,
+        39.798366,
+        -104.910555,
+        39.806555
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1208.2,
+            "duration": 869.9,
+            "steps": [
+              {
+                "distance": 302.0,
+                "duration": 217.5,
+                "type": 11,
+                "instruction": "Head south on Niagara Street",
+                "name": "Niagara Street",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 65.3,
+                "duration": 47.0,
+                "type": 1,
+                "instruction": "Turn right onto East 59th Avenue",
+                "name": "East 59th Avenue",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 197.4,
+                "duration": 142.1,
+                "type": 0,
+                "instruction": "Turn left onto Magnolia Street",
+                "name": "Magnolia Street",
+                "way_points": [
+                  3,
+                  5
+                ]
+              },
+              {
+                "distance": 31.0,
+                "duration": 22.3,
+                "type": 1,
+                "instruction": "Turn right onto East 58th Avenue",
+                "name": "East 58th Avenue",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 409.7,
+                "duration": 295.0,
+                "type": 0,
+                "instruction": "Turn left onto Magnolia Street",
+                "name": "Magnolia Street",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 202.8,
+                "duration": 146.0,
+                "type": 1,
+                "instruction": "Turn right onto East 56th Avenue",
+                "name": "East 56th Avenue",
+                "way_points": [
+                  7,
+                  12
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at East 56th Avenue, straight ahead",
+                "name": "-",
+                "way_points": [
+                  12,
+                  12
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          12
+        ],
+        "summary": {
+          "distance": 1208.2,
+          "duration": 869.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -104.910573,
+            39.806555
+          ],
+          [
+            -104.910564,
+            39.805646
+          ],
+          [
+            -104.910555,
+            39.803839
+          ],
+          [
+            -104.91132,
+            39.803839
+          ],
+          [
+            -104.911334,
+            39.803015
+          ],
+          [
+            -104.911312,
+            39.802064
+          ],
+          [
+            -104.911674,
+            39.802052
+          ],
+          [
+            -104.911656,
+            39.798367
+          ],
+          [
+            -104.912287,
+            39.798368
+          ],
+          [
+            -104.912896,
+            39.798369
+          ],
+          [
+            -104.913453,
+            39.798367
+          ],
+          [
+            -104.913744,
+            39.798366
+          ],
+          [
+            -104.914029,
+            39.79837
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756304041494,
+    "query": {
+      "coordinates": [
+        [
+          -104.9105727,
+          39.8065551
+        ],
+        [
+          -104.9140292,
+          39.79837
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

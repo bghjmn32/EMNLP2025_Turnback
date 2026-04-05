@@ -1,0 +1,158 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -105.077878,
+    39.774621,
+    -105.07676,
+    39.781087
+  ],
+  "features": [
+    {
+      "bbox": [
+        -105.077878,
+        39.774621,
+        -105.07676,
+        39.781087
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 808.3,
+            "duration": 582.0,
+            "steps": [
+              {
+                "distance": 503.0,
+                "duration": 362.1,
+                "type": 11,
+                "instruction": "Head south on Teller Street",
+                "name": "Teller Street",
+                "way_points": [
+                  0,
+                  6
+                ]
+              },
+              {
+                "distance": 305.3,
+                "duration": 219.8,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  6,
+                  13
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  13,
+                  13
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          13
+        ],
+        "summary": {
+          "distance": 808.3,
+          "duration": 582.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -105.07676,
+            39.781087
+          ],
+          [
+            -105.076767,
+            39.778472
+          ],
+          [
+            -105.076774,
+            39.777019
+          ],
+          [
+            -105.076775,
+            39.776769
+          ],
+          [
+            -105.076777,
+            39.776707
+          ],
+          [
+            -105.076794,
+            39.776631
+          ],
+          [
+            -105.076805,
+            39.776566
+          ],
+          [
+            -105.076939,
+            39.776566
+          ],
+          [
+            -105.077304,
+            39.776565
+          ],
+          [
+            -105.077617,
+            39.776564
+          ],
+          [
+            -105.0778,
+            39.776565
+          ],
+          [
+            -105.077855,
+            39.776554
+          ],
+          [
+            -105.077877,
+            39.776525
+          ],
+          [
+            -105.077878,
+            39.774621
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306240485,
+    "query": {
+      "coordinates": [
+        [
+          -105.0767599,
+          39.781087
+        ],
+        [
+          -105.077878,
+          39.7746206
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

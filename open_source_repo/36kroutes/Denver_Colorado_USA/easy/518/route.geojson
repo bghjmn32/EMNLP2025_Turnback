@@ -1,0 +1,211 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -105.062012,
+    39.85652,
+    -105.059586,
+    39.862669
+  ],
+  "features": [
+    {
+      "bbox": [
+        -105.062012,
+        39.85652,
+        -105.059586,
+        39.862669
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 866.4,
+            "duration": 623.8,
+            "steps": [
+              {
+                "distance": 331.0,
+                "duration": 238.3,
+                "type": 11,
+                "instruction": "Head north on Westminster Boulevard",
+                "name": "Westminster Boulevard",
+                "way_points": [
+                  0,
+                  11
+                ]
+              },
+              {
+                "distance": 147.6,
+                "duration": 106.2,
+                "type": 1,
+                "instruction": "Turn right onto Central Avenue",
+                "name": "Central Avenue",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 107.2,
+                "duration": 77.2,
+                "type": 0,
+                "instruction": "Turn left onto Fenton Street",
+                "name": "Fenton Street",
+                "way_points": [
+                  12,
+                  13
+                ]
+              },
+              {
+                "distance": 160.6,
+                "duration": 115.7,
+                "type": 1,
+                "instruction": "Turn right onto 90th Avenue",
+                "name": "90th Avenue",
+                "way_points": [
+                  13,
+                  15
+                ]
+              },
+              {
+                "distance": 120.0,
+                "duration": 86.4,
+                "type": 0,
+                "instruction": "Turn left onto North Eaton Street",
+                "name": "North Eaton Street",
+                "way_points": [
+                  15,
+                  18
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at North Eaton Street, straight ahead",
+                "name": "-",
+                "way_points": [
+                  18,
+                  18
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          18
+        ],
+        "summary": {
+          "distance": 866.4,
+          "duration": 623.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -105.060795,
+            39.85652
+          ],
+          [
+            -105.060763,
+            39.85665
+          ],
+          [
+            -105.060777,
+            39.856809
+          ],
+          [
+            -105.060853,
+            39.857104
+          ],
+          [
+            -105.060948,
+            39.857455
+          ],
+          [
+            -105.061089,
+            39.857955
+          ],
+          [
+            -105.061184,
+            39.858227
+          ],
+          [
+            -105.061276,
+            39.858361
+          ],
+          [
+            -105.061327,
+            39.858435
+          ],
+          [
+            -105.061381,
+            39.858512
+          ],
+          [
+            -105.061661,
+            39.858855
+          ],
+          [
+            -105.062012,
+            39.859283
+          ],
+          [
+            -105.060552,
+            39.859993
+          ],
+          [
+            -105.061171,
+            39.860831
+          ],
+          [
+            -105.059733,
+            39.861532
+          ],
+          [
+            -105.059586,
+            39.861611
+          ],
+          [
+            -105.059685,
+            39.861749
+          ],
+          [
+            -105.059696,
+            39.861806
+          ],
+          [
+            -105.059662,
+            39.862669
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306044668,
+    "query": {
+      "coordinates": [
+        [
+          -105.0607948,
+          39.8565204
+        ],
+        [
+          -105.059662,
+          39.862669
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

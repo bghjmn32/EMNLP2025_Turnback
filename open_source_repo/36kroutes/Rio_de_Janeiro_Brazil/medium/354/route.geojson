@@ -1,0 +1,234 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.464985,
+    -22.859343,
+    -43.458396,
+    -22.852791
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.464985,
+        -22.859343,
+        -43.458396,
+        -22.852791
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1311.6,
+            "duration": 944.3,
+            "steps": [
+              {
+                "distance": 130.2,
+                "duration": 93.8,
+                "type": 11,
+                "instruction": "Head southeast on Rua Alfredo Coutinho",
+                "name": "Rua Alfredo Coutinho",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 84.0,
+                "duration": 60.5,
+                "type": 1,
+                "instruction": "Turn right onto Rua Neusa de Souza Viana",
+                "name": "Rua Neusa de Souza Viana",
+                "way_points": [
+                  1,
+                  3
+                ]
+              },
+              {
+                "distance": 187.6,
+                "duration": 135.1,
+                "type": 0,
+                "instruction": "Turn left onto Rua Maria Sabina de Albuquerque",
+                "name": "Rua Maria Sabina de Albuquerque",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 315.3,
+                "duration": 227.0,
+                "type": 1,
+                "instruction": "Turn right onto Rua Araquém",
+                "name": "Rua Araquém",
+                "way_points": [
+                  4,
+                  12
+                ]
+              },
+              {
+                "distance": 28.7,
+                "duration": 20.7,
+                "type": 6,
+                "instruction": "Continue straight onto Rua Araquém",
+                "name": "Rua Araquém",
+                "way_points": [
+                  12,
+                  13
+                ]
+              },
+              {
+                "distance": 565.8,
+                "duration": 407.3,
+                "type": 0,
+                "instruction": "Turn left onto Avenida Brasil",
+                "name": "Avenida Brasil",
+                "way_points": [
+                  13,
+                  21
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Avenida Brasil, straight ahead",
+                "name": "-",
+                "way_points": [
+                  21,
+                  21
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          21
+        ],
+        "summary": {
+          "distance": 1311.6,
+          "duration": 944.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.464985,
+            -22.852791
+          ],
+          [
+            -43.464109,
+            -22.85364
+          ],
+          [
+            -43.464447,
+            -22.853931
+          ],
+          [
+            -43.464707,
+            -22.854156
+          ],
+          [
+            -43.463457,
+            -22.855388
+          ],
+          [
+            -43.463555,
+            -22.855579
+          ],
+          [
+            -43.463634,
+            -22.855781
+          ],
+          [
+            -43.46377,
+            -22.856197
+          ],
+          [
+            -43.463972,
+            -22.856872
+          ],
+          [
+            -43.464029,
+            -22.857123
+          ],
+          [
+            -43.464044,
+            -22.857318
+          ],
+          [
+            -43.464037,
+            -22.857458
+          ],
+          [
+            -43.463889,
+            -22.858127
+          ],
+          [
+            -43.46381,
+            -22.858375
+          ],
+          [
+            -43.463663,
+            -22.858425
+          ],
+          [
+            -43.463073,
+            -22.858569
+          ],
+          [
+            -43.462332,
+            -22.858693
+          ],
+          [
+            -43.461409,
+            -22.858788
+          ],
+          [
+            -43.461171,
+            -22.858818
+          ],
+          [
+            -43.460146,
+            -22.859013
+          ],
+          [
+            -43.459936,
+            -22.859053
+          ],
+          [
+            -43.458396,
+            -22.859343
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756397683212,
+    "query": {
+      "coordinates": [
+        [
+          -43.4649847,
+          -22.852791
+        ],
+        [
+          -43.4583965,
+          -22.859343
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

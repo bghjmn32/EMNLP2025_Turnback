@@ -1,0 +1,252 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -79.372248,
+    43.650774,
+    -79.366581,
+    43.651765
+  ],
+  "features": [
+    {
+      "bbox": [
+        -79.372248,
+        43.650774,
+        -79.366581,
+        43.651765
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 611.0,
+            "duration": 439.9,
+            "steps": [
+              {
+                "distance": 96.2,
+                "duration": 69.3,
+                "type": 11,
+                "instruction": "Head east",
+                "name": "-",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 18.2,
+                "duration": 13.1,
+                "type": 1,
+                "instruction": "Turn right onto George Street",
+                "name": "George Street",
+                "way_points": [
+                  3,
+                  5
+                ]
+              },
+              {
+                "distance": 95.0,
+                "duration": 68.4,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  5,
+                  8
+                ]
+              },
+              {
+                "distance": 81.2,
+                "duration": 58.4,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  8,
+                  9
+                ]
+              },
+              {
+                "distance": 7.3,
+                "duration": 5.2,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  9,
+                  10
+                ]
+              },
+              {
+                "distance": 18.0,
+                "duration": 13.0,
+                "type": 1,
+                "instruction": "Turn right onto Frederick Street",
+                "name": "Frederick Street",
+                "way_points": [
+                  10,
+                  12
+                ]
+              },
+              {
+                "distance": 212.1,
+                "duration": 152.7,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  12,
+                  19
+                ]
+              },
+              {
+                "distance": 83.0,
+                "duration": 59.8,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  19,
+                  20
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  20,
+                  20
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          20
+        ],
+        "summary": {
+          "distance": 611.0,
+          "duration": 439.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -79.372248,
+            43.651608
+          ],
+          [
+            -79.371676,
+            43.651555
+          ],
+          [
+            -79.371194,
+            43.651658
+          ],
+          [
+            -79.371083,
+            43.651683
+          ],
+          [
+            -79.371048,
+            43.651609
+          ],
+          [
+            -79.371012,
+            43.651528
+          ],
+          [
+            -79.37091,
+            43.651551
+          ],
+          [
+            -79.369929,
+            43.651765
+          ],
+          [
+            -79.36988,
+            43.651759
+          ],
+          [
+            -79.369584,
+            43.651061
+          ],
+          [
+            -79.369497,
+            43.651079
+          ],
+          [
+            -79.369464,
+            43.651007
+          ],
+          [
+            -79.369424,
+            43.650926
+          ],
+          [
+            -79.369313,
+            43.65095
+          ],
+          [
+            -79.368317,
+            43.651179
+          ],
+          [
+            -79.368213,
+            43.651201
+          ],
+          [
+            -79.368107,
+            43.651222
+          ],
+          [
+            -79.367085,
+            43.651443
+          ],
+          [
+            -79.366996,
+            43.651463
+          ],
+          [
+            -79.366902,
+            43.651483
+          ],
+          [
+            -79.366581,
+            43.650774
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756125856280,
+    "query": {
+      "coordinates": [
+        [
+          -79.3722481,
+          43.6516076
+        ],
+        [
+          -79.3665807,
+          43.6507738
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

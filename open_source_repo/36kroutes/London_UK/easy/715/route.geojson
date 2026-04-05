@@ -1,0 +1,300 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -0.02667,
+    51.444073,
+    -0.0215,
+    51.45007
+  ],
+  "features": [
+    {
+      "bbox": [
+        -0.02667,
+        51.444073,
+        -0.0215,
+        51.45007
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 918.1,
+            "duration": 661.0,
+            "steps": [
+              {
+                "distance": 75.4,
+                "duration": 54.3,
+                "type": 11,
+                "instruction": "Head west",
+                "name": "-",
+                "way_points": [
+                  0,
+                  4
+                ]
+              },
+              {
+                "distance": 30.0,
+                "duration": 21.6,
+                "type": 1,
+                "instruction": "Turn right onto Silvermere Road",
+                "name": "Silvermere Road",
+                "way_points": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "distance": 609.3,
+                "duration": 438.7,
+                "type": 0,
+                "instruction": "Turn left onto Doggett Road",
+                "name": "Doggett Road",
+                "way_points": [
+                  5,
+                  14
+                ]
+              },
+              {
+                "distance": 141.0,
+                "duration": 101.6,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  14,
+                  21
+                ]
+              },
+              {
+                "distance": 10.8,
+                "duration": 7.7,
+                "type": 13,
+                "instruction": "Keep right",
+                "name": "-",
+                "way_points": [
+                  21,
+                  25
+                ]
+              },
+              {
+                "distance": 3.4,
+                "duration": 2.5,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  25,
+                  27
+                ]
+              },
+              {
+                "distance": 10.3,
+                "duration": 7.4,
+                "type": 1,
+                "instruction": "Turn right onto Ravensbourne Park",
+                "name": "Ravensbourne Park",
+                "way_points": [
+                  27,
+                  29
+                ]
+              },
+              {
+                "distance": 37.9,
+                "duration": 27.3,
+                "type": 1,
+                "instruction": "Turn right onto Ravensbourne Park",
+                "name": "Ravensbourne Park",
+                "way_points": [
+                  29,
+                  32
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Ravensbourne Park, straight ahead",
+                "name": "-",
+                "way_points": [
+                  32,
+                  32
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          32
+        ],
+        "summary": {
+          "distance": 918.1,
+          "duration": 661.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -0.0215,
+            51.450068
+          ],
+          [
+            -0.02221,
+            51.45007
+          ],
+          [
+            -0.022313,
+            51.450046
+          ],
+          [
+            -0.02241,
+            51.449995
+          ],
+          [
+            -0.022488,
+            51.449922
+          ],
+          [
+            -0.02292,
+            51.449935
+          ],
+          [
+            -0.023604,
+            51.448449
+          ],
+          [
+            -0.023709,
+            51.448175
+          ],
+          [
+            -0.023824,
+            51.44788
+          ],
+          [
+            -0.023982,
+            51.447446
+          ],
+          [
+            -0.024152,
+            51.446905
+          ],
+          [
+            -0.024327,
+            51.446254
+          ],
+          [
+            -0.024137,
+            51.445032
+          ],
+          [
+            -0.024097,
+            51.444724
+          ],
+          [
+            -0.024062,
+            51.44457
+          ],
+          [
+            -0.024127,
+            51.444559
+          ],
+          [
+            -0.024767,
+            51.444426
+          ],
+          [
+            -0.024818,
+            51.444414
+          ],
+          [
+            -0.025045,
+            51.444364
+          ],
+          [
+            -0.02534,
+            51.444289
+          ],
+          [
+            -0.025867,
+            51.444081
+          ],
+          [
+            -0.025923,
+            51.444078
+          ],
+          [
+            -0.025944,
+            51.444086
+          ],
+          [
+            -0.025985,
+            51.444089
+          ],
+          [
+            -0.026032,
+            51.444092
+          ],
+          [
+            -0.026072,
+            51.4441
+          ],
+          [
+            -0.026083,
+            51.444086
+          ],
+          [
+            -0.026093,
+            51.444073
+          ],
+          [
+            -0.026179,
+            51.444096
+          ],
+          [
+            -0.026232,
+            51.444088
+          ],
+          [
+            -0.026424,
+            51.444177
+          ],
+          [
+            -0.026516,
+            51.444224
+          ],
+          [
+            -0.02667,
+            51.444292
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756828687129,
+    "query": {
+      "coordinates": [
+        [
+          -0.0214997,
+          51.450068
+        ],
+        [
+          -0.0266703,
+          51.444292
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

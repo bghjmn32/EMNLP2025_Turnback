@@ -1,0 +1,142 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.196739,
+    19.37379,
+    -99.195635,
+    19.379865
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.196739,
+        19.37379,
+        -99.195635,
+        19.379865
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 696.4,
+            "duration": 501.4,
+            "steps": [
+              {
+                "distance": 626.3,
+                "duration": 450.9,
+                "type": 11,
+                "instruction": "Head north on Calle Adriano Brower",
+                "name": "Calle Adriano Brower",
+                "way_points": [
+                  0,
+                  7
+                ]
+              },
+              {
+                "distance": 70.2,
+                "duration": 50.5,
+                "type": 13,
+                "instruction": "Keep right onto Calle Santa Lucía",
+                "name": "Calle Santa Lucía",
+                "way_points": [
+                  7,
+                  9
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Santa Lucía, straight ahead",
+                "name": "-",
+                "way_points": [
+                  9,
+                  9
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          9
+        ],
+        "summary": {
+          "distance": 696.4,
+          "duration": 501.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.196739,
+            19.37379
+          ],
+          [
+            -99.196631,
+            19.374715
+          ],
+          [
+            -99.196538,
+            19.375526
+          ],
+          [
+            -99.196502,
+            19.375797
+          ],
+          [
+            -99.196462,
+            19.376106
+          ],
+          [
+            -99.196409,
+            19.376761
+          ],
+          [
+            -99.196269,
+            19.377805
+          ],
+          [
+            -99.196069,
+            19.379386
+          ],
+          [
+            -99.19584,
+            19.379628
+          ],
+          [
+            -99.195635,
+            19.379865
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756308578126,
+    "query": {
+      "coordinates": [
+        [
+          -99.1967389,
+          19.3737896
+        ],
+        [
+          -99.1956346,
+          19.3798649
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

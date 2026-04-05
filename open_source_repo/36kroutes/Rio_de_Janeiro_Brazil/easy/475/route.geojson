@@ -1,0 +1,224 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.631764,
+    -22.873534,
+    -43.627867,
+    -22.871291
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.631764,
+        -22.873534,
+        -43.627867,
+        -22.871291
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 646.2,
+            "duration": 465.2,
+            "steps": [
+              {
+                "distance": 64.0,
+                "duration": 46.1,
+                "type": 11,
+                "instruction": "Head north on Avenida Mario Pereira dos Santos",
+                "name": "Avenida Mario Pereira dos Santos",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 16.4,
+                "duration": 11.8,
+                "type": 0,
+                "instruction": "Turn left onto Rua João Batista",
+                "name": "Rua João Batista",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 133.1,
+                "duration": 95.8,
+                "type": 1,
+                "instruction": "Turn right onto Avenida Mario Pereira dos Santos",
+                "name": "Avenida Mario Pereira dos Santos",
+                "way_points": [
+                  2,
+                  5
+                ]
+              },
+              {
+                "distance": 132.2,
+                "duration": 95.2,
+                "type": 0,
+                "instruction": "Turn left onto Rua Leonardo Campos",
+                "name": "Rua Leonardo Campos",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 45.9,
+                "duration": 33.0,
+                "type": 1,
+                "instruction": "Turn right onto Rua Dalvanira Moraes",
+                "name": "Rua Dalvanira Moraes",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 82.3,
+                "duration": 59.3,
+                "type": 0,
+                "instruction": "Turn left onto Rua Nilton de Souza Filho",
+                "name": "Rua Nilton de Souza Filho",
+                "way_points": [
+                  7,
+                  9
+                ]
+              },
+              {
+                "distance": 92.7,
+                "duration": 66.7,
+                "type": 1,
+                "instruction": "Turn right onto Rua Artur Bernardes",
+                "name": "Rua Artur Bernardes",
+                "way_points": [
+                  9,
+                  11
+                ]
+              },
+              {
+                "distance": 79.6,
+                "duration": 57.3,
+                "type": 0,
+                "instruction": "Turn left onto Rua Afonso Pena",
+                "name": "Rua Afonso Pena",
+                "way_points": [
+                  11,
+                  13
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Rua Afonso Pena, straight ahead",
+                "name": "-",
+                "way_points": [
+                  13,
+                  13
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          13
+        ],
+        "summary": {
+          "distance": 646.2,
+          "duration": 465.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.627867,
+            -22.873534
+          ],
+          [
+            -43.628054,
+            -22.872985
+          ],
+          [
+            -43.628206,
+            -22.873032
+          ],
+          [
+            -43.628345,
+            -22.872623
+          ],
+          [
+            -43.628484,
+            -22.872256
+          ],
+          [
+            -43.628613,
+            -22.871895
+          ],
+          [
+            -43.629842,
+            -22.872258
+          ],
+          [
+            -43.629987,
+            -22.871868
+          ],
+          [
+            -43.630361,
+            -22.871974
+          ],
+          [
+            -43.630755,
+            -22.872087
+          ],
+          [
+            -43.630888,
+            -22.871674
+          ],
+          [
+            -43.631024,
+            -22.871291
+          ],
+          [
+            -43.631419,
+            -22.8714
+          ],
+          [
+            -43.631764,
+            -22.871506
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756392687099,
+    "query": {
+      "coordinates": [
+        [
+          -43.6278671,
+          -22.8735343
+        ],
+        [
+          -43.6317644,
+          -22.8715058
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    150.759754,
+    -33.993828,
+    150.764972,
+    -33.990702
+  ],
+  "features": [
+    {
+      "bbox": [
+        150.759754,
+        -33.993828,
+        150.764972,
+        -33.990702
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 745.9,
+            "duration": 537.0,
+            "steps": [
+              {
+                "distance": 269.9,
+                "duration": 194.4,
+                "type": 11,
+                "instruction": "Head northeast on Springfield Road",
+                "name": "Springfield Road",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 281.3,
+                "duration": 202.6,
+                "type": 1,
+                "instruction": "Turn right onto Catherine Fields Road",
+                "name": "Catherine Fields Road",
+                "way_points": [
+                  1,
+                  3
+                ]
+              },
+              {
+                "distance": 109.0,
+                "duration": 78.5,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  3,
+                  8
+                ]
+              },
+              {
+                "distance": 85.6,
+                "duration": 61.7,
+                "type": 0,
+                "instruction": "Turn left onto Catherine Fields Road",
+                "name": "Catherine Fields Road",
+                "way_points": [
+                  8,
+                  10
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Catherine Fields Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  10,
+                  10
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          10
+        ],
+        "summary": {
+          "distance": 745.9,
+          "duration": 537.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            150.759754,
+            -33.992059
+          ],
+          [
+            150.762182,
+            -33.990702
+          ],
+          [
+            150.763393,
+            -33.992141
+          ],
+          [
+            150.763956,
+            -33.992761
+          ],
+          [
+            150.764148,
+            -33.992644
+          ],
+          [
+            150.764287,
+            -33.9928
+          ],
+          [
+            150.764577,
+            -33.993123
+          ],
+          [
+            150.764562,
+            -33.993132
+          ],
+          [
+            150.76439,
+            -33.993227
+          ],
+          [
+            150.764471,
+            -33.993314
+          ],
+          [
+            150.764972,
+            -33.993828
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756392082278,
+    "query": {
+      "coordinates": [
+        [
+          150.7597538,
+          -33.9920586
+        ],
+        [
+          150.7649716,
+          -33.9938279
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.169785,
+    19.259707,
+    -99.168378,
+    19.266431
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.169785,
+        19.259707,
+        -99.168378,
+        19.266431
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 877.8,
+            "duration": 632.0,
+            "steps": [
+              {
+                "distance": 272.6,
+                "duration": 196.2,
+                "type": 11,
+                "instruction": "Head northeast on Privada Clavel Sur",
+                "name": "Privada Clavel Sur",
+                "way_points": [
+                  0,
+                  7
+                ]
+              },
+              {
+                "distance": 140.2,
+                "duration": 101.0,
+                "type": 0,
+                "instruction": "Turn left onto Calle Clavel Sur",
+                "name": "Calle Clavel Sur",
+                "way_points": [
+                  7,
+                  11
+                ]
+              },
+              {
+                "distance": 465.0,
+                "duration": 334.8,
+                "type": 1,
+                "instruction": "Turn right onto Calle del Rosal",
+                "name": "Calle del Rosal",
+                "way_points": [
+                  11,
+                  24
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle del Rosal, straight ahead",
+                "name": "-",
+                "way_points": [
+                  24,
+                  24
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          24
+        ],
+        "summary": {
+          "distance": 877.8,
+          "duration": 632.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.169205,
+            19.259707
+          ],
+          [
+            -99.168729,
+            19.260387
+          ],
+          [
+            -99.168682,
+            19.260446
+          ],
+          [
+            -99.168655,
+            19.260491
+          ],
+          [
+            -99.168642,
+            19.260634
+          ],
+          [
+            -99.168541,
+            19.261143
+          ],
+          [
+            -99.168497,
+            19.261369
+          ],
+          [
+            -99.168378,
+            19.261979
+          ],
+          [
+            -99.16858,
+            19.262095
+          ],
+          [
+            -99.168774,
+            19.262203
+          ],
+          [
+            -99.168953,
+            19.262295
+          ],
+          [
+            -99.169532,
+            19.262615
+          ],
+          [
+            -99.169453,
+            19.262733
+          ],
+          [
+            -99.169402,
+            19.262867
+          ],
+          [
+            -99.169415,
+            19.262947
+          ],
+          [
+            -99.169442,
+            19.263059
+          ],
+          [
+            -99.169598,
+            19.263305
+          ],
+          [
+            -99.169695,
+            19.2635
+          ],
+          [
+            -99.169785,
+            19.263778
+          ],
+          [
+            -99.169762,
+            19.263868
+          ],
+          [
+            -99.169574,
+            19.264273
+          ],
+          [
+            -99.169442,
+            19.264554
+          ],
+          [
+            -99.16929,
+            19.26487
+          ],
+          [
+            -99.168791,
+            19.265889
+          ],
+          [
+            -99.168518,
+            19.266431
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306438645,
+    "query": {
+      "coordinates": [
+        [
+          -99.1692048,
+          19.259707
+        ],
+        [
+          -99.1685182,
+          19.2664306
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

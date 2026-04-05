@@ -1,0 +1,267 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -79.483161,
+    43.647778,
+    -79.479477,
+    43.650447
+  ],
+  "features": [
+    {
+      "bbox": [
+        -79.483161,
+        43.647778,
+        -79.479477,
+        43.650447
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 571.0,
+            "duration": 411.1,
+            "steps": [
+              {
+                "distance": 188.6,
+                "duration": 135.8,
+                "type": 11,
+                "instruction": "Head north on Windermere Avenue",
+                "name": "Windermere Avenue",
+                "way_points": [
+                  0,
+                  4
+                ]
+              },
+              {
+                "distance": 68.9,
+                "duration": 49.6,
+                "type": 0,
+                "instruction": "Turn left onto Ostend Avenue",
+                "name": "Ostend Avenue",
+                "way_points": [
+                  4,
+                  6
+                ]
+              },
+              {
+                "distance": 4.5,
+                "duration": 3.2,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 42.8,
+                "duration": 30.8,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  7,
+                  9
+                ]
+              },
+              {
+                "distance": 71.9,
+                "duration": 51.7,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  9,
+                  10
+                ]
+              },
+              {
+                "distance": 88.0,
+                "duration": 63.4,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  10,
+                  13
+                ]
+              },
+              {
+                "distance": 21.0,
+                "duration": 15.1,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  13,
+                  17
+                ]
+              },
+              {
+                "distance": 74.2,
+                "duration": 53.4,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  17,
+                  20
+                ]
+              },
+              {
+                "distance": 11.2,
+                "duration": 8.1,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  20,
+                  21
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  21,
+                  21
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          21
+        ],
+        "summary": {
+          "distance": 571.0,
+          "duration": 411.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -79.479477,
+            43.647778
+          ],
+          [
+            -79.479512,
+            43.647853
+          ],
+          [
+            -79.479536,
+            43.647897
+          ],
+          [
+            -79.479836,
+            43.648636
+          ],
+          [
+            -79.480141,
+            43.649404
+          ],
+          [
+            -79.480232,
+            43.649418
+          ],
+          [
+            -79.480964,
+            43.64926
+          ],
+          [
+            -79.480983,
+            43.649298
+          ],
+          [
+            -79.48142,
+            43.649201
+          ],
+          [
+            -79.48149,
+            43.649221
+          ],
+          [
+            -79.481736,
+            43.649843
+          ],
+          [
+            -79.481811,
+            43.649826
+          ],
+          [
+            -79.481888,
+            43.649809
+          ],
+          [
+            -79.482786,
+            43.64962
+          ],
+          [
+            -79.482793,
+            43.649639
+          ],
+          [
+            -79.482821,
+            43.649712
+          ],
+          [
+            -79.482846,
+            43.649774
+          ],
+          [
+            -79.482857,
+            43.649802
+          ],
+          [
+            -79.482904,
+            43.649815
+          ],
+          [
+            -79.483003,
+            43.650039
+          ],
+          [
+            -79.483161,
+            43.650417
+          ],
+          [
+            -79.483028,
+            43.650447
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756126451671,
+    "query": {
+      "coordinates": [
+        [
+          -79.4794775,
+          43.6477778
+        ],
+        [
+          -79.4830284,
+          43.6504467
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

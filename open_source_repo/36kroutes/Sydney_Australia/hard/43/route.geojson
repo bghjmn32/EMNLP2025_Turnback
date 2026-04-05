@@ -1,0 +1,203 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    150.65002,
+    -33.84566,
+    150.665371,
+    -33.839523
+  ],
+  "features": [
+    {
+      "bbox": [
+        150.65002,
+        -33.84566,
+        150.665371,
+        -33.839523
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 2292.1,
+            "duration": 1650.3,
+            "steps": [
+              {
+                "distance": 361.0,
+                "duration": 259.9,
+                "type": 11,
+                "instruction": "Head north on The Straight Road",
+                "name": "The Straight Road",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 363.6,
+                "duration": 261.8,
+                "type": 1,
+                "instruction": "Turn right onto Allan Road",
+                "name": "Allan Road",
+                "way_points": [
+                  2,
+                  7
+                ]
+              },
+              {
+                "distance": 468.5,
+                "duration": 337.3,
+                "type": 1,
+                "instruction": "Turn right onto Church Road",
+                "name": "Church Road",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 671.2,
+                "duration": 483.2,
+                "type": 0,
+                "instruction": "Turn left onto Vincent Avenue",
+                "name": "Vincent Avenue",
+                "way_points": [
+                  8,
+                  11
+                ]
+              },
+              {
+                "distance": 427.8,
+                "duration": 308.0,
+                "type": 1,
+                "instruction": "Turn right onto Vincent Avenue",
+                "name": "Vincent Avenue",
+                "way_points": [
+                  11,
+                  16
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Vincent Avenue, straight ahead",
+                "name": "-",
+                "way_points": [
+                  16,
+                  16
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          16
+        ],
+        "summary": {
+          "distance": 2292.1,
+          "duration": 1650.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            150.65002,
+            -33.842733
+          ],
+          [
+            150.650502,
+            -33.840079
+          ],
+          [
+            150.650603,
+            -33.839523
+          ],
+          [
+            150.651895,
+            -33.839691
+          ],
+          [
+            150.652816,
+            -33.839803
+          ],
+          [
+            150.653709,
+            -33.83992
+          ],
+          [
+            150.654336,
+            -33.839998
+          ],
+          [
+            150.654492,
+            -33.840029
+          ],
+          [
+            150.653716,
+            -33.844193
+          ],
+          [
+            150.660337,
+            -33.845074
+          ],
+          [
+            150.660536,
+            -33.845071
+          ],
+          [
+            150.660886,
+            -33.844992
+          ],
+          [
+            150.66093,
+            -33.845079
+          ],
+          [
+            150.660991,
+            -33.845134
+          ],
+          [
+            150.661043,
+            -33.845156
+          ],
+          [
+            150.66338,
+            -33.84545
+          ],
+          [
+            150.665371,
+            -33.84566
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756402498459,
+    "query": {
+      "coordinates": [
+        [
+          150.6500202,
+          -33.8427334
+        ],
+        [
+          150.6653713,
+          -33.8456598
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

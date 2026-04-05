@@ -1,0 +1,271 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -79.41452,
+    43.685484,
+    -79.406262,
+    43.687428
+  ],
+  "features": [
+    {
+      "bbox": [
+        -79.41452,
+        43.685484,
+        -79.406262,
+        43.687428
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 893.8,
+            "duration": 643.6,
+            "steps": [
+              {
+                "distance": 180.9,
+                "duration": 130.2,
+                "type": 11,
+                "instruction": "Head east on Bantry Avenue",
+                "name": "Bantry Avenue",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 55.7,
+                "duration": 40.1,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 12.9,
+                "duration": 9.3,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  3,
+                  5
+                ]
+              },
+              {
+                "distance": 5.4,
+                "duration": 3.9,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 153.1,
+                "duration": 110.2,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  6,
+                  10
+                ]
+              },
+              {
+                "distance": 4.9,
+                "duration": 3.5,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  10,
+                  11
+                ]
+              },
+              {
+                "distance": 118.8,
+                "duration": 85.5,
+                "type": 0,
+                "instruction": "Turn left onto Heath Street West",
+                "name": "Heath Street West",
+                "way_points": [
+                  11,
+                  13
+                ]
+              },
+              {
+                "distance": 225.0,
+                "duration": 162.0,
+                "type": 1,
+                "instruction": "Turn right onto Russell Hill Road",
+                "name": "Russell Hill Road",
+                "way_points": [
+                  13,
+                  15
+                ]
+              },
+              {
+                "distance": 137.2,
+                "duration": 98.8,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  15,
+                  22
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  22,
+                  22
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          22
+        ],
+        "summary": {
+          "distance": 893.8,
+          "duration": 643.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -79.41452,
+            43.686902
+          ],
+          [
+            -79.412845,
+            43.687243
+          ],
+          [
+            -79.412355,
+            43.687343
+          ],
+          [
+            -79.412161,
+            43.686862
+          ],
+          [
+            -79.412091,
+            43.686875
+          ],
+          [
+            -79.412006,
+            43.686892
+          ],
+          [
+            -79.411968,
+            43.686852
+          ],
+          [
+            -79.411904,
+            43.68685
+          ],
+          [
+            -79.410293,
+            43.687183
+          ],
+          [
+            -79.410214,
+            43.687188
+          ],
+          [
+            -79.410129,
+            43.687193
+          ],
+          [
+            -79.410112,
+            43.687151
+          ],
+          [
+            -79.408772,
+            43.687411
+          ],
+          [
+            -79.408685,
+            43.687428
+          ],
+          [
+            -79.408665,
+            43.687383
+          ],
+          [
+            -79.407911,
+            43.685484
+          ],
+          [
+            -79.40784,
+            43.685499
+          ],
+          [
+            -79.407821,
+            43.685496
+          ],
+          [
+            -79.407808,
+            43.685494
+          ],
+          [
+            -79.407161,
+            43.685607
+          ],
+          [
+            -79.406446,
+            43.685754
+          ],
+          [
+            -79.406353,
+            43.685774
+          ],
+          [
+            -79.406262,
+            43.685792
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756126142842,
+    "query": {
+      "coordinates": [
+        [
+          -79.4145203,
+          43.6869017
+        ],
+        [
+          -79.4062623,
+          43.6857923
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.333105,
+    -22.932557,
+    -43.32941,
+    -22.930875
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.333105,
+        -22.932557,
+        -43.32941,
+        -22.930875
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 512.0,
+            "duration": 368.6,
+            "steps": [
+              {
+                "distance": 39.7,
+                "duration": 28.6,
+                "type": 11,
+                "instruction": "Head southeast",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 41.2,
+                "duration": 29.6,
+                "type": 0,
+                "instruction": "Turn left onto Rua Joaquim Pinheiro",
+                "name": "Rua Joaquim Pinheiro",
+                "way_points": [
+                  1,
+                  3
+                ]
+              },
+              {
+                "distance": 406.4,
+                "duration": 292.6,
+                "type": 1,
+                "instruction": "Turn right onto Estrada do Pau-Ferro",
+                "name": "Estrada do Pau-Ferro",
+                "way_points": [
+                  3,
+                  14
+                ]
+              },
+              {
+                "distance": 24.7,
+                "duration": 17.8,
+                "type": 0,
+                "instruction": "Turn left onto Rua Erasmo Montenegro",
+                "name": "Rua Erasmo Montenegro",
+                "way_points": [
+                  14,
+                  15
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Rua Erasmo Montenegro, straight ahead",
+                "name": "-",
+                "way_points": [
+                  15,
+                  15
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          15
+        ],
+        "summary": {
+          "distance": 512.0,
+          "duration": 368.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.333105,
+            -22.930948
+          ],
+          [
+            -43.332796,
+            -22.931165
+          ],
+          [
+            -43.33269,
+            -22.93105
+          ],
+          [
+            -43.332546,
+            -22.930875
+          ],
+          [
+            -43.332393,
+            -22.931044
+          ],
+          [
+            -43.331972,
+            -22.931498
+          ],
+          [
+            -43.331672,
+            -22.931811
+          ],
+          [
+            -43.331622,
+            -22.931862
+          ],
+          [
+            -43.331206,
+            -22.932314
+          ],
+          [
+            -43.331163,
+            -22.932358
+          ],
+          [
+            -43.330927,
+            -22.932491
+          ],
+          [
+            -43.33068,
+            -22.93255
+          ],
+          [
+            -43.330492,
+            -22.932557
+          ],
+          [
+            -43.330119,
+            -22.932512
+          ],
+          [
+            -43.32941,
+            -22.932287
+          ],
+          [
+            -43.32949,
+            -22.932078
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756393294161,
+    "query": {
+      "coordinates": [
+        [
+          -43.3331047,
+          -22.9309482
+        ],
+        [
+          -43.3294905,
+          -22.932078
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    174.681745,
+    -36.79165,
+    174.687159,
+    -36.790663
+  ],
+  "features": [
+    {
+      "bbox": [
+        174.681745,
+        -36.79165,
+        174.687159,
+        -36.790663
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 503.2,
+            "duration": 362.3,
+            "steps": [
+              {
+                "distance": 23.2,
+                "duration": 16.7,
+                "type": 11,
+                "instruction": "Head west on Beach Haven Road",
+                "name": "Beach Haven Road",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 5.9,
+                "duration": 4.2,
+                "type": 3,
+                "instruction": "Turn sharp right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 118.0,
+                "duration": 84.9,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  2,
+                  7
+                ]
+              },
+              {
+                "distance": 340.8,
+                "duration": 245.4,
+                "type": 12,
+                "instruction": "Keep left",
+                "name": "-",
+                "way_points": [
+                  7,
+                  17
+                ]
+              },
+              {
+                "distance": 15.3,
+                "duration": 11.0,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  17,
+                  19
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  19,
+                  19
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          19
+        ],
+        "summary": {
+          "distance": 503.2,
+          "duration": 362.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            174.687159,
+            -36.791613
+          ],
+          [
+            174.686903,
+            -36.79165
+          ],
+          [
+            174.686915,
+            -36.791598
+          ],
+          [
+            174.686864,
+            -36.791588
+          ],
+          [
+            174.686828,
+            -36.791581
+          ],
+          [
+            174.686712,
+            -36.791561
+          ],
+          [
+            174.685638,
+            -36.79137
+          ],
+          [
+            174.685629,
+            -36.791359
+          ],
+          [
+            174.685542,
+            -36.791343
+          ],
+          [
+            174.685454,
+            -36.791328
+          ],
+          [
+            174.684554,
+            -36.791177
+          ],
+          [
+            174.683239,
+            -36.790948
+          ],
+          [
+            174.683219,
+            -36.790935
+          ],
+          [
+            174.683123,
+            -36.790927
+          ],
+          [
+            174.683022,
+            -36.790898
+          ],
+          [
+            174.682987,
+            -36.790904
+          ],
+          [
+            174.68192,
+            -36.790715
+          ],
+          [
+            174.681906,
+            -36.790699
+          ],
+          [
+            174.681812,
+            -36.790695
+          ],
+          [
+            174.681745,
+            -36.790663
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756375038174,
+    "query": {
+      "coordinates": [
+        [
+          174.6871587,
+          -36.7916127
+        ],
+        [
+          174.6817452,
+          -36.7906628
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

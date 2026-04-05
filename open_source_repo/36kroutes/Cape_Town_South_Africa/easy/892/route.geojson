@@ -1,0 +1,229 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.359921,
+    -34.042327,
+    18.364436,
+    -34.038885
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.359921,
+        -34.042327,
+        18.364436,
+        -34.038885
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 812.9,
+            "duration": 585.3,
+            "steps": [
+              {
+                "distance": 135.1,
+                "duration": 97.3,
+                "type": 11,
+                "instruction": "Head southeast on Ixia Street",
+                "name": "Ixia Street",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 80.7,
+                "duration": 58.1,
+                "type": 1,
+                "instruction": "Turn right onto Andrews Road",
+                "name": "Andrews Road",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 72.3,
+                "duration": 52.1,
+                "type": 0,
+                "instruction": "Turn left onto Orange Street",
+                "name": "Orange Street",
+                "way_points": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "distance": 137.2,
+                "duration": 98.8,
+                "type": 1,
+                "instruction": "Turn right onto Union Street",
+                "name": "Union Street",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 150.1,
+                "duration": 108.1,
+                "type": 0,
+                "instruction": "Turn left onto Darling Street",
+                "name": "Darling Street",
+                "way_points": [
+                  6,
+                  10
+                ]
+              },
+              {
+                "distance": 220.1,
+                "duration": 158.5,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  10,
+                  16
+                ]
+              },
+              {
+                "distance": 17.4,
+                "duration": 12.5,
+                "type": 1,
+                "instruction": "Turn right onto Baviaanskloof Road",
+                "name": "Baviaanskloof Road",
+                "way_points": [
+                  16,
+                  17
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Baviaanskloof Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  17,
+                  17
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          17
+        ],
+        "summary": {
+          "distance": 812.9,
+          "duration": 585.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.364063,
+            -34.038885
+          ],
+          [
+            18.364295,
+            -34.039317
+          ],
+          [
+            18.364327,
+            -34.039568
+          ],
+          [
+            18.364436,
+            -34.040049
+          ],
+          [
+            18.363566,
+            -34.040136
+          ],
+          [
+            18.363659,
+            -34.040782
+          ],
+          [
+            18.362183,
+            -34.040945
+          ],
+          [
+            18.362284,
+            -34.041582
+          ],
+          [
+            18.362313,
+            -34.041956
+          ],
+          [
+            18.36229,
+            -34.042235
+          ],
+          [
+            18.362271,
+            -34.042285
+          ],
+          [
+            18.361298,
+            -34.042327
+          ],
+          [
+            18.36106,
+            -34.042234
+          ],
+          [
+            18.360401,
+            -34.042018
+          ],
+          [
+            18.360342,
+            -34.04202
+          ],
+          [
+            18.360023,
+            -34.0421
+          ],
+          [
+            18.359976,
+            -34.042115
+          ],
+          [
+            18.359921,
+            -34.041965
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756805877163,
+    "query": {
+      "coordinates": [
+        [
+          18.3640632,
+          -34.0388847
+        ],
+        [
+          18.3599212,
+          -34.0419652
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

@@ -1,0 +1,230 @@
+{
+    "type": "FeatureCollection",
+    "bbox": [
+        2.25858,
+        48.881119,
+        2.265557,
+        48.884742
+    ],
+    "features": [
+        {
+            "bbox": [
+                2.25858,
+                48.881119,
+                2.265557,
+                48.884742
+            ],
+            "type": "Feature",
+            "properties": {
+                "segments": [
+                    {
+                        "distance": 875.0,
+                        "duration": 630.0,
+                        "steps": [
+                            {
+                                "distance": 78.6,
+                                "duration": 56.6,
+                                "type": 11,
+                                "instruction": "Head north",
+                                "name": "-",
+                                "way_points": [
+                                    0,
+                                    3
+                                ]
+                            },
+                            {
+                                "distance": 168.1,
+                                "duration": 121.0,
+                                "type": 0,
+                                "instruction": "Turn left onto Rue Victor Noir",
+                                "name": "Rue Victor Noir",
+                                "way_points": [
+                                    3,
+                                    5
+                                ]
+                            },
+                            {
+                                "distance": 142.7,
+                                "duration": 102.8,
+                                "type": 0,
+                                "instruction": "Turn left onto Rue des Graviers",
+                                "name": "Rue des Graviers",
+                                "way_points": [
+                                    5,
+                                    7
+                                ]
+                            },
+                            {
+                                "distance": 282.0,
+                                "duration": 203.0,
+                                "type": 1,
+                                "instruction": "Turn right onto Rue Pierret",
+                                "name": "Rue Pierret",
+                                "way_points": [
+                                    7,
+                                    14
+                                ]
+                            },
+                            {
+                                "distance": 55.4,
+                                "duration": 39.9,
+                                "type": 1,
+                                "instruction": "Turn right",
+                                "name": "-",
+                                "way_points": [
+                                    14,
+                                    17
+                                ]
+                            },
+                            {
+                                "distance": 148.3,
+                                "duration": 106.7,
+                                "type": 0,
+                                "instruction": "Turn left",
+                                "name": "-",
+                                "way_points": [
+                                    17,
+                                    20
+                                ]
+                            },
+                            {
+                                "distance": 0.0,
+                                "duration": 0.0,
+                                "type": 10,
+                                "instruction": "Arrive at your destination, straight ahead",
+                                "name": "-",
+                                "way_points": [
+                                    20,
+                                    20
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "way_points": [
+                    0,
+                    20
+                ],
+                "summary": {
+                    "distance": 875.0,
+                    "duration": 630.0
+                }
+            },
+            "geometry": {
+                "coordinates": [
+                    [
+                        2.265231,
+                        48.881119
+                    ],
+                    [
+                        2.265288,
+                        48.881238
+                    ],
+                    [
+                        2.265377,
+                        48.881423
+                    ],
+                    [
+                        2.265557,
+                        48.881793
+                    ],
+                    [
+                        2.263568,
+                        48.882269
+                    ],
+                    [
+                        2.263404,
+                        48.882321
+                    ],
+                    [
+                        2.262146,
+                        48.881438
+                    ],
+                    [
+                        2.262092,
+                        48.881374
+                    ],
+                    [
+                        2.262005,
+                        48.881393
+                    ],
+                    [
+                        2.261925,
+                        48.881438
+                    ],
+                    [
+                        2.261506,
+                        48.881806
+                    ],
+                    [
+                        2.259954,
+                        48.883212
+                    ],
+                    [
+                        2.259897,
+                        48.883248
+                    ],
+                    [
+                        2.259812,
+                        48.883262
+                    ],
+                    [
+                        2.259677,
+                        48.883305
+                    ],
+                    [
+                        2.259687,
+                        48.883325
+                    ],
+                    [
+                        2.259691,
+                        48.883352
+                    ],
+                    [
+                        2.25992,
+                        48.883776
+                    ],
+                    [
+                        2.258679,
+                        48.884741
+                    ],
+                    [
+                        2.258619,
+                        48.884742
+                    ],
+                    [
+                        2.25858,
+                        48.884726
+                    ]
+                ],
+                "type": "LineString"
+            }
+        }
+    ],
+    "metadata": {
+        "attribution": "openrouteservice.org | OpenStreetMap contributors",
+        "service": "routing",
+        "timestamp": 1755871681771,
+        "query": {
+            "coordinates": [
+                [
+                    2.2652309,
+                    48.8811195
+                ],
+                [
+                    2.2585796,
+                    48.8847259
+                ]
+            ],
+            "profile": "foot-walking",
+            "profileName": "foot-walking",
+            "format": "geojson"
+        },
+        "engine": {
+            "version": "9.3.0",
+            "build_date": "2025-06-06T15:39:25Z",
+            "graph_date": "2025-08-19T13:56:51Z",
+            "osm_date": "2025-08-10T23:59:57Z"
+        }
+    }
+}

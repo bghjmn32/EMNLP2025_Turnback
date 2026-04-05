@@ -1,0 +1,196 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    11.420935,
+    48.151689,
+    11.427729,
+    48.154747
+  ],
+  "features": [
+    {
+      "bbox": [
+        11.420935,
+        48.151689,
+        11.427729,
+        48.154747
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 677.0,
+            "duration": 487.4,
+            "steps": [
+              {
+                "distance": 32.4,
+                "duration": 23.3,
+                "type": 11,
+                "instruction": "Head north on Hoheneckstraße",
+                "name": "Hoheneckstraße",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 538.1,
+                "duration": 387.5,
+                "type": 3,
+                "instruction": "Turn sharp right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  14
+                ]
+              },
+              {
+                "distance": 10.9,
+                "duration": 7.9,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  14,
+                  15
+                ]
+              },
+              {
+                "distance": 95.5,
+                "duration": 68.8,
+                "type": 4,
+                "instruction": "Turn slight left",
+                "name": "-",
+                "way_points": [
+                  15,
+                  17
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  17,
+                  17
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          17
+        ],
+        "summary": {
+          "distance": 677.0,
+          "duration": 487.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            11.421079,
+            48.154472
+          ],
+          [
+            11.420935,
+            48.154747
+          ],
+          [
+            11.421044,
+            48.154727
+          ],
+          [
+            11.421718,
+            48.154609
+          ],
+          [
+            11.42276,
+            48.154314
+          ],
+          [
+            11.422988,
+            48.154248
+          ],
+          [
+            11.423061,
+            48.154227
+          ],
+          [
+            11.423102,
+            48.154214
+          ],
+          [
+            11.424075,
+            48.153908
+          ],
+          [
+            11.424895,
+            48.15362
+          ],
+          [
+            11.426432,
+            48.152924
+          ],
+          [
+            11.426887,
+            48.152754
+          ],
+          [
+            11.427014,
+            48.152707
+          ],
+          [
+            11.427151,
+            48.152672
+          ],
+          [
+            11.427391,
+            48.152597
+          ],
+          [
+            11.427333,
+            48.152506
+          ],
+          [
+            11.427463,
+            48.152192
+          ],
+          [
+            11.427729,
+            48.151689
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756137717281,
+    "query": {
+      "coordinates": [
+        [
+          11.4210791,
+          48.1544716
+        ],
+        [
+          11.4277291,
+          48.1516891
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

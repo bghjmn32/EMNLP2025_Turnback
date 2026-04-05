@@ -1,0 +1,306 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -104.77134,
+    39.800377,
+    -104.766881,
+    39.804458
+  ],
+  "features": [
+    {
+      "bbox": [
+        -104.77134,
+        39.800377,
+        -104.766881,
+        39.804458
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 791.4,
+            "duration": 569.8,
+            "steps": [
+              {
+                "distance": 76.4,
+                "duration": 55.0,
+                "type": 11,
+                "instruction": "Head east",
+                "name": "-",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 8.6,
+                "duration": 6.2,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 212.4,
+                "duration": 152.9,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  4,
+                  12
+                ]
+              },
+              {
+                "distance": 215.1,
+                "duration": 154.9,
+                "type": 7,
+                "instruction": "Enter the roundabout and take the 2nd exit",
+                "name": "-",
+                "exit_number": 2,
+                "way_points": [
+                  12,
+                  26
+                ]
+              },
+              {
+                "distance": 108.8,
+                "duration": 78.4,
+                "type": 1,
+                "instruction": "Turn right onto East 58th Avenue",
+                "name": "East 58th Avenue",
+                "way_points": [
+                  26,
+                  29
+                ]
+              },
+              {
+                "distance": 122.1,
+                "duration": 87.9,
+                "type": 4,
+                "instruction": "Turn slight left onto East 57th Place",
+                "name": "East 57th Place",
+                "way_points": [
+                  29,
+                  35
+                ]
+              },
+              {
+                "distance": 48.0,
+                "duration": 34.5,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  35,
+                  36
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  36,
+                  36
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          36
+        ],
+        "summary": {
+          "distance": 791.4,
+          "duration": 569.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -104.77134,
+            39.804456
+          ],
+          [
+            -104.77115,
+            39.804458
+          ],
+          [
+            -104.771111,
+            39.804443
+          ],
+          [
+            -104.771104,
+            39.803935
+          ],
+          [
+            -104.771004,
+            39.803929
+          ],
+          [
+            -104.771003,
+            39.803805
+          ],
+          [
+            -104.771003,
+            39.803713
+          ],
+          [
+            -104.770996,
+            39.803623
+          ],
+          [
+            -104.771019,
+            39.803269
+          ],
+          [
+            -104.771009,
+            39.802717
+          ],
+          [
+            -104.770992,
+            39.802509
+          ],
+          [
+            -104.770802,
+            39.802286
+          ],
+          [
+            -104.770676,
+            39.802085
+          ],
+          [
+            -104.770645,
+            39.802111
+          ],
+          [
+            -104.77056,
+            39.802134
+          ],
+          [
+            -104.770515,
+            39.802129
+          ],
+          [
+            -104.770442,
+            39.80209
+          ],
+          [
+            -104.770412,
+            39.802032
+          ],
+          [
+            -104.770434,
+            39.801964
+          ],
+          [
+            -104.770291,
+            39.801907
+          ],
+          [
+            -104.770231,
+            39.801897
+          ],
+          [
+            -104.769738,
+            39.801898
+          ],
+          [
+            -104.76959,
+            39.801857
+          ],
+          [
+            -104.769385,
+            39.801807
+          ],
+          [
+            -104.769102,
+            39.801808
+          ],
+          [
+            -104.76902,
+            39.801817
+          ],
+          [
+            -104.768398,
+            39.801819
+          ],
+          [
+            -104.768391,
+            39.801355
+          ],
+          [
+            -104.76838,
+            39.801006
+          ],
+          [
+            -104.768299,
+            39.800852
+          ],
+          [
+            -104.76823,
+            39.800824
+          ],
+          [
+            -104.768074,
+            39.800806
+          ],
+          [
+            -104.767582,
+            39.800808
+          ],
+          [
+            -104.767479,
+            39.800809
+          ],
+          [
+            -104.766977,
+            39.800807
+          ],
+          [
+            -104.766881,
+            39.800809
+          ],
+          [
+            -104.766881,
+            39.800377
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756307651810,
+    "query": {
+      "coordinates": [
+        [
+          -104.7713397,
+          39.804456
+        ],
+        [
+          -104.7668809,
+          39.8003771
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

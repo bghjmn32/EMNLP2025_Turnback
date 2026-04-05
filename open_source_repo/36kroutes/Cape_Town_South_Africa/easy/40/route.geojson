@@ -1,0 +1,205 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.535316,
+    -33.950882,
+    18.537952,
+    -33.946966
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.535316,
+        -33.950882,
+        18.537952,
+        -33.946966
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 600.7,
+            "duration": 432.5,
+            "steps": [
+              {
+                "distance": 12.4,
+                "duration": 8.9,
+                "type": 11,
+                "instruction": "Head north",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 262.1,
+                "duration": 188.7,
+                "type": 0,
+                "instruction": "Turn left onto Stanford Dyosini Road",
+                "name": "Stanford Dyosini Road",
+                "way_points": [
+                  1,
+                  14
+                ]
+              },
+              {
+                "distance": 326.2,
+                "duration": 234.9,
+                "type": 1,
+                "instruction": "Turn right onto Johnson Ngwevela Street",
+                "name": "Johnson Ngwevela Street",
+                "way_points": [
+                  14,
+                  22
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Johnson Ngwevela Street, straight ahead",
+                "name": "-",
+                "way_points": [
+                  22,
+                  22
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          22
+        ],
+        "summary": {
+          "distance": 600.7,
+          "duration": 432.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.537903,
+            -33.950882
+          ],
+          [
+            18.537952,
+            -33.950778
+          ],
+          [
+            18.537729,
+            -33.950704
+          ],
+          [
+            18.537597,
+            -33.950664
+          ],
+          [
+            18.53753,
+            -33.950641
+          ],
+          [
+            18.537489,
+            -33.950628
+          ],
+          [
+            18.537285,
+            -33.950567
+          ],
+          [
+            18.536873,
+            -33.950427
+          ],
+          [
+            18.536461,
+            -33.950289
+          ],
+          [
+            18.536387,
+            -33.950261
+          ],
+          [
+            18.536185,
+            -33.950196
+          ],
+          [
+            18.535927,
+            -33.950104
+          ],
+          [
+            18.535719,
+            -33.950036
+          ],
+          [
+            18.535613,
+            -33.950001
+          ],
+          [
+            18.535316,
+            -33.949899
+          ],
+          [
+            18.535327,
+            -33.949199
+          ],
+          [
+            18.535331,
+            -33.949033
+          ],
+          [
+            18.535339,
+            -33.948662
+          ],
+          [
+            18.53535,
+            -33.948179
+          ],
+          [
+            18.535359,
+            -33.947741
+          ],
+          [
+            18.535362,
+            -33.947601
+          ],
+          [
+            18.535372,
+            -33.947159
+          ],
+          [
+            18.535376,
+            -33.946966
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756803819188,
+    "query": {
+      "coordinates": [
+        [
+          18.537903,
+          -33.9508816
+        ],
+        [
+          18.535376,
+          -33.9469657
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

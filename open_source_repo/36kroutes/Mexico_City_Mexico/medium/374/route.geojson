@@ -1,0 +1,153 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.124141,
+    19.315746,
+    -99.111281,
+    19.318667
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.124141,
+        19.315746,
+        -99.111281,
+        19.318667
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1509.1,
+            "duration": 1086.6,
+            "steps": [
+              {
+                "distance": 1280.5,
+                "duration": 921.9,
+                "type": 11,
+                "instruction": "Head southeast on Calle Virgilio Uribe",
+                "name": "Calle Virgilio Uribe",
+                "way_points": [
+                  0,
+                  6
+                ]
+              },
+              {
+                "distance": 208.5,
+                "duration": 150.1,
+                "type": 1,
+                "instruction": "Turn right onto Avenida Armada de México, EJE 3 OTE",
+                "name": "Avenida Armada de México, EJE 3 OTE",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 20.1,
+                "duration": 14.5,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  7,
+                  9
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  9,
+                  9
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          9
+        ],
+        "summary": {
+          "distance": 1509.1,
+          "duration": 1086.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.124141,
+            19.318667
+          ],
+          [
+            -99.123718,
+            19.318495
+          ],
+          [
+            -99.120658,
+            19.317181
+          ],
+          [
+            -99.118285,
+            19.317266
+          ],
+          [
+            -99.114,
+            19.317437
+          ],
+          [
+            -99.113366,
+            19.317441
+          ],
+          [
+            -99.112284,
+            19.317477
+          ],
+          [
+            -99.111472,
+            19.315766
+          ],
+          [
+            -99.111369,
+            19.315756
+          ],
+          [
+            -99.111281,
+            19.315746
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756310436171,
+    "query": {
+      "coordinates": [
+        [
+          -99.1241414,
+          19.3186667
+        ],
+        [
+          -99.111281,
+          19.3157463
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

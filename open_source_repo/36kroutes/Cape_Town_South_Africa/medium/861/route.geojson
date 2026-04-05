@@ -1,0 +1,218 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.572667,
+    -33.951695,
+    18.574255,
+    -33.937563
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.572667,
+        -33.951695,
+        18.574255,
+        -33.937563
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1652.9,
+            "duration": 1190.1,
+            "steps": [
+              {
+                "distance": 498.1,
+                "duration": 358.6,
+                "type": 11,
+                "instruction": "Head south on Civic Road",
+                "name": "Civic Road",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 114.7,
+                "duration": 82.6,
+                "type": 4,
+                "instruction": "Turn slight left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  5
+                ]
+              },
+              {
+                "distance": 16.2,
+                "duration": 11.6,
+                "type": 0,
+                "instruction": "Turn left onto River Road",
+                "name": "River Road",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 813.3,
+                "duration": 585.6,
+                "type": 1,
+                "instruction": "Turn right onto Tafelberg Road",
+                "name": "Tafelberg Road",
+                "way_points": [
+                  6,
+                  12
+                ]
+              },
+              {
+                "distance": 78.8,
+                "duration": 56.8,
+                "type": 13,
+                "instruction": "Keep right",
+                "name": "-",
+                "way_points": [
+                  12,
+                  14
+                ]
+              },
+              {
+                "distance": 131.9,
+                "duration": 95.0,
+                "type": 0,
+                "instruction": "Turn left onto Anne Street",
+                "name": "Anne Street",
+                "way_points": [
+                  14,
+                  17
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Anne Street, straight ahead",
+                "name": "-",
+                "way_points": [
+                  17,
+                  17
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          17
+        ],
+        "summary": {
+          "distance": 1652.9,
+          "duration": 1190.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.572723,
+            -33.937563
+          ],
+          [
+            18.572667,
+            -33.942042
+          ],
+          [
+            18.572807,
+            -33.942405
+          ],
+          [
+            18.572835,
+            -33.942572
+          ],
+          [
+            18.572846,
+            -33.942786
+          ],
+          [
+            18.572829,
+            -33.943053
+          ],
+          [
+            18.573004,
+            -33.943044
+          ],
+          [
+            18.572969,
+            -33.945752
+          ],
+          [
+            18.572946,
+            -33.945838
+          ],
+          [
+            18.572894,
+            -33.95002
+          ],
+          [
+            18.572918,
+            -33.950105
+          ],
+          [
+            18.57301,
+            -33.950259
+          ],
+          [
+            18.573069,
+            -33.950318
+          ],
+          [
+            18.573168,
+            -33.95084
+          ],
+          [
+            18.573142,
+            -33.951019
+          ],
+          [
+            18.574208,
+            -33.951553
+          ],
+          [
+            18.574242,
+            -33.951584
+          ],
+          [
+            18.574255,
+            -33.951695
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756808283679,
+    "query": {
+      "coordinates": [
+        [
+          18.572723,
+          -33.9375629
+        ],
+        [
+          18.5742545,
+          -33.9516948
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    31.64723,
+    30.184741,
+    31.652295,
+    30.190085
+  ],
+  "features": [
+    {
+      "bbox": [
+        31.64723,
+        30.184741,
+        31.652295,
+        30.190085
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 985.4,
+            "duration": 709.5,
+            "steps": [
+              {
+                "distance": 137.6,
+                "duration": 99.0,
+                "type": 11,
+                "instruction": "Head west",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 9.8,
+                "duration": 7.1,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 74.0,
+                "duration": 53.3,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 199.2,
+                "duration": 143.4,
+                "type": 13,
+                "instruction": "Keep right",
+                "name": "-",
+                "way_points": [
+                  3,
+                  13
+                ]
+              },
+              {
+                "distance": 391.8,
+                "duration": 282.1,
+                "type": 5,
+                "instruction": "Turn slight right",
+                "name": "-",
+                "way_points": [
+                  13,
+                  16
+                ]
+              },
+              {
+                "distance": 173.0,
+                "duration": 124.6,
+                "type": 7,
+                "instruction": "Enter the roundabout and take the 2nd exit onto طريق جنيفة",
+                "name": "طريق جنيفة",
+                "exit_number": 2,
+                "way_points": [
+                  16,
+                  22
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at طريق جنيفة, straight ahead",
+                "name": "-",
+                "way_points": [
+                  22,
+                  22
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          22
+        ],
+        "summary": {
+          "distance": 985.4,
+          "duration": 709.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            31.652295,
+            30.184741
+          ],
+          [
+            31.65087,
+            30.184863
+          ],
+          [
+            31.650878,
+            30.184951
+          ],
+          [
+            31.650112,
+            30.185019
+          ],
+          [
+            31.650026,
+            30.185052
+          ],
+          [
+            31.649929,
+            30.185141
+          ],
+          [
+            31.649896,
+            30.185218
+          ],
+          [
+            31.649804,
+            30.185772
+          ],
+          [
+            31.649751,
+            30.185832
+          ],
+          [
+            31.649541,
+            30.185915
+          ],
+          [
+            31.649472,
+            30.185976
+          ],
+          [
+            31.649433,
+            30.186055
+          ],
+          [
+            31.64937,
+            30.186351
+          ],
+          [
+            31.649276,
+            30.186532
+          ],
+          [
+            31.6489,
+            30.189525
+          ],
+          [
+            31.648899,
+            30.189625
+          ],
+          [
+            31.648898,
+            30.190038
+          ],
+          [
+            31.648761,
+            30.189991
+          ],
+          [
+            31.648616,
+            30.190018
+          ],
+          [
+            31.648566,
+            30.19005
+          ],
+          [
+            31.648389,
+            30.190085
+          ],
+          [
+            31.648223,
+            30.190069
+          ],
+          [
+            31.64723,
+            30.189674
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756729986026,
+    "query": {
+      "coordinates": [
+        [
+          31.6522946,
+          30.184741
+        ],
+        [
+          31.6472299,
+          30.1896736
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

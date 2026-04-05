@@ -1,0 +1,209 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    31.428828,
+    30.031856,
+    31.431398,
+    30.034764
+  ],
+  "features": [
+    {
+      "bbox": [
+        31.428828,
+        30.031856,
+        31.431398,
+        30.034764
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 511.8,
+            "duration": 368.5,
+            "steps": [
+              {
+                "distance": 251.1,
+                "duration": 180.8,
+                "type": 11,
+                "instruction": "Head southwest",
+                "name": "-",
+                "way_points": [
+                  0,
+                  14
+                ]
+              },
+              {
+                "distance": 117.9,
+                "duration": 84.9,
+                "type": 7,
+                "instruction": "Enter the roundabout and take the 1st exit onto شارع ثروت عكاشة",
+                "name": "شارع ثروت عكاشة",
+                "exit_number": 1,
+                "way_points": [
+                  14,
+                  17
+                ]
+              },
+              {
+                "distance": 14.8,
+                "duration": 10.6,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  17,
+                  18
+                ]
+              },
+              {
+                "distance": 128.0,
+                "duration": 92.2,
+                "type": 0,
+                "instruction": "Turn left onto شارع ثروت عكاشة",
+                "name": "شارع ثروت عكاشة",
+                "way_points": [
+                  18,
+                  20
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at شارع ثروت عكاشة, straight ahead",
+                "name": "-",
+                "way_points": [
+                  20,
+                  20
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          20
+        ],
+        "summary": {
+          "distance": 511.8,
+          "duration": 368.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            31.431398,
+            30.034694
+          ],
+          [
+            31.431337,
+            30.034663
+          ],
+          [
+            31.431267,
+            30.034652
+          ],
+          [
+            31.431198,
+            30.034661
+          ],
+          [
+            31.431135,
+            30.03469
+          ],
+          [
+            31.431096,
+            30.034725
+          ],
+          [
+            31.43098,
+            30.034755
+          ],
+          [
+            31.430862,
+            30.034764
+          ],
+          [
+            31.430518,
+            30.034657
+          ],
+          [
+            31.430301,
+            30.034538
+          ],
+          [
+            31.43003,
+            30.034312
+          ],
+          [
+            31.429844,
+            30.034203
+          ],
+          [
+            31.429592,
+            30.034117
+          ],
+          [
+            31.429286,
+            30.034087
+          ],
+          [
+            31.429062,
+            30.034049
+          ],
+          [
+            31.429014,
+            30.034015
+          ],
+          [
+            31.429009,
+            30.033361
+          ],
+          [
+            31.429006,
+            30.03301
+          ],
+          [
+            31.428853,
+            30.033007
+          ],
+          [
+            31.428859,
+            30.032358
+          ],
+          [
+            31.428828,
+            30.031856
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756732068917,
+    "query": {
+      "coordinates": [
+        [
+          31.4313981,
+          30.0346937
+        ],
+        [
+          31.4288283,
+          30.0318564
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

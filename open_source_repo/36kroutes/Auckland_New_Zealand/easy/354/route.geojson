@@ -1,0 +1,173 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    174.872613,
+    -37.100308,
+    174.877591,
+    -37.098121
+  ],
+  "features": [
+    {
+      "bbox": [
+        174.872613,
+        -37.100308,
+        174.877591,
+        -37.098121
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 566.4,
+            "duration": 407.8,
+            "steps": [
+              {
+                "distance": 25.5,
+                "duration": 18.4,
+                "type": 11,
+                "instruction": "Head north on Linwood Road",
+                "name": "Linwood Road",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 282.4,
+                "duration": 203.3,
+                "type": 13,
+                "instruction": "Keep right onto Dyke Road",
+                "name": "Dyke Road",
+                "way_points": [
+                  3,
+                  9
+                ]
+              },
+              {
+                "distance": 258.5,
+                "duration": 186.1,
+                "type": 0,
+                "instruction": "Turn left onto Karaka Village Parade",
+                "name": "Karaka Village Parade",
+                "way_points": [
+                  9,
+                  14
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Karaka Village Parade, straight ahead",
+                "name": "-",
+                "way_points": [
+                  14,
+                  14
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          14
+        ],
+        "summary": {
+          "distance": 566.4,
+          "duration": 407.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            174.877591,
+            -37.100308
+          ],
+          [
+            174.877583,
+            -37.100251
+          ],
+          [
+            174.877509,
+            -37.100183
+          ],
+          [
+            174.877412,
+            -37.100156
+          ],
+          [
+            174.877327,
+            -37.10012
+          ],
+          [
+            174.877131,
+            -37.099946
+          ],
+          [
+            174.876992,
+            -37.099785
+          ],
+          [
+            174.87627,
+            -37.098966
+          ],
+          [
+            174.876035,
+            -37.098699
+          ],
+          [
+            174.875525,
+            -37.098121
+          ],
+          [
+            174.874244,
+            -37.098138
+          ],
+          [
+            174.873306,
+            -37.098179
+          ],
+          [
+            174.873223,
+            -37.098183
+          ],
+          [
+            174.873127,
+            -37.098185
+          ],
+          [
+            174.872613,
+            -37.098197
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756374538103,
+    "query": {
+      "coordinates": [
+        [
+          174.8775905,
+          -37.1003079
+        ],
+        [
+          174.8726125,
+          -37.0981967
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

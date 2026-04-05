@@ -1,0 +1,274 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.198332,
+    19.495607,
+    -99.185657,
+    19.499263
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.198332,
+        19.495607,
+        -99.185657,
+        19.499263
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1675.7,
+            "duration": 1206.5,
+            "steps": [
+              {
+                "distance": 61.5,
+                "duration": 44.3,
+                "type": 11,
+                "instruction": "Head south on Calzada Puente de Guerra",
+                "name": "Calzada Puente de Guerra",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 699.9,
+                "duration": 503.9,
+                "type": 0,
+                "instruction": "Turn left onto Calle Centlapal",
+                "name": "Calle Centlapal",
+                "way_points": [
+                  3,
+                  6
+                ]
+              },
+              {
+                "distance": 8.0,
+                "duration": 5.7,
+                "type": 1,
+                "instruction": "Turn right onto Avenida 16 de Septiembre",
+                "name": "Avenida 16 de Septiembre",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 273.7,
+                "duration": 197.0,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  7,
+                  9
+                ]
+              },
+              {
+                "distance": 125.7,
+                "duration": 90.5,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  9,
+                  12
+                ]
+              },
+              {
+                "distance": 10.3,
+                "duration": 7.4,
+                "type": 3,
+                "instruction": "Turn sharp right onto Calle Parrastilla",
+                "name": "Calle Parrastilla",
+                "way_points": [
+                  12,
+                  14
+                ]
+              },
+              {
+                "distance": 87.1,
+                "duration": 62.7,
+                "type": 1,
+                "instruction": "Turn right onto Avenida Ferrocarriles Nacionales de México",
+                "name": "Avenida Ferrocarriles Nacionales de México",
+                "way_points": [
+                  14,
+                  16
+                ]
+              },
+              {
+                "distance": 305.3,
+                "duration": 219.8,
+                "type": 0,
+                "instruction": "Turn left onto Calle Pozo Pedregal",
+                "name": "Calle Pozo Pedregal",
+                "way_points": [
+                  16,
+                  18
+                ]
+              },
+              {
+                "distance": 85.3,
+                "duration": 61.4,
+                "type": 0,
+                "instruction": "Turn left onto Calle Campo Gasoducto",
+                "name": "Calle Campo Gasoducto",
+                "way_points": [
+                  18,
+                  19
+                ]
+              },
+              {
+                "distance": 19.0,
+                "duration": 13.7,
+                "type": 6,
+                "instruction": "Continue straight onto Calle Campo Gasoducto",
+                "name": "Calle Campo Gasoducto",
+                "way_points": [
+                  19,
+                  20
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Campo Gasoducto, straight ahead",
+                "name": "-",
+                "way_points": [
+                  20,
+                  20
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          20
+        ],
+        "summary": {
+          "distance": 1675.7,
+          "duration": 1206.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.198167,
+            19.499263
+          ],
+          [
+            -99.198243,
+            19.49902
+          ],
+          [
+            -99.198267,
+            19.498942
+          ],
+          [
+            -99.198332,
+            19.498733
+          ],
+          [
+            -99.195166,
+            19.497798
+          ],
+          [
+            -99.193855,
+            19.497406
+          ],
+          [
+            -99.191965,
+            19.496839
+          ],
+          [
+            -99.191988,
+            19.496771
+          ],
+          [
+            -99.191956,
+            19.496756
+          ],
+          [
+            -99.189491,
+            19.496056
+          ],
+          [
+            -99.189445,
+            19.496245
+          ],
+          [
+            -99.189428,
+            19.496472
+          ],
+          [
+            -99.189506,
+            19.497178
+          ],
+          [
+            -99.189443,
+            19.497163
+          ],
+          [
+            -99.18941,
+            19.497156
+          ],
+          [
+            -99.189378,
+            19.497045
+          ],
+          [
+            -99.189236,
+            19.49639
+          ],
+          [
+            -99.187841,
+            19.496007
+          ],
+          [
+            -99.186444,
+            19.495607
+          ],
+          [
+            -99.185804,
+            19.496079
+          ],
+          [
+            -99.185657,
+            19.496181
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756310018265,
+    "query": {
+      "coordinates": [
+        [
+          -99.1981669,
+          19.499263
+        ],
+        [
+          -99.1856573,
+          19.4961808
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

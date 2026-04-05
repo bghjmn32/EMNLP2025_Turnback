@@ -1,0 +1,173 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -0.067615,
+    51.477251,
+    -0.063835,
+    51.479782
+  ],
+  "features": [
+    {
+      "bbox": [
+        -0.067615,
+        51.477251,
+        -0.063835,
+        51.479782
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 496.4,
+            "duration": 357.4,
+            "steps": [
+              {
+                "distance": 82.0,
+                "duration": 59.0,
+                "type": 11,
+                "instruction": "Head west on Fenham Road",
+                "name": "Fenham Road",
+                "way_points": [
+                  0,
+                  5
+                ]
+              },
+              {
+                "distance": 280.0,
+                "duration": 201.6,
+                "type": 1,
+                "instruction": "Turn right onto Friary Road",
+                "name": "Friary Road",
+                "way_points": [
+                  5,
+                  11
+                ]
+              },
+              {
+                "distance": 134.4,
+                "duration": 96.8,
+                "type": 0,
+                "instruction": "Turn left onto Bird in Bush Road",
+                "name": "Bird in Bush Road",
+                "way_points": [
+                  11,
+                  14
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Bird in Bush Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  14,
+                  14
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          14
+        ],
+        "summary": {
+          "distance": 496.4,
+          "duration": 357.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -0.063835,
+            51.477312
+          ],
+          [
+            -0.063873,
+            51.47731
+          ],
+          [
+            -0.064126,
+            51.477292
+          ],
+          [
+            -0.064257,
+            51.477282
+          ],
+          [
+            -0.064516,
+            51.477266
+          ],
+          [
+            -0.065015,
+            51.477251
+          ],
+          [
+            -0.065047,
+            51.477867
+          ],
+          [
+            -0.065097,
+            51.478021
+          ],
+          [
+            -0.065252,
+            51.478454
+          ],
+          [
+            -0.065348,
+            51.478705
+          ],
+          [
+            -0.065449,
+            51.47896
+          ],
+          [
+            -0.06573,
+            51.47972
+          ],
+          [
+            -0.066568,
+            51.479617
+          ],
+          [
+            -0.066779,
+            51.479618
+          ],
+          [
+            -0.067615,
+            51.479782
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756828221986,
+    "query": {
+      "coordinates": [
+        [
+          -0.0638351,
+          51.4773117
+        ],
+        [
+          -0.0676149,
+          51.479782
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

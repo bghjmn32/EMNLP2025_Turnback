@@ -1,0 +1,277 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.620571,
+    -22.916394,
+    -43.606641,
+    -22.912978
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.620571,
+        -22.916394,
+        -43.606641,
+        -22.912978
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1702.9,
+            "duration": 1226.1,
+            "steps": [
+              {
+                "distance": 9.7,
+                "duration": 7.0,
+                "type": 11,
+                "instruction": "Head east on Avenida Cesário de Melo",
+                "name": "Avenida Cesário de Melo",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 6.2,
+                "duration": 4.5,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 381.4,
+                "duration": 274.6,
+                "type": 1,
+                "instruction": "Turn right onto Alfredo Del Cima",
+                "name": "Alfredo Del Cima",
+                "way_points": [
+                  2,
+                  11
+                ]
+              },
+              {
+                "distance": 71.1,
+                "duration": 51.2,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  11,
+                  15
+                ]
+              },
+              {
+                "distance": 113.8,
+                "duration": 82.0,
+                "type": 0,
+                "instruction": "Turn left onto Rua Aripuana",
+                "name": "Rua Aripuana",
+                "way_points": [
+                  15,
+                  18
+                ]
+              },
+              {
+                "distance": 985.3,
+                "duration": 709.4,
+                "type": 1,
+                "instruction": "Turn right onto Rua General Alfredo Assunção",
+                "name": "Rua General Alfredo Assunção",
+                "way_points": [
+                  18,
+                  26
+                ]
+              },
+              {
+                "distance": 135.3,
+                "duration": 97.4,
+                "type": 0,
+                "instruction": "Turn left onto Rua Icurana",
+                "name": "Rua Icurana",
+                "way_points": [
+                  26,
+                  29
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Rua Icurana, straight ahead",
+                "name": "-",
+                "way_points": [
+                  29,
+                  29
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          29
+        ],
+        "summary": {
+          "distance": 1702.9,
+          "duration": 1226.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.620571,
+            -22.916394
+          ],
+          [
+            -43.620477,
+            -22.916379
+          ],
+          [
+            -43.620485,
+            -22.916323
+          ],
+          [
+            -43.620269,
+            -22.916284
+          ],
+          [
+            -43.61968,
+            -22.916174
+          ],
+          [
+            -43.619289,
+            -22.916037
+          ],
+          [
+            -43.618575,
+            -22.915686
+          ],
+          [
+            -43.618327,
+            -22.915561
+          ],
+          [
+            -43.617645,
+            -22.915357
+          ],
+          [
+            -43.617448,
+            -22.915331
+          ],
+          [
+            -43.617278,
+            -22.915325
+          ],
+          [
+            -43.616972,
+            -22.91534
+          ],
+          [
+            -43.616962,
+            -22.915046
+          ],
+          [
+            -43.616937,
+            -22.915026
+          ],
+          [
+            -43.616757,
+            -22.915027
+          ],
+          [
+            -43.616595,
+            -22.915031
+          ],
+          [
+            -43.616585,
+            -22.914774
+          ],
+          [
+            -43.616562,
+            -22.914221
+          ],
+          [
+            -43.616519,
+            -22.914012
+          ],
+          [
+            -43.616237,
+            -22.91402
+          ],
+          [
+            -43.613992,
+            -22.914047
+          ],
+          [
+            -43.612577,
+            -22.914098
+          ],
+          [
+            -43.610913,
+            -22.914119
+          ],
+          [
+            -43.60954,
+            -22.914138
+          ],
+          [
+            -43.608712,
+            -22.914153
+          ],
+          [
+            -43.607894,
+            -22.914153
+          ],
+          [
+            -43.6069,
+            -22.91417
+          ],
+          [
+            -43.606877,
+            -22.91398
+          ],
+          [
+            -43.606825,
+            -22.913729
+          ],
+          [
+            -43.606641,
+            -22.912978
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756396755162,
+    "query": {
+      "coordinates": [
+        [
+          -43.6205708,
+          -22.9163943
+        ],
+        [
+          -43.6066407,
+          -22.9129779
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

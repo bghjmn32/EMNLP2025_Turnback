@@ -1,0 +1,135 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.474037,
+    -34.026719,
+    18.478238,
+    -34.015778
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.474037,
+        -34.026719,
+        18.478238,
+        -34.015778
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1277.8,
+            "duration": 920.0,
+            "steps": [
+              {
+                "distance": 1277.8,
+                "duration": 920.0,
+                "type": 11,
+                "instruction": "Head north on Woodgate Road",
+                "name": "Woodgate Road",
+                "way_points": [
+                  0,
+                  10
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Woodgate Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  10,
+                  10
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          10
+        ],
+        "summary": {
+          "distance": 1277.8,
+          "duration": 920.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.478238,
+            -34.026719
+          ],
+          [
+            18.477689,
+            -34.025275
+          ],
+          [
+            18.477663,
+            -34.025204
+          ],
+          [
+            18.477136,
+            -34.023796
+          ],
+          [
+            18.476578,
+            -34.022348
+          ],
+          [
+            18.476026,
+            -34.020901
+          ],
+          [
+            18.475482,
+            -34.019442
+          ],
+          [
+            18.474867,
+            -34.017818
+          ],
+          [
+            18.474522,
+            -34.016934
+          ],
+          [
+            18.474097,
+            -34.015821
+          ],
+          [
+            18.474037,
+            -34.015778
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756808313555,
+    "query": {
+      "coordinates": [
+        [
+          18.4782378,
+          -34.0267193
+        ],
+        [
+          18.474037,
+          -34.0157779
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

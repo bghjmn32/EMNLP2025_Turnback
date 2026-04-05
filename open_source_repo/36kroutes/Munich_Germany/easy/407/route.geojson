@@ -1,0 +1,177 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    11.375749,
+    48.178446,
+    11.380718,
+    48.179874
+  ],
+  "features": [
+    {
+      "bbox": [
+        11.375749,
+        48.178446,
+        11.380718,
+        48.179874
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 506.2,
+            "duration": 364.5,
+            "steps": [
+              {
+                "distance": 73.2,
+                "duration": 52.7,
+                "type": 11,
+                "instruction": "Head north on Lohwiesenweg",
+                "name": "Lohwiesenweg",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 370.0,
+                "duration": 266.4,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  2,
+                  13
+                ]
+              },
+              {
+                "distance": 63.0,
+                "duration": 45.3,
+                "type": 0,
+                "instruction": "Turn left onto Beislerstraße",
+                "name": "Beislerstraße",
+                "way_points": [
+                  13,
+                  15
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Beislerstraße, straight ahead",
+                "name": "-",
+                "way_points": [
+                  15,
+                  15
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          15
+        ],
+        "summary": {
+          "distance": 506.2,
+          "duration": 364.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            11.375749,
+            48.178446
+          ],
+          [
+            11.375926,
+            48.179049
+          ],
+          [
+            11.37594,
+            48.179092
+          ],
+          [
+            11.376016,
+            48.179087
+          ],
+          [
+            11.376816,
+            48.179021
+          ],
+          [
+            11.377406,
+            48.178988
+          ],
+          [
+            11.378275,
+            48.179073
+          ],
+          [
+            11.378347,
+            48.179081
+          ],
+          [
+            11.378459,
+            48.179093
+          ],
+          [
+            11.379485,
+            48.179199
+          ],
+          [
+            11.380069,
+            48.179269
+          ],
+          [
+            11.380583,
+            48.179335
+          ],
+          [
+            11.380654,
+            48.179405
+          ],
+          [
+            11.380718,
+            48.17951
+          ],
+          [
+            11.380628,
+            48.179591
+          ],
+          [
+            11.380075,
+            48.179874
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756137783548,
+    "query": {
+      "coordinates": [
+        [
+          11.375749,
+          48.1784464
+        ],
+        [
+          11.3800747,
+          48.1798744
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

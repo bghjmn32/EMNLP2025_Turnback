@@ -1,0 +1,182 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.490615,
+    -22.977873,
+    -43.486374,
+    -22.975429
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.490615,
+        -22.977873,
+        -43.486374,
+        -22.975429
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 585.1,
+            "duration": 421.3,
+            "steps": [
+              {
+                "distance": 13.1,
+                "duration": 9.4,
+                "type": 11,
+                "instruction": "Head west",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 572.0,
+                "duration": 411.8,
+                "type": 1,
+                "instruction": "Turn right onto Estrada do Sacarrão",
+                "name": "Estrada do Sacarrão",
+                "way_points": [
+                  1,
+                  19
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Estrada do Sacarrão, straight ahead",
+                "name": "-",
+                "way_points": [
+                  19,
+                  19
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          19
+        ],
+        "summary": {
+          "distance": 585.1,
+          "duration": 421.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.490494,
+            -22.977873
+          ],
+          [
+            -43.490615,
+            -22.977835
+          ],
+          [
+            -43.490468,
+            -22.977499
+          ],
+          [
+            -43.4903,
+            -22.976994
+          ],
+          [
+            -43.490101,
+            -22.976481
+          ],
+          [
+            -43.489913,
+            -22.976355
+          ],
+          [
+            -43.489768,
+            -22.976263
+          ],
+          [
+            -43.48964,
+            -22.976227
+          ],
+          [
+            -43.489101,
+            -22.976128
+          ],
+          [
+            -43.488501,
+            -22.976015
+          ],
+          [
+            -43.488135,
+            -22.975872
+          ],
+          [
+            -43.487826,
+            -22.97574
+          ],
+          [
+            -43.487456,
+            -22.975597
+          ],
+          [
+            -43.487327,
+            -22.975575
+          ],
+          [
+            -43.487195,
+            -22.975588
+          ],
+          [
+            -43.486813,
+            -22.975677
+          ],
+          [
+            -43.486751,
+            -22.975674
+          ],
+          [
+            -43.486695,
+            -22.975654
+          ],
+          [
+            -43.486506,
+            -22.975535
+          ],
+          [
+            -43.486374,
+            -22.975429
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756391034215,
+    "query": {
+      "coordinates": [
+        [
+          -43.4904943,
+          -22.9778727
+        ],
+        [
+          -43.4863745,
+          -22.9754286
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

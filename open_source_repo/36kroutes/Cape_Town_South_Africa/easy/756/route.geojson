@@ -1,0 +1,196 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.482473,
+    -33.824448,
+    18.487059,
+    -33.823282
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.482473,
+        -33.824448,
+        18.487059,
+        -33.823282
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 472.3,
+            "duration": 340.1,
+            "steps": [
+              {
+                "distance": 413.3,
+                "duration": 297.6,
+                "type": 11,
+                "instruction": "Head east on Service Road",
+                "name": "Service Road",
+                "way_points": [
+                  0,
+                  12
+                ]
+              },
+              {
+                "distance": 8.6,
+                "duration": 6.2,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  12,
+                  13
+                ]
+              },
+              {
+                "distance": 32.1,
+                "duration": 23.1,
+                "type": 0,
+                "instruction": "Turn left onto West Coast Cycle Path",
+                "name": "West Coast Cycle Path",
+                "way_points": [
+                  13,
+                  16
+                ]
+              },
+              {
+                "distance": 18.3,
+                "duration": 13.2,
+                "type": 1,
+                "instruction": "Turn right onto Blaauwberg Road, M14",
+                "name": "Blaauwberg Road, M14",
+                "way_points": [
+                  16,
+                  17
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Blaauwberg Road, M14, straight ahead",
+                "name": "-",
+                "way_points": [
+                  17,
+                  17
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          17
+        ],
+        "summary": {
+          "distance": 472.3,
+          "duration": 340.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.482473,
+            -33.823282
+          ],
+          [
+            18.482735,
+            -33.823351
+          ],
+          [
+            18.483497,
+            -33.823552
+          ],
+          [
+            18.483782,
+            -33.823627
+          ],
+          [
+            18.483917,
+            -33.823662
+          ],
+          [
+            18.484043,
+            -33.823695
+          ],
+          [
+            18.484499,
+            -33.823815
+          ],
+          [
+            18.485023,
+            -33.823952
+          ],
+          [
+            18.485186,
+            -33.823995
+          ],
+          [
+            18.486473,
+            -33.824336
+          ],
+          [
+            18.486644,
+            -33.824387
+          ],
+          [
+            18.486673,
+            -33.824402
+          ],
+          [
+            18.486702,
+            -33.824448
+          ],
+          [
+            18.486793,
+            -33.824434
+          ],
+          [
+            18.486795,
+            -33.824345
+          ],
+          [
+            18.486818,
+            -33.824289
+          ],
+          [
+            18.48687,
+            -33.824155
+          ],
+          [
+            18.487059,
+            -33.824205
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756805583850,
+    "query": {
+      "coordinates": [
+        [
+          18.4824733,
+          -33.8232816
+        ],
+        [
+          18.4870585,
+          -33.8242053
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

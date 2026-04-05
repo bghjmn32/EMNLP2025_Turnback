@@ -1,0 +1,225 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    151.278859,
+    -33.733155,
+    151.283048,
+    -33.728214
+  ],
+  "features": [
+    {
+      "bbox": [
+        151.278859,
+        -33.733155,
+        151.283048,
+        -33.728214
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1094.7,
+            "duration": 788.2,
+            "steps": [
+              {
+                "distance": 19.3,
+                "duration": 13.9,
+                "type": 11,
+                "instruction": "Head north on Kendal Crescent",
+                "name": "Kendal Crescent",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 309.3,
+                "duration": 222.7,
+                "type": 0,
+                "instruction": "Turn left onto Carlisle Street",
+                "name": "Carlisle Street",
+                "way_points": [
+                  1,
+                  3
+                ]
+              },
+              {
+                "distance": 191.5,
+                "duration": 137.9,
+                "type": 0,
+                "instruction": "Turn left onto Kirkstone Road",
+                "name": "Kirkstone Road",
+                "way_points": [
+                  3,
+                  5
+                ]
+              },
+              {
+                "distance": 114.3,
+                "duration": 82.3,
+                "type": 0,
+                "instruction": "Turn left onto Heather Street",
+                "name": "Heather Street",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 205.7,
+                "duration": 148.1,
+                "type": 1,
+                "instruction": "Turn right onto Ambleside Street",
+                "name": "Ambleside Street",
+                "way_points": [
+                  6,
+                  11
+                ]
+              },
+              {
+                "distance": 111.3,
+                "duration": 80.1,
+                "type": 2,
+                "instruction": "Turn sharp left onto Wasdale Street",
+                "name": "Wasdale Street",
+                "way_points": [
+                  11,
+                  13
+                ]
+              },
+              {
+                "distance": 143.3,
+                "duration": 103.2,
+                "type": 1,
+                "instruction": "Turn right onto Penrith Avenue",
+                "name": "Penrith Avenue",
+                "way_points": [
+                  13,
+                  16
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Penrith Avenue, straight ahead",
+                "name": "-",
+                "way_points": [
+                  16,
+                  16
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          16
+        ],
+        "summary": {
+          "distance": 1094.7,
+          "duration": 788.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            151.283003,
+            -33.728844
+          ],
+          [
+            151.283048,
+            -33.728674
+          ],
+          [
+            151.281473,
+            -33.728459
+          ],
+          [
+            151.279749,
+            -33.728214
+          ],
+          [
+            151.27959,
+            -33.728966
+          ],
+          [
+            151.279402,
+            -33.729912
+          ],
+          [
+            151.28058,
+            -33.730223
+          ],
+          [
+            151.280534,
+            -33.730288
+          ],
+          [
+            151.280113,
+            -33.730852
+          ],
+          [
+            151.279712,
+            -33.731356
+          ],
+          [
+            151.279654,
+            -33.73141
+          ],
+          [
+            151.279151,
+            -33.731524
+          ],
+          [
+            151.279196,
+            -33.731564
+          ],
+          [
+            151.27997,
+            -33.732257
+          ],
+          [
+            151.279289,
+            -33.732803
+          ],
+          [
+            151.278942,
+            -33.733089
+          ],
+          [
+            151.278859,
+            -33.733155
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756391077417,
+    "query": {
+      "coordinates": [
+        [
+          151.2830029,
+          -33.7288437
+        ],
+        [
+          151.2788592,
+          -33.7331547
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

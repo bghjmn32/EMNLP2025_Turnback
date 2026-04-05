@@ -1,0 +1,237 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.474993,
+    -33.820395,
+    18.478533,
+    -33.817605
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.474993,
+        -33.820395,
+        18.478533,
+        -33.817605
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 564.6,
+            "duration": 406.5,
+            "steps": [
+              {
+                "distance": 16.3,
+                "duration": 11.7,
+                "type": 11,
+                "instruction": "Head northeast",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 36.9,
+                "duration": 26.5,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 34.4,
+                "duration": 24.8,
+                "type": 1,
+                "instruction": "Turn right onto Foam Road",
+                "name": "Foam Road",
+                "way_points": [
+                  2,
+                  4
+                ]
+              },
+              {
+                "distance": 262.0,
+                "duration": 188.7,
+                "type": 1,
+                "instruction": "Turn right onto Coral Road",
+                "name": "Coral Road",
+                "way_points": [
+                  4,
+                  8
+                ]
+              },
+              {
+                "distance": 31.0,
+                "duration": 22.3,
+                "type": 0,
+                "instruction": "Turn left onto Marine Circle",
+                "name": "Marine Circle",
+                "way_points": [
+                  8,
+                  10
+                ]
+              },
+              {
+                "distance": 144.1,
+                "duration": 103.8,
+                "type": 12,
+                "instruction": "Keep left onto Marine Circle",
+                "name": "Marine Circle",
+                "way_points": [
+                  10,
+                  18
+                ]
+              },
+              {
+                "distance": 39.9,
+                "duration": 28.7,
+                "type": 0,
+                "instruction": "Turn left onto Porterfield Road",
+                "name": "Porterfield Road",
+                "way_points": [
+                  18,
+                  19
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Porterfield Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  19,
+                  19
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          19
+        ],
+        "summary": {
+          "distance": 564.6,
+          "duration": 406.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.475025,
+            -33.818106
+          ],
+          [
+            18.475185,
+            -33.818045
+          ],
+          [
+            18.474993,
+            -33.817754
+          ],
+          [
+            18.475065,
+            -33.817719
+          ],
+          [
+            18.475319,
+            -33.817605
+          ],
+          [
+            18.475551,
+            -33.817957
+          ],
+          [
+            18.476496,
+            -33.819389
+          ],
+          [
+            18.47653,
+            -33.819475
+          ],
+          [
+            18.47655,
+            -33.819706
+          ],
+          [
+            18.47671,
+            -33.819705
+          ],
+          [
+            18.476885,
+            -33.819717
+          ],
+          [
+            18.476944,
+            -33.81971
+          ],
+          [
+            18.477098,
+            -33.819758
+          ],
+          [
+            18.477266,
+            -33.819845
+          ],
+          [
+            18.477626,
+            -33.820031
+          ],
+          [
+            18.477823,
+            -33.820133
+          ],
+          [
+            18.477988,
+            -33.820223
+          ],
+          [
+            18.478119,
+            -33.820333
+          ],
+          [
+            18.478183,
+            -33.820395
+          ],
+          [
+            18.478533,
+            -33.820186
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756804993245,
+    "query": {
+      "coordinates": [
+        [
+          18.4750248,
+          -33.8181064
+        ],
+        [
+          18.4785334,
+          -33.8201856
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

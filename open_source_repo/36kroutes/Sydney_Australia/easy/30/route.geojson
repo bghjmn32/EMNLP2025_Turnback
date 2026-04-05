@@ -1,0 +1,189 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    150.968727,
+    -33.960951,
+    150.974072,
+    -33.959306
+  ],
+  "features": [
+    {
+      "bbox": [
+        150.968727,
+        -33.960951,
+        150.974072,
+        -33.959306
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 641.5,
+            "duration": 461.9,
+            "steps": [
+              {
+                "distance": 207.9,
+                "duration": 149.7,
+                "type": 11,
+                "instruction": "Head southeast on Coach Drive",
+                "name": "Coach Drive",
+                "way_points": [
+                  0,
+                  5
+                ]
+              },
+              {
+                "distance": 321.9,
+                "duration": 231.8,
+                "type": 0,
+                "instruction": "Turn left onto Sirius Road",
+                "name": "Sirius Road",
+                "way_points": [
+                  5,
+                  17
+                ]
+              },
+              {
+                "distance": 111.7,
+                "duration": 80.4,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  17,
+                  18
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  18,
+                  18
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          18
+        ],
+        "summary": {
+          "distance": 641.5,
+          "duration": 461.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            150.968727,
+            -33.960853
+          ],
+          [
+            150.968796,
+            -33.960907
+          ],
+          [
+            150.968937,
+            -33.960951
+          ],
+          [
+            150.970137,
+            -33.960914
+          ],
+          [
+            150.970772,
+            -33.960891
+          ],
+          [
+            150.970944,
+            -33.960884
+          ],
+          [
+            150.970966,
+            -33.960705
+          ],
+          [
+            150.971053,
+            -33.960514
+          ],
+          [
+            150.971202,
+            -33.960336
+          ],
+          [
+            150.971385,
+            -33.960202
+          ],
+          [
+            150.971585,
+            -33.960108
+          ],
+          [
+            150.971808,
+            -33.960058
+          ],
+          [
+            150.971958,
+            -33.96005
+          ],
+          [
+            150.972316,
+            -33.960089
+          ],
+          [
+            150.972909,
+            -33.960167
+          ],
+          [
+            150.973491,
+            -33.960245
+          ],
+          [
+            150.973808,
+            -33.960287
+          ],
+          [
+            150.973846,
+            -33.960293
+          ],
+          [
+            150.974072,
+            -33.959306
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756390069729,
+    "query": {
+      "coordinates": [
+        [
+          150.968727,
+          -33.960853
+        ],
+        [
+          150.9740718,
+          -33.959306
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    174.903832,
+    -37.043129,
+    174.905577,
+    -37.03928
+  ],
+  "features": [
+    {
+      "bbox": [
+        174.903832,
+        -37.043129,
+        174.905577,
+        -37.03928
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 512.2,
+            "duration": 368.7,
+            "steps": [
+              {
+                "distance": 171.7,
+                "duration": 123.6,
+                "type": 11,
+                "instruction": "Head southwest on Pepene Avenue",
+                "name": "Pepene Avenue",
+                "way_points": [
+                  0,
+                  4
+                ]
+              },
+              {
+                "distance": 62.2,
+                "duration": 44.8,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  4,
+                  6
+                ]
+              },
+              {
+                "distance": 46.1,
+                "duration": 33.2,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 6.1,
+                "duration": 4.4,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 226.0,
+                "duration": 162.7,
+                "type": 1,
+                "instruction": "Turn right onto Waituarua Drive",
+                "name": "Waituarua Drive",
+                "way_points": [
+                  8,
+                  13
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Waituarua Drive, straight ahead",
+                "name": "-",
+                "way_points": [
+                  13,
+                  13
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          13
+        ],
+        "summary": {
+          "distance": 512.2,
+          "duration": 368.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            174.905577,
+            -37.03928
+          ],
+          [
+            174.905566,
+            -37.039292
+          ],
+          [
+            174.905273,
+            -37.039607
+          ],
+          [
+            174.905079,
+            -37.039816
+          ],
+          [
+            174.904441,
+            -37.04053
+          ],
+          [
+            174.904489,
+            -37.040562
+          ],
+          [
+            174.904999,
+            -37.040868
+          ],
+          [
+            174.904701,
+            -37.041208
+          ],
+          [
+            174.904757,
+            -37.04124
+          ],
+          [
+            174.904622,
+            -37.041411
+          ],
+          [
+            174.904617,
+            -37.04142
+          ],
+          [
+            174.904542,
+            -37.041552
+          ],
+          [
+            174.904483,
+            -37.041693
+          ],
+          [
+            174.903832,
+            -37.043129
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756375169752,
+    "query": {
+      "coordinates": [
+        [
+          174.9055773,
+          -37.0392798
+        ],
+        [
+          174.9038318,
+          -37.0431291
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.510748,
+    -34.028685,
+    18.515837,
+    -34.02752
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.510748,
+        -34.028685,
+        18.515837,
+        -34.02752
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 592.1,
+            "duration": 426.3,
+            "steps": [
+              {
+                "distance": 129.9,
+                "duration": 93.5,
+                "type": 11,
+                "instruction": "Head north on Bruce Avenue",
+                "name": "Bruce Avenue",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 462.2,
+                "duration": 332.8,
+                "type": 0,
+                "instruction": "Turn left onto Aaron Avenue",
+                "name": "Aaron Avenue",
+                "way_points": [
+                  3,
+                  11
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Aaron Avenue, straight ahead",
+                "name": "-",
+                "way_points": [
+                  11,
+                  11
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          11
+        ],
+        "summary": {
+          "distance": 592.1,
+          "duration": 426.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.515837,
+            -34.028685
+          ],
+          [
+            18.515826,
+            -34.028548
+          ],
+          [
+            18.515801,
+            -34.02827
+          ],
+          [
+            18.515738,
+            -34.02752
+          ],
+          [
+            18.514257,
+            -34.027602
+          ],
+          [
+            18.513437,
+            -34.02765
+          ],
+          [
+            18.512874,
+            -34.027684
+          ],
+          [
+            18.51236,
+            -34.027711
+          ],
+          [
+            18.511459,
+            -34.027769
+          ],
+          [
+            18.510865,
+            -34.027793
+          ],
+          [
+            18.510778,
+            -34.027813
+          ],
+          [
+            18.510748,
+            -34.027836
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756806073961,
+    "query": {
+      "coordinates": [
+        [
+          18.5158368,
+          -34.0286851
+        ],
+        [
+          18.5107477,
+          -34.0278356
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

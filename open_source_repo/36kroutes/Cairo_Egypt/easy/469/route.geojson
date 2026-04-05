@@ -1,0 +1,193 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    31.424387,
+    30.15448,
+    31.428985,
+    30.15762
+  ],
+  "features": [
+    {
+      "bbox": [
+        31.424387,
+        30.15448,
+        31.428985,
+        30.15762
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 751.1,
+            "duration": 540.8,
+            "steps": [
+              {
+                "distance": 159.9,
+                "duration": 115.1,
+                "type": 11,
+                "instruction": "Head northeast on شارع مهيب الرومي",
+                "name": "شارع مهيب الرومي",
+                "way_points": [
+                  0,
+                  4
+                ]
+              },
+              {
+                "distance": 201.1,
+                "duration": 144.8,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  4,
+                  12
+                ]
+              },
+              {
+                "distance": 390.1,
+                "duration": 280.9,
+                "type": 1,
+                "instruction": "Turn right onto شارع طابا",
+                "name": "شارع طابا",
+                "way_points": [
+                  12,
+                  19
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at شارع طابا, straight ahead",
+                "name": "-",
+                "way_points": [
+                  19,
+                  19
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          19
+        ],
+        "summary": {
+          "distance": 751.1,
+          "duration": 540.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            31.424387,
+            30.156568
+          ],
+          [
+            31.424994,
+            30.157027
+          ],
+          [
+            31.425211,
+            30.157191
+          ],
+          [
+            31.425454,
+            30.157376
+          ],
+          [
+            31.425637,
+            30.157518
+          ],
+          [
+            31.425949,
+            30.157108
+          ],
+          [
+            31.426004,
+            30.157074
+          ],
+          [
+            31.426055,
+            30.157059
+          ],
+          [
+            31.426117,
+            30.157061
+          ],
+          [
+            31.42637,
+            30.157172
+          ],
+          [
+            31.426939,
+            30.157443
+          ],
+          [
+            31.427156,
+            30.157554
+          ],
+          [
+            31.427291,
+            30.15762
+          ],
+          [
+            31.428,
+            30.156704
+          ],
+          [
+            31.428246,
+            30.156385
+          ],
+          [
+            31.428468,
+            30.156018
+          ],
+          [
+            31.428649,
+            30.155652
+          ],
+          [
+            31.428881,
+            30.155
+          ],
+          [
+            31.428952,
+            30.154704
+          ],
+          [
+            31.428985,
+            30.15448
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756731171914,
+    "query": {
+      "coordinates": [
+        [
+          31.4243874,
+          30.1565678
+        ],
+        [
+          31.4289854,
+          30.1544799
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

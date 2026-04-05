@@ -1,0 +1,196 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.572667,
+    -33.943298,
+    18.57463,
+    -33.937563
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.572667,
+        -33.943298,
+        18.57463,
+        -33.937563
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 809.7,
+            "duration": 582.9,
+            "steps": [
+              {
+                "distance": 498.1,
+                "duration": 358.6,
+                "type": 11,
+                "instruction": "Head south on Civic Road",
+                "name": "Civic Road",
+                "way_points": [
+                  0,
+                  7
+                ]
+              },
+              {
+                "distance": 114.7,
+                "duration": 82.6,
+                "type": 4,
+                "instruction": "Turn slight left",
+                "name": "-",
+                "way_points": [
+                  7,
+                  12
+                ]
+              },
+              {
+                "distance": 166.3,
+                "duration": 119.7,
+                "type": 0,
+                "instruction": "Turn left onto River Road",
+                "name": "River Road",
+                "way_points": [
+                  12,
+                  15
+                ]
+              },
+              {
+                "distance": 30.6,
+                "duration": 22.1,
+                "type": 1,
+                "instruction": "Turn right onto 2nd Street",
+                "name": "2nd Street",
+                "way_points": [
+                  15,
+                  17
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at 2nd Street, straight ahead",
+                "name": "-",
+                "way_points": [
+                  17,
+                  17
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          17
+        ],
+        "summary": {
+          "distance": 809.7,
+          "duration": 582.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.572723,
+            -33.937563
+          ],
+          [
+            18.572718,
+            -33.93796
+          ],
+          [
+            18.572712,
+            -33.938418
+          ],
+          [
+            18.572707,
+            -33.938883
+          ],
+          [
+            18.572701,
+            -33.939364
+          ],
+          [
+            18.572698,
+            -33.93957
+          ],
+          [
+            18.572694,
+            -33.939855
+          ],
+          [
+            18.572667,
+            -33.942042
+          ],
+          [
+            18.57272,
+            -33.942179
+          ],
+          [
+            18.572807,
+            -33.942405
+          ],
+          [
+            18.572835,
+            -33.942572
+          ],
+          [
+            18.572846,
+            -33.942786
+          ],
+          [
+            18.572829,
+            -33.943053
+          ],
+          [
+            18.573004,
+            -33.943044
+          ],
+          [
+            18.57382,
+            -33.943015
+          ],
+          [
+            18.57463,
+            -33.943023
+          ],
+          [
+            18.57463,
+            -33.943106
+          ],
+          [
+            18.574629,
+            -33.943298
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756805170096,
+    "query": {
+      "coordinates": [
+        [
+          18.572723,
+          -33.9375629
+        ],
+        [
+          18.574629,
+          -33.9432985
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

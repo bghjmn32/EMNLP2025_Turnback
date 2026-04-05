@@ -1,0 +1,198 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.302991,
+    -22.903195,
+    -43.296816,
+    -22.895777
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.302991,
+        -22.903195,
+        -43.296816,
+        -22.895777
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1322.6,
+            "duration": 952.3,
+            "steps": [
+              {
+                "distance": 294.8,
+                "duration": 212.2,
+                "type": 11,
+                "instruction": "Head north on Rua Dois de Fevereiro",
+                "name": "Rua Dois de Fevereiro",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 148.1,
+                "duration": 106.7,
+                "type": 1,
+                "instruction": "Turn right onto Rua Ramiro Magalhães",
+                "name": "Rua Ramiro Magalhães",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 291.7,
+                "duration": 210.1,
+                "type": 0,
+                "instruction": "Turn left onto Rua Gustavo Riedel",
+                "name": "Rua Gustavo Riedel",
+                "way_points": [
+                  4,
+                  6
+                ]
+              },
+              {
+                "distance": 146.1,
+                "duration": 105.2,
+                "type": 1,
+                "instruction": "Turn right onto Rua Pernambuco",
+                "name": "Rua Pernambuco",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 357.4,
+                "duration": 257.3,
+                "type": 0,
+                "instruction": "Turn left onto Rua Doutor Leal",
+                "name": "Rua Doutor Leal",
+                "way_points": [
+                  7,
+                  11
+                ]
+              },
+              {
+                "distance": 84.4,
+                "duration": 60.8,
+                "type": 1,
+                "instruction": "Turn right onto Avenida Amaro Cavalcanti",
+                "name": "Avenida Amaro Cavalcanti",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Avenida Amaro Cavalcanti, straight ahead",
+                "name": "-",
+                "way_points": [
+                  12,
+                  12
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          12
+        ],
+        "summary": {
+          "distance": 1322.6,
+          "duration": 952.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.302991,
+            -22.903195
+          ],
+          [
+            -43.302586,
+            -22.90193
+          ],
+          [
+            -43.302217,
+            -22.900795
+          ],
+          [
+            -43.302176,
+            -22.900653
+          ],
+          [
+            -43.30079,
+            -22.901033
+          ],
+          [
+            -43.300384,
+            -22.899757
+          ],
+          [
+            -43.299997,
+            -22.898513
+          ],
+          [
+            -43.298626,
+            -22.898878
+          ],
+          [
+            -43.298424,
+            -22.898272
+          ],
+          [
+            -43.298199,
+            -22.897595
+          ],
+          [
+            -43.297797,
+            -22.896338
+          ],
+          [
+            -43.29764,
+            -22.895795
+          ],
+          [
+            -43.296816,
+            -22.895777
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756400647060,
+    "query": {
+      "coordinates": [
+        [
+          -43.3029915,
+          -22.903195
+        ],
+        [
+          -43.2968165,
+          -22.8957766
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

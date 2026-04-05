@@ -1,0 +1,185 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.565594,
+    -33.96247,
+    18.569287,
+    -33.959091
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.565594,
+        -33.96247,
+        18.569287,
+        -33.959091
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 577.9,
+            "duration": 416.1,
+            "steps": [
+              {
+                "distance": 361.4,
+                "duration": 260.2,
+                "type": 11,
+                "instruction": "Head west on Downing Street",
+                "name": "Downing Street",
+                "way_points": [
+                  0,
+                  11
+                ]
+              },
+              {
+                "distance": 17.1,
+                "duration": 12.3,
+                "type": 0,
+                "instruction": "Turn left onto John Jansen Road",
+                "name": "John Jansen Road",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 199.4,
+                "duration": 143.6,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  12,
+                  17
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  17,
+                  17
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          17
+        ],
+        "summary": {
+          "distance": 577.9,
+          "duration": 416.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.569287,
+            -33.962465
+          ],
+          [
+            18.569153,
+            -33.962434
+          ],
+          [
+            18.568949,
+            -33.962445
+          ],
+          [
+            18.56882,
+            -33.962461
+          ],
+          [
+            18.568601,
+            -33.96247
+          ],
+          [
+            18.5681,
+            -33.962427
+          ],
+          [
+            18.567927,
+            -33.962394
+          ],
+          [
+            18.567809,
+            -33.96231
+          ],
+          [
+            18.567108,
+            -33.961179
+          ],
+          [
+            18.567075,
+            -33.961085
+          ],
+          [
+            18.567082,
+            -33.961019
+          ],
+          [
+            18.56712,
+            -33.960475
+          ],
+          [
+            18.566939,
+            -33.960441
+          ],
+          [
+            18.566954,
+            -33.960375
+          ],
+          [
+            18.56694,
+            -33.960295
+          ],
+          [
+            18.566792,
+            -33.96016
+          ],
+          [
+            18.566221,
+            -33.959725
+          ],
+          [
+            18.565594,
+            -33.959091
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756805625490,
+    "query": {
+      "coordinates": [
+        [
+          18.569287,
+          -33.9624648
+        ],
+        [
+          18.5655937,
+          -33.9590912
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

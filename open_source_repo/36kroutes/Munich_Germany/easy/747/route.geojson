@@ -1,0 +1,229 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    11.542111,
+    48.196159,
+    11.549792,
+    48.198123
+  ],
+  "features": [
+    {
+      "bbox": [
+        11.542111,
+        48.196159,
+        11.549792,
+        48.198123
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 854.5,
+            "duration": 615.2,
+            "steps": [
+              {
+                "distance": 0.7,
+                "duration": 0.5,
+                "type": 11,
+                "instruction": "Head southeast on Adlerfarnstraße",
+                "name": "Adlerfarnstraße",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 320.2,
+                "duration": 230.5,
+                "type": 1,
+                "instruction": "Turn right onto Irisstraße",
+                "name": "Irisstraße",
+                "way_points": [
+                  1,
+                  6
+                ]
+              },
+              {
+                "distance": 46.5,
+                "duration": 33.4,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 14.5,
+                "duration": 10.4,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  7,
+                  9
+                ]
+              },
+              {
+                "distance": 10.7,
+                "duration": 7.7,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  9,
+                  10
+                ]
+              },
+              {
+                "distance": 284.7,
+                "duration": 205.0,
+                "type": 3,
+                "instruction": "Turn sharp right onto Hyazinthenstraße",
+                "name": "Hyazinthenstraße",
+                "way_points": [
+                  10,
+                  15
+                ]
+              },
+              {
+                "distance": 177.2,
+                "duration": 127.6,
+                "type": 1,
+                "instruction": "Turn right onto Berberitzenstraße",
+                "name": "Berberitzenstraße",
+                "way_points": [
+                  15,
+                  17
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Berberitzenstraße, straight ahead",
+                "name": "-",
+                "way_points": [
+                  17,
+                  17
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          17
+        ],
+        "summary": {
+          "distance": 854.5,
+          "duration": 615.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            11.549789,
+            48.197781
+          ],
+          [
+            11.549792,
+            48.197777
+          ],
+          [
+            11.548576,
+            48.197501
+          ],
+          [
+            11.548438,
+            48.197455
+          ],
+          [
+            11.546948,
+            48.197021
+          ],
+          [
+            11.546534,
+            48.196901
+          ],
+          [
+            11.545797,
+            48.196688
+          ],
+          [
+            11.546024,
+            48.196298
+          ],
+          [
+            11.545931,
+            48.196272
+          ],
+          [
+            11.545844,
+            48.196248
+          ],
+          [
+            11.545901,
+            48.196159
+          ],
+          [
+            11.545029,
+            48.196255
+          ],
+          [
+            11.543848,
+            48.196384
+          ],
+          [
+            11.543703,
+            48.196399
+          ],
+          [
+            11.543531,
+            48.196418
+          ],
+          [
+            11.542111,
+            48.196573
+          ],
+          [
+            11.542571,
+            48.197856
+          ],
+          [
+            11.542667,
+            48.198123
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756139005488,
+    "query": {
+      "coordinates": [
+        [
+          11.5497863,
+          48.1977802
+        ],
+        [
+          11.5426672,
+          48.1981234
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    150.813406,
+    -33.700958,
+    150.819381,
+    -33.698892
+  ],
+  "features": [
+    {
+      "bbox": [
+        150.813406,
+        -33.700958,
+        150.819381,
+        -33.698892
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 716.3,
+            "duration": 515.7,
+            "steps": [
+              {
+                "distance": 161.3,
+                "duration": 116.2,
+                "type": 11,
+                "instruction": "Head north",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 84.1,
+                "duration": 60.5,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  8
+                ]
+              },
+              {
+                "distance": 7.9,
+                "duration": 5.7,
+                "type": 1,
+                "instruction": "Turn right onto Glenabbey Street",
+                "name": "Glenabbey Street",
+                "way_points": [
+                  8,
+                  9
+                ]
+              },
+              {
+                "distance": 450.2,
+                "duration": 324.1,
+                "type": 0,
+                "instruction": "Turn left onto Frontier Avenue",
+                "name": "Frontier Avenue",
+                "way_points": [
+                  9,
+                  16
+                ]
+              },
+              {
+                "distance": 12.8,
+                "duration": 9.2,
+                "type": 1,
+                "instruction": "Turn right onto Veronia Street",
+                "name": "Veronia Street",
+                "way_points": [
+                  16,
+                  17
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Veronia Street, straight ahead",
+                "name": "-",
+                "way_points": [
+                  17,
+                  17
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          17
+        ],
+        "summary": {
+          "distance": 716.3,
+          "duration": 515.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            150.819381,
+            -33.700958
+          ],
+          [
+            150.81916,
+            -33.699519
+          ],
+          [
+            150.819138,
+            -33.699525
+          ],
+          [
+            150.81909,
+            -33.699534
+          ],
+          [
+            150.819047,
+            -33.699533
+          ],
+          [
+            150.819023,
+            -33.69953
+          ],
+          [
+            150.818974,
+            -33.699495
+          ],
+          [
+            150.818705,
+            -33.699505
+          ],
+          [
+            150.818271,
+            -33.699476
+          ],
+          [
+            150.81826,
+            -33.699405
+          ],
+          [
+            150.817445,
+            -33.699326
+          ],
+          [
+            150.817247,
+            -33.699311
+          ],
+          [
+            150.816685,
+            -33.699272
+          ],
+          [
+            150.815912,
+            -33.699212
+          ],
+          [
+            150.815075,
+            -33.699147
+          ],
+          [
+            150.814245,
+            -33.699076
+          ],
+          [
+            150.813418,
+            -33.699006
+          ],
+          [
+            150.813406,
+            -33.698892
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756392673746,
+    "query": {
+      "coordinates": [
+        [
+          150.8193814,
+          -33.7009584
+        ],
+        [
+          150.8134063,
+          -33.698892
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

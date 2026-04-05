@@ -1,0 +1,181 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -104.751943,
+    39.763433,
+    -104.743128,
+    39.76538
+  ],
+  "features": [
+    {
+      "bbox": [
+        -104.751943,
+        39.763433,
+        -104.743128,
+        39.76538
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 882.0,
+            "duration": 635.1,
+            "steps": [
+              {
+                "distance": 685.0,
+                "duration": 493.2,
+                "type": 11,
+                "instruction": "Head southwest on East 36th Drive",
+                "name": "East 36th Drive",
+                "way_points": [
+                  0,
+                  11
+                ]
+              },
+              {
+                "distance": 24.2,
+                "duration": 17.4,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 172.8,
+                "duration": 124.4,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  12,
+                  16
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  16,
+                  16
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          16
+        ],
+        "summary": {
+          "distance": 882.0,
+          "duration": 635.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -104.743128,
+            39.76538
+          ],
+          [
+            -104.743138,
+            39.76537
+          ],
+          [
+            -104.744264,
+            39.76452
+          ],
+          [
+            -104.744482,
+            39.764408
+          ],
+          [
+            -104.744781,
+            39.764318
+          ],
+          [
+            -104.74491,
+            39.764293
+          ],
+          [
+            -104.745214,
+            39.764275
+          ],
+          [
+            -104.746469,
+            39.76428
+          ],
+          [
+            -104.747123,
+            39.764283
+          ],
+          [
+            -104.748486,
+            39.764289
+          ],
+          [
+            -104.748552,
+            39.764289
+          ],
+          [
+            -104.750613,
+            39.764292
+          ],
+          [
+            -104.750611,
+            39.764074
+          ],
+          [
+            -104.751705,
+            39.764086
+          ],
+          [
+            -104.751758,
+            39.764075
+          ],
+          [
+            -104.751826,
+            39.764021
+          ],
+          [
+            -104.751943,
+            39.763433
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756305154472,
+    "query": {
+      "coordinates": [
+        [
+          -104.7431277,
+          39.7653798
+        ],
+        [
+          -104.7519428,
+          39.7634325
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

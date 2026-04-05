@@ -1,0 +1,202 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -98.999583,
+    19.264361,
+    -98.997561,
+    19.270726
+  ],
+  "features": [
+    {
+      "bbox": [
+        -98.999583,
+        19.264361,
+        -98.997561,
+        19.270726
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 891.8,
+            "duration": 642.1,
+            "steps": [
+              {
+                "distance": 29.8,
+                "duration": 21.5,
+                "type": 11,
+                "instruction": "Head southwest",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 27.4,
+                "duration": 19.7,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 723.8,
+                "duration": 521.1,
+                "type": 1,
+                "instruction": "Turn right onto Calzada de la Mónera",
+                "name": "Calzada de la Mónera",
+                "way_points": [
+                  2,
+                  10
+                ]
+              },
+              {
+                "distance": 53.7,
+                "duration": 38.7,
+                "type": 1,
+                "instruction": "Turn right onto Calle Javier Mina",
+                "name": "Calle Javier Mina",
+                "way_points": [
+                  10,
+                  11
+                ]
+              },
+              {
+                "distance": 35.7,
+                "duration": 25.7,
+                "type": 1,
+                "instruction": "Turn right onto Calle de la Cruz",
+                "name": "Calle de la Cruz",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 21.4,
+                "duration": 15.4,
+                "type": 0,
+                "instruction": "Turn left onto Peatonal Cuarta Privada Javier Mina",
+                "name": "Peatonal Cuarta Privada Javier Mina",
+                "way_points": [
+                  12,
+                  13
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Peatonal Cuarta Privada Javier Mina, straight ahead",
+                "name": "-",
+                "way_points": [
+                  13,
+                  13
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          13
+        ],
+        "summary": {
+          "distance": 891.8,
+          "duration": 642.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -98.999179,
+            19.264592
+          ],
+          [
+            -98.999323,
+            19.264361
+          ],
+          [
+            -98.999583,
+            19.264372
+          ],
+          [
+            -98.999445,
+            19.265657
+          ],
+          [
+            -98.999406,
+            19.265949
+          ],
+          [
+            -98.999363,
+            19.266134
+          ],
+          [
+            -98.999173,
+            19.266878
+          ],
+          [
+            -98.998798,
+            19.268286
+          ],
+          [
+            -98.998594,
+            19.268975
+          ],
+          [
+            -98.998402,
+            19.269722
+          ],
+          [
+            -98.998143,
+            19.270726
+          ],
+          [
+            -98.997637,
+            19.270654
+          ],
+          [
+            -98.99776,
+            19.270355
+          ],
+          [
+            -98.997561,
+            19.270311
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306183810,
+    "query": {
+      "coordinates": [
+        [
+          -98.9991791,
+          19.2645921
+        ],
+        [
+          -98.9975613,
+          19.2703109
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

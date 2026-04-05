@@ -1,0 +1,221 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    31.328341,
+    30.077655,
+    31.333477,
+    30.079372
+  ],
+  "features": [
+    {
+      "bbox": [
+        31.328341,
+        30.077655,
+        31.333477,
+        30.079372
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 676.1,
+            "duration": 486.8,
+            "steps": [
+              {
+                "distance": 172.7,
+                "duration": 124.3,
+                "type": 11,
+                "instruction": "Head west on شارع البلبيسي",
+                "name": "شارع البلبيسي",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 154.6,
+                "duration": 111.3,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  4
+                ]
+              },
+              {
+                "distance": 79.5,
+                "duration": 57.2,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  4,
+                  7
+                ]
+              },
+              {
+                "distance": 29.5,
+                "duration": 21.2,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 29.7,
+                "duration": 21.4,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  8,
+                  10
+                ]
+              },
+              {
+                "distance": 27.3,
+                "duration": 19.7,
+                "type": 0,
+                "instruction": "Turn left onto شارع الكومنولث",
+                "name": "شارع الكومنولث",
+                "way_points": [
+                  10,
+                  12
+                ]
+              },
+              {
+                "distance": 182.8,
+                "duration": 131.6,
+                "type": 1,
+                "instruction": "Turn right onto شارع الكومنولث",
+                "name": "شارع الكومنولث",
+                "way_points": [
+                  12,
+                  15
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at شارع الكومنولث, straight ahead",
+                "name": "-",
+                "way_points": [
+                  15,
+                  15
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          15
+        ],
+        "summary": {
+          "distance": 676.1,
+          "duration": 486.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            31.333477,
+            30.079071
+          ],
+          [
+            31.331717,
+            30.079372
+          ],
+          [
+            31.33166,
+            30.07906
+          ],
+          [
+            31.331562,
+            30.078525
+          ],
+          [
+            31.331452,
+            30.078
+          ],
+          [
+            31.33121,
+            30.078044
+          ],
+          [
+            31.330932,
+            30.078095
+          ],
+          [
+            31.330641,
+            30.078132
+          ],
+          [
+            31.330593,
+            30.077871
+          ],
+          [
+            31.330394,
+            30.077906
+          ],
+          [
+            31.330288,
+            30.077901
+          ],
+          [
+            31.330272,
+            30.077773
+          ],
+          [
+            31.330205,
+            30.077671
+          ],
+          [
+            31.330047,
+            30.077655
+          ],
+          [
+            31.329986,
+            30.077666
+          ],
+          [
+            31.328341,
+            30.077953
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756730446191,
+    "query": {
+      "coordinates": [
+        [
+          31.3334773,
+          30.0790705
+        ],
+        [
+          31.3283409,
+          30.0779527
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

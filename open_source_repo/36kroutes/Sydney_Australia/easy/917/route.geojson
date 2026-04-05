@@ -1,0 +1,220 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    150.853605,
+    -33.884914,
+    150.859446,
+    -33.884454
+  ],
+  "features": [
+    {
+      "bbox": [
+        150.853605,
+        -33.884914,
+        150.859446,
+        -33.884454
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 573.5,
+            "duration": 412.9,
+            "steps": [
+              {
+                "distance": 129.3,
+                "duration": 93.1,
+                "type": 11,
+                "instruction": "Head southwest on Sandringham Drive",
+                "name": "Sandringham Drive",
+                "way_points": [
+                  0,
+                  6
+                ]
+              },
+              {
+                "distance": 13.9,
+                "duration": 10.0,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  6,
+                  8
+                ]
+              },
+              {
+                "distance": 415.4,
+                "duration": 299.1,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  8,
+                  21
+                ]
+              },
+              {
+                "distance": 14.9,
+                "duration": 10.7,
+                "type": 1,
+                "instruction": "Turn right onto Edinburgh Circuit",
+                "name": "Edinburgh Circuit",
+                "way_points": [
+                  21,
+                  23
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Edinburgh Circuit, straight ahead",
+                "name": "-",
+                "way_points": [
+                  23,
+                  23
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          23
+        ],
+        "summary": {
+          "distance": 573.5,
+          "duration": 412.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            150.859446,
+            -33.884696
+          ],
+          [
+            150.859345,
+            -33.88474
+          ],
+          [
+            150.858974,
+            -33.88483
+          ],
+          [
+            150.858718,
+            -33.884853
+          ],
+          [
+            150.858471,
+            -33.884852
+          ],
+          [
+            150.858225,
+            -33.884828
+          ],
+          [
+            150.858085,
+            -33.884789
+          ],
+          [
+            150.858047,
+            -33.884877
+          ],
+          [
+            150.858034,
+            -33.884906
+          ],
+          [
+            150.857758,
+            -33.884914
+          ],
+          [
+            150.857636,
+            -33.884855
+          ],
+          [
+            150.857498,
+            -33.884814
+          ],
+          [
+            150.857148,
+            -33.884765
+          ],
+          [
+            150.856514,
+            -33.884596
+          ],
+          [
+            150.856036,
+            -33.884502
+          ],
+          [
+            150.85541,
+            -33.884454
+          ],
+          [
+            150.854984,
+            -33.884469
+          ],
+          [
+            150.854684,
+            -33.884497
+          ],
+          [
+            150.854091,
+            -33.884616
+          ],
+          [
+            150.853879,
+            -33.884675
+          ],
+          [
+            150.853744,
+            -33.884735
+          ],
+          [
+            150.853672,
+            -33.884765
+          ],
+          [
+            150.853649,
+            -33.884719
+          ],
+          [
+            150.853605,
+            -33.884643
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756395912552,
+    "query": {
+      "coordinates": [
+        [
+          150.8594456,
+          -33.8846957
+        ],
+        [
+          150.853605,
+          -33.8846427
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

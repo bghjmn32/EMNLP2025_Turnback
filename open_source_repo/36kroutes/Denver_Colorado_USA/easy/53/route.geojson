@@ -1,0 +1,149 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -105.10966,
+    39.821828,
+    -105.106786,
+    39.823593
+  ],
+  "features": [
+    {
+      "bbox": [
+        -105.10966,
+        39.821828,
+        -105.106786,
+        39.823593
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 539.3,
+            "duration": 388.3,
+            "steps": [
+              {
+                "distance": 196.1,
+                "duration": 141.2,
+                "type": 11,
+                "instruction": "Head north on Iris Street",
+                "name": "Iris Street",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 245.2,
+                "duration": 176.6,
+                "type": 0,
+                "instruction": "Turn left onto West 70th Avenue",
+                "name": "West 70th Avenue",
+                "way_points": [
+                  2,
+                  6
+                ]
+              },
+              {
+                "distance": 98.0,
+                "duration": 70.6,
+                "type": 0,
+                "instruction": "Turn left onto Kipling Street",
+                "name": "Kipling Street",
+                "way_points": [
+                  6,
+                  8
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Kipling Street, straight ahead",
+                "name": "-",
+                "way_points": [
+                  8,
+                  8
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          8
+        ],
+        "summary": {
+          "distance": 539.3,
+          "duration": 388.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -105.106786,
+            39.821828
+          ],
+          [
+            -105.106794,
+            39.822629
+          ],
+          [
+            -105.106788,
+            39.823591
+          ],
+          [
+            -105.107765,
+            39.823593
+          ],
+          [
+            -105.108733,
+            39.823588
+          ],
+          [
+            -105.109086,
+            39.823587
+          ],
+          [
+            -105.10966,
+            39.823588
+          ],
+          [
+            -105.109641,
+            39.822868
+          ],
+          [
+            -105.109592,
+            39.822712
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756304039238,
+    "query": {
+      "coordinates": [
+        [
+          -105.1067857,
+          39.8218278
+        ],
+        [
+          -105.1095921,
+          39.8227118
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

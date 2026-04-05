@@ -1,0 +1,284 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.569282,
+    -22.903352,
+    -43.564399,
+    -22.901489
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.569282,
+        -22.903352,
+        -43.564399,
+        -22.901489
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 684.9,
+            "duration": 493.1,
+            "steps": [
+              {
+                "distance": 27.8,
+                "duration": 20.0,
+                "type": 11,
+                "instruction": "Head east",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 87.2,
+                "duration": 62.8,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  3
+                ]
+              },
+              {
+                "distance": 73.4,
+                "duration": 52.9,
+                "type": 0,
+                "instruction": "Turn left onto Estrada do Campinho",
+                "name": "Estrada do Campinho",
+                "way_points": [
+                  3,
+                  5
+                ]
+              },
+              {
+                "distance": 36.5,
+                "duration": 26.3,
+                "type": 13,
+                "instruction": "Keep right onto Estrada do Campinho",
+                "name": "Estrada do Campinho",
+                "way_points": [
+                  5,
+                  7
+                ]
+              },
+              {
+                "distance": 55.8,
+                "duration": 40.2,
+                "type": 7,
+                "instruction": "Enter the roundabout and take the 1st exit onto Estrada do Campinho",
+                "name": "Estrada do Campinho",
+                "exit_number": 1,
+                "way_points": [
+                  7,
+                  10
+                ]
+              },
+              {
+                "distance": 8.0,
+                "duration": 5.8,
+                "type": 0,
+                "instruction": "Turn left onto Avenida Manuel Caldeira de Alvarenga",
+                "name": "Avenida Manuel Caldeira de Alvarenga",
+                "way_points": [
+                  10,
+                  11
+                ]
+              },
+              {
+                "distance": 18.2,
+                "duration": 13.1,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  11,
+                  13
+                ]
+              },
+              {
+                "distance": 72.7,
+                "duration": 52.3,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  13,
+                  17
+                ]
+              },
+              {
+                "distance": 305.2,
+                "duration": 219.8,
+                "type": 0,
+                "instruction": "Turn left onto Rua Campo Grande",
+                "name": "Rua Campo Grande",
+                "way_points": [
+                  17,
+                  25
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Rua Campo Grande, straight ahead",
+                "name": "-",
+                "way_points": [
+                  25,
+                  25
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          25
+        ],
+        "summary": {
+          "distance": 684.9,
+          "duration": 493.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.569282,
+            -22.901489
+          ],
+          [
+            -43.569014,
+            -22.901523
+          ],
+          [
+            -43.569028,
+            -22.901563
+          ],
+          [
+            -43.569077,
+            -22.902304
+          ],
+          [
+            -43.568509,
+            -22.902331
+          ],
+          [
+            -43.568361,
+            -22.902331
+          ],
+          [
+            -43.568229,
+            -22.902369
+          ],
+          [
+            -43.568031,
+            -22.902453
+          ],
+          [
+            -43.568017,
+            -22.902483
+          ],
+          [
+            -43.568019,
+            -22.902637
+          ],
+          [
+            -43.568085,
+            -22.902946
+          ],
+          [
+            -43.568008,
+            -22.902959
+          ],
+          [
+            -43.568014,
+            -22.903023
+          ],
+          [
+            -43.567967,
+            -22.903112
+          ],
+          [
+            -43.567702,
+            -22.903183
+          ],
+          [
+            -43.567448,
+            -22.903251
+          ],
+          [
+            -43.567389,
+            -22.903279
+          ],
+          [
+            -43.567323,
+            -22.903352
+          ],
+          [
+            -43.567285,
+            -22.903345
+          ],
+          [
+            -43.56685,
+            -22.903266
+          ],
+          [
+            -43.566643,
+            -22.903219
+          ],
+          [
+            -43.566071,
+            -22.903108
+          ],
+          [
+            -43.565591,
+            -22.903058
+          ],
+          [
+            -43.56532,
+            -22.903083
+          ],
+          [
+            -43.56463,
+            -22.902935
+          ],
+          [
+            -43.564399,
+            -22.902891
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756390611573,
+    "query": {
+      "coordinates": [
+        [
+          -43.5692825,
+          -22.9014889
+        ],
+        [
+          -43.5643991,
+          -22.9028906
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.111329,
+    19.257806,
+    -99.107039,
+    19.259691
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.111329,
+        19.257806,
+        -99.107039,
+        19.259691
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 572.5,
+            "duration": 412.2,
+            "steps": [
+              {
+                "distance": 110.8,
+                "duration": 79.8,
+                "type": 11,
+                "instruction": "Head north on Calle Fernando Celada",
+                "name": "Calle Fernando Celada",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 461.7,
+                "duration": 332.4,
+                "type": 0,
+                "instruction": "Turn left onto Calle Justo Sierra",
+                "name": "Calle Justo Sierra",
+                "way_points": [
+                  1,
+                  6
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Justo Sierra, straight ahead",
+                "name": "-",
+                "way_points": [
+                  6,
+                  6
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          6
+        ],
+        "summary": {
+          "distance": 572.5,
+          "duration": 412.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.107257,
+            19.257806
+          ],
+          [
+            -99.107039,
+            19.258781
+          ],
+          [
+            -99.107577,
+            19.25887
+          ],
+          [
+            -99.108752,
+            19.25913
+          ],
+          [
+            -99.109588,
+            19.259313
+          ],
+          [
+            -99.110408,
+            19.259492
+          ],
+          [
+            -99.111329,
+            19.259691
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756305886202,
+    "query": {
+      "coordinates": [
+        [
+          -99.1072567,
+          19.2578055
+        ],
+        [
+          -99.1113292,
+          19.2596907
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.39979,
+    -22.82478,
+    -43.394649,
+    -22.823035
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.39979,
+        -22.82478,
+        -43.394649,
+        -22.823035
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 728.2,
+            "duration": 524.3,
+            "steps": [
+              {
+                "distance": 21.4,
+                "duration": 15.4,
+                "type": 11,
+                "instruction": "Head south on Rua Oliveira Bueno",
+                "name": "Rua Oliveira Bueno",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 197.9,
+                "duration": 142.5,
+                "type": 1,
+                "instruction": "Turn right onto Rua Paulo de Aquino",
+                "name": "Rua Paulo de Aquino",
+                "way_points": [
+                  1,
+                  4
+                ]
+              },
+              {
+                "distance": 49.9,
+                "duration": 35.9,
+                "type": 13,
+                "instruction": "Keep right",
+                "name": "-",
+                "way_points": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "distance": 66.4,
+                "duration": 47.8,
+                "type": 1,
+                "instruction": "Turn right onto Rua Faustino Lins",
+                "name": "Rua Faustino Lins",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 279.5,
+                "duration": 201.2,
+                "type": 2,
+                "instruction": "Turn sharp left onto Rua Tomas Edison",
+                "name": "Rua Tomas Edison",
+                "way_points": [
+                  6,
+                  9
+                ]
+              },
+              {
+                "distance": 113.0,
+                "duration": 81.4,
+                "type": 3,
+                "instruction": "Turn sharp right onto Rua Cumata",
+                "name": "Rua Cumata",
+                "way_points": [
+                  9,
+                  11
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Rua Cumata, straight ahead",
+                "name": "-",
+                "way_points": [
+                  11,
+                  11
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          11
+        ],
+        "summary": {
+          "distance": 728.2,
+          "duration": 524.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.39466,
+            -22.823035
+          ],
+          [
+            -43.394649,
+            -22.823227
+          ],
+          [
+            -43.395578,
+            -22.823438
+          ],
+          [
+            -43.396464,
+            -22.823694
+          ],
+          [
+            -43.396495,
+            -22.823725
+          ],
+          [
+            -43.396954,
+            -22.823876
+          ],
+          [
+            -43.397106,
+            -22.823295
+          ],
+          [
+            -43.398112,
+            -22.823849
+          ],
+          [
+            -43.398634,
+            -22.824243
+          ],
+          [
+            -43.399295,
+            -22.82478
+          ],
+          [
+            -43.399608,
+            -22.824191
+          ],
+          [
+            -43.39979,
+            -22.823872
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756393583507,
+    "query": {
+      "coordinates": [
+        [
+          -43.3946602,
+          -22.8230349
+        ],
+        [
+          -43.3997903,
+          -22.8238717
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

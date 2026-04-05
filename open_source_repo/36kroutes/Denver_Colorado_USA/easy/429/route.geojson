@@ -1,0 +1,269 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -104.984499,
+    39.792945,
+    -104.977699,
+    39.798449
+  ],
+  "features": [
+    {
+      "bbox": [
+        -104.984499,
+        39.792945,
+        -104.977699,
+        39.798449
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1209.5,
+            "duration": 870.8,
+            "steps": [
+              {
+                "distance": 48.6,
+                "duration": 35.0,
+                "type": 11,
+                "instruction": "Head west",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 399.2,
+                "duration": 287.4,
+                "type": 1,
+                "instruction": "Turn right onto Washington Street",
+                "name": "Washington Street",
+                "way_points": [
+                  1,
+                  5
+                ]
+              },
+              {
+                "distance": 285.5,
+                "duration": 205.6,
+                "type": 0,
+                "instruction": "Turn left onto East 55th Avenue",
+                "name": "East 55th Avenue",
+                "way_points": [
+                  5,
+                  12
+                ]
+              },
+              {
+                "distance": 201.9,
+                "duration": 145.4,
+                "type": 1,
+                "instruction": "Turn right onto Logan Street",
+                "name": "Logan Street",
+                "way_points": [
+                  12,
+                  16
+                ]
+              },
+              {
+                "distance": 114.5,
+                "duration": 82.4,
+                "type": 0,
+                "instruction": "Turn left onto East 56th Avenue",
+                "name": "East 56th Avenue",
+                "way_points": [
+                  16,
+                  21
+                ]
+              },
+              {
+                "distance": 81.0,
+                "duration": 58.3,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  21,
+                  24
+                ]
+              },
+              {
+                "distance": 78.8,
+                "duration": 56.8,
+                "type": 1,
+                "instruction": "Turn right onto East 56th Avenue",
+                "name": "East 56th Avenue",
+                "way_points": [
+                  24,
+                  27
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at East 56th Avenue, straight ahead",
+                "name": "-",
+                "way_points": [
+                  27,
+                  27
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          27
+        ],
+        "summary": {
+          "distance": 1209.5,
+          "duration": 870.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -104.977699,
+            39.792945
+          ],
+          [
+            -104.978267,
+            39.792951
+          ],
+          [
+            -104.978265,
+            39.793172
+          ],
+          [
+            -104.978242,
+            39.795642
+          ],
+          [
+            -104.978245,
+            39.796275
+          ],
+          [
+            -104.978246,
+            39.796541
+          ],
+          [
+            -104.978361,
+            39.79654
+          ],
+          [
+            -104.978845,
+            39.796535
+          ],
+          [
+            -104.979364,
+            39.79653
+          ],
+          [
+            -104.980093,
+            39.796522
+          ],
+          [
+            -104.980504,
+            39.796518
+          ],
+          [
+            -104.981425,
+            39.796508
+          ],
+          [
+            -104.981587,
+            39.796507
+          ],
+          [
+            -104.981638,
+            39.797113
+          ],
+          [
+            -104.981639,
+            39.797401
+          ],
+          [
+            -104.981641,
+            39.797788
+          ],
+          [
+            -104.981643,
+            39.798321
+          ],
+          [
+            -104.982055,
+            39.798317
+          ],
+          [
+            -104.982506,
+            39.798314
+          ],
+          [
+            -104.982788,
+            39.798311
+          ],
+          [
+            -104.982858,
+            39.798311
+          ],
+          [
+            -104.982983,
+            39.798309
+          ],
+          [
+            -104.982991,
+            39.798449
+          ],
+          [
+            -104.983579,
+            39.798441
+          ],
+          [
+            -104.983576,
+            39.798304
+          ],
+          [
+            -104.983833,
+            39.798302
+          ],
+          [
+            -104.983924,
+            39.798301
+          ],
+          [
+            -104.984499,
+            39.798296
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756305738780,
+    "query": {
+      "coordinates": [
+        [
+          -104.977699,
+          39.792945
+        ],
+        [
+          -104.9844986,
+          39.7982963
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,268 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.08577,
+    19.409117,
+    -99.078434,
+    19.412601
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.08577,
+        19.409117,
+        -99.078434,
+        19.412601
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1150.5,
+            "duration": 828.3,
+            "steps": [
+              {
+                "distance": 12.2,
+                "duration": 8.8,
+                "type": 11,
+                "instruction": "Head northeast",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 169.1,
+                "duration": 121.8,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  3
+                ]
+              },
+              {
+                "distance": 110.2,
+                "duration": 79.3,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  3,
+                  6
+                ]
+              },
+              {
+                "distance": 107.6,
+                "duration": 77.4,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 51.2,
+                "duration": 36.9,
+                "type": 6,
+                "instruction": "Continue straight onto Avenida 6",
+                "name": "Avenida 6",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 102.2,
+                "duration": 73.6,
+                "type": 0,
+                "instruction": "Turn left onto Calle 71",
+                "name": "Calle 71",
+                "way_points": [
+                  8,
+                  9
+                ]
+              },
+              {
+                "distance": 162.3,
+                "duration": 116.8,
+                "type": 1,
+                "instruction": "Turn right onto Avenida 4",
+                "name": "Avenida 4",
+                "way_points": [
+                  9,
+                  14
+                ]
+              },
+              {
+                "distance": 435.7,
+                "duration": 313.7,
+                "type": 0,
+                "instruction": "Turn left onto Calle 77",
+                "name": "Calle 77",
+                "way_points": [
+                  14,
+                  24
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle 77, straight ahead",
+                "name": "-",
+                "way_points": [
+                  24,
+                  24
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          24
+        ],
+        "summary": {
+          "distance": 1150.5,
+          "duration": 828.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.08577,
+            19.409826
+          ],
+          [
+            -99.085708,
+            19.409919
+          ],
+          [
+            -99.084752,
+            19.409377
+          ],
+          [
+            -99.084338,
+            19.409117
+          ],
+          [
+            -99.084292,
+            19.409164
+          ],
+          [
+            -99.083939,
+            19.409696
+          ],
+          [
+            -99.083777,
+            19.409954
+          ],
+          [
+            -99.082888,
+            19.409473
+          ],
+          [
+            -99.08247,
+            19.409234
+          ],
+          [
+            -99.081958,
+            19.410016
+          ],
+          [
+            -99.081588,
+            19.409804
+          ],
+          [
+            -99.081516,
+            19.409762
+          ],
+          [
+            -99.081467,
+            19.409733
+          ],
+          [
+            -99.081083,
+            19.409514
+          ],
+          [
+            -99.080622,
+            19.40928
+          ],
+          [
+            -99.080215,
+            19.409908
+          ],
+          [
+            -99.080128,
+            19.410043
+          ],
+          [
+            -99.080096,
+            19.410091
+          ],
+          [
+            -99.080007,
+            19.410154
+          ],
+          [
+            -99.079918,
+            19.41029
+          ],
+          [
+            -99.079774,
+            19.41052
+          ],
+          [
+            -99.079708,
+            19.410625
+          ],
+          [
+            -99.079637,
+            19.410734
+          ],
+          [
+            -99.079051,
+            19.411638
+          ],
+          [
+            -99.078434,
+            19.412601
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756307808327,
+    "query": {
+      "coordinates": [
+        [
+          -99.0857702,
+          19.4098261
+        ],
+        [
+          -99.0784339,
+          19.412601
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

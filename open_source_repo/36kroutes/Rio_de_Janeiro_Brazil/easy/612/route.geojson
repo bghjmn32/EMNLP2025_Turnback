@@ -1,0 +1,172 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.329854,
+    -22.988685,
+    -43.32447,
+    -22.986125
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.329854,
+        -22.988685,
+        -43.32447,
+        -22.986125
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 676.1,
+            "duration": 486.8,
+            "steps": [
+              {
+                "distance": 11.0,
+                "duration": 8.0,
+                "type": 11,
+                "instruction": "Head north on Condominio Jardim Europa 705",
+                "name": "Condominio Jardim Europa 705",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 396.4,
+                "duration": 285.4,
+                "type": 0,
+                "instruction": "Turn left onto Avenida Engenheiro Souza Filho",
+                "name": "Avenida Engenheiro Souza Filho",
+                "way_points": [
+                  1,
+                  4
+                ]
+              },
+              {
+                "distance": 10.3,
+                "duration": 7.4,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "distance": 258.4,
+                "duration": 186.0,
+                "type": 0,
+                "instruction": "Turn left onto Estrada de Jacarepaguá",
+                "name": "Estrada de Jacarepaguá",
+                "way_points": [
+                  5,
+                  11
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Estrada de Jacarepaguá, straight ahead",
+                "name": "-",
+                "way_points": [
+                  11,
+                  11
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          11
+        ],
+        "summary": {
+          "distance": 676.1,
+          "duration": 486.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.324496,
+            -22.988685
+          ],
+          [
+            -43.32447,
+            -22.988589
+          ],
+          [
+            -43.327838,
+            -22.988086
+          ],
+          [
+            -43.328038,
+            -22.988039
+          ],
+          [
+            -43.328276,
+            -22.987958
+          ],
+          [
+            -43.328234,
+            -22.987874
+          ],
+          [
+            -43.328365,
+            -22.987806
+          ],
+          [
+            -43.328595,
+            -22.987639
+          ],
+          [
+            -43.328785,
+            -22.987461
+          ],
+          [
+            -43.329251,
+            -22.986984
+          ],
+          [
+            -43.329757,
+            -22.986303
+          ],
+          [
+            -43.329854,
+            -22.986125
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756393394978,
+    "query": {
+      "coordinates": [
+        [
+          -43.3244962,
+          -22.9886851
+        ],
+        [
+          -43.3298544,
+          -22.9861254
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

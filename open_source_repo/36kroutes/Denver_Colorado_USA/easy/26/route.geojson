@@ -1,0 +1,210 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -104.850874,
+    39.898708,
+    -104.843476,
+    39.903663
+  ],
+  "features": [
+    {
+      "bbox": [
+        -104.850874,
+        39.898708,
+        -104.843476,
+        39.903663
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1484.6,
+            "duration": 1068.9,
+            "steps": [
+              {
+                "distance": 44.7,
+                "duration": 32.2,
+                "type": 11,
+                "instruction": "Head west",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 261.4,
+                "duration": 188.2,
+                "type": 1,
+                "instruction": "Turn right onto Oakland Street",
+                "name": "Oakland Street",
+                "way_points": [
+                  1,
+                  3
+                ]
+              },
+              {
+                "distance": 6.9,
+                "duration": 4.9,
+                "type": 1,
+                "instruction": "Turn right onto East 113th Avenue",
+                "name": "East 113th Avenue",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 781.8,
+                "duration": 562.9,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  4,
+                  13
+                ]
+              },
+              {
+                "distance": 117.3,
+                "duration": 84.4,
+                "type": 0,
+                "instruction": "Turn left onto Peoria Street",
+                "name": "Peoria Street",
+                "way_points": [
+                  13,
+                  14
+                ]
+              },
+              {
+                "distance": 272.6,
+                "duration": 196.3,
+                "type": 1,
+                "instruction": "Turn right onto East 114th Avenue",
+                "name": "East 114th Avenue",
+                "way_points": [
+                  14,
+                  15
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at East 114th Avenue, straight ahead",
+                "name": "-",
+                "way_points": [
+                  15,
+                  15
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          15
+        ],
+        "summary": {
+          "distance": 1484.6,
+          "duration": 1068.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -104.85033,
+            39.898708
+          ],
+          [
+            -104.850855,
+            39.89871
+          ],
+          [
+            -104.850859,
+            39.899755
+          ],
+          [
+            -104.850874,
+            39.90106
+          ],
+          [
+            -104.850793,
+            39.901062
+          ],
+          [
+            -104.850791,
+            39.900969
+          ],
+          [
+            -104.850753,
+            39.900862
+          ],
+          [
+            -104.850807,
+            39.900395
+          ],
+          [
+            -104.850769,
+            39.900169
+          ],
+          [
+            -104.850785,
+            39.899887
+          ],
+          [
+            -104.846834,
+            39.89987
+          ],
+          [
+            -104.846791,
+            39.89994
+          ],
+          [
+            -104.846815,
+            39.902562
+          ],
+          [
+            -104.846673,
+            39.902605
+          ],
+          [
+            -104.846671,
+            39.903659
+          ],
+          [
+            -104.843476,
+            39.903663
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756303936341,
+    "query": {
+      "coordinates": [
+        [
+          -104.8503305,
+          39.8987077
+        ],
+        [
+          -104.843476,
+          39.903663
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

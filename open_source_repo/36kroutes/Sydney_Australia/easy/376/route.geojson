@@ -1,0 +1,255 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    151.285095,
+    -33.683048,
+    151.287924,
+    -33.678225
+  ],
+  "features": [
+    {
+      "bbox": [
+        151.285095,
+        -33.683048,
+        151.287924,
+        -33.678225
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 908.5,
+            "duration": 654.1,
+            "steps": [
+              {
+                "distance": 206.6,
+                "duration": 148.8,
+                "type": 11,
+                "instruction": "Head southwest on Jubilee Avenue",
+                "name": "Jubilee Avenue",
+                "way_points": [
+                  0,
+                  5
+                ]
+              },
+              {
+                "distance": 293.7,
+                "duration": 211.5,
+                "type": 0,
+                "instruction": "Turn left onto Narrabeen Creek Path",
+                "name": "Narrabeen Creek Path",
+                "way_points": [
+                  5,
+                  9
+                ]
+              },
+              {
+                "distance": 28.8,
+                "duration": 20.7,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  9,
+                  12
+                ]
+              },
+              {
+                "distance": 144.9,
+                "duration": 104.3,
+                "type": 6,
+                "instruction": "Continue straight",
+                "name": "-",
+                "way_points": [
+                  12,
+                  19
+                ]
+              },
+              {
+                "distance": 161.2,
+                "duration": 116.1,
+                "type": 1,
+                "instruction": "Turn right onto Forest Road",
+                "name": "Forest Road",
+                "way_points": [
+                  19,
+                  21
+                ]
+              },
+              {
+                "distance": 73.4,
+                "duration": 52.8,
+                "type": 7,
+                "instruction": "Enter the roundabout and take the 2nd exit onto Forest Road",
+                "name": "Forest Road",
+                "exit_number": 2,
+                "way_points": [
+                  21,
+                  26
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Forest Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  26,
+                  26
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          26
+        ],
+        "summary": {
+          "distance": 908.5,
+          "duration": 654.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            151.285805,
+            -33.678225
+          ],
+          [
+            151.28576,
+            -33.678297
+          ],
+          [
+            151.285653,
+            -33.678911
+          ],
+          [
+            151.285611,
+            -33.679154
+          ],
+          [
+            151.285516,
+            -33.679318
+          ],
+          [
+            151.285376,
+            -33.680037
+          ],
+          [
+            151.285895,
+            -33.680133
+          ],
+          [
+            151.28649,
+            -33.680508
+          ],
+          [
+            151.28679,
+            -33.680741
+          ],
+          [
+            151.287924,
+            -33.68154
+          ],
+          [
+            151.287896,
+            -33.681646
+          ],
+          [
+            151.287885,
+            -33.681756
+          ],
+          [
+            151.287882,
+            -33.681796
+          ],
+          [
+            151.28786,
+            -33.681961
+          ],
+          [
+            151.287815,
+            -33.682114
+          ],
+          [
+            151.287669,
+            -33.682841
+          ],
+          [
+            151.287634,
+            -33.68291
+          ],
+          [
+            151.287556,
+            -33.682968
+          ],
+          [
+            151.287555,
+            -33.682986
+          ],
+          [
+            151.287558,
+            -33.683048
+          ],
+          [
+            151.287283,
+            -33.683031
+          ],
+          [
+            151.285836,
+            -33.682833
+          ],
+          [
+            151.285795,
+            -33.682786
+          ],
+          [
+            151.285747,
+            -33.682791
+          ],
+          [
+            151.28572,
+            -33.682824
+          ],
+          [
+            151.285456,
+            -33.68281
+          ],
+          [
+            151.285095,
+            -33.682836
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756392328880,
+    "query": {
+      "coordinates": [
+        [
+          151.2858045,
+          -33.6782247
+        ],
+        [
+          151.2850947,
+          -33.6828359
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

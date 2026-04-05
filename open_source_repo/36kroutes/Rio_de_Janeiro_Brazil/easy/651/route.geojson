@@ -1,0 +1,203 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.398293,
+    -22.823035,
+    -43.39466,
+    -22.816627
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.398293,
+        -22.823035,
+        -43.39466,
+        -22.816627
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 838.3,
+            "duration": 603.6,
+            "steps": [
+              {
+                "distance": 344.3,
+                "duration": 247.9,
+                "type": 11,
+                "instruction": "Head north on Rua Oliveira Bueno",
+                "name": "Rua Oliveira Bueno",
+                "way_points": [
+                  0,
+                  7
+                ]
+              },
+              {
+                "distance": 6.0,
+                "duration": 4.3,
+                "type": 1,
+                "instruction": "Turn right onto Avenida Chrisóstomo Pimentel Oliveira",
+                "name": "Avenida Chrisóstomo Pimentel Oliveira",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 9.1,
+                "duration": 6.5,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  8,
+                  11
+                ]
+              },
+              {
+                "distance": 17.6,
+                "duration": 12.7,
+                "type": 0,
+                "instruction": "Turn left onto Avenida Chrisóstomo Pimentel Oliveira",
+                "name": "Avenida Chrisóstomo Pimentel Oliveira",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 461.3,
+                "duration": 332.1,
+                "type": 1,
+                "instruction": "Turn right onto Rua Oliveira Bueno",
+                "name": "Rua Oliveira Bueno",
+                "way_points": [
+                  12,
+                  16
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Rua Oliveira Bueno, straight ahead",
+                "name": "-",
+                "way_points": [
+                  16,
+                  16
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          16
+        ],
+        "summary": {
+          "distance": 838.3,
+          "duration": 603.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.39466,
+            -22.823035
+          ],
+          [
+            -43.394678,
+            -22.822837
+          ],
+          [
+            -43.394713,
+            -22.822349
+          ],
+          [
+            -43.394794,
+            -22.822101
+          ],
+          [
+            -43.39499,
+            -22.821647
+          ],
+          [
+            -43.395166,
+            -22.821336
+          ],
+          [
+            -43.395289,
+            -22.821161
+          ],
+          [
+            -43.395928,
+            -22.82023
+          ],
+          [
+            -43.395884,
+            -22.820195
+          ],
+          [
+            -43.395908,
+            -22.820168
+          ],
+          [
+            -43.395921,
+            -22.820154
+          ],
+          [
+            -43.39594,
+            -22.820132
+          ],
+          [
+            -43.396072,
+            -22.820234
+          ],
+          [
+            -43.396559,
+            -22.819488
+          ],
+          [
+            -43.396614,
+            -22.819391
+          ],
+          [
+            -43.397352,
+            -22.818189
+          ],
+          [
+            -43.398293,
+            -22.816627
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756393584552,
+    "query": {
+      "coordinates": [
+        [
+          -43.3946602,
+          -22.8230349
+        ],
+        [
+          -43.3982934,
+          -22.8166268
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

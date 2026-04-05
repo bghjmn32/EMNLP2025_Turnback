@@ -1,0 +1,138 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -104.81275,
+    39.878164,
+    -104.811301,
+    39.882784
+  ],
+  "features": [
+    {
+      "bbox": [
+        -104.81275,
+        39.878164,
+        -104.811301,
+        39.882784
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 604.9,
+            "duration": 435.5,
+            "steps": [
+              {
+                "distance": 207.0,
+                "duration": 149.1,
+                "type": 11,
+                "instruction": "Head west",
+                "name": "-",
+                "way_points": [
+                  0,
+                  4
+                ]
+              },
+              {
+                "distance": 397.9,
+                "duration": 286.5,
+                "type": 6,
+                "instruction": "Continue straight onto Fairplay Street",
+                "name": "Fairplay Street",
+                "way_points": [
+                  4,
+                  8
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Fairplay Street, straight ahead",
+                "name": "-",
+                "way_points": [
+                  8,
+                  8
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          8
+        ],
+        "summary": {
+          "distance": 604.9,
+          "duration": 435.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -104.811301,
+            39.882784
+          ],
+          [
+            -104.812376,
+            39.882721
+          ],
+          [
+            -104.812436,
+            39.882693
+          ],
+          [
+            -104.812519,
+            39.882599
+          ],
+          [
+            -104.812692,
+            39.881742
+          ],
+          [
+            -104.81271,
+            39.880538
+          ],
+          [
+            -104.812718,
+            39.880002
+          ],
+          [
+            -104.812726,
+            39.87941
+          ],
+          [
+            -104.81275,
+            39.878164
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306886385,
+    "query": {
+      "coordinates": [
+        [
+          -104.8113012,
+          39.8827835
+        ],
+        [
+          -104.8127503,
+          39.8781642
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

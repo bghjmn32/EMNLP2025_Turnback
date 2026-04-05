@@ -1,0 +1,233 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.098053,
+    19.397991,
+    -99.092926,
+    19.405513
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.098053,
+        19.397991,
+        -99.092926,
+        19.405513
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1296.7,
+            "duration": 933.6,
+            "steps": [
+              {
+                "distance": 50.3,
+                "duration": 36.2,
+                "type": 11,
+                "instruction": "Head south",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 147.5,
+                "duration": 106.2,
+                "type": 1,
+                "instruction": "Turn right onto Calle Cafetal",
+                "name": "Calle Cafetal",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 33.6,
+                "duration": 24.2,
+                "type": 0,
+                "instruction": "Turn left onto Calle Resina",
+                "name": "Calle Resina",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 104.4,
+                "duration": 75.2,
+                "type": 1,
+                "instruction": "Turn right onto Calle Vainilla",
+                "name": "Calle Vainilla",
+                "way_points": [
+                  3,
+                  5
+                ]
+              },
+              {
+                "distance": 318.1,
+                "duration": 229.0,
+                "type": 6,
+                "instruction": "Continue straight onto Calle Vainilla",
+                "name": "Calle Vainilla",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 621.8,
+                "duration": 447.7,
+                "type": 1,
+                "instruction": "Turn right onto Avenida Río Churubusco",
+                "name": "Avenida Río Churubusco",
+                "way_points": [
+                  6,
+                  16
+                ]
+              },
+              {
+                "distance": 21.1,
+                "duration": 15.2,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  16,
+                  18
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  18,
+                  18
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          18
+        ],
+        "summary": {
+          "distance": 1296.7,
+          "duration": 933.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.092926,
+            19.398531
+          ],
+          [
+            -99.092992,
+            19.398083
+          ],
+          [
+            -99.094386,
+            19.398264
+          ],
+          [
+            -99.094523,
+            19.397991
+          ],
+          [
+            -99.094628,
+            19.398042
+          ],
+          [
+            -99.095405,
+            19.398426
+          ],
+          [
+            -99.098053,
+            19.39982
+          ],
+          [
+            -99.097968,
+            19.400428
+          ],
+          [
+            -99.097922,
+            19.400751
+          ],
+          [
+            -99.097796,
+            19.401648
+          ],
+          [
+            -99.097781,
+            19.401755
+          ],
+          [
+            -99.097659,
+            19.402616
+          ],
+          [
+            -99.097638,
+            19.40277
+          ],
+          [
+            -99.097621,
+            19.40289
+          ],
+          [
+            -99.097559,
+            19.403331
+          ],
+          [
+            -99.097332,
+            19.404996
+          ],
+          [
+            -99.097283,
+            19.405364
+          ],
+          [
+            -99.097246,
+            19.40536
+          ],
+          [
+            -99.097225,
+            19.405513
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756310630202,
+    "query": {
+      "coordinates": [
+        [
+          -99.0929259,
+          19.3985308
+        ],
+        [
+          -99.0972253,
+          19.4055133
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

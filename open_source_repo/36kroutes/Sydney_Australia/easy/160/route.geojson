@@ -1,0 +1,232 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    151.070788,
+    -34.035794,
+    151.076716,
+    -34.033838
+  ],
+  "features": [
+    {
+      "bbox": [
+        151.070788,
+        -34.035794,
+        151.076716,
+        -34.033838
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 758.8,
+            "duration": 546.3,
+            "steps": [
+              {
+                "distance": 8.4,
+                "duration": 6.1,
+                "type": 11,
+                "instruction": "Head east on President Avenue",
+                "name": "President Avenue",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 220.9,
+                "duration": 159.1,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  11
+                ]
+              },
+              {
+                "distance": 460.5,
+                "duration": 331.6,
+                "type": 1,
+                "instruction": "Turn right onto Flora Street",
+                "name": "Flora Street",
+                "way_points": [
+                  11,
+                  25
+                ]
+              },
+              {
+                "distance": 69.0,
+                "duration": 49.6,
+                "type": 1,
+                "instruction": "Turn right onto Clements Road",
+                "name": "Clements Road",
+                "way_points": [
+                  25,
+                  26
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Clements Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  26,
+                  26
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          26
+        ],
+        "summary": {
+          "distance": 758.8,
+          "duration": 546.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            151.070788,
+            -34.035781
+          ],
+          [
+            151.070879,
+            -34.035794
+          ],
+          [
+            151.070896,
+            -34.035705
+          ],
+          [
+            151.070909,
+            -34.03564
+          ],
+          [
+            151.070964,
+            -34.035249
+          ],
+          [
+            151.070966,
+            -34.035181
+          ],
+          [
+            151.071017,
+            -34.034925
+          ],
+          [
+            151.071025,
+            -34.034904
+          ],
+          [
+            151.071034,
+            -34.03488
+          ],
+          [
+            151.071072,
+            -34.034777
+          ],
+          [
+            151.071114,
+            -34.034674
+          ],
+          [
+            151.071304,
+            -34.033843
+          ],
+          [
+            151.071343,
+            -34.033838
+          ],
+          [
+            151.071721,
+            -34.033895
+          ],
+          [
+            151.072101,
+            -34.033948
+          ],
+          [
+            151.072209,
+            -34.033963
+          ],
+          [
+            151.072334,
+            -34.033981
+          ],
+          [
+            151.072622,
+            -34.034023
+          ],
+          [
+            151.072828,
+            -34.03405
+          ],
+          [
+            151.073198,
+            -34.034105
+          ],
+          [
+            151.075651,
+            -34.034463
+          ],
+          [
+            151.075703,
+            -34.034468
+          ],
+          [
+            151.075756,
+            -34.034466
+          ],
+          [
+            151.075829,
+            -34.03444
+          ],
+          [
+            151.075946,
+            -34.034295
+          ],
+          [
+            151.075979,
+            -34.03414
+          ],
+          [
+            151.076716,
+            -34.034247
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756390843827,
+    "query": {
+      "coordinates": [
+        [
+          151.0707884,
+          -34.0357806
+        ],
+        [
+          151.0767164,
+          -34.0342472
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

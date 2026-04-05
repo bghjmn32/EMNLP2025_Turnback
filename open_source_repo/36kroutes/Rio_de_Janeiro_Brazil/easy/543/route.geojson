@@ -1,0 +1,172 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.313847,
+    -23.014373,
+    -43.309338,
+    -23.013156
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.313847,
+        -23.014373,
+        -43.309338,
+        -23.013156
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 594.3,
+            "duration": 427.9,
+            "steps": [
+              {
+                "distance": 18.9,
+                "duration": 13.6,
+                "type": 11,
+                "instruction": "Head east on Avenida Lúcio Costa",
+                "name": "Avenida Lúcio Costa",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 207.2,
+                "duration": 149.2,
+                "type": 13,
+                "instruction": "Keep right onto Avenida do Pepê",
+                "name": "Avenida do Pepê",
+                "way_points": [
+                  2,
+                  5
+                ]
+              },
+              {
+                "distance": 138.8,
+                "duration": 99.9,
+                "type": 0,
+                "instruction": "Turn left onto Rua Noel Nutels",
+                "name": "Rua Noel Nutels",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 229.4,
+                "duration": 165.2,
+                "type": 3,
+                "instruction": "Turn sharp right onto Avenida Comandante Júlio de Moura",
+                "name": "Avenida Comandante Júlio de Moura",
+                "way_points": [
+                  6,
+                  11
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Avenida Comandante Júlio de Moura, straight ahead",
+                "name": "-",
+                "way_points": [
+                  11,
+                  11
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          11
+        ],
+        "summary": {
+          "distance": 594.3,
+          "duration": 427.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.313847,
+            -23.01401
+          ],
+          [
+            -43.313765,
+            -23.014026
+          ],
+          [
+            -43.313665,
+            -23.014042
+          ],
+          [
+            -43.313131,
+            -23.014099
+          ],
+          [
+            -43.312393,
+            -23.014221
+          ],
+          [
+            -43.311675,
+            -23.014373
+          ],
+          [
+            -43.311372,
+            -23.013156
+          ],
+          [
+            -43.311159,
+            -23.013367
+          ],
+          [
+            -43.310804,
+            -23.013585
+          ],
+          [
+            -43.310553,
+            -23.013661
+          ],
+          [
+            -43.309757,
+            -23.01382
+          ],
+          [
+            -43.309338,
+            -23.013879
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756393099900,
+    "query": {
+      "coordinates": [
+        [
+          -43.313847,
+          -23.0140098
+        ],
+        [
+          -43.3093385,
+          -23.0138792
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

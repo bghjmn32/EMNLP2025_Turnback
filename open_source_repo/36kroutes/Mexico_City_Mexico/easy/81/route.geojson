@@ -1,0 +1,179 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.100496,
+    19.330634,
+    -99.097255,
+    19.331437
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.100496,
+        19.330634,
+        -99.097255,
+        19.331437
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 501.8,
+            "duration": 361.3,
+            "steps": [
+              {
+                "distance": 26.4,
+                "duration": 19.0,
+                "type": 11,
+                "instruction": "Head south on Calle Progreso",
+                "name": "Calle Progreso",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 229.7,
+                "duration": 165.4,
+                "type": 1,
+                "instruction": "Turn right onto Calle Denis Papín",
+                "name": "Calle Denis Papín",
+                "way_points": [
+                  1,
+                  5
+                ]
+              },
+              {
+                "distance": 94.6,
+                "duration": 68.1,
+                "type": 0,
+                "instruction": "Turn left onto Calle Los Pirules",
+                "name": "Calle Los Pirules",
+                "way_points": [
+                  5,
+                  7
+                ]
+              },
+              {
+                "distance": 95.0,
+                "duration": 68.4,
+                "type": 1,
+                "instruction": "Turn right onto Calle 16 de Septiembre",
+                "name": "Calle 16 de Septiembre",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 56.1,
+                "duration": 40.4,
+                "type": 1,
+                "instruction": "Turn right onto Calle 5 de Mayo",
+                "name": "Calle 5 de Mayo",
+                "way_points": [
+                  8,
+                  10
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle 5 de Mayo, straight ahead",
+                "name": "-",
+                "way_points": [
+                  10,
+                  10
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          10
+        ],
+        "summary": {
+          "distance": 501.8,
+          "duration": 361.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.097255,
+            19.330877
+          ],
+          [
+            -99.097322,
+            19.330648
+          ],
+          [
+            -99.097781,
+            19.330818
+          ],
+          [
+            -99.098479,
+            19.331092
+          ],
+          [
+            -99.099108,
+            19.331342
+          ],
+          [
+            -99.099346,
+            19.331437
+          ],
+          [
+            -99.099492,
+            19.330984
+          ],
+          [
+            -99.099639,
+            19.330634
+          ],
+          [
+            -99.100496,
+            19.330911
+          ],
+          [
+            -99.100378,
+            19.331237
+          ],
+          [
+            -99.100322,
+            19.331387
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756304385850,
+    "query": {
+      "coordinates": [
+        [
+          -99.097255,
+          19.3308767
+        ],
+        [
+          -99.1003218,
+          19.3313869
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

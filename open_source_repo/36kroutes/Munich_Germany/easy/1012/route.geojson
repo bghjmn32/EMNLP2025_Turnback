@@ -1,0 +1,154 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    11.5537,
+    48.178612,
+    11.556602,
+    48.182851
+  ],
+  "features": [
+    {
+      "bbox": [
+        11.5537,
+        48.178612,
+        11.556602,
+        48.182851
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 524.3,
+            "duration": 377.5,
+            "steps": [
+              {
+                "distance": 515.4,
+                "duration": 371.1,
+                "type": 11,
+                "instruction": "Head northwest on Lerchenauer Straße",
+                "name": "Lerchenauer Straße",
+                "way_points": [
+                  0,
+                  11
+                ]
+              },
+              {
+                "distance": 8.9,
+                "duration": 6.4,
+                "type": 3,
+                "instruction": "Turn sharp right",
+                "name": "-",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  12,
+                  12
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          12
+        ],
+        "summary": {
+          "distance": 524.3,
+          "duration": 377.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            11.556602,
+            48.178612
+          ],
+          [
+            11.555754,
+            48.179875
+          ],
+          [
+            11.555464,
+            48.1803
+          ],
+          [
+            11.555237,
+            48.180624
+          ],
+          [
+            11.555201,
+            48.180676
+          ],
+          [
+            11.555122,
+            48.180771
+          ],
+          [
+            11.554284,
+            48.181997
+          ],
+          [
+            11.554264,
+            48.182026
+          ],
+          [
+            11.554159,
+            48.182185
+          ],
+          [
+            11.553981,
+            48.182463
+          ],
+          [
+            11.55377,
+            48.182769
+          ],
+          [
+            11.5537,
+            48.18282
+          ],
+          [
+            11.55381,
+            48.182851
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756140015665,
+    "query": {
+      "coordinates": [
+        [
+          11.5566015,
+          48.1786122
+        ],
+        [
+          11.5538097,
+          48.1828508
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

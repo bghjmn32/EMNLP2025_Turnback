@@ -1,0 +1,194 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.22833,
+    19.407624,
+    -99.222231,
+    19.414594
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.22833,
+        19.407624,
+        -99.222231,
+        19.414594
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1127.0,
+            "duration": 811.4,
+            "steps": [
+              {
+                "distance": 347.2,
+                "duration": 250.0,
+                "type": 11,
+                "instruction": "Head northeast on Calle Sierra Grande",
+                "name": "Calle Sierra Grande",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 139.9,
+                "duration": 100.7,
+                "type": 6,
+                "instruction": "Continue straight onto Calle Sierra Grande",
+                "name": "Calle Sierra Grande",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 38.6,
+                "duration": 27.8,
+                "type": 6,
+                "instruction": "Continue straight onto Calle Sierra Grande",
+                "name": "Calle Sierra Grande",
+                "way_points": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "distance": 108.5,
+                "duration": 78.1,
+                "type": 1,
+                "instruction": "Turn right onto Calle Montes Apalaches",
+                "name": "Calle Montes Apalaches",
+                "way_points": [
+                  5,
+                  8
+                ]
+              },
+              {
+                "distance": 282.9,
+                "duration": 203.7,
+                "type": 0,
+                "instruction": "Turn left onto Avenida de los Alpes",
+                "name": "Avenida de los Alpes",
+                "way_points": [
+                  8,
+                  9
+                ]
+              },
+              {
+                "distance": 210.0,
+                "duration": 151.2,
+                "type": 12,
+                "instruction": "Keep left onto Calle Montañas Rocallosas Oriente",
+                "name": "Calle Montañas Rocallosas Oriente",
+                "way_points": [
+                  9,
+                  11
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Montañas Rocallosas Oriente, straight ahead",
+                "name": "-",
+                "way_points": [
+                  11,
+                  11
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          11
+        ],
+        "summary": {
+          "distance": 1127.0,
+          "duration": 811.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.22833,
+            19.407624
+          ],
+          [
+            -99.227666,
+            19.408249
+          ],
+          [
+            -99.226674,
+            19.409165
+          ],
+          [
+            -99.226078,
+            19.409904
+          ],
+          [
+            -99.225285,
+            19.410916
+          ],
+          [
+            -99.22507,
+            19.411197
+          ],
+          [
+            -99.224798,
+            19.411028
+          ],
+          [
+            -99.224443,
+            19.410807
+          ],
+          [
+            -99.224207,
+            19.41066
+          ],
+          [
+            -99.222672,
+            19.412752
+          ],
+          [
+            -99.222247,
+            19.41451
+          ],
+          [
+            -99.222231,
+            19.414594
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306130900,
+    "query": {
+      "coordinates": [
+        [
+          -99.2283296,
+          19.407624
+        ],
+        [
+          -99.2222312,
+          19.4145939
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

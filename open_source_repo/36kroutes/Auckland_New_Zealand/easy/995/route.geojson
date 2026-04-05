@@ -1,0 +1,210 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    174.738636,
+    -36.886204,
+    174.746168,
+    -36.884222
+  ],
+  "features": [
+    {
+      "bbox": [
+        174.738636,
+        -36.886204,
+        174.746168,
+        -36.884222
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 967.8,
+            "duration": 696.8,
+            "steps": [
+              {
+                "distance": 34.4,
+                "duration": 24.7,
+                "type": 11,
+                "instruction": "Head north on Sandringham Road",
+                "name": "Sandringham Road",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 363.0,
+                "duration": 261.3,
+                "type": 1,
+                "instruction": "Turn right onto Lancing Road",
+                "name": "Lancing Road",
+                "way_points": [
+                  1,
+                  6
+                ]
+              },
+              {
+                "distance": 105.1,
+                "duration": 75.6,
+                "type": 1,
+                "instruction": "Turn right onto Goring Road",
+                "name": "Goring Road",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 102.1,
+                "duration": 73.5,
+                "type": 0,
+                "instruction": "Turn left onto Balmoral Road, 9",
+                "name": "Balmoral Road, 9",
+                "way_points": [
+                  7,
+                  10
+                ]
+              },
+              {
+                "distance": 161.9,
+                "duration": 116.6,
+                "type": 0,
+                "instruction": "Turn left onto Eldon Road",
+                "name": "Eldon Road",
+                "way_points": [
+                  10,
+                  14
+                ]
+              },
+              {
+                "distance": 201.4,
+                "duration": 145.0,
+                "type": 1,
+                "instruction": "Turn right onto Brixton Road",
+                "name": "Brixton Road",
+                "way_points": [
+                  14,
+                  15
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Brixton Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  15,
+                  15
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          15
+        ],
+        "summary": {
+          "distance": 967.8,
+          "duration": 696.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            174.738636,
+            -36.884521
+          ],
+          [
+            174.738735,
+            -36.884222
+          ],
+          [
+            174.739984,
+            -36.884475
+          ],
+          [
+            174.740393,
+            -36.884557
+          ],
+          [
+            174.740816,
+            -36.884641
+          ],
+          [
+            174.741392,
+            -36.884756
+          ],
+          [
+            174.742682,
+            -36.885051
+          ],
+          [
+            174.742396,
+            -36.885968
+          ],
+          [
+            174.743044,
+            -36.886105
+          ],
+          [
+            174.743338,
+            -36.88618
+          ],
+          [
+            174.743505,
+            -36.886204
+          ],
+          [
+            174.743541,
+            -36.886124
+          ],
+          [
+            174.743607,
+            -36.885929
+          ],
+          [
+            174.743691,
+            -36.885659
+          ],
+          [
+            174.743977,
+            -36.884798
+          ],
+          [
+            174.746168,
+            -36.885256
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756375936690,
+    "query": {
+      "coordinates": [
+        [
+          174.7386363,
+          -36.8845209
+        ],
+        [
+          174.7461683,
+          -36.8852564
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

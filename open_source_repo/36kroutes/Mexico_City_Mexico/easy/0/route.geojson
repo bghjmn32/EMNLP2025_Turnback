@@ -1,0 +1,203 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.019682,
+    19.299301,
+    -99.01838,
+    19.302924
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.019682,
+        19.299301,
+        -99.01838,
+        19.302924
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 520.8,
+            "duration": 374.9,
+            "steps": [
+              {
+                "distance": 23.0,
+                "duration": 16.6,
+                "type": 11,
+                "instruction": "Head south on Calle Primera Jerusalén",
+                "name": "Calle Primera Jerusalén",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 37.0,
+                "duration": 26.6,
+                "type": 0,
+                "instruction": "Turn left onto Privada Segunda Cerrada Jerusalém",
+                "name": "Privada Segunda Cerrada Jerusalém",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 264.2,
+                "duration": 190.2,
+                "type": 0,
+                "instruction": "Turn left onto Calle Jerusalén",
+                "name": "Calle Jerusalén",
+                "way_points": [
+                  2,
+                  9
+                ]
+              },
+              {
+                "distance": 157.9,
+                "duration": 113.7,
+                "type": 4,
+                "instruction": "Turn slight left onto Calle Calvario",
+                "name": "Calle Calvario",
+                "way_points": [
+                  9,
+                  15
+                ]
+              },
+              {
+                "distance": 38.7,
+                "duration": 27.9,
+                "type": 0,
+                "instruction": "Turn left onto Calle Higo",
+                "name": "Calle Higo",
+                "way_points": [
+                  15,
+                  16
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Higo, straight ahead",
+                "name": "-",
+                "way_points": [
+                  16,
+                  16
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          16
+        ],
+        "summary": {
+          "distance": 520.8,
+          "duration": 374.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.019619,
+            19.299587
+          ],
+          [
+            -99.019682,
+            19.299389
+          ],
+          [
+            -99.019343,
+            19.299301
+          ],
+          [
+            -99.019138,
+            19.300005
+          ],
+          [
+            -99.01907,
+            19.300207
+          ],
+          [
+            -99.01898,
+            19.300382
+          ],
+          [
+            -99.018866,
+            19.300622
+          ],
+          [
+            -99.018753,
+            19.300856
+          ],
+          [
+            -99.018603,
+            19.300903
+          ],
+          [
+            -99.01838,
+            19.301433
+          ],
+          [
+            -99.018487,
+            19.30168
+          ],
+          [
+            -99.018513,
+            19.301748
+          ],
+          [
+            -99.018612,
+            19.302072
+          ],
+          [
+            -99.018658,
+            19.302224
+          ],
+          [
+            -99.018724,
+            19.302449
+          ],
+          [
+            -99.018795,
+            19.302794
+          ],
+          [
+            -99.019137,
+            19.302924
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756304017716,
+    "query": {
+      "coordinates": [
+        [
+          -99.019619,
+          19.2995874
+        ],
+        [
+          -99.019137,
+          19.302924
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

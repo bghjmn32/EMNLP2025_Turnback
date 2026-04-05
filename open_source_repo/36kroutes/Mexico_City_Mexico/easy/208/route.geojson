@@ -1,0 +1,195 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.223527,
+    19.31369,
+    -99.220473,
+    19.316028
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.223527,
+        19.31369,
+        -99.220473,
+        19.316028
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 632.6,
+            "duration": 455.4,
+            "steps": [
+              {
+                "distance": 167.7,
+                "duration": 120.7,
+                "type": 11,
+                "instruction": "Head north on Boulevard Adolfo Ruiz Cortines",
+                "name": "Boulevard Adolfo Ruiz Cortines",
+                "way_points": [
+                  0,
+                  4
+                ]
+              },
+              {
+                "distance": 81.2,
+                "duration": 58.4,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  4,
+                  9
+                ]
+              },
+              {
+                "distance": 17.1,
+                "duration": 12.3,
+                "type": 0,
+                "instruction": "Turn left onto Boulevard Adolfo Ruiz Cortines",
+                "name": "Boulevard Adolfo Ruiz Cortines",
+                "way_points": [
+                  9,
+                  10
+                ]
+              },
+              {
+                "distance": 337.6,
+                "duration": 243.1,
+                "type": 2,
+                "instruction": "Turn sharp left onto Chihuahua",
+                "name": "Chihuahua",
+                "way_points": [
+                  10,
+                  13
+                ]
+              },
+              {
+                "distance": 29.0,
+                "duration": 20.9,
+                "type": 0,
+                "instruction": "Turn left onto Calle Guerrero",
+                "name": "Calle Guerrero",
+                "way_points": [
+                  13,
+                  14
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Guerrero, straight ahead",
+                "name": "-",
+                "way_points": [
+                  14,
+                  14
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          14
+        ],
+        "summary": {
+          "distance": 632.6,
+          "duration": 455.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.220473,
+            19.314476
+          ],
+          [
+            -99.220529,
+            19.314738
+          ],
+          [
+            -99.220615,
+            19.315126
+          ],
+          [
+            -99.220647,
+            19.315278
+          ],
+          [
+            -99.220775,
+            19.315957
+          ],
+          [
+            -99.220714,
+            19.315967
+          ],
+          [
+            -99.220728,
+            19.316018
+          ],
+          [
+            -99.221268,
+            19.315939
+          ],
+          [
+            -99.221259,
+            19.315872
+          ],
+          [
+            -99.22122,
+            19.315876
+          ],
+          [
+            -99.221245,
+            19.316028
+          ],
+          [
+            -99.221971,
+            19.315355
+          ],
+          [
+            -99.222701,
+            19.314667
+          ],
+          [
+            -99.223527,
+            19.313887
+          ],
+          [
+            -99.223345,
+            19.31369
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756304911216,
+    "query": {
+      "coordinates": [
+        [
+          -99.2204729,
+          19.3144764
+        ],
+        [
+          -99.2233455,
+          19.3136901
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

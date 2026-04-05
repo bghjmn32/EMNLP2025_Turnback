@@ -1,0 +1,235 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    151.083537,
+    -33.765909,
+    151.087127,
+    -33.760258
+  ],
+  "features": [
+    {
+      "bbox": [
+        151.083537,
+        -33.765909,
+        151.087127,
+        -33.760258
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1033.6,
+            "duration": 744.2,
+            "steps": [
+              {
+                "distance": 59.1,
+                "duration": 42.6,
+                "type": 11,
+                "instruction": "Head west",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 91.6,
+                "duration": 65.9,
+                "type": 1,
+                "instruction": "Turn right onto Derby Street",
+                "name": "Derby Street",
+                "way_points": [
+                  1,
+                  5
+                ]
+              },
+              {
+                "distance": 386.2,
+                "duration": 278.1,
+                "type": 6,
+                "instruction": "Continue straight onto Derby Street",
+                "name": "Derby Street",
+                "way_points": [
+                  5,
+                  11
+                ]
+              },
+              {
+                "distance": 465.4,
+                "duration": 335.1,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  11,
+                  23
+                ]
+              },
+              {
+                "distance": 31.3,
+                "duration": 22.6,
+                "type": 2,
+                "instruction": "Turn sharp left onto Devlin Road",
+                "name": "Devlin Road",
+                "way_points": [
+                  23,
+                  24
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Devlin Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  24,
+                  24
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          24
+        ],
+        "summary": {
+          "distance": 1033.6,
+          "duration": 744.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            151.084451,
+            -33.765907
+          ],
+          [
+            151.083811,
+            -33.765909
+          ],
+          [
+            151.083694,
+            -33.765423
+          ],
+          [
+            151.083669,
+            -33.765286
+          ],
+          [
+            151.083655,
+            -33.765209
+          ],
+          [
+            151.083635,
+            -33.765099
+          ],
+          [
+            151.083537,
+            -33.764604
+          ],
+          [
+            151.083561,
+            -33.764562
+          ],
+          [
+            151.083661,
+            -33.764521
+          ],
+          [
+            151.085439,
+            -33.764507
+          ],
+          [
+            151.08596,
+            -33.764503
+          ],
+          [
+            151.087068,
+            -33.764512
+          ],
+          [
+            151.087067,
+            -33.764453
+          ],
+          [
+            151.087066,
+            -33.763807
+          ],
+          [
+            151.087067,
+            -33.763746
+          ],
+          [
+            151.087068,
+            -33.763684
+          ],
+          [
+            151.08707,
+            -33.762843
+          ],
+          [
+            151.087069,
+            -33.761733
+          ],
+          [
+            151.087069,
+            -33.761257
+          ],
+          [
+            151.087069,
+            -33.761223
+          ],
+          [
+            151.087068,
+            -33.761182
+          ],
+          [
+            151.087066,
+            -33.760422
+          ],
+          [
+            151.087078,
+            -33.76039
+          ],
+          [
+            151.087127,
+            -33.760343
+          ],
+          [
+            151.086804,
+            -33.760258
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756391966119,
+    "query": {
+      "coordinates": [
+        [
+          151.0844509,
+          -33.7659072
+        ],
+        [
+          151.0868038,
+          -33.7602576
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

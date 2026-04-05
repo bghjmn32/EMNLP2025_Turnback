@@ -1,0 +1,196 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    151.257591,
+    -33.804608,
+    151.259853,
+    -33.800583
+  ],
+  "features": [
+    {
+      "bbox": [
+        151.257591,
+        -33.804608,
+        151.259853,
+        -33.800583
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 623.3,
+            "duration": 448.8,
+            "steps": [
+              {
+                "distance": 208.6,
+                "duration": 150.2,
+                "type": 11,
+                "instruction": "Head northeast on Radio Avenue",
+                "name": "Radio Avenue",
+                "way_points": [
+                  0,
+                  4
+                ]
+              },
+              {
+                "distance": 198.0,
+                "duration": 142.6,
+                "type": 13,
+                "instruction": "Keep right onto Scales Parade",
+                "name": "Scales Parade",
+                "way_points": [
+                  4,
+                  12
+                ]
+              },
+              {
+                "distance": 65.8,
+                "duration": 47.4,
+                "type": 1,
+                "instruction": "Turn right onto Lewis Street",
+                "name": "Lewis Street",
+                "way_points": [
+                  12,
+                  14
+                ]
+              },
+              {
+                "distance": 150.8,
+                "duration": 108.6,
+                "type": 4,
+                "instruction": "Turn slight left onto New Street West",
+                "name": "New Street West",
+                "way_points": [
+                  14,
+                  17
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at New Street West, straight ahead",
+                "name": "-",
+                "way_points": [
+                  17,
+                  17
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          17
+        ],
+        "summary": {
+          "distance": 623.3,
+          "duration": 448.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            151.259521,
+            -33.804608
+          ],
+          [
+            151.259542,
+            -33.80457
+          ],
+          [
+            151.259853,
+            -33.80294
+          ],
+          [
+            151.259826,
+            -33.802808
+          ],
+          [
+            151.25979,
+            -33.802768
+          ],
+          [
+            151.259701,
+            -33.80265
+          ],
+          [
+            151.25968,
+            -33.802549
+          ],
+          [
+            151.259838,
+            -33.801767
+          ],
+          [
+            151.259792,
+            -33.801603
+          ],
+          [
+            151.259711,
+            -33.801511
+          ],
+          [
+            151.259606,
+            -33.801449
+          ],
+          [
+            151.259483,
+            -33.801415
+          ],
+          [
+            151.259188,
+            -33.801371
+          ],
+          [
+            151.259268,
+            -33.800887
+          ],
+          [
+            151.259202,
+            -33.800799
+          ],
+          [
+            151.25915,
+            -33.800789
+          ],
+          [
+            151.25859,
+            -33.800719
+          ],
+          [
+            151.257591,
+            -33.800583
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756393092555,
+    "query": {
+      "coordinates": [
+        [
+          151.2595214,
+          -33.8046076
+        ],
+        [
+          151.2575905,
+          -33.8005829
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

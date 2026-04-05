@@ -1,0 +1,123 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.235293,
+    19.234822,
+    -99.229451,
+    19.237847
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.235293,
+        19.234822,
+        -99.229451,
+        19.237847
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 709.4,
+            "duration": 510.7,
+            "steps": [
+              {
+                "distance": 709.4,
+                "duration": 510.7,
+                "type": 11,
+                "instruction": "Head east",
+                "name": "-",
+                "way_points": [
+                  0,
+                  7
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  7,
+                  7
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          7
+        ],
+        "summary": {
+          "distance": 709.4,
+          "duration": 510.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.235293,
+            19.237847
+          ],
+          [
+            -99.234685,
+            19.237746
+          ],
+          [
+            -99.234179,
+            19.237661
+          ],
+          [
+            -99.233775,
+            19.237557
+          ],
+          [
+            -99.233592,
+            19.237476
+          ],
+          [
+            -99.233122,
+            19.237163
+          ],
+          [
+            -99.231929,
+            19.236408
+          ],
+          [
+            -99.229451,
+            19.234822
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306752780,
+    "query": {
+      "coordinates": [
+        [
+          -99.2352927,
+          19.2378472
+        ],
+        [
+          -99.2294514,
+          19.2348218
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

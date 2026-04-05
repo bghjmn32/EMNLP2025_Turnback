@@ -1,0 +1,300 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    174.844427,
+    -36.945254,
+    174.849068,
+    -36.93724
+  ],
+  "features": [
+    {
+      "bbox": [
+        174.844427,
+        -36.945254,
+        174.849068,
+        -36.93724
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1468.3,
+            "duration": 1057.2,
+            "steps": [
+              {
+                "distance": 107.2,
+                "duration": 77.2,
+                "type": 11,
+                "instruction": "Head east on High Street",
+                "name": "High Street",
+                "way_points": [
+                  0,
+                  5
+                ]
+              },
+              {
+                "distance": 29.5,
+                "duration": 21.2,
+                "type": 13,
+                "instruction": "Keep right onto High Street",
+                "name": "High Street",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 191.6,
+                "duration": 137.9,
+                "type": 7,
+                "instruction": "Enter the roundabout and take the 3rd exit onto High Street",
+                "name": "High Street",
+                "exit_number": 3,
+                "way_points": [
+                  6,
+                  13
+                ]
+              },
+              {
+                "distance": 507.5,
+                "duration": 365.4,
+                "type": 0,
+                "instruction": "Turn left onto Hutton Street",
+                "name": "Hutton Street",
+                "way_points": [
+                  13,
+                  18
+                ]
+              },
+              {
+                "distance": 311.9,
+                "duration": 224.5,
+                "type": 6,
+                "instruction": "Continue straight onto Hutton Street",
+                "name": "Hutton Street",
+                "way_points": [
+                  18,
+                  23
+                ]
+              },
+              {
+                "distance": 182.2,
+                "duration": 131.2,
+                "type": 0,
+                "instruction": "Turn left onto Luke Street",
+                "name": "Luke Street",
+                "way_points": [
+                  23,
+                  25
+                ]
+              },
+              {
+                "distance": 65.0,
+                "duration": 46.8,
+                "type": 1,
+                "instruction": "Turn right onto Church Street",
+                "name": "Church Street",
+                "way_points": [
+                  25,
+                  26
+                ]
+              },
+              {
+                "distance": 23.8,
+                "duration": 17.1,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  26,
+                  28
+                ]
+              },
+              {
+                "distance": 49.7,
+                "duration": 35.8,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  28,
+                  29
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  29,
+                  29
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          29
+        ],
+        "summary": {
+          "distance": 1468.3,
+          "duration": 1057.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            174.845532,
+            -36.945254
+          ],
+          [
+            174.845753,
+            -36.945206
+          ],
+          [
+            174.846016,
+            -36.945154
+          ],
+          [
+            174.846445,
+            -36.945065
+          ],
+          [
+            174.846602,
+            -36.945035
+          ],
+          [
+            174.846702,
+            -36.94502
+          ],
+          [
+            174.847032,
+            -36.944992
+          ],
+          [
+            174.847054,
+            -36.94501
+          ],
+          [
+            174.847082,
+            -36.945021
+          ],
+          [
+            174.847144,
+            -36.945019
+          ],
+          [
+            174.847194,
+            -36.944986
+          ],
+          [
+            174.847206,
+            -36.944961
+          ],
+          [
+            174.847408,
+            -36.944891
+          ],
+          [
+            174.849068,
+            -36.944553
+          ],
+          [
+            174.84864,
+            -36.943162
+          ],
+          [
+            174.848341,
+            -36.942167
+          ],
+          [
+            174.847904,
+            -36.940772
+          ],
+          [
+            174.84776,
+            -36.94032
+          ],
+          [
+            174.847694,
+            -36.940123
+          ],
+          [
+            174.847587,
+            -36.939895
+          ],
+          [
+            174.847558,
+            -36.939788
+          ],
+          [
+            174.847506,
+            -36.939633
+          ],
+          [
+            174.847496,
+            -36.939498
+          ],
+          [
+            174.846842,
+            -36.937407
+          ],
+          [
+            174.846092,
+            -36.937558
+          ],
+          [
+            174.844855,
+            -36.937809
+          ],
+          [
+            174.844686,
+            -36.93724
+          ],
+          [
+            174.844502,
+            -36.937277
+          ],
+          [
+            174.844427,
+            -36.937292
+          ],
+          [
+            174.844562,
+            -36.937726
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756375307260,
+    "query": {
+      "coordinates": [
+        [
+          174.8455318,
+          -36.9452538
+        ],
+        [
+          174.8445618,
+          -36.9377261
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

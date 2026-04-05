@@ -1,0 +1,220 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.445859,
+    -33.934001,
+    18.449403,
+    -33.928693
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.445859,
+        -33.934001,
+        18.449403,
+        -33.928693
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 931.3,
+            "duration": 670.5,
+            "steps": [
+              {
+                "distance": 313.7,
+                "duration": 225.8,
+                "type": 11,
+                "instruction": "Head east on Victoria Road, M4",
+                "name": "Victoria Road, M4",
+                "way_points": [
+                  0,
+                  11
+                ]
+              },
+              {
+                "distance": 385.8,
+                "duration": 277.8,
+                "type": 1,
+                "instruction": "Turn right onto Victoria Walk",
+                "name": "Victoria Walk",
+                "way_points": [
+                  11,
+                  19
+                ]
+              },
+              {
+                "distance": 122.6,
+                "duration": 88.3,
+                "type": 0,
+                "instruction": "Turn left onto Nerina Street",
+                "name": "Nerina Street",
+                "way_points": [
+                  19,
+                  20
+                ]
+              },
+              {
+                "distance": 109.2,
+                "duration": 78.6,
+                "type": 1,
+                "instruction": "Turn right onto Mountain Road",
+                "name": "Mountain Road",
+                "way_points": [
+                  20,
+                  23
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Mountain Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  23,
+                  23
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          23
+        ],
+        "summary": {
+          "distance": 931.3,
+          "duration": 670.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.445859,
+            -33.928693
+          ],
+          [
+            18.446167,
+            -33.928759
+          ],
+          [
+            18.446459,
+            -33.928819
+          ],
+          [
+            18.446725,
+            -33.928877
+          ],
+          [
+            18.446894,
+            -33.928913
+          ],
+          [
+            18.447126,
+            -33.928963
+          ],
+          [
+            18.447496,
+            -33.929045
+          ],
+          [
+            18.448047,
+            -33.929161
+          ],
+          [
+            18.448258,
+            -33.929206
+          ],
+          [
+            18.448808,
+            -33.929323
+          ],
+          [
+            18.449037,
+            -33.929371
+          ],
+          [
+            18.449151,
+            -33.929396
+          ],
+          [
+            18.449022,
+            -33.929805
+          ],
+          [
+            18.449013,
+            -33.929836
+          ],
+          [
+            18.448971,
+            -33.929977
+          ],
+          [
+            18.448884,
+            -33.930254
+          ],
+          [
+            18.448762,
+            -33.930651
+          ],
+          [
+            18.448633,
+            -33.931062
+          ],
+          [
+            18.448229,
+            -33.932335
+          ],
+          [
+            18.448114,
+            -33.932756
+          ],
+          [
+            18.449403,
+            -33.933026
+          ],
+          [
+            18.449363,
+            -33.933342
+          ],
+          [
+            18.449324,
+            -33.933678
+          ],
+          [
+            18.449274,
+            -33.934001
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756806140279,
+    "query": {
+      "coordinates": [
+        [
+          18.4458587,
+          -33.9286929
+        ],
+        [
+          18.4492735,
+          -33.9340013
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

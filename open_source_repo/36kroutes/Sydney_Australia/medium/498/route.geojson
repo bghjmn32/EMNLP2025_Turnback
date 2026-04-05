@@ -1,0 +1,211 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    151.168172,
+    -33.74406,
+    151.179193,
+    -33.74156
+  ],
+  "features": [
+    {
+      "bbox": [
+        151.168172,
+        -33.74406,
+        151.179193,
+        -33.74156
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1184.4,
+            "duration": 852.8,
+            "steps": [
+              {
+                "distance": 134.9,
+                "duration": 97.1,
+                "type": 11,
+                "instruction": "Head southwest on Bungaroo Track",
+                "name": "Bungaroo Track",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 177.2,
+                "duration": 127.6,
+                "type": 1,
+                "instruction": "Turn right onto Pipeline Track",
+                "name": "Pipeline Track",
+                "way_points": [
+                  3,
+                  8
+                ]
+              },
+              {
+                "distance": 67.9,
+                "duration": 48.9,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  8,
+                  11
+                ]
+              },
+              {
+                "distance": 750.1,
+                "duration": 540.1,
+                "type": 0,
+                "instruction": "Turn left onto Hunter Avenue",
+                "name": "Hunter Avenue",
+                "way_points": [
+                  11,
+                  16
+                ]
+              },
+              {
+                "distance": 54.3,
+                "duration": 39.1,
+                "type": 1,
+                "instruction": "Turn right onto Olinda Place",
+                "name": "Olinda Place",
+                "way_points": [
+                  16,
+                  18
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Olinda Place, straight ahead",
+                "name": "-",
+                "way_points": [
+                  18,
+                  18
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          18
+        ],
+        "summary": {
+          "distance": 1184.4,
+          "duration": 852.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            151.179193,
+            -33.74324
+          ],
+          [
+            151.179088,
+            -33.743303
+          ],
+          [
+            151.178849,
+            -33.743603
+          ],
+          [
+            151.17814,
+            -33.74406
+          ],
+          [
+            151.177884,
+            -33.744007
+          ],
+          [
+            151.177707,
+            -33.743936
+          ],
+          [
+            151.177518,
+            -33.743918
+          ],
+          [
+            151.177159,
+            -33.743878
+          ],
+          [
+            151.176273,
+            -33.743732
+          ],
+          [
+            151.17629,
+            -33.743361
+          ],
+          [
+            151.176202,
+            -33.743251
+          ],
+          [
+            151.176165,
+            -33.743148
+          ],
+          [
+            151.175999,
+            -33.743167
+          ],
+          [
+            151.175867,
+            -33.743155
+          ],
+          [
+            151.173415,
+            -33.742807
+          ],
+          [
+            151.171478,
+            -33.742522
+          ],
+          [
+            151.168172,
+            -33.742036
+          ],
+          [
+            151.168259,
+            -33.741633
+          ],
+          [
+            151.168223,
+            -33.74156
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756399181256,
+    "query": {
+      "coordinates": [
+        [
+          151.1791926,
+          -33.7432404
+        ],
+        [
+          151.1682229,
+          -33.7415597
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.248102,
+    19.398089,
+    -99.24223,
+    19.40646
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.248102,
+        19.398089,
+        -99.24223,
+        19.40646
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1327.0,
+            "duration": 955.4,
+            "steps": [
+              {
+                "distance": 211.6,
+                "duration": 152.4,
+                "type": 11,
+                "instruction": "Head northeast on Calle Bosque de Ocozoles",
+                "name": "Calle Bosque de Ocozoles",
+                "way_points": [
+                  0,
+                  6
+                ]
+              },
+              {
+                "distance": 268.7,
+                "duration": 193.5,
+                "type": 1,
+                "instruction": "Turn right onto Avenida Paseo Bosque de la Reforma",
+                "name": "Avenida Paseo Bosque de la Reforma",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 102.6,
+                "duration": 73.9,
+                "type": 2,
+                "instruction": "Turn sharp left",
+                "name": "-",
+                "way_points": [
+                  7,
+                  11
+                ]
+              },
+              {
+                "distance": 661.3,
+                "duration": 476.1,
+                "type": 1,
+                "instruction": "Turn right onto Calle Bosque de Jacarandas",
+                "name": "Calle Bosque de Jacarandas",
+                "way_points": [
+                  11,
+                  14
+                ]
+              },
+              {
+                "distance": 82.8,
+                "duration": 59.6,
+                "type": 1,
+                "instruction": "Turn right onto Calle Bosque de Chopos",
+                "name": "Calle Bosque de Chopos",
+                "way_points": [
+                  14,
+                  15
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Bosque de Chopos, straight ahead",
+                "name": "-",
+                "way_points": [
+                  15,
+                  15
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          15
+        ],
+        "summary": {
+          "distance": 1327.0,
+          "duration": 955.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.24777,
+            19.398089
+          ],
+          [
+            -99.247414,
+            19.398779
+          ],
+          [
+            -99.247389,
+            19.398869
+          ],
+          [
+            -99.247391,
+            19.398968
+          ],
+          [
+            -99.247434,
+            19.399049
+          ],
+          [
+            -99.247713,
+            19.399289
+          ],
+          [
+            -99.248102,
+            19.399625
+          ],
+          [
+            -99.246378,
+            19.401412
+          ],
+          [
+            -99.246493,
+            19.401472
+          ],
+          [
+            -99.246534,
+            19.401522
+          ],
+          [
+            -99.246569,
+            19.401627
+          ],
+          [
+            -99.247059,
+            19.402048
+          ],
+          [
+            -99.245676,
+            19.403485
+          ],
+          [
+            -99.244205,
+            19.405013
+          ],
+          [
+            -99.242831,
+            19.40646
+          ],
+          [
+            -99.24223,
+            19.405978
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306192033,
+    "query": {
+      "coordinates": [
+        [
+          -99.2477705,
+          19.3980892
+        ],
+        [
+          -99.24223,
+          19.4059776
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

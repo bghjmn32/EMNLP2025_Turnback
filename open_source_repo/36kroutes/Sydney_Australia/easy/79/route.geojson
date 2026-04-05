@@ -1,0 +1,298 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    151.010656,
+    -33.822591,
+    151.011608,
+    -33.817008
+  ],
+  "features": [
+    {
+      "bbox": [
+        151.010656,
+        -33.822591,
+        151.011608,
+        -33.817008
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 655.8,
+            "duration": 472.2,
+            "steps": [
+              {
+                "distance": 10.2,
+                "duration": 7.3,
+                "type": 11,
+                "instruction": "Head north on Harris Street",
+                "name": "Harris Street",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 11.4,
+                "duration": 8.2,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  3
+                ]
+              },
+              {
+                "distance": 404.8,
+                "duration": 291.4,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  3,
+                  13
+                ]
+              },
+              {
+                "distance": 3.3,
+                "duration": 2.3,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  13,
+                  14
+                ]
+              },
+              {
+                "distance": 117.1,
+                "duration": 84.3,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  14,
+                  18
+                ]
+              },
+              {
+                "distance": 20.7,
+                "duration": 14.9,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  18,
+                  20
+                ]
+              },
+              {
+                "distance": 1.4,
+                "duration": 1.0,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  20,
+                  21
+                ]
+              },
+              {
+                "distance": 67.4,
+                "duration": 48.5,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  21,
+                  22
+                ]
+              },
+              {
+                "distance": 15.3,
+                "duration": 11.0,
+                "type": 0,
+                "instruction": "Turn left onto Macquarie Street",
+                "name": "Macquarie Street",
+                "way_points": [
+                  22,
+                  24
+                ]
+              },
+              {
+                "distance": 4.3,
+                "duration": 3.1,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  24,
+                  26
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  26,
+                  26
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          26
+        ],
+        "summary": {
+          "distance": 655.8,
+          "duration": 472.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            151.010773,
+            -33.822591
+          ],
+          [
+            151.010779,
+            -33.8225
+          ],
+          [
+            151.010709,
+            -33.822492
+          ],
+          [
+            151.010656,
+            -33.822486
+          ],
+          [
+            151.010683,
+            -33.822277
+          ],
+          [
+            151.01091,
+            -33.820798
+          ],
+          [
+            151.010947,
+            -33.820546
+          ],
+          [
+            151.011045,
+            -33.819895
+          ],
+          [
+            151.011054,
+            -33.819838
+          ],
+          [
+            151.011064,
+            -33.81978
+          ],
+          [
+            151.011156,
+            -33.819104
+          ],
+          [
+            151.011144,
+            -33.819026
+          ],
+          [
+            151.011153,
+            -33.818939
+          ],
+          [
+            151.011163,
+            -33.818873
+          ],
+          [
+            151.011197,
+            -33.818865
+          ],
+          [
+            151.011311,
+            -33.818185
+          ],
+          [
+            151.01132,
+            -33.818125
+          ],
+          [
+            151.011362,
+            -33.817847
+          ],
+          [
+            151.01134,
+            -33.817828
+          ],
+          [
+            151.011376,
+            -33.817726
+          ],
+          [
+            151.011405,
+            -33.81765
+          ],
+          [
+            151.011419,
+            -33.817653
+          ],
+          [
+            151.011608,
+            -33.817068
+          ],
+          [
+            151.011576,
+            -33.817061
+          ],
+          [
+            151.011448,
+            -33.817032
+          ],
+          [
+            151.011453,
+            -33.817014
+          ],
+          [
+            151.01143,
+            -33.817008
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756390373395,
+    "query": {
+      "coordinates": [
+        [
+          151.0107733,
+          -33.8225908
+        ],
+        [
+          151.0114303,
+          -33.8170085
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

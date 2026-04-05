@@ -1,0 +1,172 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    103.865285,
+    1.358221,
+    103.866263,
+    1.362189
+  ],
+  "features": [
+    {
+      "bbox": [
+        103.865285,
+        1.358221,
+        103.866263,
+        1.362189
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 523.3,
+            "duration": 376.8,
+            "steps": [
+              {
+                "distance": 120.3,
+                "duration": 86.6,
+                "type": 11,
+                "instruction": "Head south",
+                "name": "-",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 102.0,
+                "duration": 73.5,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  3,
+                  6
+                ]
+              },
+              {
+                "distance": 148.3,
+                "duration": 106.8,
+                "type": 0,
+                "instruction": "Turn left onto Conway Circle",
+                "name": "Conway Circle",
+                "way_points": [
+                  6,
+                  9
+                ]
+              },
+              {
+                "distance": 152.7,
+                "duration": 110.0,
+                "type": 6,
+                "instruction": "Continue straight onto Conway Grove",
+                "name": "Conway Grove",
+                "way_points": [
+                  9,
+                  11
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Conway Grove, straight ahead",
+                "name": "-",
+                "way_points": [
+                  11,
+                  11
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          11
+        ],
+        "summary": {
+          "distance": 523.3,
+          "duration": 376.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            103.866177,
+            1.362189
+          ],
+          [
+            103.866259,
+            1.361176
+          ],
+          [
+            103.866262,
+            1.361144
+          ],
+          [
+            103.866263,
+            1.361111
+          ],
+          [
+            103.865719,
+            1.361017
+          ],
+          [
+            103.865407,
+            1.360916
+          ],
+          [
+            103.865372,
+            1.360903
+          ],
+          [
+            103.865467,
+            1.360565
+          ],
+          [
+            103.865492,
+            1.360339
+          ],
+          [
+            103.865423,
+            1.359587
+          ],
+          [
+            103.865289,
+            1.35825
+          ],
+          [
+            103.865285,
+            1.358221
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756395892113,
+    "query": {
+      "coordinates": [
+        [
+          103.8661765,
+          1.3621891
+        ],
+        [
+          103.865285,
+          1.3582209
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

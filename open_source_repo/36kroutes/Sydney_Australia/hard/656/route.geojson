@@ -1,0 +1,300 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    150.75515,
+    -34.005424,
+    150.761769,
+    -33.992059
+  ],
+  "features": [
+    {
+      "bbox": [
+        150.75515,
+        -34.005424,
+        150.761769,
+        -33.992059
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 2116.7,
+            "duration": 1524.0,
+            "steps": [
+              {
+                "distance": 1134.9,
+                "duration": 817.1,
+                "type": 11,
+                "instruction": "Head southwest on Springfield Road",
+                "name": "Springfield Road",
+                "way_points": [
+                  0,
+                  13
+                ]
+              },
+              {
+                "distance": 20.1,
+                "duration": 14.5,
+                "type": 13,
+                "instruction": "Keep right",
+                "name": "-",
+                "way_points": [
+                  13,
+                  15
+                ]
+              },
+              {
+                "distance": 451.9,
+                "duration": 325.4,
+                "type": 7,
+                "instruction": "Enter the roundabout and take the 1st exit",
+                "name": "-",
+                "exit_number": 1,
+                "way_points": [
+                  15,
+                  21
+                ]
+              },
+              {
+                "distance": 125.8,
+                "duration": 90.6,
+                "type": 13,
+                "instruction": "Keep right",
+                "name": "-",
+                "way_points": [
+                  21,
+                  24
+                ]
+              },
+              {
+                "distance": 176.1,
+                "duration": 126.8,
+                "type": 7,
+                "instruction": "Enter the roundabout and take the 1st exit onto Copper Drive",
+                "name": "Copper Drive",
+                "exit_number": 1,
+                "way_points": [
+                  24,
+                  30
+                ]
+              },
+              {
+                "distance": 207.9,
+                "duration": 149.7,
+                "type": 0,
+                "instruction": "Turn left onto Ingall Loop",
+                "name": "Ingall Loop",
+                "way_points": [
+                  30,
+                  37
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Ingall Loop, straight ahead",
+                "name": "-",
+                "way_points": [
+                  37,
+                  37
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          37
+        ],
+        "summary": {
+          "distance": 2116.7,
+          "duration": 1524.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            150.759754,
+            -33.992059
+          ],
+          [
+            150.759138,
+            -33.992404
+          ],
+          [
+            150.758807,
+            -33.992609
+          ],
+          [
+            150.758583,
+            -33.992809
+          ],
+          [
+            150.758448,
+            -33.992995
+          ],
+          [
+            150.758365,
+            -33.993186
+          ],
+          [
+            150.75832,
+            -33.993361
+          ],
+          [
+            150.758175,
+            -33.994622
+          ],
+          [
+            150.75802,
+            -33.996087
+          ],
+          [
+            150.758047,
+            -33.996416
+          ],
+          [
+            150.758117,
+            -33.996637
+          ],
+          [
+            150.758234,
+            -33.996847
+          ],
+          [
+            150.758611,
+            -33.997282
+          ],
+          [
+            150.761744,
+            -34.000725
+          ],
+          [
+            150.761769,
+            -34.000841
+          ],
+          [
+            150.761754,
+            -34.000903
+          ],
+          [
+            150.761741,
+            -34.000957
+          ],
+          [
+            150.761689,
+            -34.001057
+          ],
+          [
+            150.761642,
+            -34.001109
+          ],
+          [
+            150.761548,
+            -34.001203
+          ],
+          [
+            150.760829,
+            -34.002053
+          ],
+          [
+            150.759027,
+            -34.004271
+          ],
+          [
+            150.758867,
+            -34.004478
+          ],
+          [
+            150.75845,
+            -34.005118
+          ],
+          [
+            150.758352,
+            -34.005254
+          ],
+          [
+            150.75828,
+            -34.005325
+          ],
+          [
+            150.758273,
+            -34.005424
+          ],
+          [
+            150.758199,
+            -34.005352
+          ],
+          [
+            150.757866,
+            -34.005099
+          ],
+          [
+            150.757307,
+            -34.004454
+          ],
+          [
+            150.757215,
+            -34.00435
+          ],
+          [
+            150.756592,
+            -34.004736
+          ],
+          [
+            150.756371,
+            -34.004828
+          ],
+          [
+            150.756153,
+            -34.004875
+          ],
+          [
+            150.755993,
+            -34.004886
+          ],
+          [
+            150.75572,
+            -34.004871
+          ],
+          [
+            150.755266,
+            -34.004846
+          ],
+          [
+            150.75515,
+            -34.00484
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756406157104,
+    "query": {
+      "coordinates": [
+        [
+          150.7597538,
+          -33.9920586
+        ],
+        [
+          150.7551498,
+          -34.0048401
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

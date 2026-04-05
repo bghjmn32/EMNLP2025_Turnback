@@ -1,0 +1,213 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.256915,
+    19.399644,
+    -99.255236,
+    19.40366
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.256915,
+        19.399644,
+        -99.255236,
+        19.40366
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 857.7,
+            "duration": 617.6,
+            "steps": [
+              {
+                "distance": 456.7,
+                "duration": 328.9,
+                "type": 11,
+                "instruction": "Head north on Avenida Ahuehuetes Norte",
+                "name": "Avenida Ahuehuetes Norte",
+                "way_points": [
+                  0,
+                  13
+                ]
+              },
+              {
+                "distance": 26.5,
+                "duration": 19.1,
+                "type": 0,
+                "instruction": "Turn left onto Avendia Ahuehuetes Norte",
+                "name": "Avendia Ahuehuetes Norte",
+                "way_points": [
+                  13,
+                  14
+                ]
+              },
+              {
+                "distance": 374.4,
+                "duration": 269.6,
+                "type": 0,
+                "instruction": "Turn left onto Avenida Fuente del Pescador",
+                "name": "Avenida Fuente del Pescador",
+                "way_points": [
+                  14,
+                  24
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Avenida Fuente del Pescador, straight ahead",
+                "name": "-",
+                "way_points": [
+                  24,
+                  24
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          24
+        ],
+        "summary": {
+          "distance": 857.7,
+          "duration": 617.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.255294,
+            19.399644
+          ],
+          [
+            -99.255396,
+            19.4
+          ],
+          [
+            -99.255437,
+            19.400303
+          ],
+          [
+            -99.255416,
+            19.400543
+          ],
+          [
+            -99.255256,
+            19.401278
+          ],
+          [
+            -99.255236,
+            19.401451
+          ],
+          [
+            -99.255248,
+            19.401572
+          ],
+          [
+            -99.255376,
+            19.401925
+          ],
+          [
+            -99.255407,
+            19.402067
+          ],
+          [
+            -99.255382,
+            19.402394
+          ],
+          [
+            -99.255387,
+            19.402656
+          ],
+          [
+            -99.255693,
+            19.403301
+          ],
+          [
+            -99.255764,
+            19.403549
+          ],
+          [
+            -99.25576,
+            19.403624
+          ],
+          [
+            -99.25601,
+            19.40366
+          ],
+          [
+            -99.256039,
+            19.403306
+          ],
+          [
+            -99.256019,
+            19.402966
+          ],
+          [
+            -99.256003,
+            19.402806
+          ],
+          [
+            -99.256035,
+            19.402508
+          ],
+          [
+            -99.25614,
+            19.402211
+          ],
+          [
+            -99.256368,
+            19.401587
+          ],
+          [
+            -99.25648,
+            19.401319
+          ],
+          [
+            -99.256636,
+            19.400818
+          ],
+          [
+            -99.256766,
+            19.400609
+          ],
+          [
+            -99.256915,
+            19.400487
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756314838237,
+    "query": {
+      "coordinates": [
+        [
+          -99.2552945,
+          19.3996437
+        ],
+        [
+          -99.2569148,
+          19.400487
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

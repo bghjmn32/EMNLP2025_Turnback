@@ -1,0 +1,300 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    11.559031,
+    48.148075,
+    11.566013,
+    48.151795
+  ],
+  "features": [
+    {
+      "bbox": [
+        11.559031,
+        48.148075,
+        11.566013,
+        48.151795
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 940.5,
+            "duration": 677.2,
+            "steps": [
+              {
+                "distance": 41.9,
+                "duration": 30.2,
+                "type": 11,
+                "instruction": "Head east",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 98.7,
+                "duration": 71.1,
+                "type": 1,
+                "instruction": "Turn right onto Steinickeweg",
+                "name": "Steinickeweg",
+                "way_points": [
+                  1,
+                  6
+                ]
+              },
+              {
+                "distance": 99.3,
+                "duration": 71.5,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  6,
+                  10
+                ]
+              },
+              {
+                "distance": 376.3,
+                "duration": 271.0,
+                "type": 0,
+                "instruction": "Turn left onto Augustenstraße",
+                "name": "Augustenstraße",
+                "way_points": [
+                  10,
+                  22
+                ]
+              },
+              {
+                "distance": 168.4,
+                "duration": 121.2,
+                "type": 1,
+                "instruction": "Turn right onto Rottmannstraße",
+                "name": "Rottmannstraße",
+                "way_points": [
+                  22,
+                  26
+                ]
+              },
+              {
+                "distance": 3.7,
+                "duration": 2.6,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  26,
+                  27
+                ]
+              },
+              {
+                "distance": 68.7,
+                "duration": 49.5,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  27,
+                  29
+                ]
+              },
+              {
+                "distance": 83.6,
+                "duration": 60.2,
+                "type": 0,
+                "instruction": "Turn left onto Schleißheimer Straße",
+                "name": "Schleißheimer Straße",
+                "way_points": [
+                  29,
+                  32
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Schleißheimer Straße, straight ahead",
+                "name": "-",
+                "way_points": [
+                  32,
+                  32
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          32
+        ],
+        "summary": {
+          "distance": 940.5,
+          "duration": 677.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            11.565491,
+            48.151795
+          ],
+          [
+            11.566013,
+            48.151651
+          ],
+          [
+            11.565824,
+            48.151333
+          ],
+          [
+            11.565646,
+            48.15105
+          ],
+          [
+            11.565584,
+            48.150952
+          ],
+          [
+            11.565516,
+            48.150845
+          ],
+          [
+            11.565507,
+            48.15083
+          ],
+          [
+            11.564619,
+            48.151075
+          ],
+          [
+            11.56434,
+            48.151145
+          ],
+          [
+            11.564298,
+            48.151167
+          ],
+          [
+            11.564273,
+            48.151173
+          ],
+          [
+            11.564244,
+            48.151128
+          ],
+          [
+            11.564185,
+            48.151041
+          ],
+          [
+            11.563787,
+            48.15044
+          ],
+          [
+            11.563492,
+            48.149996
+          ],
+          [
+            11.563203,
+            48.149542
+          ],
+          [
+            11.563147,
+            48.149455
+          ],
+          [
+            11.562918,
+            48.1491
+          ],
+          [
+            11.562885,
+            48.149048
+          ],
+          [
+            11.562841,
+            48.148982
+          ],
+          [
+            11.562736,
+            48.148827
+          ],
+          [
+            11.562691,
+            48.148759
+          ],
+          [
+            11.562232,
+            48.148075
+          ],
+          [
+            11.562194,
+            48.148086
+          ],
+          [
+            11.561153,
+            48.148376
+          ],
+          [
+            11.560688,
+            48.148506
+          ],
+          [
+            11.560138,
+            48.14866
+          ],
+          [
+            11.56012,
+            48.148629
+          ],
+          [
+            11.559329,
+            48.148835
+          ],
+          [
+            11.559255,
+            48.148823
+          ],
+          [
+            11.559115,
+            48.148332
+          ],
+          [
+            11.559075,
+            48.148213
+          ],
+          [
+            11.559031,
+            48.148086
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756139615147,
+    "query": {
+      "coordinates": [
+        [
+          11.5654908,
+          48.1517946
+        ],
+        [
+          11.5590313,
+          48.1480862
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,253 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    150.972653,
+    -33.705945,
+    150.976235,
+    -33.702945
+  ],
+  "features": [
+    {
+      "bbox": [
+        150.972653,
+        -33.705945,
+        150.976235,
+        -33.702945
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 641.0,
+            "duration": 461.5,
+            "steps": [
+              {
+                "distance": 7.0,
+                "duration": 5.0,
+                "type": 11,
+                "instruction": "Head east",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 14.4,
+                "duration": 10.3,
+                "type": 6,
+                "instruction": "Continue straight",
+                "name": "-",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 117.0,
+                "duration": 84.2,
+                "type": 4,
+                "instruction": "Turn slight left",
+                "name": "-",
+                "way_points": [
+                  2,
+                  10
+                ]
+              },
+              {
+                "distance": 128.4,
+                "duration": 92.5,
+                "type": 0,
+                "instruction": "Turn left onto Craigmore Drive",
+                "name": "Craigmore Drive",
+                "way_points": [
+                  10,
+                  13
+                ]
+              },
+              {
+                "distance": 192.0,
+                "duration": 138.2,
+                "type": 1,
+                "instruction": "Turn right onto Dunbar Place",
+                "name": "Dunbar Place",
+                "way_points": [
+                  13,
+                  15
+                ]
+              },
+              {
+                "distance": 78.4,
+                "duration": 56.5,
+                "type": 5,
+                "instruction": "Turn slight right",
+                "name": "-",
+                "way_points": [
+                  15,
+                  20
+                ]
+              },
+              {
+                "distance": 103.9,
+                "duration": 74.8,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  20,
+                  23
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  23,
+                  23
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          23
+        ],
+        "summary": {
+          "distance": 641.0,
+          "duration": 461.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            150.972653,
+            -33.705945
+          ],
+          [
+            150.972725,
+            -33.705927
+          ],
+          [
+            150.972875,
+            -33.705894
+          ],
+          [
+            150.9729,
+            -33.705869
+          ],
+          [
+            150.97293,
+            -33.705889
+          ],
+          [
+            150.973039,
+            -33.705899
+          ],
+          [
+            150.973172,
+            -33.705814
+          ],
+          [
+            150.97329,
+            -33.705729
+          ],
+          [
+            150.973835,
+            -33.705559
+          ],
+          [
+            150.973924,
+            -33.705494
+          ],
+          [
+            150.973964,
+            -33.705464
+          ],
+          [
+            150.973882,
+            -33.705376
+          ],
+          [
+            150.973813,
+            -33.705264
+          ],
+          [
+            150.97344,
+            -33.704401
+          ],
+          [
+            150.97457,
+            -33.704065
+          ],
+          [
+            150.975394,
+            -33.703818
+          ],
+          [
+            150.975547,
+            -33.703828
+          ],
+          [
+            150.975689,
+            -33.703898
+          ],
+          [
+            150.976083,
+            -33.703863
+          ],
+          [
+            150.976183,
+            -33.703863
+          ],
+          [
+            150.976216,
+            -33.703863
+          ],
+          [
+            150.976235,
+            -33.703646
+          ],
+          [
+            150.976094,
+            -33.703061
+          ],
+          [
+            150.97613,
+            -33.702945
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756392137668,
+    "query": {
+      "coordinates": [
+        [
+          150.9726528,
+          -33.7059454
+        ],
+        [
+          150.9761304,
+          -33.7029454
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

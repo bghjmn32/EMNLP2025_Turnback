@@ -1,0 +1,160 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    151.202591,
+    -33.707364,
+    151.205731,
+    -33.703274
+  ],
+  "features": [
+    {
+      "bbox": [
+        151.202591,
+        -33.707364,
+        151.205731,
+        -33.703274
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 659.7,
+            "duration": 475.0,
+            "steps": [
+              {
+                "distance": 82.7,
+                "duration": 59.5,
+                "type": 11,
+                "instruction": "Head southwest on Mona Vale Road, A3",
+                "name": "Mona Vale Road, A3",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 25.6,
+                "duration": 18.4,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 456.9,
+                "duration": 328.9,
+                "type": 1,
+                "instruction": "Turn right onto Mona Vale Road, A3",
+                "name": "Mona Vale Road, A3",
+                "way_points": [
+                  2,
+                  4
+                ]
+              },
+              {
+                "distance": 94.5,
+                "duration": 68.1,
+                "type": 0,
+                "instruction": "Turn left onto Callamine Trail",
+                "name": "Callamine Trail",
+                "way_points": [
+                  4,
+                  8
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Callamine Trail, straight ahead",
+                "name": "-",
+                "way_points": [
+                  8,
+                  8
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          8
+        ],
+        "summary": {
+          "distance": 659.7,
+          "duration": 475.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            151.203371,
+            -33.706788
+          ],
+          [
+            151.202805,
+            -33.707364
+          ],
+          [
+            151.202591,
+            -33.707219
+          ],
+          [
+            151.203112,
+            -33.706702
+          ],
+          [
+            151.205731,
+            -33.704048
+          ],
+          [
+            151.205558,
+            -33.703749
+          ],
+          [
+            151.205553,
+            -33.703644
+          ],
+          [
+            151.205516,
+            -33.703536
+          ],
+          [
+            151.205337,
+            -33.703274
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756390534209,
+    "query": {
+      "coordinates": [
+        [
+          151.203371,
+          -33.7067884
+        ],
+        [
+          151.2053373,
+          -33.7032744
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

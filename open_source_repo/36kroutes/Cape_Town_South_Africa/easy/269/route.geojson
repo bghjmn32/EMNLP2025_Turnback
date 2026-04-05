@@ -1,0 +1,230 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.380466,
+    -33.955654,
+    18.38259,
+    -33.950457
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.380466,
+        -33.955654,
+        18.38259,
+        -33.950457
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 805.6,
+            "duration": 580.0,
+            "steps": [
+              {
+                "distance": 63.3,
+                "duration": 45.6,
+                "type": 11,
+                "instruction": "Head southeast on The Fairway",
+                "name": "The Fairway",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 50.8,
+                "duration": 36.6,
+                "type": 1,
+                "instruction": "Turn right onto Central Drive",
+                "name": "Central Drive",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 119.5,
+                "duration": 86.0,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  2,
+                  4
+                ]
+              },
+              {
+                "distance": 340.1,
+                "duration": 244.9,
+                "type": 1,
+                "instruction": "Turn right onto Tree Road",
+                "name": "Tree Road",
+                "way_points": [
+                  4,
+                  12
+                ]
+              },
+              {
+                "distance": 92.4,
+                "duration": 66.5,
+                "type": 1,
+                "instruction": "Turn right onto Ronald Avenue",
+                "name": "Ronald Avenue",
+                "way_points": [
+                  12,
+                  15
+                ]
+              },
+              {
+                "distance": 139.4,
+                "duration": 100.4,
+                "type": 12,
+                "instruction": "Keep left onto Strathearn Avenue",
+                "name": "Strathearn Avenue",
+                "way_points": [
+                  15,
+                  20
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Strathearn Avenue, straight ahead",
+                "name": "-",
+                "way_points": [
+                  20,
+                  20
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          20
+        ],
+        "summary": {
+          "distance": 805.6,
+          "duration": 580.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.380466,
+            -33.950457
+          ],
+          [
+            18.381097,
+            -33.950681
+          ],
+          [
+            18.381051,
+            -33.951137
+          ],
+          [
+            18.382239,
+            -33.951312
+          ],
+          [
+            18.382321,
+            -33.951339
+          ],
+          [
+            18.382102,
+            -33.9517
+          ],
+          [
+            18.382101,
+            -33.952036
+          ],
+          [
+            18.382121,
+            -33.952776
+          ],
+          [
+            18.38215,
+            -33.952905
+          ],
+          [
+            18.38222,
+            -33.95305
+          ],
+          [
+            18.382544,
+            -33.953441
+          ],
+          [
+            18.38259,
+            -33.953537
+          ],
+          [
+            18.382414,
+            -33.954235
+          ],
+          [
+            18.382344,
+            -33.954218
+          ],
+          [
+            18.38225,
+            -33.954223
+          ],
+          [
+            18.381523,
+            -33.954562
+          ],
+          [
+            18.381459,
+            -33.954673
+          ],
+          [
+            18.38113,
+            -33.955541
+          ],
+          [
+            18.38109,
+            -33.95557
+          ],
+          [
+            18.380961,
+            -33.955601
+          ],
+          [
+            18.380913,
+            -33.955654
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756804423030,
+    "query": {
+      "coordinates": [
+        [
+          18.380466,
+          -33.950457
+        ],
+        [
+          18.3809134,
+          -33.9556537
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    11.483005,
+    48.129438,
+    11.488503,
+    48.130113
+  ],
+  "features": [
+    {
+      "bbox": [
+        11.483005,
+        48.129438,
+        11.488503,
+        48.130113
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 561.2,
+            "duration": 404.0,
+            "steps": [
+              {
+                "distance": 15.8,
+                "duration": 11.4,
+                "type": 11,
+                "instruction": "Head south on Kleinhaderner Straße",
+                "name": "Kleinhaderner Straße",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 408.8,
+                "duration": 294.3,
+                "type": 3,
+                "instruction": "Turn sharp right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  9
+                ]
+              },
+              {
+                "distance": 70.1,
+                "duration": 50.4,
+                "type": 0,
+                "instruction": "Turn left onto Willibaldstraße",
+                "name": "Willibaldstraße",
+                "way_points": [
+                  9,
+                  10
+                ]
+              },
+              {
+                "distance": 66.5,
+                "duration": 47.9,
+                "type": 0,
+                "instruction": "Turn left onto Ellen-Ammann-Weg",
+                "name": "Ellen-Ammann-Weg",
+                "way_points": [
+                  10,
+                  11
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Ellen-Ammann-Weg, straight ahead",
+                "name": "-",
+                "way_points": [
+                  11,
+                  11
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          11
+        ],
+        "summary": {
+          "distance": 561.2,
+          "duration": 404.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            11.488503,
+            48.130036
+          ],
+          [
+            11.48844,
+            48.1299
+          ],
+          [
+            11.488229,
+            48.130018
+          ],
+          [
+            11.487836,
+            48.130037
+          ],
+          [
+            11.486862,
+            48.13006
+          ],
+          [
+            11.485108,
+            48.130093
+          ],
+          [
+            11.483898,
+            48.130113
+          ],
+          [
+            11.483574,
+            48.130106
+          ],
+          [
+            11.48315,
+            48.130072
+          ],
+          [
+            11.483005,
+            48.130058
+          ],
+          [
+            11.483172,
+            48.129438
+          ],
+          [
+            11.484066,
+            48.129471
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756137838430,
+    "query": {
+      "coordinates": [
+        [
+          11.4885034,
+          48.130036
+        ],
+        [
+          11.4840664,
+          48.1294713
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

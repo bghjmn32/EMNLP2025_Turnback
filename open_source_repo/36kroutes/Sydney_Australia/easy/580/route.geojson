@@ -1,0 +1,226 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    151.099776,
+    -33.939915,
+    151.101148,
+    -33.934734
+  ],
+  "features": [
+    {
+      "bbox": [
+        151.099776,
+        -33.939915,
+        151.101148,
+        -33.934734
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 609.0,
+            "duration": 438.5,
+            "steps": [
+              {
+                "distance": 7.9,
+                "duration": 5.7,
+                "type": 11,
+                "instruction": "Head north on Kingsgrove Road",
+                "name": "Kingsgrove Road",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 9.0,
+                "duration": 6.5,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 132.6,
+                "duration": 95.5,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  2,
+                  4
+                ]
+              },
+              {
+                "distance": 47.8,
+                "duration": 34.4,
+                "type": 6,
+                "instruction": "Continue straight",
+                "name": "-",
+                "way_points": [
+                  4,
+                  9
+                ]
+              },
+              {
+                "distance": 402.9,
+                "duration": 290.1,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  9,
+                  18
+                ]
+              },
+              {
+                "distance": 8.7,
+                "duration": 6.3,
+                "type": 0,
+                "instruction": "Turn left onto Pacific Street",
+                "name": "Pacific Street",
+                "way_points": [
+                  18,
+                  19
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Pacific Street, straight ahead",
+                "name": "-",
+                "way_points": [
+                  19,
+                  19
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          19
+        ],
+        "summary": {
+          "distance": 609.0,
+          "duration": 438.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            151.101148,
+            -33.939915
+          ],
+          [
+            151.101133,
+            -33.939846
+          ],
+          [
+            151.101036,
+            -33.939856
+          ],
+          [
+            151.100888,
+            -33.939217
+          ],
+          [
+            151.10078,
+            -33.938682
+          ],
+          [
+            151.100744,
+            -33.938535
+          ],
+          [
+            151.100721,
+            -33.938442
+          ],
+          [
+            151.10072,
+            -33.938365
+          ],
+          [
+            151.100743,
+            -33.938302
+          ],
+          [
+            151.100759,
+            -33.938262
+          ],
+          [
+            151.100673,
+            -33.938178
+          ],
+          [
+            151.100598,
+            -33.938026
+          ],
+          [
+            151.100578,
+            -33.93799
+          ],
+          [
+            151.100361,
+            -33.936984
+          ],
+          [
+            151.100239,
+            -33.936417
+          ],
+          [
+            151.100105,
+            -33.935795
+          ],
+          [
+            151.100063,
+            -33.935604
+          ],
+          [
+            151.099881,
+            -33.934788
+          ],
+          [
+            151.099869,
+            -33.934734
+          ],
+          [
+            151.099776,
+            -33.934746
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756393968314,
+    "query": {
+      "coordinates": [
+        [
+          151.1011477,
+          -33.9399155
+        ],
+        [
+          151.0997762,
+          -33.9347462
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

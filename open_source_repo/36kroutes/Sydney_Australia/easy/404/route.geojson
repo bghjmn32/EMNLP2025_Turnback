@@ -1,0 +1,169 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    150.782574,
+    -34.092977,
+    150.786968,
+    -34.090823
+  ],
+  "features": [
+    {
+      "bbox": [
+        150.782574,
+        -34.092977,
+        150.786968,
+        -34.090823
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 506.9,
+            "duration": 365.0,
+            "steps": [
+              {
+                "distance": 485.8,
+                "duration": 349.8,
+                "type": 11,
+                "instruction": "Head southeast on Invergowrie Avenue",
+                "name": "Invergowrie Avenue",
+                "way_points": [
+                  0,
+                  11
+                ]
+              },
+              {
+                "distance": 15.4,
+                "duration": 11.1,
+                "type": 13,
+                "instruction": "Keep right onto Invergowrie Avenue",
+                "name": "Invergowrie Avenue",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 5.7,
+                "duration": 4.1,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  12,
+                  13
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  13,
+                  13
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          13
+        ],
+        "summary": {
+          "distance": 506.9,
+          "duration": 365.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            150.782574,
+            -34.090823
+          ],
+          [
+            150.782736,
+            -34.090898
+          ],
+          [
+            150.782866,
+            -34.090918
+          ],
+          [
+            150.783092,
+            -34.091062
+          ],
+          [
+            150.783596,
+            -34.091598
+          ],
+          [
+            150.784084,
+            -34.092122
+          ],
+          [
+            150.784355,
+            -34.092385
+          ],
+          [
+            150.784613,
+            -34.092545
+          ],
+          [
+            150.785116,
+            -34.092771
+          ],
+          [
+            150.78541,
+            -34.092842
+          ],
+          [
+            150.786717,
+            -34.092822
+          ],
+          [
+            150.786843,
+            -34.092835
+          ],
+          [
+            150.786968,
+            -34.092928
+          ],
+          [
+            150.78695,
+            -34.092977
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756392555967,
+    "query": {
+      "coordinates": [
+        [
+          150.7825735,
+          -34.0908231
+        ],
+        [
+          150.7869495,
+          -34.0929768
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

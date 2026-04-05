@@ -1,0 +1,185 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.473224,
+    -33.989996,
+    18.47429,
+    -33.985173
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.473224,
+        -33.989996,
+        18.47429,
+        -33.985173
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 620.6,
+            "duration": 446.8,
+            "steps": [
+              {
+                "distance": 349.8,
+                "duration": 251.9,
+                "type": 11,
+                "instruction": "Head south on 2nd Avenue",
+                "name": "2nd Avenue",
+                "way_points": [
+                  0,
+                  13
+                ]
+              },
+              {
+                "distance": 80.6,
+                "duration": 58.0,
+                "type": 1,
+                "instruction": "Turn right onto Devon Street",
+                "name": "Devon Street",
+                "way_points": [
+                  13,
+                  14
+                ]
+              },
+              {
+                "distance": 190.2,
+                "duration": 137.0,
+                "type": 0,
+                "instruction": "Turn left onto Norfolk Street",
+                "name": "Norfolk Street",
+                "way_points": [
+                  14,
+                  17
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Norfolk Street, straight ahead",
+                "name": "-",
+                "way_points": [
+                  17,
+                  17
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          17
+        ],
+        "summary": {
+          "distance": 620.6,
+          "duration": 446.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.47429,
+            -33.985173
+          ],
+          [
+            18.474281,
+            -33.985443
+          ],
+          [
+            18.474276,
+            -33.985637
+          ],
+          [
+            18.474265,
+            -33.985928
+          ],
+          [
+            18.47426,
+            -33.986108
+          ],
+          [
+            18.474239,
+            -33.98641
+          ],
+          [
+            18.474237,
+            -33.986583
+          ],
+          [
+            18.474224,
+            -33.9869
+          ],
+          [
+            18.474218,
+            -33.9872
+          ],
+          [
+            18.474203,
+            -33.987558
+          ],
+          [
+            18.474197,
+            -33.987751
+          ],
+          [
+            18.474195,
+            -33.987793
+          ],
+          [
+            18.474191,
+            -33.987933
+          ],
+          [
+            18.474172,
+            -33.988317
+          ],
+          [
+            18.473299,
+            -33.988287
+          ],
+          [
+            18.473276,
+            -33.988859
+          ],
+          [
+            18.473256,
+            -33.989423
+          ],
+          [
+            18.473224,
+            -33.989996
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756805942924,
+    "query": {
+      "coordinates": [
+        [
+          18.4742898,
+          -33.9851727
+        ],
+        [
+          18.4732238,
+          -33.9899964
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

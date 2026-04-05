@@ -1,0 +1,169 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.380119,
+    -33.950457,
+    18.381947,
+    -33.946403
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.380119,
+        -33.950457,
+        18.381947,
+        -33.946403
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 590.7,
+            "duration": 425.3,
+            "steps": [
+              {
+                "distance": 245.2,
+                "duration": 176.6,
+                "type": 11,
+                "instruction": "Head northeast on Park Avenue",
+                "name": "Park Avenue",
+                "way_points": [
+                  0,
+                  4
+                ]
+              },
+              {
+                "distance": 221.6,
+                "duration": 159.5,
+                "type": 0,
+                "instruction": "Turn left onto Sedgemoor Road",
+                "name": "Sedgemoor Road",
+                "way_points": [
+                  4,
+                  8
+                ]
+              },
+              {
+                "distance": 124.0,
+                "duration": 89.3,
+                "type": 1,
+                "instruction": "Turn right onto Chilworth Road",
+                "name": "Chilworth Road",
+                "way_points": [
+                  8,
+                  13
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Chilworth Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  13,
+                  13
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          13
+        ],
+        "summary": {
+          "distance": 590.7,
+          "duration": 425.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.380466,
+            -33.950457
+          ],
+          [
+            18.380858,
+            -33.94984
+          ],
+          [
+            18.381237,
+            -33.949369
+          ],
+          [
+            18.38144,
+            -33.949146
+          ],
+          [
+            18.381947,
+            -33.948635
+          ],
+          [
+            18.381555,
+            -33.948357
+          ],
+          [
+            18.381283,
+            -33.948163
+          ],
+          [
+            18.380838,
+            -33.947858
+          ],
+          [
+            18.380119,
+            -33.947343
+          ],
+          [
+            18.380676,
+            -33.946785
+          ],
+          [
+            18.380733,
+            -33.946616
+          ],
+          [
+            18.380735,
+            -33.946541
+          ],
+          [
+            18.380727,
+            -33.946475
+          ],
+          [
+            18.38071,
+            -33.946403
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756804421893,
+    "query": {
+      "coordinates": [
+        [
+          18.380466,
+          -33.950457
+        ],
+        [
+          18.3807101,
+          -33.9464029
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

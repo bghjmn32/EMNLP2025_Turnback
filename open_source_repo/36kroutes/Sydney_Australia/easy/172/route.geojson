@@ -1,0 +1,215 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    151.096025,
+    -33.929664,
+    151.10135,
+    -33.927148
+  ],
+  "features": [
+    {
+      "bbox": [
+        151.096025,
+        -33.929664,
+        151.10135,
+        -33.927148
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 701.2,
+            "duration": 504.8,
+            "steps": [
+              {
+                "distance": 6.8,
+                "duration": 4.9,
+                "type": 11,
+                "instruction": "Head west",
+                "name": "-",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 183.8,
+                "duration": 132.3,
+                "type": 0,
+                "instruction": "Turn left onto Hillside Avenue",
+                "name": "Hillside Avenue",
+                "way_points": [
+                  2,
+                  6
+                ]
+              },
+              {
+                "distance": 274.0,
+                "duration": 197.3,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  6,
+                  15
+                ]
+              },
+              {
+                "distance": 8.7,
+                "duration": 6.3,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  15,
+                  17
+                ]
+              },
+              {
+                "distance": 228.0,
+                "duration": 164.1,
+                "type": 1,
+                "instruction": "Turn right onto Forsyth Street",
+                "name": "Forsyth Street",
+                "way_points": [
+                  17,
+                  19
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Forsyth Street, straight ahead",
+                "name": "-",
+                "way_points": [
+                  19,
+                  19
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          19
+        ],
+        "summary": {
+          "distance": 701.2,
+          "duration": 504.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            151.101113,
+            -33.927148
+          ],
+          [
+            151.101105,
+            -33.92715
+          ],
+          [
+            151.101041,
+            -33.92716
+          ],
+          [
+            151.10105,
+            -33.927211
+          ],
+          [
+            151.101063,
+            -33.927278
+          ],
+          [
+            151.101206,
+            -33.928023
+          ],
+          [
+            151.10135,
+            -33.928793
+          ],
+          [
+            151.101294,
+            -33.928801
+          ],
+          [
+            151.098963,
+            -33.929164
+          ],
+          [
+            151.098934,
+            -33.929169
+          ],
+          [
+            151.098911,
+            -33.929172
+          ],
+          [
+            151.098646,
+            -33.929215
+          ],
+          [
+            151.098631,
+            -33.929218
+          ],
+          [
+            151.09853,
+            -33.929236
+          ],
+          [
+            151.098454,
+            -33.929249
+          ],
+          [
+            151.098433,
+            -33.929253
+          ],
+          [
+            151.098441,
+            -33.929273
+          ],
+          [
+            151.098462,
+            -33.929327
+          ],
+          [
+            151.097034,
+            -33.929526
+          ],
+          [
+            151.096025,
+            -33.929664
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756390952994,
+    "query": {
+      "coordinates": [
+        [
+          151.1011125,
+          -33.9271483
+        ],
+        [
+          151.0960249,
+          -33.9296641
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

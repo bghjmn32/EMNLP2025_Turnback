@@ -1,0 +1,298 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    174.962661,
+    -36.949221,
+    174.96645,
+    -36.943147
+  ],
+  "features": [
+    {
+      "bbox": [
+        174.962661,
+        -36.949221,
+        174.96645,
+        -36.943147
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 879.9,
+            "duration": 633.5,
+            "steps": [
+              {
+                "distance": 34.4,
+                "duration": 24.8,
+                "type": 11,
+                "instruction": "Head south",
+                "name": "-",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 215.7,
+                "duration": 155.3,
+                "type": 4,
+                "instruction": "Turn slight left onto Whitford Road",
+                "name": "Whitford Road",
+                "way_points": [
+                  3,
+                  11
+                ]
+              },
+              {
+                "distance": 32.1,
+                "duration": 23.1,
+                "type": 12,
+                "instruction": "Keep left onto Whitford Road",
+                "name": "Whitford Road",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 30.9,
+                "duration": 22.3,
+                "type": 7,
+                "instruction": "Enter the roundabout and take the 3rd exit onto Whitford-Maraetai Road",
+                "name": "Whitford-Maraetai Road",
+                "exit_number": 3,
+                "way_points": [
+                  12,
+                  16
+                ]
+              },
+              {
+                "distance": 16.7,
+                "duration": 12.0,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  16,
+                  19
+                ]
+              },
+              {
+                "distance": 474.4,
+                "duration": 341.5,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  19,
+                  31
+                ]
+              },
+              {
+                "distance": 75.8,
+                "duration": 54.6,
+                "type": 0,
+                "instruction": "Turn left onto Le Coz Road",
+                "name": "Le Coz Road",
+                "way_points": [
+                  31,
+                  34
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Le Coz Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  34,
+                  34
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          34
+        ],
+        "summary": {
+          "distance": 879.9,
+          "duration": 633.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            174.962705,
+            -36.943147
+          ],
+          [
+            174.962712,
+            -36.943256
+          ],
+          [
+            174.962661,
+            -36.943358
+          ],
+          [
+            174.962674,
+            -36.943447
+          ],
+          [
+            174.962911,
+            -36.943673
+          ],
+          [
+            174.96298,
+            -36.943778
+          ],
+          [
+            174.963035,
+            -36.943918
+          ],
+          [
+            174.963069,
+            -36.944035
+          ],
+          [
+            174.963136,
+            -36.944678
+          ],
+          [
+            174.963184,
+            -36.944889
+          ],
+          [
+            174.963287,
+            -36.945082
+          ],
+          [
+            174.963439,
+            -36.945228
+          ],
+          [
+            174.963774,
+            -36.945335
+          ],
+          [
+            174.963858,
+            -36.945349
+          ],
+          [
+            174.96392,
+            -36.945396
+          ],
+          [
+            174.963936,
+            -36.945422
+          ],
+          [
+            174.964047,
+            -36.945491
+          ],
+          [
+            174.96402,
+            -36.945592
+          ],
+          [
+            174.964016,
+            -36.945621
+          ],
+          [
+            174.964014,
+            -36.945638
+          ],
+          [
+            174.963936,
+            -36.945652
+          ],
+          [
+            174.963832,
+            -36.945713
+          ],
+          [
+            174.963796,
+            -36.945756
+          ],
+          [
+            174.963743,
+            -36.945895
+          ],
+          [
+            174.963914,
+            -36.9472
+          ],
+          [
+            174.964073,
+            -36.947602
+          ],
+          [
+            174.964775,
+            -36.948427
+          ],
+          [
+            174.96502,
+            -36.948671
+          ],
+          [
+            174.96551,
+            -36.94922
+          ],
+          [
+            174.965588,
+            -36.949221
+          ],
+          [
+            174.965676,
+            -36.949175
+          ],
+          [
+            174.965702,
+            -36.949205
+          ],
+          [
+            174.965913,
+            -36.949057
+          ],
+          [
+            174.966109,
+            -36.948976
+          ],
+          [
+            174.96645,
+            -36.94891
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756375349436,
+    "query": {
+      "coordinates": [
+        [
+          174.9627049,
+          -36.9431469
+        ],
+        [
+          174.9664504,
+          -36.9489099
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

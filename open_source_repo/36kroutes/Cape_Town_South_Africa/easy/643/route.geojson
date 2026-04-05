@@ -1,0 +1,158 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.537361,
+    -34.00923,
+    18.540829,
+    -34.005717
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.537361,
+        -34.00923,
+        18.540829,
+        -34.005717
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 648.6,
+            "duration": 467.0,
+            "steps": [
+              {
+                "distance": 552.6,
+                "duration": 397.9,
+                "type": 11,
+                "instruction": "Head south on Ottery Road",
+                "name": "Ottery Road",
+                "way_points": [
+                  0,
+                  10
+                ]
+              },
+              {
+                "distance": 96.0,
+                "duration": 69.1,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  10,
+                  13
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  13,
+                  13
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          13
+        ],
+        "summary": {
+          "distance": 648.6,
+          "duration": 467.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.540527,
+            -34.005717
+          ],
+          [
+            18.540574,
+            -34.006044
+          ],
+          [
+            18.540646,
+            -34.006544
+          ],
+          [
+            18.540757,
+            -34.007334
+          ],
+          [
+            18.540826,
+            -34.00788
+          ],
+          [
+            18.540829,
+            -34.007982
+          ],
+          [
+            18.540809,
+            -34.008068
+          ],
+          [
+            18.540753,
+            -34.008151
+          ],
+          [
+            18.540709,
+            -34.008188
+          ],
+          [
+            18.540561,
+            -34.008268
+          ],
+          [
+            18.538029,
+            -34.00923
+          ],
+          [
+            18.537825,
+            -34.00884
+          ],
+          [
+            18.537637,
+            -34.008722
+          ],
+          [
+            18.537361,
+            -34.008641
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756805276359,
+    "query": {
+      "coordinates": [
+        [
+          18.5405269,
+          -34.0057166
+        ],
+        [
+          18.537361,
+          -34.0086411
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

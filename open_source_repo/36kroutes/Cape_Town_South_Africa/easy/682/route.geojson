@@ -1,0 +1,235 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.542074,
+    -33.939263,
+    18.544588,
+    -33.935759
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.542074,
+        -33.939263,
+        18.544588,
+        -33.935759
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 615.6,
+            "duration": 443.2,
+            "steps": [
+              {
+                "distance": 23.4,
+                "duration": 16.8,
+                "type": 11,
+                "instruction": "Head south",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 50.5,
+                "duration": 36.3,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  3
+                ]
+              },
+              {
+                "distance": 120.2,
+                "duration": 86.5,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  3,
+                  10
+                ]
+              },
+              {
+                "distance": 289.1,
+                "duration": 208.1,
+                "type": 0,
+                "instruction": "Turn left onto Bofors Circle",
+                "name": "Bofors Circle",
+                "way_points": [
+                  10,
+                  19
+                ]
+              },
+              {
+                "distance": 132.5,
+                "duration": 95.4,
+                "type": 1,
+                "instruction": "Turn right onto Bofors Circle",
+                "name": "Bofors Circle",
+                "way_points": [
+                  19,
+                  24
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Bofors Circle, straight ahead",
+                "name": "-",
+                "way_points": [
+                  24,
+                  24
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          24
+        ],
+        "summary": {
+          "distance": 615.6,
+          "duration": 443.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.544588,
+            -33.935759
+          ],
+          [
+            18.544563,
+            -33.935968
+          ],
+          [
+            18.544244,
+            -33.935947
+          ],
+          [
+            18.544017,
+            -33.93595
+          ],
+          [
+            18.543994,
+            -33.936257
+          ],
+          [
+            18.543988,
+            -33.936311
+          ],
+          [
+            18.543963,
+            -33.936517
+          ],
+          [
+            18.543926,
+            -33.936621
+          ],
+          [
+            18.5439,
+            -33.936653
+          ],
+          [
+            18.543778,
+            -33.936683
+          ],
+          [
+            18.543466,
+            -33.936678
+          ],
+          [
+            18.543424,
+            -33.937312
+          ],
+          [
+            18.54342,
+            -33.937375
+          ],
+          [
+            18.543386,
+            -33.93788
+          ],
+          [
+            18.543379,
+            -33.937945
+          ],
+          [
+            18.543353,
+            -33.938369
+          ],
+          [
+            18.543348,
+            -33.938637
+          ],
+          [
+            18.543366,
+            -33.938774
+          ],
+          [
+            18.543437,
+            -33.939009
+          ],
+          [
+            18.54349,
+            -33.939263
+          ],
+          [
+            18.543104,
+            -33.939244
+          ],
+          [
+            18.542895,
+            -33.93923
+          ],
+          [
+            18.542556,
+            -33.939212
+          ],
+          [
+            18.542215,
+            -33.939158
+          ],
+          [
+            18.542074,
+            -33.939108
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756805412197,
+    "query": {
+      "coordinates": [
+        [
+          18.5445879,
+          -33.9357591
+        ],
+        [
+          18.5420741,
+          -33.939108
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

@@ -1,0 +1,216 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -0.276619,
+    51.595278,
+    -0.267428,
+    51.600023
+  ],
+  "features": [
+    {
+      "bbox": [
+        -0.276619,
+        51.595278,
+        -0.267428,
+        51.600023
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 958.9,
+            "duration": 690.4,
+            "steps": [
+              {
+                "distance": 102.2,
+                "duration": 73.6,
+                "type": 11,
+                "instruction": "Head east on Brinkburn Gardens",
+                "name": "Brinkburn Gardens",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 58.5,
+                "duration": 42.1,
+                "type": 13,
+                "instruction": "Keep right onto Brinkburn Gardens",
+                "name": "Brinkburn Gardens",
+                "way_points": [
+                  1,
+                  4
+                ]
+              },
+              {
+                "distance": 442.5,
+                "duration": 318.6,
+                "type": 7,
+                "instruction": "Enter the roundabout and take the 1st exit onto Holyrood Gardens",
+                "name": "Holyrood Gardens",
+                "exit_number": 1,
+                "way_points": [
+                  4,
+                  9
+                ]
+              },
+              {
+                "distance": 308.1,
+                "duration": 221.8,
+                "type": 0,
+                "instruction": "Turn left onto Stag Lane",
+                "name": "Stag Lane",
+                "way_points": [
+                  9,
+                  17
+                ]
+              },
+              {
+                "distance": 47.7,
+                "duration": 34.3,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  17,
+                  19
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  19,
+                  19
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          19
+        ],
+        "summary": {
+          "distance": 958.9,
+          "duration": 690.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -0.276619,
+            51.595694
+          ],
+          [
+            -0.275144,
+            51.595759
+          ],
+          [
+            -0.274996,
+            51.595725
+          ],
+          [
+            -0.274911,
+            51.595674
+          ],
+          [
+            -0.274751,
+            51.595333
+          ],
+          [
+            -0.274541,
+            51.595335
+          ],
+          [
+            -0.274359,
+            51.595278
+          ],
+          [
+            -0.27191,
+            51.596986
+          ],
+          [
+            -0.27073,
+            51.597832
+          ],
+          [
+            -0.270384,
+            51.598064
+          ],
+          [
+            -0.270531,
+            51.598546
+          ],
+          [
+            -0.27049,
+            51.598654
+          ],
+          [
+            -0.270362,
+            51.598774
+          ],
+          [
+            -0.26983,
+            51.599074
+          ],
+          [
+            -0.269424,
+            51.599351
+          ],
+          [
+            -0.269181,
+            51.599472
+          ],
+          [
+            -0.268342,
+            51.599831
+          ],
+          [
+            -0.267819,
+            51.600023
+          ],
+          [
+            -0.267715,
+            51.59994
+          ],
+          [
+            -0.267428,
+            51.59967
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756828383647,
+    "query": {
+      "coordinates": [
+        [
+          -0.2766192,
+          51.595694
+        ],
+        [
+          -0.2674277,
+          51.5996697
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

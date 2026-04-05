@@ -1,0 +1,260 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -79.378822,
+    43.648448,
+    -79.376404,
+    43.652627
+  ],
+  "features": [
+    {
+      "bbox": [
+        -79.378822,
+        43.648448,
+        -79.376404,
+        43.652627
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 667.5,
+            "duration": 480.6,
+            "steps": [
+              {
+                "distance": 35.7,
+                "duration": 25.7,
+                "type": 11,
+                "instruction": "Head east on Melinda Street",
+                "name": "Melinda Street",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 78.4,
+                "duration": 56.5,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  5
+                ]
+              },
+              {
+                "distance": 17.1,
+                "duration": 12.3,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  5,
+                  7
+                ]
+              },
+              {
+                "distance": 276.1,
+                "duration": 198.8,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  7,
+                  12
+                ]
+              },
+              {
+                "distance": 101.1,
+                "duration": 72.8,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  12,
+                  16
+                ]
+              },
+              {
+                "distance": 17.8,
+                "duration": 12.8,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  16,
+                  18
+                ]
+              },
+              {
+                "distance": 107.4,
+                "duration": 77.3,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  18,
+                  21
+                ]
+              },
+              {
+                "distance": 33.8,
+                "duration": 24.3,
+                "type": 0,
+                "instruction": "Turn left onto Berti Street",
+                "name": "Berti Street",
+                "way_points": [
+                  21,
+                  22
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Berti Street, straight ahead",
+                "name": "-",
+                "way_points": [
+                  22,
+                  22
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          22
+        ],
+        "summary": {
+          "distance": 667.5,
+          "duration": 480.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -79.378171,
+            43.648448
+          ],
+          [
+            -79.377747,
+            43.648543
+          ],
+          [
+            -79.377769,
+            43.648602
+          ],
+          [
+            -79.377972,
+            43.649073
+          ],
+          [
+            -79.378001,
+            43.649146
+          ],
+          [
+            -79.378029,
+            43.649218
+          ],
+          [
+            -79.377927,
+            43.649247
+          ],
+          [
+            -79.377827,
+            43.649267
+          ],
+          [
+            -79.37801,
+            43.649682
+          ],
+          [
+            -79.378295,
+            43.650374
+          ],
+          [
+            -79.378327,
+            43.650449
+          ],
+          [
+            -79.37836,
+            43.650524
+          ],
+          [
+            -79.378822,
+            43.651644
+          ],
+          [
+            -79.37818,
+            43.651788
+          ],
+          [
+            -79.377839,
+            43.651859
+          ],
+          [
+            -79.377732,
+            43.651883
+          ],
+          [
+            -79.377619,
+            43.651907
+          ],
+          [
+            -79.377647,
+            43.651974
+          ],
+          [
+            -79.377684,
+            43.652061
+          ],
+          [
+            -79.376863,
+            43.65224
+          ],
+          [
+            -79.37646,
+            43.652322
+          ],
+          [
+            -79.376404,
+            43.652334
+          ],
+          [
+            -79.376519,
+            43.652627
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756124699137,
+    "query": {
+      "coordinates": [
+        [
+          -79.3781714,
+          43.6484482
+        ],
+        [
+          -79.3765186,
+          43.6526265
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

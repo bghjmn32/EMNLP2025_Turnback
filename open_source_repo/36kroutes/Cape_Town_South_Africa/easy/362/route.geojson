@@ -1,0 +1,165 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.563172,
+    -33.908922,
+    18.565331,
+    -33.901849
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.563172,
+        -33.908922,
+        18.565331,
+        -33.901849
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 906.9,
+            "duration": 653.0,
+            "steps": [
+              {
+                "distance": 49.7,
+                "duration": 35.8,
+                "type": 11,
+                "instruction": "Head east on Milton Road",
+                "name": "Milton Road",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 752.3,
+                "duration": 541.7,
+                "type": 1,
+                "instruction": "Turn right onto Molteno Street",
+                "name": "Molteno Street",
+                "way_points": [
+                  1,
+                  6
+                ]
+              },
+              {
+                "distance": 104.9,
+                "duration": 75.5,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  6,
+                  12
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  12,
+                  12
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          12
+        ],
+        "summary": {
+          "distance": 906.9,
+          "duration": 653.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.563172,
+            -33.901942
+          ],
+          [
+            18.563699,
+            -33.901849
+          ],
+          [
+            18.564074,
+            -33.903409
+          ],
+          [
+            18.564439,
+            -33.904914
+          ],
+          [
+            18.564809,
+            -33.906419
+          ],
+          [
+            18.565188,
+            -33.907915
+          ],
+          [
+            18.565331,
+            -33.908478
+          ],
+          [
+            18.56481,
+            -33.908572
+          ],
+          [
+            18.564651,
+            -33.908612
+          ],
+          [
+            18.564572,
+            -33.908651
+          ],
+          [
+            18.564514,
+            -33.908733
+          ],
+          [
+            18.564519,
+            -33.908783
+          ],
+          [
+            18.564552,
+            -33.908922
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756804679694,
+    "query": {
+      "coordinates": [
+        [
+          18.5631722,
+          -33.9019424
+        ],
+        [
+          18.5645517,
+          -33.9089222
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    151.182016,
+    -33.80427,
+    151.185157,
+    -33.802012
+  ],
+  "features": [
+    {
+      "bbox": [
+        151.182016,
+        -33.80427,
+        151.185157,
+        -33.802012
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 556.4,
+            "duration": 400.6,
+            "steps": [
+              {
+                "distance": 6.5,
+                "duration": 4.7,
+                "type": 11,
+                "instruction": "Head east on Nea Street",
+                "name": "Nea Street",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 225.1,
+                "duration": 162.1,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  6
+                ]
+              },
+              {
+                "distance": 55.5,
+                "duration": 40.0,
+                "type": 5,
+                "instruction": "Turn slight right",
+                "name": "-",
+                "way_points": [
+                  6,
+                  8
+                ]
+              },
+              {
+                "distance": 269.2,
+                "duration": 193.8,
+                "type": 0,
+                "instruction": "Turn left onto Cambridge Road",
+                "name": "Cambridge Road",
+                "way_points": [
+                  8,
+                  10
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Cambridge Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  10,
+                  10
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          10
+        ],
+        "summary": {
+          "distance": 556.4,
+          "duration": 400.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            151.182252,
+            -33.802012
+          ],
+          [
+            151.182322,
+            -33.802022
+          ],
+          [
+            151.182016,
+            -33.803707
+          ],
+          [
+            151.182044,
+            -33.803769
+          ],
+          [
+            151.182139,
+            -33.803779
+          ],
+          [
+            151.182232,
+            -33.803808
+          ],
+          [
+            151.182333,
+            -33.803842
+          ],
+          [
+            151.182607,
+            -33.804218
+          ],
+          [
+            151.182644,
+            -33.80427
+          ],
+          [
+            151.185008,
+            -33.803083
+          ],
+          [
+            151.185157,
+            -33.803062
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756392492301,
+    "query": {
+      "coordinates": [
+        [
+          151.1822519,
+          -33.8020121
+        ],
+        [
+          151.1851567,
+          -33.803062
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.456184,
+    -22.864125,
+    -43.45206,
+    -22.860625
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.456184,
+        -22.864125,
+        -43.45206,
+        -22.860625
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 832.4,
+            "duration": 599.3,
+            "steps": [
+              {
+                "distance": 109.9,
+                "duration": 79.1,
+                "type": 11,
+                "instruction": "Head west on Avenida Brasil",
+                "name": "Avenida Brasil",
+                "way_points": [
+                  0,
+                  4
+                ]
+              },
+              {
+                "distance": 20.5,
+                "duration": 14.7,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "distance": 27.6,
+                "duration": 19.9,
+                "type": 3,
+                "instruction": "Turn sharp right onto Rua Arindo da Silva Alves",
+                "name": "Rua Arindo da Silva Alves",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 209.3,
+                "duration": 150.7,
+                "type": 4,
+                "instruction": "Turn slight left onto Avenida Brasil",
+                "name": "Avenida Brasil",
+                "way_points": [
+                  6,
+                  9
+                ]
+              },
+              {
+                "distance": 194.7,
+                "duration": 140.2,
+                "type": 0,
+                "instruction": "Turn left onto Estrada Porto Nacional",
+                "name": "Estrada Porto Nacional",
+                "way_points": [
+                  9,
+                  11
+                ]
+              },
+              {
+                "distance": 72.0,
+                "duration": 51.8,
+                "type": 1,
+                "instruction": "Turn right onto Estrada da Água Branca",
+                "name": "Estrada da Água Branca",
+                "way_points": [
+                  11,
+                  13
+                ]
+              },
+              {
+                "distance": 198.4,
+                "duration": 142.9,
+                "type": 0,
+                "instruction": "Turn left onto Rua Geraldo Cavalcanti",
+                "name": "Rua Geraldo Cavalcanti",
+                "way_points": [
+                  13,
+                  15
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Rua Geraldo Cavalcanti, straight ahead",
+                "name": "-",
+                "way_points": [
+                  15,
+                  15
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          15
+        ],
+        "summary": {
+          "distance": 832.4,
+          "duration": 599.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.45206,
+            -22.861256
+          ],
+          [
+            -43.452083,
+            -22.861252
+          ],
+          [
+            -43.45233,
+            -22.861215
+          ],
+          [
+            -43.452668,
+            -22.861141
+          ],
+          [
+            -43.453107,
+            -22.861045
+          ],
+          [
+            -43.453237,
+            -22.861185
+          ],
+          [
+            -43.453394,
+            -22.860982
+          ],
+          [
+            -43.453896,
+            -22.860881
+          ],
+          [
+            -43.454701,
+            -22.860745
+          ],
+          [
+            -43.455399,
+            -22.860625
+          ],
+          [
+            -43.455578,
+            -22.861534
+          ],
+          [
+            -43.455482,
+            -22.862356
+          ],
+          [
+            -43.455929,
+            -22.862366
+          ],
+          [
+            -43.456184,
+            -22.862356
+          ],
+          [
+            -43.456157,
+            -22.862636
+          ],
+          [
+            -43.455927,
+            -22.864125
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756394783915,
+    "query": {
+      "coordinates": [
+        [
+          -43.4520597,
+          -22.8612558
+        ],
+        [
+          -43.4559271,
+          -22.8641248
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

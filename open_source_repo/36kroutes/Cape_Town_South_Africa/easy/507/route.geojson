@@ -1,0 +1,176 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.539558,
+    -33.857106,
+    18.549188,
+    -33.852452
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.539558,
+        -33.857106,
+        18.549188,
+        -33.852452
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1080.9,
+            "duration": 778.2,
+            "steps": [
+              {
+                "distance": 960.5,
+                "duration": 691.5,
+                "type": 11,
+                "instruction": "Head northwest on Steenoven Street",
+                "name": "Steenoven Street",
+                "way_points": [
+                  0,
+                  9
+                ]
+              },
+              {
+                "distance": 9.0,
+                "duration": 6.5,
+                "type": 1,
+                "instruction": "Turn right onto Kompanjie Street",
+                "name": "Kompanjie Street",
+                "way_points": [
+                  9,
+                  10
+                ]
+              },
+              {
+                "distance": 32.3,
+                "duration": 23.3,
+                "type": 0,
+                "instruction": "Turn left onto Steenoven Street",
+                "name": "Steenoven Street",
+                "way_points": [
+                  10,
+                  11
+                ]
+              },
+              {
+                "distance": 79.1,
+                "duration": 56.9,
+                "type": 1,
+                "instruction": "Turn right onto Cook Street",
+                "name": "Cook Street",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Cook Street, straight ahead",
+                "name": "-",
+                "way_points": [
+                  12,
+                  12
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          12
+        ],
+        "summary": {
+          "distance": 1080.9,
+          "duration": 778.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.549188,
+            -33.857106
+          ],
+          [
+            18.546747,
+            -33.856073
+          ],
+          [
+            18.546306,
+            -33.855875
+          ],
+          [
+            18.545545,
+            -33.85555
+          ],
+          [
+            18.544735,
+            -33.855213
+          ],
+          [
+            18.544714,
+            -33.855204
+          ],
+          [
+            18.543657,
+            -33.854744
+          ],
+          [
+            18.543358,
+            -33.854616
+          ],
+          [
+            18.542243,
+            -33.854183
+          ],
+          [
+            18.539855,
+            -33.8533
+          ],
+          [
+            18.539889,
+            -33.853224
+          ],
+          [
+            18.539558,
+            -33.853129
+          ],
+          [
+            18.539819,
+            -33.852452
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756804969602,
+    "query": {
+      "coordinates": [
+        [
+          18.5491882,
+          -33.8571058
+        ],
+        [
+          18.5398193,
+          -33.8524519
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

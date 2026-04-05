@@ -1,0 +1,199 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    151.0399,
+    -33.964303,
+    151.04459,
+    -33.958693
+  ],
+  "features": [
+    {
+      "bbox": [
+        151.0399,
+        -33.964303,
+        151.04459,
+        -33.958693
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 843.8,
+            "duration": 607.5,
+            "steps": [
+              {
+                "distance": 6.7,
+                "duration": 4.8,
+                "type": 11,
+                "instruction": "Head north",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 9.2,
+                "duration": 6.6,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 296.7,
+                "duration": 213.6,
+                "type": 0,
+                "instruction": "Turn left onto Elwin Street",
+                "name": "Elwin Street",
+                "way_points": [
+                  2,
+                  6
+                ]
+              },
+              {
+                "distance": 47.4,
+                "duration": 34.1,
+                "type": 12,
+                "instruction": "Keep left",
+                "name": "-",
+                "way_points": [
+                  6,
+                  9
+                ]
+              },
+              {
+                "distance": 483.8,
+                "duration": 348.3,
+                "type": 3,
+                "instruction": "Turn sharp right onto Henry Lawson Drive",
+                "name": "Henry Lawson Drive",
+                "way_points": [
+                  9,
+                  15
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Henry Lawson Drive, straight ahead",
+                "name": "-",
+                "way_points": [
+                  15,
+                  15
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          15
+        ],
+        "summary": {
+          "distance": 843.8,
+          "duration": 607.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            151.044578,
+            -33.95877
+          ],
+          [
+            151.04459,
+            -33.958711
+          ],
+          [
+            151.044493,
+            -33.958693
+          ],
+          [
+            151.044206,
+            -33.960056
+          ],
+          [
+            151.043967,
+            -33.960729
+          ],
+          [
+            151.043786,
+            -33.961172
+          ],
+          [
+            151.043776,
+            -33.961288
+          ],
+          [
+            151.043845,
+            -33.961379
+          ],
+          [
+            151.043844,
+            -33.961494
+          ],
+          [
+            151.044025,
+            -33.961632
+          ],
+          [
+            151.043322,
+            -33.962018
+          ],
+          [
+            151.042764,
+            -33.962408
+          ],
+          [
+            151.041279,
+            -33.963496
+          ],
+          [
+            151.040838,
+            -33.963798
+          ],
+          [
+            151.040511,
+            -33.963995
+          ],
+          [
+            151.0399,
+            -33.964303
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756396334671,
+    "query": {
+      "coordinates": [
+        [
+          151.044578,
+          -33.9587704
+        ],
+        [
+          151.0398999,
+          -33.9643035
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

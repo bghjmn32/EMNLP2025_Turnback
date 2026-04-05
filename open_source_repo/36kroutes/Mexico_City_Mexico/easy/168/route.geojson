@@ -1,0 +1,200 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.038599,
+    19.272129,
+    -99.036564,
+    19.276005
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.038599,
+        19.272129,
+        -99.036564,
+        19.276005
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 623.7,
+            "duration": 449.1,
+            "steps": [
+              {
+                "distance": 100.4,
+                "duration": 72.3,
+                "type": 11,
+                "instruction": "Head west on Calle Clavel",
+                "name": "Calle Clavel",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 356.8,
+                "duration": 256.9,
+                "type": 0,
+                "instruction": "Turn left onto Calle Onofre Capeto",
+                "name": "Calle Onofre Capeto",
+                "way_points": [
+                  1,
+                  12
+                ]
+              },
+              {
+                "distance": 78.4,
+                "duration": 56.4,
+                "type": 1,
+                "instruction": "Turn right onto Calle Cempazúchtl",
+                "name": "Calle Cempazúchtl",
+                "way_points": [
+                  12,
+                  15
+                ]
+              },
+              {
+                "distance": 88.2,
+                "duration": 63.5,
+                "type": 2,
+                "instruction": "Turn sharp left onto Calzada Guillermo Prieto",
+                "name": "Calzada Guillermo Prieto",
+                "way_points": [
+                  15,
+                  18
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calzada Guillermo Prieto, straight ahead",
+                "name": "-",
+                "way_points": [
+                  18,
+                  18
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          18
+        ],
+        "summary": {
+          "distance": 623.7,
+          "duration": 449.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.036564,
+            19.276005
+          ],
+          [
+            -99.03752,
+            19.27599
+          ],
+          [
+            -99.037533,
+            19.275555
+          ],
+          [
+            -99.037532,
+            19.275395
+          ],
+          [
+            -99.037542,
+            19.275098
+          ],
+          [
+            -99.037541,
+            19.274807
+          ],
+          [
+            -99.037554,
+            19.27449
+          ],
+          [
+            -99.037567,
+            19.274208
+          ],
+          [
+            -99.037564,
+            19.274085
+          ],
+          [
+            -99.037567,
+            19.273782
+          ],
+          [
+            -99.037574,
+            19.273147
+          ],
+          [
+            -99.037579,
+            19.272856
+          ],
+          [
+            -99.037577,
+            19.272783
+          ],
+          [
+            -99.038074,
+            19.272782
+          ],
+          [
+            -99.038198,
+            19.272797
+          ],
+          [
+            -99.038309,
+            19.27285
+          ],
+          [
+            -99.038301,
+            19.272799
+          ],
+          [
+            -99.038397,
+            19.272399
+          ],
+          [
+            -99.038599,
+            19.272129
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756304752086,
+    "query": {
+      "coordinates": [
+        [
+          -99.0365639,
+          19.2760053
+        ],
+        [
+          -99.0385995,
+          19.2721288
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

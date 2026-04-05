@@ -1,0 +1,290 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.545943,
+    -33.88714,
+    18.558999,
+    -33.878688
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.545943,
+        -33.88714,
+        18.558999,
+        -33.878688
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1855.1,
+            "duration": 1335.6,
+            "steps": [
+              {
+                "distance": 426.5,
+                "duration": 307.1,
+                "type": 11,
+                "instruction": "Head east on Drakenstein Street",
+                "name": "Drakenstein Street",
+                "way_points": [
+                  0,
+                  7
+                ]
+              },
+              {
+                "distance": 130.3,
+                "duration": 93.8,
+                "type": 1,
+                "instruction": "Turn right onto Montague Road",
+                "name": "Montague Road",
+                "way_points": [
+                  7,
+                  9
+                ]
+              },
+              {
+                "distance": 1008.8,
+                "duration": 726.3,
+                "type": 0,
+                "instruction": "Turn left onto Tulbagh Street",
+                "name": "Tulbagh Street",
+                "way_points": [
+                  9,
+                  18
+                ]
+              },
+              {
+                "distance": 97.1,
+                "duration": 69.9,
+                "type": 1,
+                "instruction": "Turn right onto Camoens Avenue",
+                "name": "Camoens Avenue",
+                "way_points": [
+                  18,
+                  21
+                ]
+              },
+              {
+                "distance": 131.3,
+                "duration": 94.5,
+                "type": 0,
+                "instruction": "Turn left onto Monte Vista Boulevard, M26",
+                "name": "Monte Vista Boulevard, M26",
+                "way_points": [
+                  21,
+                  25
+                ]
+              },
+              {
+                "distance": 36.0,
+                "duration": 25.9,
+                "type": 13,
+                "instruction": "Keep right onto Monte Vista Boulevard, M26",
+                "name": "Monte Vista Boulevard, M26",
+                "way_points": [
+                  25,
+                  27
+                ]
+              },
+              {
+                "distance": 25.1,
+                "duration": 18.1,
+                "type": 7,
+                "instruction": "Enter the roundabout and take the 3rd exit onto M26",
+                "name": "M26",
+                "exit_number": 3,
+                "way_points": [
+                  27,
+                  32
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at M26, straight ahead",
+                "name": "-",
+                "way_points": [
+                  32,
+                  32
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          32
+        ],
+        "summary": {
+          "distance": 1855.1,
+          "duration": 1335.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.545943,
+            -33.887059
+          ],
+          [
+            18.547195,
+            -33.887112
+          ],
+          [
+            18.547722,
+            -33.887133
+          ],
+          [
+            18.547832,
+            -33.88714
+          ],
+          [
+            18.548051,
+            -33.887018
+          ],
+          [
+            18.548543,
+            -33.886785
+          ],
+          [
+            18.549702,
+            -33.886057
+          ],
+          [
+            18.55009,
+            -33.885876
+          ],
+          [
+            18.550371,
+            -33.886315
+          ],
+          [
+            18.550756,
+            -33.886908
+          ],
+          [
+            18.55177,
+            -33.886445
+          ],
+          [
+            18.552474,
+            -33.885901
+          ],
+          [
+            18.552749,
+            -33.885578
+          ],
+          [
+            18.554016,
+            -33.883936
+          ],
+          [
+            18.555096,
+            -33.882524
+          ],
+          [
+            18.555482,
+            -33.882011
+          ],
+          [
+            18.555743,
+            -33.881665
+          ],
+          [
+            18.556132,
+            -33.881159
+          ],
+          [
+            18.557241,
+            -33.879752
+          ],
+          [
+            18.557924,
+            -33.880111
+          ],
+          [
+            18.558026,
+            -33.880166
+          ],
+          [
+            18.558129,
+            -33.880221
+          ],
+          [
+            18.558431,
+            -33.879796
+          ],
+          [
+            18.558539,
+            -33.879606
+          ],
+          [
+            18.558698,
+            -33.879263
+          ],
+          [
+            18.558739,
+            -33.879159
+          ],
+          [
+            18.558841,
+            -33.878988
+          ],
+          [
+            18.558943,
+            -33.878886
+          ],
+          [
+            18.558981,
+            -33.878848
+          ],
+          [
+            18.558999,
+            -33.878802
+          ],
+          [
+            18.558995,
+            -33.878753
+          ],
+          [
+            18.558968,
+            -33.878709
+          ],
+          [
+            18.558942,
+            -33.878688
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756811026065,
+    "query": {
+      "coordinates": [
+        [
+          18.5459427,
+          -33.8870593
+        ],
+        [
+          18.5589419,
+          -33.878688
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

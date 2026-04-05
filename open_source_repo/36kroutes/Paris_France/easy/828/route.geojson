@@ -1,0 +1,260 @@
+{
+    "type": "FeatureCollection",
+    "bbox": [
+        2.278657,
+        48.847395,
+        2.281388,
+        48.851535
+    ],
+    "features": [
+        {
+            "bbox": [
+                2.278657,
+                48.847395,
+                2.281388,
+                48.851535
+            ],
+            "type": "Feature",
+            "properties": {
+                "segments": [
+                    {
+                        "distance": 656.4,
+                        "duration": 472.6,
+                        "steps": [
+                            {
+                                "distance": 15.9,
+                                "duration": 11.4,
+                                "type": 11,
+                                "instruction": "Head east",
+                                "name": "-",
+                                "way_points": [
+                                    0,
+                                    1
+                                ]
+                            },
+                            {
+                                "distance": 26.6,
+                                "duration": 19.1,
+                                "type": 3,
+                                "instruction": "Turn sharp right",
+                                "name": "-",
+                                "way_points": [
+                                    1,
+                                    2
+                                ]
+                            },
+                            {
+                                "distance": 4.1,
+                                "duration": 3.0,
+                                "type": 0,
+                                "instruction": "Turn left",
+                                "name": "-",
+                                "way_points": [
+                                    2,
+                                    3
+                                ]
+                            },
+                            {
+                                "distance": 267.5,
+                                "duration": 192.6,
+                                "type": 4,
+                                "instruction": "Turn slight left",
+                                "name": "-",
+                                "way_points": [
+                                    3,
+                                    9
+                                ]
+                            },
+                            {
+                                "distance": 28.6,
+                                "duration": 20.6,
+                                "type": 1,
+                                "instruction": "Turn right onto Port de Grenelle",
+                                "name": "Port de Grenelle",
+                                "way_points": [
+                                    9,
+                                    11
+                                ]
+                            },
+                            {
+                                "distance": 23.8,
+                                "duration": 17.2,
+                                "type": 0,
+                                "instruction": "Turn left",
+                                "name": "-",
+                                "way_points": [
+                                    11,
+                                    13
+                                ]
+                            },
+                            {
+                                "distance": 233.4,
+                                "duration": 168.0,
+                                "type": 1,
+                                "instruction": "Turn right onto Quai Andr\u00e9 Citro\u00ebn",
+                                "name": "Quai Andr\u00e9 Citro\u00ebn",
+                                "way_points": [
+                                    13,
+                                    18
+                                ]
+                            },
+                            {
+                                "distance": 56.6,
+                                "duration": 40.8,
+                                "type": 4,
+                                "instruction": "Turn slight left onto Quai Andr\u00e9 Citro\u00ebn",
+                                "name": "Quai Andr\u00e9 Citro\u00ebn",
+                                "way_points": [
+                                    18,
+                                    22
+                                ]
+                            },
+                            {
+                                "distance": 0.0,
+                                "duration": 0.0,
+                                "type": 10,
+                                "instruction": "Arrive at Quai Andr\u00e9 Citro\u00ebn, straight ahead",
+                                "name": "-",
+                                "way_points": [
+                                    22,
+                                    22
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "way_points": [
+                    0,
+                    22
+                ],
+                "summary": {
+                    "distance": 656.4,
+                    "duration": 472.6
+                }
+            },
+            "geometry": {
+                "coordinates": [
+                    [
+                        2.278799,
+                        48.851535
+                    ],
+                    [
+                        2.279013,
+                        48.85151
+                    ],
+                    [
+                        2.278743,
+                        48.85135
+                    ],
+                    [
+                        2.278756,
+                        48.851314
+                    ],
+                    [
+                        2.278932,
+                        48.851212
+                    ],
+                    [
+                        2.279109,
+                        48.851043
+                    ],
+                    [
+                        2.279227,
+                        48.850971
+                    ],
+                    [
+                        2.280206,
+                        48.850365
+                    ],
+                    [
+                        2.281349,
+                        48.849671
+                    ],
+                    [
+                        2.281388,
+                        48.849651
+                    ],
+                    [
+                        2.28125,
+                        48.849564
+                    ],
+                    [
+                        2.281105,
+                        48.849474
+                    ],
+                    [
+                        2.281127,
+                        48.849451
+                    ],
+                    [
+                        2.28132,
+                        48.849313
+                    ],
+                    [
+                        2.281229,
+                        48.849208
+                    ],
+                    [
+                        2.281089,
+                        48.849101
+                    ],
+                    [
+                        2.279475,
+                        48.847971
+                    ],
+                    [
+                        2.279218,
+                        48.847784
+                    ],
+                    [
+                        2.279168,
+                        48.847776
+                    ],
+                    [
+                        2.278895,
+                        48.847578
+                    ],
+                    [
+                        2.278831,
+                        48.847529
+                    ],
+                    [
+                        2.278668,
+                        48.847403
+                    ],
+                    [
+                        2.278657,
+                        48.847395
+                    ]
+                ],
+                "type": "LineString"
+            }
+        }
+    ],
+    "metadata": {
+        "attribution": "openrouteservice.org | OpenStreetMap contributors",
+        "service": "routing",
+        "timestamp": 1755872820708,
+        "query": {
+            "coordinates": [
+                [
+                    2.2787991,
+                    48.8515349
+                ],
+                [
+                    2.2786565,
+                    48.8473946
+                ]
+            ],
+            "profile": "foot-walking",
+            "profileName": "foot-walking",
+            "format": "geojson"
+        },
+        "engine": {
+            "version": "9.3.0",
+            "build_date": "2025-06-06T15:39:25Z",
+            "graph_date": "2025-08-19T13:56:51Z",
+            "osm_date": "2025-08-10T23:59:57Z"
+        }
+    }
+}

@@ -1,0 +1,176 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.077345,
+    19.485859,
+    -99.072976,
+    19.48842
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.077345,
+        19.485859,
+        -99.072976,
+        19.48842
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 753.6,
+            "duration": 542.6,
+            "steps": [
+              {
+                "distance": 206.3,
+                "duration": 148.5,
+                "type": 11,
+                "instruction": "Head west on Calle Estado de Oaxaca",
+                "name": "Calle Estado de Oaxaca",
+                "way_points": [
+                  0,
+                  4
+                ]
+              },
+              {
+                "distance": 52.9,
+                "duration": 38.1,
+                "type": 0,
+                "instruction": "Turn left onto Camino de la Unión A",
+                "name": "Camino de la Unión A",
+                "way_points": [
+                  4,
+                  6
+                ]
+              },
+              {
+                "distance": 216.1,
+                "duration": 155.6,
+                "type": 3,
+                "instruction": "Turn sharp right onto Camino de la Voluntad",
+                "name": "Camino de la Voluntad",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 278.4,
+                "duration": 200.4,
+                "type": 0,
+                "instruction": "Turn left onto Camino de la Cooperación",
+                "name": "Camino de la Cooperación",
+                "way_points": [
+                  7,
+                  12
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Camino de la Cooperación, straight ahead",
+                "name": "-",
+                "way_points": [
+                  12,
+                  12
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          12
+        ],
+        "summary": {
+          "distance": 753.6,
+          "duration": 542.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.072976,
+            19.485859
+          ],
+          [
+            -99.073457,
+            19.486012
+          ],
+          [
+            -99.073896,
+            19.486164
+          ],
+          [
+            -99.074429,
+            19.486348
+          ],
+          [
+            -99.074828,
+            19.486487
+          ],
+          [
+            -99.07496,
+            19.486229
+          ],
+          [
+            -99.075083,
+            19.48608
+          ],
+          [
+            -99.074728,
+            19.487994
+          ],
+          [
+            -99.075291,
+            19.488083
+          ],
+          [
+            -99.075809,
+            19.488169
+          ],
+          [
+            -99.076321,
+            19.48826
+          ],
+          [
+            -99.076818,
+            19.488342
+          ],
+          [
+            -99.077345,
+            19.48842
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756307635644,
+    "query": {
+      "coordinates": [
+        [
+          -99.0729765,
+          19.4858589
+        ],
+        [
+          -99.0773454,
+          19.4884198
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

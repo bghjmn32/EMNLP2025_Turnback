@@ -1,0 +1,204 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.554951,
+    -33.903048,
+    18.564014,
+    -33.900156
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.554951,
+        -33.903048,
+        18.564014,
+        -33.900156
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1118.4,
+            "duration": 805.3,
+            "steps": [
+              {
+                "distance": 69.6,
+                "duration": 50.1,
+                "type": 11,
+                "instruction": "Head east on Marshall Road",
+                "name": "Marshall Road",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 321.9,
+                "duration": 231.8,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  3
+                ]
+              },
+              {
+                "distance": 34.2,
+                "duration": 24.6,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  3,
+                  7
+                ]
+              },
+              {
+                "distance": 692.7,
+                "duration": 498.7,
+                "type": 0,
+                "instruction": "Turn left onto Milton Road",
+                "name": "Milton Road",
+                "way_points": [
+                  7,
+                  19
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Milton Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  19,
+                  19
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          19
+        ],
+        "summary": {
+          "distance": 1118.4,
+          "duration": 805.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.554951,
+            -33.900282
+          ],
+          [
+            18.55569,
+            -33.900156
+          ],
+          [
+            18.556064,
+            -33.901648
+          ],
+          [
+            18.55639,
+            -33.902993
+          ],
+          [
+            18.556476,
+            -33.902979
+          ],
+          [
+            18.556565,
+            -33.902966
+          ],
+          [
+            18.556639,
+            -33.902953
+          ],
+          [
+            18.556662,
+            -33.903048
+          ],
+          [
+            18.557282,
+            -33.902946
+          ],
+          [
+            18.558089,
+            -33.902812
+          ],
+          [
+            18.558883,
+            -33.902671
+          ],
+          [
+            18.559687,
+            -33.902536
+          ],
+          [
+            18.56048,
+            -33.902399
+          ],
+          [
+            18.561277,
+            -33.902262
+          ],
+          [
+            18.561631,
+            -33.902204
+          ],
+          [
+            18.562077,
+            -33.902127
+          ],
+          [
+            18.562895,
+            -33.901991
+          ],
+          [
+            18.563172,
+            -33.901942
+          ],
+          [
+            18.563699,
+            -33.901849
+          ],
+          [
+            18.564014,
+            -33.901796
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756804147827,
+    "query": {
+      "coordinates": [
+        [
+          18.5549511,
+          -33.9002821
+        ],
+        [
+          18.5640139,
+          -33.9017958
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

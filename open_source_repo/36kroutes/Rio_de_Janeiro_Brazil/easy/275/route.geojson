@@ -1,0 +1,155 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.23357,
+    -22.989574,
+    -43.22887,
+    -22.988452
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.23357,
+        -22.989574,
+        -43.22887,
+        -22.988452
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 525.3,
+            "duration": 378.2,
+            "steps": [
+              {
+                "distance": 525.3,
+                "duration": 378.2,
+                "type": 11,
+                "instruction": "Head east on Estrada do Vidigal",
+                "name": "Estrada do Vidigal",
+                "way_points": [
+                  0,
+                  15
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Estrada do Vidigal, straight ahead",
+                "name": "-",
+                "way_points": [
+                  15,
+                  15
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          15
+        ],
+        "summary": {
+          "distance": 525.3,
+          "duration": 378.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.23357,
+            -22.988505
+          ],
+          [
+            -43.233296,
+            -22.988471
+          ],
+          [
+            -43.232959,
+            -22.988452
+          ],
+          [
+            -43.232477,
+            -22.988481
+          ],
+          [
+            -43.231546,
+            -22.988741
+          ],
+          [
+            -43.231052,
+            -22.988822
+          ],
+          [
+            -43.230999,
+            -22.988844
+          ],
+          [
+            -43.230875,
+            -22.988976
+          ],
+          [
+            -43.230608,
+            -22.989317
+          ],
+          [
+            -43.230478,
+            -22.989407
+          ],
+          [
+            -43.230086,
+            -22.989555
+          ],
+          [
+            -43.229893,
+            -22.989564
+          ],
+          [
+            -43.229551,
+            -22.989553
+          ],
+          [
+            -43.229114,
+            -22.98946
+          ],
+          [
+            -43.22901,
+            -22.989467
+          ],
+          [
+            -43.22887,
+            -22.989574
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756391526185,
+    "query": {
+      "coordinates": [
+        [
+          -43.2335696,
+          -22.9885048
+        ],
+        [
+          -43.2288698,
+          -22.9895736
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

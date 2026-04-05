@@ -1,0 +1,126 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -104.790165,
+    39.732873,
+    -104.784177,
+    39.733093
+  ],
+  "features": [
+    {
+      "bbox": [
+        -104.790165,
+        39.732873,
+        -104.784177,
+        39.733093
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 532.9,
+            "duration": 383.7,
+            "steps": [
+              {
+                "distance": 21.9,
+                "duration": 15.7,
+                "type": 11,
+                "instruction": "Head south",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 511.1,
+                "duration": 368.0,
+                "type": 0,
+                "instruction": "Turn left onto East 10th Avenue",
+                "name": "East 10th Avenue",
+                "way_points": [
+                  1,
+                  5
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at East 10th Avenue, straight ahead",
+                "name": "-",
+                "way_points": [
+                  5,
+                  5
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          5
+        ],
+        "summary": {
+          "distance": 532.9,
+          "duration": 383.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -104.790165,
+            39.733093
+          ],
+          [
+            -104.790152,
+            39.732897
+          ],
+          [
+            -104.788869,
+            39.732904
+          ],
+          [
+            -104.786521,
+            39.732903
+          ],
+          [
+            -104.784661,
+            39.732896
+          ],
+          [
+            -104.784177,
+            39.732873
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756304017717,
+    "query": {
+      "coordinates": [
+        [
+          -104.790165,
+          39.733093
+        ],
+        [
+          -104.784177,
+          39.7328726
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

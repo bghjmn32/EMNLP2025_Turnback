@@ -1,0 +1,234 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    103.961463,
+    1.33259,
+    103.963582,
+    1.335635
+  ],
+  "features": [
+    {
+      "bbox": [
+        103.961463,
+        1.33259,
+        103.963582,
+        1.335635
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 572.6,
+            "duration": 412.3,
+            "steps": [
+              {
+                "distance": 43.2,
+                "duration": 31.1,
+                "type": 11,
+                "instruction": "Head southeast on Expo Drive",
+                "name": "Expo Drive",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 15.3,
+                "duration": 11.0,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  3
+                ]
+              },
+              {
+                "distance": 22.4,
+                "duration": 16.1,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  3,
+                  6
+                ]
+              },
+              {
+                "distance": 448.8,
+                "duration": 323.1,
+                "type": 1,
+                "instruction": "Turn right onto Expo Drive",
+                "name": "Expo Drive",
+                "way_points": [
+                  6,
+                  16
+                ]
+              },
+              {
+                "distance": 20.8,
+                "duration": 15.0,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  16,
+                  18
+                ]
+              },
+              {
+                "distance": 22.1,
+                "duration": 15.9,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  18,
+                  21
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  21,
+                  21
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          21
+        ],
+        "summary": {
+          "distance": 572.6,
+          "duration": 412.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            103.961938,
+            1.335635
+          ],
+          [
+            103.962261,
+            1.335419
+          ],
+          [
+            103.962193,
+            1.335332
+          ],
+          [
+            103.962186,
+            1.335305
+          ],
+          [
+            103.962254,
+            1.33527
+          ],
+          [
+            103.962327,
+            1.335225
+          ],
+          [
+            103.962362,
+            1.335207
+          ],
+          [
+            103.96213,
+            1.334843
+          ],
+          [
+            103.961719,
+            1.334175
+          ],
+          [
+            103.961534,
+            1.333835
+          ],
+          [
+            103.961463,
+            1.333638
+          ],
+          [
+            103.961475,
+            1.333574
+          ],
+          [
+            103.961532,
+            1.333538
+          ],
+          [
+            103.962493,
+            1.33319
+          ],
+          [
+            103.963297,
+            1.332926
+          ],
+          [
+            103.963458,
+            1.332954
+          ],
+          [
+            103.963517,
+            1.332951
+          ],
+          [
+            103.963533,
+            1.332878
+          ],
+          [
+            103.963582,
+            1.332776
+          ],
+          [
+            103.963569,
+            1.332751
+          ],
+          [
+            103.963545,
+            1.332681
+          ],
+          [
+            103.963513,
+            1.33259
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756392975739,
+    "query": {
+      "coordinates": [
+        [
+          103.9619381,
+          1.3356351
+        ],
+        [
+          103.9635127,
+          1.33259
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

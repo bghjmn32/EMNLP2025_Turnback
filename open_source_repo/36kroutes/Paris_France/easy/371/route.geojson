@@ -1,0 +1,207 @@
+{
+    "type": "FeatureCollection",
+    "bbox": [
+        2.257423,
+        48.896128,
+        2.263173,
+        48.898752
+    ],
+    "features": [
+        {
+            "bbox": [
+                2.257423,
+                48.896128,
+                2.263173,
+                48.898752
+            ],
+            "type": "Feature",
+            "properties": {
+                "segments": [
+                    {
+                        "distance": 600.2,
+                        "duration": 432.2,
+                        "steps": [
+                            {
+                                "distance": 74.1,
+                                "duration": 53.4,
+                                "type": 11,
+                                "instruction": "Head southeast on Boulevard de Verdun, D 908",
+                                "name": "Boulevard de Verdun, D 908",
+                                "way_points": [
+                                    0,
+                                    2
+                                ]
+                            },
+                            {
+                                "distance": 53.6,
+                                "duration": 38.6,
+                                "type": 1,
+                                "instruction": "Turn right",
+                                "name": "-",
+                                "way_points": [
+                                    2,
+                                    5
+                                ]
+                            },
+                            {
+                                "distance": 437.8,
+                                "duration": 315.2,
+                                "type": 1,
+                                "instruction": "Turn right onto Boulevard Saint-Denis, D 9",
+                                "name": "Boulevard Saint-Denis, D 9",
+                                "way_points": [
+                                    5,
+                                    14
+                                ]
+                            },
+                            {
+                                "distance": 10.1,
+                                "duration": 7.3,
+                                "type": 0,
+                                "instruction": "Turn left",
+                                "name": "-",
+                                "way_points": [
+                                    14,
+                                    15
+                                ]
+                            },
+                            {
+                                "distance": 24.5,
+                                "duration": 17.7,
+                                "type": 1,
+                                "instruction": "Turn right",
+                                "name": "-",
+                                "way_points": [
+                                    15,
+                                    17
+                                ]
+                            },
+                            {
+                                "distance": 0.0,
+                                "duration": 0.0,
+                                "type": 10,
+                                "instruction": "Arrive at your destination, straight ahead",
+                                "name": "-",
+                                "way_points": [
+                                    17,
+                                    17
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "way_points": [
+                    0,
+                    17
+                ],
+                "summary": {
+                    "distance": 600.2,
+                    "duration": 432.2
+                }
+            },
+            "geometry": {
+                "coordinates": [
+                    [
+                        2.262416,
+                        48.898752
+                    ],
+                    [
+                        2.262889,
+                        48.898295
+                    ],
+                    [
+                        2.262985,
+                        48.8982
+                    ],
+                    [
+                        2.262861,
+                        48.898152
+                    ],
+                    [
+                        2.263133,
+                        48.897867
+                    ],
+                    [
+                        2.263173,
+                        48.897824
+                    ],
+                    [
+                        2.262658,
+                        48.897644
+                    ],
+                    [
+                        2.261547,
+                        48.897262
+                    ],
+                    [
+                        2.260398,
+                        48.896815
+                    ],
+                    [
+                        2.260005,
+                        48.896685
+                    ],
+                    [
+                        2.259585,
+                        48.896577
+                    ],
+                    [
+                        2.258825,
+                        48.896405
+                    ],
+                    [
+                        2.25847,
+                        48.896356
+                    ],
+                    [
+                        2.257984,
+                        48.89629
+                    ],
+                    [
+                        2.257724,
+                        48.896263
+                    ],
+                    [
+                        2.257751,
+                        48.896174
+                    ],
+                    [
+                        2.25765,
+                        48.89616
+                    ],
+                    [
+                        2.257423,
+                        48.896128
+                    ]
+                ],
+                "type": "LineString"
+            }
+        }
+    ],
+    "metadata": {
+        "attribution": "openrouteservice.org | OpenStreetMap contributors",
+        "service": "routing",
+        "timestamp": 1755871492348,
+        "query": {
+            "coordinates": [
+                [
+                    2.2624164,
+                    48.8987517
+                ],
+                [
+                    2.2574231,
+                    48.8961279
+                ]
+            ],
+            "profile": "foot-walking",
+            "profileName": "foot-walking",
+            "format": "geojson"
+        },
+        "engine": {
+            "version": "9.3.0",
+            "build_date": "2025-06-06T15:39:25Z",
+            "graph_date": "2025-08-19T13:56:51Z",
+            "osm_date": "2025-08-10T23:59:57Z"
+        }
+    }
+}

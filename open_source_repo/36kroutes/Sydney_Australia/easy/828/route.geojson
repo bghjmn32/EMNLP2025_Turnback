@@ -1,0 +1,164 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    150.822487,
+    -33.772551,
+    150.825465,
+    -33.77037
+  ],
+  "features": [
+    {
+      "bbox": [
+        150.822487,
+        -33.772551,
+        150.825465,
+        -33.77037
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 539.4,
+            "duration": 388.4,
+            "steps": [
+              {
+                "distance": 49.2,
+                "duration": 35.5,
+                "type": 11,
+                "instruction": "Head north",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 238.5,
+                "duration": 171.7,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  5
+                ]
+              },
+              {
+                "distance": 244.9,
+                "duration": 176.3,
+                "type": 0,
+                "instruction": "Turn left onto Dixon Street",
+                "name": "Dixon Street",
+                "way_points": [
+                  5,
+                  8
+                ]
+              },
+              {
+                "distance": 6.8,
+                "duration": 4.9,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  8,
+                  9
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  9,
+                  9
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          9
+        ],
+        "summary": {
+          "distance": 539.4,
+          "duration": 388.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            150.825376,
+            -33.771233
+          ],
+          [
+            150.825465,
+            -33.770796
+          ],
+          [
+            150.825063,
+            -33.770724
+          ],
+          [
+            150.824668,
+            -33.770658
+          ],
+          [
+            150.82305,
+            -33.770388
+          ],
+          [
+            150.822936,
+            -33.77037
+          ],
+          [
+            150.82269,
+            -33.771541
+          ],
+          [
+            150.822678,
+            -33.771605
+          ],
+          [
+            150.822487,
+            -33.77254
+          ],
+          [
+            150.822559,
+            -33.772551
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756395484451,
+    "query": {
+      "coordinates": [
+        [
+          150.8253764,
+          -33.7712331
+        ],
+        [
+          150.8225588,
+          -33.7725513
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

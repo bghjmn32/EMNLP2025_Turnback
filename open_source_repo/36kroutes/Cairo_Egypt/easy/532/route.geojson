@@ -1,0 +1,234 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    31.29114,
+    30.042253,
+    31.294667,
+    30.045016
+  ],
+  "features": [
+    {
+      "bbox": [
+        31.29114,
+        30.042253,
+        31.294667,
+        30.045016
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 592.8,
+            "duration": 426.8,
+            "steps": [
+              {
+                "distance": 70.6,
+                "duration": 50.8,
+                "type": 11,
+                "instruction": "Head east",
+                "name": "-",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 8.9,
+                "duration": 6.4,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 27.3,
+                "duration": 19.7,
+                "type": 0,
+                "instruction": "Turn left onto شارع سعد المصري",
+                "name": "شارع سعد المصري",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 74.3,
+                "duration": 53.5,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  4,
+                  9
+                ]
+              },
+              {
+                "distance": 49.3,
+                "duration": 35.5,
+                "type": 1,
+                "instruction": "Turn right onto حارة صبحى درويش",
+                "name": "حارة صبحى درويش",
+                "way_points": [
+                  9,
+                  10
+                ]
+              },
+              {
+                "distance": 362.5,
+                "duration": 261.0,
+                "type": 0,
+                "instruction": "Turn left onto شارع الورش",
+                "name": "شارع الورش",
+                "way_points": [
+                  10,
+                  21
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at شارع الورش, straight ahead",
+                "name": "-",
+                "way_points": [
+                  21,
+                  21
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          21
+        ],
+        "summary": {
+          "distance": 592.8,
+          "duration": 426.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            31.293708,
+            30.042253
+          ],
+          [
+            31.293847,
+            30.042301
+          ],
+          [
+            31.294389,
+            30.042489
+          ],
+          [
+            31.294461,
+            30.04244
+          ],
+          [
+            31.294667,
+            30.042608
+          ],
+          [
+            31.294501,
+            30.042958
+          ],
+          [
+            31.294476,
+            30.043014
+          ],
+          [
+            31.294422,
+            30.043054
+          ],
+          [
+            31.294287,
+            30.043055
+          ],
+          [
+            31.294238,
+            30.043085
+          ],
+          [
+            31.294461,
+            30.043483
+          ],
+          [
+            31.294265,
+            30.043596
+          ],
+          [
+            31.293819,
+            30.043806
+          ],
+          [
+            31.293161,
+            30.044105
+          ],
+          [
+            31.293025,
+            30.044164
+          ],
+          [
+            31.292936,
+            30.044202
+          ],
+          [
+            31.292512,
+            30.044385
+          ],
+          [
+            31.2923,
+            30.044479
+          ],
+          [
+            31.292177,
+            30.044534
+          ],
+          [
+            31.291623,
+            30.044797
+          ],
+          [
+            31.291437,
+            30.044895
+          ],
+          [
+            31.29114,
+            30.045016
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756731323488,
+    "query": {
+      "coordinates": [
+        [
+          31.2937081,
+          30.0422533
+        ],
+        [
+          31.2911396,
+          30.0450158
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

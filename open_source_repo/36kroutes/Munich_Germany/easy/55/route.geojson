@@ -1,0 +1,205 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    11.636002,
+    48.153069,
+    11.643909,
+    48.15489
+  ],
+  "features": [
+    {
+      "bbox": [
+        11.636002,
+        48.153069,
+        11.643909,
+        48.15489
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 812.4,
+            "duration": 584.9,
+            "steps": [
+              {
+                "distance": 112.8,
+                "duration": 81.2,
+                "type": 11,
+                "instruction": "Head northeast on Englschalkinger Straße",
+                "name": "Englschalkinger Straße",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 210.2,
+                "duration": 151.4,
+                "type": 1,
+                "instruction": "Turn right onto Westpreußenstraße",
+                "name": "Westpreußenstraße",
+                "way_points": [
+                  3,
+                  10
+                ]
+              },
+              {
+                "distance": 489.3,
+                "duration": 352.3,
+                "type": 0,
+                "instruction": "Turn left onto Memeler Straße",
+                "name": "Memeler Straße",
+                "way_points": [
+                  10,
+                  22
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Memeler Straße, straight ahead",
+                "name": "-",
+                "way_points": [
+                  22,
+                  22
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          22
+        ],
+        "summary": {
+          "distance": 812.4,
+          "duration": 584.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            11.636002,
+            48.154299
+          ],
+          [
+            11.636354,
+            48.154456
+          ],
+          [
+            11.63712,
+            48.154833
+          ],
+          [
+            11.637237,
+            48.15489
+          ],
+          [
+            11.63747,
+            48.154644
+          ],
+          [
+            11.637526,
+            48.154576
+          ],
+          [
+            11.637595,
+            48.154436
+          ],
+          [
+            11.637612,
+            48.15434
+          ],
+          [
+            11.637587,
+            48.154101
+          ],
+          [
+            11.637452,
+            48.153573
+          ],
+          [
+            11.637331,
+            48.153077
+          ],
+          [
+            11.637491,
+            48.153069
+          ],
+          [
+            11.638456,
+            48.153133
+          ],
+          [
+            11.639887,
+            48.153232
+          ],
+          [
+            11.640521,
+            48.153246
+          ],
+          [
+            11.641197,
+            48.153207
+          ],
+          [
+            11.64128,
+            48.153202
+          ],
+          [
+            11.64136,
+            48.153198
+          ],
+          [
+            11.642152,
+            48.153176
+          ],
+          [
+            11.642667,
+            48.153197
+          ],
+          [
+            11.643226,
+            48.153191
+          ],
+          [
+            11.643361,
+            48.15319
+          ],
+          [
+            11.643909,
+            48.153211
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756136605864,
+    "query": {
+      "coordinates": [
+        [
+          11.636002,
+          48.1542989
+        ],
+        [
+          11.6439088,
+          48.1532108
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.312664,
+    -22.880116,
+    -43.310439,
+    -22.876421
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.312664,
+        -22.880116,
+        -43.310439,
+        -22.876421
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 596.8,
+            "duration": 429.7,
+            "steps": [
+              {
+                "distance": 97.4,
+                "duration": 70.1,
+                "type": 11,
+                "instruction": "Head east",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 147.6,
+                "duration": 106.3,
+                "type": 1,
+                "instruction": "Turn right onto Rua Arthur Vargas",
+                "name": "Rua Arthur Vargas",
+                "way_points": [
+                  1,
+                  4
+                ]
+              },
+              {
+                "distance": 261.7,
+                "duration": 188.4,
+                "type": 5,
+                "instruction": "Turn slight right onto Rua Ada",
+                "name": "Rua Ada",
+                "way_points": [
+                  4,
+                  8
+                ]
+              },
+              {
+                "distance": 90.1,
+                "duration": 64.8,
+                "type": 0,
+                "instruction": "Turn left onto Calçada",
+                "name": "Calçada",
+                "way_points": [
+                  8,
+                  9
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calçada, straight ahead",
+                "name": "-",
+                "way_points": [
+                  9,
+                  9
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          9
+        ],
+        "summary": {
+          "distance": 596.8,
+          "duration": 429.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.311362,
+            -22.876421
+          ],
+          [
+            -43.310439,
+            -22.876631
+          ],
+          [
+            -43.31059,
+            -22.877304
+          ],
+          [
+            -43.310691,
+            -22.877745
+          ],
+          [
+            -43.310734,
+            -22.877931
+          ],
+          [
+            -43.311067,
+            -22.878205
+          ],
+          [
+            -43.311167,
+            -22.878284
+          ],
+          [
+            -43.312394,
+            -22.879255
+          ],
+          [
+            -43.312664,
+            -22.879472
+          ],
+          [
+            -43.312131,
+            -22.880116
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756395082154,
+    "query": {
+      "coordinates": [
+        [
+          -43.3113617,
+          -22.8764212
+        ],
+        [
+          -43.3121311,
+          -22.880116
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

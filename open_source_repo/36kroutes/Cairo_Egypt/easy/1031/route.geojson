@@ -1,0 +1,258 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    31.234996,
+    30.044983,
+    31.236843,
+    30.047521
+  ],
+  "features": [
+    {
+      "bbox": [
+        31.234996,
+        30.044983,
+        31.236843,
+        30.047521
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 472.7,
+            "duration": 340.3,
+            "steps": [
+              {
+                "distance": 5.1,
+                "duration": 3.6,
+                "type": 11,
+                "instruction": "Head west",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 88.8,
+                "duration": 64.0,
+                "type": 1,
+                "instruction": "Turn right onto شارع مريت باشا",
+                "name": "شارع مريت باشا",
+                "way_points": [
+                  1,
+                  4
+                ]
+              },
+              {
+                "distance": 13.8,
+                "duration": 10.0,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "distance": 48.3,
+                "duration": 34.8,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  5,
+                  7
+                ]
+              },
+              {
+                "distance": 10.8,
+                "duration": 7.8,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 26.2,
+                "duration": 18.8,
+                "type": 0,
+                "instruction": "Turn left onto شارع مريت باشا",
+                "name": "شارع مريت باشا",
+                "way_points": [
+                  8,
+                  9
+                ]
+              },
+              {
+                "distance": 14.9,
+                "duration": 10.7,
+                "type": 1,
+                "instruction": "Turn right onto شارع عبد السلام عارف - البستان سابقا",
+                "name": "شارع عبد السلام عارف - البستان سابقا",
+                "way_points": [
+                  9,
+                  10
+                ]
+              },
+              {
+                "distance": 36.4,
+                "duration": 26.2,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  10,
+                  12
+                ]
+              },
+              {
+                "distance": 170.0,
+                "duration": 122.4,
+                "type": 1,
+                "instruction": "Turn right onto شارع قصر النيل",
+                "name": "شارع قصر النيل",
+                "way_points": [
+                  12,
+                  15
+                ]
+              },
+              {
+                "distance": 58.4,
+                "duration": 42.1,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  15,
+                  16
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  16,
+                  16
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          16
+        ],
+        "summary": {
+          "distance": 472.7,
+          "duration": 340.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            31.235998,
+            30.044987
+          ],
+          [
+            31.235945,
+            30.044983
+          ],
+          [
+            31.235917,
+            30.04506
+          ],
+          [
+            31.235528,
+            30.045413
+          ],
+          [
+            31.23537,
+            30.045599
+          ],
+          [
+            31.235242,
+            30.045543
+          ],
+          [
+            31.235125,
+            30.045728
+          ],
+          [
+            31.235001,
+            30.045924
+          ],
+          [
+            31.235102,
+            30.045965
+          ],
+          [
+            31.234996,
+            30.046182
+          ],
+          [
+            31.235147,
+            30.046207
+          ],
+          [
+            31.235184,
+            30.046368
+          ],
+          [
+            31.235172,
+            30.046531
+          ],
+          [
+            31.23587,
+            30.046714
+          ],
+          [
+            31.236295,
+            30.046847
+          ],
+          [
+            31.236843,
+            30.047025
+          ],
+          [
+            31.236641,
+            30.047521
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756732352096,
+    "query": {
+      "coordinates": [
+        [
+          31.2359976,
+          30.0449872
+        ],
+        [
+          31.2366407,
+          30.0475207
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

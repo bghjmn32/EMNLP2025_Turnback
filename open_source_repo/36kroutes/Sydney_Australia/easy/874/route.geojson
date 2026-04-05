@@ -1,0 +1,176 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    150.838434,
+    -34.074098,
+    150.841503,
+    -34.071854
+  ],
+  "features": [
+    {
+      "bbox": [
+        150.838434,
+        -34.074098,
+        150.841503,
+        -34.071854
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 526.1,
+            "duration": 378.8,
+            "steps": [
+              {
+                "distance": 6.1,
+                "duration": 4.4,
+                "type": 11,
+                "instruction": "Head southwest on Nymboida Crescent",
+                "name": "Nymboida Crescent",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 185.0,
+                "duration": 133.2,
+                "type": 0,
+                "instruction": "Turn left onto Nymboida Crescent",
+                "name": "Nymboida Crescent",
+                "way_points": [
+                  1,
+                  6
+                ]
+              },
+              {
+                "distance": 251.9,
+                "duration": 181.4,
+                "type": 0,
+                "instruction": "Turn left onto Bellinger Road",
+                "name": "Bellinger Road",
+                "way_points": [
+                  6,
+                  10
+                ]
+              },
+              {
+                "distance": 83.2,
+                "duration": 59.9,
+                "type": 1,
+                "instruction": "Turn right onto Nambucca Street",
+                "name": "Nambucca Street",
+                "way_points": [
+                  10,
+                  12
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Nambucca Street, straight ahead",
+                "name": "-",
+                "way_points": [
+                  12,
+                  12
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          12
+        ],
+        "summary": {
+          "distance": 526.1,
+          "duration": 378.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            150.838485,
+            -34.073538
+          ],
+          [
+            150.838434,
+            -34.073572
+          ],
+          [
+            150.838667,
+            -34.073794
+          ],
+          [
+            150.838777,
+            -34.073871
+          ],
+          [
+            150.838921,
+            -34.073917
+          ],
+          [
+            150.839345,
+            -34.073972
+          ],
+          [
+            150.840258,
+            -34.074098
+          ],
+          [
+            150.840317,
+            -34.073311
+          ],
+          [
+            150.840373,
+            -34.073049
+          ],
+          [
+            150.840523,
+            -34.072302
+          ],
+          [
+            150.840612,
+            -34.071854
+          ],
+          [
+            150.841447,
+            -34.071969
+          ],
+          [
+            150.841503,
+            -34.071977
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756395687327,
+    "query": {
+      "coordinates": [
+        [
+          150.8384852,
+          -34.0735376
+        ],
+        [
+          150.8415029,
+          -34.0719769
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.031686,
+    19.276113,
+    -99.025079,
+    19.279512
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.031686,
+        19.276113,
+        -99.025079,
+        19.279512
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 878.6,
+            "duration": 632.6,
+            "steps": [
+              {
+                "distance": 106.7,
+                "duration": 76.8,
+                "type": 11,
+                "instruction": "Head north",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 732.2,
+                "duration": 527.2,
+                "type": 0,
+                "instruction": "Turn left onto Calle Jazmín",
+                "name": "Calle Jazmín",
+                "way_points": [
+                  1,
+                  13
+                ]
+              },
+              {
+                "distance": 39.7,
+                "duration": 28.6,
+                "type": 1,
+                "instruction": "Turn right onto Cerrada Primera Cerrada Jazmín",
+                "name": "Cerrada Primera Cerrada Jazmín",
+                "way_points": [
+                  13,
+                  14
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Cerrada Primera Cerrada Jazmín, straight ahead",
+                "name": "-",
+                "way_points": [
+                  14,
+                  14
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          14
+        ],
+        "summary": {
+          "distance": 878.6,
+          "duration": 632.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.025095,
+            19.276113
+          ],
+          [
+            -99.025079,
+            19.277072
+          ],
+          [
+            -99.025506,
+            19.277234
+          ],
+          [
+            -99.025986,
+            19.277386
+          ],
+          [
+            -99.026522,
+            19.277605
+          ],
+          [
+            -99.027392,
+            19.277902
+          ],
+          [
+            -99.027905,
+            19.278078
+          ],
+          [
+            -99.028341,
+            19.278227
+          ],
+          [
+            -99.028681,
+            19.278324
+          ],
+          [
+            -99.029159,
+            19.278463
+          ],
+          [
+            -99.029524,
+            19.278579
+          ],
+          [
+            -99.029872,
+            19.278681
+          ],
+          [
+            -99.031407,
+            19.279093
+          ],
+          [
+            -99.031686,
+            19.27917
+          ],
+          [
+            -99.03158,
+            19.279512
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306742777,
+    "query": {
+      "coordinates": [
+        [
+          -99.0250947,
+          19.2761128
+        ],
+        [
+          -99.0315797,
+          19.2795124
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.519035,
+    -33.994864,
+    18.521776,
+    -33.992157
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.519035,
+        -33.994864,
+        18.521776,
+        -33.992157
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 504.7,
+            "duration": 363.4,
+            "steps": [
+              {
+                "distance": 55.1,
+                "duration": 39.7,
+                "type": 11,
+                "instruction": "Head west on Blomvlei Road",
+                "name": "Blomvlei Road",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 283.3,
+                "duration": 204.0,
+                "type": 0,
+                "instruction": "Turn left onto Summit Road",
+                "name": "Summit Road",
+                "way_points": [
+                  2,
+                  6
+                ]
+              },
+              {
+                "distance": 166.3,
+                "duration": 119.8,
+                "type": 1,
+                "instruction": "Turn right onto Allison Road",
+                "name": "Allison Road",
+                "way_points": [
+                  6,
+                  8
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Allison Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  8,
+                  8
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          8
+        ],
+        "summary": {
+          "distance": 504.7,
+          "duration": 363.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.521776,
+            -33.992157
+          ],
+          [
+            18.521667,
+            -33.992165
+          ],
+          [
+            18.521181,
+            -33.992202
+          ],
+          [
+            18.521082,
+            -33.992962
+          ],
+          [
+            18.520994,
+            -33.99365
+          ],
+          [
+            18.52095,
+            -33.993942
+          ],
+          [
+            18.520833,
+            -33.994733
+          ],
+          [
+            18.519282,
+            -33.994845
+          ],
+          [
+            18.519035,
+            -33.994864
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756805984017,
+    "query": {
+      "coordinates": [
+        [
+          18.5217761,
+          -33.9921568
+        ],
+        [
+          18.5190353,
+          -33.9948645
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

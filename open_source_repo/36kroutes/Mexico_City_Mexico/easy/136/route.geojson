@@ -1,0 +1,188 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.16123,
+    19.370642,
+    -99.155282,
+    19.376154
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.16123,
+        19.370642,
+        -99.155282,
+        19.376154
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1155.6,
+            "duration": 832.0,
+            "steps": [
+              {
+                "distance": 267.3,
+                "duration": 192.5,
+                "type": 11,
+                "instruction": "Head east on Avenida Municipio Libre, EJE 7 SUR",
+                "name": "Avenida Municipio Libre, EJE 7 SUR",
+                "way_points": [
+                  0,
+                  4
+                ]
+              },
+              {
+                "distance": 376.7,
+                "duration": 271.3,
+                "type": 0,
+                "instruction": "Turn left onto Calle Uxmal",
+                "name": "Calle Uxmal",
+                "way_points": [
+                  4,
+                  7
+                ]
+              },
+              {
+                "distance": 236.6,
+                "duration": 170.4,
+                "type": 1,
+                "instruction": "Turn right onto Calle Miguel Laurent",
+                "name": "Calle Miguel Laurent",
+                "way_points": [
+                  7,
+                  13
+                ]
+              },
+              {
+                "distance": 274.9,
+                "duration": 197.9,
+                "type": 0,
+                "instruction": "Turn left onto Calle Petén",
+                "name": "Calle Petén",
+                "way_points": [
+                  13,
+                  15
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Petén, straight ahead",
+                "name": "-",
+                "way_points": [
+                  15,
+                  15
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          15
+        ],
+        "summary": {
+          "distance": 1155.6,
+          "duration": 832.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.16123,
+            19.37102
+          ],
+          [
+            -99.161095,
+            19.370999
+          ],
+          [
+            -99.160338,
+            19.370877
+          ],
+          [
+            -99.159504,
+            19.370767
+          ],
+          [
+            -99.158714,
+            19.370642
+          ],
+          [
+            -99.158634,
+            19.370998
+          ],
+          [
+            -99.158437,
+            19.371815
+          ],
+          [
+            -99.157978,
+            19.373958
+          ],
+          [
+            -99.157813,
+            19.37394
+          ],
+          [
+            -99.157673,
+            19.373929
+          ],
+          [
+            -99.157582,
+            19.373918
+          ],
+          [
+            -99.157183,
+            19.373873
+          ],
+          [
+            -99.156434,
+            19.373794
+          ],
+          [
+            -99.155736,
+            19.373719
+          ],
+          [
+            -99.155389,
+            19.375523
+          ],
+          [
+            -99.155282,
+            19.376154
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756304648383,
+    "query": {
+      "coordinates": [
+        [
+          -99.1612305,
+          19.3710202
+        ],
+        [
+          -99.1552816,
+          19.3761541
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

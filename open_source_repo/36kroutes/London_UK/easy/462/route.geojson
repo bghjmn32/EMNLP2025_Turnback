@@ -1,0 +1,176 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -0.306976,
+    51.431523,
+    -0.305239,
+    51.435442
+  ],
+  "features": [
+    {
+      "bbox": [
+        -0.306976,
+        51.431523,
+        -0.305239,
+        51.435442
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 555.5,
+            "duration": 400.0,
+            "steps": [
+              {
+                "distance": 342.5,
+                "duration": 246.6,
+                "type": 11,
+                "instruction": "Head south",
+                "name": "-",
+                "way_points": [
+                  0,
+                  5
+                ]
+              },
+              {
+                "distance": 9.0,
+                "duration": 6.5,
+                "type": 0,
+                "instruction": "Turn left onto Ham Common",
+                "name": "Ham Common",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 80.4,
+                "duration": 57.9,
+                "type": 1,
+                "instruction": "Turn right onto Upper Ham Road, A307",
+                "name": "Upper Ham Road, A307",
+                "way_points": [
+                  6,
+                  8
+                ]
+              },
+              {
+                "distance": 123.7,
+                "duration": 89.0,
+                "type": 0,
+                "instruction": "Turn left onto Parkleys",
+                "name": "Parkleys",
+                "way_points": [
+                  8,
+                  12
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Parkleys, straight ahead",
+                "name": "-",
+                "way_points": [
+                  12,
+                  12
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          12
+        ],
+        "summary": {
+          "distance": 555.5,
+          "duration": 400.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -0.305534,
+            51.435442
+          ],
+          [
+            -0.305771,
+            51.434983
+          ],
+          [
+            -0.306033,
+            51.434368
+          ],
+          [
+            -0.306551,
+            51.433316
+          ],
+          [
+            -0.306651,
+            51.433058
+          ],
+          [
+            -0.306952,
+            51.432492
+          ],
+          [
+            -0.306825,
+            51.432476
+          ],
+          [
+            -0.306871,
+            51.432181
+          ],
+          [
+            -0.306976,
+            51.43176
+          ],
+          [
+            -0.306749,
+            51.431733
+          ],
+          [
+            -0.306185,
+            51.43163
+          ],
+          [
+            -0.305564,
+            51.431584
+          ],
+          [
+            -0.305239,
+            51.431523
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756828101948,
+    "query": {
+      "coordinates": [
+        [
+          -0.3055337,
+          51.4354418
+        ],
+        [
+          -0.3052389,
+          51.4315227
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

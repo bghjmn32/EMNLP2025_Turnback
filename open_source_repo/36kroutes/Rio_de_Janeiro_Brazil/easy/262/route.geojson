@@ -1,0 +1,154 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.467324,
+    -23.025887,
+    -43.458036,
+    -23.02276
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.467324,
+        -23.025887,
+        -43.458036,
+        -23.02276
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1019.4,
+            "duration": 734.0,
+            "steps": [
+              {
+                "distance": 7.7,
+                "duration": 5.5,
+                "type": 11,
+                "instruction": "Head north on Avenida Gláucio Gil",
+                "name": "Avenida Gláucio Gil",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 958.7,
+                "duration": 690.3,
+                "type": 7,
+                "instruction": "Enter the roundabout and take the 1st exit onto Rua Professor Hermes Lima",
+                "name": "Rua Professor Hermes Lima",
+                "exit_number": 1,
+                "way_points": [
+                  1,
+                  8
+                ]
+              },
+              {
+                "distance": 53.0,
+                "duration": 38.2,
+                "type": 6,
+                "instruction": "Continue straight onto Rua Professor Hermes Lima",
+                "name": "Rua Professor Hermes Lima",
+                "way_points": [
+                  8,
+                  9
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Rua Professor Hermes Lima, straight ahead",
+                "name": "-",
+                "way_points": [
+                  9,
+                  9
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          9
+        ],
+        "summary": {
+          "distance": 1019.4,
+          "duration": 734.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.458036,
+            -23.022851
+          ],
+          [
+            -43.458061,
+            -23.022786
+          ],
+          [
+            -43.458081,
+            -23.02276
+          ],
+          [
+            -43.458324,
+            -23.022849
+          ],
+          [
+            -43.460304,
+            -23.023451
+          ],
+          [
+            -43.462324,
+            -23.024132
+          ],
+          [
+            -43.464326,
+            -23.024817
+          ],
+          [
+            -43.466347,
+            -23.025489
+          ],
+          [
+            -43.466857,
+            -23.02568
+          ],
+          [
+            -43.467324,
+            -23.025887
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756391467608,
+    "query": {
+      "coordinates": [
+        [
+          -43.458036,
+          -23.0228507
+        ],
+        [
+          -43.4673242,
+          -23.0258868
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

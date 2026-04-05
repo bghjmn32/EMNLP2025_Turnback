@@ -1,0 +1,142 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -104.91756,
+    39.807585,
+    -104.91288,
+    39.809266
+  ],
+  "features": [
+    {
+      "bbox": [
+        -104.91756,
+        39.807585,
+        -104.91288,
+        39.809266
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 581.8,
+            "duration": 418.9,
+            "steps": [
+              {
+                "distance": 182.7,
+                "duration": 131.5,
+                "type": 11,
+                "instruction": "Head north on Kearney Street",
+                "name": "Kearney Street",
+                "way_points": [
+                  0,
+                  4
+                ]
+              },
+              {
+                "distance": 399.2,
+                "duration": 287.4,
+                "type": 1,
+                "instruction": "Turn right onto East 62nd Avenue",
+                "name": "East 62nd Avenue",
+                "way_points": [
+                  4,
+                  9
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at East 62nd Avenue, straight ahead",
+                "name": "-",
+                "way_points": [
+                  9,
+                  9
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          9
+        ],
+        "summary": {
+          "distance": 581.8,
+          "duration": 418.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -104.91756,
+            39.807585
+          ],
+          [
+            -104.917559,
+            39.807773
+          ],
+          [
+            -104.917558,
+            39.808033
+          ],
+          [
+            -104.917556,
+            39.808517
+          ],
+          [
+            -104.917552,
+            39.809228
+          ],
+          [
+            -104.916982,
+            39.809232
+          ],
+          [
+            -104.91488,
+            39.809245
+          ],
+          [
+            -104.913917,
+            39.809251
+          ],
+          [
+            -104.913394,
+            39.809258
+          ],
+          [
+            -104.91288,
+            39.809266
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306034966,
+    "query": {
+      "coordinates": [
+        [
+          -104.9175603,
+          39.8075853
+        ],
+        [
+          -104.9128796,
+          39.809266
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

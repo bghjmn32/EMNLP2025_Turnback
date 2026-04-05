@@ -1,0 +1,213 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -105.011106,
+    39.708006,
+    -105.006263,
+    39.711098
+  ],
+  "features": [
+    {
+      "bbox": [
+        -105.011106,
+        39.708006,
+        -105.006263,
+        39.711098
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 754.8,
+            "duration": 543.4,
+            "steps": [
+              {
+                "distance": 14.4,
+                "duration": 10.4,
+                "type": 11,
+                "instruction": "Head east",
+                "name": "-",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 155.6,
+                "duration": 112.1,
+                "type": 13,
+                "instruction": "Keep right",
+                "name": "-",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 44.0,
+                "duration": 31.6,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  3,
+                  5
+                ]
+              },
+              {
+                "distance": 38.3,
+                "duration": 27.6,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 49.3,
+                "duration": 35.5,
+                "type": 1,
+                "instruction": "Turn right onto South Raritan Street",
+                "name": "South Raritan Street",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 203.7,
+                "duration": 146.6,
+                "type": 0,
+                "instruction": "Turn left onto West Nevada Place",
+                "name": "West Nevada Place",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 249.5,
+                "duration": 179.6,
+                "type": 1,
+                "instruction": "Turn right onto South Pecos Street",
+                "name": "South Pecos Street",
+                "way_points": [
+                  8,
+                  13
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at South Pecos Street, straight ahead",
+                "name": "-",
+                "way_points": [
+                  13,
+                  13
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          13
+        ],
+        "summary": {
+          "distance": 754.8,
+          "duration": 543.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -105.011106,
+            39.711097
+          ],
+          [
+            -105.011018,
+            39.711098
+          ],
+          [
+            -105.010938,
+            39.711098
+          ],
+          [
+            -105.009118,
+            39.711095
+          ],
+          [
+            -105.009119,
+            39.711076
+          ],
+          [
+            -105.009115,
+            39.710699
+          ],
+          [
+            -105.008667,
+            39.710699
+          ],
+          [
+            -105.008663,
+            39.710255
+          ],
+          [
+            -105.006282,
+            39.71025
+          ],
+          [
+            -105.006276,
+            39.709801
+          ],
+          [
+            -105.00627,
+            39.709352
+          ],
+          [
+            -105.006268,
+            39.70891
+          ],
+          [
+            -105.006265,
+            39.708463
+          ],
+          [
+            -105.006263,
+            39.708006
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756305739164,
+    "query": {
+      "coordinates": [
+        [
+          -105.011106,
+          39.7110968
+        ],
+        [
+          -105.0062626,
+          39.7080062
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

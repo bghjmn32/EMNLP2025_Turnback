@@ -1,0 +1,229 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.506297,
+    -33.873973,
+    18.511534,
+    -33.87203
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.506297,
+        -33.873973,
+        18.511534,
+        -33.87203
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 594.3,
+            "duration": 427.9,
+            "steps": [
+              {
+                "distance": 10.2,
+                "duration": 7.4,
+                "type": 11,
+                "instruction": "Head east",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 19.1,
+                "duration": 13.8,
+                "type": 0,
+                "instruction": "Turn left onto Milky Way Drive",
+                "name": "Milky Way Drive",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 53.9,
+                "duration": 38.8,
+                "type": 1,
+                "instruction": "Turn right onto Freedom Way",
+                "name": "Freedom Way",
+                "way_points": [
+                  2,
+                  4
+                ]
+              },
+              {
+                "distance": 20.7,
+                "duration": 14.9,
+                "type": 0,
+                "instruction": "Turn left onto Venus Avenue",
+                "name": "Venus Avenue",
+                "way_points": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "distance": 228.0,
+                "duration": 164.1,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  5,
+                  10
+                ]
+              },
+              {
+                "distance": 21.8,
+                "duration": 15.7,
+                "type": 1,
+                "instruction": "Turn right onto Democracy Way",
+                "name": "Democracy Way",
+                "way_points": [
+                  10,
+                  11
+                ]
+              },
+              {
+                "distance": 240.6,
+                "duration": 173.2,
+                "type": 0,
+                "instruction": "Turn left onto Freedom Way",
+                "name": "Freedom Way",
+                "way_points": [
+                  11,
+                  17
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Freedom Way, straight ahead",
+                "name": "-",
+                "way_points": [
+                  17,
+                  17
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          17
+        ],
+        "summary": {
+          "distance": 594.3,
+          "duration": 427.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.506297,
+            -33.872172
+          ],
+          [
+            18.506402,
+            -33.872201
+          ],
+          [
+            18.506474,
+            -33.872039
+          ],
+          [
+            18.506665,
+            -33.872099
+          ],
+          [
+            18.507023,
+            -33.872205
+          ],
+          [
+            18.507098,
+            -33.87203
+          ],
+          [
+            18.507667,
+            -33.872177
+          ],
+          [
+            18.50823,
+            -33.872351
+          ],
+          [
+            18.508784,
+            -33.872507
+          ],
+          [
+            18.509165,
+            -33.872591
+          ],
+          [
+            18.509413,
+            -33.872722
+          ],
+          [
+            18.50929,
+            -33.872889
+          ],
+          [
+            18.50955,
+            -33.873026
+          ],
+          [
+            18.509678,
+            -33.873092
+          ],
+          [
+            18.510128,
+            -33.873315
+          ],
+          [
+            18.510943,
+            -33.873764
+          ],
+          [
+            18.511207,
+            -33.873883
+          ],
+          [
+            18.511534,
+            -33.873973
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756806040858,
+    "query": {
+      "coordinates": [
+        [
+          18.5062966,
+          -33.8721718
+        ],
+        [
+          18.5115341,
+          -33.8739731
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

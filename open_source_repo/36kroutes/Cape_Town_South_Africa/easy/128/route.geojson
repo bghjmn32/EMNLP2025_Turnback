@@ -1,0 +1,215 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.530959,
+    -33.920771,
+    18.538945,
+    -33.918387
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.530959,
+        -33.920771,
+        18.538945,
+        -33.918387
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 929.7,
+            "duration": 669.4,
+            "steps": [
+              {
+                "distance": 136.1,
+                "duration": 98.0,
+                "type": 11,
+                "instruction": "Head north on Coral Tree Road",
+                "name": "Coral Tree Road",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 567.4,
+                "duration": 408.5,
+                "type": 0,
+                "instruction": "Turn left onto Heldersig Road",
+                "name": "Heldersig Road",
+                "way_points": [
+                  1,
+                  11
+                ]
+              },
+              {
+                "distance": 90.2,
+                "duration": 64.9,
+                "type": 1,
+                "instruction": "Turn right onto Forest Drive",
+                "name": "Forest Drive",
+                "way_points": [
+                  11,
+                  16
+                ]
+              },
+              {
+                "distance": 51.0,
+                "duration": 36.7,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  16,
+                  17
+                ]
+              },
+              {
+                "distance": 85.0,
+                "duration": 61.2,
+                "type": 6,
+                "instruction": "Continue straight onto Rooikrans Road",
+                "name": "Rooikrans Road",
+                "way_points": [
+                  17,
+                  19
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Rooikrans Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  19,
+                  19
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          19
+        ],
+        "summary": {
+          "distance": 929.7,
+          "duration": 669.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.538945,
+            -33.919587
+          ],
+          [
+            18.538655,
+            -33.918387
+          ],
+          [
+            18.537851,
+            -33.918586
+          ],
+          [
+            18.536336,
+            -33.918926
+          ],
+          [
+            18.536101,
+            -33.91899
+          ],
+          [
+            18.535627,
+            -33.919165
+          ],
+          [
+            18.535506,
+            -33.919211
+          ],
+          [
+            18.535491,
+            -33.919176
+          ],
+          [
+            18.534644,
+            -33.919409
+          ],
+          [
+            18.532992,
+            -33.919682
+          ],
+          [
+            18.532875,
+            -33.919793
+          ],
+          [
+            18.532879,
+            -33.919827
+          ],
+          [
+            18.532627,
+            -33.919845
+          ],
+          [
+            18.532379,
+            -33.919852
+          ],
+          [
+            18.532333,
+            -33.919851
+          ],
+          [
+            18.531973,
+            -33.919836
+          ],
+          [
+            18.531903,
+            -33.919831
+          ],
+          [
+            18.531547,
+            -33.920182
+          ],
+          [
+            18.531405,
+            -33.920316
+          ],
+          [
+            18.530959,
+            -33.920771
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756804020350,
+    "query": {
+      "coordinates": [
+        [
+          18.5389446,
+          -33.9195873
+        ],
+        [
+          18.5309587,
+          -33.9207707
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

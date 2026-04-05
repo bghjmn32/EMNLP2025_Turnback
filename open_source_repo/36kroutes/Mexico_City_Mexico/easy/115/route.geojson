@@ -1,0 +1,191 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.116532,
+    19.311258,
+    -99.111338,
+    19.311861
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.116532,
+        19.311258,
+        -99.111338,
+        19.311861
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 612.0,
+            "duration": 440.6,
+            "steps": [
+              {
+                "distance": 169.6,
+                "duration": 122.1,
+                "type": 11,
+                "instruction": "Head east on Calzada de las Bombas",
+                "name": "Calzada de las Bombas",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 18.9,
+                "duration": 13.6,
+                "type": 0,
+                "instruction": "Turn left onto Calle Oriental",
+                "name": "Calle Oriental",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 290.5,
+                "duration": 209.1,
+                "type": 1,
+                "instruction": "Turn right onto Calzada de las Bombas",
+                "name": "Calzada de las Bombas",
+                "way_points": [
+                  4,
+                  11
+                ]
+              },
+              {
+                "distance": 57.0,
+                "duration": 41.0,
+                "type": 0,
+                "instruction": "Turn left onto Calle Cacahoatán",
+                "name": "Calle Cacahoatán",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 76.1,
+                "duration": 54.8,
+                "type": 1,
+                "instruction": "Turn right onto Calle Ixtacomitán",
+                "name": "Calle Ixtacomitán",
+                "way_points": [
+                  12,
+                  13
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Ixtacomitán, straight ahead",
+                "name": "-",
+                "way_points": [
+                  13,
+                  13
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          13
+        ],
+        "summary": {
+          "distance": 612.0,
+          "duration": 440.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.116532,
+            19.311861
+          ],
+          [
+            -99.115974,
+            19.311795
+          ],
+          [
+            -99.115476,
+            19.311753
+          ],
+          [
+            -99.114926,
+            19.311695
+          ],
+          [
+            -99.114873,
+            19.311857
+          ],
+          [
+            -99.114629,
+            19.311821
+          ],
+          [
+            -99.113854,
+            19.311639
+          ],
+          [
+            -99.11349,
+            19.311556
+          ],
+          [
+            -99.113384,
+            19.311532
+          ],
+          [
+            -99.113155,
+            19.31148
+          ],
+          [
+            -99.112773,
+            19.311394
+          ],
+          [
+            -99.11218,
+            19.311258
+          ],
+          [
+            -99.112045,
+            19.311754
+          ],
+          [
+            -99.111338,
+            19.311604
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756304559898,
+    "query": {
+      "coordinates": [
+        [
+          -99.116532,
+          19.3118611
+        ],
+        [
+          -99.1113383,
+          19.3116038
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

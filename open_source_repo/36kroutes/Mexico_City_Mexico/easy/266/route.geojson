@@ -1,0 +1,213 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.03768,
+    19.283975,
+    -99.030704,
+    19.287087
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.03768,
+        19.283975,
+        -99.030704,
+        19.287087
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1058.8,
+            "duration": 762.4,
+            "steps": [
+              {
+                "distance": 36.0,
+                "duration": 25.9,
+                "type": 11,
+                "instruction": "Head east on Callejón Capeto",
+                "name": "Callejón Capeto",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 29.2,
+                "duration": 21.0,
+                "type": 1,
+                "instruction": "Turn right onto Calle Onofre Capeto",
+                "name": "Calle Onofre Capeto",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 102.3,
+                "duration": 73.7,
+                "type": 0,
+                "instruction": "Turn left onto Calle Agustín Romero",
+                "name": "Calle Agustín Romero",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 99.2,
+                "duration": 71.4,
+                "type": 1,
+                "instruction": "Turn right onto Calle Francisco Jiménez",
+                "name": "Calle Francisco Jiménez",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 95.6,
+                "duration": 68.9,
+                "type": 0,
+                "instruction": "Turn left onto Calle Simón Álvarez",
+                "name": "Calle Simón Álvarez",
+                "way_points": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "distance": 199.6,
+                "duration": 143.7,
+                "type": 1,
+                "instruction": "Turn right onto Calle Sebastián Trejo",
+                "name": "Calle Sebastián Trejo",
+                "way_points": [
+                  5,
+                  8
+                ]
+              },
+              {
+                "distance": 496.9,
+                "duration": 357.8,
+                "type": 0,
+                "instruction": "Turn left onto Calle Ramón Rodríguez Arangoity",
+                "name": "Calle Ramón Rodríguez Arangoity",
+                "way_points": [
+                  8,
+                  13
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Ramón Rodríguez Arangoity, straight ahead",
+                "name": "-",
+                "way_points": [
+                  13,
+                  13
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          13
+        ],
+        "summary": {
+          "distance": 1058.8,
+          "duration": 762.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.03768,
+            19.287082
+          ],
+          [
+            -99.037337,
+            19.287087
+          ],
+          [
+            -99.037335,
+            19.286825
+          ],
+          [
+            -99.03636,
+            19.286811
+          ],
+          [
+            -99.036362,
+            19.285919
+          ],
+          [
+            -99.035451,
+            19.285895
+          ],
+          [
+            -99.03544,
+            19.285413
+          ],
+          [
+            -99.035434,
+            19.284997
+          ],
+          [
+            -99.035437,
+            19.2841
+          ],
+          [
+            -99.03456,
+            19.284076
+          ],
+          [
+            -99.033604,
+            19.284041
+          ],
+          [
+            -99.032668,
+            19.284015
+          ],
+          [
+            -99.031698,
+            19.283989
+          ],
+          [
+            -99.030704,
+            19.283975
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756305161346,
+    "query": {
+      "coordinates": [
+        [
+          -99.0376805,
+          19.2870816
+        ],
+        [
+          -99.0307042,
+          19.2839751
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

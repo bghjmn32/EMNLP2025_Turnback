@@ -1,0 +1,254 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.547266,
+    -33.924819,
+    18.552293,
+    -33.922335
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.547266,
+        -33.924819,
+        18.552293,
+        -33.922335
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 827.8,
+            "duration": 596.0,
+            "steps": [
+              {
+                "distance": 74.5,
+                "duration": 53.6,
+                "type": 11,
+                "instruction": "Head west on Richmond Street",
+                "name": "Richmond Street",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 124.7,
+                "duration": 89.8,
+                "type": 0,
+                "instruction": "Turn left onto Princess Margaret Street",
+                "name": "Princess Margaret Street",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 71.9,
+                "duration": 51.8,
+                "type": 1,
+                "instruction": "Turn right onto Biggar Street",
+                "name": "Biggar Street",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 14.4,
+                "duration": 10.4,
+                "type": 0,
+                "instruction": "Turn left onto Grens Street",
+                "name": "Grens Street",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 46.5,
+                "duration": 33.4,
+                "type": 13,
+                "instruction": "Keep right",
+                "name": "-",
+                "way_points": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "distance": 50.8,
+                "duration": 36.6,
+                "type": 4,
+                "instruction": "Turn slight left onto Showground Avenue",
+                "name": "Showground Avenue",
+                "way_points": [
+                  5,
+                  7
+                ]
+              },
+              {
+                "distance": 312.9,
+                "duration": 225.3,
+                "type": 1,
+                "instruction": "Turn right onto Mail Street",
+                "name": "Mail Street",
+                "way_points": [
+                  7,
+                  12
+                ]
+              },
+              {
+                "distance": 97.9,
+                "duration": 70.5,
+                "type": 1,
+                "instruction": "Turn right onto Techno Crescent",
+                "name": "Techno Crescent",
+                "way_points": [
+                  12,
+                  13
+                ]
+              },
+              {
+                "distance": 16.0,
+                "duration": 11.5,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  13,
+                  14
+                ]
+              },
+              {
+                "distance": 18.3,
+                "duration": 13.2,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  14,
+                  15
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  15,
+                  15
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          15
+        ],
+        "summary": {
+          "distance": 827.8,
+          "duration": 596.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.552293,
+            -33.922335
+          ],
+          [
+            18.551496,
+            -33.922441
+          ],
+          [
+            18.551603,
+            -33.923559
+          ],
+          [
+            18.550825,
+            -33.923596
+          ],
+          [
+            18.550836,
+            -33.923726
+          ],
+          [
+            18.550636,
+            -33.924109
+          ],
+          [
+            18.550683,
+            -33.924414
+          ],
+          [
+            18.550729,
+            -33.924558
+          ],
+          [
+            18.550626,
+            -33.924562
+          ],
+          [
+            18.550492,
+            -33.924574
+          ],
+          [
+            18.54962,
+            -33.924652
+          ],
+          [
+            18.54834,
+            -33.924738
+          ],
+          [
+            18.547353,
+            -33.924819
+          ],
+          [
+            18.547266,
+            -33.923941
+          ],
+          [
+            18.547437,
+            -33.923917
+          ],
+          [
+            18.54742,
+            -33.923753
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756804395526,
+    "query": {
+      "coordinates": [
+        [
+          18.5522933,
+          -33.9223352
+        ],
+        [
+          18.5474202,
+          -33.9237532
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

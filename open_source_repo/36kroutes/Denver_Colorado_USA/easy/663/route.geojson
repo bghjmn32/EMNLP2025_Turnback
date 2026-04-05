@@ -1,0 +1,201 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -104.906418,
+    39.653413,
+    -104.904214,
+    39.655744
+  ],
+  "features": [
+    {
+      "bbox": [
+        -104.906418,
+        39.653413,
+        -104.904214,
+        39.655744
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 502.4,
+            "duration": 361.7,
+            "steps": [
+              {
+                "distance": 49.2,
+                "duration": 35.5,
+                "type": 11,
+                "instruction": "Head west",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 384.8,
+                "duration": 277.1,
+                "type": 1,
+                "instruction": "Turn right onto South Poplar Street",
+                "name": "South Poplar Street",
+                "way_points": [
+                  1,
+                  18
+                ]
+              },
+              {
+                "distance": 68.3,
+                "duration": 49.2,
+                "type": 0,
+                "instruction": "Turn left onto East Girard Avenue",
+                "name": "East Girard Avenue",
+                "way_points": [
+                  18,
+                  21
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at East Girard Avenue, straight ahead",
+                "name": "-",
+                "way_points": [
+                  21,
+                  21
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          21
+        ],
+        "summary": {
+          "distance": 502.4,
+          "duration": 361.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -104.904214,
+            39.653413
+          ],
+          [
+            -104.904789,
+            39.653413
+          ],
+          [
+            -104.904801,
+            39.65382
+          ],
+          [
+            -104.904802,
+            39.653845
+          ],
+          [
+            -104.904805,
+            39.65397
+          ],
+          [
+            -104.904786,
+            39.654107
+          ],
+          [
+            -104.904707,
+            39.654224
+          ],
+          [
+            -104.904362,
+            39.654503
+          ],
+          [
+            -104.904278,
+            39.654622
+          ],
+          [
+            -104.904268,
+            39.654761
+          ],
+          [
+            -104.90432,
+            39.655128
+          ],
+          [
+            -104.904361,
+            39.655295
+          ],
+          [
+            -104.904416,
+            39.655366
+          ],
+          [
+            -104.904524,
+            39.65545
+          ],
+          [
+            -104.904672,
+            39.655502
+          ],
+          [
+            -104.90487,
+            39.655513
+          ],
+          [
+            -104.905333,
+            39.655512
+          ],
+          [
+            -104.905475,
+            39.655525
+          ],
+          [
+            -104.906044,
+            39.655744
+          ],
+          [
+            -104.906069,
+            39.655709
+          ],
+          [
+            -104.906167,
+            39.655567
+          ],
+          [
+            -104.906418,
+            39.655202
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306555040,
+    "query": {
+      "coordinates": [
+        [
+          -104.9042137,
+          39.6534131
+        ],
+        [
+          -104.9064185,
+          39.6552018
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

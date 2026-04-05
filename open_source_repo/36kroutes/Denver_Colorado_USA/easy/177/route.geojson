@@ -1,0 +1,250 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -105.006229,
+    39.831893,
+    -105.00171,
+    39.835327
+  ],
+  "features": [
+    {
+      "bbox": [
+        -105.006229,
+        39.831893,
+        -105.00171,
+        39.835327
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 733.4,
+            "duration": 528.0,
+            "steps": [
+              {
+                "distance": 69.0,
+                "duration": 49.7,
+                "type": 11,
+                "instruction": "Head north on Pecos Street",
+                "name": "Pecos Street",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 252.1,
+                "duration": 181.5,
+                "type": 1,
+                "instruction": "Turn right onto Del Norte Street",
+                "name": "Del Norte Street",
+                "way_points": [
+                  3,
+                  12
+                ]
+              },
+              {
+                "distance": 77.1,
+                "duration": 55.5,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  12,
+                  15
+                ]
+              },
+              {
+                "distance": 57.4,
+                "duration": 41.3,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  15,
+                  17
+                ]
+              },
+              {
+                "distance": 128.0,
+                "duration": 92.2,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  17,
+                  21
+                ]
+              },
+              {
+                "distance": 149.8,
+                "duration": 107.9,
+                "type": 0,
+                "instruction": "Turn left onto Hilltop Circle",
+                "name": "Hilltop Circle",
+                "way_points": [
+                  21,
+                  25
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Hilltop Circle, straight ahead",
+                "name": "-",
+                "way_points": [
+                  25,
+                  25
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          25
+        ],
+        "summary": {
+          "distance": 733.4,
+          "duration": 528.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -105.006229,
+            39.831893
+          ],
+          [
+            -105.006209,
+            39.832324
+          ],
+          [
+            -105.006198,
+            39.832386
+          ],
+          [
+            -105.006129,
+            39.832501
+          ],
+          [
+            -105.00575,
+            39.832502
+          ],
+          [
+            -105.005404,
+            39.832503
+          ],
+          [
+            -105.00523,
+            39.832503
+          ],
+          [
+            -105.005066,
+            39.832503
+          ],
+          [
+            -105.004967,
+            39.832503
+          ],
+          [
+            -105.004885,
+            39.832503
+          ],
+          [
+            -105.004602,
+            39.832504
+          ],
+          [
+            -105.003255,
+            39.832507
+          ],
+          [
+            -105.003177,
+            39.832507
+          ],
+          [
+            -105.00318,
+            39.832884
+          ],
+          [
+            -105.00319,
+            39.83314
+          ],
+          [
+            -105.003234,
+            39.833189
+          ],
+          [
+            -105.002791,
+            39.833377
+          ],
+          [
+            -105.002668,
+            39.833463
+          ],
+          [
+            -105.002782,
+            39.833567
+          ],
+          [
+            -105.002628,
+            39.833711
+          ],
+          [
+            -105.002158,
+            39.833927
+          ],
+          [
+            -105.00171,
+            39.834149
+          ],
+          [
+            -105.002034,
+            39.834599
+          ],
+          [
+            -105.002141,
+            39.834747
+          ],
+          [
+            -105.002331,
+            39.835007
+          ],
+          [
+            -105.00256,
+            39.835327
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756304661666,
+    "query": {
+      "coordinates": [
+        [
+          -105.0062289,
+          39.8318931
+        ],
+        [
+          -105.00256,
+          39.835327
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

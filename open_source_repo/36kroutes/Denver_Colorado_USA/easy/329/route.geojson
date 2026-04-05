@@ -1,0 +1,235 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -104.942964,
+    39.858765,
+    -104.940311,
+    39.866522
+  ],
+  "features": [
+    {
+      "bbox": [
+        -104.942964,
+        39.858765,
+        -104.940311,
+        39.866522
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1054.5,
+            "duration": 759.2,
+            "steps": [
+              {
+                "distance": 13.6,
+                "duration": 9.8,
+                "type": 11,
+                "instruction": "Head west",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 453.4,
+                "duration": 326.4,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  7
+                ]
+              },
+              {
+                "distance": 10.4,
+                "duration": 7.5,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  7,
+                  9
+                ]
+              },
+              {
+                "distance": 103.7,
+                "duration": 74.6,
+                "type": 0,
+                "instruction": "Turn left onto East 92nd Avenue",
+                "name": "East 92nd Avenue",
+                "way_points": [
+                  9,
+                  12
+                ]
+              },
+              {
+                "distance": 473.4,
+                "duration": 340.9,
+                "type": 0,
+                "instruction": "Turn left onto East 92nd Place",
+                "name": "East 92nd Place",
+                "way_points": [
+                  12,
+                  24
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at East 92nd Place, straight ahead",
+                "name": "-",
+                "way_points": [
+                  24,
+                  24
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          24
+        ],
+        "summary": {
+          "distance": 1054.5,
+          "duration": 759.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -104.940311,
+            39.858769
+          ],
+          [
+            -104.940471,
+            39.858765
+          ],
+          [
+            -104.940471,
+            39.858821
+          ],
+          [
+            -104.940472,
+            39.860034
+          ],
+          [
+            -104.940512,
+            39.860596
+          ],
+          [
+            -104.940535,
+            39.861917
+          ],
+          [
+            -104.940528,
+            39.862821
+          ],
+          [
+            -104.940527,
+            39.862841
+          ],
+          [
+            -104.940554,
+            39.862855
+          ],
+          [
+            -104.940559,
+            39.862923
+          ],
+          [
+            -104.941022,
+            39.862932
+          ],
+          [
+            -104.941045,
+            39.862985
+          ],
+          [
+            -104.94108,
+            39.863505
+          ],
+          [
+            -104.941965,
+            39.863508
+          ],
+          [
+            -104.942236,
+            39.863507
+          ],
+          [
+            -104.942417,
+            39.863524
+          ],
+          [
+            -104.942575,
+            39.863577
+          ],
+          [
+            -104.942707,
+            39.863658
+          ],
+          [
+            -104.942964,
+            39.86384
+          ],
+          [
+            -104.942874,
+            39.863973
+          ],
+          [
+            -104.942857,
+            39.864057
+          ],
+          [
+            -104.942855,
+            39.864813
+          ],
+          [
+            -104.94286,
+            39.865174
+          ],
+          [
+            -104.942865,
+            39.865526
+          ],
+          [
+            -104.942891,
+            39.866522
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756305298375,
+    "query": {
+      "coordinates": [
+        [
+          -104.940311,
+          39.8587687
+        ],
+        [
+          -104.942891,
+          39.866522
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

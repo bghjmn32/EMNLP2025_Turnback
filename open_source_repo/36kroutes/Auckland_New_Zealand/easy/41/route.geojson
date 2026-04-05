@@ -1,0 +1,172 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    174.907259,
+    -36.960458,
+    174.908809,
+    -36.956822
+  ],
+  "features": [
+    {
+      "bbox": [
+        174.907259,
+        -36.960458,
+        174.908809,
+        -36.956822
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 517.6,
+            "duration": 372.7,
+            "steps": [
+              {
+                "distance": 51.1,
+                "duration": 36.8,
+                "type": 11,
+                "instruction": "Head east",
+                "name": "-",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 399.6,
+                "duration": 287.7,
+                "type": 1,
+                "instruction": "Turn right onto Chapel Road",
+                "name": "Chapel Road",
+                "way_points": [
+                  2,
+                  9
+                ]
+              },
+              {
+                "distance": 48.7,
+                "duration": 35.0,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  9,
+                  10
+                ]
+              },
+              {
+                "distance": 18.2,
+                "duration": 13.1,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  10,
+                  11
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  11,
+                  11
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          11
+        ],
+        "summary": {
+          "distance": 517.6,
+          "duration": 372.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            174.90825,
+            -36.956846
+          ],
+          [
+            174.908365,
+            -36.956822
+          ],
+          [
+            174.908809,
+            -36.956906
+          ],
+          [
+            174.908755,
+            -36.957115
+          ],
+          [
+            174.908647,
+            -36.957484
+          ],
+          [
+            174.908552,
+            -36.957814
+          ],
+          [
+            174.908465,
+            -36.958113
+          ],
+          [
+            174.908035,
+            -36.959677
+          ],
+          [
+            174.907895,
+            -36.960181
+          ],
+          [
+            174.90783,
+            -36.960414
+          ],
+          [
+            174.907302,
+            -36.960297
+          ],
+          [
+            174.907259,
+            -36.960458
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756373701346,
+    "query": {
+      "coordinates": [
+        [
+          174.90825,
+          -36.9568461
+        ],
+        [
+          174.9072592,
+          -36.9604576
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.545323,
+    -33.980484,
+    18.548788,
+    -33.977766
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.545323,
+        -33.980484,
+        18.548788,
+        -33.977766
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 572.9,
+            "duration": 412.5,
+            "steps": [
+              {
+                "distance": 64.8,
+                "duration": 46.7,
+                "type": 11,
+                "instruction": "Head south on Aries Street",
+                "name": "Aries Street",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 60.6,
+                "duration": 43.7,
+                "type": 1,
+                "instruction": "Turn right onto Vincent Road",
+                "name": "Vincent Road",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 262.0,
+                "duration": 188.7,
+                "type": 0,
+                "instruction": "Turn left onto Pavo Street",
+                "name": "Pavo Street",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 185.4,
+                "duration": 133.5,
+                "type": 1,
+                "instruction": "Turn right onto Ruimte Road",
+                "name": "Ruimte Road",
+                "way_points": [
+                  3,
+                  5
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Ruimte Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  5,
+                  5
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          5
+        ],
+        "summary": {
+          "distance": 572.9,
+          "duration": 412.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.548788,
+            -33.977766
+          ],
+          [
+            18.548616,
+            -33.978331
+          ],
+          [
+            18.547977,
+            -33.978202
+          ],
+          [
+            18.54727,
+            -33.980484
+          ],
+          [
+            18.546616,
+            -33.980338
+          ],
+          [
+            18.545323,
+            -33.980066
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756805681100,
+    "query": {
+      "coordinates": [
+        [
+          18.5487876,
+          -33.9777664
+        ],
+        [
+          18.5453233,
+          -33.980066
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

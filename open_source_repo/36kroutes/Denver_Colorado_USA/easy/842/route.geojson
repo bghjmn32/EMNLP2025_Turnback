@@ -1,0 +1,134 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -104.772279,
+    39.717551,
+    -104.766386,
+    39.717689
+  ],
+  "features": [
+    {
+      "bbox": [
+        -104.772279,
+        39.717551,
+        -104.766386,
+        39.717689
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 514.2,
+            "duration": 370.2,
+            "steps": [
+              {
+                "distance": 503.7,
+                "duration": 362.7,
+                "type": 11,
+                "instruction": "Head west on Devil's Thumb Avenue",
+                "name": "Devil's Thumb Avenue",
+                "way_points": [
+                  0,
+                  6
+                ]
+              },
+              {
+                "distance": 10.5,
+                "duration": 7.6,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  7,
+                  7
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          7
+        ],
+        "summary": {
+          "distance": 514.2,
+          "duration": 370.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -104.766386,
+            39.717689
+          ],
+          [
+            -104.76823,
+            39.717675
+          ],
+          [
+            -104.769945,
+            39.717662
+          ],
+          [
+            -104.770588,
+            39.717658
+          ],
+          [
+            -104.770966,
+            39.717655
+          ],
+          [
+            -104.772074,
+            39.717646
+          ],
+          [
+            -104.772275,
+            39.717645
+          ],
+          [
+            -104.772279,
+            39.717551
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756307264311,
+    "query": {
+      "coordinates": [
+        [
+          -104.7663856,
+          39.717689
+        ],
+        [
+          -104.7722788,
+          39.7175505
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -0.261985,
+    51.469373,
+    -0.253244,
+    51.470622
+  ],
+  "features": [
+    {
+      "bbox": [
+        -0.261985,
+        51.469373,
+        -0.253244,
+        51.470622
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 674.6,
+            "duration": 485.7,
+            "steps": [
+              {
+                "distance": 55.9,
+                "duration": 40.3,
+                "type": 11,
+                "instruction": "Head north on Church Path",
+                "name": "Church Path",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 426.6,
+                "duration": 307.1,
+                "type": 1,
+                "instruction": "Turn right onto Mortlake High Street, A3003",
+                "name": "Mortlake High Street, A3003",
+                "way_points": [
+                  3,
+                  14
+                ]
+              },
+              {
+                "distance": 35.6,
+                "duration": 25.7,
+                "type": 1,
+                "instruction": "Turn right onto White Hart Lane",
+                "name": "White Hart Lane",
+                "way_points": [
+                  14,
+                  15
+                ]
+              },
+              {
+                "distance": 156.5,
+                "duration": 112.6,
+                "type": 0,
+                "instruction": "Turn left onto Thorne Passage",
+                "name": "Thorne Passage",
+                "way_points": [
+                  15,
+                  18
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Thorne Passage, straight ahead",
+                "name": "-",
+                "way_points": [
+                  18,
+                  18
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          18
+        ],
+        "summary": {
+          "distance": 674.6,
+          "duration": 485.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -0.261985,
+            51.469373
+          ],
+          [
+            -0.261951,
+            51.469598
+          ],
+          [
+            -0.26179,
+            51.469682
+          ],
+          [
+            -0.261746,
+            51.469825
+          ],
+          [
+            -0.260435,
+            51.469825
+          ],
+          [
+            -0.259903,
+            51.469835
+          ],
+          [
+            -0.25989,
+            51.469835
+          ],
+          [
+            -0.259148,
+            51.469918
+          ],
+          [
+            -0.25885,
+            51.469952
+          ],
+          [
+            -0.257911,
+            51.470098
+          ],
+          [
+            -0.257082,
+            51.470249
+          ],
+          [
+            -0.256519,
+            51.470398
+          ],
+          [
+            -0.256262,
+            51.470462
+          ],
+          [
+            -0.255925,
+            51.470555
+          ],
+          [
+            -0.255811,
+            51.470622
+          ],
+          [
+            -0.255489,
+            51.470372
+          ],
+          [
+            -0.255092,
+            51.47043
+          ],
+          [
+            -0.253623,
+            51.470469
+          ],
+          [
+            -0.253244,
+            51.470447
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756829151401,
+    "query": {
+      "coordinates": [
+        [
+          -0.2619848,
+          51.4693726
+        ],
+        [
+          -0.2532439,
+          51.4704471
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

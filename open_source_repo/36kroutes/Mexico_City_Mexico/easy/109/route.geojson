@@ -1,0 +1,256 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.148155,
+    19.353793,
+    -99.145548,
+    19.357671
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.148155,
+        19.353793,
+        -99.145548,
+        19.357671
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 924.6,
+            "duration": 665.7,
+            "steps": [
+              {
+                "distance": 235.7,
+                "duration": 169.7,
+                "type": 11,
+                "instruction": "Head west on Avenida Río Churubusco",
+                "name": "Avenida Río Churubusco",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 137.4,
+                "duration": 98.9,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  3,
+                  12
+                ]
+              },
+              {
+                "distance": 19.4,
+                "duration": 13.9,
+                "type": 1,
+                "instruction": "Turn right onto Avenida Río Churubusco",
+                "name": "Avenida Río Churubusco",
+                "way_points": [
+                  12,
+                  13
+                ]
+              },
+              {
+                "distance": 113.9,
+                "duration": 82.0,
+                "type": 1,
+                "instruction": "Turn right onto Calle Holanda",
+                "name": "Calle Holanda",
+                "way_points": [
+                  13,
+                  14
+                ]
+              },
+              {
+                "distance": 58.0,
+                "duration": 41.8,
+                "type": 0,
+                "instruction": "Turn left onto Calzada General Pedro María Anaya",
+                "name": "Calzada General Pedro María Anaya",
+                "way_points": [
+                  14,
+                  15
+                ]
+              },
+              {
+                "distance": 213.7,
+                "duration": 153.9,
+                "type": 1,
+                "instruction": "Turn right onto Calle Rafaél Oliva",
+                "name": "Calle Rafaél Oliva",
+                "way_points": [
+                  15,
+                  17
+                ]
+              },
+              {
+                "distance": 123.8,
+                "duration": 89.1,
+                "type": 0,
+                "instruction": "Turn left onto Calle 20 de Agosto",
+                "name": "Calle 20 de Agosto",
+                "way_points": [
+                  17,
+                  19
+                ]
+              },
+              {
+                "distance": 22.6,
+                "duration": 16.3,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  19,
+                  21
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  21,
+                  21
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          21
+        ],
+        "summary": {
+          "distance": 924.6,
+          "duration": 665.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.145548,
+            19.3575
+          ],
+          [
+            -99.146335,
+            19.357541
+          ],
+          [
+            -99.147145,
+            19.357581
+          ],
+          [
+            -99.14779,
+            19.357632
+          ],
+          [
+            -99.14779,
+            19.357661
+          ],
+          [
+            -99.14794,
+            19.357671
+          ],
+          [
+            -99.147958,
+            19.357505
+          ],
+          [
+            -99.148131,
+            19.357522
+          ],
+          [
+            -99.148155,
+            19.357305
+          ],
+          [
+            -99.147996,
+            19.35729
+          ],
+          [
+            -99.148015,
+            19.357117
+          ],
+          [
+            -99.147864,
+            19.357108
+          ],
+          [
+            -99.14786,
+            19.357156
+          ],
+          [
+            -99.147676,
+            19.357147
+          ],
+          [
+            -99.147915,
+            19.356147
+          ],
+          [
+            -99.147362,
+            19.356139
+          ],
+          [
+            -99.147581,
+            19.355329
+          ],
+          [
+            -99.147847,
+            19.354272
+          ],
+          [
+            -99.146873,
+            19.354011
+          ],
+          [
+            -99.146713,
+            19.353965
+          ],
+          [
+            -99.146738,
+            19.353874
+          ],
+          [
+            -99.146815,
+            19.353793
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756304490404,
+    "query": {
+      "coordinates": [
+        [
+          -99.1455476,
+          19.3575003
+        ],
+        [
+          -99.1468155,
+          19.3537927
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

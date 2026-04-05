@@ -1,0 +1,248 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.468074,
+    -34.055448,
+    18.471681,
+    -34.051619
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.468074,
+        -34.055448,
+        18.471681,
+        -34.051619
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 713.0,
+            "duration": 513.4,
+            "steps": [
+              {
+                "distance": 261.2,
+                "duration": 188.0,
+                "type": 11,
+                "instruction": "Head north on 6th Avenue",
+                "name": "6th Avenue",
+                "way_points": [
+                  0,
+                  5
+                ]
+              },
+              {
+                "distance": 77.0,
+                "duration": 55.5,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  5,
+                  8
+                ]
+              },
+              {
+                "distance": 36.8,
+                "duration": 26.5,
+                "type": 1,
+                "instruction": "Turn right onto Tonbridge Avenue",
+                "name": "Tonbridge Avenue",
+                "way_points": [
+                  8,
+                  11
+                ]
+              },
+              {
+                "distance": 110.7,
+                "duration": 79.7,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  11,
+                  14
+                ]
+              },
+              {
+                "distance": 34.2,
+                "duration": 24.6,
+                "type": 1,
+                "instruction": "Turn right onto Canterbury Road",
+                "name": "Canterbury Road",
+                "way_points": [
+                  14,
+                  15
+                ]
+              },
+              {
+                "distance": 102.4,
+                "duration": 73.7,
+                "type": 0,
+                "instruction": "Turn left onto Rand Road",
+                "name": "Rand Road",
+                "way_points": [
+                  15,
+                  16
+                ]
+              },
+              {
+                "distance": 82.4,
+                "duration": 59.3,
+                "type": 0,
+                "instruction": "Turn left onto Tissot Road",
+                "name": "Tissot Road",
+                "way_points": [
+                  16,
+                  18
+                ]
+              },
+              {
+                "distance": 8.3,
+                "duration": 6.0,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  18,
+                  19
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  19,
+                  19
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          19
+        ],
+        "summary": {
+          "distance": 713.0,
+          "duration": 513.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.471681,
+            -34.055448
+          ],
+          [
+            18.471639,
+            -34.05531
+          ],
+          [
+            18.471603,
+            -34.055193
+          ],
+          [
+            18.47124,
+            -34.054025
+          ],
+          [
+            18.471153,
+            -34.053756
+          ],
+          [
+            18.470975,
+            -34.053173
+          ],
+          [
+            18.470748,
+            -34.053162
+          ],
+          [
+            18.470284,
+            -34.053073
+          ],
+          [
+            18.470195,
+            -34.052992
+          ],
+          [
+            18.470286,
+            -34.052947
+          ],
+          [
+            18.470356,
+            -34.052859
+          ],
+          [
+            18.470408,
+            -34.052728
+          ],
+          [
+            18.470271,
+            -34.052684
+          ],
+          [
+            18.469517,
+            -34.052248
+          ],
+          [
+            18.469391,
+            -34.052206
+          ],
+          [
+            18.469507,
+            -34.051914
+          ],
+          [
+            18.468454,
+            -34.051619
+          ],
+          [
+            18.468188,
+            -34.052263
+          ],
+          [
+            18.468164,
+            -34.05232
+          ],
+          [
+            18.468074,
+            -34.052313
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756805520126,
+    "query": {
+      "coordinates": [
+        [
+          18.4716812,
+          -34.0554479
+        ],
+        [
+          18.4680742,
+          -34.0523135
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

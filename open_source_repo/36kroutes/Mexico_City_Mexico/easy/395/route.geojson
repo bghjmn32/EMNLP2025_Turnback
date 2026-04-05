@@ -1,0 +1,198 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.147106,
+    19.397679,
+    -99.141761,
+    19.401245
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.147106,
+        19.397679,
+        -99.141761,
+        19.401245
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 779.8,
+            "duration": 561.4,
+            "steps": [
+              {
+                "distance": 79.1,
+                "duration": 57.0,
+                "type": 11,
+                "instruction": "Head north",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 120.0,
+                "duration": 86.4,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 131.9,
+                "duration": 94.9,
+                "type": 13,
+                "instruction": "Keep right onto Alfonso XIII",
+                "name": "Alfonso XIII",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 103.5,
+                "duration": 74.5,
+                "type": 6,
+                "instruction": "Continue straight onto Alfonso XIII",
+                "name": "Alfonso XIII",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 329.9,
+                "duration": 237.5,
+                "type": 12,
+                "instruction": "Keep left onto Calle Segovia",
+                "name": "Calle Segovia",
+                "way_points": [
+                  4,
+                  10
+                ]
+              },
+              {
+                "distance": 15.4,
+                "duration": 11.1,
+                "type": 6,
+                "instruction": "Continue straight onto Calle Caleta",
+                "name": "Calle Caleta",
+                "way_points": [
+                  10,
+                  12
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Caleta, straight ahead",
+                "name": "-",
+                "way_points": [
+                  12,
+                  12
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          12
+        ],
+        "summary": {
+          "distance": 779.8,
+          "duration": 561.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.141883,
+            19.397679
+          ],
+          [
+            -99.141761,
+            19.398381
+          ],
+          [
+            -99.142467,
+            19.399231
+          ],
+          [
+            -99.143211,
+            19.400186
+          ],
+          [
+            -99.143835,
+            19.400907
+          ],
+          [
+            -99.144482,
+            19.401002
+          ],
+          [
+            -99.144905,
+            19.401067
+          ],
+          [
+            -99.145052,
+            19.401086
+          ],
+          [
+            -99.1453,
+            19.401102
+          ],
+          [
+            -99.146234,
+            19.401181
+          ],
+          [
+            -99.14696,
+            19.401235
+          ],
+          [
+            -99.147045,
+            19.401241
+          ],
+          [
+            -99.147106,
+            19.401245
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756305835879,
+    "query": {
+      "coordinates": [
+        [
+          -99.1418826,
+          19.397679
+        ],
+        [
+          -99.1471065,
+          19.401245
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

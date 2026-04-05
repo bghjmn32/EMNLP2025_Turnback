@@ -1,0 +1,228 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -105.013602,
+    39.678726,
+    -105.009428,
+    39.679284
+  ],
+  "features": [
+    {
+      "bbox": [
+        -105.013602,
+        39.678726,
+        -105.009428,
+        39.679284
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 496.3,
+            "duration": 357.3,
+            "steps": [
+              {
+                "distance": 18.1,
+                "duration": 13.1,
+                "type": 11,
+                "instruction": "Head east",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 17.6,
+                "duration": 12.7,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 137.6,
+                "duration": 99.1,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  2,
+                  7
+                ]
+              },
+              {
+                "distance": 47.6,
+                "duration": 34.3,
+                "type": 1,
+                "instruction": "Turn right onto South Tejon Street",
+                "name": "South Tejon Street",
+                "way_points": [
+                  7,
+                  10
+                ]
+              },
+              {
+                "distance": 202.6,
+                "duration": 145.9,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  10,
+                  11
+                ]
+              },
+              {
+                "distance": 8.2,
+                "duration": 5.9,
+                "type": 1,
+                "instruction": "Turn right onto South Vallejo Street",
+                "name": "South Vallejo Street",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 19.2,
+                "duration": 13.8,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  12,
+                  13
+                ]
+              },
+              {
+                "distance": 45.3,
+                "duration": 32.6,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  13,
+                  14
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  14,
+                  14
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          14
+        ],
+        "summary": {
+          "distance": 496.3,
+          "duration": 357.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -105.00964,
+            39.678888
+          ],
+          [
+            -105.009428,
+            39.678885
+          ],
+          [
+            -105.009431,
+            39.678726
+          ],
+          [
+            -105.009945,
+            39.67873
+          ],
+          [
+            -105.010408,
+            39.678733
+          ],
+          [
+            -105.010916,
+            39.678736
+          ],
+          [
+            -105.010939,
+            39.678765
+          ],
+          [
+            -105.011019,
+            39.678764
+          ],
+          [
+            -105.011015,
+            39.678915
+          ],
+          [
+            -105.01101,
+            39.679082
+          ],
+          [
+            -105.011007,
+            39.679192
+          ],
+          [
+            -105.013375,
+            39.679207
+          ],
+          [
+            -105.013375,
+            39.679281
+          ],
+          [
+            -105.013599,
+            39.679284
+          ],
+          [
+            -105.013602,
+            39.678876
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756304105579,
+    "query": {
+      "coordinates": [
+        [
+          -105.0096403,
+          39.6788875
+        ],
+        [
+          -105.0136019,
+          39.6788762
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

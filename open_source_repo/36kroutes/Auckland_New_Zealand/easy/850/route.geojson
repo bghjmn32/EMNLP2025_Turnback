@@ -1,0 +1,154 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    174.896994,
+    -36.983438,
+    174.898295,
+    -36.977753
+  ],
+  "features": [
+    {
+      "bbox": [
+        174.896994,
+        -36.983438,
+        174.898295,
+        -36.977753
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 695.1,
+            "duration": 500.5,
+            "steps": [
+              {
+                "distance": 127.7,
+                "duration": 91.9,
+                "type": 11,
+                "instruction": "Head southeast on Dawson Road",
+                "name": "Dawson Road",
+                "way_points": [
+                  0,
+                  5
+                ]
+              },
+              {
+                "distance": 567.4,
+                "duration": 408.6,
+                "type": 1,
+                "instruction": "Turn right onto Dissmeyer Drive",
+                "name": "Dissmeyer Drive",
+                "way_points": [
+                  5,
+                  12
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Dissmeyer Drive, straight ahead",
+                "name": "-",
+                "way_points": [
+                  12,
+                  12
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          12
+        ],
+        "summary": {
+          "distance": 695.1,
+          "duration": 500.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            174.897124,
+            -36.977753
+          ],
+          [
+            174.897347,
+            -36.977884
+          ],
+          [
+            174.897702,
+            -36.978118
+          ],
+          [
+            174.89783,
+            -36.978189
+          ],
+          [
+            174.898229,
+            -36.978428
+          ],
+          [
+            174.898266,
+            -36.978449
+          ],
+          [
+            174.898295,
+            -36.978595
+          ],
+          [
+            174.898279,
+            -36.978786
+          ],
+          [
+            174.898029,
+            -36.979686
+          ],
+          [
+            174.897823,
+            -36.980511
+          ],
+          [
+            174.897563,
+            -36.981394
+          ],
+          [
+            174.897202,
+            -36.982698
+          ],
+          [
+            174.896994,
+            -36.983438
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756375599910,
+    "query": {
+      "coordinates": [
+        [
+          174.8971238,
+          -36.9777528
+        ],
+        [
+          174.8969941,
+          -36.9834379
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

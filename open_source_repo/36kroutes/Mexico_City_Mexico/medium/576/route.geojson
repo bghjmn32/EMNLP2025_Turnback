@@ -1,0 +1,283 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.163381,
+    19.518207,
+    -99.153034,
+    19.521358
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.163381,
+        19.518207,
+        -99.153034,
+        19.521358
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1528.5,
+            "duration": 1100.5,
+            "steps": [
+              {
+                "distance": 43.1,
+                "duration": 31.1,
+                "type": 11,
+                "instruction": "Head northwest on Calzada Vallejo, EJE 1 PTE",
+                "name": "Calzada Vallejo, EJE 1 PTE",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 28.3,
+                "duration": 20.4,
+                "type": 1,
+                "instruction": "Turn right onto Avenida 3-A",
+                "name": "Avenida 3-A",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 99.1,
+                "duration": 71.3,
+                "type": 4,
+                "instruction": "Turn slight left onto Calle Rojo Gómez",
+                "name": "Calle Rojo Gómez",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 214.1,
+                "duration": 154.2,
+                "type": 1,
+                "instruction": "Turn right onto Calle Perlillar",
+                "name": "Calle Perlillar",
+                "way_points": [
+                  4,
+                  8
+                ]
+              },
+              {
+                "distance": 354.8,
+                "duration": 255.4,
+                "type": 0,
+                "instruction": "Turn left onto Calle 11",
+                "name": "Calle 11",
+                "way_points": [
+                  8,
+                  10
+                ]
+              },
+              {
+                "distance": 278.9,
+                "duration": 200.8,
+                "type": 1,
+                "instruction": "Turn right onto Calle 28",
+                "name": "Calle 28",
+                "way_points": [
+                  10,
+                  16
+                ]
+              },
+              {
+                "distance": 373.7,
+                "duration": 269.0,
+                "type": 6,
+                "instruction": "Continue straight onto Calle 28",
+                "name": "Calle 28",
+                "way_points": [
+                  16,
+                  23
+                ]
+              },
+              {
+                "distance": 68.1,
+                "duration": 49.0,
+                "type": 0,
+                "instruction": "Turn left onto Calle 23",
+                "name": "Calle 23",
+                "way_points": [
+                  23,
+                  24
+                ]
+              },
+              {
+                "distance": 68.5,
+                "duration": 49.3,
+                "type": 13,
+                "instruction": "Keep right onto Calle 23-B",
+                "name": "Calle 23-B",
+                "way_points": [
+                  24,
+                  25
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle 23-B, straight ahead",
+                "name": "-",
+                "way_points": [
+                  25,
+                  25
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          25
+        ],
+        "summary": {
+          "distance": 1528.5,
+          "duration": 1100.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.16321,
+            19.518207
+          ],
+          [
+            -99.163228,
+            19.518247
+          ],
+          [
+            -99.163381,
+            19.51856
+          ],
+          [
+            -99.163128,
+            19.518649
+          ],
+          [
+            -99.162701,
+            19.519444
+          ],
+          [
+            -99.16223,
+            19.519207
+          ],
+          [
+            -99.161757,
+            19.518971
+          ],
+          [
+            -99.161334,
+            19.51876
+          ],
+          [
+            -99.160899,
+            19.518537
+          ],
+          [
+            -99.160056,
+            19.520006
+          ],
+          [
+            -99.159318,
+            19.521358
+          ],
+          [
+            -99.158888,
+            19.521136
+          ],
+          [
+            -99.158453,
+            19.520931
+          ],
+          [
+            -99.158009,
+            19.520723
+          ],
+          [
+            -99.157607,
+            19.520495
+          ],
+          [
+            -99.157161,
+            19.520274
+          ],
+          [
+            -99.156968,
+            19.520185
+          ],
+          [
+            -99.1567,
+            19.520063
+          ],
+          [
+            -99.156226,
+            19.519856
+          ],
+          [
+            -99.155827,
+            19.519655
+          ],
+          [
+            -99.155324,
+            19.519385
+          ],
+          [
+            -99.154799,
+            19.519124
+          ],
+          [
+            -99.154317,
+            19.518892
+          ],
+          [
+            -99.153797,
+            19.518652
+          ],
+          [
+            -99.153507,
+            19.5192
+          ],
+          [
+            -99.153034,
+            19.519624
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756311269394,
+    "query": {
+      "coordinates": [
+        [
+          -99.1632101,
+          19.5182068
+        ],
+        [
+          -99.1530338,
+          19.519624
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -105.030377,
+    39.646693,
+    -105.024028,
+    39.647171
+  ],
+  "features": [
+    {
+      "bbox": [
+        -105.030377,
+        39.646693,
+        -105.024028,
+        39.647171
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 663.5,
+            "duration": 477.7,
+            "steps": [
+              {
+                "distance": 61.2,
+                "duration": 44.1,
+                "type": 11,
+                "instruction": "Head west",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 19.1,
+                "duration": 13.7,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 434.0,
+                "duration": 312.5,
+                "type": 1,
+                "instruction": "Turn right onto West Milan Avenue",
+                "name": "West Milan Avenue",
+                "way_points": [
+                  2,
+                  9
+                ]
+              },
+              {
+                "distance": 36.4,
+                "duration": 26.2,
+                "type": 0,
+                "instruction": "Turn left onto South Federal Boulevard, CO 88",
+                "name": "South Federal Boulevard, CO 88",
+                "way_points": [
+                  9,
+                  10
+                ]
+              },
+              {
+                "distance": 112.9,
+                "duration": 81.3,
+                "type": 3,
+                "instruction": "Turn sharp right",
+                "name": "-",
+                "way_points": [
+                  10,
+                  15
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  15,
+                  15
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          15
+        ],
+        "summary": {
+          "distance": 663.5,
+          "duration": 477.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -105.029639,
+            39.646693
+          ],
+          [
+            -105.030353,
+            39.646702
+          ],
+          [
+            -105.030377,
+            39.646872
+          ],
+          [
+            -105.029949,
+            39.64687
+          ],
+          [
+            -105.028908,
+            39.646864
+          ],
+          [
+            -105.02802,
+            39.646859
+          ],
+          [
+            -105.027136,
+            39.646854
+          ],
+          [
+            -105.026249,
+            39.646849
+          ],
+          [
+            -105.025456,
+            39.646844
+          ],
+          [
+            -105.025308,
+            39.646844
+          ],
+          [
+            -105.025305,
+            39.647171
+          ],
+          [
+            -105.025153,
+            39.647125
+          ],
+          [
+            -105.024781,
+            39.647012
+          ],
+          [
+            -105.024506,
+            39.646992
+          ],
+          [
+            -105.024208,
+            39.646999
+          ],
+          [
+            -105.024028,
+            39.646988
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756307645902,
+    "query": {
+      "coordinates": [
+        [
+          -105.0296389,
+          39.6466931
+        ],
+        [
+          -105.0240277,
+          39.6469876
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

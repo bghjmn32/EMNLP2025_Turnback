@@ -1,0 +1,288 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.072376,
+    19.352559,
+    -99.063474,
+    19.354124
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.072376,
+        19.352559,
+        -99.063474,
+        19.354124
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1360.8,
+            "duration": 979.8,
+            "steps": [
+              {
+                "distance": 12.9,
+                "duration": 9.3,
+                "type": 11,
+                "instruction": "Head south on Calle Universidad",
+                "name": "Calle Universidad",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 113.0,
+                "duration": 81.4,
+                "type": 1,
+                "instruction": "Turn right onto Calle La Celestina",
+                "name": "Calle La Celestina",
+                "way_points": [
+                  1,
+                  5
+                ]
+              },
+              {
+                "distance": 153.6,
+                "duration": 110.6,
+                "type": 0,
+                "instruction": "Turn left onto Calle América",
+                "name": "Calle América",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 481.3,
+                "duration": 346.5,
+                "type": 1,
+                "instruction": "Turn right onto Calle Esteban Coronado",
+                "name": "Calle Esteban Coronado",
+                "way_points": [
+                  6,
+                  19
+                ]
+              },
+              {
+                "distance": 300.3,
+                "duration": 216.2,
+                "type": 6,
+                "instruction": "Continue straight onto Calle Esteban Coronado",
+                "name": "Calle Esteban Coronado",
+                "way_points": [
+                  19,
+                  21
+                ]
+              },
+              {
+                "distance": 76.3,
+                "duration": 54.9,
+                "type": 0,
+                "instruction": "Turn left onto Calle Segunda de Hidalgo",
+                "name": "Calle Segunda de Hidalgo",
+                "way_points": [
+                  21,
+                  22
+                ]
+              },
+              {
+                "distance": 140.0,
+                "duration": 100.8,
+                "type": 0,
+                "instruction": "Turn left onto Avenida Luis Hidalgo Monroy",
+                "name": "Avenida Luis Hidalgo Monroy",
+                "way_points": [
+                  22,
+                  27
+                ]
+              },
+              {
+                "distance": 83.5,
+                "duration": 60.1,
+                "type": 2,
+                "instruction": "Turn sharp left",
+                "name": "-",
+                "way_points": [
+                  27,
+                  29
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  29,
+                  29
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          29
+        ],
+        "summary": {
+          "distance": 1360.8,
+          "duration": 979.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.063474,
+            19.353808
+          ],
+          [
+            -99.063505,
+            19.353695
+          ],
+          [
+            -99.063799,
+            19.353753
+          ],
+          [
+            -99.064024,
+            19.353796
+          ],
+          [
+            -99.064209,
+            19.353836
+          ],
+          [
+            -99.06456,
+            19.353901
+          ],
+          [
+            -99.064906,
+            19.352559
+          ],
+          [
+            -99.065048,
+            19.352585
+          ],
+          [
+            -99.065444,
+            19.352668
+          ],
+          [
+            -99.065601,
+            19.352699
+          ],
+          [
+            -99.065831,
+            19.352743
+          ],
+          [
+            -99.066217,
+            19.352816
+          ],
+          [
+            -99.066418,
+            19.352854
+          ],
+          [
+            -99.066665,
+            19.352903
+          ],
+          [
+            -99.066945,
+            19.352965
+          ],
+          [
+            -99.067239,
+            19.353028
+          ],
+          [
+            -99.067639,
+            19.353105
+          ],
+          [
+            -99.068131,
+            19.353202
+          ],
+          [
+            -99.069236,
+            19.353431
+          ],
+          [
+            -99.069394,
+            19.353457
+          ],
+          [
+            -99.071529,
+            19.353949
+          ],
+          [
+            -99.072166,
+            19.354124
+          ],
+          [
+            -99.072376,
+            19.353468
+          ],
+          [
+            -99.072355,
+            19.353457
+          ],
+          [
+            -99.071957,
+            19.353263
+          ],
+          [
+            -99.071896,
+            19.353229
+          ],
+          [
+            -99.071474,
+            19.353
+          ],
+          [
+            -99.071211,
+            19.352854
+          ],
+          [
+            -99.07117,
+            19.352999
+          ],
+          [
+            -99.071,
+            19.353578
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756310024808,
+    "query": {
+      "coordinates": [
+        [
+          -99.0634743,
+          19.3538075
+        ],
+        [
+          -99.0710001,
+          19.3535778
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

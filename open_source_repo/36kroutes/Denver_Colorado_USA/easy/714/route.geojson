@@ -1,0 +1,165 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -105.088289,
+    39.668544,
+    -105.083778,
+    39.672125
+  ],
+  "features": [
+    {
+      "bbox": [
+        -105.088289,
+        39.668544,
+        -105.083778,
+        39.672125
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 676.0,
+            "duration": 486.7,
+            "steps": [
+              {
+                "distance": 157.1,
+                "duration": 113.1,
+                "type": 11,
+                "instruction": "Head north on South Balsam Street",
+                "name": "South Balsam Street",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 426.4,
+                "duration": 307.0,
+                "type": 1,
+                "instruction": "Turn right onto West Harvard Drive",
+                "name": "West Harvard Drive",
+                "way_points": [
+                  2,
+                  10
+                ]
+              },
+              {
+                "distance": 92.6,
+                "duration": 66.6,
+                "type": 0,
+                "instruction": "Turn left onto South Yarrow Street",
+                "name": "South Yarrow Street",
+                "way_points": [
+                  10,
+                  12
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at South Yarrow Street, straight ahead",
+                "name": "-",
+                "way_points": [
+                  12,
+                  12
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          12
+        ],
+        "summary": {
+          "distance": 676.0,
+          "duration": 486.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -105.088288,
+            39.668544
+          ],
+          [
+            -105.088289,
+            39.668656
+          ],
+          [
+            -105.088259,
+            39.669956
+          ],
+          [
+            -105.087715,
+            39.669947
+          ],
+          [
+            -105.087539,
+            39.66998
+          ],
+          [
+            -105.086769,
+            39.670361
+          ],
+          [
+            -105.086306,
+            39.670599
+          ],
+          [
+            -105.085799,
+            39.670923
+          ],
+          [
+            -105.08525,
+            39.671174
+          ],
+          [
+            -105.084812,
+            39.67126
+          ],
+          [
+            -105.083778,
+            39.6713
+          ],
+          [
+            -105.083787,
+            39.671971
+          ],
+          [
+            -105.083847,
+            39.672125
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306793375,
+    "query": {
+      "coordinates": [
+        [
+          -105.0882885,
+          39.6685442
+        ],
+        [
+          -105.0838474,
+          39.6721254
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

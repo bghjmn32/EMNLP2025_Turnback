@@ -1,0 +1,267 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.086845,
+    19.403808,
+    -99.085361,
+    19.409826
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.086845,
+        19.403808,
+        -99.085361,
+        19.409826
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 790.2,
+            "duration": 568.9,
+            "steps": [
+              {
+                "distance": 7.7,
+                "duration": 5.5,
+                "type": 11,
+                "instruction": "Head southeast on Avenida Francisco Morazán, EJE 1 SUR",
+                "name": "Avenida Francisco Morazán, EJE 1 SUR",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 110.0,
+                "duration": 79.2,
+                "type": 1,
+                "instruction": "Turn right onto Calle 59",
+                "name": "Calle 59",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 108.4,
+                "duration": 78.0,
+                "type": 0,
+                "instruction": "Turn left onto Avenida 10",
+                "name": "Avenida 10",
+                "way_points": [
+                  2,
+                  6
+                ]
+              },
+              {
+                "distance": 76.2,
+                "duration": 54.8,
+                "type": 1,
+                "instruction": "Turn right onto Calle 63",
+                "name": "Calle 63",
+                "way_points": [
+                  6,
+                  8
+                ]
+              },
+              {
+                "distance": 6.3,
+                "duration": 4.6,
+                "type": 1,
+                "instruction": "Turn right onto Viaducto Río de la Piedad, VDCTO A",
+                "name": "Viaducto Río de la Piedad, VDCTO A",
+                "way_points": [
+                  8,
+                  9
+                ]
+              },
+              {
+                "distance": 37.4,
+                "duration": 27.0,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  9,
+                  11
+                ]
+              },
+              {
+                "distance": 7.5,
+                "duration": 5.4,
+                "type": 0,
+                "instruction": "Turn left onto Viaducto Río de la Piedad, VDCTO A",
+                "name": "Viaducto Río de la Piedad, VDCTO A",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 404.8,
+                "duration": 291.5,
+                "type": 1,
+                "instruction": "Turn right onto Calle 63",
+                "name": "Calle 63",
+                "way_points": [
+                  12,
+                  20
+                ]
+              },
+              {
+                "distance": 31.8,
+                "duration": 22.9,
+                "type": 13,
+                "instruction": "Keep right onto Calle 63",
+                "name": "Calle 63",
+                "way_points": [
+                  20,
+                  21
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle 63, straight ahead",
+                "name": "-",
+                "way_points": [
+                  21,
+                  21
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          21
+        ],
+        "summary": {
+          "distance": 790.2,
+          "duration": 568.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.08577,
+            19.409826
+          ],
+          [
+            -99.085708,
+            19.40979
+          ],
+          [
+            -99.086245,
+            19.40894
+          ],
+          [
+            -99.085872,
+            19.408731
+          ],
+          [
+            -99.085802,
+            19.408691
+          ],
+          [
+            -99.085703,
+            19.408634
+          ],
+          [
+            -99.085361,
+            19.408437
+          ],
+          [
+            -99.085515,
+            19.408205
+          ],
+          [
+            -99.08574,
+            19.407853
+          ],
+          [
+            -99.0858,
+            19.40786
+          ],
+          [
+            -99.085835,
+            19.407798
+          ],
+          [
+            -99.085873,
+            19.407534
+          ],
+          [
+            -99.085802,
+            19.407524
+          ],
+          [
+            -99.085906,
+            19.407085
+          ],
+          [
+            -99.086053,
+            19.406435
+          ],
+          [
+            -99.086071,
+            19.406348
+          ],
+          [
+            -99.086242,
+            19.405406
+          ],
+          [
+            -99.086296,
+            19.405099
+          ],
+          [
+            -99.086421,
+            19.404388
+          ],
+          [
+            -99.086466,
+            19.404243
+          ],
+          [
+            -99.086595,
+            19.403971
+          ],
+          [
+            -99.086845,
+            19.403808
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756307778873,
+    "query": {
+      "coordinates": [
+        [
+          -99.0857702,
+          19.4098261
+        ],
+        [
+          -99.0868451,
+          19.4038076
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.484311,
+    -23.028154,
+    -43.478892,
+    -23.026516
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.484311,
+        -23.028154,
+        -43.478892,
+        -23.026516
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 755.9,
+            "duration": 544.2,
+            "steps": [
+              {
+                "distance": 335.9,
+                "duration": 241.9,
+                "type": 11,
+                "instruction": "Head east",
+                "name": "-",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 189.8,
+                "duration": 136.7,
+                "type": 1,
+                "instruction": "Turn right onto Rua Zélio Valverde",
+                "name": "Rua Zélio Valverde",
+                "way_points": [
+                  3,
+                  5
+                ]
+              },
+              {
+                "distance": 144.6,
+                "duration": 104.1,
+                "type": 0,
+                "instruction": "Turn left onto Rua Gilberto Ramos",
+                "name": "Rua Gilberto Ramos",
+                "way_points": [
+                  5,
+                  9
+                ]
+              },
+              {
+                "distance": 6.3,
+                "duration": 4.5,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  9,
+                  10
+                ]
+              },
+              {
+                "distance": 43.1,
+                "duration": 31.0,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  10,
+                  11
+                ]
+              },
+              {
+                "distance": 36.2,
+                "duration": 26.0,
+                "type": 0,
+                "instruction": "Turn left onto Rua Almirante Heleno Nunes",
+                "name": "Rua Almirante Heleno Nunes",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Rua Almirante Heleno Nunes, straight ahead",
+                "name": "-",
+                "way_points": [
+                  12,
+                  12
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          12
+        ],
+        "summary": {
+          "distance": 755.9,
+          "duration": 544.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.484311,
+            -23.027428
+          ],
+          [
+            -43.483348,
+            -23.027147
+          ],
+          [
+            -43.481446,
+            -23.026593
+          ],
+          [
+            -43.481181,
+            -23.026516
+          ],
+          [
+            -43.480917,
+            -23.02735
+          ],
+          [
+            -43.480658,
+            -23.028154
+          ],
+          [
+            -43.480303,
+            -23.028061
+          ],
+          [
+            -43.480129,
+            -23.028015
+          ],
+          [
+            -43.479994,
+            -23.027979
+          ],
+          [
+            -43.479288,
+            -23.02784
+          ],
+          [
+            -43.479305,
+            -23.027786
+          ],
+          [
+            -43.478892,
+            -23.027708
+          ],
+          [
+            -43.478967,
+            -23.02739
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756394659863,
+    "query": {
+      "coordinates": [
+        [
+          -43.4843109,
+          -23.0274281
+        ],
+        [
+          -43.4789672,
+          -23.0273898
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

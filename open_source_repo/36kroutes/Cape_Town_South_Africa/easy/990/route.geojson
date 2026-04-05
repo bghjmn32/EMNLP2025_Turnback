@@ -1,0 +1,303 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.515837,
+    -34.028685,
+    18.523459,
+    -34.024347
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.515837,
+        -34.028685,
+        18.523459,
+        -34.024347
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1072.4,
+            "duration": 772.1,
+            "steps": [
+              {
+                "distance": 147.2,
+                "duration": 106.0,
+                "type": 11,
+                "instruction": "Head east on Edward Avenue",
+                "name": "Edward Avenue",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 208.2,
+                "duration": 149.9,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  2,
+                  4
+                ]
+              },
+              {
+                "distance": 24.9,
+                "duration": 18.0,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  4,
+                  7
+                ]
+              },
+              {
+                "distance": 222.6,
+                "duration": 160.2,
+                "type": 0,
+                "instruction": "Turn left onto Eric Way",
+                "name": "Eric Way",
+                "way_points": [
+                  7,
+                  13
+                ]
+              },
+              {
+                "distance": 11.1,
+                "duration": 8.0,
+                "type": 2,
+                "instruction": "Turn sharp left",
+                "name": "-",
+                "way_points": [
+                  13,
+                  14
+                ]
+              },
+              {
+                "distance": 168.7,
+                "duration": 121.5,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  14,
+                  17
+                ]
+              },
+              {
+                "distance": 245.9,
+                "duration": 177.0,
+                "type": 13,
+                "instruction": "Keep right",
+                "name": "-",
+                "way_points": [
+                  17,
+                  26
+                ]
+              },
+              {
+                "distance": 23.8,
+                "duration": 17.1,
+                "type": 13,
+                "instruction": "Keep right",
+                "name": "-",
+                "way_points": [
+                  26,
+                  28
+                ]
+              },
+              {
+                "distance": 19.9,
+                "duration": 14.3,
+                "type": 0,
+                "instruction": "Turn left onto George Road",
+                "name": "George Road",
+                "way_points": [
+                  28,
+                  30
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at George Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  30,
+                  30
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          30
+        ],
+        "summary": {
+          "distance": 1072.4,
+          "duration": 772.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.515837,
+            -34.028685
+          ],
+          [
+            18.517145,
+            -34.028612
+          ],
+          [
+            18.517426,
+            -34.028661
+          ],
+          [
+            18.517587,
+            -34.028247
+          ],
+          [
+            18.517881,
+            -34.026831
+          ],
+          [
+            18.517938,
+            -34.026838
+          ],
+          [
+            18.518008,
+            -34.026847
+          ],
+          [
+            18.518148,
+            -34.026864
+          ],
+          [
+            18.518215,
+            -34.026558
+          ],
+          [
+            18.518347,
+            -34.025948
+          ],
+          [
+            18.518402,
+            -34.025882
+          ],
+          [
+            18.518482,
+            -34.025853
+          ],
+          [
+            18.51938,
+            -34.025709
+          ],
+          [
+            18.519573,
+            -34.025716
+          ],
+          [
+            18.519506,
+            -34.025633
+          ],
+          [
+            18.51977,
+            -34.025404
+          ],
+          [
+            18.520191,
+            -34.025037
+          ],
+          [
+            18.520704,
+            -34.024488
+          ],
+          [
+            18.521113,
+            -34.024347
+          ],
+          [
+            18.521264,
+            -34.024436
+          ],
+          [
+            18.521701,
+            -34.02456
+          ],
+          [
+            18.521915,
+            -34.024653
+          ],
+          [
+            18.522152,
+            -34.024718
+          ],
+          [
+            18.522508,
+            -34.024861
+          ],
+          [
+            18.522844,
+            -34.025008
+          ],
+          [
+            18.52299,
+            -34.025047
+          ],
+          [
+            18.523118,
+            -34.025124
+          ],
+          [
+            18.523232,
+            -34.025248
+          ],
+          [
+            18.523248,
+            -34.025305
+          ],
+          [
+            18.523333,
+            -34.025292
+          ],
+          [
+            18.523459,
+            -34.025268
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756806066983,
+    "query": {
+      "coordinates": [
+        [
+          18.5158368,
+          -34.0286851
+        ],
+        [
+          18.5234593,
+          -34.0252679
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

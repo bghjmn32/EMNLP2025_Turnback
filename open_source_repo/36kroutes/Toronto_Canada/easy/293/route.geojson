@@ -1,0 +1,240 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -79.432086,
+    43.680478,
+    -79.426233,
+    43.6838
+  ],
+  "features": [
+    {
+      "bbox": [
+        -79.432086,
+        43.680478,
+        -79.426233,
+        43.6838
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 783.4,
+            "duration": 564.1,
+            "steps": [
+              {
+                "distance": 262.0,
+                "duration": 188.7,
+                "type": 11,
+                "instruction": "Head east",
+                "name": "-",
+                "way_points": [
+                  0,
+                  5
+                ]
+              },
+              {
+                "distance": 33.1,
+                "duration": 23.8,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 5.0,
+                "duration": 3.6,
+                "type": 1,
+                "instruction": "Turn right onto Feel Good Lane",
+                "name": "Feel Good Lane",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 151.6,
+                "duration": 109.2,
+                "type": 0,
+                "instruction": "Turn left onto Arlington Avenue",
+                "name": "Arlington Avenue",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 222.0,
+                "duration": 159.8,
+                "type": 1,
+                "instruction": "Turn right onto Humewood Gardens",
+                "name": "Humewood Gardens",
+                "way_points": [
+                  8,
+                  10
+                ]
+              },
+              {
+                "distance": 31.3,
+                "duration": 22.5,
+                "type": 0,
+                "instruction": "Turn left onto Humewood Drive",
+                "name": "Humewood Drive",
+                "way_points": [
+                  10,
+                  11
+                ]
+              },
+              {
+                "distance": 31.4,
+                "duration": 22.6,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  11,
+                  14
+                ]
+              },
+              {
+                "distance": 47.1,
+                "duration": 33.9,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  14,
+                  17
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  17,
+                  17
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          17
+        ],
+        "summary": {
+          "distance": 783.4,
+          "duration": 564.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -79.432086,
+            43.680478
+          ],
+          [
+            -79.430833,
+            43.680755
+          ],
+          [
+            -79.430764,
+            43.680772
+          ],
+          [
+            -79.430703,
+            43.680786
+          ],
+          [
+            -79.429025,
+            43.681133
+          ],
+          [
+            -79.428972,
+            43.681162
+          ],
+          [
+            -79.429081,
+            43.681449
+          ],
+          [
+            -79.429021,
+            43.681462
+          ],
+          [
+            -79.429548,
+            43.682771
+          ],
+          [
+            -79.428393,
+            43.683006
+          ],
+          [
+            -79.42689,
+            43.683308
+          ],
+          [
+            -79.426994,
+            43.683579
+          ],
+          [
+            -79.426921,
+            43.683595
+          ],
+          [
+            -79.426864,
+            43.683659
+          ],
+          [
+            -79.426792,
+            43.6838
+          ],
+          [
+            -79.426647,
+            43.683744
+          ],
+          [
+            -79.426476,
+            43.683721
+          ],
+          [
+            -79.426233,
+            43.683752
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756124825383,
+    "query": {
+      "coordinates": [
+        [
+          -79.4320862,
+          43.6804784
+        ],
+        [
+          -79.4262329,
+          43.6837523
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    151.103052,
+    -34.033062,
+    151.104604,
+    -34.030559
+  ],
+  "features": [
+    {
+      "bbox": [
+        151.103052,
+        -34.033062,
+        151.104604,
+        -34.030559
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 559.0,
+            "duration": 402.5,
+            "steps": [
+              {
+                "distance": 49.5,
+                "duration": 35.7,
+                "type": 11,
+                "instruction": "Head north",
+                "name": "-",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 207.2,
+                "duration": 149.2,
+                "type": 1,
+                "instruction": "Turn right onto Kumbardang Avenue",
+                "name": "Kumbardang Avenue",
+                "way_points": [
+                  2,
+                  12
+                ]
+              },
+              {
+                "distance": 203.7,
+                "duration": 146.6,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  12,
+                  15
+                ]
+              },
+              {
+                "distance": 12.9,
+                "duration": 9.3,
+                "type": 2,
+                "instruction": "Turn sharp left onto Willock Avenue",
+                "name": "Willock Avenue",
+                "way_points": [
+                  15,
+                  16
+                ]
+              },
+              {
+                "distance": 85.8,
+                "duration": 61.8,
+                "type": 3,
+                "instruction": "Turn sharp right onto Kiora Road",
+                "name": "Kiora Road",
+                "way_points": [
+                  16,
+                  17
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Kiora Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  17,
+                  17
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          17
+        ],
+        "summary": {
+          "distance": 559.0,
+          "duration": 402.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            151.103356,
+            -34.031528
+          ],
+          [
+            151.103386,
+            -34.031366
+          ],
+          [
+            151.103052,
+            -34.031319
+          ],
+          [
+            151.103084,
+            -34.031145
+          ],
+          [
+            151.103157,
+            -34.030801
+          ],
+          [
+            151.103215,
+            -34.030735
+          ],
+          [
+            151.103317,
+            -34.030665
+          ],
+          [
+            151.103426,
+            -34.030603
+          ],
+          [
+            151.103543,
+            -34.030565
+          ],
+          [
+            151.103694,
+            -34.030559
+          ],
+          [
+            151.104078,
+            -34.030617
+          ],
+          [
+            151.104309,
+            -34.030673
+          ],
+          [
+            151.104604,
+            -34.030819
+          ],
+          [
+            151.104568,
+            -34.030866
+          ],
+          [
+            151.103488,
+            -34.032338
+          ],
+          [
+            151.103454,
+            -34.032383
+          ],
+          [
+            151.103592,
+            -34.032398
+          ],
+          [
+            151.103118,
+            -34.033062
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756390157291,
+    "query": {
+      "coordinates": [
+        [
+          151.1033555,
+          -34.0315284
+        ],
+        [
+          151.1031178,
+          -34.0330622
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

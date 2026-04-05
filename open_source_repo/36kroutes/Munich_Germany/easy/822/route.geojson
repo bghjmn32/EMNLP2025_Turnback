@@ -1,0 +1,134 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    11.446112,
+    48.182637,
+    11.451383,
+    48.184594
+  ],
+  "features": [
+    {
+      "bbox": [
+        11.446112,
+        48.182637,
+        11.451383,
+        48.184594
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 546.4,
+            "duration": 393.4,
+            "steps": [
+              {
+                "distance": 247.0,
+                "duration": 177.9,
+                "type": 11,
+                "instruction": "Head south on Pasinger Heuweg",
+                "name": "Pasinger Heuweg",
+                "way_points": [
+                  0,
+                  4
+                ]
+              },
+              {
+                "distance": 299.3,
+                "duration": 215.5,
+                "type": 0,
+                "instruction": "Turn left onto Theodor-Fischer-Straße",
+                "name": "Theodor-Fischer-Straße",
+                "way_points": [
+                  4,
+                  7
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Theodor-Fischer-Straße, straight ahead",
+                "name": "-",
+                "way_points": [
+                  7,
+                  7
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          7
+        ],
+        "summary": {
+          "distance": 546.4,
+          "duration": 393.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            11.446112,
+            48.184594
+          ],
+          [
+            11.446195,
+            48.184395
+          ],
+          [
+            11.446437,
+            48.184019
+          ],
+          [
+            11.447076,
+            48.183296
+          ],
+          [
+            11.447666,
+            48.182637
+          ],
+          [
+            11.449335,
+            48.183156
+          ],
+          [
+            11.450254,
+            48.183394
+          ],
+          [
+            11.451383,
+            48.183683
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756139233957,
+    "query": {
+      "coordinates": [
+        [
+          11.4461115,
+          48.1845936
+        ],
+        [
+          11.4513833,
+          48.1836827
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

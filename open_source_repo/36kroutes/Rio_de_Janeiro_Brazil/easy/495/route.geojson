@@ -1,0 +1,240 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.491161,
+    -22.892895,
+    -43.487368,
+    -22.891381
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.491161,
+        -22.892895,
+        -43.487368,
+        -22.891381
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 595.4,
+            "duration": 428.7,
+            "steps": [
+              {
+                "distance": 42.0,
+                "duration": 30.2,
+                "type": 11,
+                "instruction": "Head east on Rua G",
+                "name": "Rua G",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 3.0,
+                "duration": 2.1,
+                "type": 1,
+                "instruction": "Turn right onto Rua Flávio Correia de Sá",
+                "name": "Rua Flávio Correia de Sá",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 49.7,
+                "duration": 35.8,
+                "type": 2,
+                "instruction": "Turn sharp left",
+                "name": "-",
+                "way_points": [
+                  2,
+                  6
+                ]
+              },
+              {
+                "distance": 73.1,
+                "duration": 52.6,
+                "type": 3,
+                "instruction": "Turn sharp right onto Rua B",
+                "name": "Rua B",
+                "way_points": [
+                  6,
+                  9
+                ]
+              },
+              {
+                "distance": 56.4,
+                "duration": 40.6,
+                "type": 0,
+                "instruction": "Turn left onto Rua da Vila",
+                "name": "Rua da Vila",
+                "way_points": [
+                  9,
+                  10
+                ]
+              },
+              {
+                "distance": 118.0,
+                "duration": 84.9,
+                "type": 1,
+                "instruction": "Turn right onto Rua D",
+                "name": "Rua D",
+                "way_points": [
+                  10,
+                  15
+                ]
+              },
+              {
+                "distance": 35.2,
+                "duration": 25.4,
+                "type": 0,
+                "instruction": "Turn left onto Rua Mucuripe",
+                "name": "Rua Mucuripe",
+                "way_points": [
+                  15,
+                  16
+                ]
+              },
+              {
+                "distance": 218.2,
+                "duration": 157.1,
+                "type": 13,
+                "instruction": "Keep right onto Rua 1",
+                "name": "Rua 1",
+                "way_points": [
+                  16,
+                  17
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Rua 1, straight ahead",
+                "name": "-",
+                "way_points": [
+                  17,
+                  17
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          17
+        ],
+        "summary": {
+          "distance": 595.4,
+          "duration": 428.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.491161,
+            -22.891824
+          ],
+          [
+            -43.490773,
+            -22.891701
+          ],
+          [
+            -43.490765,
+            -22.891726
+          ],
+          [
+            -43.490702,
+            -22.891693
+          ],
+          [
+            -43.49057,
+            -22.891653
+          ],
+          [
+            -43.490533,
+            -22.891668
+          ],
+          [
+            -43.49034,
+            -22.891546
+          ],
+          [
+            -43.490332,
+            -22.891585
+          ],
+          [
+            -43.490299,
+            -22.891694
+          ],
+          [
+            -43.490162,
+            -22.892183
+          ],
+          [
+            -43.489633,
+            -22.892041
+          ],
+          [
+            -43.48949,
+            -22.892517
+          ],
+          [
+            -43.489397,
+            -22.892759
+          ],
+          [
+            -43.48931,
+            -22.892859
+          ],
+          [
+            -43.489245,
+            -22.892884
+          ],
+          [
+            -43.489119,
+            -22.892895
+          ],
+          [
+            -43.489049,
+            -22.892585
+          ],
+          [
+            -43.487368,
+            -22.891381
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756392802375,
+    "query": {
+      "coordinates": [
+        [
+          -43.4911606,
+          -22.8918236
+        ],
+        [
+          -43.4873681,
+          -22.8913806
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.452692,
+    -33.930717,
+    18.456654,
+    -33.927113
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.452692,
+        -33.930717,
+        18.456654,
+        -33.927113
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 679.9,
+            "duration": 489.5,
+            "steps": [
+              {
+                "distance": 54.2,
+                "duration": 39.0,
+                "type": 11,
+                "instruction": "Head south on Mill Street",
+                "name": "Mill Street",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 17.8,
+                "duration": 12.8,
+                "type": 1,
+                "instruction": "Turn right onto Albert Road, R102",
+                "name": "Albert Road, R102",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 4.4,
+                "duration": 3.1,
+                "type": 0,
+                "instruction": "Turn left onto Greatmore Street",
+                "name": "Greatmore Street",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 89.3,
+                "duration": 64.3,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  4,
+                  6
+                ]
+              },
+              {
+                "distance": 412.7,
+                "duration": 297.2,
+                "type": 0,
+                "instruction": "Turn left onto Devon Street",
+                "name": "Devon Street",
+                "way_points": [
+                  6,
+                  10
+                ]
+              },
+              {
+                "distance": 101.6,
+                "duration": 73.1,
+                "type": 2,
+                "instruction": "Turn sharp left onto Victoria Road, M4",
+                "name": "Victoria Road, M4",
+                "way_points": [
+                  10,
+                  15
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Victoria Road, M4, straight ahead",
+                "name": "-",
+                "way_points": [
+                  15,
+                  15
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          15
+        ],
+        "summary": {
+          "distance": 679.9,
+          "duration": 489.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.456654,
+            -33.927113
+          ],
+          [
+            18.45658,
+            -33.927554
+          ],
+          [
+            18.456573,
+            -33.927596
+          ],
+          [
+            18.456382,
+            -33.927574
+          ],
+          [
+            18.456371,
+            -33.927612
+          ],
+          [
+            18.455923,
+            -33.927556
+          ],
+          [
+            18.455414,
+            -33.927498
+          ],
+          [
+            18.45538,
+            -33.927771
+          ],
+          [
+            18.455328,
+            -33.9279
+          ],
+          [
+            18.453895,
+            -33.929235
+          ],
+          [
+            18.452692,
+            -33.930372
+          ],
+          [
+            18.452785,
+            -33.930403
+          ],
+          [
+            18.453187,
+            -33.930538
+          ],
+          [
+            18.453312,
+            -33.930579
+          ],
+          [
+            18.453592,
+            -33.930675
+          ],
+          [
+            18.453711,
+            -33.930717
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756806041842,
+    "query": {
+      "coordinates": [
+        [
+          18.4566542,
+          -33.927113
+        ],
+        [
+          18.4537106,
+          -33.9307174
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

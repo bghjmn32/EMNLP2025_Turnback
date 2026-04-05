@@ -1,0 +1,176 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.404904,
+    -34.051159,
+    18.408361,
+    -34.049092
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.404904,
+        -34.051159,
+        18.408361,
+        -34.049092
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 588.7,
+            "duration": 423.8,
+            "steps": [
+              {
+                "distance": 46.8,
+                "duration": 33.7,
+                "type": 11,
+                "instruction": "Head west on Vasbyt",
+                "name": "Vasbyt",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 345.0,
+                "duration": 248.4,
+                "type": 13,
+                "instruction": "Keep right",
+                "name": "-",
+                "way_points": [
+                  2,
+                  8
+                ]
+              },
+              {
+                "distance": 53.8,
+                "duration": 38.8,
+                "type": 5,
+                "instruction": "Turn slight right",
+                "name": "-",
+                "way_points": [
+                  8,
+                  10
+                ]
+              },
+              {
+                "distance": 143.1,
+                "duration": 103.0,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  10,
+                  12
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  12,
+                  12
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          12
+        ],
+        "summary": {
+          "distance": 588.7,
+          "duration": 423.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.408361,
+            -34.051159
+          ],
+          [
+            18.408081,
+            -34.051069
+          ],
+          [
+            18.40792,
+            -34.05096
+          ],
+          [
+            18.407821,
+            -34.050752
+          ],
+          [
+            18.407607,
+            -34.050127
+          ],
+          [
+            18.406829,
+            -34.049792
+          ],
+          [
+            18.406243,
+            -34.0498
+          ],
+          [
+            18.405667,
+            -34.049729
+          ],
+          [
+            18.405072,
+            -34.049522
+          ],
+          [
+            18.404904,
+            -34.049243
+          ],
+          [
+            18.405004,
+            -34.049092
+          ],
+          [
+            18.405459,
+            -34.049315
+          ],
+          [
+            18.406441,
+            -34.049558
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756805827082,
+    "query": {
+      "coordinates": [
+        [
+          18.4083605,
+          -34.0511594
+        ],
+        [
+          18.4064408,
+          -34.0495576
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

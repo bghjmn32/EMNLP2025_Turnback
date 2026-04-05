@@ -1,0 +1,199 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    31.425388,
+    30.035982,
+    31.429347,
+    30.037923
+  ],
+  "features": [
+    {
+      "bbox": [
+        31.425388,
+        30.035982,
+        31.429347,
+        30.037923
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 540.7,
+            "duration": 389.3,
+            "steps": [
+              {
+                "distance": 253.8,
+                "duration": 182.7,
+                "type": 11,
+                "instruction": "Head east on محور طه حسين",
+                "name": "محور طه حسين",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 224.4,
+                "duration": 161.6,
+                "type": 1,
+                "instruction": "Turn right onto شارع ثروت عكاشة",
+                "name": "شارع ثروت عكاشة",
+                "way_points": [
+                  2,
+                  10
+                ]
+              },
+              {
+                "distance": 13.5,
+                "duration": 9.7,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  10,
+                  11
+                ]
+              },
+              {
+                "distance": 8.3,
+                "duration": 6.0,
+                "type": 1,
+                "instruction": "Turn right onto شارع ثروت عكاشة",
+                "name": "شارع ثروت عكاشة",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 40.7,
+                "duration": 29.3,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  12,
+                  15
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  15,
+                  15
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          15
+        ],
+        "summary": {
+          "distance": 540.7,
+          "duration": 389.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            31.425388,
+            30.037854
+          ],
+          [
+            31.426847,
+            30.037911
+          ],
+          [
+            31.428023,
+            30.037923
+          ],
+          [
+            31.428149,
+            30.037769
+          ],
+          [
+            31.42851,
+            30.037472
+          ],
+          [
+            31.428583,
+            30.037395
+          ],
+          [
+            31.42872,
+            30.037194
+          ],
+          [
+            31.428784,
+            30.037041
+          ],
+          [
+            31.428812,
+            30.036906
+          ],
+          [
+            31.428855,
+            30.03625
+          ],
+          [
+            31.428857,
+            30.036142
+          ],
+          [
+            31.428997,
+            30.036138
+          ],
+          [
+            31.429,
+            30.036063
+          ],
+          [
+            31.429321,
+            30.036063
+          ],
+          [
+            31.429347,
+            30.036032
+          ],
+          [
+            31.429347,
+            30.035982
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756732040614,
+    "query": {
+      "coordinates": [
+        [
+          31.4253876,
+          30.0378541
+        ],
+        [
+          31.4293467,
+          30.0359816
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

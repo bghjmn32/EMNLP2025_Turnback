@@ -1,0 +1,274 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.081333,
+    19.500901,
+    -99.074689,
+    19.502203
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.081333,
+        19.500901,
+        -99.074689,
+        19.502203
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 971.4,
+            "duration": 699.4,
+            "steps": [
+              {
+                "distance": 129.1,
+                "duration": 93.0,
+                "type": 11,
+                "instruction": "Head southwest on Calle Salvatierra",
+                "name": "Calle Salvatierra",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 102.7,
+                "duration": 73.9,
+                "type": 1,
+                "instruction": "Turn right onto Calle Otumba",
+                "name": "Calle Otumba",
+                "way_points": [
+                  1,
+                  3
+                ]
+              },
+              {
+                "distance": 112.5,
+                "duration": 81.0,
+                "type": 0,
+                "instruction": "Turn left onto Calle San Miguel el Alto",
+                "name": "Calle San Miguel el Alto",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 83.3,
+                "duration": 60.0,
+                "type": 1,
+                "instruction": "Turn right onto Calle Salagua",
+                "name": "Calle Salagua",
+                "way_points": [
+                  4,
+                  6
+                ]
+              },
+              {
+                "distance": 61.3,
+                "duration": 44.1,
+                "type": 0,
+                "instruction": "Turn left onto Calle Guanajuato",
+                "name": "Calle Guanajuato",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 143.5,
+                "duration": 103.3,
+                "type": 1,
+                "instruction": "Turn right onto Segunda Cerrada San Miguel el Alto",
+                "name": "Segunda Cerrada San Miguel el Alto",
+                "way_points": [
+                  7,
+                  10
+                ]
+              },
+              {
+                "distance": 35.4,
+                "duration": 25.5,
+                "type": 0,
+                "instruction": "Turn left onto Avenida Gran Canal de Desagüe",
+                "name": "Avenida Gran Canal de Desagüe",
+                "way_points": [
+                  10,
+                  11
+                ]
+              },
+              {
+                "distance": 139.4,
+                "duration": 100.4,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  11,
+                  16
+                ]
+              },
+              {
+                "distance": 40.5,
+                "duration": 29.2,
+                "type": 0,
+                "instruction": "Turn left onto Avenida Gran Canal del Desagüe",
+                "name": "Avenida Gran Canal del Desagüe",
+                "way_points": [
+                  16,
+                  17
+                ]
+              },
+              {
+                "distance": 123.7,
+                "duration": 89.1,
+                "type": 1,
+                "instruction": "Turn right onto Calle 316",
+                "name": "Calle 316",
+                "way_points": [
+                  17,
+                  20
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle 316, straight ahead",
+                "name": "-",
+                "way_points": [
+                  20,
+                  20
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          20
+        ],
+        "summary": {
+          "distance": 971.4,
+          "duration": 699.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.074689,
+            19.502203
+          ],
+          [
+            -99.075375,
+            19.501239
+          ],
+          [
+            -99.075783,
+            19.5015
+          ],
+          [
+            -99.076183,
+            19.50176
+          ],
+          [
+            -99.0768,
+            19.500932
+          ],
+          [
+            -99.077201,
+            19.501184
+          ],
+          [
+            -99.077457,
+            19.501353
+          ],
+          [
+            -99.077793,
+            19.500901
+          ],
+          [
+            -99.078145,
+            19.50113
+          ],
+          [
+            -99.078557,
+            19.501384
+          ],
+          [
+            -99.078932,
+            19.501617
+          ],
+          [
+            -99.079127,
+            19.501357
+          ],
+          [
+            -99.079351,
+            19.501486
+          ],
+          [
+            -99.07943,
+            19.501368
+          ],
+          [
+            -99.08002,
+            19.501708
+          ],
+          [
+            -99.079941,
+            19.501816
+          ],
+          [
+            -99.080012,
+            19.501868
+          ],
+          [
+            -99.080226,
+            19.501564
+          ],
+          [
+            -99.080786,
+            19.50176
+          ],
+          [
+            -99.08087,
+            19.501792
+          ],
+          [
+            -99.081333,
+            19.501949
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756305105885,
+    "query": {
+      "coordinates": [
+        [
+          -99.0746894,
+          19.5022029
+        ],
+        [
+          -99.0813329,
+          19.5019488
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

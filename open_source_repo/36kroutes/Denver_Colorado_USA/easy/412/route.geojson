@@ -1,0 +1,231 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -104.918439,
+    39.805838,
+    -104.917535,
+    39.812855
+  ],
+  "features": [
+    {
+      "bbox": [
+        -104.918439,
+        39.805838,
+        -104.917535,
+        39.812855
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 912.8,
+            "duration": 657.2,
+            "steps": [
+              {
+                "distance": 21.0,
+                "duration": 15.1,
+                "type": 11,
+                "instruction": "Head west",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 27.5,
+                "duration": 19.8,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  3
+                ]
+              },
+              {
+                "distance": 6.6,
+                "duration": 4.8,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 77.2,
+                "duration": 55.6,
+                "type": 1,
+                "instruction": "Turn right onto East 64th Avenue",
+                "name": "East 64th Avenue",
+                "way_points": [
+                  4,
+                  7
+                ]
+              },
+              {
+                "distance": 780.4,
+                "duration": 561.9,
+                "type": 1,
+                "instruction": "Turn right onto Kearney Street",
+                "name": "Kearney Street",
+                "way_points": [
+                  7,
+                  23
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Kearney Street, straight ahead",
+                "name": "-",
+                "way_points": [
+                  23,
+                  23
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          23
+        ],
+        "summary": {
+          "distance": 912.8,
+          "duration": 657.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -104.918128,
+            39.812567
+          ],
+          [
+            -104.918374,
+            39.812565
+          ],
+          [
+            -104.918379,
+            39.812759
+          ],
+          [
+            -104.918437,
+            39.812789
+          ],
+          [
+            -104.918439,
+            39.812848
+          ],
+          [
+            -104.918253,
+            39.81285
+          ],
+          [
+            -104.917867,
+            39.812853
+          ],
+          [
+            -104.917535,
+            39.812855
+          ],
+          [
+            -104.917537,
+            39.812359
+          ],
+          [
+            -104.917539,
+            39.811919
+          ],
+          [
+            -104.917541,
+            39.81145
+          ],
+          [
+            -104.917543,
+            39.811049
+          ],
+          [
+            -104.917547,
+            39.810267
+          ],
+          [
+            -104.917548,
+            39.810185
+          ],
+          [
+            -104.917552,
+            39.809228
+          ],
+          [
+            -104.917556,
+            39.808517
+          ],
+          [
+            -104.917558,
+            39.808033
+          ],
+          [
+            -104.917559,
+            39.807773
+          ],
+          [
+            -104.91756,
+            39.807585
+          ],
+          [
+            -104.917561,
+            39.807461
+          ],
+          [
+            -104.917563,
+            39.807066
+          ],
+          [
+            -104.917563,
+            39.80702
+          ],
+          [
+            -104.917566,
+            39.806346
+          ],
+          [
+            -104.917569,
+            39.805838
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756305668682,
+    "query": {
+      "coordinates": [
+        [
+          -104.9181279,
+          39.8125672
+        ],
+        [
+          -104.9175688,
+          39.8058375
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

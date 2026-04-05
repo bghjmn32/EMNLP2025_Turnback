@@ -1,0 +1,307 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    11.640478,
+    48.128122,
+    11.654824,
+    48.130306
+  ],
+  "features": [
+    {
+      "bbox": [
+        11.640478,
+        48.128122,
+        11.654824,
+        48.130306
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1341.9,
+            "duration": 966.2,
+            "steps": [
+              {
+                "distance": 76.4,
+                "duration": 55.0,
+                "type": 11,
+                "instruction": "Head north on Praschlerstraße",
+                "name": "Praschlerstraße",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 19.7,
+                "duration": 14.2,
+                "type": 1,
+                "instruction": "Turn right onto Hansjakobstraße",
+                "name": "Hansjakobstraße",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 10.5,
+                "duration": 7.5,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "distance": 389.6,
+                "duration": 280.5,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  5,
+                  15
+                ]
+              },
+              {
+                "distance": 213.0,
+                "duration": 153.4,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  15,
+                  18
+                ]
+              },
+              {
+                "distance": 316.7,
+                "duration": 228.0,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  18,
+                  26
+                ]
+              },
+              {
+                "distance": 219.2,
+                "duration": 157.8,
+                "type": 6,
+                "instruction": "Continue straight onto Truderinger Straße",
+                "name": "Truderinger Straße",
+                "way_points": [
+                  26,
+                  28
+                ]
+              },
+              {
+                "distance": 6.9,
+                "duration": 5.0,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  28,
+                  29
+                ]
+              },
+              {
+                "distance": 89.9,
+                "duration": 64.7,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  29,
+                  31
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  31,
+                  31
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          31
+        ],
+        "summary": {
+          "distance": 1341.9,
+          "duration": 966.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            11.640478,
+            48.128658
+          ],
+          [
+            11.640596,
+            48.128939
+          ],
+          [
+            11.640602,
+            48.128953
+          ],
+          [
+            11.64076,
+            48.129319
+          ],
+          [
+            11.641016,
+            48.129271
+          ],
+          [
+            11.64105,
+            48.129362
+          ],
+          [
+            11.641688,
+            48.129238
+          ],
+          [
+            11.642338,
+            48.129123
+          ],
+          [
+            11.642432,
+            48.129108
+          ],
+          [
+            11.642953,
+            48.129026
+          ],
+          [
+            11.64305,
+            48.12901
+          ],
+          [
+            11.643729,
+            48.128892
+          ],
+          [
+            11.64484,
+            48.128714
+          ],
+          [
+            11.645942,
+            48.128538
+          ],
+          [
+            11.646048,
+            48.128517
+          ],
+          [
+            11.646138,
+            48.128499
+          ],
+          [
+            11.64651,
+            48.129253
+          ],
+          [
+            11.646775,
+            48.129767
+          ],
+          [
+            11.647088,
+            48.130306
+          ],
+          [
+            11.647363,
+            48.130237
+          ],
+          [
+            11.64853,
+            48.129944
+          ],
+          [
+            11.648585,
+            48.12993
+          ],
+          [
+            11.649066,
+            48.129819
+          ],
+          [
+            11.649884,
+            48.129619
+          ],
+          [
+            11.649924,
+            48.129609
+          ],
+          [
+            11.65099,
+            48.129298
+          ],
+          [
+            11.651061,
+            48.129271
+          ],
+          [
+            11.653547,
+            48.128399
+          ],
+          [
+            11.653676,
+            48.128355
+          ],
+          [
+            11.653718,
+            48.12841
+          ],
+          [
+            11.653884,
+            48.128425
+          ],
+          [
+            11.654824,
+            48.128122
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756140931685,
+    "query": {
+      "coordinates": [
+        [
+          11.640478,
+          48.1286583
+        ],
+        [
+          11.6548237,
+          48.128122
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

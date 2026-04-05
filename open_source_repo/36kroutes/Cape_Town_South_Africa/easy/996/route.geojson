@@ -1,0 +1,290 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.516831,
+    -34.033177,
+    18.520714,
+    -34.029096
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.516831,
+        -34.033177,
+        18.520714,
+        -34.029096
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 833.7,
+            "duration": 600.3,
+            "steps": [
+              {
+                "distance": 53.8,
+                "duration": 38.7,
+                "type": 11,
+                "instruction": "Head southeast",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 13.4,
+                "duration": 9.6,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 36.7,
+                "duration": 26.4,
+                "type": 3,
+                "instruction": "Turn sharp right onto Marius Road",
+                "name": "Marius Road",
+                "way_points": [
+                  2,
+                  4
+                ]
+              },
+              {
+                "distance": 81.9,
+                "duration": 59.0,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  4,
+                  7
+                ]
+              },
+              {
+                "distance": 444.5,
+                "duration": 320.0,
+                "type": 5,
+                "instruction": "Turn slight right",
+                "name": "-",
+                "way_points": [
+                  7,
+                  13
+                ]
+              },
+              {
+                "distance": 8.1,
+                "duration": 5.9,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  13,
+                  15
+                ]
+              },
+              {
+                "distance": 49.7,
+                "duration": 35.8,
+                "type": 0,
+                "instruction": "Turn left onto Stephen Road",
+                "name": "Stephen Road",
+                "way_points": [
+                  15,
+                  19
+                ]
+              },
+              {
+                "distance": 77.4,
+                "duration": 55.7,
+                "type": 1,
+                "instruction": "Turn right onto Montague Place",
+                "name": "Montague Place",
+                "way_points": [
+                  19,
+                  21
+                ]
+              },
+              {
+                "distance": 10.2,
+                "duration": 7.3,
+                "type": 2,
+                "instruction": "Turn sharp left onto Stephen Road",
+                "name": "Stephen Road",
+                "way_points": [
+                  21,
+                  22
+                ]
+              },
+              {
+                "distance": 58.0,
+                "duration": 41.8,
+                "type": 1,
+                "instruction": "Turn right onto Lotus Place",
+                "name": "Lotus Place",
+                "way_points": [
+                  22,
+                  24
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Lotus Place, straight ahead",
+                "name": "-",
+                "way_points": [
+                  24,
+                  24
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          24
+        ],
+        "summary": {
+          "distance": 833.7,
+          "duration": 600.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.520055,
+            -34.029096
+          ],
+          [
+            18.520453,
+            -34.029449
+          ],
+          [
+            18.520585,
+            -34.029398
+          ],
+          [
+            18.520633,
+            -34.029646
+          ],
+          [
+            18.520669,
+            -34.029719
+          ],
+          [
+            18.520622,
+            -34.029763
+          ],
+          [
+            18.520591,
+            -34.029828
+          ],
+          [
+            18.520714,
+            -34.030427
+          ],
+          [
+            18.520685,
+            -34.030523
+          ],
+          [
+            18.51862,
+            -34.030887
+          ],
+          [
+            18.517633,
+            -34.031043
+          ],
+          [
+            18.517298,
+            -34.031261
+          ],
+          [
+            18.51691,
+            -34.031723
+          ],
+          [
+            18.516831,
+            -34.032118
+          ],
+          [
+            18.516879,
+            -34.032123
+          ],
+          [
+            18.516918,
+            -34.03213
+          ],
+          [
+            18.516943,
+            -34.032083
+          ],
+          [
+            18.517015,
+            -34.032058
+          ],
+          [
+            18.517284,
+            -34.032007
+          ],
+          [
+            18.517405,
+            -34.03199
+          ],
+          [
+            18.517427,
+            -34.032172
+          ],
+          [
+            18.517318,
+            -34.032677
+          ],
+          [
+            18.517426,
+            -34.03266
+          ],
+          [
+            18.517496,
+            -34.03297
+          ],
+          [
+            18.517478,
+            -34.033177
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756806080254,
+    "query": {
+      "coordinates": [
+        [
+          18.5200551,
+          -34.0290956
+        ],
+        [
+          18.5174775,
+          -34.0331767
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

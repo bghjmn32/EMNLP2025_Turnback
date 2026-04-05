@@ -1,0 +1,216 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    151.007407,
+    -33.71642,
+    151.010745,
+    -33.714612
+  ],
+  "features": [
+    {
+      "bbox": [
+        151.007407,
+        -33.71642,
+        151.010745,
+        -33.714612
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 494.8,
+            "duration": 356.2,
+            "steps": [
+              {
+                "distance": 37.6,
+                "duration": 27.0,
+                "type": 11,
+                "instruction": "Head northwest on Kingussie Avenue",
+                "name": "Kingussie Avenue",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 128.0,
+                "duration": 92.2,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  7
+                ]
+              },
+              {
+                "distance": 181.5,
+                "duration": 130.7,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  7,
+                  15
+                ]
+              },
+              {
+                "distance": 147.7,
+                "duration": 106.4,
+                "type": 0,
+                "instruction": "Turn left onto Balintore Drive",
+                "name": "Balintore Drive",
+                "way_points": [
+                  15,
+                  22
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Balintore Drive, straight ahead",
+                "name": "-",
+                "way_points": [
+                  22,
+                  22
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          22
+        ],
+        "summary": {
+          "distance": 494.8,
+          "duration": 356.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            151.007768,
+            -33.715204
+          ],
+          [
+            151.007407,
+            -33.715049
+          ],
+          [
+            151.007461,
+            -33.714893
+          ],
+          [
+            151.00759,
+            -33.714768
+          ],
+          [
+            151.00778,
+            -33.714689
+          ],
+          [
+            151.007842,
+            -33.714647
+          ],
+          [
+            151.008465,
+            -33.714651
+          ],
+          [
+            151.008523,
+            -33.714612
+          ],
+          [
+            151.008655,
+            -33.714776
+          ],
+          [
+            151.008829,
+            -33.715099
+          ],
+          [
+            151.008986,
+            -33.715077
+          ],
+          [
+            151.009139,
+            -33.715115
+          ],
+          [
+            151.00929,
+            -33.715207
+          ],
+          [
+            151.009363,
+            -33.715303
+          ],
+          [
+            151.009391,
+            -33.71541
+          ],
+          [
+            151.009419,
+            -33.715846
+          ],
+          [
+            151.009704,
+            -33.715844
+          ],
+          [
+            151.009865,
+            -33.715864
+          ],
+          [
+            151.01019,
+            -33.715958
+          ],
+          [
+            151.010341,
+            -33.716018
+          ],
+          [
+            151.010466,
+            -33.716093
+          ],
+          [
+            151.010592,
+            -33.716209
+          ],
+          [
+            151.010745,
+            -33.71642
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756390686222,
+    "query": {
+      "coordinates": [
+        [
+          151.0077676,
+          -33.7152044
+        ],
+        [
+          151.0107445,
+          -33.7164202
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

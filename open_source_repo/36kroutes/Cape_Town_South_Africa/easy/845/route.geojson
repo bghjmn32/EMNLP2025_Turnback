@@ -1,0 +1,154 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.542593,
+    -33.864742,
+    18.547885,
+    -33.861793
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.542593,
+        -33.864742,
+        18.547885,
+        -33.861793
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 624.5,
+            "duration": 449.6,
+            "steps": [
+              {
+                "distance": 367.7,
+                "duration": 264.8,
+                "type": 11,
+                "instruction": "Head northwest on Wyland Road",
+                "name": "Wyland Road",
+                "way_points": [
+                  0,
+                  7
+                ]
+              },
+              {
+                "distance": 256.7,
+                "duration": 184.8,
+                "type": 0,
+                "instruction": "Turn left onto Vryburger Avenue",
+                "name": "Vryburger Avenue",
+                "way_points": [
+                  7,
+                  12
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Vryburger Avenue, straight ahead",
+                "name": "-",
+                "way_points": [
+                  12,
+                  12
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          12
+        ],
+        "summary": {
+          "distance": 624.5,
+          "duration": 449.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.547885,
+            -33.864742
+          ],
+          [
+            18.547826,
+            -33.86469
+          ],
+          [
+            18.547503,
+            -33.86438
+          ],
+          [
+            18.546945,
+            -33.863842
+          ],
+          [
+            18.54641,
+            -33.863327
+          ],
+          [
+            18.545842,
+            -33.862782
+          ],
+          [
+            18.545341,
+            -33.862307
+          ],
+          [
+            18.545306,
+            -33.862229
+          ],
+          [
+            18.545119,
+            -33.86226
+          ],
+          [
+            18.544967,
+            -33.862251
+          ],
+          [
+            18.543882,
+            -33.862042
+          ],
+          [
+            18.542688,
+            -33.861811
+          ],
+          [
+            18.542593,
+            -33.861793
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756805783329,
+    "query": {
+      "coordinates": [
+        [
+          18.5478854,
+          -33.864742
+        ],
+        [
+          18.5425934,
+          -33.861793
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

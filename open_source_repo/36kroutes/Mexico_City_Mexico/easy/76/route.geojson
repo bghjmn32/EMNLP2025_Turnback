@@ -1,0 +1,156 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.049529,
+    19.203451,
+    -99.047639,
+    19.207466
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.049529,
+        19.203451,
+        -99.047639,
+        19.207466
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 642.0,
+            "duration": 462.2,
+            "steps": [
+              {
+                "distance": 365.4,
+                "duration": 263.1,
+                "type": 11,
+                "instruction": "Head south on Calle Niños Héroes",
+                "name": "Calle Niños Héroes",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 181.7,
+                "duration": 130.8,
+                "type": 1,
+                "instruction": "Turn right onto Calle Fray Bartolomé de las Casas",
+                "name": "Calle Fray Bartolomé de las Casas",
+                "way_points": [
+                  3,
+                  5
+                ]
+              },
+              {
+                "distance": 87.3,
+                "duration": 62.9,
+                "type": 0,
+                "instruction": "Turn left onto Calle Cuauhtémoc",
+                "name": "Calle Cuauhtémoc",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 7.6,
+                "duration": 5.5,
+                "type": 0,
+                "instruction": "Turn left onto Calle Ignacio Zaragoza",
+                "name": "Calle Ignacio Zaragoza",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Ignacio Zaragoza, straight ahead",
+                "name": "-",
+                "way_points": [
+                  7,
+                  7
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          7
+        ],
+        "summary": {
+          "distance": 642.0,
+          "duration": 462.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.047667,
+            19.207466
+          ],
+          [
+            -99.047639,
+            19.207086
+          ],
+          [
+            -99.047646,
+            19.206332
+          ],
+          [
+            -99.047774,
+            19.204185
+          ],
+          [
+            -99.048692,
+            19.204202
+          ],
+          [
+            -99.049503,
+            19.204236
+          ],
+          [
+            -99.049529,
+            19.203451
+          ],
+          [
+            -99.049457,
+            19.203454
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756304376771,
+    "query": {
+      "coordinates": [
+        [
+          -99.0476668,
+          19.2074662
+        ],
+        [
+          -99.0494574,
+          19.2034536
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    0.012034,
+    51.53687,
+    0.019208,
+    51.537172
+  ],
+  "features": [
+    {
+      "bbox": [
+        0.012034,
+        51.53687,
+        0.019208,
+        51.537172
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 505.1,
+            "duration": 363.6,
+            "steps": [
+              {
+                "distance": 499.8,
+                "duration": 359.9,
+                "type": 11,
+                "instruction": "Head west on Portway, B165",
+                "name": "Portway, B165",
+                "way_points": [
+                  0,
+                  12
+                ]
+              },
+              {
+                "distance": 5.2,
+                "duration": 3.8,
+                "type": 0,
+                "instruction": "Turn left onto Dirleton Road",
+                "name": "Dirleton Road",
+                "way_points": [
+                  12,
+                  13
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Dirleton Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  13,
+                  13
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          13
+        ],
+        "summary": {
+          "distance": 505.1,
+          "duration": 363.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            0.019208,
+            51.536941
+          ],
+          [
+            0.018093,
+            51.537006
+          ],
+          [
+            0.017982,
+            51.537004
+          ],
+          [
+            0.017891,
+            51.536999
+          ],
+          [
+            0.016859,
+            51.53687
+          ],
+          [
+            0.016699,
+            51.536875
+          ],
+          [
+            0.015653,
+            51.536998
+          ],
+          [
+            0.014721,
+            51.537061
+          ],
+          [
+            0.014044,
+            51.537096
+          ],
+          [
+            0.01378,
+            51.53711
+          ],
+          [
+            0.012902,
+            51.537138
+          ],
+          [
+            0.012484,
+            51.537155
+          ],
+          [
+            0.012038,
+            51.537172
+          ],
+          [
+            0.012034,
+            51.537125
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756828087769,
+    "query": {
+      "coordinates": [
+        [
+          0.0192084,
+          51.5369414
+        ],
+        [
+          0.0120335,
+          51.5371247
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

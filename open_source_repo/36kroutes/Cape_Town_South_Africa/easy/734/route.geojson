@@ -1,0 +1,173 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.572894,
+    -33.951491,
+    18.574087,
+    -33.945752
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.572894,
+        -33.951491,
+        18.574087,
+        -33.945752
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 692.8,
+            "duration": 498.8,
+            "steps": [
+              {
+                "distance": 101.7,
+                "duration": 73.3,
+                "type": 11,
+                "instruction": "Head northwest on Anne Street",
+                "name": "Anne Street",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 78.8,
+                "duration": 56.8,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  2,
+                  4
+                ]
+              },
+              {
+                "distance": 512.2,
+                "duration": 368.8,
+                "type": 4,
+                "instruction": "Turn slight left onto Tafelberg Road",
+                "name": "Tafelberg Road",
+                "way_points": [
+                  4,
+                  14
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Tafelberg Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  14,
+                  14
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          14
+        ],
+        "summary": {
+          "distance": 692.8,
+          "duration": 498.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.574087,
+            -33.951491
+          ],
+          [
+            18.573627,
+            -33.95126
+          ],
+          [
+            18.573142,
+            -33.951019
+          ],
+          [
+            18.573168,
+            -33.95084
+          ],
+          [
+            18.573069,
+            -33.950318
+          ],
+          [
+            18.57301,
+            -33.950259
+          ],
+          [
+            18.572918,
+            -33.950105
+          ],
+          [
+            18.572894,
+            -33.95002
+          ],
+          [
+            18.572904,
+            -33.948849
+          ],
+          [
+            18.572912,
+            -33.948602
+          ],
+          [
+            18.572933,
+            -33.946871
+          ],
+          [
+            18.572937,
+            -33.946544
+          ],
+          [
+            18.572941,
+            -33.946265
+          ],
+          [
+            18.572946,
+            -33.945838
+          ],
+          [
+            18.572969,
+            -33.945752
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756805531571,
+    "query": {
+      "coordinates": [
+        [
+          18.5740867,
+          -33.9514914
+        ],
+        [
+          18.5729689,
+          -33.945752
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

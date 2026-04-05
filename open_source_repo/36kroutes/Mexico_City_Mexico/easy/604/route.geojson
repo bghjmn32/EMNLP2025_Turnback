@@ -1,0 +1,217 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.101472,
+    19.337582,
+    -99.097917,
+    19.341884
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.101472,
+        19.337582,
+        -99.097917,
+        19.341884
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 840.5,
+            "duration": 605.1,
+            "steps": [
+              {
+                "distance": 6.4,
+                "duration": 4.6,
+                "type": 11,
+                "instruction": "Head north on Andador 2",
+                "name": "Andador 2",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 160.4,
+                "duration": 115.5,
+                "type": 0,
+                "instruction": "Turn left onto Avenida José María Morelos y Pavón",
+                "name": "Avenida José María Morelos y Pavón",
+                "way_points": [
+                  1,
+                  5
+                ]
+              },
+              {
+                "distance": 119.5,
+                "duration": 86.1,
+                "type": 1,
+                "instruction": "Turn right onto Calle Centella",
+                "name": "Calle Centella",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 212.7,
+                "duration": 153.2,
+                "type": 0,
+                "instruction": "Turn left onto Orto",
+                "name": "Orto",
+                "way_points": [
+                  6,
+                  10
+                ]
+              },
+              {
+                "distance": 64.5,
+                "duration": 46.5,
+                "type": 1,
+                "instruction": "Turn right onto Calle Crepúsculo",
+                "name": "Calle Crepúsculo",
+                "way_points": [
+                  10,
+                  11
+                ]
+              },
+              {
+                "distance": 61.2,
+                "duration": 44.1,
+                "type": 0,
+                "instruction": "Turn left onto Calle Amanecer",
+                "name": "Calle Amanecer",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 215.6,
+                "duration": 155.2,
+                "type": 1,
+                "instruction": "Turn right onto Calle Arcoíris",
+                "name": "Calle Arcoíris",
+                "way_points": [
+                  12,
+                  14
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Arcoíris, straight ahead",
+                "name": "-",
+                "way_points": [
+                  14,
+                  14
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          14
+        ],
+        "summary": {
+          "distance": 840.5,
+          "duration": 605.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.097924,
+            19.337582
+          ],
+          [
+            -99.097917,
+            19.337639
+          ],
+          [
+            -99.09815,
+            19.337656
+          ],
+          [
+            -99.098243,
+            19.337656
+          ],
+          [
+            -99.099339,
+            19.337736
+          ],
+          [
+            -99.099442,
+            19.337746
+          ],
+          [
+            -99.09912,
+            19.338777
+          ],
+          [
+            -99.099604,
+            19.338918
+          ],
+          [
+            -99.100074,
+            19.339043
+          ],
+          [
+            -99.100549,
+            19.339184
+          ],
+          [
+            -99.101064,
+            19.339317
+          ],
+          [
+            -99.100909,
+            19.339878
+          ],
+          [
+            -99.101472,
+            19.340022
+          ],
+          [
+            -99.101215,
+            19.340935
+          ],
+          [
+            -99.100903,
+            19.341884
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306732230,
+    "query": {
+      "coordinates": [
+        [
+          -99.097924,
+          19.337582
+        ],
+        [
+          -99.1009027,
+          19.3418842
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

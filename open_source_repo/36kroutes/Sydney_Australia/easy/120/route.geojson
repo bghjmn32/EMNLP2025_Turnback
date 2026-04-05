@@ -1,0 +1,223 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    151.114067,
+    -34.04705,
+    151.123149,
+    -34.045279
+  ],
+  "features": [
+    {
+      "bbox": [
+        151.114067,
+        -34.04705,
+        151.123149,
+        -34.045279
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1195.4,
+            "duration": 860.6,
+            "steps": [
+              {
+                "distance": 57.3,
+                "duration": 41.3,
+                "type": 11,
+                "instruction": "Head east on Caringbah Road",
+                "name": "Caringbah Road",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 101.2,
+                "duration": 72.9,
+                "type": 1,
+                "instruction": "Turn right onto Taren Road",
+                "name": "Taren Road",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 308.3,
+                "duration": 221.9,
+                "type": 0,
+                "instruction": "Turn left onto Pacific Street",
+                "name": "Pacific Street",
+                "way_points": [
+                  2,
+                  7
+                ]
+              },
+              {
+                "distance": 122.0,
+                "duration": 87.9,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  7,
+                  13
+                ]
+              },
+              {
+                "distance": 606.5,
+                "duration": 436.7,
+                "type": 1,
+                "instruction": "Turn right onto Caringbah Road",
+                "name": "Caringbah Road",
+                "way_points": [
+                  13,
+                  21
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Caringbah Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  21,
+                  21
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          21
+        ],
+        "summary": {
+          "distance": 1195.4,
+          "duration": 860.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            151.114067,
+            -34.045516
+          ],
+          [
+            151.114678,
+            -34.045611
+          ],
+          [
+            151.114372,
+            -34.046484
+          ],
+          [
+            151.115826,
+            -34.046688
+          ],
+          [
+            151.116993,
+            -34.046869
+          ],
+          [
+            151.117449,
+            -34.047011
+          ],
+          [
+            151.11755,
+            -34.047037
+          ],
+          [
+            151.117639,
+            -34.04705
+          ],
+          [
+            151.117665,
+            -34.046989
+          ],
+          [
+            151.117978,
+            -34.04622
+          ],
+          [
+            151.118042,
+            -34.04615
+          ],
+          [
+            151.118059,
+            -34.046097
+          ],
+          [
+            151.118076,
+            -34.046041
+          ],
+          [
+            151.118085,
+            -34.046021
+          ],
+          [
+            151.119922,
+            -34.046277
+          ],
+          [
+            151.120007,
+            -34.046289
+          ],
+          [
+            151.120111,
+            -34.046303
+          ],
+          [
+            151.122854,
+            -34.046682
+          ],
+          [
+            151.122884,
+            -34.046685
+          ],
+          [
+            151.122892,
+            -34.046642
+          ],
+          [
+            151.123124,
+            -34.045409
+          ],
+          [
+            151.123149,
+            -34.045279
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756390602618,
+    "query": {
+      "coordinates": [
+        [
+          151.1140665,
+          -34.0455161
+        ],
+        [
+          151.1231486,
+          -34.0452793
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

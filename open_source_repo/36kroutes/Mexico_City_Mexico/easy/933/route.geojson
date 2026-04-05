@@ -1,0 +1,209 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.132952,
+    19.429342,
+    -99.127345,
+    19.430074
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.132952,
+        19.429342,
+        -99.127345,
+        19.430074
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 722.5,
+            "duration": 520.2,
+            "steps": [
+              {
+                "distance": 43.4,
+                "duration": 31.2,
+                "type": 11,
+                "instruction": "Head east on Calle Rinconada de Jesús",
+                "name": "Calle Rinconada de Jesús",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 53.4,
+                "duration": 38.5,
+                "type": 0,
+                "instruction": "Turn left onto Avenida José María Pino Suárez",
+                "name": "Avenida José María Pino Suárez",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 433.9,
+                "duration": 312.4,
+                "type": 1,
+                "instruction": "Turn right onto Calle República de Uruguay",
+                "name": "Calle República de Uruguay",
+                "way_points": [
+                  2,
+                  7
+                ]
+              },
+              {
+                "distance": 56.7,
+                "duration": 40.8,
+                "type": 0,
+                "instruction": "Turn left onto Calle Jesús María",
+                "name": "Calle Jesús María",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 91.9,
+                "duration": 66.2,
+                "type": 1,
+                "instruction": "Turn right onto Plaza Alonso García Bravo",
+                "name": "Plaza Alonso García Bravo",
+                "way_points": [
+                  8,
+                  9
+                ]
+              },
+              {
+                "distance": 33.2,
+                "duration": 23.9,
+                "type": 0,
+                "instruction": "Turn left onto Calle Talavera",
+                "name": "Calle Talavera",
+                "way_points": [
+                  9,
+                  10
+                ]
+              },
+              {
+                "distance": 10.0,
+                "duration": 7.2,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  10,
+                  12
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  12,
+                  12
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          12
+        ],
+        "summary": {
+          "distance": 722.5,
+          "duration": 520.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.132952,
+            19.429496
+          ],
+          [
+            -99.132541,
+            19.429447
+          ],
+          [
+            -99.132469,
+            19.429922
+          ],
+          [
+            -99.131618,
+            19.429802
+          ],
+          [
+            -99.130996,
+            19.429713
+          ],
+          [
+            -99.130436,
+            19.429634
+          ],
+          [
+            -99.129324,
+            19.429476
+          ],
+          [
+            -99.128377,
+            19.429342
+          ],
+          [
+            -99.128305,
+            19.429847
+          ],
+          [
+            -99.127436,
+            19.429735
+          ],
+          [
+            -99.127395,
+            19.430031
+          ],
+          [
+            -99.127353,
+            19.430025
+          ],
+          [
+            -99.127345,
+            19.430074
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756308443900,
+    "query": {
+      "coordinates": [
+        [
+          -99.132952,
+          19.4294956
+        ],
+        [
+          -99.1273453,
+          19.4300741
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

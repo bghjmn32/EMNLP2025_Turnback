@@ -1,0 +1,166 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.656531,
+    -22.979501,
+    -43.649037,
+    -22.975231
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.656531,
+        -22.979501,
+        -43.649037,
+        -22.975231
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1114.1,
+            "duration": 802.2,
+            "steps": [
+              {
+                "distance": 1060.2,
+                "duration": 763.3,
+                "type": 11,
+                "instruction": "Head west on Rua Pereira Neto",
+                "name": "Rua Pereira Neto",
+                "way_points": [
+                  0,
+                  14
+                ]
+              },
+              {
+                "distance": 53.9,
+                "duration": 38.8,
+                "type": 0,
+                "instruction": "Turn left onto Avenida Dois de Julho",
+                "name": "Avenida Dois de Julho",
+                "way_points": [
+                  14,
+                  15
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Avenida Dois de Julho, straight ahead",
+                "name": "-",
+                "way_points": [
+                  15,
+                  15
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          15
+        ],
+        "summary": {
+          "distance": 1114.1,
+          "duration": 802.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.649037,
+            -22.979501
+          ],
+          [
+            -43.651576,
+            -22.979226
+          ],
+          [
+            -43.652342,
+            -22.979127
+          ],
+          [
+            -43.652417,
+            -22.979117
+          ],
+          [
+            -43.654652,
+            -22.978856
+          ],
+          [
+            -43.655014,
+            -22.978771
+          ],
+          [
+            -43.655328,
+            -22.978639
+          ],
+          [
+            -43.655661,
+            -22.978424
+          ],
+          [
+            -43.65587,
+            -22.978226
+          ],
+          [
+            -43.656039,
+            -22.977989
+          ],
+          [
+            -43.656192,
+            -22.977639
+          ],
+          [
+            -43.65627,
+            -22.97734
+          ],
+          [
+            -43.656278,
+            -22.977009
+          ],
+          [
+            -43.656068,
+            -22.975595
+          ],
+          [
+            -43.656012,
+            -22.975314
+          ],
+          [
+            -43.656531,
+            -22.975231
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756394772930,
+    "query": {
+      "coordinates": [
+        [
+          -43.649037,
+          -22.9795006
+        ],
+        [
+          -43.6565312,
+          -22.9752308
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.06625,
+    19.359452,
+    -99.062909,
+    19.361559
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.06625,
+        19.359452,
+        -99.062909,
+        19.361559
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 517.5,
+            "duration": 372.6,
+            "steps": [
+              {
+                "distance": 68.4,
+                "duration": 49.2,
+                "type": 11,
+                "instruction": "Head west",
+                "name": "-",
+                "way_points": [
+                  0,
+                  4
+                ]
+              },
+              {
+                "distance": 79.4,
+                "duration": 57.2,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  4,
+                  6
+                ]
+              },
+              {
+                "distance": 97.3,
+                "duration": 70.1,
+                "type": 0,
+                "instruction": "Turn left onto Avenida Antonio Díaz Soto y Gama",
+                "name": "Avenida Antonio Díaz Soto y Gama",
+                "way_points": [
+                  6,
+                  12
+                ]
+              },
+              {
+                "distance": 140.0,
+                "duration": 100.8,
+                "type": 3,
+                "instruction": "Turn sharp right onto Calle Josué Escobedo",
+                "name": "Calle Josué Escobedo",
+                "way_points": [
+                  12,
+                  14
+                ]
+              },
+              {
+                "distance": 132.4,
+                "duration": 95.3,
+                "type": 12,
+                "instruction": "Keep left onto Calle Alemán",
+                "name": "Calle Alemán",
+                "way_points": [
+                  14,
+                  16
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Alemán, straight ahead",
+                "name": "-",
+                "way_points": [
+                  16,
+                  16
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          16
+        ],
+        "summary": {
+          "distance": 517.5,
+          "duration": 372.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.062909,
+            19.359452
+          ],
+          [
+            -99.063077,
+            19.359496
+          ],
+          [
+            -99.063219,
+            19.359533
+          ],
+          [
+            -99.063374,
+            19.359574
+          ],
+          [
+            -99.063537,
+            19.359617
+          ],
+          [
+            -99.063383,
+            19.360169
+          ],
+          [
+            -99.063351,
+            19.360309
+          ],
+          [
+            -99.063679,
+            19.360357
+          ],
+          [
+            -99.063892,
+            19.360377
+          ],
+          [
+            -99.064005,
+            19.360393
+          ],
+          [
+            -99.064116,
+            19.360368
+          ],
+          [
+            -99.064174,
+            19.360322
+          ],
+          [
+            -99.064217,
+            19.360261
+          ],
+          [
+            -99.064541,
+            19.360653
+          ],
+          [
+            -99.065028,
+            19.36126
+          ],
+          [
+            -99.065629,
+            19.361418
+          ],
+          [
+            -99.06625,
+            19.361559
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756304949985,
+    "query": {
+      "coordinates": [
+        [
+          -99.0629091,
+          19.3594515
+        ],
+        [
+          -99.0662498,
+          19.3615588
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

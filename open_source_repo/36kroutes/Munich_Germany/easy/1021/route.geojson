@@ -1,0 +1,184 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    11.476745,
+    48.080714,
+    11.481032,
+    48.085759
+  ],
+  "features": [
+    {
+      "bbox": [
+        11.476745,
+        48.080714,
+        11.481032,
+        48.085759
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 653.4,
+            "duration": 470.4,
+            "steps": [
+              {
+                "distance": 68.8,
+                "duration": 49.5,
+                "type": 11,
+                "instruction": "Head northeast",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 538.4,
+                "duration": 387.6,
+                "type": 6,
+                "instruction": "Continue straight onto Stockdorfer Straße",
+                "name": "Stockdorfer Straße",
+                "way_points": [
+                  1,
+                  11
+                ]
+              },
+              {
+                "distance": 7.4,
+                "duration": 5.3,
+                "type": 0,
+                "instruction": "Turn left onto Gautinger Straße",
+                "name": "Gautinger Straße",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 38.9,
+                "duration": 28.0,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  12,
+                  14
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  14,
+                  14
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          14
+        ],
+        "summary": {
+          "distance": 653.4,
+          "duration": 470.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            11.476745,
+            48.080714
+          ],
+          [
+            11.477201,
+            48.081253
+          ],
+          [
+            11.477882,
+            48.08205
+          ],
+          [
+            11.478574,
+            48.08284
+          ],
+          [
+            11.478702,
+            48.082951
+          ],
+          [
+            11.479123,
+            48.083389
+          ],
+          [
+            11.479323,
+            48.083612
+          ],
+          [
+            11.480087,
+            48.084453
+          ],
+          [
+            11.48011,
+            48.084517
+          ],
+          [
+            11.480137,
+            48.084585
+          ],
+          [
+            11.480652,
+            48.085172
+          ],
+          [
+            11.480874,
+            48.085418
+          ],
+          [
+            11.480787,
+            48.08545
+          ],
+          [
+            11.480825,
+            48.085499
+          ],
+          [
+            11.481032,
+            48.085759
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756140122433,
+    "query": {
+      "coordinates": [
+        [
+          11.4767453,
+          48.0807142
+        ],
+        [
+          11.4810322,
+          48.085759
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

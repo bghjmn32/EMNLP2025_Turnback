@@ -1,0 +1,196 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    150.938788,
+    -33.902699,
+    150.941788,
+    -33.896234
+  ],
+  "features": [
+    {
+      "bbox": [
+        150.938788,
+        -33.902699,
+        150.941788,
+        -33.896234
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 906.7,
+            "duration": 652.9,
+            "steps": [
+              {
+                "distance": 8.4,
+                "duration": 6.1,
+                "type": 11,
+                "instruction": "Head west",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 67.5,
+                "duration": 48.6,
+                "type": 0,
+                "instruction": "Turn left onto Cumberland Street",
+                "name": "Cumberland Street",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 87.4,
+                "duration": 63.0,
+                "type": 7,
+                "instruction": "Enter the roundabout and take the 1st exit onto Cumberland Street",
+                "name": "Cumberland Street",
+                "exit_number": 1,
+                "way_points": [
+                  2,
+                  8
+                ]
+              },
+              {
+                "distance": 141.8,
+                "duration": 102.1,
+                "type": 1,
+                "instruction": "Turn right onto Boundary Lane",
+                "name": "Boundary Lane",
+                "way_points": [
+                  8,
+                  9
+                ]
+              },
+              {
+                "distance": 601.7,
+                "duration": 433.2,
+                "type": 0,
+                "instruction": "Turn left onto National Street",
+                "name": "National Street",
+                "way_points": [
+                  9,
+                  14
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at National Street, straight ahead",
+                "name": "-",
+                "way_points": [
+                  14,
+                  14
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          14
+        ],
+        "summary": {
+          "distance": 906.7,
+          "duration": 652.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            150.941788,
+            -33.896245
+          ],
+          [
+            150.941697,
+            -33.896234
+          ],
+          [
+            150.941575,
+            -33.896832
+          ],
+          [
+            150.941606,
+            -33.896851
+          ],
+          [
+            150.94162,
+            -33.896887
+          ],
+          [
+            150.941606,
+            -33.896923
+          ],
+          [
+            150.941569,
+            -33.896945
+          ],
+          [
+            150.941545,
+            -33.896947
+          ],
+          [
+            150.941428,
+            -33.89756
+          ],
+          [
+            150.939907,
+            -33.897379
+          ],
+          [
+            150.939378,
+            -33.90005
+          ],
+          [
+            150.939021,
+            -33.901837
+          ],
+          [
+            150.93887,
+            -33.902578
+          ],
+          [
+            150.938847,
+            -33.902635
+          ],
+          [
+            150.938788,
+            -33.902699
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756394561947,
+    "query": {
+      "coordinates": [
+        [
+          150.9417875,
+          -33.896245
+        ],
+        [
+          150.9387883,
+          -33.9026995
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

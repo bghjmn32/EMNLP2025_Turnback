@@ -1,0 +1,279 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.24828,
+    19.38699,
+    -99.24666,
+    19.393882
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.24828,
+        19.38699,
+        -99.24666,
+        19.393882
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 963.2,
+            "duration": 693.5,
+            "steps": [
+              {
+                "distance": 28.1,
+                "duration": 20.2,
+                "type": 11,
+                "instruction": "Head south",
+                "name": "-",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 176.8,
+                "duration": 127.3,
+                "type": 7,
+                "instruction": "Enter the roundabout and take the 1st exit onto Paseo de las Lilas",
+                "name": "Paseo de las Lilas",
+                "exit_number": 1,
+                "way_points": [
+                  3,
+                  7
+                ]
+              },
+              {
+                "distance": 252.1,
+                "duration": 181.5,
+                "type": 1,
+                "instruction": "Turn right onto Calle Bosque de Palmito",
+                "name": "Calle Bosque de Palmito",
+                "way_points": [
+                  7,
+                  12
+                ]
+              },
+              {
+                "distance": 75.6,
+                "duration": 54.4,
+                "type": 0,
+                "instruction": "Turn left onto Calle Laureles",
+                "name": "Calle Laureles",
+                "way_points": [
+                  12,
+                  13
+                ]
+              },
+              {
+                "distance": 63.1,
+                "duration": 45.4,
+                "type": 7,
+                "instruction": "Enter the roundabout and take the 1st exit onto Paseo de las Lilas",
+                "name": "Paseo de las Lilas",
+                "exit_number": 1,
+                "way_points": [
+                  13,
+                  15
+                ]
+              },
+              {
+                "distance": 13.3,
+                "duration": 9.6,
+                "type": 0,
+                "instruction": "Turn left onto Calle Bosque de Higueras",
+                "name": "Calle Bosque de Higueras",
+                "way_points": [
+                  15,
+                  16
+                ]
+              },
+              {
+                "distance": 354.2,
+                "duration": 255.1,
+                "type": 1,
+                "instruction": "Turn right onto Paseo de las Lilas",
+                "name": "Paseo de las Lilas",
+                "way_points": [
+                  16,
+                  29
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Paseo de las Lilas, straight ahead",
+                "name": "-",
+                "way_points": [
+                  29,
+                  29
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          29
+        ],
+        "summary": {
+          "distance": 963.2,
+          "duration": 693.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.247722,
+            19.387161
+          ],
+          [
+            -99.247713,
+            19.387113
+          ],
+          [
+            -99.247728,
+            19.387079
+          ],
+          [
+            -99.247878,
+            19.38699
+          ],
+          [
+            -99.247907,
+            19.387009
+          ],
+          [
+            -99.247993,
+            19.387359
+          ],
+          [
+            -99.248123,
+            19.387711
+          ],
+          [
+            -99.248198,
+            19.388533
+          ],
+          [
+            -99.248046,
+            19.388643
+          ],
+          [
+            -99.248016,
+            19.388689
+          ],
+          [
+            -99.247625,
+            19.389639
+          ],
+          [
+            -99.24754,
+            19.390468
+          ],
+          [
+            -99.247537,
+            19.390649
+          ],
+          [
+            -99.248256,
+            19.390613
+          ],
+          [
+            -99.24828,
+            19.390635
+          ],
+          [
+            -99.24804,
+            19.39112
+          ],
+          [
+            -99.248157,
+            19.391165
+          ],
+          [
+            -99.247853,
+            19.391748
+          ],
+          [
+            -99.247739,
+            19.391908
+          ],
+          [
+            -99.247629,
+            19.392032
+          ],
+          [
+            -99.247485,
+            19.392164
+          ],
+          [
+            -99.24711,
+            19.392471
+          ],
+          [
+            -99.246975,
+            19.39261
+          ],
+          [
+            -99.246884,
+            19.392764
+          ],
+          [
+            -99.246791,
+            19.392965
+          ],
+          [
+            -99.246707,
+            19.393196
+          ],
+          [
+            -99.246664,
+            19.393448
+          ],
+          [
+            -99.24666,
+            19.393615
+          ],
+          [
+            -99.246676,
+            19.393752
+          ],
+          [
+            -99.246713,
+            19.393882
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306823005,
+    "query": {
+      "coordinates": [
+        [
+          -99.2477216,
+          19.3871614
+        ],
+        [
+          -99.2467133,
+          19.3938824
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

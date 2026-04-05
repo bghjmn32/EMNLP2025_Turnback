@@ -1,0 +1,176 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -79.365077,
+    43.729201,
+    -79.358072,
+    43.730752
+  ],
+  "features": [
+    {
+      "bbox": [
+        -79.365077,
+        43.729201,
+        -79.358072,
+        43.730752
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 718.1,
+            "duration": 517.0,
+            "steps": [
+              {
+                "distance": 5.9,
+                "duration": 4.3,
+                "type": 11,
+                "instruction": "Head south",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 313.7,
+                "duration": 225.9,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 190.5,
+                "duration": 137.2,
+                "type": 1,
+                "instruction": "Turn right onto The Bridle Path",
+                "name": "The Bridle Path",
+                "way_points": [
+                  2,
+                  6
+                ]
+              },
+              {
+                "distance": 208.0,
+                "duration": 149.7,
+                "type": 2,
+                "instruction": "Turn sharp left onto Saintfield Avenue",
+                "name": "Saintfield Avenue",
+                "way_points": [
+                  6,
+                  12
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Saintfield Avenue, straight ahead",
+                "name": "-",
+                "way_points": [
+                  12,
+                  12
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          12
+        ],
+        "summary": {
+          "distance": 718.1,
+          "duration": 517.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -79.365077,
+            43.729999
+          ],
+          [
+            -79.365057,
+            43.729948
+          ],
+          [
+            -79.361315,
+            43.730752
+          ],
+          [
+            -79.360467,
+            43.729661
+          ],
+          [
+            -79.360432,
+            43.729502
+          ],
+          [
+            -79.360421,
+            43.729257
+          ],
+          [
+            -79.360421,
+            43.729201
+          ],
+          [
+            -79.360328,
+            43.729223
+          ],
+          [
+            -79.359349,
+            43.729454
+          ],
+          [
+            -79.358599,
+            43.729622
+          ],
+          [
+            -79.358446,
+            43.729625
+          ],
+          [
+            -79.358335,
+            43.729584
+          ],
+          [
+            -79.358072,
+            43.729368
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756125193719,
+    "query": {
+      "coordinates": [
+        [
+          -79.3650772,
+          43.7299989
+        ],
+        [
+          -79.3580724,
+          43.7293678
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

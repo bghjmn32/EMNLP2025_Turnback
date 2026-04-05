@@ -1,0 +1,243 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -0.004291,
+    51.580216,
+    0.002268,
+    51.584427
+  ],
+  "features": [
+    {
+      "bbox": [
+        -0.004291,
+        51.580216,
+        0.002268,
+        51.584427
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 835.2,
+            "duration": 601.4,
+            "steps": [
+              {
+                "distance": 1.9,
+                "duration": 1.4,
+                "type": 11,
+                "instruction": "Head southeast on Western Road",
+                "name": "Western Road",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 88.1,
+                "duration": 63.4,
+                "type": 0,
+                "instruction": "Turn left onto Elm Road",
+                "name": "Elm Road",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 58.3,
+                "duration": 42.0,
+                "type": 0,
+                "instruction": "Turn left onto Eastern Road",
+                "name": "Eastern Road",
+                "way_points": [
+                  2,
+                  5
+                ]
+              },
+              {
+                "distance": 159.5,
+                "duration": 114.8,
+                "type": 1,
+                "instruction": "Turn right onto Raglan Road",
+                "name": "Raglan Road",
+                "way_points": [
+                  5,
+                  10
+                ]
+              },
+              {
+                "distance": 527.4,
+                "duration": 379.7,
+                "type": 0,
+                "instruction": "Turn left onto Ferndale Avenue",
+                "name": "Ferndale Avenue",
+                "way_points": [
+                  10,
+                  26
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Ferndale Avenue, straight ahead",
+                "name": "-",
+                "way_points": [
+                  26,
+                  26
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          26
+        ],
+        "summary": {
+          "distance": 835.2,
+          "duration": 601.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -0.004291,
+            51.58023
+          ],
+          [
+            -0.004276,
+            51.580216
+          ],
+          [
+            -0.00321,
+            51.580651
+          ],
+          [
+            -0.003329,
+            51.58087
+          ],
+          [
+            -0.003366,
+            51.580987
+          ],
+          [
+            -0.00338,
+            51.581161
+          ],
+          [
+            -0.00293,
+            51.581186
+          ],
+          [
+            -0.002681,
+            51.5812
+          ],
+          [
+            -0.002209,
+            51.581227
+          ],
+          [
+            -0.001642,
+            51.581281
+          ],
+          [
+            -0.00109,
+            51.581334
+          ],
+          [
+            -0.001401,
+            51.582596
+          ],
+          [
+            -0.00142,
+            51.582756
+          ],
+          [
+            -0.001368,
+            51.583565
+          ],
+          [
+            -0.001322,
+            51.583604
+          ],
+          [
+            -0.000733,
+            51.583728
+          ],
+          [
+            -0.000428,
+            51.583788
+          ],
+          [
+            -0.000323,
+            51.58381
+          ],
+          [
+            -0.000229,
+            51.583778
+          ],
+          [
+            -0.000165,
+            51.583802
+          ],
+          [
+            -0.000107,
+            51.583824
+          ],
+          [
+            -6e-05,
+            51.583923
+          ],
+          [
+            -9e-06,
+            51.583942
+          ],
+          [
+            0.000414,
+            51.58406
+          ],
+          [
+            0.001524,
+            51.584262
+          ],
+          [
+            0.001653,
+            51.58429
+          ],
+          [
+            0.002268,
+            51.584427
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756828573693,
+    "query": {
+      "coordinates": [
+        [
+          -0.0042909,
+          51.5802304
+        ],
+        [
+          0.0022677,
+          51.584427
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

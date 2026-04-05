@@ -1,0 +1,290 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    31.325326,
+    29.841539,
+    31.331727,
+    29.843491
+  ],
+  "features": [
+    {
+      "bbox": [
+        31.325326,
+        29.841539,
+        31.331727,
+        29.843491
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 837.1,
+            "duration": 602.7,
+            "steps": [
+              {
+                "distance": 292.7,
+                "duration": 210.8,
+                "type": 11,
+                "instruction": "Head west on شارع لطيف باشا",
+                "name": "شارع لطيف باشا",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 53.4,
+                "duration": 38.5,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  3,
+                  5
+                ]
+              },
+              {
+                "distance": 11.0,
+                "duration": 7.9,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  5,
+                  7
+                ]
+              },
+              {
+                "distance": 55.8,
+                "duration": 40.2,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  7,
+                  10
+                ]
+              },
+              {
+                "distance": 35.2,
+                "duration": 25.3,
+                "type": 1,
+                "instruction": "Turn right onto شارع ثابت باشا",
+                "name": "شارع ثابت باشا",
+                "way_points": [
+                  10,
+                  11
+                ]
+              },
+              {
+                "distance": 191.8,
+                "duration": 138.1,
+                "type": 0,
+                "instruction": "Turn left onto شارع عثمان باشا",
+                "name": "شارع عثمان باشا",
+                "way_points": [
+                  11,
+                  15
+                ]
+              },
+              {
+                "distance": 128.1,
+                "duration": 92.2,
+                "type": 1,
+                "instruction": "Turn right onto حارة الدمرداش",
+                "name": "حارة الدمرداش",
+                "way_points": [
+                  15,
+                  20
+                ]
+              },
+              {
+                "distance": 42.2,
+                "duration": 30.4,
+                "type": 1,
+                "instruction": "Turn right onto شارع رايل",
+                "name": "شارع رايل",
+                "way_points": [
+                  20,
+                  22
+                ]
+              },
+              {
+                "distance": 14.2,
+                "duration": 10.2,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  22,
+                  23
+                ]
+              },
+              {
+                "distance": 12.7,
+                "duration": 9.1,
+                "type": 1,
+                "instruction": "Turn right onto شارع رايل",
+                "name": "شارع رايل",
+                "way_points": [
+                  23,
+                  24
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at شارع رايل, straight ahead",
+                "name": "-",
+                "way_points": [
+                  24,
+                  24
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          24
+        ],
+        "summary": {
+          "distance": 837.1,
+          "duration": 602.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            31.331727,
+            29.841711
+          ],
+          [
+            31.330531,
+            29.841656
+          ],
+          [
+            31.329281,
+            29.841587
+          ],
+          [
+            31.328699,
+            29.841539
+          ],
+          [
+            31.328681,
+            29.841859
+          ],
+          [
+            31.328672,
+            29.842019
+          ],
+          [
+            31.328618,
+            29.842035
+          ],
+          [
+            31.328593,
+            29.842079
+          ],
+          [
+            31.328413,
+            29.842071
+          ],
+          [
+            31.328113,
+            29.842056
+          ],
+          [
+            31.328015,
+            29.842052
+          ],
+          [
+            31.328001,
+            29.842368
+          ],
+          [
+            31.326755,
+            29.842327
+          ],
+          [
+            31.326337,
+            29.842314
+          ],
+          [
+            31.326119,
+            29.842307
+          ],
+          [
+            31.326014,
+            29.842303
+          ],
+          [
+            31.325984,
+            29.842842
+          ],
+          [
+            31.326007,
+            29.842909
+          ],
+          [
+            31.325997,
+            29.843012
+          ],
+          [
+            31.325964,
+            29.843027
+          ],
+          [
+            31.325496,
+            29.843001
+          ],
+          [
+            31.325479,
+            29.843362
+          ],
+          [
+            31.325478,
+            29.84338
+          ],
+          [
+            31.325331,
+            29.843377
+          ],
+          [
+            31.325326,
+            29.843491
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756730254948,
+    "query": {
+      "coordinates": [
+        [
+          31.3317272,
+          29.8417112
+        ],
+        [
+          31.3253259,
+          29.8434907
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

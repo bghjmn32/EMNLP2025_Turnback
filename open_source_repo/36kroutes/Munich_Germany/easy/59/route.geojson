@@ -1,0 +1,301 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    11.532702,
+    48.164079,
+    11.535454,
+    48.169049
+  ],
+  "features": [
+    {
+      "bbox": [
+        11.532702,
+        48.164079,
+        11.535454,
+        48.169049
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 774.4,
+            "duration": 557.6,
+            "steps": [
+              {
+                "distance": 5.4,
+                "duration": 3.9,
+                "type": 11,
+                "instruction": "Head northeast",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 76.9,
+                "duration": 55.4,
+                "type": 0,
+                "instruction": "Turn left onto Paschstraße",
+                "name": "Paschstraße",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 6.1,
+                "duration": 4.4,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 11.5,
+                "duration": 8.3,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  3,
+                  5
+                ]
+              },
+              {
+                "distance": 3.2,
+                "duration": 2.3,
+                "type": 5,
+                "instruction": "Turn slight right",
+                "name": "-",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 169.9,
+                "duration": 122.3,
+                "type": 4,
+                "instruction": "Turn slight left",
+                "name": "-",
+                "way_points": [
+                  6,
+                  10
+                ]
+              },
+              {
+                "distance": 211.9,
+                "duration": 152.6,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  10,
+                  13
+                ]
+              },
+              {
+                "distance": 15.4,
+                "duration": 11.1,
+                "type": 5,
+                "instruction": "Turn slight right onto Hohenlohestraße",
+                "name": "Hohenlohestraße",
+                "way_points": [
+                  13,
+                  14
+                ]
+              },
+              {
+                "distance": 127.4,
+                "duration": 91.7,
+                "type": 2,
+                "instruction": "Turn sharp left",
+                "name": "-",
+                "way_points": [
+                  14,
+                  19
+                ]
+              },
+              {
+                "distance": 51.9,
+                "duration": 37.4,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  19,
+                  23
+                ]
+              },
+              {
+                "distance": 94.8,
+                "duration": 68.2,
+                "type": 2,
+                "instruction": "Turn sharp left",
+                "name": "-",
+                "way_points": [
+                  23,
+                  24
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  24,
+                  24
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          24
+        ],
+        "summary": {
+          "distance": 774.4,
+          "duration": 557.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            11.533811,
+            48.164079
+          ],
+          [
+            11.533878,
+            48.164098
+          ],
+          [
+            11.533496,
+            48.164741
+          ],
+          [
+            11.533571,
+            48.164763
+          ],
+          [
+            11.533543,
+            48.164807
+          ],
+          [
+            11.53351,
+            48.164858
+          ],
+          [
+            11.533525,
+            48.164885
+          ],
+          [
+            11.533325,
+            48.165241
+          ],
+          [
+            11.533104,
+            48.165624
+          ],
+          [
+            11.532807,
+            48.166129
+          ],
+          [
+            11.532702,
+            48.166311
+          ],
+          [
+            11.534354,
+            48.166771
+          ],
+          [
+            11.535175,
+            48.167001
+          ],
+          [
+            11.53526,
+            48.167104
+          ],
+          [
+            11.535454,
+            48.167153
+          ],
+          [
+            11.535316,
+            48.167262
+          ],
+          [
+            11.535241,
+            48.167399
+          ],
+          [
+            11.534987,
+            48.167894
+          ],
+          [
+            11.534857,
+            48.168098
+          ],
+          [
+            11.53477,
+            48.168194
+          ],
+          [
+            11.534924,
+            48.168277
+          ],
+          [
+            11.534998,
+            48.168319
+          ],
+          [
+            11.53522,
+            48.16842
+          ],
+          [
+            11.53534,
+            48.168463
+          ],
+          [
+            11.534411,
+            48.169049
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756136610025,
+    "query": {
+      "coordinates": [
+        [
+          11.533811,
+          48.1640788
+        ],
+        [
+          11.5344105,
+          48.1690486
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

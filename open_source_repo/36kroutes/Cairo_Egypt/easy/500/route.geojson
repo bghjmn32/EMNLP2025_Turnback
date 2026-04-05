@@ -1,0 +1,184 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    31.279732,
+    30.012903,
+    31.284521,
+    30.014259
+  ],
+  "features": [
+    {
+      "bbox": [
+        31.279732,
+        30.012903,
+        31.284521,
+        30.014259
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 557.0,
+            "duration": 401.0,
+            "steps": [
+              {
+                "distance": 68.3,
+                "duration": 49.2,
+                "type": 11,
+                "instruction": "Head east on شارع 8",
+                "name": "شارع 8",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 119.7,
+                "duration": 86.2,
+                "type": 6,
+                "instruction": "Continue straight onto شارع النافوره",
+                "name": "شارع النافوره",
+                "way_points": [
+                  1,
+                  6
+                ]
+              },
+              {
+                "distance": 117.6,
+                "duration": 84.7,
+                "type": 0,
+                "instruction": "Turn left onto شارع 23",
+                "name": "شارع 23",
+                "way_points": [
+                  6,
+                  10
+                ]
+              },
+              {
+                "distance": 251.4,
+                "duration": 181.0,
+                "type": 0,
+                "instruction": "Turn left onto شارع 19",
+                "name": "شارع 19",
+                "way_points": [
+                  10,
+                  14
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at شارع 19, straight ahead",
+                "name": "-",
+                "way_points": [
+                  14,
+                  14
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          14
+        ],
+        "summary": {
+          "distance": 557.0,
+          "duration": 401.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            31.279732,
+            30.014259
+          ],
+          [
+            31.280404,
+            30.014064
+          ],
+          [
+            31.280568,
+            30.013998
+          ],
+          [
+            31.280795,
+            30.013853
+          ],
+          [
+            31.280891,
+            30.013763
+          ],
+          [
+            31.28103,
+            30.013556
+          ],
+          [
+            31.281144,
+            30.013258
+          ],
+          [
+            31.281399,
+            30.013183
+          ],
+          [
+            31.281415,
+            30.013181
+          ],
+          [
+            31.281635,
+            30.013113
+          ],
+          [
+            31.282294,
+            30.012903
+          ],
+          [
+            31.283521,
+            30.013696
+          ],
+          [
+            31.283732,
+            30.013812
+          ],
+          [
+            31.283839,
+            30.013821
+          ],
+          [
+            31.284521,
+            30.013614
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756731255506,
+    "query": {
+      "coordinates": [
+        [
+          31.2797315,
+          30.0142591
+        ],
+        [
+          31.2845208,
+          30.0136144
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

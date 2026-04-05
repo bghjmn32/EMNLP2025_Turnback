@@ -1,0 +1,204 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -0.007283,
+    51.578032,
+    -0.003868,
+    51.58023
+  ],
+  "features": [
+    {
+      "bbox": [
+        -0.007283,
+        51.578032,
+        -0.003868,
+        51.58023
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 374.8,
+            "duration": 269.9,
+            "steps": [
+              {
+                "distance": 53.1,
+                "duration": 38.2,
+                "type": 11,
+                "instruction": "Head southeast on Western Road",
+                "name": "Western Road",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 274.7,
+                "duration": 197.8,
+                "type": 1,
+                "instruction": "Turn right onto Lea Bridge Road",
+                "name": "Lea Bridge Road",
+                "way_points": [
+                  3,
+                  16
+                ]
+              },
+              {
+                "distance": 5.6,
+                "duration": 4.0,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  16,
+                  17
+                ]
+              },
+              {
+                "distance": 41.5,
+                "duration": 29.9,
+                "type": 1,
+                "instruction": "Turn right onto Lea Bridge Road, A104",
+                "name": "Lea Bridge Road, A104",
+                "way_points": [
+                  17,
+                  19
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Lea Bridge Road, A104, straight ahead",
+                "name": "-",
+                "way_points": [
+                  19,
+                  19
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          19
+        ],
+        "summary": {
+          "distance": 374.8,
+          "duration": 269.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -0.004291,
+            51.58023
+          ],
+          [
+            -0.004276,
+            51.580216
+          ],
+          [
+            -0.003933,
+            51.579898
+          ],
+          [
+            -0.003868,
+            51.579832
+          ],
+          [
+            -0.003922,
+            51.579812
+          ],
+          [
+            -0.004781,
+            51.57949
+          ],
+          [
+            -0.004793,
+            51.579485
+          ],
+          [
+            -0.005382,
+            51.579262
+          ],
+          [
+            -0.005665,
+            51.579188
+          ],
+          [
+            -0.005698,
+            51.579176
+          ],
+          [
+            -0.006032,
+            51.579039
+          ],
+          [
+            -0.006347,
+            51.578873
+          ],
+          [
+            -0.006392,
+            51.578848
+          ],
+          [
+            -0.006538,
+            51.578736
+          ],
+          [
+            -0.006595,
+            51.578695
+          ],
+          [
+            -0.006862,
+            51.578491
+          ],
+          [
+            -0.007005,
+            51.578368
+          ],
+          [
+            -0.00694,
+            51.578338
+          ],
+          [
+            -0.007133,
+            51.578163
+          ],
+          [
+            -0.007283,
+            51.578032
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756828575722,
+    "query": {
+      "coordinates": [
+        [
+          -0.0042909,
+          51.5802304
+        ],
+        [
+          -0.0072828,
+          51.5780321
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

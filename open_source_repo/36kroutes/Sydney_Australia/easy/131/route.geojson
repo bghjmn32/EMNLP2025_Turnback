@@ -1,0 +1,248 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    151.095736,
+    -33.867212,
+    151.103645,
+    -33.86414
+  ],
+  "features": [
+    {
+      "bbox": [
+        151.095736,
+        -33.867212,
+        151.103645,
+        -33.86414
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1004.3,
+            "duration": 723.1,
+            "steps": [
+              {
+                "distance": 1.7,
+                "duration": 1.2,
+                "type": 11,
+                "instruction": "Head northeast",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 232.9,
+                "duration": 167.7,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 73.6,
+                "duration": 53.0,
+                "type": 12,
+                "instruction": "Keep left",
+                "name": "-",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 6.6,
+                "duration": 4.8,
+                "type": 1,
+                "instruction": "Turn right onto John Street",
+                "name": "John Street",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 463.1,
+                "duration": 333.4,
+                "type": 0,
+                "instruction": "Turn left onto Alexandra Street",
+                "name": "Alexandra Street",
+                "way_points": [
+                  4,
+                  12
+                ]
+              },
+              {
+                "distance": 173.1,
+                "duration": 124.6,
+                "type": 0,
+                "instruction": "Turn left onto Franklyn Street",
+                "name": "Franklyn Street",
+                "way_points": [
+                  12,
+                  15
+                ]
+              },
+              {
+                "distance": 38.8,
+                "duration": 27.9,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  15,
+                  17
+                ]
+              },
+              {
+                "distance": 14.5,
+                "duration": 10.5,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  17,
+                  19
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  19,
+                  19
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          19
+        ],
+        "summary": {
+          "distance": 1004.3,
+          "duration": 723.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            151.103636,
+            -33.865011
+          ],
+          [
+            151.103645,
+            -33.864998
+          ],
+          [
+            151.101344,
+            -33.86414
+          ],
+          [
+            151.100577,
+            -33.864321
+          ],
+          [
+            151.100558,
+            -33.864263
+          ],
+          [
+            151.099551,
+            -33.864501
+          ],
+          [
+            151.098669,
+            -33.864717
+          ],
+          [
+            151.098321,
+            -33.864798
+          ],
+          [
+            151.097454,
+            -33.865001
+          ],
+          [
+            151.097392,
+            -33.865017
+          ],
+          [
+            151.097246,
+            -33.865054
+          ],
+          [
+            151.096535,
+            -33.865238
+          ],
+          [
+            151.095744,
+            -33.86543
+          ],
+          [
+            151.095851,
+            -33.86586
+          ],
+          [
+            151.095837,
+            -33.866304
+          ],
+          [
+            151.095736,
+            -33.866972
+          ],
+          [
+            151.095814,
+            -33.866999
+          ],
+          [
+            151.096133,
+            -33.867085
+          ],
+          [
+            151.096118,
+            -33.867131
+          ],
+          [
+            151.096093,
+            -33.867212
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756390678241,
+    "query": {
+      "coordinates": [
+        [
+          151.1036359,
+          -33.8650106
+        ],
+        [
+          151.0960933,
+          -33.8672118
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

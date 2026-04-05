@@ -1,0 +1,223 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.203189,
+    19.324027,
+    -99.196055,
+    19.328037
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.203189,
+        19.324027,
+        -99.196055,
+        19.328037
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1171.7,
+            "duration": 843.6,
+            "steps": [
+              {
+                "distance": 29.5,
+                "duration": 21.2,
+                "type": 11,
+                "instruction": "Head east on Calle Rocas",
+                "name": "Calle Rocas",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 136.8,
+                "duration": 98.5,
+                "type": 0,
+                "instruction": "Turn left onto Calle Fuego",
+                "name": "Calle Fuego",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 788.9,
+                "duration": 568.0,
+                "type": 0,
+                "instruction": "Turn left onto Calle Cascada",
+                "name": "Calle Cascada",
+                "way_points": [
+                  2,
+                  14
+                ]
+              },
+              {
+                "distance": 194.9,
+                "duration": 140.4,
+                "type": 3,
+                "instruction": "Turn sharp right onto Calle Cráter",
+                "name": "Calle Cráter",
+                "way_points": [
+                  14,
+                  20
+                ]
+              },
+              {
+                "distance": 21.5,
+                "duration": 15.5,
+                "type": 0,
+                "instruction": "Turn left onto Calle Océano",
+                "name": "Calle Océano",
+                "way_points": [
+                  20,
+                  21
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Océano, straight ahead",
+                "name": "-",
+                "way_points": [
+                  21,
+                  21
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          21
+        ],
+        "summary": {
+          "distance": 1171.7,
+          "duration": 843.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.196394,
+            19.324043
+          ],
+          [
+            -99.196114,
+            19.324027
+          ],
+          [
+            -99.196055,
+            19.325256
+          ],
+          [
+            -99.197303,
+            19.325447
+          ],
+          [
+            -99.19752,
+            19.325493
+          ],
+          [
+            -99.197687,
+            19.325556
+          ],
+          [
+            -99.198115,
+            19.325824
+          ],
+          [
+            -99.198596,
+            19.32615
+          ],
+          [
+            -99.198811,
+            19.326249
+          ],
+          [
+            -99.198964,
+            19.326317
+          ],
+          [
+            -99.199976,
+            19.326739
+          ],
+          [
+            -99.200225,
+            19.326808
+          ],
+          [
+            -99.200736,
+            19.326875
+          ],
+          [
+            -99.20148,
+            19.326939
+          ],
+          [
+            -99.203189,
+            19.326941
+          ],
+          [
+            -99.2028,
+            19.327497
+          ],
+          [
+            -99.202719,
+            19.327569
+          ],
+          [
+            -99.202611,
+            19.327637
+          ],
+          [
+            -99.202481,
+            19.327691
+          ],
+          [
+            -99.202208,
+            19.327755
+          ],
+          [
+            -99.20173,
+            19.327845
+          ],
+          [
+            -99.201759,
+            19.328037
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306943064,
+    "query": {
+      "coordinates": [
+        [
+          -99.1963942,
+          19.324043
+        ],
+        [
+          -99.2017588,
+          19.3280366
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.095413,
+    19.456712,
+    -99.09135,
+    19.460026
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.095413,
+        19.456712,
+        -99.09135,
+        19.460026
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 719.9,
+            "duration": 518.3,
+            "steps": [
+              {
+                "distance": 350.6,
+                "duration": 252.4,
+                "type": 11,
+                "instruction": "Head north on Avenida 509",
+                "name": "Avenida 509",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 57.9,
+                "duration": 41.7,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  3,
+                  5
+                ]
+              },
+              {
+                "distance": 5.4,
+                "duration": 3.9,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 16.7,
+                "duration": 12.0,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 97.5,
+                "duration": 70.2,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  7,
+                  9
+                ]
+              },
+              {
+                "distance": 7.5,
+                "duration": 5.4,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  9,
+                  10
+                ]
+              },
+              {
+                "distance": 160.9,
+                "duration": 115.9,
+                "type": 1,
+                "instruction": "Turn right onto Calle Cuarta 515",
+                "name": "Calle Cuarta 515",
+                "way_points": [
+                  10,
+                  12
+                ]
+              },
+              {
+                "distance": 23.4,
+                "duration": 16.8,
+                "type": 1,
+                "instruction": "Turn right onto Avenida 521",
+                "name": "Avenida 521",
+                "way_points": [
+                  12,
+                  14
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Avenida 521, straight ahead",
+                "name": "-",
+                "way_points": [
+                  14,
+                  14
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          14
+        ],
+        "summary": {
+          "distance": 719.9,
+          "duration": 518.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.095413,
+            19.456712
+          ],
+          [
+            -99.094993,
+            19.457805
+          ],
+          [
+            -99.094605,
+            19.45887
+          ],
+          [
+            -99.094295,
+            19.459684
+          ],
+          [
+            -99.093997,
+            19.459798
+          ],
+          [
+            -99.093796,
+            19.459903
+          ],
+          [
+            -99.093747,
+            19.459887
+          ],
+          [
+            -99.093686,
+            19.460026
+          ],
+          [
+            -99.093305,
+            19.459889
+          ],
+          [
+            -99.092815,
+            19.45972
+          ],
+          [
+            -99.092794,
+            19.459785
+          ],
+          [
+            -99.092344,
+            19.459632
+          ],
+          [
+            -99.09135,
+            19.459292
+          ],
+          [
+            -99.091373,
+            19.45923
+          ],
+          [
+            -99.091425,
+            19.459093
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756304035100,
+    "query": {
+      "coordinates": [
+        [
+          -99.0954128,
+          19.4567118
+        ],
+        [
+          -99.0914246,
+          19.4590931
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

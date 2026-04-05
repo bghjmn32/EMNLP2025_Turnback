@@ -1,0 +1,173 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -105.06834,
+    39.833706,
+    -105.065996,
+    39.837827
+  ],
+  "features": [
+    {
+      "bbox": [
+        -105.06834,
+        39.833706,
+        -105.065996,
+        39.837827
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 705.8,
+            "duration": 508.1,
+            "steps": [
+              {
+                "distance": 76.3,
+                "duration": 54.9,
+                "type": 11,
+                "instruction": "Head east on West 78th Avenue",
+                "name": "West 78th Avenue",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 464.7,
+                "duration": 334.6,
+                "type": 1,
+                "instruction": "Turn right onto Kendall Street",
+                "name": "Kendall Street",
+                "way_points": [
+                  1,
+                  12
+                ]
+              },
+              {
+                "distance": 164.8,
+                "duration": 118.7,
+                "type": 1,
+                "instruction": "Turn right onto West 75th Drive",
+                "name": "West 75th Drive",
+                "way_points": [
+                  12,
+                  14
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at West 75th Drive, straight ahead",
+                "name": "-",
+                "way_points": [
+                  14,
+                  14
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          14
+        ],
+        "summary": {
+          "distance": 705.8,
+          "duration": 508.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -105.066889,
+            39.837827
+          ],
+          [
+            -105.065996,
+            39.837819
+          ],
+          [
+            -105.066009,
+            39.837131
+          ],
+          [
+            -105.066082,
+            39.836763
+          ],
+          [
+            -105.066182,
+            39.836447
+          ],
+          [
+            -105.066442,
+            39.835906
+          ],
+          [
+            -105.066506,
+            39.835652
+          ],
+          [
+            -105.066528,
+            39.835432
+          ],
+          [
+            -105.066513,
+            39.835146
+          ],
+          [
+            -105.066516,
+            39.834429
+          ],
+          [
+            -105.06652,
+            39.834149
+          ],
+          [
+            -105.066434,
+            39.833946
+          ],
+          [
+            -105.06641,
+            39.833706
+          ],
+          [
+            -105.06725,
+            39.83371
+          ],
+          [
+            -105.06834,
+            39.833721
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756304820898,
+    "query": {
+      "coordinates": [
+        [
+          -105.0668891,
+          39.8378274
+        ],
+        [
+          -105.06834,
+          39.833721
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

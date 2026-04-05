@@ -1,0 +1,210 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    11.679751,
+    48.221435,
+    11.687517,
+    48.227012
+  ],
+  "features": [
+    {
+      "bbox": [
+        11.679751,
+        48.221435,
+        11.687517,
+        48.227012
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 914.5,
+            "duration": 658.4,
+            "steps": [
+              {
+                "distance": 424.4,
+                "duration": 305.6,
+                "type": 11,
+                "instruction": "Head north on Aschheimer Straße",
+                "name": "Aschheimer Straße",
+                "way_points": [
+                  0,
+                  7
+                ]
+              },
+              {
+                "distance": 450.7,
+                "duration": 324.5,
+                "type": 7,
+                "instruction": "Enter the roundabout and take the 2nd exit onto Aschheimer Straße",
+                "name": "Aschheimer Straße",
+                "exit_number": 2,
+                "way_points": [
+                  7,
+                  20
+                ]
+              },
+              {
+                "distance": 39.4,
+                "duration": 28.4,
+                "type": 1,
+                "instruction": "Turn right onto Steinheilstraße",
+                "name": "Steinheilstraße",
+                "way_points": [
+                  20,
+                  23
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Steinheilstraße, straight ahead",
+                "name": "-",
+                "way_points": [
+                  23,
+                  23
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          23
+        ],
+        "summary": {
+          "distance": 914.5,
+          "duration": 658.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            11.687517,
+            48.221435
+          ],
+          [
+            11.687204,
+            48.222219
+          ],
+          [
+            11.686971,
+            48.222804
+          ],
+          [
+            11.686797,
+            48.223216
+          ],
+          [
+            11.68653,
+            48.223585
+          ],
+          [
+            11.686015,
+            48.223974
+          ],
+          [
+            11.684978,
+            48.224633
+          ],
+          [
+            11.68489,
+            48.2247
+          ],
+          [
+            11.684823,
+            48.224666
+          ],
+          [
+            11.68478,
+            48.224663
+          ],
+          [
+            11.684702,
+            48.224684
+          ],
+          [
+            11.684664,
+            48.224723
+          ],
+          [
+            11.684678,
+            48.224791
+          ],
+          [
+            11.684574,
+            48.224843
+          ],
+          [
+            11.683127,
+            48.225561
+          ],
+          [
+            11.682773,
+            48.225722
+          ],
+          [
+            11.681368,
+            48.226206
+          ],
+          [
+            11.681259,
+            48.226237
+          ],
+          [
+            11.680814,
+            48.226368
+          ],
+          [
+            11.680041,
+            48.226588
+          ],
+          [
+            11.679751,
+            48.226661
+          ],
+          [
+            11.679764,
+            48.226751
+          ],
+          [
+            11.679808,
+            48.226969
+          ],
+          [
+            11.679812,
+            48.227012
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756139741530,
+    "query": {
+      "coordinates": [
+        [
+          11.6875164,
+          48.2214347
+        ],
+        [
+          11.6798116,
+          48.2270124
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

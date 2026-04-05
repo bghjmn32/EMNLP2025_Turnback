@@ -1,0 +1,292 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    174.773912,
+    -36.919895,
+    174.780435,
+    -36.916452
+  ],
+  "features": [
+    {
+      "bbox": [
+        174.773912,
+        -36.919895,
+        174.780435,
+        -36.916452
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 883.8,
+            "duration": 636.3,
+            "steps": [
+              {
+                "distance": 19.1,
+                "duration": 13.8,
+                "type": 11,
+                "instruction": "Head east",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 107.7,
+                "duration": 77.5,
+                "type": 0,
+                "instruction": "Turn left onto Hill Street",
+                "name": "Hill Street",
+                "way_points": [
+                  1,
+                  7
+                ]
+              },
+              {
+                "distance": 9.0,
+                "duration": 6.5,
+                "type": 1,
+                "instruction": "Turn right onto Grey Street",
+                "name": "Grey Street",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 21.4,
+                "duration": 15.4,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  8,
+                  9
+                ]
+              },
+              {
+                "distance": 29.9,
+                "duration": 21.5,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  9,
+                  12
+                ]
+              },
+              {
+                "distance": 142.5,
+                "duration": 102.6,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  12,
+                  22
+                ]
+              },
+              {
+                "distance": 147.7,
+                "duration": 106.3,
+                "type": 1,
+                "instruction": "Turn right onto Quadrant Road",
+                "name": "Quadrant Road",
+                "way_points": [
+                  22,
+                  24
+                ]
+              },
+              {
+                "distance": 406.6,
+                "duration": 292.7,
+                "type": 0,
+                "instruction": "Turn left onto Trafalgar Street",
+                "name": "Trafalgar Street",
+                "way_points": [
+                  24,
+                  30
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Trafalgar Street, straight ahead",
+                "name": "-",
+                "way_points": [
+                  30,
+                  30
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          30
+        ],
+        "summary": {
+          "distance": 883.8,
+          "duration": 636.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            174.780221,
+            -36.919895
+          ],
+          [
+            174.780435,
+            -36.919877
+          ],
+          [
+            174.780427,
+            -36.919813
+          ],
+          [
+            174.78042,
+            -36.919764
+          ],
+          [
+            174.780393,
+            -36.919566
+          ],
+          [
+            174.780366,
+            -36.919361
+          ],
+          [
+            174.78035,
+            -36.919247
+          ],
+          [
+            174.780305,
+            -36.918914
+          ],
+          [
+            174.780406,
+            -36.918905
+          ],
+          [
+            174.780342,
+            -36.91872
+          ],
+          [
+            174.780298,
+            -36.918702
+          ],
+          [
+            174.780161,
+            -36.918695
+          ],
+          [
+            174.780026,
+            -36.918645
+          ],
+          [
+            174.779968,
+            -36.918507
+          ],
+          [
+            174.77991,
+            -36.918422
+          ],
+          [
+            174.779768,
+            -36.918296
+          ],
+          [
+            174.779664,
+            -36.918156
+          ],
+          [
+            174.779583,
+            -36.917977
+          ],
+          [
+            174.779427,
+            -36.917879
+          ],
+          [
+            174.779325,
+            -36.917789
+          ],
+          [
+            174.779288,
+            -36.917762
+          ],
+          [
+            174.779222,
+            -36.917729
+          ],
+          [
+            174.779063,
+            -36.917684
+          ],
+          [
+            174.778659,
+            -36.916883
+          ],
+          [
+            174.778441,
+            -36.916452
+          ],
+          [
+            174.776391,
+            -36.916629
+          ],
+          [
+            174.774883,
+            -36.916752
+          ],
+          [
+            174.774679,
+            -36.916741
+          ],
+          [
+            174.774534,
+            -36.916711
+          ],
+          [
+            174.774013,
+            -36.916604
+          ],
+          [
+            174.773912,
+            -36.916585
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756374201476,
+    "query": {
+      "coordinates": [
+        [
+          174.7802212,
+          -36.9198951
+        ],
+        [
+          174.7739122,
+          -36.9165848
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

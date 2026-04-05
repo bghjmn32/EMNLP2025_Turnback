@@ -1,0 +1,172 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.432721,
+    -22.866527,
+    -43.429263,
+    -22.864835
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.432721,
+        -22.866527,
+        -43.429263,
+        -22.864835
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 508.5,
+            "duration": 366.1,
+            "steps": [
+              {
+                "distance": 67.2,
+                "duration": 48.4,
+                "type": 11,
+                "instruction": "Head southwest",
+                "name": "-",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 282.9,
+                "duration": 203.7,
+                "type": 1,
+                "instruction": "Turn right onto Rua Maceió",
+                "name": "Rua Maceió",
+                "way_points": [
+                  3,
+                  7
+                ]
+              },
+              {
+                "distance": 142.6,
+                "duration": 102.7,
+                "type": 1,
+                "instruction": "Turn right onto Rua Manaus",
+                "name": "Rua Manaus",
+                "way_points": [
+                  7,
+                  10
+                ]
+              },
+              {
+                "distance": 15.8,
+                "duration": 11.4,
+                "type": 1,
+                "instruction": "Turn right onto Avenida Brasil",
+                "name": "Avenida Brasil",
+                "way_points": [
+                  10,
+                  11
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Avenida Brasil, straight ahead",
+                "name": "-",
+                "way_points": [
+                  11,
+                  11
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          11
+        ],
+        "summary": {
+          "distance": 508.5,
+          "duration": 366.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.429263,
+            -22.866273
+          ],
+          [
+            -43.429316,
+            -22.866332
+          ],
+          [
+            -43.429363,
+            -22.866354
+          ],
+          [
+            -43.429848,
+            -22.866527
+          ],
+          [
+            -43.430154,
+            -22.865893
+          ],
+          [
+            -43.430191,
+            -22.865859
+          ],
+          [
+            -43.430258,
+            -22.865855
+          ],
+          [
+            -43.432133,
+            -22.866063
+          ],
+          [
+            -43.432186,
+            -22.865964
+          ],
+          [
+            -43.432271,
+            -22.865786
+          ],
+          [
+            -43.432721,
+            -22.8649
+          ],
+          [
+            -43.432583,
+            -22.864835
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756394535986,
+    "query": {
+      "coordinates": [
+        [
+          -43.4292625,
+          -22.8662726
+        ],
+        [
+          -43.4325834,
+          -22.864835
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

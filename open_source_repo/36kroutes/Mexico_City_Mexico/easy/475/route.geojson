@@ -1,0 +1,150 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.248102,
+    19.398089,
+    -99.244965,
+    19.402879
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.248102,
+        19.398089,
+        -99.244965,
+        19.402879
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 700.7,
+            "duration": 504.5,
+            "steps": [
+              {
+                "distance": 211.6,
+                "duration": 152.4,
+                "type": 11,
+                "instruction": "Head northeast on Calle Bosque de Ocozoles",
+                "name": "Calle Bosque de Ocozoles",
+                "way_points": [
+                  0,
+                  6
+                ]
+              },
+              {
+                "distance": 489.1,
+                "duration": 352.1,
+                "type": 1,
+                "instruction": "Turn right onto Avenida Paseo Bosque de la Reforma",
+                "name": "Avenida Paseo Bosque de la Reforma",
+                "way_points": [
+                  6,
+                  11
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Avenida Paseo Bosque de la Reforma, straight ahead",
+                "name": "-",
+                "way_points": [
+                  11,
+                  11
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          11
+        ],
+        "summary": {
+          "distance": 700.7,
+          "duration": 504.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.24777,
+            19.398089
+          ],
+          [
+            -99.247414,
+            19.398779
+          ],
+          [
+            -99.247389,
+            19.398869
+          ],
+          [
+            -99.247391,
+            19.398968
+          ],
+          [
+            -99.247434,
+            19.399049
+          ],
+          [
+            -99.247713,
+            19.399289
+          ],
+          [
+            -99.248102,
+            19.399625
+          ],
+          [
+            -99.246378,
+            19.401412
+          ],
+          [
+            -99.246306,
+            19.401492
+          ],
+          [
+            -99.245603,
+            19.40222
+          ],
+          [
+            -99.245246,
+            19.402588
+          ],
+          [
+            -99.244965,
+            19.402879
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306198944,
+    "query": {
+      "coordinates": [
+        [
+          -99.2477705,
+          19.3980892
+        ],
+        [
+          -99.2449655,
+          19.402879
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -79.310544,
+    43.70511,
+    -79.307025,
+    43.711152
+  ],
+  "features": [
+    {
+      "bbox": [
+        -79.310544,
+        43.70511,
+        -79.307025,
+        43.711152
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 779.1,
+            "duration": 561.0,
+            "steps": [
+              {
+                "distance": 6.2,
+                "duration": 4.4,
+                "type": 11,
+                "instruction": "Head west on Glenwood Crescent",
+                "name": "Glenwood Crescent",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 93.4,
+                "duration": 67.3,
+                "type": 1,
+                "instruction": "Turn right onto St. Columba Place",
+                "name": "St. Columba Place",
+                "way_points": [
+                  1,
+                  4
+                ]
+              },
+              {
+                "distance": 32.0,
+                "duration": 23.1,
+                "type": 1,
+                "instruction": "Turn right onto St Clair Avenue East",
+                "name": "St Clair Avenue East",
+                "way_points": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "distance": 221.8,
+                "duration": 159.7,
+                "type": 0,
+                "instruction": "Turn left onto Westview Boulevard",
+                "name": "Westview Boulevard",
+                "way_points": [
+                  5,
+                  11
+                ]
+              },
+              {
+                "distance": 420.3,
+                "duration": 302.6,
+                "type": 6,
+                "instruction": "Continue straight onto Westview Boulevard",
+                "name": "Westview Boulevard",
+                "way_points": [
+                  11,
+                  16
+                ]
+              },
+              {
+                "distance": 5.3,
+                "duration": 3.8,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  16,
+                  17
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  17,
+                  17
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          17
+        ],
+        "summary": {
+          "distance": 779.1,
+          "duration": 561.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -79.310121,
+            43.705126
+          ],
+          [
+            -79.310195,
+            43.70511
+          ],
+          [
+            -79.310366,
+            43.705476
+          ],
+          [
+            -79.310502,
+            43.70582
+          ],
+          [
+            -79.310544,
+            43.705911
+          ],
+          [
+            -79.310164,
+            43.705996
+          ],
+          [
+            -79.310204,
+            43.706121
+          ],
+          [
+            -79.310291,
+            43.706338
+          ],
+          [
+            -79.310354,
+            43.706644
+          ],
+          [
+            -79.310318,
+            43.706845
+          ],
+          [
+            -79.310231,
+            43.707082
+          ],
+          [
+            -79.309668,
+            43.707866
+          ],
+          [
+            -79.308993,
+            43.708734
+          ],
+          [
+            -79.30825,
+            43.709657
+          ],
+          [
+            -79.307919,
+            43.710101
+          ],
+          [
+            -79.307658,
+            43.710428
+          ],
+          [
+            -79.307082,
+            43.711152
+          ],
+          [
+            -79.307025,
+            43.711127
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756125178575,
+    "query": {
+      "coordinates": [
+        [
+          -79.3101211,
+          43.7051261
+        ],
+        [
+          -79.3070247,
+          43.7111273
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

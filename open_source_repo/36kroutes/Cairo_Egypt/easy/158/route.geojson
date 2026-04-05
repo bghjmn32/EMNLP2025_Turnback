@@ -1,0 +1,175 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    31.33141,
+    30.076775,
+    31.333477,
+    30.079372
+  ],
+  "features": [
+    {
+      "bbox": [
+        31.33141,
+        30.076775,
+        31.333477,
+        30.079372
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 553.8,
+            "duration": 398.7,
+            "steps": [
+              {
+                "distance": 172.7,
+                "duration": 124.3,
+                "type": 11,
+                "instruction": "Head west on شارع البلبيسي",
+                "name": "شارع البلبيسي",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 185.6,
+                "duration": 133.6,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  5
+                ]
+              },
+              {
+                "distance": 32.2,
+                "duration": 23.2,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 85.1,
+                "duration": 61.2,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  6,
+                  8
+                ]
+              },
+              {
+                "distance": 78.2,
+                "duration": 56.3,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  8,
+                  9
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  9,
+                  9
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          9
+        ],
+        "summary": {
+          "distance": 553.8,
+          "duration": 398.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            31.333477,
+            30.079071
+          ],
+          [
+            31.331717,
+            30.079372
+          ],
+          [
+            31.33166,
+            30.07906
+          ],
+          [
+            31.331562,
+            30.078525
+          ],
+          [
+            31.331452,
+            30.078
+          ],
+          [
+            31.33141,
+            30.077724
+          ],
+          [
+            31.331739,
+            30.077669
+          ],
+          [
+            31.331701,
+            30.077416
+          ],
+          [
+            31.331626,
+            30.07691
+          ],
+          [
+            31.332424,
+            30.076775
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756730445165,
+    "query": {
+      "coordinates": [
+        [
+          31.3334773,
+          30.0790705
+        ],
+        [
+          31.3324236,
+          30.0767746
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

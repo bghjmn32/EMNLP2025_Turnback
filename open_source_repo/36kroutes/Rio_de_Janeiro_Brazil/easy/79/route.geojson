@@ -1,0 +1,184 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.373721,
+    -22.867411,
+    -43.371443,
+    -22.864621
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.373721,
+        -22.867411,
+        -43.371443,
+        -22.864621
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 557.1,
+            "duration": 401.1,
+            "steps": [
+              {
+                "distance": 139.8,
+                "duration": 100.7,
+                "type": 11,
+                "instruction": "Head southeast",
+                "name": "-",
+                "way_points": [
+                  0,
+                  5
+                ]
+              },
+              {
+                "distance": 84.3,
+                "duration": 60.7,
+                "type": 12,
+                "instruction": "Keep left onto Rua Jorge Schmidt",
+                "name": "Rua Jorge Schmidt",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 262.8,
+                "duration": 189.2,
+                "type": 0,
+                "instruction": "Turn left onto Rua Coronel Laurênio Lago",
+                "name": "Rua Coronel Laurênio Lago",
+                "way_points": [
+                  6,
+                  13
+                ]
+              },
+              {
+                "distance": 70.2,
+                "duration": 50.5,
+                "type": 1,
+                "instruction": "Turn right onto Avenida General Oswaldo Cordeiro de Farias",
+                "name": "Avenida General Oswaldo Cordeiro de Farias",
+                "way_points": [
+                  13,
+                  14
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Avenida General Oswaldo Cordeiro de Farias, straight ahead",
+                "name": "-",
+                "way_points": [
+                  14,
+                  14
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          14
+        ],
+        "summary": {
+          "distance": 557.1,
+          "duration": 401.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.372507,
+            -22.867051
+          ],
+          [
+            -43.371774,
+            -22.867407
+          ],
+          [
+            -43.371739,
+            -22.867411
+          ],
+          [
+            -43.371699,
+            -22.867398
+          ],
+          [
+            -43.371541,
+            -22.867127
+          ],
+          [
+            -43.371489,
+            -22.867022
+          ],
+          [
+            -43.371443,
+            -22.866265
+          ],
+          [
+            -43.371636,
+            -22.866166
+          ],
+          [
+            -43.373057,
+            -22.865498
+          ],
+          [
+            -43.373193,
+            -22.86543
+          ],
+          [
+            -43.373355,
+            -22.865354
+          ],
+          [
+            -43.373602,
+            -22.865236
+          ],
+          [
+            -43.37365,
+            -22.865209
+          ],
+          [
+            -43.373721,
+            -22.865179
+          ],
+          [
+            -43.373401,
+            -22.864621
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756390456524,
+    "query": {
+      "coordinates": [
+        [
+          -43.3725066,
+          -22.867051
+        ],
+        [
+          -43.3734015,
+          -22.8646209
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

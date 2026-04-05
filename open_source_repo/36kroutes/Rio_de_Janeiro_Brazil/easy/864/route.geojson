@@ -1,0 +1,213 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.557253,
+    -22.924432,
+    -43.551656,
+    -22.923243
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.557253,
+        -22.924432,
+        -43.551656,
+        -22.923243
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 754.0,
+            "duration": 542.9,
+            "steps": [
+              {
+                "distance": 22.6,
+                "duration": 16.3,
+                "type": 11,
+                "instruction": "Head south on Estrada da Cachamorra",
+                "name": "Estrada da Cachamorra",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 459.8,
+                "duration": 331.1,
+                "type": 1,
+                "instruction": "Turn right onto Rua Soldado Venceslau Spancerski",
+                "name": "Rua Soldado Venceslau Spancerski",
+                "way_points": [
+                  1,
+                  6
+                ]
+              },
+              {
+                "distance": 132.5,
+                "duration": 95.4,
+                "type": 0,
+                "instruction": "Turn left onto Rua Beira Rio",
+                "name": "Rua Beira Rio",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 48.7,
+                "duration": 35.1,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  7,
+                  10
+                ]
+              },
+              {
+                "distance": 2.7,
+                "duration": 1.9,
+                "type": 1,
+                "instruction": "Turn right onto Rua Beira Rio",
+                "name": "Rua Beira Rio",
+                "way_points": [
+                  10,
+                  11
+                ]
+              },
+              {
+                "distance": 62.8,
+                "duration": 45.2,
+                "type": 0,
+                "instruction": "Turn left onto Rua E",
+                "name": "Rua E",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 24.8,
+                "duration": 17.9,
+                "type": 1,
+                "instruction": "Turn right onto Rua Projetada",
+                "name": "Rua Projetada",
+                "way_points": [
+                  12,
+                  13
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Rua Projetada, straight ahead",
+                "name": "-",
+                "way_points": [
+                  13,
+                  13
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          13
+        ],
+        "summary": {
+          "distance": 754.0,
+          "duration": 542.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.551656,
+            -22.924027
+          ],
+          [
+            -43.551726,
+            -22.92422
+          ],
+          [
+            -43.551775,
+            -22.924199
+          ],
+          [
+            -43.552556,
+            -22.924032
+          ],
+          [
+            -43.554228,
+            -22.923647
+          ],
+          [
+            -43.555818,
+            -22.9233
+          ],
+          [
+            -43.556088,
+            -22.923243
+          ],
+          [
+            -43.55617,
+            -22.924432
+          ],
+          [
+            -43.556369,
+            -22.92442
+          ],
+          [
+            -43.556476,
+            -22.924414
+          ],
+          [
+            -43.556644,
+            -22.9244
+          ],
+          [
+            -43.556642,
+            -22.924376
+          ],
+          [
+            -43.557253,
+            -22.924332
+          ],
+          [
+            -43.557236,
+            -22.92411
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756394844987,
+    "query": {
+      "coordinates": [
+        [
+          -43.5516558,
+          -22.9240272
+        ],
+        [
+          -43.5572357,
+          -22.9241101
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

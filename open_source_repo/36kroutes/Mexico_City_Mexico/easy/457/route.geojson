@@ -1,0 +1,180 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.22833,
+    19.407624,
+    -99.222048,
+    19.411197
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.22833,
+        19.407624,
+        -99.222048,
+        19.411197
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 902.8,
+            "duration": 650.0,
+            "steps": [
+              {
+                "distance": 347.2,
+                "duration": 250.0,
+                "type": 11,
+                "instruction": "Head northeast on Calle Sierra Grande",
+                "name": "Calle Sierra Grande",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 139.9,
+                "duration": 100.7,
+                "type": 6,
+                "instruction": "Continue straight onto Calle Sierra Grande",
+                "name": "Calle Sierra Grande",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 38.6,
+                "duration": 27.8,
+                "type": 6,
+                "instruction": "Continue straight onto Calle Sierra Grande",
+                "name": "Calle Sierra Grande",
+                "way_points": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "distance": 377.2,
+                "duration": 271.5,
+                "type": 1,
+                "instruction": "Turn right onto Calle Montes Apalaches",
+                "name": "Calle Montes Apalaches",
+                "way_points": [
+                  5,
+                  13
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Montes Apalaches, straight ahead",
+                "name": "-",
+                "way_points": [
+                  13,
+                  13
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          13
+        ],
+        "summary": {
+          "distance": 902.8,
+          "duration": 650.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.22833,
+            19.407624
+          ],
+          [
+            -99.227666,
+            19.408249
+          ],
+          [
+            -99.226674,
+            19.409165
+          ],
+          [
+            -99.226078,
+            19.409904
+          ],
+          [
+            -99.225285,
+            19.410916
+          ],
+          [
+            -99.22507,
+            19.411197
+          ],
+          [
+            -99.224798,
+            19.411028
+          ],
+          [
+            -99.224443,
+            19.410807
+          ],
+          [
+            -99.224207,
+            19.41066
+          ],
+          [
+            -99.223475,
+            19.410232
+          ],
+          [
+            -99.223021,
+            19.409929
+          ],
+          [
+            -99.222589,
+            19.409689
+          ],
+          [
+            -99.222416,
+            19.409582
+          ],
+          [
+            -99.222048,
+            19.40936
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306132089,
+    "query": {
+      "coordinates": [
+        [
+          -99.2283296,
+          19.407624
+        ],
+        [
+          -99.2220484,
+          19.4093602
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

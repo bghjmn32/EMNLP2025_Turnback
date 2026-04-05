@@ -1,0 +1,222 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.68324,
+    -22.947609,
+    -43.677565,
+    -22.943259
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.68324,
+        -22.947609,
+        -43.677565,
+        -22.943259
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 963.4,
+            "duration": 693.6,
+            "steps": [
+              {
+                "distance": 35.1,
+                "duration": 25.3,
+                "type": 11,
+                "instruction": "Head east on Estrada de Sepetiba",
+                "name": "Estrada de Sepetiba",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 399.3,
+                "duration": 287.5,
+                "type": 0,
+                "instruction": "Turn left onto Rua Mercedes Coelho",
+                "name": "Rua Mercedes Coelho",
+                "way_points": [
+                  1,
+                  10
+                ]
+              },
+              {
+                "distance": 115.6,
+                "duration": 83.3,
+                "type": 0,
+                "instruction": "Turn left onto Rua Adalberto Morgado",
+                "name": "Rua Adalberto Morgado",
+                "way_points": [
+                  10,
+                  12
+                ]
+              },
+              {
+                "distance": 183.5,
+                "duration": 132.1,
+                "type": 1,
+                "instruction": "Turn right onto Rua João de Macedo",
+                "name": "Rua João de Macedo",
+                "way_points": [
+                  12,
+                  15
+                ]
+              },
+              {
+                "distance": 68.5,
+                "duration": 49.3,
+                "type": 2,
+                "instruction": "Turn sharp left onto Rua José de Menezes",
+                "name": "Rua José de Menezes",
+                "way_points": [
+                  15,
+                  16
+                ]
+              },
+              {
+                "distance": 161.4,
+                "duration": 116.2,
+                "type": 3,
+                "instruction": "Turn sharp right onto Avenida Areia Branca",
+                "name": "Avenida Areia Branca",
+                "way_points": [
+                  16,
+                  18
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Avenida Areia Branca, straight ahead",
+                "name": "-",
+                "way_points": [
+                  18,
+                  18
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          18
+        ],
+        "summary": {
+          "distance": 963.4,
+          "duration": 693.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.677884,
+            -22.947609
+          ],
+          [
+            -43.677565,
+            -22.947496
+          ],
+          [
+            -43.677802,
+            -22.947069
+          ],
+          [
+            -43.678189,
+            -22.946578
+          ],
+          [
+            -43.678687,
+            -22.946011
+          ],
+          [
+            -43.678779,
+            -22.945946
+          ],
+          [
+            -43.679246,
+            -22.945687
+          ],
+          [
+            -43.679536,
+            -22.945559
+          ],
+          [
+            -43.679609,
+            -22.9455
+          ],
+          [
+            -43.679764,
+            -22.945326
+          ],
+          [
+            -43.680067,
+            -22.944845
+          ],
+          [
+            -43.680534,
+            -22.945159
+          ],
+          [
+            -43.680997,
+            -22.945434
+          ],
+          [
+            -43.681292,
+            -22.945013
+          ],
+          [
+            -43.681628,
+            -22.944506
+          ],
+          [
+            -43.68195,
+            -22.944037
+          ],
+          [
+            -43.682405,
+            -22.944489
+          ],
+          [
+            -43.682766,
+            -22.943991
+          ],
+          [
+            -43.68324,
+            -22.943259
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756393525419,
+    "query": {
+      "coordinates": [
+        [
+          -43.6778843,
+          -22.9476093
+        ],
+        [
+          -43.6832398,
+          -22.9432592
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

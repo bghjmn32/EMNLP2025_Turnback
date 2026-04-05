@@ -1,0 +1,285 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.117771,
+    19.471214,
+    -99.112081,
+    19.479772
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.117771,
+        19.471214,
+        -99.112081,
+        19.479772
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1301.8,
+            "duration": 937.3,
+            "steps": [
+              {
+                "distance": 111.2,
+                "duration": 80.0,
+                "type": 11,
+                "instruction": "Head west on Calle Cuauhtémoc",
+                "name": "Calle Cuauhtémoc",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 627.9,
+                "duration": 452.1,
+                "type": 0,
+                "instruction": "Turn left onto Calle Fausto Romero",
+                "name": "Calle Fausto Romero",
+                "way_points": [
+                  1,
+                  10
+                ]
+              },
+              {
+                "distance": 43.9,
+                "duration": 31.6,
+                "type": 1,
+                "instruction": "Turn right onto Calle Joyas",
+                "name": "Calle Joyas",
+                "way_points": [
+                  10,
+                  11
+                ]
+              },
+              {
+                "distance": 165.5,
+                "duration": 119.1,
+                "type": 0,
+                "instruction": "Turn left onto Calle Rubí",
+                "name": "Calle Rubí",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 44.8,
+                "duration": 32.2,
+                "type": 1,
+                "instruction": "Turn right onto Avenida Tesoro",
+                "name": "Avenida Tesoro",
+                "way_points": [
+                  12,
+                  13
+                ]
+              },
+              {
+                "distance": 191.6,
+                "duration": 137.9,
+                "type": 0,
+                "instruction": "Turn left onto Calle Ópalo",
+                "name": "Calle Ópalo",
+                "way_points": [
+                  13,
+                  14
+                ]
+              },
+              {
+                "distance": 19.0,
+                "duration": 13.7,
+                "type": 1,
+                "instruction": "Turn right onto Avenida Victoria Oriente",
+                "name": "Avenida Victoria Oriente",
+                "way_points": [
+                  14,
+                  15
+                ]
+              },
+              {
+                "distance": 20.9,
+                "duration": 15.0,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  15,
+                  17
+                ]
+              },
+              {
+                "distance": 9.5,
+                "duration": 6.9,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  17,
+                  18
+                ]
+              },
+              {
+                "distance": 51.5,
+                "duration": 37.1,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  18,
+                  19
+                ]
+              },
+              {
+                "distance": 16.2,
+                "duration": 11.6,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  19,
+                  20
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  20,
+                  20
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          20
+        ],
+        "summary": {
+          "distance": 1301.8,
+          "duration": 937.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.112081,
+            19.479415
+          ],
+          [
+            -99.113071,
+            19.479772
+          ],
+          [
+            -99.113351,
+            19.479089
+          ],
+          [
+            -99.113684,
+            19.478158
+          ],
+          [
+            -99.113775,
+            19.477916
+          ],
+          [
+            -99.114008,
+            19.477347
+          ],
+          [
+            -99.114403,
+            19.476353
+          ],
+          [
+            -99.114908,
+            19.475027
+          ],
+          [
+            -99.114991,
+            19.474801
+          ],
+          [
+            -99.115048,
+            19.474659
+          ],
+          [
+            -99.115126,
+            19.474469
+          ],
+          [
+            -99.115521,
+            19.474599
+          ],
+          [
+            -99.116088,
+            19.473211
+          ],
+          [
+            -99.11649,
+            19.473348
+          ],
+          [
+            -99.117118,
+            19.47173
+          ],
+          [
+            -99.117289,
+            19.471789
+          ],
+          [
+            -99.117315,
+            19.471701
+          ],
+          [
+            -99.117374,
+            19.471622
+          ],
+          [
+            -99.11746,
+            19.47165
+          ],
+          [
+            -99.117626,
+            19.471214
+          ],
+          [
+            -99.117771,
+            19.471264
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756309836478,
+    "query": {
+      "coordinates": [
+        [
+          -99.1120807,
+          19.4794148
+        ],
+        [
+          -99.1177709,
+          19.4712638
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

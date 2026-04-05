@@ -1,0 +1,228 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    150.985906,
+    -33.905303,
+    150.989527,
+    -33.902199
+  ],
+  "features": [
+    {
+      "bbox": [
+        150.985906,
+        -33.905303,
+        150.989527,
+        -33.902199
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 658.4,
+            "duration": 474.0,
+            "steps": [
+              {
+                "distance": 8.1,
+                "duration": 5.8,
+                "type": 11,
+                "instruction": "Head southeast",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 12.7,
+                "duration": 9.2,
+                "type": 1,
+                "instruction": "Turn right onto Caroline Crescent",
+                "name": "Caroline Crescent",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 79.4,
+                "duration": 57.2,
+                "type": 0,
+                "instruction": "Turn left onto Leon Avenue",
+                "name": "Leon Avenue",
+                "way_points": [
+                  2,
+                  4
+                ]
+              },
+              {
+                "distance": 52.8,
+                "duration": 38.0,
+                "type": 1,
+                "instruction": "Turn right onto Denman Road",
+                "name": "Denman Road",
+                "way_points": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "distance": 95.8,
+                "duration": 69.0,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 28.0,
+                "duration": 20.2,
+                "type": 0,
+                "instruction": "Turn left onto Jacaranda Drive",
+                "name": "Jacaranda Drive",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 194.1,
+                "duration": 139.7,
+                "type": 1,
+                "instruction": "Turn right onto Whitemore Avenue",
+                "name": "Whitemore Avenue",
+                "way_points": [
+                  7,
+                  11
+                ]
+              },
+              {
+                "distance": 187.5,
+                "duration": 135.0,
+                "type": 0,
+                "instruction": "Turn left onto Oak Drive",
+                "name": "Oak Drive",
+                "way_points": [
+                  11,
+                  14
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Oak Drive, straight ahead",
+                "name": "-",
+                "way_points": [
+                  14,
+                  14
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          14
+        ],
+        "summary": {
+          "distance": 658.4,
+          "duration": 474.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            150.985953,
+            -33.902199
+          ],
+          [
+            150.986011,
+            -33.902254
+          ],
+          [
+            150.985906,
+            -33.902328
+          ],
+          [
+            150.986392,
+            -33.90282
+          ],
+          [
+            150.986451,
+            -33.90288
+          ],
+          [
+            150.98601,
+            -33.903182
+          ],
+          [
+            150.986666,
+            -33.903851
+          ],
+          [
+            150.986902,
+            -33.903693
+          ],
+          [
+            150.987322,
+            -33.904198
+          ],
+          [
+            150.987427,
+            -33.904391
+          ],
+          [
+            150.98747,
+            -33.904558
+          ],
+          [
+            150.987567,
+            -33.905303
+          ],
+          [
+            150.987998,
+            -33.905263
+          ],
+          [
+            150.989012,
+            -33.904997
+          ],
+          [
+            150.989527,
+            -33.904876
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756389991032,
+    "query": {
+      "coordinates": [
+        [
+          150.9859531,
+          -33.9021995
+        ],
+        [
+          150.989527,
+          -33.9048765
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

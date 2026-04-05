@@ -1,0 +1,220 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    11.414343,
+    48.105774,
+    11.423109,
+    48.108565
+  ],
+  "features": [
+    {
+      "bbox": [
+        11.414343,
+        48.105774,
+        11.423109,
+        48.108565
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 733.4,
+            "duration": 528.0,
+            "steps": [
+              {
+                "distance": 6.0,
+                "duration": 4.3,
+                "type": 11,
+                "instruction": "Head northeast",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 205.7,
+                "duration": 148.1,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  6
+                ]
+              },
+              {
+                "distance": 9.4,
+                "duration": 6.8,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 512.4,
+                "duration": 368.9,
+                "type": 0,
+                "instruction": "Turn left onto Germeringer Straße, St 2544",
+                "name": "Germeringer Straße, St 2544",
+                "way_points": [
+                  7,
+                  23
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Germeringer Straße, St 2544, straight ahead",
+                "name": "-",
+                "way_points": [
+                  23,
+                  23
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          23
+        ],
+        "summary": {
+          "distance": 733.4,
+          "duration": 528.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            11.414343,
+            48.108517
+          ],
+          [
+            11.414376,
+            48.108565
+          ],
+          [
+            11.41567,
+            48.108039
+          ],
+          [
+            11.41573,
+            48.108016
+          ],
+          [
+            11.416338,
+            48.107755
+          ],
+          [
+            11.416657,
+            48.107621
+          ],
+          [
+            11.416739,
+            48.107602
+          ],
+          [
+            11.416764,
+            48.10752
+          ],
+          [
+            11.417415,
+            48.107303
+          ],
+          [
+            11.417591,
+            48.107245
+          ],
+          [
+            11.41786,
+            48.107156
+          ],
+          [
+            11.418442,
+            48.106964
+          ],
+          [
+            11.418994,
+            48.106793
+          ],
+          [
+            11.420003,
+            48.106516
+          ],
+          [
+            11.420334,
+            48.106425
+          ],
+          [
+            11.420695,
+            48.106336
+          ],
+          [
+            11.421363,
+            48.10617
+          ],
+          [
+            11.422021,
+            48.10601
+          ],
+          [
+            11.422235,
+            48.10596
+          ],
+          [
+            11.422371,
+            48.105903
+          ],
+          [
+            11.422657,
+            48.105797
+          ],
+          [
+            11.422802,
+            48.105774
+          ],
+          [
+            11.422924,
+            48.105777
+          ],
+          [
+            11.423109,
+            48.105792
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756138756691,
+    "query": {
+      "coordinates": [
+        [
+          11.4143427,
+          48.1085165
+        ],
+        [
+          11.4231094,
+          48.1057922
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

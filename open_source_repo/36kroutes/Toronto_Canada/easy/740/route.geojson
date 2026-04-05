@@ -1,0 +1,181 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -79.429369,
+    43.683579,
+    -79.426702,
+    43.688507
+  ],
+  "features": [
+    {
+      "bbox": [
+        -79.429369,
+        43.683579,
+        -79.426702,
+        43.688507
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 687.9,
+            "duration": 495.3,
+            "steps": [
+              {
+                "distance": 237.5,
+                "duration": 171.0,
+                "type": 11,
+                "instruction": "Head north on Humewood Drive",
+                "name": "Humewood Drive",
+                "way_points": [
+                  0,
+                  12
+                ]
+              },
+              {
+                "distance": 85.6,
+                "duration": 61.6,
+                "type": 2,
+                "instruction": "Turn sharp left onto Maplewood Avenue",
+                "name": "Maplewood Avenue",
+                "way_points": [
+                  12,
+                  13
+                ]
+              },
+              {
+                "distance": 364.8,
+                "duration": 262.7,
+                "type": 1,
+                "instruction": "Turn right onto Cherrywood Avenue",
+                "name": "Cherrywood Avenue",
+                "way_points": [
+                  13,
+                  16
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Cherrywood Avenue, straight ahead",
+                "name": "-",
+                "way_points": [
+                  16,
+                  16
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          16
+        ],
+        "summary": {
+          "distance": 687.9,
+          "duration": 495.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -79.426994,
+            43.683579
+          ],
+          [
+            -79.427061,
+            43.683761
+          ],
+          [
+            -79.427027,
+            43.683833
+          ],
+          [
+            -79.426905,
+            43.683912
+          ],
+          [
+            -79.426744,
+            43.684026
+          ],
+          [
+            -79.426702,
+            43.684099
+          ],
+          [
+            -79.426736,
+            43.68424
+          ],
+          [
+            -79.426802,
+            43.684401
+          ],
+          [
+            -79.426969,
+            43.684804
+          ],
+          [
+            -79.427031,
+            43.685025
+          ],
+          [
+            -79.427017,
+            43.685171
+          ],
+          [
+            -79.427132,
+            43.685469
+          ],
+          [
+            -79.427088,
+            43.685561
+          ],
+          [
+            -79.428113,
+            43.685354
+          ],
+          [
+            -79.428757,
+            43.686918
+          ],
+          [
+            -79.429288,
+            43.688334
+          ],
+          [
+            -79.429369,
+            43.688507
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756125940039,
+    "query": {
+      "coordinates": [
+        [
+          -79.4269942,
+          43.6835788
+        ],
+        [
+          -79.4293693,
+          43.6885068
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

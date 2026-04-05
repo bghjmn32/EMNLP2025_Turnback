@@ -1,0 +1,222 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -105.064354,
+    39.754879,
+    -105.059101,
+    39.756423
+  ],
+  "features": [
+    {
+      "bbox": [
+        -105.064354,
+        39.754879,
+        -105.059101,
+        39.756423
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 671.0,
+            "duration": 483.1,
+            "steps": [
+              {
+                "distance": 43.8,
+                "duration": 31.5,
+                "type": 11,
+                "instruction": "Head east",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 170.2,
+                "duration": 122.6,
+                "type": 1,
+                "instruction": "Turn right onto Ingalls Street",
+                "name": "Ingalls Street",
+                "way_points": [
+                  1,
+                  6
+                ]
+              },
+              {
+                "distance": 370.8,
+                "duration": 267.0,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  6,
+                  15
+                ]
+              },
+              {
+                "distance": 3.0,
+                "duration": 2.1,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  15,
+                  16
+                ]
+              },
+              {
+                "distance": 35.2,
+                "duration": 25.3,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  16,
+                  17
+                ]
+              },
+              {
+                "distance": 47.9,
+                "duration": 34.5,
+                "type": 0,
+                "instruction": "Turn left onto Eaton Street",
+                "name": "Eaton Street",
+                "way_points": [
+                  17,
+                  18
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Eaton Street, straight ahead",
+                "name": "-",
+                "way_points": [
+                  18,
+                  18
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          18
+        ],
+        "summary": {
+          "distance": 671.0,
+          "duration": 483.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -105.064354,
+            39.756417
+          ],
+          [
+            -105.063841,
+            39.756423
+          ],
+          [
+            -105.063842,
+            39.756242
+          ],
+          [
+            -105.063843,
+            39.756081
+          ],
+          [
+            -105.063848,
+            39.755029
+          ],
+          [
+            -105.063848,
+            39.755014
+          ],
+          [
+            -105.063848,
+            39.754892
+          ],
+          [
+            -105.063738,
+            39.754889
+          ],
+          [
+            -105.063712,
+            39.754879
+          ],
+          [
+            -105.062659,
+            39.754882
+          ],
+          [
+            -105.062087,
+            39.75488
+          ],
+          [
+            -105.061482,
+            39.754887
+          ],
+          [
+            -105.061414,
+            39.754889
+          ],
+          [
+            -105.060828,
+            39.754882
+          ],
+          [
+            -105.06015,
+            39.754891
+          ],
+          [
+            -105.059513,
+            39.754901
+          ],
+          [
+            -105.059513,
+            39.754927
+          ],
+          [
+            -105.059101,
+            39.754931
+          ],
+          [
+            -105.059105,
+            39.755362
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756305909019,
+    "query": {
+      "coordinates": [
+        [
+          -105.0643537,
+          39.7564168
+        ],
+        [
+          -105.0591047,
+          39.7553623
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

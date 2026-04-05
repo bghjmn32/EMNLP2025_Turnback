@@ -1,0 +1,230 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -105.102797,
+    39.851735,
+    -105.09825,
+    39.853706
+  ],
+  "features": [
+    {
+      "bbox": [
+        -105.102797,
+        39.851735,
+        -105.09825,
+        39.853706
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 657.2,
+            "duration": 473.2,
+            "steps": [
+              {
+                "distance": 89.4,
+                "duration": 64.4,
+                "type": 11,
+                "instruction": "Head north",
+                "name": "-",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 149.0,
+                "duration": 107.3,
+                "type": 1,
+                "instruction": "Turn right onto West 86th Place",
+                "name": "West 86th Place",
+                "way_points": [
+                  3,
+                  8
+                ]
+              },
+              {
+                "distance": 79.2,
+                "duration": 57.0,
+                "type": 12,
+                "instruction": "Keep left onto West 86th Place",
+                "name": "West 86th Place",
+                "way_points": [
+                  8,
+                  11
+                ]
+              },
+              {
+                "distance": 71.5,
+                "duration": 51.5,
+                "type": 0,
+                "instruction": "Turn left onto Garrison Street",
+                "name": "Garrison Street",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 200.3,
+                "duration": 144.2,
+                "type": 1,
+                "instruction": "Turn right onto West 86th Avenue",
+                "name": "West 86th Avenue",
+                "way_points": [
+                  12,
+                  19
+                ]
+              },
+              {
+                "distance": 67.8,
+                "duration": 48.8,
+                "type": 1,
+                "instruction": "Turn right onto Everett Court",
+                "name": "Everett Court",
+                "way_points": [
+                  19,
+                  20
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Everett Court, straight ahead",
+                "name": "-",
+                "way_points": [
+                  20,
+                  20
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          20
+        ],
+        "summary": {
+          "distance": 657.2,
+          "duration": 473.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -105.102012,
+            39.851735
+          ],
+          [
+            -105.102056,
+            39.851878
+          ],
+          [
+            -105.102367,
+            39.852021
+          ],
+          [
+            -105.102797,
+            39.852208
+          ],
+          [
+            -105.102523,
+            39.852594
+          ],
+          [
+            -105.10237,
+            39.852734
+          ],
+          [
+            -105.102198,
+            39.852808
+          ],
+          [
+            -105.101612,
+            39.852949
+          ],
+          [
+            -105.101489,
+            39.85296
+          ],
+          [
+            -105.101316,
+            39.853029
+          ],
+          [
+            -105.100718,
+            39.853028
+          ],
+          [
+            -105.100584,
+            39.853028
+          ],
+          [
+            -105.100591,
+            39.853671
+          ],
+          [
+            -105.099972,
+            39.853671
+          ],
+          [
+            -105.099732,
+            39.853665
+          ],
+          [
+            -105.09962,
+            39.853667
+          ],
+          [
+            -105.099406,
+            39.8537
+          ],
+          [
+            -105.099088,
+            39.8537
+          ],
+          [
+            -105.098988,
+            39.853706
+          ],
+          [
+            -105.09825,
+            39.853695
+          ],
+          [
+            -105.098263,
+            39.853086
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756304754141,
+    "query": {
+      "coordinates": [
+        [
+          -105.1020123,
+          39.8517349
+        ],
+        [
+          -105.0982632,
+          39.8530859
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

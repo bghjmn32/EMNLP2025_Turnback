@@ -1,0 +1,207 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.200054,
+    19.324027,
+    -99.196055,
+    19.326317
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.200054,
+        19.324027,
+        -99.196055,
+        19.326317
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 676.2,
+            "duration": 486.9,
+            "steps": [
+              {
+                "distance": 29.5,
+                "duration": 21.2,
+                "type": 11,
+                "instruction": "Head east on Calle Rocas",
+                "name": "Calle Rocas",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 136.8,
+                "duration": 98.5,
+                "type": 0,
+                "instruction": "Turn left onto Calle Fuego",
+                "name": "Calle Fuego",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 333.8,
+                "duration": 240.3,
+                "type": 0,
+                "instruction": "Turn left onto Calle Cascada",
+                "name": "Calle Cascada",
+                "way_points": [
+                  2,
+                  9
+                ]
+              },
+              {
+                "distance": 112.7,
+                "duration": 81.1,
+                "type": 0,
+                "instruction": "Turn left onto Avenida Paseo del Pedregal",
+                "name": "Avenida Paseo del Pedregal",
+                "way_points": [
+                  9,
+                  16
+                ]
+              },
+              {
+                "distance": 63.5,
+                "duration": 45.7,
+                "type": 3,
+                "instruction": "Turn sharp right onto Cerrada de Gruta",
+                "name": "Cerrada de Gruta",
+                "way_points": [
+                  16,
+                  17
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Cerrada de Gruta, straight ahead",
+                "name": "-",
+                "way_points": [
+                  17,
+                  17
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          17
+        ],
+        "summary": {
+          "distance": 676.2,
+          "duration": 486.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.196394,
+            19.324043
+          ],
+          [
+            -99.196114,
+            19.324027
+          ],
+          [
+            -99.196055,
+            19.325256
+          ],
+          [
+            -99.197303,
+            19.325447
+          ],
+          [
+            -99.19752,
+            19.325493
+          ],
+          [
+            -99.197687,
+            19.325556
+          ],
+          [
+            -99.198115,
+            19.325824
+          ],
+          [
+            -99.198596,
+            19.32615
+          ],
+          [
+            -99.198811,
+            19.326249
+          ],
+          [
+            -99.198964,
+            19.326317
+          ],
+          [
+            -99.19905,
+            19.326094
+          ],
+          [
+            -99.199137,
+            19.325974
+          ],
+          [
+            -99.199211,
+            19.325901
+          ],
+          [
+            -99.199424,
+            19.325752
+          ],
+          [
+            -99.199459,
+            19.325713
+          ],
+          [
+            -99.199508,
+            19.325622
+          ],
+          [
+            -99.199523,
+            19.325496
+          ],
+          [
+            -99.200054,
+            19.32577
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306946567,
+    "query": {
+      "coordinates": [
+        [
+          -99.1963942,
+          19.324043
+        ],
+        [
+          -99.2000542,
+          19.3257702
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

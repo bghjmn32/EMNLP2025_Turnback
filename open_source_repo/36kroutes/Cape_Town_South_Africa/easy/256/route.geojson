@@ -1,0 +1,234 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.485295,
+    -34.034128,
+    18.490746,
+    -34.031227
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.485295,
+        -34.034128,
+        18.490746,
+        -34.031227
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 820.5,
+            "duration": 590.7,
+            "steps": [
+              {
+                "distance": 65.5,
+                "duration": 47.2,
+                "type": 11,
+                "instruction": "Head west",
+                "name": "-",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 317.2,
+                "duration": 228.4,
+                "type": 6,
+                "instruction": "Continue straight onto Monty Road",
+                "name": "Monty Road",
+                "way_points": [
+                  2,
+                  6
+                ]
+              },
+              {
+                "distance": 164.7,
+                "duration": 118.6,
+                "type": 0,
+                "instruction": "Turn left onto Pretorius Street",
+                "name": "Pretorius Street",
+                "way_points": [
+                  6,
+                  9
+                ]
+              },
+              {
+                "distance": 123.5,
+                "duration": 88.9,
+                "type": 1,
+                "instruction": "Turn right onto Banier Road",
+                "name": "Banier Road",
+                "way_points": [
+                  9,
+                  13
+                ]
+              },
+              {
+                "distance": 69.7,
+                "duration": 50.2,
+                "type": 1,
+                "instruction": "Turn right onto Lourier Street",
+                "name": "Lourier Street",
+                "way_points": [
+                  13,
+                  17
+                ]
+              },
+              {
+                "distance": 79.9,
+                "duration": 57.5,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  17,
+                  21
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  21,
+                  21
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          21
+        ],
+        "summary": {
+          "distance": 820.5,
+          "duration": 590.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.490746,
+            -34.031227
+          ],
+          [
+            18.490152,
+            -34.031358
+          ],
+          [
+            18.490057,
+            -34.031372
+          ],
+          [
+            18.488769,
+            -34.031737
+          ],
+          [
+            18.488635,
+            -34.031774
+          ],
+          [
+            18.488347,
+            -34.031865
+          ],
+          [
+            18.486807,
+            -34.032312
+          ],
+          [
+            18.487036,
+            -34.032853
+          ],
+          [
+            18.487081,
+            -34.032957
+          ],
+          [
+            18.487398,
+            -34.033709
+          ],
+          [
+            18.486627,
+            -34.033937
+          ],
+          [
+            18.486235,
+            -34.034055
+          ],
+          [
+            18.486208,
+            -34.034073
+          ],
+          [
+            18.486186,
+            -34.034128
+          ],
+          [
+            18.485992,
+            -34.03409
+          ],
+          [
+            18.485742,
+            -34.034041
+          ],
+          [
+            18.485654,
+            -34.034023
+          ],
+          [
+            18.485451,
+            -34.033982
+          ],
+          [
+            18.485458,
+            -34.033913
+          ],
+          [
+            18.485295,
+            -34.033514
+          ],
+          [
+            18.485315,
+            -34.033494
+          ],
+          [
+            18.485543,
+            -34.033423
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756804401720,
+    "query": {
+      "coordinates": [
+        [
+          18.4907461,
+          -34.0312266
+        ],
+        [
+          18.485543,
+          -34.0334229
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

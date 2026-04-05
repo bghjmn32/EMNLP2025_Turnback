@@ -1,0 +1,161 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.154694,
+    19.495167,
+    -99.152482,
+    19.50173
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.154694,
+        19.495167,
+        -99.152482,
+        19.50173
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 918.9,
+            "duration": 661.6,
+            "steps": [
+              {
+                "distance": 24.0,
+                "duration": 17.3,
+                "type": 11,
+                "instruction": "Head east on Avenida Poniente 140, EJE 5 NTE",
+                "name": "Avenida Poniente 140, EJE 5 NTE",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 639.7,
+                "duration": 460.6,
+                "type": 0,
+                "instruction": "Turn left onto Calle Norte 35",
+                "name": "Calle Norte 35",
+                "way_points": [
+                  2,
+                  10
+                ]
+              },
+              {
+                "distance": 255.3,
+                "duration": 183.8,
+                "type": 0,
+                "instruction": "Turn left onto Calle Poniente 152",
+                "name": "Calle Poniente 152",
+                "way_points": [
+                  10,
+                  11
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Poniente 152, straight ahead",
+                "name": "-",
+                "way_points": [
+                  11,
+                  11
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          11
+        ],
+        "summary": {
+          "distance": 918.9,
+          "duration": 661.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.154089,
+            19.495214
+          ],
+          [
+            -99.154019,
+            19.495199
+          ],
+          [
+            -99.153866,
+            19.495167
+          ],
+          [
+            -99.153604,
+            19.496189
+          ],
+          [
+            -99.153044,
+            19.498521
+          ],
+          [
+            -99.152872,
+            19.499169
+          ],
+          [
+            -99.15277,
+            19.49962
+          ],
+          [
+            -99.152711,
+            19.49986
+          ],
+          [
+            -99.152676,
+            19.500009
+          ],
+          [
+            -99.152564,
+            19.50041
+          ],
+          [
+            -99.152482,
+            19.500769
+          ],
+          [
+            -99.154694,
+            19.50173
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756307761222,
+    "query": {
+      "coordinates": [
+        [
+          -99.1541046,
+          19.4951485
+        ],
+        [
+          -99.1546943,
+          19.5017302
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

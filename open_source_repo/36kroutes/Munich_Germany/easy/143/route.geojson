@@ -1,0 +1,220 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    11.487411,
+    48.136512,
+    11.495538,
+    48.138429
+  ],
+  "features": [
+    {
+      "bbox": [
+        11.487411,
+        48.136512,
+        11.495538,
+        48.138429
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 767.8,
+            "duration": 552.8,
+            "steps": [
+              {
+                "distance": 145.9,
+                "duration": 105.0,
+                "type": 11,
+                "instruction": "Head north on Von-der-Pfordten-Straße",
+                "name": "Von-der-Pfordten-Straße",
+                "way_points": [
+                  0,
+                  9
+                ]
+              },
+              {
+                "distance": 500.4,
+                "duration": 360.3,
+                "type": 0,
+                "instruction": "Turn left onto Valpichlerstraße",
+                "name": "Valpichlerstraße",
+                "way_points": [
+                  9,
+                  18
+                ]
+              },
+              {
+                "distance": 13.0,
+                "duration": 9.4,
+                "type": 0,
+                "instruction": "Turn left onto Reutterstraße",
+                "name": "Reutterstraße",
+                "way_points": [
+                  18,
+                  19
+                ]
+              },
+              {
+                "distance": 108.5,
+                "duration": 78.1,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  19,
+                  23
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  23,
+                  23
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          23
+        ],
+        "summary": {
+          "distance": 767.8,
+          "duration": 552.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            11.49538,
+            48.136512
+          ],
+          [
+            11.495398,
+            48.136655
+          ],
+          [
+            11.495415,
+            48.136797
+          ],
+          [
+            11.495433,
+            48.136946
+          ],
+          [
+            11.495451,
+            48.137092
+          ],
+          [
+            11.495468,
+            48.13724
+          ],
+          [
+            11.495485,
+            48.137381
+          ],
+          [
+            11.495503,
+            48.137527
+          ],
+          [
+            11.495521,
+            48.137674
+          ],
+          [
+            11.495538,
+            48.13782
+          ],
+          [
+            11.495194,
+            48.137834
+          ],
+          [
+            11.494815,
+            48.137849
+          ],
+          [
+            11.494344,
+            48.137869
+          ],
+          [
+            11.493865,
+            48.137888
+          ],
+          [
+            11.493208,
+            48.137912
+          ],
+          [
+            11.491795,
+            48.137987
+          ],
+          [
+            11.490586,
+            48.138079
+          ],
+          [
+            11.489212,
+            48.138219
+          ],
+          [
+            11.488838,
+            48.138279
+          ],
+          [
+            11.48881,
+            48.138163
+          ],
+          [
+            11.488411,
+            48.13824
+          ],
+          [
+            11.488194,
+            48.138253
+          ],
+          [
+            11.487534,
+            48.138419
+          ],
+          [
+            11.487411,
+            48.138429
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756136850046,
+    "query": {
+      "coordinates": [
+        [
+          11.4953804,
+          48.1365119
+        ],
+        [
+          11.4874108,
+          48.1384285
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    174.725469,
+    -36.739528,
+    174.727085,
+    -36.735797
+  ],
+  "features": [
+    {
+      "bbox": [
+        174.725469,
+        -36.739528,
+        174.727085,
+        -36.735797
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 553.1,
+            "duration": 398.2,
+            "steps": [
+              {
+                "distance": 27.2,
+                "duration": 19.6,
+                "type": 11,
+                "instruction": "Head southwest",
+                "name": "-",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 320.7,
+                "duration": 230.9,
+                "type": 1,
+                "instruction": "Turn right onto Apollo Drive",
+                "name": "Apollo Drive",
+                "way_points": [
+                  2,
+                  12
+                ]
+              },
+              {
+                "distance": 87.1,
+                "duration": 62.7,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  12,
+                  14
+                ]
+              },
+              {
+                "distance": 85.9,
+                "duration": 61.9,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  14,
+                  15
+                ]
+              },
+              {
+                "distance": 32.2,
+                "duration": 23.2,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  15,
+                  17
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  17,
+                  17
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          17
+        ],
+        "summary": {
+          "distance": 553.1,
+          "duration": 398.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            174.727085,
+            -36.739452
+          ],
+          [
+            174.726964,
+            -36.739519
+          ],
+          [
+            174.726807,
+            -36.739528
+          ],
+          [
+            174.726794,
+            -36.739238
+          ],
+          [
+            174.726812,
+            -36.738903
+          ],
+          [
+            174.726815,
+            -36.738852
+          ],
+          [
+            174.726866,
+            -36.738418
+          ],
+          [
+            174.726922,
+            -36.737903
+          ],
+          [
+            174.726935,
+            -36.737797
+          ],
+          [
+            174.726994,
+            -36.737166
+          ],
+          [
+            174.72701,
+            -36.736995
+          ],
+          [
+            174.727023,
+            -36.736862
+          ],
+          [
+            174.727044,
+            -36.736652
+          ],
+          [
+            174.726273,
+            -36.736614
+          ],
+          [
+            174.726068,
+            -36.736603
+          ],
+          [
+            174.725469,
+            -36.735998
+          ],
+          [
+            174.725552,
+            -36.735894
+          ],
+          [
+            174.725712,
+            -36.735797
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756375827787,
+    "query": {
+      "coordinates": [
+        [
+          174.7270855,
+          -36.7394516
+        ],
+        [
+          174.7257122,
+          -36.7357975
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

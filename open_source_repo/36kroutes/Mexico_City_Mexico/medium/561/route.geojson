@@ -1,0 +1,256 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.150929,
+    19.384333,
+    -99.149835,
+    19.398185
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.150929,
+        19.384333,
+        -99.149835,
+        19.398185
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1692.7,
+            "duration": 1218.7,
+            "steps": [
+              {
+                "distance": 568.2,
+                "duration": 409.1,
+                "type": 11,
+                "instruction": "Head south on Calle Monte Albán",
+                "name": "Calle Monte Albán",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 15.4,
+                "duration": 11.1,
+                "type": 12,
+                "instruction": "Keep left onto Calle Monte Albán",
+                "name": "Calle Monte Albán",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 77.5,
+                "duration": 55.8,
+                "type": 1,
+                "instruction": "Turn right onto Avenida Universidad",
+                "name": "Avenida Universidad",
+                "way_points": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "distance": 158.8,
+                "duration": 114.4,
+                "type": 7,
+                "instruction": "Enter the roundabout and take the 2nd exit onto Calle Tepozteco",
+                "name": "Calle Tepozteco",
+                "exit_number": 2,
+                "way_points": [
+                  5,
+                  9
+                ]
+              },
+              {
+                "distance": 145.6,
+                "duration": 104.8,
+                "type": 1,
+                "instruction": "Turn right onto Calle Mitla",
+                "name": "Calle Mitla",
+                "way_points": [
+                  9,
+                  10
+                ]
+              },
+              {
+                "distance": 19.0,
+                "duration": 13.7,
+                "type": 6,
+                "instruction": "Continue straight onto Calle Mitla",
+                "name": "Calle Mitla",
+                "way_points": [
+                  10,
+                  11
+                ]
+              },
+              {
+                "distance": 543.1,
+                "duration": 391.0,
+                "type": 6,
+                "instruction": "Continue straight onto Calle Mitla",
+                "name": "Calle Mitla",
+                "way_points": [
+                  11,
+                  15
+                ]
+              },
+              {
+                "distance": 76.6,
+                "duration": 55.2,
+                "type": 0,
+                "instruction": "Turn left onto Callejón Xoco",
+                "name": "Callejón Xoco",
+                "way_points": [
+                  15,
+                  16
+                ]
+              },
+              {
+                "distance": 88.5,
+                "duration": 63.7,
+                "type": 1,
+                "instruction": "Turn right onto Calle La Quemada",
+                "name": "Calle La Quemada",
+                "way_points": [
+                  16,
+                  18
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle La Quemada, straight ahead",
+                "name": "-",
+                "way_points": [
+                  18,
+                  18
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          18
+        ],
+        "summary": {
+          "distance": 1692.7,
+          "duration": 1218.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.150091,
+            19.398185
+          ],
+          [
+            -99.150295,
+            19.395553
+          ],
+          [
+            -99.150306,
+            19.395423
+          ],
+          [
+            -99.150478,
+            19.393088
+          ],
+          [
+            -99.150455,
+            19.392951
+          ],
+          [
+            -99.150929,
+            19.392416
+          ],
+          [
+            -99.15088,
+            19.392343
+          ],
+          [
+            -99.150847,
+            19.392198
+          ],
+          [
+            -99.150859,
+            19.391887
+          ],
+          [
+            -99.149924,
+            19.391843
+          ],
+          [
+            -99.150022,
+            19.390537
+          ],
+          [
+            -99.150033,
+            19.390367
+          ],
+          [
+            -99.150085,
+            19.389866
+          ],
+          [
+            -99.150192,
+            19.388379
+          ],
+          [
+            -99.150362,
+            19.386235
+          ],
+          [
+            -99.150448,
+            19.385499
+          ],
+          [
+            -99.149835,
+            19.385124
+          ],
+          [
+            -99.149899,
+            19.384558
+          ],
+          [
+            -99.149925,
+            19.384333
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756311179055,
+    "query": {
+      "coordinates": [
+        [
+          -99.1500912,
+          19.3981846
+        ],
+        [
+          -99.1499247,
+          19.3843329
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

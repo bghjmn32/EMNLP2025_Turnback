@@ -1,0 +1,274 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.140383,
+    19.455202,
+    -99.137785,
+    19.460418
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.140383,
+        19.455202,
+        -99.137785,
+        19.460418
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 947.1,
+            "duration": 681.9,
+            "steps": [
+              {
+                "distance": 53.6,
+                "duration": 38.6,
+                "type": 11,
+                "instruction": "Head southwest",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 9.8,
+                "duration": 7.0,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 101.8,
+                "duration": 73.3,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  2,
+                  5
+                ]
+              },
+              {
+                "distance": 249.7,
+                "duration": 179.8,
+                "type": 0,
+                "instruction": "Turn left onto Avenida Lázaro Cárdenas, EJE CENTRAL",
+                "name": "Avenida Lázaro Cárdenas, EJE CENTRAL",
+                "way_points": [
+                  5,
+                  10
+                ]
+              },
+              {
+                "distance": 124.6,
+                "duration": 89.7,
+                "type": 0,
+                "instruction": "Turn left onto Calle Gioacchino Rossini",
+                "name": "Calle Gioacchino Rossini",
+                "way_points": [
+                  10,
+                  11
+                ]
+              },
+              {
+                "distance": 203.9,
+                "duration": 146.8,
+                "type": 1,
+                "instruction": "Turn right onto Calle Ernesto Elorduy",
+                "name": "Calle Ernesto Elorduy",
+                "way_points": [
+                  11,
+                  15
+                ]
+              },
+              {
+                "distance": 127.7,
+                "duration": 91.9,
+                "type": 0,
+                "instruction": "Turn left onto Calle Julian Carillo",
+                "name": "Calle Julian Carillo",
+                "way_points": [
+                  15,
+                  16
+                ]
+              },
+              {
+                "distance": 14.5,
+                "duration": 10.4,
+                "type": 1,
+                "instruction": "Turn right onto Calzada Vallejo",
+                "name": "Calzada Vallejo",
+                "way_points": [
+                  16,
+                  17
+                ]
+              },
+              {
+                "distance": 29.1,
+                "duration": 21.0,
+                "type": 13,
+                "instruction": "Keep right onto Calle Claude Debussy",
+                "name": "Calle Claude Debussy",
+                "way_points": [
+                  17,
+                  18
+                ]
+              },
+              {
+                "distance": 32.6,
+                "duration": 23.5,
+                "type": 0,
+                "instruction": "Turn left onto Calle Juventino Rosas",
+                "name": "Calle Juventino Rosas",
+                "way_points": [
+                  18,
+                  20
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Juventino Rosas, straight ahead",
+                "name": "-",
+                "way_points": [
+                  20,
+                  20
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          20
+        ],
+        "summary": {
+          "distance": 947.1,
+          "duration": 681.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.13866,
+            19.455598
+          ],
+          [
+            -99.139043,
+            19.455278
+          ],
+          [
+            -99.138996,
+            19.455202
+          ],
+          [
+            -99.138257,
+            19.455598
+          ],
+          [
+            -99.138189,
+            19.455613
+          ],
+          [
+            -99.138139,
+            19.455603
+          ],
+          [
+            -99.13795,
+            19.456263
+          ],
+          [
+            -99.137849,
+            19.456616
+          ],
+          [
+            -99.137819,
+            19.457109
+          ],
+          [
+            -99.137808,
+            19.457339
+          ],
+          [
+            -99.137785,
+            19.457811
+          ],
+          [
+            -99.138954,
+            19.45801
+          ],
+          [
+            -99.138907,
+            19.458464
+          ],
+          [
+            -99.138889,
+            19.458915
+          ],
+          [
+            -99.138859,
+            19.459377
+          ],
+          [
+            -99.138827,
+            19.459839
+          ],
+          [
+            -99.14003,
+            19.460019
+          ],
+          [
+            -99.140089,
+            19.460137
+          ],
+          [
+            -99.140072,
+            19.460398
+          ],
+          [
+            -99.140238,
+            19.460406
+          ],
+          [
+            -99.140383,
+            19.460418
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756307578620,
+    "query": {
+      "coordinates": [
+        [
+          -99.1386603,
+          19.4555975
+        ],
+        [
+          -99.1403826,
+          19.4604183
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    174.859545,
+    -37.05092,
+    174.861309,
+    -37.044535
+  ],
+  "features": [
+    {
+      "bbox": [
+        174.859545,
+        -37.05092,
+        174.861309,
+        -37.044535
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 849.5,
+            "duration": 611.7,
+            "steps": [
+              {
+                "distance": 7.2,
+                "duration": 5.2,
+                "type": 11,
+                "instruction": "Head east",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 5.2,
+                "duration": 3.8,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 21.5,
+                "duration": 15.5,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 6.7,
+                "duration": 4.8,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 39.2,
+                "duration": 28.2,
+                "type": 0,
+                "instruction": "Turn left onto Roys Road",
+                "name": "Roys Road",
+                "way_points": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "distance": 141.9,
+                "duration": 102.2,
+                "type": 1,
+                "instruction": "Turn right onto Ocean View Road",
+                "name": "Ocean View Road",
+                "way_points": [
+                  5,
+                  7
+                ]
+              },
+              {
+                "distance": 19.8,
+                "duration": 14.3,
+                "type": 1,
+                "instruction": "Turn right onto McInnes Road",
+                "name": "McInnes Road",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 342.7,
+                "duration": 246.7,
+                "type": 0,
+                "instruction": "Turn left onto Lane Road",
+                "name": "Lane Road",
+                "way_points": [
+                  8,
+                  10
+                ]
+              },
+              {
+                "distance": 40.3,
+                "duration": 29.0,
+                "type": 1,
+                "instruction": "Turn right onto Waimai Avenue",
+                "name": "Waimai Avenue",
+                "way_points": [
+                  10,
+                  11
+                ]
+              },
+              {
+                "distance": 224.9,
+                "duration": 161.9,
+                "type": 0,
+                "instruction": "Turn left onto Huber Street",
+                "name": "Huber Street",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Huber Street, straight ahead",
+                "name": "-",
+                "way_points": [
+                  12,
+                  12
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          12
+        ],
+        "summary": {
+          "distance": 849.5,
+          "duration": 611.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            174.859648,
+            -37.05091
+          ],
+          [
+            174.859729,
+            -37.05092
+          ],
+          [
+            174.859735,
+            -37.050873
+          ],
+          [
+            174.859975,
+            -37.050898
+          ],
+          [
+            174.859982,
+            -37.050838
+          ],
+          [
+            174.859545,
+            -37.05079
+          ],
+          [
+            174.85956,
+            -37.050707
+          ],
+          [
+            174.859763,
+            -37.049525
+          ],
+          [
+            174.859985,
+            -37.049544
+          ],
+          [
+            174.860179,
+            -37.048457
+          ],
+          [
+            174.860516,
+            -37.046492
+          ],
+          [
+            174.860966,
+            -37.046539
+          ],
+          [
+            174.861309,
+            -37.044535
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756373700797,
+    "query": {
+      "coordinates": [
+        [
+          174.8596483,
+          -37.0509103
+        ],
+        [
+          174.8613092,
+          -37.0445346
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

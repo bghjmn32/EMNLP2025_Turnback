@@ -1,0 +1,201 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.544661,
+    -33.882028,
+    18.550054,
+    -33.878881
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.544661,
+        -33.882028,
+        18.550054,
+        -33.878881
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 772.0,
+            "duration": 555.8,
+            "steps": [
+              {
+                "distance": 415.1,
+                "duration": 298.8,
+                "type": 11,
+                "instruction": "Head southwest on Montague Road",
+                "name": "Montague Road",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 194.4,
+                "duration": 140.0,
+                "type": 3,
+                "instruction": "Turn sharp right onto Edgemead Drive",
+                "name": "Edgemead Drive",
+                "way_points": [
+                  2,
+                  7
+                ]
+              },
+              {
+                "distance": 30.3,
+                "duration": 21.8,
+                "type": 12,
+                "instruction": "Keep left onto Edgemead Drive",
+                "name": "Edgemead Drive",
+                "way_points": [
+                  7,
+                  9
+                ]
+              },
+              {
+                "distance": 132.2,
+                "duration": 95.2,
+                "type": 7,
+                "instruction": "Enter the roundabout and take the 3rd exit onto Edgemead Drive",
+                "name": "Edgemead Drive",
+                "exit_number": 3,
+                "way_points": [
+                  9,
+                  18
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Edgemead Drive, straight ahead",
+                "name": "-",
+                "way_points": [
+                  18,
+                  18
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          18
+        ],
+        "summary": {
+          "distance": 772.0,
+          "duration": 555.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.550054,
+            -33.878881
+          ],
+          [
+            18.548447,
+            -33.880953
+          ],
+          [
+            18.547636,
+            -33.882028
+          ],
+          [
+            18.547461,
+            -33.881764
+          ],
+          [
+            18.547277,
+            -33.88154
+          ],
+          [
+            18.54701,
+            -33.881276
+          ],
+          [
+            18.54658,
+            -33.880974
+          ],
+          [
+            18.546224,
+            -33.880762
+          ],
+          [
+            18.546065,
+            -33.880699
+          ],
+          [
+            18.54593,
+            -33.88064
+          ],
+          [
+            18.545874,
+            -33.880664
+          ],
+          [
+            18.545824,
+            -33.880663
+          ],
+          [
+            18.545754,
+            -33.880619
+          ],
+          [
+            18.545738,
+            -33.880576
+          ],
+          [
+            18.545703,
+            -33.880537
+          ],
+          [
+            18.545636,
+            -33.880503
+          ],
+          [
+            18.545136,
+            -33.880339
+          ],
+          [
+            18.545026,
+            -33.880286
+          ],
+          [
+            18.544661,
+            -33.880216
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756805284770,
+    "query": {
+      "coordinates": [
+        [
+          18.5500535,
+          -33.8788813
+        ],
+        [
+          18.5446614,
+          -33.8802157
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

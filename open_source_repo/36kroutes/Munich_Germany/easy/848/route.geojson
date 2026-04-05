@@ -1,0 +1,180 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    11.390734,
+    48.0671,
+    11.394418,
+    48.069474
+  ],
+  "features": [
+    {
+      "bbox": [
+        11.390734,
+        48.0671,
+        11.394418,
+        48.069474
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 555.4,
+            "duration": 399.9,
+            "steps": [
+              {
+                "distance": 54.8,
+                "duration": 39.5,
+                "type": 11,
+                "instruction": "Head southeast",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 258.6,
+                "duration": 186.2,
+                "type": 1,
+                "instruction": "Turn right onto Schrimpfstraße",
+                "name": "Schrimpfstraße",
+                "way_points": [
+                  1,
+                  11
+                ]
+              },
+              {
+                "distance": 171.7,
+                "duration": 123.6,
+                "type": 1,
+                "instruction": "Turn right onto Herbststraße",
+                "name": "Herbststraße",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 70.2,
+                "duration": 50.6,
+                "type": 0,
+                "instruction": "Turn left onto Frühlingstraße",
+                "name": "Frühlingstraße",
+                "way_points": [
+                  12,
+                  13
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Frühlingstraße, straight ahead",
+                "name": "-",
+                "way_points": [
+                  13,
+                  13
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          13
+        ],
+        "summary": {
+          "distance": 555.4,
+          "duration": 399.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            11.393759,
+            48.069474
+          ],
+          [
+            11.394418,
+            48.069252
+          ],
+          [
+            11.394371,
+            48.069173
+          ],
+          [
+            11.394264,
+            48.068994
+          ],
+          [
+            11.394013,
+            48.068571
+          ],
+          [
+            11.393871,
+            48.068343
+          ],
+          [
+            11.393802,
+            48.068232
+          ],
+          [
+            11.393648,
+            48.067985
+          ],
+          [
+            11.393486,
+            48.067725
+          ],
+          [
+            11.393387,
+            48.067565
+          ],
+          [
+            11.393365,
+            48.06753
+          ],
+          [
+            11.393098,
+            48.0671
+          ],
+          [
+            11.390977,
+            48.067715
+          ],
+          [
+            11.390734,
+            48.067104
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756139357188,
+    "query": {
+      "coordinates": [
+        [
+          11.3937592,
+          48.0694744
+        ],
+        [
+          11.390734,
+          48.0671043
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

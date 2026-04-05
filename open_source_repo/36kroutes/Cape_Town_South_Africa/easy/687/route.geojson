@@ -1,0 +1,218 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.55209,
+    -33.986314,
+    18.556029,
+    -33.985293
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.55209,
+        -33.986314,
+        18.556029,
+        -33.985293
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 580.1,
+            "duration": 417.7,
+            "steps": [
+              {
+                "distance": 31.3,
+                "duration": 22.6,
+                "type": 11,
+                "instruction": "Head north on Sonderend Road",
+                "name": "Sonderend Road",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 98.4,
+                "duration": 70.9,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  5
+                ]
+              },
+              {
+                "distance": 82.7,
+                "duration": 59.6,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  5,
+                  8
+                ]
+              },
+              {
+                "distance": 63.9,
+                "duration": 46.0,
+                "type": 0,
+                "instruction": "Turn left onto Sonderend Road",
+                "name": "Sonderend Road",
+                "way_points": [
+                  8,
+                  9
+                ]
+              },
+              {
+                "distance": 231.1,
+                "duration": 166.4,
+                "type": 1,
+                "instruction": "Turn right onto Thames Avenue",
+                "name": "Thames Avenue",
+                "way_points": [
+                  9,
+                  15
+                ]
+              },
+              {
+                "distance": 72.5,
+                "duration": 52.2,
+                "type": 0,
+                "instruction": "Turn left onto Audrey Road",
+                "name": "Audrey Road",
+                "way_points": [
+                  15,
+                  17
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Audrey Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  17,
+                  17
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          17
+        ],
+        "summary": {
+          "distance": 580.1,
+          "duration": 417.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.555888,
+            -33.986314
+          ],
+          [
+            18.555795,
+            -33.986043
+          ],
+          [
+            18.555906,
+            -33.986027
+          ],
+          [
+            18.556029,
+            -33.985656
+          ],
+          [
+            18.555841,
+            -33.985449
+          ],
+          [
+            18.555782,
+            -33.985309
+          ],
+          [
+            18.555399,
+            -33.98534
+          ],
+          [
+            18.555128,
+            -33.985293
+          ],
+          [
+            18.554892,
+            -33.985296
+          ],
+          [
+            18.554488,
+            -33.985763
+          ],
+          [
+            18.553975,
+            -33.985452
+          ],
+          [
+            18.553876,
+            -33.985434
+          ],
+          [
+            18.553632,
+            -33.985445
+          ],
+          [
+            18.552564,
+            -33.985486
+          ],
+          [
+            18.552166,
+            -33.985502
+          ],
+          [
+            18.552109,
+            -33.985505
+          ],
+          [
+            18.552123,
+            -33.985993
+          ],
+          [
+            18.55209,
+            -33.986154
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756805417334,
+    "query": {
+      "coordinates": [
+        [
+          18.5560449,
+          -33.9862767
+        ],
+        [
+          18.5520896,
+          -33.9861544
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

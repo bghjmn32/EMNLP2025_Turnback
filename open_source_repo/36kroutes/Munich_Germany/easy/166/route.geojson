@@ -1,0 +1,172 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    11.363059,
+    48.11967,
+    11.364582,
+    48.123952
+  ],
+  "features": [
+    {
+      "bbox": [
+        11.363059,
+        48.11967,
+        11.364582,
+        48.123952
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 605.0,
+            "duration": 435.6,
+            "steps": [
+              {
+                "distance": 291.4,
+                "duration": 209.8,
+                "type": 11,
+                "instruction": "Head north on Eichendorffplatz",
+                "name": "Eichendorffplatz",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 86.9,
+                "duration": 62.5,
+                "type": 1,
+                "instruction": "Turn right onto Friedenstraße",
+                "name": "Friedenstraße",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 103.0,
+                "duration": 74.2,
+                "type": 0,
+                "instruction": "Turn left onto Zweigstraße",
+                "name": "Zweigstraße",
+                "way_points": [
+                  3,
+                  6
+                ]
+              },
+              {
+                "distance": 123.7,
+                "duration": 89.0,
+                "type": 1,
+                "instruction": "Turn right onto Meisenweg",
+                "name": "Meisenweg",
+                "way_points": [
+                  6,
+                  11
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Meisenweg, straight ahead",
+                "name": "-",
+                "way_points": [
+                  11,
+                  11
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          11
+        ],
+        "summary": {
+          "distance": 605.0,
+          "duration": 435.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            11.364321,
+            48.11967
+          ],
+          [
+            11.364041,
+            48.120167
+          ],
+          [
+            11.363059,
+            48.122151
+          ],
+          [
+            11.364181,
+            48.122374
+          ],
+          [
+            11.363972,
+            48.122674
+          ],
+          [
+            11.363679,
+            48.122982
+          ],
+          [
+            11.363435,
+            48.123145
+          ],
+          [
+            11.363873,
+            48.123453
+          ],
+          [
+            11.364123,
+            48.123629
+          ],
+          [
+            11.364293,
+            48.123749
+          ],
+          [
+            11.364348,
+            48.123788
+          ],
+          [
+            11.364582,
+            48.123952
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756136940675,
+    "query": {
+      "coordinates": [
+        [
+          11.3643214,
+          48.11967
+        ],
+        [
+          11.3645815,
+          48.1239523
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

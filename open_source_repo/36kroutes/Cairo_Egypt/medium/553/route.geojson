@@ -1,0 +1,291 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    31.475038,
+    30.032528,
+    31.481357,
+    30.037957
+  ],
+  "features": [
+    {
+      "bbox": [
+        31.475038,
+        30.032528,
+        31.481357,
+        30.037957
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1364.0,
+            "duration": 982.0,
+            "steps": [
+              {
+                "distance": 13.5,
+                "duration": 9.7,
+                "type": 11,
+                "instruction": "Head east",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 466.0,
+                "duration": 335.5,
+                "type": 1,
+                "instruction": "Turn right onto محور محمد نجيب الجانبى",
+                "name": "محور محمد نجيب الجانبى",
+                "way_points": [
+                  1,
+                  7
+                ]
+              },
+              {
+                "distance": 19.5,
+                "duration": 14.0,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 194.2,
+                "duration": 139.8,
+                "type": 0,
+                "instruction": "Turn left onto شارع سلامه حجازى",
+                "name": "شارع سلامه حجازى",
+                "way_points": [
+                  8,
+                  9
+                ]
+              },
+              {
+                "distance": 430.4,
+                "duration": 309.9,
+                "type": 13,
+                "instruction": "Keep right onto شارع زكى طليمات",
+                "name": "شارع زكى طليمات",
+                "way_points": [
+                  9,
+                  19
+                ]
+              },
+              {
+                "distance": 25.3,
+                "duration": 18.2,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  19,
+                  21
+                ]
+              },
+              {
+                "distance": 131.8,
+                "duration": 94.9,
+                "type": 3,
+                "instruction": "Turn sharp right",
+                "name": "-",
+                "way_points": [
+                  21,
+                  25
+                ]
+              },
+              {
+                "distance": 43.6,
+                "duration": 31.4,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  25,
+                  26
+                ]
+              },
+              {
+                "distance": 39.6,
+                "duration": 28.5,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  26,
+                  27
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  27,
+                  27
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          27
+        ],
+        "summary": {
+          "distance": 1364.0,
+          "duration": 982.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            31.475038,
+            30.037957
+          ],
+          [
+            31.475178,
+            30.037955
+          ],
+          [
+            31.475228,
+            30.037041
+          ],
+          [
+            31.4753,
+            30.036908
+          ],
+          [
+            31.475478,
+            30.036755
+          ],
+          [
+            31.475733,
+            30.036632
+          ],
+          [
+            31.476003,
+            30.036581
+          ],
+          [
+            31.478798,
+            30.036562
+          ],
+          [
+            31.478797,
+            30.036387
+          ],
+          [
+            31.480813,
+            30.036367
+          ],
+          [
+            31.480903,
+            30.036309
+          ],
+          [
+            31.48097,
+            30.036231
+          ],
+          [
+            31.481008,
+            30.03614
+          ],
+          [
+            31.481017,
+            30.035946
+          ],
+          [
+            31.481014,
+            30.034928
+          ],
+          [
+            31.481014,
+            30.034528
+          ],
+          [
+            31.481015,
+            30.033365
+          ],
+          [
+            31.481066,
+            30.033126
+          ],
+          [
+            31.481138,
+            30.032965
+          ],
+          [
+            31.481357,
+            30.032625
+          ],
+          [
+            31.481177,
+            30.032552
+          ],
+          [
+            31.481119,
+            30.032528
+          ],
+          [
+            31.481075,
+            30.032808
+          ],
+          [
+            31.480974,
+            30.033064
+          ],
+          [
+            31.480913,
+            30.033322
+          ],
+          [
+            31.480912,
+            30.033691
+          ],
+          [
+            31.480459,
+            30.033691
+          ],
+          [
+            31.480449,
+            30.034046
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756733530652,
+    "query": {
+      "coordinates": [
+        [
+          31.4750382,
+          30.0379566
+        ],
+        [
+          31.4804488,
+          30.0340462
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

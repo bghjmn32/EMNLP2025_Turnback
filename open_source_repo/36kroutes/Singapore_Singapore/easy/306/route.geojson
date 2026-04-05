@@ -1,0 +1,300 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    103.9534,
+    1.343581,
+    103.956927,
+    1.346497
+  ],
+  "features": [
+    {
+      "bbox": [
+        103.9534,
+        1.343581,
+        103.956927,
+        1.346497
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 728.0,
+            "duration": 524.2,
+            "steps": [
+              {
+                "distance": 6.6,
+                "duration": 4.8,
+                "type": 11,
+                "instruction": "Head west",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 10.6,
+                "duration": 7.6,
+                "type": 0,
+                "instruction": "Turn left onto Simei Street 1",
+                "name": "Simei Street 1",
+                "way_points": [
+                  1,
+                  3
+                ]
+              },
+              {
+                "distance": 127.0,
+                "duration": 91.5,
+                "type": 1,
+                "instruction": "Turn right onto Simei Street 1",
+                "name": "Simei Street 1",
+                "way_points": [
+                  3,
+                  8
+                ]
+              },
+              {
+                "distance": 2.9,
+                "duration": 2.1,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  8,
+                  9
+                ]
+              },
+              {
+                "distance": 323.7,
+                "duration": 233.1,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  9,
+                  22
+                ]
+              },
+              {
+                "distance": 118.7,
+                "duration": 85.5,
+                "type": 0,
+                "instruction": "Turn left onto Simei Street 5",
+                "name": "Simei Street 5",
+                "way_points": [
+                  22,
+                  25
+                ]
+              },
+              {
+                "distance": 45.7,
+                "duration": 32.9,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  25,
+                  27
+                ]
+              },
+              {
+                "distance": 92.7,
+                "duration": 66.8,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  27,
+                  32
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  32,
+                  32
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          32
+        ],
+        "summary": {
+          "distance": 728.0,
+          "duration": 524.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            103.956927,
+            1.346492
+          ],
+          [
+            103.956867,
+            1.346491
+          ],
+          [
+            103.956861,
+            1.346446
+          ],
+          [
+            103.956856,
+            1.346396
+          ],
+          [
+            103.956622,
+            1.346419
+          ],
+          [
+            103.956504,
+            1.346433
+          ],
+          [
+            103.956292,
+            1.34646
+          ],
+          [
+            103.956241,
+            1.346466
+          ],
+          [
+            103.955718,
+            1.346497
+          ],
+          [
+            103.955717,
+            1.346471
+          ],
+          [
+            103.95563,
+            1.346474
+          ],
+          [
+            103.955501,
+            1.346401
+          ],
+          [
+            103.955295,
+            1.3462
+          ],
+          [
+            103.95492,
+            1.345905
+          ],
+          [
+            103.954605,
+            1.345626
+          ],
+          [
+            103.954509,
+            1.345546
+          ],
+          [
+            103.954496,
+            1.34551
+          ],
+          [
+            103.954428,
+            1.345458
+          ],
+          [
+            103.954376,
+            1.345424
+          ],
+          [
+            103.954112,
+            1.345198
+          ],
+          [
+            103.95393,
+            1.345043
+          ],
+          [
+            103.953763,
+            1.344905
+          ],
+          [
+            103.953475,
+            1.344662
+          ],
+          [
+            103.953631,
+            1.34448
+          ],
+          [
+            103.953999,
+            1.344032
+          ],
+          [
+            103.954165,
+            1.343847
+          ],
+          [
+            103.954087,
+            1.343779
+          ],
+          [
+            103.953851,
+            1.343581
+          ],
+          [
+            103.953687,
+            1.343778
+          ],
+          [
+            103.953508,
+            1.343996
+          ],
+          [
+            103.953402,
+            1.34412
+          ],
+          [
+            103.9534,
+            1.34417
+          ],
+          [
+            103.95346,
+            1.344227
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756391794645,
+    "query": {
+      "coordinates": [
+        [
+          103.9569269,
+          1.3464922
+        ],
+        [
+          103.9534602,
+          1.3442266
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

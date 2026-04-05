@@ -1,0 +1,226 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    174.900158,
+    -36.984594,
+    174.903142,
+    -36.981382
+  ],
+  "features": [
+    {
+      "bbox": [
+        174.900158,
+        -36.984594,
+        174.903142,
+        -36.981382
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 613.2,
+            "duration": 441.5,
+            "steps": [
+              {
+                "distance": 23.6,
+                "duration": 17.0,
+                "type": 11,
+                "instruction": "Head north",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 56.3,
+                "duration": 40.6,
+                "type": 1,
+                "instruction": "Turn right onto Boundary Road",
+                "name": "Boundary Road",
+                "way_points": [
+                  1,
+                  4
+                ]
+              },
+              {
+                "distance": 13.1,
+                "duration": 9.5,
+                "type": 0,
+                "instruction": "Turn left onto Aspiring Avenue",
+                "name": "Aspiring Avenue",
+                "way_points": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "distance": 302.0,
+                "duration": 217.4,
+                "type": 4,
+                "instruction": "Turn slight left onto Matthews Road",
+                "name": "Matthews Road",
+                "way_points": [
+                  5,
+                  12
+                ]
+              },
+              {
+                "distance": 103.4,
+                "duration": 74.5,
+                "type": 3,
+                "instruction": "Turn sharp right",
+                "name": "-",
+                "way_points": [
+                  12,
+                  16
+                ]
+              },
+              {
+                "distance": 114.7,
+                "duration": 82.6,
+                "type": 0,
+                "instruction": "Turn left onto Glenlea Place",
+                "name": "Glenlea Place",
+                "way_points": [
+                  16,
+                  19
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Glenlea Place, straight ahead",
+                "name": "-",
+                "way_points": [
+                  19,
+                  19
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          19
+        ],
+        "summary": {
+          "distance": 613.2,
+          "duration": 441.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            174.900158,
+            -36.984594
+          ],
+          [
+            174.900253,
+            -36.984396
+          ],
+          [
+            174.900314,
+            -36.984414
+          ],
+          [
+            174.900364,
+            -36.984393
+          ],
+          [
+            174.900842,
+            -36.98454
+          ],
+          [
+            174.900973,
+            -36.984484
+          ],
+          [
+            174.901005,
+            -36.984438
+          ],
+          [
+            174.901082,
+            -36.984262
+          ],
+          [
+            174.901139,
+            -36.984191
+          ],
+          [
+            174.90134,
+            -36.983695
+          ],
+          [
+            174.901607,
+            -36.982772
+          ],
+          [
+            174.901778,
+            -36.982141
+          ],
+          [
+            174.901858,
+            -36.981871
+          ],
+          [
+            174.902065,
+            -36.982045
+          ],
+          [
+            174.902333,
+            -36.982216
+          ],
+          [
+            174.902526,
+            -36.98231
+          ],
+          [
+            174.90281,
+            -36.982371
+          ],
+          [
+            174.90283,
+            -36.982137
+          ],
+          [
+            174.902893,
+            -36.981892
+          ],
+          [
+            174.903142,
+            -36.981382
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756374386737,
+    "query": {
+      "coordinates": [
+        [
+          174.9001575,
+          -36.9845945
+        ],
+        [
+          174.9031422,
+          -36.9813825
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

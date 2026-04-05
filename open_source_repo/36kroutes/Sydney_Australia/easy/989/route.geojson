@@ -1,0 +1,235 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    150.915358,
+    -33.682979,
+    150.916488,
+    -33.678577
+  ],
+  "features": [
+    {
+      "bbox": [
+        150.915358,
+        -33.682979,
+        150.916488,
+        -33.678577
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 598.6,
+            "duration": 431.0,
+            "steps": [
+              {
+                "distance": 19.1,
+                "duration": 13.8,
+                "type": 11,
+                "instruction": "Head northeast",
+                "name": "-",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 150.3,
+                "duration": 108.2,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  2,
+                  10
+                ]
+              },
+              {
+                "distance": 58.5,
+                "duration": 42.1,
+                "type": 1,
+                "instruction": "Turn right onto Aberdour Avenue",
+                "name": "Aberdour Avenue",
+                "way_points": [
+                  10,
+                  11
+                ]
+              },
+              {
+                "distance": 363.2,
+                "duration": 261.5,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  11,
+                  23
+                ]
+              },
+              {
+                "distance": 7.5,
+                "duration": 5.4,
+                "type": 1,
+                "instruction": "Turn right onto Noble Way",
+                "name": "Noble Way",
+                "way_points": [
+                  23,
+                  24
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Noble Way, straight ahead",
+                "name": "-",
+                "way_points": [
+                  24,
+                  24
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          24
+        ],
+        "summary": {
+          "distance": 598.6,
+          "duration": 431.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            150.916077,
+            -33.682979
+          ],
+          [
+            150.916173,
+            -33.682934
+          ],
+          [
+            150.916258,
+            -33.682895
+          ],
+          [
+            150.916172,
+            -33.682722
+          ],
+          [
+            150.91609,
+            -33.682575
+          ],
+          [
+            150.915963,
+            -33.682369
+          ],
+          [
+            150.91575,
+            -33.682079
+          ],
+          [
+            150.915853,
+            -33.682032
+          ],
+          [
+            150.916035,
+            -33.681948
+          ],
+          [
+            150.915976,
+            -33.68185
+          ],
+          [
+            150.915949,
+            -33.681805
+          ],
+          [
+            150.916488,
+            -33.681531
+          ],
+          [
+            150.91645,
+            -33.68148
+          ],
+          [
+            150.916138,
+            -33.681034
+          ],
+          [
+            150.915961,
+            -33.680782
+          ],
+          [
+            150.915467,
+            -33.680054
+          ],
+          [
+            150.915407,
+            -33.67988
+          ],
+          [
+            150.915377,
+            -33.679679
+          ],
+          [
+            150.915376,
+            -33.679521
+          ],
+          [
+            150.915358,
+            -33.679388
+          ],
+          [
+            150.91543,
+            -33.679198
+          ],
+          [
+            150.915617,
+            -33.678806
+          ],
+          [
+            150.915686,
+            -33.678695
+          ],
+          [
+            150.915779,
+            -33.678577
+          ],
+          [
+            150.915855,
+            -33.6786
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756396399397,
+    "query": {
+      "coordinates": [
+        [
+          150.9160773,
+          -33.6829789
+        ],
+        [
+          150.9158545,
+          -33.6786
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

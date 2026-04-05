@@ -1,0 +1,260 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    151.26856,
+    -33.889268,
+    151.271183,
+    -33.885557
+  ],
+  "features": [
+    {
+      "bbox": [
+        151.26856,
+        -33.889268,
+        151.271183,
+        -33.885557
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 603.1,
+            "duration": 434.2,
+            "steps": [
+              {
+                "distance": 7.5,
+                "duration": 5.4,
+                "type": 11,
+                "instruction": "Head southwest",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 11.2,
+                "duration": 8.1,
+                "type": 0,
+                "instruction": "Turn left onto Curlewis Street",
+                "name": "Curlewis Street",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 106.5,
+                "duration": 76.7,
+                "type": 7,
+                "instruction": "Enter the roundabout and take the 1st exit onto Wellington Street",
+                "name": "Wellington Street",
+                "exit_number": 1,
+                "way_points": [
+                  2,
+                  5
+                ]
+              },
+              {
+                "distance": 303.1,
+                "duration": 218.2,
+                "type": 0,
+                "instruction": "Turn left onto Roscoe Street",
+                "name": "Roscoe Street",
+                "way_points": [
+                  5,
+                  7
+                ]
+              },
+              {
+                "distance": 11.7,
+                "duration": 8.4,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  7,
+                  10
+                ]
+              },
+              {
+                "distance": 16.4,
+                "duration": 11.8,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  10,
+                  12
+                ]
+              },
+              {
+                "distance": 91.0,
+                "duration": 65.5,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  12,
+                  14
+                ]
+              },
+              {
+                "distance": 45.9,
+                "duration": 33.1,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  14,
+                  18
+                ]
+              },
+              {
+                "distance": 9.7,
+                "duration": 7.0,
+                "type": 1,
+                "instruction": "Turn right onto O'Brien Street",
+                "name": "O'Brien Street",
+                "way_points": [
+                  18,
+                  19
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at O'Brien Street, straight ahead",
+                "name": "-",
+                "way_points": [
+                  19,
+                  19
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          19
+        ],
+        "summary": {
+          "distance": 603.1,
+          "duration": 434.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            151.269205,
+            -33.885557
+          ],
+          [
+            151.269155,
+            -33.88561
+          ],
+          [
+            151.269244,
+            -33.885678
+          ],
+          [
+            151.269252,
+            -33.885698
+          ],
+          [
+            151.269234,
+            -33.885731
+          ],
+          [
+            151.26856,
+            -33.886437
+          ],
+          [
+            151.271069,
+            -33.888104
+          ],
+          [
+            151.271124,
+            -33.88814
+          ],
+          [
+            151.271097,
+            -33.888169
+          ],
+          [
+            151.271084,
+            -33.888182
+          ],
+          [
+            151.271046,
+            -33.888223
+          ],
+          [
+            151.271113,
+            -33.888268
+          ],
+          [
+            151.271183,
+            -33.888315
+          ],
+          [
+            151.270901,
+            -33.888615
+          ],
+          [
+            151.270577,
+            -33.888961
+          ],
+          [
+            151.270606,
+            -33.888979
+          ],
+          [
+            151.270806,
+            -33.889106
+          ],
+          [
+            151.270892,
+            -33.889143
+          ],
+          [
+            151.270981,
+            -33.8892
+          ],
+          [
+            151.270915,
+            -33.889268
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756394475278,
+    "query": {
+      "coordinates": [
+        [
+          151.2692053,
+          -33.8855568
+        ],
+        [
+          151.2709153,
+          -33.8892679
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

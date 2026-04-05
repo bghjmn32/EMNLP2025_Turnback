@@ -1,0 +1,175 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -79.420416,
+    43.705007,
+    -79.416546,
+    43.707104
+  ],
+  "features": [
+    {
+      "bbox": [
+        -79.420416,
+        43.705007,
+        -79.416546,
+        43.707104
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 520.6,
+            "duration": 374.8,
+            "steps": [
+              {
+                "distance": 239.1,
+                "duration": 172.2,
+                "type": 11,
+                "instruction": "Head north",
+                "name": "-",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 262.2,
+                "duration": 188.8,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  3,
+                  6
+                ]
+              },
+              {
+                "distance": 5.5,
+                "duration": 4.0,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 7.7,
+                "duration": 5.5,
+                "type": 0,
+                "instruction": "Turn left onto Roselawn Avenue",
+                "name": "Roselawn Avenue",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 6.0,
+                "duration": 4.3,
+                "type": 1,
+                "instruction": "Turn right onto Caldow Road",
+                "name": "Caldow Road",
+                "way_points": [
+                  8,
+                  9
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Caldow Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  9,
+                  9
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          9
+        ],
+        "summary": {
+          "distance": 520.6,
+          "duration": 374.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -79.416546,
+            43.705007
+          ],
+          [
+            -79.416967,
+            43.70671
+          ],
+          [
+            -79.417111,
+            43.707071
+          ],
+          [
+            -79.417153,
+            43.707104
+          ],
+          [
+            -79.417222,
+            43.707101
+          ],
+          [
+            -79.41996,
+            43.706517
+          ],
+          [
+            -79.420285,
+            43.706448
+          ],
+          [
+            -79.420303,
+            43.706496
+          ],
+          [
+            -79.420395,
+            43.706477
+          ],
+          [
+            -79.420416,
+            43.706529
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756126713644,
+    "query": {
+      "coordinates": [
+        [
+          -79.4165461,
+          43.7050068
+        ],
+        [
+          -79.4204159,
+          43.7065294
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

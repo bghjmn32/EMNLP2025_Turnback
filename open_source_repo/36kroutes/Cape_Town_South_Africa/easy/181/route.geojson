@@ -1,0 +1,232 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.389106,
+    -33.9165,
+    18.393099,
+    -33.911358
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.389106,
+        -33.9165,
+        18.393099,
+        -33.911358
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 754.9,
+            "duration": 543.5,
+            "steps": [
+              {
+                "distance": 24.8,
+                "duration": 17.8,
+                "type": 11,
+                "instruction": "Head northeast on Main Road, M61",
+                "name": "Main Road, M61",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 69.0,
+                "duration": 49.7,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  8
+                ]
+              },
+              {
+                "distance": 572.9,
+                "duration": 412.5,
+                "type": 0,
+                "instruction": "Turn left onto Main Road, M61",
+                "name": "Main Road, M61",
+                "way_points": [
+                  8,
+                  25
+                ]
+              },
+              {
+                "distance": 88.2,
+                "duration": 63.5,
+                "type": 0,
+                "instruction": "Turn left onto Wisbeach Road",
+                "name": "Wisbeach Road",
+                "way_points": [
+                  25,
+                  26
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Wisbeach Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  26,
+                  26
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          26
+        ],
+        "summary": {
+          "distance": 754.9,
+          "duration": 543.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.389106,
+            -33.9165
+          ],
+          [
+            18.389255,
+            -33.916315
+          ],
+          [
+            18.389127,
+            -33.916234
+          ],
+          [
+            18.389124,
+            -33.916207
+          ],
+          [
+            18.389144,
+            -33.916186
+          ],
+          [
+            18.389286,
+            -33.916018
+          ],
+          [
+            18.389329,
+            -33.915967
+          ],
+          [
+            18.38937,
+            -33.915949
+          ],
+          [
+            18.389499,
+            -33.916018
+          ],
+          [
+            18.38971,
+            -33.915773
+          ],
+          [
+            18.389795,
+            -33.915668
+          ],
+          [
+            18.390121,
+            -33.915266
+          ],
+          [
+            18.390496,
+            -33.91483
+          ],
+          [
+            18.390594,
+            -33.914717
+          ],
+          [
+            18.390805,
+            -33.914472
+          ],
+          [
+            18.390903,
+            -33.914361
+          ],
+          [
+            18.390987,
+            -33.914263
+          ],
+          [
+            18.391217,
+            -33.914012
+          ],
+          [
+            18.391326,
+            -33.91389
+          ],
+          [
+            18.391445,
+            -33.91375
+          ],
+          [
+            18.391618,
+            -33.913544
+          ],
+          [
+            18.391757,
+            -33.913381
+          ],
+          [
+            18.391944,
+            -33.913165
+          ],
+          [
+            18.392464,
+            -33.912569
+          ],
+          [
+            18.392638,
+            -33.912369
+          ],
+          [
+            18.393099,
+            -33.911821
+          ],
+          [
+            18.392323,
+            -33.911358
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756804217491,
+    "query": {
+      "coordinates": [
+        [
+          18.3891056,
+          -33.9165002
+        ],
+        [
+          18.3923226,
+          -33.9113583
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    11.471618,
+    48.144931,
+    11.482682,
+    48.145296
+  ],
+  "features": [
+    {
+      "bbox": [
+        11.471618,
+        48.144931,
+        11.482682,
+        48.145296
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 865.6,
+            "duration": 623.2,
+            "steps": [
+              {
+                "distance": 10.9,
+                "duration": 7.9,
+                "type": 11,
+                "instruction": "Head west on Landsberger Straße, B 2",
+                "name": "Landsberger Straße, B 2",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 10.9,
+                "duration": 7.9,
+                "type": 0,
+                "instruction": "Turn left onto Lohensteinstraße",
+                "name": "Lohensteinstraße",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 791.7,
+                "duration": 570.0,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  3,
+                  14
+                ]
+              },
+              {
+                "distance": 37.2,
+                "duration": 26.8,
+                "type": 0,
+                "instruction": "Turn left onto Am Knie",
+                "name": "Am Knie",
+                "way_points": [
+                  14,
+                  16
+                ]
+              },
+              {
+                "distance": 14.9,
+                "duration": 10.7,
+                "type": 1,
+                "instruction": "Turn right onto Am Knie",
+                "name": "Am Knie",
+                "way_points": [
+                  16,
+                  17
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Am Knie, straight ahead",
+                "name": "-",
+                "way_points": [
+                  17,
+                  17
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          17
+        ],
+        "summary": {
+          "distance": 865.6,
+          "duration": 623.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            11.482682,
+            48.145062
+          ],
+          [
+            11.4826,
+            48.145067
+          ],
+          [
+            11.482536,
+            48.145072
+          ],
+          [
+            11.482519,
+            48.144974
+          ],
+          [
+            11.482343,
+            48.144985
+          ],
+          [
+            11.479173,
+            48.145087
+          ],
+          [
+            11.479015,
+            48.145094
+          ],
+          [
+            11.478912,
+            48.145097
+          ],
+          [
+            11.4785,
+            48.145109
+          ],
+          [
+            11.477635,
+            48.145137
+          ],
+          [
+            11.476557,
+            48.145172
+          ],
+          [
+            11.472741,
+            48.145293
+          ],
+          [
+            11.47206,
+            48.145287
+          ],
+          [
+            11.471981,
+            48.145287
+          ],
+          [
+            11.47186,
+            48.145296
+          ],
+          [
+            11.471805,
+            48.145133
+          ],
+          [
+            11.471811,
+            48.144966
+          ],
+          [
+            11.471618,
+            48.144931
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756137956398,
+    "query": {
+      "coordinates": [
+        [
+          11.4826819,
+          48.1450618
+        ],
+        [
+          11.4716178,
+          48.1449306
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,286 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.446239,
+    -34.033819,
+    18.452609,
+    -34.031876
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.446239,
+        -34.033819,
+        18.452609,
+        -34.031876
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 763.2,
+            "duration": 549.5,
+            "steps": [
+              {
+                "distance": 32.5,
+                "duration": 23.4,
+                "type": 11,
+                "instruction": "Head east",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 9.2,
+                "duration": 6.6,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 46.3,
+                "duration": 33.4,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  2,
+                  7
+                ]
+              },
+              {
+                "distance": 10.9,
+                "duration": 7.9,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 11.1,
+                "duration": 8.0,
+                "type": 5,
+                "instruction": "Turn slight right",
+                "name": "-",
+                "way_points": [
+                  8,
+                  9
+                ]
+              },
+              {
+                "distance": 196.0,
+                "duration": 141.1,
+                "type": 0,
+                "instruction": "Turn left onto Huxley Drive",
+                "name": "Huxley Drive",
+                "way_points": [
+                  9,
+                  13
+                ]
+              },
+              {
+                "distance": 62.8,
+                "duration": 45.2,
+                "type": 0,
+                "instruction": "Turn left onto Edison Drive",
+                "name": "Edison Drive",
+                "way_points": [
+                  13,
+                  14
+                ]
+              },
+              {
+                "distance": 239.8,
+                "duration": 172.7,
+                "type": 1,
+                "instruction": "Turn right onto Molinera Way",
+                "name": "Molinera Way",
+                "way_points": [
+                  14,
+                  21
+                ]
+              },
+              {
+                "distance": 71.9,
+                "duration": 51.8,
+                "type": 1,
+                "instruction": "Turn right onto Newton Drive",
+                "name": "Newton Drive",
+                "way_points": [
+                  21,
+                  22
+                ]
+              },
+              {
+                "distance": 82.5,
+                "duration": 59.4,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  22,
+                  23
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  23,
+                  23
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          23
+        ],
+        "summary": {
+          "distance": 763.2,
+          "duration": 549.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.446239,
+            -34.03352
+          ],
+          [
+            18.446588,
+            -34.033562
+          ],
+          [
+            18.446634,
+            -34.033489
+          ],
+          [
+            18.446821,
+            -34.033564
+          ],
+          [
+            18.446921,
+            -34.033604
+          ],
+          [
+            18.447034,
+            -34.033645
+          ],
+          [
+            18.447049,
+            -34.033661
+          ],
+          [
+            18.447038,
+            -34.033689
+          ],
+          [
+            18.447146,
+            -34.033731
+          ],
+          [
+            18.447205,
+            -34.033819
+          ],
+          [
+            18.447256,
+            -34.0338
+          ],
+          [
+            18.447739,
+            -34.033611
+          ],
+          [
+            18.448478,
+            -34.033337
+          ],
+          [
+            18.449201,
+            -34.033275
+          ],
+          [
+            18.44914,
+            -34.032712
+          ],
+          [
+            18.449231,
+            -34.032705
+          ],
+          [
+            18.450019,
+            -34.032649
+          ],
+          [
+            18.450922,
+            -34.032567
+          ],
+          [
+            18.45101,
+            -34.032541
+          ],
+          [
+            18.45107,
+            -34.032501
+          ],
+          [
+            18.451387,
+            -34.032129
+          ],
+          [
+            18.451444,
+            -34.032069
+          ],
+          [
+            18.452062,
+            -34.032463
+          ],
+          [
+            18.452609,
+            -34.031876
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756805366620,
+    "query": {
+      "coordinates": [
+        [
+          18.446239,
+          -34.03352
+        ],
+        [
+          18.4526092,
+          -34.0318756
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

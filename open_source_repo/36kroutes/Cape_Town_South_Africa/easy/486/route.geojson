@@ -1,0 +1,131 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.515201,
+    -33.957737,
+    18.522455,
+    -33.956551
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.515201,
+        -33.957737,
+        18.522455,
+        -33.956551
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 727.5,
+            "duration": 523.8,
+            "steps": [
+              {
+                "distance": 727.5,
+                "duration": 523.8,
+                "type": 11,
+                "instruction": "Head north on Lilac Street",
+                "name": "Lilac Street",
+                "way_points": [
+                  0,
+                  9
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Lilac Street, straight ahead",
+                "name": "-",
+                "way_points": [
+                  9,
+                  9
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          9
+        ],
+        "summary": {
+          "distance": 727.5,
+          "duration": 523.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.522455,
+            -33.957063
+          ],
+          [
+            18.522331,
+            -33.956567
+          ],
+          [
+            18.522274,
+            -33.956551
+          ],
+          [
+            18.520471,
+            -33.956855
+          ],
+          [
+            18.519267,
+            -33.957056
+          ],
+          [
+            18.518589,
+            -33.957166
+          ],
+          [
+            18.517523,
+            -33.957345
+          ],
+          [
+            18.516374,
+            -33.957539
+          ],
+          [
+            18.515358,
+            -33.95771
+          ],
+          [
+            18.515201,
+            -33.957737
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756804926336,
+    "query": {
+      "coordinates": [
+        [
+          18.522455,
+          -33.9570634
+        ],
+        [
+          18.5152009,
+          -33.9577366
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    11.555454,
+    48.204248,
+    11.5562,
+    48.211608
+  ],
+  "features": [
+    {
+      "bbox": [
+        11.555454,
+        48.204248,
+        11.5562,
+        48.211608
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 869.1,
+            "duration": 625.7,
+            "steps": [
+              {
+                "distance": 3.3,
+                "duration": 2.4,
+                "type": 11,
+                "instruction": "Head north",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 55.6,
+                "duration": 40.0,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 810.2,
+                "duration": 583.4,
+                "type": 0,
+                "instruction": "Turn left onto Heimperthstraße",
+                "name": "Heimperthstraße",
+                "way_points": [
+                  2,
+                  24
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Heimperthstraße, straight ahead",
+                "name": "-",
+                "way_points": [
+                  24,
+                  24
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          24
+        ],
+        "summary": {
+          "distance": 869.1,
+          "duration": 625.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            11.555459,
+            48.204248
+          ],
+          [
+            11.555454,
+            48.204278
+          ],
+          [
+            11.556197,
+            48.204346
+          ],
+          [
+            11.556198,
+            48.204603
+          ],
+          [
+            11.5562,
+            48.204977
+          ],
+          [
+            11.556187,
+            48.205189
+          ],
+          [
+            11.556179,
+            48.205325
+          ],
+          [
+            11.556151,
+            48.205584
+          ],
+          [
+            11.556084,
+            48.206202
+          ],
+          [
+            11.556067,
+            48.206511
+          ],
+          [
+            11.556045,
+            48.206904
+          ],
+          [
+            11.556105,
+            48.206966
+          ],
+          [
+            11.556122,
+            48.207216
+          ],
+          [
+            11.556136,
+            48.20778
+          ],
+          [
+            11.556144,
+            48.207973
+          ],
+          [
+            11.556096,
+            48.208348
+          ],
+          [
+            11.556097,
+            48.20855
+          ],
+          [
+            11.555997,
+            48.209318
+          ],
+          [
+            11.555989,
+            48.209867
+          ],
+          [
+            11.555989,
+            48.209894
+          ],
+          [
+            11.556019,
+            48.210179
+          ],
+          [
+            11.556119,
+            48.210798
+          ],
+          [
+            11.556137,
+            48.210947
+          ],
+          [
+            11.556144,
+            48.211011
+          ],
+          [
+            11.556162,
+            48.211608
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756137229777,
+    "query": {
+      "coordinates": [
+        [
+          11.5554593,
+          48.204248
+        ],
+        [
+          11.5561616,
+          48.2116081
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

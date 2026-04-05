@@ -1,0 +1,180 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -105.101698,
+    39.792929,
+    -105.097429,
+    39.794782
+  ],
+  "features": [
+    {
+      "bbox": [
+        -105.101698,
+        39.792929,
+        -105.097429,
+        39.794782
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 698.3,
+            "duration": 502.8,
+            "steps": [
+              {
+                "distance": 157.8,
+                "duration": 113.6,
+                "type": 11,
+                "instruction": "Head west",
+                "name": "-",
+                "way_points": [
+                  0,
+                  4
+                ]
+              },
+              {
+                "distance": 205.2,
+                "duration": 147.7,
+                "type": 1,
+                "instruction": "Turn right onto West 53rd Avenue",
+                "name": "West 53rd Avenue",
+                "way_points": [
+                  4,
+                  7
+                ]
+              },
+              {
+                "distance": 206.0,
+                "duration": 148.3,
+                "type": 1,
+                "instruction": "Turn right onto Garrison Street",
+                "name": "Garrison Street",
+                "way_points": [
+                  7,
+                  10
+                ]
+              },
+              {
+                "distance": 129.3,
+                "duration": 93.1,
+                "type": 0,
+                "instruction": "Turn left onto Ridge Road",
+                "name": "Ridge Road",
+                "way_points": [
+                  10,
+                  13
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Ridge Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  13,
+                  13
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          13
+        ],
+        "summary": {
+          "distance": 698.3,
+          "duration": 502.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -105.097429,
+            39.794114
+          ],
+          [
+            -105.097678,
+            39.794117
+          ],
+          [
+            -105.097756,
+            39.794104
+          ],
+          [
+            -105.097782,
+            39.794081
+          ],
+          [
+            -105.097769,
+            39.792945
+          ],
+          [
+            -105.098317,
+            39.792939
+          ],
+          [
+            -105.099199,
+            39.792935
+          ],
+          [
+            -105.100171,
+            39.792929
+          ],
+          [
+            -105.100171,
+            39.793318
+          ],
+          [
+            -105.100174,
+            39.79428
+          ],
+          [
+            -105.100185,
+            39.794782
+          ],
+          [
+            -105.100741,
+            39.794779
+          ],
+          [
+            -105.100828,
+            39.794778
+          ],
+          [
+            -105.101698,
+            39.794769
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756305612303,
+    "query": {
+      "coordinates": [
+        [
+          -105.0974289,
+          39.7941135
+        ],
+        [
+          -105.1016978,
+          39.794769
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    174.859154,
+    -36.869546,
+    174.863573,
+    -36.86785
+  ],
+  "features": [
+    {
+      "bbox": [
+        174.859154,
+        -36.869546,
+        174.863573,
+        -36.86785
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 537.5,
+            "duration": 387.0,
+            "steps": [
+              {
+                "distance": 38.5,
+                "duration": 27.7,
+                "type": 11,
+                "instruction": "Head east on West Tāmaki Road",
+                "name": "West Tāmaki Road",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 117.6,
+                "duration": 84.7,
+                "type": 0,
+                "instruction": "Turn left onto Ashby Avenue",
+                "name": "Ashby Avenue",
+                "way_points": [
+                  2,
+                  5
+                ]
+              },
+              {
+                "distance": 229.1,
+                "duration": 164.9,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  5,
+                  8
+                ]
+              },
+              {
+                "distance": 60.1,
+                "duration": 43.2,
+                "type": 0,
+                "instruction": "Turn left onto Navarre Road",
+                "name": "Navarre Road",
+                "way_points": [
+                  8,
+                  10
+                ]
+              },
+              {
+                "distance": 92.2,
+                "duration": 66.4,
+                "type": 1,
+                "instruction": "Turn right onto Jefferson Street",
+                "name": "Jefferson Street",
+                "way_points": [
+                  10,
+                  12
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Jefferson Street, straight ahead",
+                "name": "-",
+                "way_points": [
+                  12,
+                  12
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          12
+        ],
+        "summary": {
+          "distance": 537.5,
+          "duration": 387.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            174.859154,
+            -36.86948
+          ],
+          [
+            174.859291,
+            -36.869486
+          ],
+          [
+            174.859577,
+            -36.869546
+          ],
+          [
+            174.859631,
+            -36.869434
+          ],
+          [
+            174.85973,
+            -36.869306
+          ],
+          [
+            174.860038,
+            -36.868558
+          ],
+          [
+            174.861143,
+            -36.868941
+          ],
+          [
+            174.862198,
+            -36.868376
+          ],
+          [
+            174.862294,
+            -36.868347
+          ],
+          [
+            174.862341,
+            -36.868179
+          ],
+          [
+            174.862548,
+            -36.86785
+          ],
+          [
+            174.862888,
+            -36.867922
+          ],
+          [
+            174.863573,
+            -36.867927
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756375213554,
+    "query": {
+      "coordinates": [
+        [
+          174.859154,
+          -36.8694799
+        ],
+        [
+          174.8635725,
+          -36.8679274
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

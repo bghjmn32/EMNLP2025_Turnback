@@ -1,0 +1,180 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    151.188406,
+    -33.672437,
+    151.19127,
+    -33.66812
+  ],
+  "features": [
+    {
+      "bbox": [
+        151.188406,
+        -33.672437,
+        151.19127,
+        -33.66812
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 674.5,
+            "duration": 485.7,
+            "steps": [
+              {
+                "distance": 32.8,
+                "duration": 23.6,
+                "type": 11,
+                "instruction": "Head southwest",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 437.9,
+                "duration": 315.3,
+                "type": 0,
+                "instruction": "Turn left onto Eurabba Road",
+                "name": "Eurabba Road",
+                "way_points": [
+                  1,
+                  9
+                ]
+              },
+              {
+                "distance": 193.6,
+                "duration": 139.4,
+                "type": 1,
+                "instruction": "Turn right onto Booralie Road",
+                "name": "Booralie Road",
+                "way_points": [
+                  9,
+                  12
+                ]
+              },
+              {
+                "distance": 10.2,
+                "duration": 7.4,
+                "type": 0,
+                "instruction": "Turn left onto Sandy Trail",
+                "name": "Sandy Trail",
+                "way_points": [
+                  12,
+                  13
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Sandy Trail, straight ahead",
+                "name": "-",
+                "way_points": [
+                  13,
+                  13
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          13
+        ],
+        "summary": {
+          "distance": 674.5,
+          "duration": 485.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            151.188595,
+            -33.66812
+          ],
+          [
+            151.188406,
+            -33.66837
+          ],
+          [
+            151.1889,
+            -33.668547
+          ],
+          [
+            151.18902,
+            -33.668721
+          ],
+          [
+            151.190003,
+            -33.670367
+          ],
+          [
+            151.190034,
+            -33.670448
+          ],
+          [
+            151.190243,
+            -33.670559
+          ],
+          [
+            151.190915,
+            -33.671015
+          ],
+          [
+            151.191085,
+            -33.671149
+          ],
+          [
+            151.19127,
+            -33.671339
+          ],
+          [
+            151.189715,
+            -33.672231
+          ],
+          [
+            151.189647,
+            -33.67228
+          ],
+          [
+            151.189581,
+            -33.672356
+          ],
+          [
+            151.189634,
+            -33.672437
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756392923661,
+    "query": {
+      "coordinates": [
+        [
+          151.1885947,
+          -33.6681201
+        ],
+        [
+          151.1896335,
+          -33.6724366
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    151.043812,
+    -33.95877,
+    151.046869,
+    -33.955563
+  ],
+  "features": [
+    {
+      "bbox": [
+        151.043812,
+        -33.95877,
+        151.046869,
+        -33.955563
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 714.1,
+            "duration": 514.2,
+            "steps": [
+              {
+                "distance": 6.7,
+                "duration": 4.8,
+                "type": 11,
+                "instruction": "Head north",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 9.2,
+                "duration": 6.6,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 201.2,
+                "duration": 144.9,
+                "type": 1,
+                "instruction": "Turn right onto Elwin Street",
+                "name": "Elwin Street",
+                "way_points": [
+                  2,
+                  7
+                ]
+              },
+              {
+                "distance": 99.8,
+                "duration": 71.8,
+                "type": 0,
+                "instruction": "Turn left onto Clarendon Road",
+                "name": "Clarendon Road",
+                "way_points": [
+                  7,
+                  9
+                ]
+              },
+              {
+                "distance": 7.4,
+                "duration": 5.3,
+                "type": 3,
+                "instruction": "Turn sharp right",
+                "name": "-",
+                "way_points": [
+                  9,
+                  10
+                ]
+              },
+              {
+                "distance": 127.0,
+                "duration": 91.4,
+                "type": 2,
+                "instruction": "Turn sharp left",
+                "name": "-",
+                "way_points": [
+                  10,
+                  12
+                ]
+              },
+              {
+                "distance": 262.8,
+                "duration": 189.2,
+                "type": 1,
+                "instruction": "Turn right onto Amy Road",
+                "name": "Amy Road",
+                "way_points": [
+                  12,
+                  17
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Amy Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  17,
+                  17
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          17
+        ],
+        "summary": {
+          "distance": 714.1,
+          "duration": 514.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            151.044578,
+            -33.95877
+          ],
+          [
+            151.04459,
+            -33.958711
+          ],
+          [
+            151.044493,
+            -33.958693
+          ],
+          [
+            151.044497,
+            -33.958671
+          ],
+          [
+            151.04452,
+            -33.958561
+          ],
+          [
+            151.044553,
+            -33.958405
+          ],
+          [
+            151.044825,
+            -33.957121
+          ],
+          [
+            151.04487,
+            -33.956911
+          ],
+          [
+            151.043922,
+            -33.956768
+          ],
+          [
+            151.043812,
+            -33.956732
+          ],
+          [
+            151.043858,
+            -33.956677
+          ],
+          [
+            151.04384,
+            -33.956675
+          ],
+          [
+            151.044066,
+            -33.955563
+          ],
+          [
+            151.044942,
+            -33.955698
+          ],
+          [
+            151.045819,
+            -33.95583
+          ],
+          [
+            151.046214,
+            -33.955891
+          ],
+          [
+            151.046832,
+            -33.955985
+          ],
+          [
+            151.046869,
+            -33.95599
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756396290719,
+    "query": {
+      "coordinates": [
+        [
+          151.044578,
+          -33.9587704
+        ],
+        [
+          151.0468685,
+          -33.9559904
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

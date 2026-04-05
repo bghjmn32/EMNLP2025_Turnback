@@ -1,0 +1,175 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.140838,
+    19.526379,
+    -99.138846,
+    19.529783
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.140838,
+        19.526379,
+        -99.138846,
+        19.529783
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 595.4,
+            "duration": 428.7,
+            "steps": [
+              {
+                "distance": 42.5,
+                "duration": 30.6,
+                "type": 11,
+                "instruction": "Head east on Calle Tlaxoconcahuatl",
+                "name": "Calle Tlaxoconcahuatl",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 156.5,
+                "duration": 112.7,
+                "type": 0,
+                "instruction": "Turn left onto Calle Cuauhtémoc",
+                "name": "Calle Cuauhtémoc",
+                "way_points": [
+                  2,
+                  5
+                ]
+              },
+              {
+                "distance": 50.4,
+                "duration": 36.3,
+                "type": 2,
+                "instruction": "Turn sharp left onto Calle Luis Echeverría",
+                "name": "Calle Luis Echeverría",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 244.6,
+                "duration": 176.1,
+                "type": 1,
+                "instruction": "Turn right onto Calle Acapulco",
+                "name": "Calle Acapulco",
+                "way_points": [
+                  6,
+                  8
+                ]
+              },
+              {
+                "distance": 101.3,
+                "duration": 73.0,
+                "type": 0,
+                "instruction": "Turn left onto Calle Adolfo López Mateos",
+                "name": "Calle Adolfo López Mateos",
+                "way_points": [
+                  8,
+                  9
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Adolfo López Mateos, straight ahead",
+                "name": "-",
+                "way_points": [
+                  9,
+                  9
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          9
+        ],
+        "summary": {
+          "distance": 595.4,
+          "duration": 428.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.13925,
+            19.526379
+          ],
+          [
+            -99.138947,
+            19.52641
+          ],
+          [
+            -99.138846,
+            19.526401
+          ],
+          [
+            -99.138909,
+            19.526881
+          ],
+          [
+            -99.13896,
+            19.527282
+          ],
+          [
+            -99.139025,
+            19.527798
+          ],
+          [
+            -99.139467,
+            19.52762
+          ],
+          [
+            -99.139756,
+            19.529044
+          ],
+          [
+            -99.139894,
+            19.529783
+          ],
+          [
+            -99.140838,
+            19.529584
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756307519574,
+    "query": {
+      "coordinates": [
+        [
+          -99.1392498,
+          19.526379
+        ],
+        [
+          -99.1408381,
+          19.5295841
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

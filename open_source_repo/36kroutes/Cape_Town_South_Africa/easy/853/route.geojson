@@ -1,0 +1,206 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.508607,
+    -34.024134,
+    18.511776,
+    -34.021464
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.508607,
+        -34.024134,
+        18.511776,
+        -34.021464
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 532.3,
+            "duration": 383.3,
+            "steps": [
+              {
+                "distance": 15.1,
+                "duration": 10.9,
+                "type": 11,
+                "instruction": "Head northeast",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 314.0,
+                "duration": 226.0,
+                "type": 1,
+                "instruction": "Turn right onto De Wet Road",
+                "name": "De Wet Road",
+                "way_points": [
+                  1,
+                  6
+                ]
+              },
+              {
+                "distance": 53.0,
+                "duration": 38.1,
+                "type": 0,
+                "instruction": "Turn left onto Carissa Circle",
+                "name": "Carissa Circle",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 21.4,
+                "duration": 15.4,
+                "type": 1,
+                "instruction": "Turn right onto Carissa Circle",
+                "name": "Carissa Circle",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 83.5,
+                "duration": 60.1,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  8,
+                  13
+                ]
+              },
+              {
+                "distance": 45.4,
+                "duration": 32.7,
+                "type": 1,
+                "instruction": "Turn right onto Plumbago Close",
+                "name": "Plumbago Close",
+                "way_points": [
+                  13,
+                  14
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Plumbago Close, straight ahead",
+                "name": "-",
+                "way_points": [
+                  14,
+                  14
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          14
+        ],
+        "summary": {
+          "distance": 532.3,
+          "duration": 383.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.508607,
+            -34.021538
+          ],
+          [
+            18.508744,
+            -34.021464
+          ],
+          [
+            18.509027,
+            -34.021998
+          ],
+          [
+            18.509339,
+            -34.022584
+          ],
+          [
+            18.509364,
+            -34.022632
+          ],
+          [
+            18.509709,
+            -34.023281
+          ],
+          [
+            18.510116,
+            -34.024048
+          ],
+          [
+            18.510642,
+            -34.023857
+          ],
+          [
+            18.510737,
+            -34.024033
+          ],
+          [
+            18.510867,
+            -34.024036
+          ],
+          [
+            18.510913,
+            -34.024134
+          ],
+          [
+            18.511342,
+            -34.024111
+          ],
+          [
+            18.511318,
+            -34.024007
+          ],
+          [
+            18.511327,
+            -34.023931
+          ],
+          [
+            18.511776,
+            -34.023762
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756805790670,
+    "query": {
+      "coordinates": [
+        [
+          18.5086069,
+          -34.0215385
+        ],
+        [
+          18.5117761,
+          -34.0237625
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

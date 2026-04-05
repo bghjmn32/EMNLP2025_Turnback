@@ -1,0 +1,203 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -104.771015,
+    39.656201,
+    -104.767939,
+    39.658317
+  ],
+  "features": [
+    {
+      "bbox": [
+        -104.771015,
+        39.656201,
+        -104.767939,
+        39.658317
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 559.8,
+            "duration": 403.1,
+            "steps": [
+              {
+                "distance": 6.9,
+                "duration": 5.0,
+                "type": 11,
+                "instruction": "Head north",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 127.2,
+                "duration": 91.6,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  3
+                ]
+              },
+              {
+                "distance": 165.9,
+                "duration": 119.5,
+                "type": 13,
+                "instruction": "Keep right",
+                "name": "-",
+                "way_points": [
+                  3,
+                  8
+                ]
+              },
+              {
+                "distance": 8.1,
+                "duration": 5.9,
+                "type": 13,
+                "instruction": "Keep right",
+                "name": "-",
+                "way_points": [
+                  8,
+                  9
+                ]
+              },
+              {
+                "distance": 251.6,
+                "duration": 181.2,
+                "type": 0,
+                "instruction": "Turn left onto South Bahama Street",
+                "name": "South Bahama Street",
+                "way_points": [
+                  9,
+                  16
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at South Bahama Street, straight ahead",
+                "name": "-",
+                "way_points": [
+                  16,
+                  16
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          16
+        ],
+        "summary": {
+          "distance": 559.8,
+          "duration": 403.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -104.771015,
+            39.657002
+          ],
+          [
+            -104.77099,
+            39.657062
+          ],
+          [
+            -104.770858,
+            39.657027
+          ],
+          [
+            -104.769605,
+            39.656649
+          ],
+          [
+            -104.769518,
+            39.656622
+          ],
+          [
+            -104.769431,
+            39.656596
+          ],
+          [
+            -104.768142,
+            39.656201
+          ],
+          [
+            -104.768083,
+            39.656216
+          ],
+          [
+            -104.767977,
+            39.656434
+          ],
+          [
+            -104.767939,
+            39.656501
+          ],
+          [
+            -104.768521,
+            39.656677
+          ],
+          [
+            -104.768435,
+            39.656846
+          ],
+          [
+            -104.76836,
+            39.657085
+          ],
+          [
+            -104.76836,
+            39.657282
+          ],
+          [
+            -104.768394,
+            39.657427
+          ],
+          [
+            -104.768486,
+            39.657611
+          ],
+          [
+            -104.76901,
+            39.658317
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756305245213,
+    "query": {
+      "coordinates": [
+        [
+          -104.7710148,
+          39.6570022
+        ],
+        [
+          -104.76901,
+          39.658317
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

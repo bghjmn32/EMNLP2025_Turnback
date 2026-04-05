@@ -1,0 +1,155 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.406249,
+    -22.965444,
+    -43.399906,
+    -22.964251
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.406249,
+        -22.965444,
+        -43.399906,
+        -22.964251
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 681.4,
+            "duration": 490.6,
+            "steps": [
+              {
+                "distance": 681.4,
+                "duration": 490.6,
+                "type": 11,
+                "instruction": "Head east on Estrada Santa Maura",
+                "name": "Estrada Santa Maura",
+                "way_points": [
+                  0,
+                  15
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Estrada Santa Maura, straight ahead",
+                "name": "-",
+                "way_points": [
+                  15,
+                  15
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          15
+        ],
+        "summary": {
+          "distance": 681.4,
+          "duration": 490.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.406249,
+            -22.965243
+          ],
+          [
+            -43.40525,
+            -22.965406
+          ],
+          [
+            -43.404981,
+            -22.965444
+          ],
+          [
+            -43.404807,
+            -22.965417
+          ],
+          [
+            -43.404425,
+            -22.965302
+          ],
+          [
+            -43.40389,
+            -22.965064
+          ],
+          [
+            -43.403773,
+            -22.965029
+          ],
+          [
+            -43.402938,
+            -22.965038
+          ],
+          [
+            -43.402656,
+            -22.965018
+          ],
+          [
+            -43.402492,
+            -22.964981
+          ],
+          [
+            -43.402278,
+            -22.96491
+          ],
+          [
+            -43.40183,
+            -22.964702
+          ],
+          [
+            -43.40084,
+            -22.964275
+          ],
+          [
+            -43.400674,
+            -22.964251
+          ],
+          [
+            -43.400476,
+            -22.964279
+          ],
+          [
+            -43.399906,
+            -22.964435
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756392625974,
+    "query": {
+      "coordinates": [
+        [
+          -43.4062495,
+          -22.965243
+        ],
+        [
+          -43.3999059,
+          -22.9644355
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

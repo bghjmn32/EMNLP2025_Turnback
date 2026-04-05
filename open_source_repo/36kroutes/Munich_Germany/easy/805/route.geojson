@@ -1,0 +1,225 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    11.648136,
+    48.075639,
+    11.654925,
+    48.076629
+  ],
+  "features": [
+    {
+      "bbox": [
+        11.648136,
+        48.075639,
+        11.654925,
+        48.076629
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 601.7,
+            "duration": 433.2,
+            "steps": [
+              {
+                "distance": 6.1,
+                "duration": 4.4,
+                "type": 11,
+                "instruction": "Head south",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 351.0,
+                "duration": 252.7,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  8
+                ]
+              },
+              {
+                "distance": 23.4,
+                "duration": 16.8,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  8,
+                  9
+                ]
+              },
+              {
+                "distance": 114.9,
+                "duration": 82.7,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  9,
+                  13
+                ]
+              },
+              {
+                "distance": 72.5,
+                "duration": 52.2,
+                "type": 1,
+                "instruction": "Turn right onto Pfarrer-Sickinger-Weg",
+                "name": "Pfarrer-Sickinger-Weg",
+                "way_points": [
+                  13,
+                  14
+                ]
+              },
+              {
+                "distance": 28.1,
+                "duration": 20.2,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  14,
+                  15
+                ]
+              },
+              {
+                "distance": 5.9,
+                "duration": 4.2,
+                "type": 1,
+                "instruction": "Turn right onto Pfarrer-Sickinger-Weg",
+                "name": "Pfarrer-Sickinger-Weg",
+                "way_points": [
+                  15,
+                  16
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Pfarrer-Sickinger-Weg, straight ahead",
+                "name": "-",
+                "way_points": [
+                  16,
+                  16
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          16
+        ],
+        "summary": {
+          "distance": 601.7,
+          "duration": 433.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            11.648136,
+            48.075692
+          ],
+          [
+            11.648156,
+            48.075639
+          ],
+          [
+            11.648444,
+            48.075698
+          ],
+          [
+            11.650361,
+            48.076088
+          ],
+          [
+            11.650418,
+            48.0761
+          ],
+          [
+            11.650811,
+            48.07618
+          ],
+          [
+            11.652092,
+            48.076421
+          ],
+          [
+            11.652267,
+            48.076454
+          ],
+          [
+            11.652687,
+            48.076532
+          ],
+          [
+            11.652769,
+            48.07633
+          ],
+          [
+            11.653078,
+            48.076392
+          ],
+          [
+            11.653434,
+            48.076464
+          ],
+          [
+            11.653788,
+            48.076536
+          ],
+          [
+            11.654249,
+            48.076629
+          ],
+          [
+            11.654535,
+            48.076006
+          ],
+          [
+            11.654902,
+            48.076065
+          ],
+          [
+            11.654925,
+            48.076014
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756139179131,
+    "query": {
+      "coordinates": [
+        [
+          11.6481355,
+          48.0756923
+        ],
+        [
+          11.6549247,
+          48.0760144
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

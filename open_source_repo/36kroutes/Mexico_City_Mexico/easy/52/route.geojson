@@ -1,0 +1,223 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.250668,
+    19.306265,
+    -99.244701,
+    19.309193
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.250668,
+        19.306265,
+        -99.244701,
+        19.309193
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 833.3,
+            "duration": 600.0,
+            "steps": [
+              {
+                "distance": 265.1,
+                "duration": 190.9,
+                "type": 11,
+                "instruction": "Head northeast on Calle 5 de Mayo",
+                "name": "Calle 5 de Mayo",
+                "way_points": [
+                  0,
+                  8
+                ]
+              },
+              {
+                "distance": 71.3,
+                "duration": 51.4,
+                "type": 0,
+                "instruction": "Turn left onto Avenida San Jerónimo",
+                "name": "Avenida San Jerónimo",
+                "way_points": [
+                  8,
+                  10
+                ]
+              },
+              {
+                "distance": 49.4,
+                "duration": 35.5,
+                "type": 1,
+                "instruction": "Turn right onto Avenida del Rosal",
+                "name": "Avenida del Rosal",
+                "way_points": [
+                  10,
+                  12
+                ]
+              },
+              {
+                "distance": 426.4,
+                "duration": 307.0,
+                "type": 0,
+                "instruction": "Turn left onto Calle San Rafaél",
+                "name": "Calle San Rafaél",
+                "way_points": [
+                  12,
+                  20
+                ]
+              },
+              {
+                "distance": 21.1,
+                "duration": 15.2,
+                "type": 1,
+                "instruction": "Turn right onto Cerrada Sexta",
+                "name": "Cerrada Sexta",
+                "way_points": [
+                  20,
+                  21
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Cerrada Sexta, straight ahead",
+                "name": "-",
+                "way_points": [
+                  21,
+                  21
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          21
+        ],
+        "summary": {
+          "distance": 833.3,
+          "duration": 600.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.250668,
+            19.306842
+          ],
+          [
+            -99.250495,
+            19.306949
+          ],
+          [
+            -99.250421,
+            19.306976
+          ],
+          [
+            -99.25028,
+            19.306971
+          ],
+          [
+            -99.249397,
+            19.306495
+          ],
+          [
+            -99.249273,
+            19.306453
+          ],
+          [
+            -99.24858,
+            19.306395
+          ],
+          [
+            -99.24847,
+            19.306345
+          ],
+          [
+            -99.248368,
+            19.306265
+          ],
+          [
+            -99.247981,
+            19.306586
+          ],
+          [
+            -99.247873,
+            19.306702
+          ],
+          [
+            -99.24761,
+            19.306451
+          ],
+          [
+            -99.24755,
+            19.30638
+          ],
+          [
+            -99.24716,
+            19.306651
+          ],
+          [
+            -99.246805,
+            19.306957
+          ],
+          [
+            -99.246456,
+            19.307231
+          ],
+          [
+            -99.246108,
+            19.307559
+          ],
+          [
+            -99.245822,
+            19.307853
+          ],
+          [
+            -99.24552,
+            19.308197
+          ],
+          [
+            -99.24499,
+            19.308993
+          ],
+          [
+            -99.244841,
+            19.309193
+          ],
+          [
+            -99.244701,
+            19.309057
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756304215588,
+    "query": {
+      "coordinates": [
+        [
+          -99.2506685,
+          19.3068419
+        ],
+        [
+          -99.2447012,
+          19.3090566
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

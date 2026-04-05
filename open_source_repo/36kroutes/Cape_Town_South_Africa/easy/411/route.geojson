@@ -1,0 +1,229 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.53472,
+    -33.976208,
+    18.541703,
+    -33.971747
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.53472,
+        -33.976208,
+        18.541703,
+        -33.971747
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1183.2,
+            "duration": 851.9,
+            "steps": [
+              {
+                "distance": 146.8,
+                "duration": 105.7,
+                "type": 11,
+                "instruction": "Head west on Voorjaar Street",
+                "name": "Voorjaar Street",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 89.6,
+                "duration": 64.5,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 58.9,
+                "duration": 42.4,
+                "type": 1,
+                "instruction": "Turn right onto Autumn Street",
+                "name": "Autumn Street",
+                "way_points": [
+                  4,
+                  6
+                ]
+              },
+              {
+                "distance": 163.4,
+                "duration": 117.6,
+                "type": 0,
+                "instruction": "Turn left onto Winter Crescent",
+                "name": "Winter Crescent",
+                "way_points": [
+                  6,
+                  8
+                ]
+              },
+              {
+                "distance": 98.2,
+                "duration": 70.7,
+                "type": 3,
+                "instruction": "Turn sharp right onto Durr Road",
+                "name": "Durr Road",
+                "way_points": [
+                  8,
+                  13
+                ]
+              },
+              {
+                "distance": 347.7,
+                "duration": 250.3,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  13,
+                  14
+                ]
+              },
+              {
+                "distance": 278.7,
+                "duration": 200.6,
+                "type": 3,
+                "instruction": "Turn sharp right onto College Road",
+                "name": "College Road",
+                "way_points": [
+                  14,
+                  17
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at College Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  17,
+                  17
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          17
+        ],
+        "summary": {
+          "distance": 1183.2,
+          "duration": 851.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.541703,
+            -33.972337
+          ],
+          [
+            18.541573,
+            -33.972326
+          ],
+          [
+            18.541516,
+            -33.972307
+          ],
+          [
+            18.540291,
+            -33.971747
+          ],
+          [
+            18.53944,
+            -33.972137
+          ],
+          [
+            18.538993,
+            -33.971927
+          ],
+          [
+            18.538869,
+            -33.971914
+          ],
+          [
+            18.538831,
+            -33.972675
+          ],
+          [
+            18.538789,
+            -33.973382
+          ],
+          [
+            18.538443,
+            -33.973238
+          ],
+          [
+            18.5384,
+            -33.973217
+          ],
+          [
+            18.538274,
+            -33.97316
+          ],
+          [
+            18.538115,
+            -33.973113
+          ],
+          [
+            18.537801,
+            -33.973086
+          ],
+          [
+            18.537611,
+            -33.976208
+          ],
+          [
+            18.537113,
+            -33.976087
+          ],
+          [
+            18.53552,
+            -33.975688
+          ],
+          [
+            18.53472,
+            -33.975478
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756804775908,
+    "query": {
+      "coordinates": [
+        [
+          18.541703,
+          -33.9723375
+        ],
+        [
+          18.53472,
+          -33.9754779
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

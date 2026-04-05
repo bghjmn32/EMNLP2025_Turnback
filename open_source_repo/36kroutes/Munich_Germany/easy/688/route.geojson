@@ -1,0 +1,297 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    11.588312,
+    48.201463,
+    11.596623,
+    48.2029
+  ],
+  "features": [
+    {
+      "bbox": [
+        11.588312,
+        48.201463,
+        11.596623,
+        48.2029
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 845.8,
+            "duration": 609.0,
+            "steps": [
+              {
+                "distance": 33.9,
+                "duration": 24.4,
+                "type": 11,
+                "instruction": "Head south",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 69.1,
+                "duration": 49.7,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  3
+                ]
+              },
+              {
+                "distance": 7.1,
+                "duration": 5.1,
+                "type": 6,
+                "instruction": "Continue straight",
+                "name": "-",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 21.5,
+                "duration": 15.4,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "distance": 67.2,
+                "duration": 48.4,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 42.8,
+                "duration": 30.8,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  6,
+                  9
+                ]
+              },
+              {
+                "distance": 254.2,
+                "duration": 183.0,
+                "type": 2,
+                "instruction": "Turn sharp left onto Heidemannstraße",
+                "name": "Heidemannstraße",
+                "way_points": [
+                  9,
+                  16
+                ]
+              },
+              {
+                "distance": 68.7,
+                "duration": 49.5,
+                "type": 0,
+                "instruction": "Turn left onto Grusonstraße",
+                "name": "Grusonstraße",
+                "way_points": [
+                  16,
+                  19
+                ]
+              },
+              {
+                "distance": 105.4,
+                "duration": 75.9,
+                "type": 1,
+                "instruction": "Turn right onto Hartweg",
+                "name": "Hartweg",
+                "way_points": [
+                  19,
+                  20
+                ]
+              },
+              {
+                "distance": 58.9,
+                "duration": 42.4,
+                "type": 0,
+                "instruction": "Turn left onto Kurbelwiesgasse",
+                "name": "Kurbelwiesgasse",
+                "way_points": [
+                  20,
+                  21
+                ]
+              },
+              {
+                "distance": 117.2,
+                "duration": 84.4,
+                "type": 1,
+                "instruction": "Turn right onto Schwarzanger",
+                "name": "Schwarzanger",
+                "way_points": [
+                  21,
+                  23
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Schwarzanger, straight ahead",
+                "name": "-",
+                "way_points": [
+                  23,
+                  23
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          23
+        ],
+        "summary": {
+          "distance": 845.8,
+          "duration": 609.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            11.588371,
+            48.202502
+          ],
+          [
+            11.588312,
+            48.2022
+          ],
+          [
+            11.588508,
+            48.202186
+          ],
+          [
+            11.589238,
+            48.202131
+          ],
+          [
+            11.589332,
+            48.202122
+          ],
+          [
+            11.589288,
+            48.201931
+          ],
+          [
+            11.590186,
+            48.201842
+          ],
+          [
+            11.590152,
+            48.201723
+          ],
+          [
+            11.59013,
+            48.201643
+          ],
+          [
+            11.590082,
+            48.201463
+          ],
+          [
+            11.591248,
+            48.201571
+          ],
+          [
+            11.592883,
+            48.201796
+          ],
+          [
+            11.593018,
+            48.201813
+          ],
+          [
+            11.593196,
+            48.201836
+          ],
+          [
+            11.593245,
+            48.20185
+          ],
+          [
+            11.593285,
+            48.201871
+          ],
+          [
+            11.593443,
+            48.201886
+          ],
+          [
+            11.593505,
+            48.202159
+          ],
+          [
+            11.593532,
+            48.202272
+          ],
+          [
+            11.593573,
+            48.202498
+          ],
+          [
+            11.594983,
+            48.202375
+          ],
+          [
+            11.595091,
+            48.2029
+          ],
+          [
+            11.59584,
+            48.202807
+          ],
+          [
+            11.596623,
+            48.202646
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756138817771,
+    "query": {
+      "coordinates": [
+        [
+          11.5883713,
+          48.2025022
+        ],
+        [
+          11.5966234,
+          48.2026459
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.084711,
+    19.497874,
+    -99.082815,
+    19.502728
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.084711,
+        19.497874,
+        -99.082815,
+        19.502728
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 740.8,
+            "duration": 533.4,
+            "steps": [
+              {
+                "distance": 210.7,
+                "duration": 151.7,
+                "type": 11,
+                "instruction": "Head west on Calle 312",
+                "name": "Calle 312",
+                "way_points": [
+                  0,
+                  4
+                ]
+              },
+              {
+                "distance": 478.7,
+                "duration": 344.6,
+                "type": 1,
+                "instruction": "Turn right onto Calle 319",
+                "name": "Calle 319",
+                "way_points": [
+                  4,
+                  7
+                ]
+              },
+              {
+                "distance": 51.4,
+                "duration": 37.0,
+                "type": 0,
+                "instruction": "Turn left onto Calle 316",
+                "name": "Calle 316",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle 316, straight ahead",
+                "name": "-",
+                "way_points": [
+                  8,
+                  8
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          8
+        ],
+        "summary": {
+          "distance": 740.8,
+          "duration": 533.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.082815,
+            19.497874
+          ],
+          [
+            -99.083307,
+            19.498045
+          ],
+          [
+            -99.083766,
+            19.498196
+          ],
+          [
+            -99.084239,
+            19.498346
+          ],
+          [
+            -99.084711,
+            19.498504
+          ],
+          [
+            -99.08404,
+            19.500362
+          ],
+          [
+            -99.083962,
+            19.500555
+          ],
+          [
+            -99.083209,
+            19.50257
+          ],
+          [
+            -99.083669,
+            19.502728
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756304580097,
+    "query": {
+      "coordinates": [
+        [
+          -99.0828155,
+          19.4978739
+        ],
+        [
+          -99.0836694,
+          19.5027278
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.171802,
+    19.405468,
+    -99.168078,
+    19.407084
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.171802,
+        19.405468,
+        -99.168078,
+        19.407084
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 514.7,
+            "duration": 370.6,
+            "steps": [
+              {
+                "distance": 102.2,
+                "duration": 73.6,
+                "type": 11,
+                "instruction": "Head north on Avenida Nuevo León",
+                "name": "Avenida Nuevo León",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 369.8,
+                "duration": 266.2,
+                "type": 1,
+                "instruction": "Turn right onto Calle Tlaxcala",
+                "name": "Calle Tlaxcala",
+                "way_points": [
+                  2,
+                  5
+                ]
+              },
+              {
+                "distance": 26.7,
+                "duration": 19.2,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  5,
+                  8
+                ]
+              },
+              {
+                "distance": 12.7,
+                "duration": 9.1,
+                "type": 3,
+                "instruction": "Turn sharp right",
+                "name": "-",
+                "way_points": [
+                  8,
+                  10
+                ]
+              },
+              {
+                "distance": 3.4,
+                "duration": 2.4,
+                "type": 0,
+                "instruction": "Turn left onto Avenida Insurgentes Sur",
+                "name": "Avenida Insurgentes Sur",
+                "way_points": [
+                  10,
+                  11
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Avenida Insurgentes Sur, straight ahead",
+                "name": "-",
+                "way_points": [
+                  11,
+                  11
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          11
+        ],
+        "summary": {
+          "distance": 514.7,
+          "duration": 370.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.171588,
+            19.405468
+          ],
+          [
+            -99.171681,
+            19.405835
+          ],
+          [
+            -99.171802,
+            19.406366
+          ],
+          [
+            -99.170832,
+            19.40653
+          ],
+          [
+            -99.169472,
+            19.406761
+          ],
+          [
+            -99.168342,
+            19.407002
+          ],
+          [
+            -99.16832,
+            19.407064
+          ],
+          [
+            -99.168225,
+            19.407074
+          ],
+          [
+            -99.168136,
+            19.407084
+          ],
+          [
+            -99.168151,
+            19.407035
+          ],
+          [
+            -99.168087,
+            19.407017
+          ],
+          [
+            -99.168078,
+            19.407046
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756307879494,
+    "query": {
+      "coordinates": [
+        [
+          -99.1715883,
+          19.4054684
+        ],
+        [
+          -99.1680776,
+          19.4070458
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

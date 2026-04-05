@@ -1,0 +1,195 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    151.080785,
+    -34.039826,
+    151.084504,
+    -34.037537
+  ],
+  "features": [
+    {
+      "bbox": [
+        151.080785,
+        -34.039826,
+        151.084504,
+        -34.037537
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 583.3,
+            "duration": 420.0,
+            "steps": [
+              {
+                "distance": 13.8,
+                "duration": 9.9,
+                "type": 11,
+                "instruction": "Head west",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 27.3,
+                "duration": 19.6,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  4
+                ]
+              },
+              {
+                "distance": 203.0,
+                "duration": 146.1,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  4,
+                  9
+                ]
+              },
+              {
+                "distance": 258.7,
+                "duration": 186.3,
+                "type": 0,
+                "instruction": "Turn left onto Talara Road South",
+                "name": "Talara Road South",
+                "way_points": [
+                  9,
+                  12
+                ]
+              },
+              {
+                "distance": 80.6,
+                "duration": 58.0,
+                "type": 1,
+                "instruction": "Turn right onto Lobelia Place",
+                "name": "Lobelia Place",
+                "way_points": [
+                  12,
+                  14
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Lobelia Place, straight ahead",
+                "name": "-",
+                "way_points": [
+                  14,
+                  14
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          14
+        ],
+        "summary": {
+          "distance": 583.3,
+          "duration": 420.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            151.084504,
+            -34.037611
+          ],
+          [
+            151.084357,
+            -34.037589
+          ],
+          [
+            151.08434,
+            -34.037663
+          ],
+          [
+            151.084319,
+            -34.037755
+          ],
+          [
+            151.084302,
+            -34.03783
+          ],
+          [
+            151.08413,
+            -34.037796
+          ],
+          [
+            151.083858,
+            -34.037768
+          ],
+          [
+            151.082274,
+            -34.037538
+          ],
+          [
+            151.082197,
+            -34.037548
+          ],
+          [
+            151.082132,
+            -34.037537
+          ],
+          [
+            151.081827,
+            -34.038942
+          ],
+          [
+            151.081805,
+            -34.039003
+          ],
+          [
+            151.081628,
+            -34.039826
+          ],
+          [
+            151.081123,
+            -34.039751
+          ],
+          [
+            151.080785,
+            -34.039644
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756391079402,
+    "query": {
+      "coordinates": [
+        [
+          151.0845037,
+          -34.0376114
+        ],
+        [
+          151.0807849,
+          -34.0396445
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

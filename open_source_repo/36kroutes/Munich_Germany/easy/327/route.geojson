@@ -1,0 +1,233 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    11.405609,
+    48.211736,
+    11.412154,
+    48.212846
+  ],
+  "features": [
+    {
+      "bbox": [
+        11.405609,
+        48.211736,
+        11.412154,
+        48.212846
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 610.7,
+            "duration": 439.7,
+            "steps": [
+              {
+                "distance": 29.0,
+                "duration": 20.9,
+                "type": 11,
+                "instruction": "Head southwest",
+                "name": "-",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 33.1,
+                "duration": 23.8,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 15.5,
+                "duration": 11.2,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 174.1,
+                "duration": 125.4,
+                "type": 3,
+                "instruction": "Turn sharp right onto Am Kurfürstenweg",
+                "name": "Am Kurfürstenweg",
+                "way_points": [
+                  4,
+                  6
+                ]
+              },
+              {
+                "distance": 49.9,
+                "duration": 35.9,
+                "type": 2,
+                "instruction": "Turn sharp left onto Münchner Straße, DAH 12",
+                "name": "Münchner Straße, DAH 12",
+                "way_points": [
+                  6,
+                  8
+                ]
+              },
+              {
+                "distance": 138.8,
+                "duration": 100.0,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  8,
+                  14
+                ]
+              },
+              {
+                "distance": 170.3,
+                "duration": 122.6,
+                "type": 1,
+                "instruction": "Turn right onto Münchner Straße",
+                "name": "Münchner Straße",
+                "way_points": [
+                  14,
+                  18
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Münchner Straße, on the right",
+                "name": "-",
+                "way_points": [
+                  18,
+                  18
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          18
+        ],
+        "summary": {
+          "distance": 610.7,
+          "duration": 439.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            11.412154,
+            48.212546
+          ],
+          [
+            11.412062,
+            48.21241
+          ],
+          [
+            11.411995,
+            48.212308
+          ],
+          [
+            11.411573,
+            48.212406
+          ],
+          [
+            11.411543,
+            48.212268
+          ],
+          [
+            11.409433,
+            48.212825
+          ],
+          [
+            11.409359,
+            48.212846
+          ],
+          [
+            11.409309,
+            48.212602
+          ],
+          [
+            11.409322,
+            48.2124
+          ],
+          [
+            11.409069,
+            48.212353
+          ],
+          [
+            11.408878,
+            48.21226
+          ],
+          [
+            11.408704,
+            48.212191
+          ],
+          [
+            11.40853,
+            48.212217
+          ],
+          [
+            11.408253,
+            48.212046
+          ],
+          [
+            11.407849,
+            48.211736
+          ],
+          [
+            11.407425,
+            48.211842
+          ],
+          [
+            11.406884,
+            48.211936
+          ],
+          [
+            11.405719,
+            48.212044
+          ],
+          [
+            11.405609,
+            48.212048
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756137535462,
+    "query": {
+      "coordinates": [
+        [
+          11.4121537,
+          48.2125462
+        ],
+        [
+          11.4056234,
+          48.212225
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

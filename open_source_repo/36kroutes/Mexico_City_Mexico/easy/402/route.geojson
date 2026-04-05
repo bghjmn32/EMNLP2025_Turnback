@@ -1,0 +1,191 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.107257,
+    19.257806,
+    -99.10193,
+    19.260539
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.107257,
+        19.257806,
+        -99.10193,
+        19.260539
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 840.8,
+            "duration": 605.4,
+            "steps": [
+              {
+                "distance": 110.8,
+                "duration": 79.8,
+                "type": 11,
+                "instruction": "Head north on Calle Fernando Celada",
+                "name": "Calle Fernando Celada",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 59.0,
+                "duration": 42.5,
+                "type": 1,
+                "instruction": "Turn right onto Calle Justo Sierra",
+                "name": "Calle Justo Sierra",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 213.2,
+                "duration": 153.5,
+                "type": 0,
+                "instruction": "Turn left onto Calle Pedro Ramírez del Castillo",
+                "name": "Calle Pedro Ramírez del Castillo",
+                "way_points": [
+                  2,
+                  6
+                ]
+              },
+              {
+                "distance": 419.5,
+                "duration": 302.0,
+                "type": 1,
+                "instruction": "Turn right onto Calle Nezahualcóyotl",
+                "name": "Calle Nezahualcóyotl",
+                "way_points": [
+                  6,
+                  11
+                ]
+              },
+              {
+                "distance": 38.3,
+                "duration": 27.6,
+                "type": 0,
+                "instruction": "Turn left onto Privada Nezahualcóyotl",
+                "name": "Privada Nezahualcóyotl",
+                "way_points": [
+                  11,
+                  13
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Privada Nezahualcóyotl, straight ahead",
+                "name": "-",
+                "way_points": [
+                  13,
+                  13
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          13
+        ],
+        "summary": {
+          "distance": 840.8,
+          "duration": 605.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.107257,
+            19.257806
+          ],
+          [
+            -99.107039,
+            19.258781
+          ],
+          [
+            -99.106488,
+            19.258672
+          ],
+          [
+            -99.106381,
+            19.259087
+          ],
+          [
+            -99.106362,
+            19.259164
+          ],
+          [
+            -99.106111,
+            19.26019
+          ],
+          [
+            -99.106026,
+            19.260539
+          ],
+          [
+            -99.105044,
+            19.260329
+          ],
+          [
+            -99.104062,
+            19.260145
+          ],
+          [
+            -99.102892,
+            19.259886
+          ],
+          [
+            -99.102264,
+            19.259758
+          ],
+          [
+            -99.102125,
+            19.259724
+          ],
+          [
+            -99.102076,
+            19.259925
+          ],
+          [
+            -99.10193,
+            19.259916
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756305887208,
+    "query": {
+      "coordinates": [
+        [
+          -99.1072567,
+          19.2578055
+        ],
+        [
+          -99.1019301,
+          19.2599162
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

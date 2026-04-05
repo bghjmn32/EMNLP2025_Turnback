@@ -1,0 +1,203 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    151.05015,
+    -33.964638,
+    151.057283,
+    -33.963001
+  ],
+  "features": [
+    {
+      "bbox": [
+        151.05015,
+        -33.964638,
+        151.057283,
+        -33.963001
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 761.4,
+            "duration": 548.2,
+            "steps": [
+              {
+                "distance": 59.5,
+                "duration": 42.8,
+                "type": 11,
+                "instruction": "Head north",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 97.1,
+                "duration": 69.9,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  5
+                ]
+              },
+              {
+                "distance": 17.5,
+                "duration": 12.6,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  5,
+                  7
+                ]
+              },
+              {
+                "distance": 11.7,
+                "duration": 8.4,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  7,
+                  9
+                ]
+              },
+              {
+                "distance": 575.6,
+                "duration": 414.4,
+                "type": 2,
+                "instruction": "Turn sharp left onto Park Street",
+                "name": "Park Street",
+                "way_points": [
+                  9,
+                  16
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Park Street, straight ahead",
+                "name": "-",
+                "way_points": [
+                  16,
+                  16
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          16
+        ],
+        "summary": {
+          "distance": 761.4,
+          "duration": 548.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            151.057175,
+            -33.964638
+          ],
+          [
+            151.057283,
+            -33.96411
+          ],
+          [
+            151.056891,
+            -33.964053
+          ],
+          [
+            151.056781,
+            -33.964021
+          ],
+          [
+            151.056504,
+            -33.963984
+          ],
+          [
+            151.056294,
+            -33.964107
+          ],
+          [
+            151.056236,
+            -33.964047
+          ],
+          [
+            151.056175,
+            -33.963984
+          ],
+          [
+            151.056215,
+            -33.963961
+          ],
+          [
+            151.05628,
+            -33.963925
+          ],
+          [
+            151.056193,
+            -33.963871
+          ],
+          [
+            151.055994,
+            -33.963841
+          ],
+          [
+            151.054611,
+            -33.963644
+          ],
+          [
+            151.053642,
+            -33.963504
+          ],
+          [
+            151.053556,
+            -33.963491
+          ],
+          [
+            151.050246,
+            -33.963015
+          ],
+          [
+            151.05015,
+            -33.963001
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756394547507,
+    "query": {
+      "coordinates": [
+        [
+          151.057175,
+          -33.9646379
+        ],
+        [
+          151.05015,
+          -33.9630015
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

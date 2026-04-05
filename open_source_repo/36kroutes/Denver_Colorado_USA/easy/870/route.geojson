@@ -1,0 +1,185 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -104.934504,
+    39.747553,
+    -104.927589,
+    39.749263
+  ],
+  "features": [
+    {
+      "bbox": [
+        -104.934504,
+        39.747553,
+        -104.927589,
+        39.749263
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 780.8,
+            "duration": 562.1,
+            "steps": [
+              {
+                "distance": 491.1,
+                "duration": 353.6,
+                "type": 11,
+                "instruction": "Head east on East 22nd Avenue",
+                "name": "East 22nd Avenue",
+                "way_points": [
+                  0,
+                  10
+                ]
+              },
+              {
+                "distance": 190.1,
+                "duration": 136.9,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  10,
+                  11
+                ]
+              },
+              {
+                "distance": 99.5,
+                "duration": 71.6,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  11,
+                  17
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  17,
+                  17
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          17
+        ],
+        "summary": {
+          "distance": 780.8,
+          "duration": 562.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -104.934504,
+            39.749254
+          ],
+          [
+            -104.933956,
+            39.749255
+          ],
+          [
+            -104.933405,
+            39.749255
+          ],
+          [
+            -104.932849,
+            39.749257
+          ],
+          [
+            -104.932307,
+            39.749258
+          ],
+          [
+            -104.931715,
+            39.749257
+          ],
+          [
+            -104.931099,
+            39.74926
+          ],
+          [
+            -104.930512,
+            39.74926
+          ],
+          [
+            -104.929921,
+            39.749261
+          ],
+          [
+            -104.929335,
+            39.749261
+          ],
+          [
+            -104.928759,
+            39.749263
+          ],
+          [
+            -104.928752,
+            39.747553
+          ],
+          [
+            -104.928269,
+            39.747554
+          ],
+          [
+            -104.928231,
+            39.747554
+          ],
+          [
+            -104.928161,
+            39.747554
+          ],
+          [
+            -104.92812,
+            39.747554
+          ],
+          [
+            -104.927678,
+            39.747556
+          ],
+          [
+            -104.927589,
+            39.747557
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756307397586,
+    "query": {
+      "coordinates": [
+        [
+          -104.9345041,
+          39.7492542
+        ],
+        [
+          -104.9275887,
+          39.7475565
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -105.077568,
+    39.639645,
+    -105.073623,
+    39.642721
+  ],
+  "features": [
+    {
+      "bbox": [
+        -105.077568,
+        39.639645,
+        -105.073623,
+        39.642721
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 697.3,
+            "duration": 502.1,
+            "steps": [
+              {
+                "distance": 51.4,
+                "duration": 37.0,
+                "type": 11,
+                "instruction": "Head northeast",
+                "name": "-",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 123.9,
+                "duration": 89.2,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  2,
+                  4
+                ]
+              },
+              {
+                "distance": 160.3,
+                "duration": 115.4,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  4,
+                  11
+                ]
+              },
+              {
+                "distance": 9.2,
+                "duration": 6.6,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 97.5,
+                "duration": 70.2,
+                "type": 1,
+                "instruction": "Turn right onto South Pierce Street, CR 59",
+                "name": "South Pierce Street, CR 59",
+                "way_points": [
+                  12,
+                  13
+                ]
+              },
+              {
+                "distance": 255.0,
+                "duration": 183.6,
+                "type": 0,
+                "instruction": "Turn left onto West Princeton Avenue",
+                "name": "West Princeton Avenue",
+                "way_points": [
+                  13,
+                  21
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at West Princeton Avenue, straight ahead",
+                "name": "-",
+                "way_points": [
+                  21,
+                  21
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          21
+        ],
+        "summary": {
+          "distance": 697.3,
+          "duration": 502.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -105.077568,
+            39.642397
+          ],
+          [
+            -105.07741,
+            39.642547
+          ],
+          [
+            -105.077142,
+            39.642721
+          ],
+          [
+            -105.076263,
+            39.642319
+          ],
+          [
+            -105.075899,
+            39.642152
+          ],
+          [
+            -105.075923,
+            39.642108
+          ],
+          [
+            -105.075984,
+            39.642
+          ],
+          [
+            -105.076021,
+            39.641751
+          ],
+          [
+            -105.076039,
+            39.6413
+          ],
+          [
+            -105.076141,
+            39.641045
+          ],
+          [
+            -105.076127,
+            39.640948
+          ],
+          [
+            -105.076224,
+            39.640752
+          ],
+          [
+            -105.076124,
+            39.640722
+          ],
+          [
+            -105.076548,
+            39.639908
+          ],
+          [
+            -105.076486,
+            39.639889
+          ],
+          [
+            -105.075952,
+            39.639737
+          ],
+          [
+            -105.075719,
+            39.639701
+          ],
+          [
+            -105.074835,
+            39.63971
+          ],
+          [
+            -105.074378,
+            39.639698
+          ],
+          [
+            -105.073906,
+            39.639646
+          ],
+          [
+            -105.073763,
+            39.639645
+          ],
+          [
+            -105.073623,
+            39.639667
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756305672979,
+    "query": {
+      "coordinates": [
+        [
+          -105.077568,
+          39.6423974
+        ],
+        [
+          -105.0736232,
+          39.6396672
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

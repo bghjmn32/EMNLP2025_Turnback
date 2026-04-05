@@ -1,0 +1,184 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.144648,
+    19.455136,
+    -99.13866,
+    19.457734
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.144648,
+        19.455136,
+        -99.13866,
+        19.457734
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 843.8,
+            "duration": 607.5,
+            "steps": [
+              {
+                "distance": 88.0,
+                "duration": 63.4,
+                "type": 11,
+                "instruction": "Head southwest",
+                "name": "-",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 446.3,
+                "duration": 321.4,
+                "type": 5,
+                "instruction": "Turn slight right onto Calle Juan Aldama",
+                "name": "Calle Juan Aldama",
+                "way_points": [
+                  3,
+                  10
+                ]
+              },
+              {
+                "distance": 149.3,
+                "duration": 107.5,
+                "type": 1,
+                "instruction": "Turn right onto Calle Zoltan Kodaly",
+                "name": "Calle Zoltan Kodaly",
+                "way_points": [
+                  10,
+                  12
+                ]
+              },
+              {
+                "distance": 160.1,
+                "duration": 115.3,
+                "type": 0,
+                "instruction": "Turn left onto Calle Neptuno",
+                "name": "Calle Neptuno",
+                "way_points": [
+                  12,
+                  14
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Neptuno, straight ahead",
+                "name": "-",
+                "way_points": [
+                  14,
+                  14
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          14
+        ],
+        "summary": {
+          "distance": 843.8,
+          "duration": 607.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.13866,
+            19.455598
+          ],
+          [
+            -99.139043,
+            19.455278
+          ],
+          [
+            -99.139072,
+            19.455254
+          ],
+          [
+            -99.139333,
+            19.455136
+          ],
+          [
+            -99.140321,
+            19.455359
+          ],
+          [
+            -99.140654,
+            19.455433
+          ],
+          [
+            -99.141069,
+            19.455526
+          ],
+          [
+            -99.142309,
+            19.455813
+          ],
+          [
+            -99.1424,
+            19.455834
+          ],
+          [
+            -99.14304,
+            19.45598
+          ],
+          [
+            -99.14347,
+            19.456082
+          ],
+          [
+            -99.143251,
+            19.457007
+          ],
+          [
+            -99.143164,
+            19.457393
+          ],
+          [
+            -99.144517,
+            19.457706
+          ],
+          [
+            -99.144648,
+            19.457734
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756307569173,
+    "query": {
+      "coordinates": [
+        [
+          -99.1386603,
+          19.4555975
+        ],
+        [
+          -99.1446482,
+          19.4577341
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

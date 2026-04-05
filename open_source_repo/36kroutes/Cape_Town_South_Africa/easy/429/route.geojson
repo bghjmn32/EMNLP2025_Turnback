@@ -1,0 +1,201 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.471371,
+    -33.994886,
+    18.474414,
+    -33.988932
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.471371,
+        -33.994886,
+        18.474414,
+        -33.988932
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 829.6,
+            "duration": 597.3,
+            "steps": [
+              {
+                "distance": 654.7,
+                "duration": 471.4,
+                "type": 11,
+                "instruction": "Head southeast on Harfield Road",
+                "name": "Harfield Road",
+                "way_points": [
+                  0,
+                  14
+                ]
+              },
+              {
+                "distance": 23.7,
+                "duration": 17.0,
+                "type": 6,
+                "instruction": "Continue straight onto Harfield Road",
+                "name": "Harfield Road",
+                "way_points": [
+                  14,
+                  15
+                ]
+              },
+              {
+                "distance": 151.2,
+                "duration": 108.9,
+                "type": 0,
+                "instruction": "Turn left onto Kenilworth Road",
+                "name": "Kenilworth Road",
+                "way_points": [
+                  15,
+                  21
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Kenilworth Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  21,
+                  21
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          21
+        ],
+        "summary": {
+          "distance": 829.6,
+          "duration": 597.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.471371,
+            -33.988932
+          ],
+          [
+            18.471796,
+            -33.989523
+          ],
+          [
+            18.471989,
+            -33.989999
+          ],
+          [
+            18.472174,
+            -33.990528
+          ],
+          [
+            18.47227,
+            -33.990829
+          ],
+          [
+            18.47236,
+            -33.991147
+          ],
+          [
+            18.472464,
+            -33.991611
+          ],
+          [
+            18.472534,
+            -33.992058
+          ],
+          [
+            18.472596,
+            -33.992619
+          ],
+          [
+            18.472624,
+            -33.992951
+          ],
+          [
+            18.472649,
+            -33.993219
+          ],
+          [
+            18.472694,
+            -33.993698
+          ],
+          [
+            18.472731,
+            -33.994077
+          ],
+          [
+            18.472781,
+            -33.994522
+          ],
+          [
+            18.472776,
+            -33.994636
+          ],
+          [
+            18.472775,
+            -33.994848
+          ],
+          [
+            18.472869,
+            -33.994852
+          ],
+          [
+            18.472955,
+            -33.994852
+          ],
+          [
+            18.47304,
+            -33.994854
+          ],
+          [
+            18.473106,
+            -33.994856
+          ],
+          [
+            18.473938,
+            -33.994875
+          ],
+          [
+            18.474414,
+            -33.994886
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756804811824,
+    "query": {
+      "coordinates": [
+        [
+          18.4713713,
+          -33.9889322
+        ],
+        [
+          18.4744142,
+          -33.9948864
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    151.094182,
+    -33.698615,
+    151.097703,
+    -33.695059
+  ],
+  "features": [
+    {
+      "bbox": [
+        151.094182,
+        -33.698615,
+        151.097703,
+        -33.695059
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 694.6,
+            "duration": 500.1,
+            "steps": [
+              {
+                "distance": 203.3,
+                "duration": 146.4,
+                "type": 11,
+                "instruction": "Head north on Bridge Road",
+                "name": "Bridge Road",
+                "way_points": [
+                  0,
+                  6
+                ]
+              },
+              {
+                "distance": 110.9,
+                "duration": 79.9,
+                "type": 4,
+                "instruction": "Turn slight left onto Roper Lane",
+                "name": "Roper Lane",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 86.3,
+                "duration": 62.1,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  7,
+                  12
+                ]
+              },
+              {
+                "distance": 294.1,
+                "duration": 211.7,
+                "type": 2,
+                "instruction": "Turn sharp left onto Silvia Street",
+                "name": "Silvia Street",
+                "way_points": [
+                  12,
+                  17
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Silvia Street, straight ahead",
+                "name": "-",
+                "way_points": [
+                  17,
+                  17
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          17
+        ],
+        "summary": {
+          "distance": 694.6,
+          "duration": 500.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            151.096451,
+            -33.698615
+          ],
+          [
+            151.096584,
+            -33.697981
+          ],
+          [
+            151.096689,
+            -33.697787
+          ],
+          [
+            151.096752,
+            -33.697733
+          ],
+          [
+            151.096917,
+            -33.697647
+          ],
+          [
+            151.097258,
+            -33.6972
+          ],
+          [
+            151.097454,
+            -33.697075
+          ],
+          [
+            151.097703,
+            -33.6961
+          ],
+          [
+            151.097433,
+            -33.696053
+          ],
+          [
+            151.097197,
+            -33.696061
+          ],
+          [
+            151.097088,
+            -33.696025
+          ],
+          [
+            151.096965,
+            -33.695911
+          ],
+          [
+            151.096899,
+            -33.695827
+          ],
+          [
+            151.096868,
+            -33.695979
+          ],
+          [
+            151.096125,
+            -33.695869
+          ],
+          [
+            151.095162,
+            -33.695228
+          ],
+          [
+            151.095019,
+            -33.695173
+          ],
+          [
+            151.094182,
+            -33.695059
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756394415893,
+    "query": {
+      "coordinates": [
+        [
+          151.0964511,
+          -33.6986155
+        ],
+        [
+          151.0941821,
+          -33.6950593
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -104.852652,
+    39.768328,
+    -104.849915,
+    39.77304
+  ],
+  "features": [
+    {
+      "bbox": [
+        -104.852652,
+        39.768328,
+        -104.849915,
+        39.77304
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 850.8,
+            "duration": 612.6,
+            "steps": [
+              {
+                "distance": 16.2,
+                "duration": 11.7,
+                "type": 11,
+                "instruction": "Head east",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 15.2,
+                "duration": 11.0,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 62.5,
+                "duration": 45.0,
+                "type": 1,
+                "instruction": "Turn right onto East 40th Avenue",
+                "name": "East 40th Avenue",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 241.6,
+                "duration": 173.9,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  3,
+                  5
+                ]
+              },
+              {
+                "distance": 90.3,
+                "duration": 65.0,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 267.0,
+                "duration": 192.2,
+                "type": 0,
+                "instruction": "Turn left onto Nome Street",
+                "name": "Nome Street",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 78.3,
+                "duration": 56.4,
+                "type": 1,
+                "instruction": "Turn right onto East 37th Avenue",
+                "name": "East 37th Avenue",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 79.6,
+                "duration": 57.3,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  8,
+                  10
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  10,
+                  10
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          10
+        ],
+        "summary": {
+          "distance": 850.8,
+          "duration": 612.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -104.850106,
+            39.77304
+          ],
+          [
+            -104.849915,
+            39.773038
+          ],
+          [
+            -104.849916,
+            39.772901
+          ],
+          [
+            -104.850648,
+            39.772903
+          ],
+          [
+            -104.85066,
+            39.770871
+          ],
+          [
+            -104.850661,
+            39.770731
+          ],
+          [
+            -104.851718,
+            39.770729
+          ],
+          [
+            -104.851726,
+            39.768328
+          ],
+          [
+            -104.852637,
+            39.768397
+          ],
+          [
+            -104.852648,
+            39.768774
+          ],
+          [
+            -104.852652,
+            39.769113
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306536808,
+    "query": {
+      "coordinates": [
+        [
+          -104.8501056,
+          39.7730396
+        ],
+        [
+          -104.8526518,
+          39.7691127
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

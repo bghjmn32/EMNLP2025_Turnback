@@ -1,0 +1,286 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.471881,
+    -34.01555,
+    18.479766,
+    -34.012362
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.471881,
+        -34.01555,
+        18.479766,
+        -34.012362
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1140.2,
+            "duration": 821.0,
+            "steps": [
+              {
+                "distance": 89.3,
+                "duration": 64.3,
+                "type": 11,
+                "instruction": "Head north on Milford Road",
+                "name": "Milford Road",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 147.0,
+                "duration": 105.9,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  4
+                ]
+              },
+              {
+                "distance": 30.7,
+                "duration": 22.1,
+                "type": 1,
+                "instruction": "Turn right onto Pluto Road",
+                "name": "Pluto Road",
+                "way_points": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "distance": 72.2,
+                "duration": 52.0,
+                "type": 0,
+                "instruction": "Turn left onto South Road",
+                "name": "South Road",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 41.6,
+                "duration": 30.0,
+                "type": 0,
+                "instruction": "Turn left onto Rotherfield Road",
+                "name": "Rotherfield Road",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 243.6,
+                "duration": 175.4,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  7,
+                  13
+                ]
+              },
+              {
+                "distance": 354.9,
+                "duration": 255.5,
+                "type": 5,
+                "instruction": "Turn slight right onto Chudleigh Road",
+                "name": "Chudleigh Road",
+                "way_points": [
+                  13,
+                  19
+                ]
+              },
+              {
+                "distance": 118.1,
+                "duration": 85.0,
+                "type": 0,
+                "instruction": "Turn left onto Park Road",
+                "name": "Park Road",
+                "way_points": [
+                  19,
+                  21
+                ]
+              },
+              {
+                "distance": 15.7,
+                "duration": 11.3,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  21,
+                  22
+                ]
+              },
+              {
+                "distance": 27.1,
+                "duration": 19.5,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  22,
+                  23
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  23,
+                  23
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          23
+        ],
+        "summary": {
+          "distance": 1140.2,
+          "duration": 821.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.479766,
+            -34.01555
+          ],
+          [
+            18.479484,
+            -34.014782
+          ],
+          [
+            18.479063,
+            -34.01481
+          ],
+          [
+            18.478679,
+            -34.014881
+          ],
+          [
+            18.477938,
+            -34.015081
+          ],
+          [
+            18.477839,
+            -34.014817
+          ],
+          [
+            18.477064,
+            -34.014913
+          ],
+          [
+            18.477202,
+            -34.01527
+          ],
+          [
+            18.476897,
+            -34.015308
+          ],
+          [
+            18.476711,
+            -34.015122
+          ],
+          [
+            18.476335,
+            -34.015201
+          ],
+          [
+            18.475564,
+            -34.015322
+          ],
+          [
+            18.474849,
+            -34.015404
+          ],
+          [
+            18.474733,
+            -34.015326
+          ],
+          [
+            18.47468,
+            -34.015197
+          ],
+          [
+            18.474514,
+            -34.014863
+          ],
+          [
+            18.474227,
+            -34.014269
+          ],
+          [
+            18.473927,
+            -34.013651
+          ],
+          [
+            18.473634,
+            -34.013046
+          ],
+          [
+            18.473303,
+            -34.012362
+          ],
+          [
+            18.472639,
+            -34.012559
+          ],
+          [
+            18.472096,
+            -34.012718
+          ],
+          [
+            18.472159,
+            -34.012849
+          ],
+          [
+            18.471881,
+            -34.012929
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756805755745,
+    "query": {
+      "coordinates": [
+        [
+          18.4797662,
+          -34.0155501
+        ],
+        [
+          18.4718811,
+          -34.0129287
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

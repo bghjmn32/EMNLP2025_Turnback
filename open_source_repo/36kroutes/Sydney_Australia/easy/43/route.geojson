@@ -1,0 +1,215 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    150.891276,
+    -33.748501,
+    150.894942,
+    -33.745291
+  ],
+  "features": [
+    {
+      "bbox": [
+        150.891276,
+        -33.748501,
+        150.894942,
+        -33.745291
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 587.9,
+            "duration": 423.3,
+            "steps": [
+              {
+                "distance": 14.7,
+                "duration": 10.6,
+                "type": 11,
+                "instruction": "Head southeast on Quakers Road",
+                "name": "Quakers Road",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 8.6,
+                "duration": 6.2,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 75.6,
+                "duration": 54.5,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 401.4,
+                "duration": 289.0,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  3,
+                  16
+                ]
+              },
+              {
+                "distance": 87.5,
+                "duration": 63.0,
+                "type": 0,
+                "instruction": "Turn left onto Michelle Place",
+                "name": "Michelle Place",
+                "way_points": [
+                  16,
+                  19
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Michelle Place, straight ahead",
+                "name": "-",
+                "way_points": [
+                  19,
+                  19
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          19
+        ],
+        "summary": {
+          "distance": 587.9,
+          "duration": 423.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            150.894802,
+            -33.745482
+          ],
+          [
+            150.894942,
+            -33.745544
+          ],
+          [
+            150.894895,
+            -33.745611
+          ],
+          [
+            150.894173,
+            -33.745291
+          ],
+          [
+            150.893664,
+            -33.745761
+          ],
+          [
+            150.893623,
+            -33.745798
+          ],
+          [
+            150.893579,
+            -33.745837
+          ],
+          [
+            150.893381,
+            -33.746024
+          ],
+          [
+            150.893336,
+            -33.746065
+          ],
+          [
+            150.893202,
+            -33.746191
+          ],
+          [
+            150.892623,
+            -33.746732
+          ],
+          [
+            150.892003,
+            -33.747305
+          ],
+          [
+            150.891893,
+            -33.747371
+          ],
+          [
+            150.891827,
+            -33.747431
+          ],
+          [
+            150.891756,
+            -33.747519
+          ],
+          [
+            150.89131,
+            -33.747941
+          ],
+          [
+            150.891276,
+            -33.747974
+          ],
+          [
+            150.891733,
+            -33.748319
+          ],
+          [
+            150.891896,
+            -33.748441
+          ],
+          [
+            150.891979,
+            -33.748501
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756390151018,
+    "query": {
+      "coordinates": [
+        [
+          150.8948023,
+          -33.7454816
+        ],
+        [
+          150.8919789,
+          -33.7485015
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

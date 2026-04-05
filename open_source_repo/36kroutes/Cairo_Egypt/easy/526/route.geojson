@@ -1,0 +1,213 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    31.434442,
+    30.026118,
+    31.437009,
+    30.030405
+  ],
+  "features": [
+    {
+      "bbox": [
+        31.434442,
+        30.026118,
+        31.437009,
+        30.030405
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 687.9,
+            "duration": 495.3,
+            "steps": [
+              {
+                "distance": 240.4,
+                "duration": 173.1,
+                "type": 11,
+                "instruction": "Head east on شارع عباس محمود العقاد",
+                "name": "شارع عباس محمود العقاد",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 108.9,
+                "duration": 78.4,
+                "type": 6,
+                "instruction": "Continue straight onto شارع عباس محمود العقاد",
+                "name": "شارع عباس محمود العقاد",
+                "way_points": [
+                  3,
+                  8
+                ]
+              },
+              {
+                "distance": 133.2,
+                "duration": 95.9,
+                "type": 1,
+                "instruction": "Turn right onto شارع مصعب بن عمير",
+                "name": "شارع مصعب بن عمير",
+                "way_points": [
+                  8,
+                  10
+                ]
+              },
+              {
+                "distance": 205.4,
+                "duration": 147.9,
+                "type": 7,
+                "instruction": "Enter the roundabout and take the 3rd exit onto شارع الشيماء",
+                "name": "شارع الشيماء",
+                "exit_number": 3,
+                "way_points": [
+                  10,
+                  21
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at شارع الشيماء, straight ahead",
+                "name": "-",
+                "way_points": [
+                  21,
+                  21
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          21
+        ],
+        "summary": {
+          "distance": 687.9,
+          "duration": 495.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            31.434442,
+            30.030405
+          ],
+          [
+            31.434586,
+            30.030355
+          ],
+          [
+            31.434893,
+            30.030183
+          ],
+          [
+            31.436313,
+            30.028993
+          ],
+          [
+            31.436468,
+            30.028857
+          ],
+          [
+            31.436619,
+            30.028722
+          ],
+          [
+            31.43695,
+            30.028435
+          ],
+          [
+            31.436997,
+            30.028338
+          ],
+          [
+            31.437009,
+            30.028249
+          ],
+          [
+            31.436348,
+            30.027691
+          ],
+          [
+            31.435972,
+            30.02746
+          ],
+          [
+            31.435897,
+            30.027421
+          ],
+          [
+            31.435836,
+            30.027365
+          ],
+          [
+            31.435794,
+            30.027298
+          ],
+          [
+            31.435773,
+            30.027224
+          ],
+          [
+            31.435775,
+            30.027147
+          ],
+          [
+            31.4358,
+            30.027074
+          ],
+          [
+            31.435846,
+            30.027009
+          ],
+          [
+            31.43591,
+            30.026956
+          ],
+          [
+            31.435987,
+            30.026919
+          ],
+          [
+            31.4363,
+            30.026698
+          ],
+          [
+            31.436952,
+            30.026118
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756731304091,
+    "query": {
+      "coordinates": [
+        [
+          31.4344418,
+          30.0304051
+        ],
+        [
+          31.4369518,
+          30.0261178
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

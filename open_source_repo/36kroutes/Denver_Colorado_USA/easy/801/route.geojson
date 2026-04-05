@@ -1,0 +1,139 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -104.961283,
+    39.901493,
+    -104.959838,
+    39.90981
+  ],
+  "features": [
+    {
+      "bbox": [
+        -104.961283,
+        39.901493,
+        -104.959838,
+        39.90981
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 933.0,
+            "duration": 671.8,
+            "steps": [
+              {
+                "distance": 933.0,
+                "duration": 671.8,
+                "type": 11,
+                "instruction": "Head north on Claude Court",
+                "name": "Claude Court",
+                "way_points": [
+                  0,
+                  11
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Claude Court, straight ahead",
+                "name": "-",
+                "way_points": [
+                  11,
+                  11
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          11
+        ],
+        "summary": {
+          "distance": 933.0,
+          "duration": 671.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -104.961283,
+            39.901493
+          ],
+          [
+            -104.96117,
+            39.902179
+          ],
+          [
+            -104.961045,
+            39.902866
+          ],
+          [
+            -104.960918,
+            39.903535
+          ],
+          [
+            -104.960799,
+            39.904222
+          ],
+          [
+            -104.960686,
+            39.90493
+          ],
+          [
+            -104.960559,
+            39.905621
+          ],
+          [
+            -104.960447,
+            39.906316
+          ],
+          [
+            -104.960194,
+            39.9077
+          ],
+          [
+            -104.960073,
+            39.908396
+          ],
+          [
+            -104.959951,
+            39.909111
+          ],
+          [
+            -104.959838,
+            39.90981
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756307100375,
+    "query": {
+      "coordinates": [
+        [
+          -104.9612835,
+          39.9014929
+        ],
+        [
+          -104.959838,
+          39.90981
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

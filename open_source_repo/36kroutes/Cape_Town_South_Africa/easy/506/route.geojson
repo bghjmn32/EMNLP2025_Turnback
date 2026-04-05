@@ -1,0 +1,184 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.549158,
+    -33.861876,
+    18.551859,
+    -33.857106
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.549158,
+        -33.861876,
+        18.551859,
+        -33.857106
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 779.7,
+            "duration": 561.4,
+            "steps": [
+              {
+                "distance": 199.3,
+                "duration": 143.5,
+                "type": 11,
+                "instruction": "Head southeast on Steenoven Street",
+                "name": "Steenoven Street",
+                "way_points": [
+                  0,
+                  4
+                ]
+              },
+              {
+                "distance": 204.1,
+                "duration": 146.9,
+                "type": 1,
+                "instruction": "Turn right onto Vryburger Avenue",
+                "name": "Vryburger Avenue",
+                "way_points": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "distance": 356.0,
+                "duration": 256.3,
+                "type": 0,
+                "instruction": "Turn left onto Potsdam Road",
+                "name": "Potsdam Road",
+                "way_points": [
+                  5,
+                  11
+                ]
+              },
+              {
+                "distance": 20.3,
+                "duration": 14.6,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  11,
+                  14
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  14,
+                  14
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          14
+        ],
+        "summary": {
+          "distance": 779.7,
+          "duration": 561.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.549188,
+            -33.857106
+          ],
+          [
+            18.549956,
+            -33.857448
+          ],
+          [
+            18.550089,
+            -33.857546
+          ],
+          [
+            18.550754,
+            -33.858179
+          ],
+          [
+            18.550815,
+            -33.858242
+          ],
+          [
+            18.549158,
+            -33.859457
+          ],
+          [
+            18.54983,
+            -33.860095
+          ],
+          [
+            18.550019,
+            -33.860274
+          ],
+          [
+            18.550221,
+            -33.860465
+          ],
+          [
+            18.55027,
+            -33.860514
+          ],
+          [
+            18.551338,
+            -33.861544
+          ],
+          [
+            18.551684,
+            -33.861876
+          ],
+          [
+            18.551759,
+            -33.861823
+          ],
+          [
+            18.55181,
+            -33.861829
+          ],
+          [
+            18.551859,
+            -33.861871
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756804968583,
+    "query": {
+      "coordinates": [
+        [
+          18.5491882,
+          -33.8571058
+        ],
+        [
+          18.5518585,
+          -33.8618707
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

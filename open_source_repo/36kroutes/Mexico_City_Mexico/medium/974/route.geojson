@@ -1,0 +1,283 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.17003,
+    19.451543,
+    -99.166527,
+    19.460401
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.17003,
+        19.451543,
+        -99.166527,
+        19.460401
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1445.4,
+            "duration": 1040.7,
+            "steps": [
+              {
+                "distance": 104.9,
+                "duration": 75.5,
+                "type": 11,
+                "instruction": "Head north on Calle Plan de San Luis",
+                "name": "Calle Plan de San Luis",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 212.2,
+                "duration": 152.8,
+                "type": 1,
+                "instruction": "Turn right onto Calle Manuel Carpio",
+                "name": "Calle Manuel Carpio",
+                "way_points": [
+                  1,
+                  4
+                ]
+              },
+              {
+                "distance": 481.1,
+                "duration": 346.4,
+                "type": 2,
+                "instruction": "Turn sharp left onto Calle Plan de Agua Prieta",
+                "name": "Calle Plan de Agua Prieta",
+                "way_points": [
+                  4,
+                  9
+                ]
+              },
+              {
+                "distance": 142.6,
+                "duration": 102.7,
+                "type": 12,
+                "instruction": "Keep left onto Calle Plan de Agua Prieta",
+                "name": "Calle Plan de Agua Prieta",
+                "way_points": [
+                  9,
+                  13
+                ]
+              },
+              {
+                "distance": 49.6,
+                "duration": 35.7,
+                "type": 0,
+                "instruction": "Turn left onto Calle Alhelí",
+                "name": "Calle Alhelí",
+                "way_points": [
+                  13,
+                  14
+                ]
+              },
+              {
+                "distance": 133.1,
+                "duration": 95.8,
+                "type": 1,
+                "instruction": "Turn right onto Calle Frambuesa",
+                "name": "Calle Frambuesa",
+                "way_points": [
+                  14,
+                  15
+                ]
+              },
+              {
+                "distance": 133.7,
+                "duration": 96.3,
+                "type": 0,
+                "instruction": "Turn left onto Calle Clavel",
+                "name": "Calle Clavel",
+                "way_points": [
+                  15,
+                  19
+                ]
+              },
+              {
+                "distance": 155.1,
+                "duration": 111.7,
+                "type": 1,
+                "instruction": "Turn right onto Calzada Camarones",
+                "name": "Calzada Camarones",
+                "way_points": [
+                  19,
+                  23
+                ]
+              },
+              {
+                "distance": 33.2,
+                "duration": 23.9,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  23,
+                  25
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  25,
+                  25
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          25
+        ],
+        "summary": {
+          "distance": 1445.4,
+          "duration": 1040.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.168706,
+            19.451543
+          ],
+          [
+            -99.16853,
+            19.452472
+          ],
+          [
+            -99.168454,
+            19.45246
+          ],
+          [
+            -99.16763,
+            19.452349
+          ],
+          [
+            -99.166527,
+            19.452197
+          ],
+          [
+            -99.166886,
+            19.454168
+          ],
+          [
+            -99.166903,
+            19.45425
+          ],
+          [
+            -99.167226,
+            19.455795
+          ],
+          [
+            -99.167253,
+            19.455921
+          ],
+          [
+            -99.167363,
+            19.45645
+          ],
+          [
+            -99.167446,
+            19.456576
+          ],
+          [
+            -99.167491,
+            19.456905
+          ],
+          [
+            -99.167534,
+            19.457074
+          ],
+          [
+            -99.167739,
+            19.457673
+          ],
+          [
+            -99.168208,
+            19.457734
+          ],
+          [
+            -99.168062,
+            19.458922
+          ],
+          [
+            -99.168539,
+            19.459008
+          ],
+          [
+            -99.169025,
+            19.459087
+          ],
+          [
+            -99.169121,
+            19.459101
+          ],
+          [
+            -99.169318,
+            19.459127
+          ],
+          [
+            -99.169354,
+            19.459195
+          ],
+          [
+            -99.169559,
+            19.45955
+          ],
+          [
+            -99.169933,
+            19.460193
+          ],
+          [
+            -99.17003,
+            19.460349
+          ],
+          [
+            -99.169921,
+            19.460401
+          ],
+          [
+            -99.169726,
+            19.460395
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756313126272,
+    "query": {
+      "coordinates": [
+        [
+          -99.1687062,
+          19.4515432
+        ],
+        [
+          -99.1697265,
+          19.4603954
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

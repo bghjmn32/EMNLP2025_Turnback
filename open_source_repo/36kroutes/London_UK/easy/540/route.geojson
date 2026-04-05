@@ -1,0 +1,172 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -0.151174,
+    51.400536,
+    -0.149038,
+    51.401863
+  ],
+  "features": [
+    {
+      "bbox": [
+        -0.151174,
+        51.400536,
+        -0.149038,
+        51.401863
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 392.1,
+            "duration": 282.3,
+            "steps": [
+              {
+                "distance": 142.9,
+                "duration": 102.9,
+                "type": 11,
+                "instruction": "Head southeast on Pentlands Close",
+                "name": "Pentlands Close",
+                "way_points": [
+                  0,
+                  5
+                ]
+              },
+              {
+                "distance": 73.5,
+                "duration": 52.9,
+                "type": 0,
+                "instruction": "Turn left onto Commonside East",
+                "name": "Commonside East",
+                "way_points": [
+                  5,
+                  7
+                ]
+              },
+              {
+                "distance": 156.2,
+                "duration": 112.4,
+                "type": 0,
+                "instruction": "Turn left onto Tamworth Park",
+                "name": "Tamworth Park",
+                "way_points": [
+                  7,
+                  9
+                ]
+              },
+              {
+                "distance": 19.5,
+                "duration": 14.0,
+                "type": 0,
+                "instruction": "Turn left onto St. George's Road",
+                "name": "St. George's Road",
+                "way_points": [
+                  9,
+                  11
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at St. George's Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  11,
+                  11
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          11
+        ],
+        "summary": {
+          "distance": 392.1,
+          "duration": 282.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -0.151174,
+            51.40186
+          ],
+          [
+            -0.151005,
+            51.401783
+          ],
+          [
+            -0.150855,
+            51.401714
+          ],
+          [
+            -0.150499,
+            51.40155
+          ],
+          [
+            -0.150486,
+            51.40153
+          ],
+          [
+            -0.151037,
+            51.400874
+          ],
+          [
+            -0.150249,
+            51.400582
+          ],
+          [
+            -0.150127,
+            51.400536
+          ],
+          [
+            -0.149782,
+            51.400925
+          ],
+          [
+            -0.149038,
+            51.401765
+          ],
+          [
+            -0.149239,
+            51.401851
+          ],
+          [
+            -0.14927,
+            51.401863
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756828311922,
+    "query": {
+      "coordinates": [
+        [
+          -0.1511737,
+          51.4018601
+        ],
+        [
+          -0.1492701,
+          51.4018634
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

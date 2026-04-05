@@ -1,0 +1,209 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -104.986454,
+    39.646812,
+    -104.982566,
+    39.6502
+  ],
+  "features": [
+    {
+      "bbox": [
+        -104.986454,
+        39.646812,
+        -104.982566,
+        39.6502
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 719.7,
+            "duration": 518.2,
+            "steps": [
+              {
+                "distance": 7.1,
+                "duration": 5.1,
+                "type": 11,
+                "instruction": "Head west",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 84.8,
+                "duration": 61.1,
+                "type": 0,
+                "instruction": "Turn left onto South Lincoln Street",
+                "name": "South Lincoln Street",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 197.2,
+                "duration": 142.0,
+                "type": 0,
+                "instruction": "Turn left onto East Kenyon Avenue",
+                "name": "East Kenyon Avenue",
+                "way_points": [
+                  2,
+                  6
+                ]
+              },
+              {
+                "distance": 198.9,
+                "duration": 143.2,
+                "type": 1,
+                "instruction": "Turn right onto South Grant Street",
+                "name": "South Grant Street",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 99.6,
+                "duration": 71.7,
+                "type": 0,
+                "instruction": "Turn left onto East Lehigh Avenue",
+                "name": "East Lehigh Avenue",
+                "way_points": [
+                  7,
+                  9
+                ]
+              },
+              {
+                "distance": 93.7,
+                "duration": 67.5,
+                "type": 1,
+                "instruction": "Turn right onto South Logan Street",
+                "name": "South Logan Street",
+                "way_points": [
+                  9,
+                  10
+                ]
+              },
+              {
+                "distance": 38.3,
+                "duration": 27.6,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  10,
+                  12
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  12,
+                  12
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          12
+        ],
+        "summary": {
+          "distance": 719.7,
+          "duration": 518.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -104.986364,
+            39.6502
+          ],
+          [
+            -104.986447,
+            39.6502
+          ],
+          [
+            -104.986454,
+            39.649437
+          ],
+          [
+            -104.98588,
+            39.649438
+          ],
+          [
+            -104.985309,
+            39.649438
+          ],
+          [
+            -104.98474,
+            39.649436
+          ],
+          [
+            -104.984151,
+            39.649434
+          ],
+          [
+            -104.984169,
+            39.647646
+          ],
+          [
+            -104.9836,
+            39.647649
+          ],
+          [
+            -104.983006,
+            39.647659
+          ],
+          [
+            -104.983014,
+            39.646816
+          ],
+          [
+            -104.982775,
+            39.646814
+          ],
+          [
+            -104.982566,
+            39.646812
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756304815342,
+    "query": {
+      "coordinates": [
+        [
+          -104.9863636,
+          39.6502001
+        ],
+        [
+          -104.9825661,
+          39.6468123
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

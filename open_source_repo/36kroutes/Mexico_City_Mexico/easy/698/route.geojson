@@ -1,0 +1,217 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.210616,
+    19.393129,
+    -99.206609,
+    19.396849
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.210616,
+        19.393129,
+        -99.206609,
+        19.396849
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 684.2,
+            "duration": 492.6,
+            "steps": [
+              {
+                "distance": 50.6,
+                "duration": 36.5,
+                "type": 11,
+                "instruction": "Head west on Calle Paseo San Martín Caballero",
+                "name": "Calle Paseo San Martín Caballero",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 253.5,
+                "duration": 182.5,
+                "type": 1,
+                "instruction": "Turn right onto Calle Santa Lucía",
+                "name": "Calle Santa Lucía",
+                "way_points": [
+                  1,
+                  4
+                ]
+              },
+              {
+                "distance": 51.5,
+                "duration": 37.1,
+                "type": 0,
+                "instruction": "Turn left onto Calle San Francisco",
+                "name": "Calle San Francisco",
+                "way_points": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "distance": 86.1,
+                "duration": 62.0,
+                "type": 1,
+                "instruction": "Turn right onto Calle Santa Cruz",
+                "name": "Calle Santa Cruz",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 19.0,
+                "duration": 13.7,
+                "type": 1,
+                "instruction": "Turn right onto Calle Pólvora",
+                "name": "Calle Pólvora",
+                "way_points": [
+                  6,
+                  8
+                ]
+              },
+              {
+                "distance": 129.3,
+                "duration": 93.1,
+                "type": 4,
+                "instruction": "Turn slight left onto Calle Bajada Capulín",
+                "name": "Calle Bajada Capulín",
+                "way_points": [
+                  8,
+                  12
+                ]
+              },
+              {
+                "distance": 94.2,
+                "duration": 67.9,
+                "type": 0,
+                "instruction": "Turn left onto Calle Artificios",
+                "name": "Calle Artificios",
+                "way_points": [
+                  12,
+                  14
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Artificios, straight ahead",
+                "name": "-",
+                "way_points": [
+                  14,
+                  14
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          14
+        ],
+        "summary": {
+          "distance": 684.2,
+          "duration": 492.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.206609,
+            19.393246
+          ],
+          [
+            -99.207075,
+            19.393129
+          ],
+          [
+            -99.207449,
+            19.393749
+          ],
+          [
+            -99.207847,
+            19.394427
+          ],
+          [
+            -99.208239,
+            19.395127
+          ],
+          [
+            -99.208673,
+            19.39491
+          ],
+          [
+            -99.209078,
+            19.395583
+          ],
+          [
+            -99.209066,
+            19.395615
+          ],
+          [
+            -99.209125,
+            19.39574
+          ],
+          [
+            -99.209284,
+            19.395934
+          ],
+          [
+            -99.209453,
+            19.396151
+          ],
+          [
+            -99.209587,
+            19.396365
+          ],
+          [
+            -99.209741,
+            19.396738
+          ],
+          [
+            -99.210061,
+            19.396849
+          ],
+          [
+            -99.210616,
+            19.396794
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756307105420,
+    "query": {
+      "coordinates": [
+        [
+          -99.2066087,
+          19.3932457
+        ],
+        [
+          -99.2106159,
+          19.396794
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

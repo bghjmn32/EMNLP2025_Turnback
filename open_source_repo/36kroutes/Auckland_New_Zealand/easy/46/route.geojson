@@ -1,0 +1,307 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    174.798251,
+    -36.829445,
+    174.802989,
+    -36.824943
+  ],
+  "features": [
+    {
+      "bbox": [
+        174.798251,
+        -36.829445,
+        174.802989,
+        -36.824943
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 871.7,
+            "duration": 627.6,
+            "steps": [
+              {
+                "distance": 136.1,
+                "duration": 98.0,
+                "type": 11,
+                "instruction": "Head northeast",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 171.0,
+                "duration": 123.1,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  7
+                ]
+              },
+              {
+                "distance": 1.4,
+                "duration": 1.0,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 9.2,
+                "duration": 6.6,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  8,
+                  10
+                ]
+              },
+              {
+                "distance": 1.2,
+                "duration": 0.9,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  10,
+                  11
+                ]
+              },
+              {
+                "distance": 92.0,
+                "duration": 66.3,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 97.7,
+                "duration": 70.4,
+                "type": 0,
+                "instruction": "Turn left onto Flagstaff Lane",
+                "name": "Flagstaff Lane",
+                "way_points": [
+                  12,
+                  19
+                ]
+              },
+              {
+                "distance": 307.3,
+                "duration": 221.3,
+                "type": 3,
+                "instruction": "Turn sharp right",
+                "name": "-",
+                "way_points": [
+                  19,
+                  30
+                ]
+              },
+              {
+                "distance": 55.7,
+                "duration": 40.1,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  30,
+                  31
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  31,
+                  31
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          31
+        ],
+        "summary": {
+          "distance": 871.7,
+          "duration": 627.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            174.801672,
+            -36.829445
+          ],
+          [
+            174.802989,
+            -36.828823
+          ],
+          [
+            174.802674,
+            -36.82839
+          ],
+          [
+            174.802464,
+            -36.828048
+          ],
+          [
+            174.802434,
+            -36.828001
+          ],
+          [
+            174.802413,
+            -36.827972
+          ],
+          [
+            174.802412,
+            -36.827937
+          ],
+          [
+            174.80213,
+            -36.827452
+          ],
+          [
+            174.802115,
+            -36.827449
+          ],
+          [
+            174.802094,
+            -36.827411
+          ],
+          [
+            174.802072,
+            -36.827374
+          ],
+          [
+            174.802079,
+            -36.827364
+          ],
+          [
+            174.801638,
+            -36.826615
+          ],
+          [
+            174.801016,
+            -36.826854
+          ],
+          [
+            174.800982,
+            -36.826856
+          ],
+          [
+            174.800892,
+            -36.826809
+          ],
+          [
+            174.800868,
+            -36.82681
+          ],
+          [
+            174.800848,
+            -36.826876
+          ],
+          [
+            174.800794,
+            -36.826904
+          ],
+          [
+            174.800754,
+            -36.826971
+          ],
+          [
+            174.800733,
+            -36.826737
+          ],
+          [
+            174.800582,
+            -36.826338
+          ],
+          [
+            174.800408,
+            -36.826055
+          ],
+          [
+            174.800226,
+            -36.825831
+          ],
+          [
+            174.800003,
+            -36.825629
+          ],
+          [
+            174.799843,
+            -36.825537
+          ],
+          [
+            174.799681,
+            -36.825472
+          ],
+          [
+            174.799271,
+            -36.825346
+          ],
+          [
+            174.799069,
+            -36.825345
+          ],
+          [
+            174.798899,
+            -36.825327
+          ],
+          [
+            174.798525,
+            -36.825393
+          ],
+          [
+            174.798251,
+            -36.824943
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756373710142,
+    "query": {
+      "coordinates": [
+        [
+          174.8016719,
+          -36.8294447
+        ],
+        [
+          174.7982506,
+          -36.8249431
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

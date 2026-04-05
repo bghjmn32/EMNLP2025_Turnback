@@ -1,0 +1,165 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.538356,
+    -22.912092,
+    -43.534841,
+    -22.907168
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.538356,
+        -22.912092,
+        -43.534841,
+        -22.907168
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 739.4,
+            "duration": 532.3,
+            "steps": [
+              {
+                "distance": 107.3,
+                "duration": 77.2,
+                "type": 11,
+                "instruction": "Head northwest on Rua Pimenteiras",
+                "name": "Rua Pimenteiras",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 584.6,
+                "duration": 420.9,
+                "type": 1,
+                "instruction": "Turn right onto Rua José Francisco de Souza Pôrto",
+                "name": "Rua José Francisco de Souza Pôrto",
+                "way_points": [
+                  1,
+                  9
+                ]
+              },
+              {
+                "distance": 47.5,
+                "duration": 34.2,
+                "type": 1,
+                "instruction": "Turn right onto Rua Micronésia",
+                "name": "Rua Micronésia",
+                "way_points": [
+                  9,
+                  12
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Rua Micronésia, straight ahead",
+                "name": "-",
+                "way_points": [
+                  12,
+                  12
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          12
+        ],
+        "summary": {
+          "distance": 739.4,
+          "duration": 532.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.537529,
+            -22.912092
+          ],
+          [
+            -43.538356,
+            -22.9115
+          ],
+          [
+            -43.537862,
+            -22.911018
+          ],
+          [
+            -43.537407,
+            -22.910548
+          ],
+          [
+            -43.536981,
+            -22.910131
+          ],
+          [
+            -43.536568,
+            -22.909726
+          ],
+          [
+            -43.536076,
+            -22.909262
+          ],
+          [
+            -43.535593,
+            -22.908769
+          ],
+          [
+            -43.535311,
+            -22.907398
+          ],
+          [
+            -43.535274,
+            -22.907274
+          ],
+          [
+            -43.535028,
+            -22.907267
+          ],
+          [
+            -43.53495,
+            -22.907239
+          ],
+          [
+            -43.534841,
+            -22.907168
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756390145833,
+    "query": {
+      "coordinates": [
+        [
+          -43.5375295,
+          -22.9120925
+        ],
+        [
+          -43.5348412,
+          -22.9071683
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

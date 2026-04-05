@@ -1,0 +1,227 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -104.936603,
+    39.871548,
+    -104.932953,
+    39.873765
+  ],
+  "features": [
+    {
+      "bbox": [
+        -104.936603,
+        39.871548,
+        -104.932953,
+        39.873765
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 568.2,
+            "duration": 409.1,
+            "steps": [
+              {
+                "distance": 140.3,
+                "duration": 101.0,
+                "type": 11,
+                "instruction": "Head west",
+                "name": "-",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 119.7,
+                "duration": 86.2,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 76.4,
+                "duration": 55.0,
+                "type": 1,
+                "instruction": "Turn right onto East 97th Avenue",
+                "name": "East 97th Avenue",
+                "way_points": [
+                  3,
+                  6
+                ]
+              },
+              {
+                "distance": 133.8,
+                "duration": 96.4,
+                "type": 7,
+                "instruction": "Enter the roundabout and take the 1st exit onto Clermont Street",
+                "name": "Clermont Street",
+                "exit_number": 1,
+                "way_points": [
+                  6,
+                  15
+                ]
+              },
+              {
+                "distance": 50.4,
+                "duration": 36.3,
+                "type": 1,
+                "instruction": "Turn right onto East 96th Drive",
+                "name": "East 96th Drive",
+                "way_points": [
+                  15,
+                  16
+                ]
+              },
+              {
+                "distance": 47.5,
+                "duration": 34.2,
+                "type": 1,
+                "instruction": "Turn right onto Clermont Lane",
+                "name": "Clermont Lane",
+                "way_points": [
+                  16,
+                  19
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Clermont Lane, straight ahead",
+                "name": "-",
+                "way_points": [
+                  19,
+                  19
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          19
+        ],
+        "summary": {
+          "distance": 568.2,
+          "duration": 409.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -104.932953,
+            39.873765
+          ],
+          [
+            -104.93341,
+            39.873735
+          ],
+          [
+            -104.934596,
+            39.873722
+          ],
+          [
+            -104.934594,
+            39.872646
+          ],
+          [
+            -104.935083,
+            39.872635
+          ],
+          [
+            -104.935321,
+            39.872588
+          ],
+          [
+            -104.935458,
+            39.872524
+          ],
+          [
+            -104.935418,
+            39.872429
+          ],
+          [
+            -104.935458,
+            39.872334
+          ],
+          [
+            -104.935505,
+            39.872298
+          ],
+          [
+            -104.935628,
+            39.872267
+          ],
+          [
+            -104.935752,
+            39.872297
+          ],
+          [
+            -104.935821,
+            39.872184
+          ],
+          [
+            -104.935845,
+            39.872087
+          ],
+          [
+            -104.935864,
+            39.871958
+          ],
+          [
+            -104.935869,
+            39.871558
+          ],
+          [
+            -104.93646,
+            39.871548
+          ],
+          [
+            -104.936472,
+            39.871772
+          ],
+          [
+            -104.936519,
+            39.871872
+          ],
+          [
+            -104.936603,
+            39.871945
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306097579,
+    "query": {
+      "coordinates": [
+        [
+          -104.9329531,
+          39.8737646
+        ],
+        [
+          -104.9366027,
+          39.8719451
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,223 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -105.007223,
+    39.696736,
+    -104.996779,
+    39.699248
+  ],
+  "features": [
+    {
+      "bbox": [
+        -105.007223,
+        39.696736,
+        -104.996779,
+        39.699248
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1176.7,
+            "duration": 847.2,
+            "steps": [
+              {
+                "distance": 9.3,
+                "duration": 6.7,
+                "type": 11,
+                "instruction": "Head north",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 494.1,
+                "duration": 355.8,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  5
+                ]
+              },
+              {
+                "distance": 0.9,
+                "duration": 0.6,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 397.6,
+                "duration": 286.2,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  6,
+                  15
+                ]
+              },
+              {
+                "distance": 274.8,
+                "duration": 197.9,
+                "type": 0,
+                "instruction": "Turn left onto South Huron Street",
+                "name": "South Huron Street",
+                "way_points": [
+                  15,
+                  21
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at South Huron Street, straight ahead",
+                "name": "-",
+                "way_points": [
+                  21,
+                  21
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          21
+        ],
+        "summary": {
+          "distance": 1176.7,
+          "duration": 847.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -105.007223,
+            39.696736
+          ],
+          [
+            -105.007222,
+            39.69682
+          ],
+          [
+            -105.00659,
+            39.696812
+          ],
+          [
+            -105.001609,
+            39.696787
+          ],
+          [
+            -105.001529,
+            39.696784
+          ],
+          [
+            -105.001447,
+            39.696784
+          ],
+          [
+            -105.00144,
+            39.696789
+          ],
+          [
+            -105.000852,
+            39.696778
+          ],
+          [
+            -105.000597,
+            39.696778
+          ],
+          [
+            -105.00053,
+            39.696777
+          ],
+          [
+            -105.000172,
+            39.696776
+          ],
+          [
+            -104.999273,
+            39.696784
+          ],
+          [
+            -104.99915,
+            39.696783
+          ],
+          [
+            -104.999059,
+            39.696782
+          ],
+          [
+            -104.997982,
+            39.696774
+          ],
+          [
+            -104.996794,
+            39.696777
+          ],
+          [
+            -104.99679,
+            39.697078
+          ],
+          [
+            -104.99679,
+            39.697187
+          ],
+          [
+            -104.996781,
+            39.698286
+          ],
+          [
+            -104.996779,
+            39.698491
+          ],
+          [
+            -104.996779,
+            39.69888
+          ],
+          [
+            -104.996786,
+            39.699248
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756304845094,
+    "query": {
+      "coordinates": [
+        [
+          -105.0072226,
+          39.6967358
+        ],
+        [
+          -104.9967858,
+          39.6992483
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

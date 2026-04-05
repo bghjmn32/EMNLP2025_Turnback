@@ -1,0 +1,282 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -104.996557,
+    39.905187,
+    -104.991778,
+    39.909308
+  ],
+  "features": [
+    {
+      "bbox": [
+        -104.996557,
+        39.905187,
+        -104.991778,
+        39.909308
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1006.4,
+            "duration": 724.6,
+            "steps": [
+              {
+                "distance": 23.0,
+                "duration": 16.5,
+                "type": 11,
+                "instruction": "Head east",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 49.5,
+                "duration": 35.6,
+                "type": 0,
+                "instruction": "Turn left onto Melody Drive",
+                "name": "Melody Drive",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 137.9,
+                "duration": 99.3,
+                "type": 0,
+                "instruction": "Turn left onto West 115th Avenue",
+                "name": "West 115th Avenue",
+                "way_points": [
+                  2,
+                  5
+                ]
+              },
+              {
+                "distance": 153.8,
+                "duration": 110.8,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  5,
+                  12
+                ]
+              },
+              {
+                "distance": 140.9,
+                "duration": 101.4,
+                "type": 1,
+                "instruction": "Turn right onto West 116th Avenue",
+                "name": "West 116th Avenue",
+                "way_points": [
+                  12,
+                  15
+                ]
+              },
+              {
+                "distance": 96.6,
+                "duration": 69.5,
+                "type": 0,
+                "instruction": "Turn left onto Melody Drive",
+                "name": "Melody Drive",
+                "way_points": [
+                  15,
+                  16
+                ]
+              },
+              {
+                "distance": 95.1,
+                "duration": 68.5,
+                "type": 1,
+                "instruction": "Turn right onto West 116th Place",
+                "name": "West 116th Place",
+                "way_points": [
+                  16,
+                  17
+                ]
+              },
+              {
+                "distance": 79.7,
+                "duration": 57.4,
+                "type": 0,
+                "instruction": "Turn left onto West 116th Way",
+                "name": "West 116th Way",
+                "way_points": [
+                  17,
+                  19
+                ]
+              },
+              {
+                "distance": 171.5,
+                "duration": 123.5,
+                "type": 1,
+                "instruction": "Turn right onto West 116th Way",
+                "name": "West 116th Way",
+                "way_points": [
+                  19,
+                  21
+                ]
+              },
+              {
+                "distance": 58.4,
+                "duration": 42.0,
+                "type": 0,
+                "instruction": "Turn left onto Acoma Street",
+                "name": "Acoma Street",
+                "way_points": [
+                  21,
+                  22
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Acoma Street, straight ahead",
+                "name": "-",
+                "way_points": [
+                  22,
+                  22
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          22
+        ],
+        "summary": {
+          "distance": 1006.4,
+          "duration": 724.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -104.99516,
+            39.905187
+          ],
+          [
+            -104.994891,
+            39.905191
+          ],
+          [
+            -104.994918,
+            39.905636
+          ],
+          [
+            -104.995796,
+            39.905635
+          ],
+          [
+            -104.996226,
+            39.905635
+          ],
+          [
+            -104.996535,
+            39.905635
+          ],
+          [
+            -104.996516,
+            39.905767
+          ],
+          [
+            -104.996479,
+            39.906072
+          ],
+          [
+            -104.996482,
+            39.906288
+          ],
+          [
+            -104.996487,
+            39.906563
+          ],
+          [
+            -104.996468,
+            39.906766
+          ],
+          [
+            -104.996552,
+            39.906832
+          ],
+          [
+            -104.996557,
+            39.906989
+          ],
+          [
+            -104.995991,
+            39.906995
+          ],
+          [
+            -104.995602,
+            39.907024
+          ],
+          [
+            -104.994923,
+            39.907138
+          ],
+          [
+            -104.994919,
+            39.908006
+          ],
+          [
+            -104.993805,
+            39.908016
+          ],
+          [
+            -104.993814,
+            39.908667
+          ],
+          [
+            -104.993782,
+            39.908728
+          ],
+          [
+            -104.993685,
+            39.908756
+          ],
+          [
+            -104.991778,
+            39.908783
+          ],
+          [
+            -104.991791,
+            39.909308
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306413815,
+    "query": {
+      "coordinates": [
+        [
+          -104.9951604,
+          39.9051866
+        ],
+        [
+          -104.9917915,
+          39.909308
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,254 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -79.41754,
+    43.67258,
+    -79.414496,
+    43.679228
+  ],
+  "features": [
+    {
+      "bbox": [
+        -79.41754,
+        43.67258,
+        -79.414496,
+        43.679228
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1001.0,
+            "duration": 720.7,
+            "steps": [
+              {
+                "distance": 9.2,
+                "duration": 6.6,
+                "type": 11,
+                "instruction": "Head west on Burnside Drive",
+                "name": "Burnside Drive",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 275.0,
+                "duration": 198.0,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  8
+                ]
+              },
+              {
+                "distance": 2.6,
+                "duration": 1.9,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  8,
+                  9
+                ]
+              },
+              {
+                "distance": 417.0,
+                "duration": 300.2,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  9,
+                  15
+                ]
+              },
+              {
+                "distance": 240.1,
+                "duration": 172.9,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  15,
+                  25
+                ]
+              },
+              {
+                "distance": 57.1,
+                "duration": 41.1,
+                "type": 1,
+                "instruction": "Turn right onto Skaters Lane",
+                "name": "Skaters Lane",
+                "way_points": [
+                  25,
+                  26
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Skaters Lane, straight ahead",
+                "name": "-",
+                "way_points": [
+                  26,
+                  26
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          26
+        ],
+        "summary": {
+          "distance": 1001.0,
+          "duration": 720.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -79.416757,
+            43.679228
+          ],
+          [
+            -79.416867,
+            43.679206
+          ],
+          [
+            -79.416843,
+            43.67914
+          ],
+          [
+            -79.416825,
+            43.679128
+          ],
+          [
+            -79.416705,
+            43.678807
+          ],
+          [
+            -79.416683,
+            43.678751
+          ],
+          [
+            -79.416663,
+            43.678699
+          ],
+          [
+            -79.41609,
+            43.677283
+          ],
+          [
+            -79.415944,
+            43.676828
+          ],
+          [
+            -79.415962,
+            43.676808
+          ],
+          [
+            -79.415901,
+            43.676696
+          ],
+          [
+            -79.415847,
+            43.676596
+          ],
+          [
+            -79.4158,
+            43.676542
+          ],
+          [
+            -79.415233,
+            43.675147
+          ],
+          [
+            -79.41456,
+            43.673386
+          ],
+          [
+            -79.414496,
+            43.673215
+          ],
+          [
+            -79.414878,
+            43.673114
+          ],
+          [
+            -79.414959,
+            43.673096
+          ],
+          [
+            -79.415765,
+            43.67293
+          ],
+          [
+            -79.416186,
+            43.672836
+          ],
+          [
+            -79.416682,
+            43.672728
+          ],
+          [
+            -79.416711,
+            43.672722
+          ],
+          [
+            -79.416773,
+            43.672708
+          ],
+          [
+            -79.416859,
+            43.672686
+          ],
+          [
+            -79.416885,
+            43.672677
+          ],
+          [
+            -79.417348,
+            43.67258
+          ],
+          [
+            -79.41754,
+            43.673075
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756124212785,
+    "query": {
+      "coordinates": [
+        [
+          -79.4167568,
+          43.6792284
+        ],
+        [
+          -79.4175363,
+          43.6730754
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

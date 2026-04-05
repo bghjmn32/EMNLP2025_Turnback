@@ -1,0 +1,188 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    103.774538,
+    1.337128,
+    103.777211,
+    1.339961
+  ],
+  "features": [
+    {
+      "bbox": [
+        103.774538,
+        1.337128,
+        103.777211,
+        1.339961
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 606.3,
+            "duration": 436.6,
+            "steps": [
+              {
+                "distance": 226.9,
+                "duration": 163.3,
+                "type": 11,
+                "instruction": "Head southeast",
+                "name": "-",
+                "way_points": [
+                  0,
+                  6
+                ]
+              },
+              {
+                "distance": 91.9,
+                "duration": 66.2,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 280.2,
+                "duration": 201.7,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  7,
+                  14
+                ]
+              },
+              {
+                "distance": 7.4,
+                "duration": 5.3,
+                "type": 0,
+                "instruction": "Turn left onto Kismis Avenue",
+                "name": "Kismis Avenue",
+                "way_points": [
+                  14,
+                  15
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Kismis Avenue, straight ahead",
+                "name": "-",
+                "way_points": [
+                  15,
+                  15
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          15
+        ],
+        "summary": {
+          "distance": 606.3,
+          "duration": 436.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            103.77592,
+            1.339961
+          ],
+          [
+            103.775975,
+            1.33992
+          ],
+          [
+            103.776381,
+            1.339535
+          ],
+          [
+            103.776811,
+            1.338959
+          ],
+          [
+            103.776829,
+            1.338934
+          ],
+          [
+            103.777165,
+            1.338461
+          ],
+          [
+            103.777211,
+            1.338393
+          ],
+          [
+            103.776849,
+            1.33765
+          ],
+          [
+            103.776614,
+            1.337696
+          ],
+          [
+            103.77606,
+            1.337709
+          ],
+          [
+            103.775829,
+            1.337693
+          ],
+          [
+            103.775459,
+            1.337307
+          ],
+          [
+            103.775212,
+            1.337141
+          ],
+          [
+            103.774783,
+            1.337216
+          ],
+          [
+            103.774558,
+            1.337192
+          ],
+          [
+            103.774538,
+            1.337128
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756391351208,
+    "query": {
+      "coordinates": [
+        [
+          103.7759195,
+          1.3399606
+        ],
+        [
+          103.7745382,
+          1.3371279
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

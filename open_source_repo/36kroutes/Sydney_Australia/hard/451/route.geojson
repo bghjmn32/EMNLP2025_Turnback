@@ -1,0 +1,220 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    150.966349,
+    -33.653554,
+    150.982912,
+    -33.642397
+  ],
+  "features": [
+    {
+      "bbox": [
+        150.966349,
+        -33.653554,
+        150.982912,
+        -33.642397
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 2480.4,
+            "duration": 1785.9,
+            "steps": [
+              {
+                "distance": 388.3,
+                "duration": 279.6,
+                "type": 11,
+                "instruction": "Head north on Fuggles Road",
+                "name": "Fuggles Road",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 1194.4,
+                "duration": 860.0,
+                "type": 0,
+                "instruction": "Turn left onto Fuggles Road",
+                "name": "Fuggles Road",
+                "way_points": [
+                  1,
+                  8
+                ]
+              },
+              {
+                "distance": 797.2,
+                "duration": 574.0,
+                "type": 0,
+                "instruction": "Turn left onto Binalong Road",
+                "name": "Binalong Road",
+                "way_points": [
+                  8,
+                  22
+                ]
+              },
+              {
+                "distance": 100.5,
+                "duration": 72.4,
+                "type": 0,
+                "instruction": "Turn left onto Orana Road",
+                "name": "Orana Road",
+                "way_points": [
+                  22,
+                  23
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Orana Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  23,
+                  23
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          23
+        ],
+        "summary": {
+          "distance": 2480.4,
+          "duration": 1785.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            150.982371,
+            -33.653554
+          ],
+          [
+            150.982912,
+            -33.650091
+          ],
+          [
+            150.978287,
+            -33.649524
+          ],
+          [
+            150.972324,
+            -33.648792
+          ],
+          [
+            150.972026,
+            -33.648719
+          ],
+          [
+            150.971939,
+            -33.648648
+          ],
+          [
+            150.971877,
+            -33.648597
+          ],
+          [
+            150.971865,
+            -33.648427
+          ],
+          [
+            150.972094,
+            -33.647212
+          ],
+          [
+            150.969862,
+            -33.647103
+          ],
+          [
+            150.969662,
+            -33.64706
+          ],
+          [
+            150.969496,
+            -33.64699
+          ],
+          [
+            150.969373,
+            -33.646899
+          ],
+          [
+            150.969041,
+            -33.64648
+          ],
+          [
+            150.968675,
+            -33.645872
+          ],
+          [
+            150.96846,
+            -33.645462
+          ],
+          [
+            150.968267,
+            -33.645211
+          ],
+          [
+            150.96801,
+            -33.64497
+          ],
+          [
+            150.967784,
+            -33.644649
+          ],
+          [
+            150.967505,
+            -33.643836
+          ],
+          [
+            150.967398,
+            -33.643291
+          ],
+          [
+            150.967397,
+            -33.642734
+          ],
+          [
+            150.967432,
+            -33.642468
+          ],
+          [
+            150.966349,
+            -33.642397
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756405046709,
+    "query": {
+      "coordinates": [
+        [
+          150.9823706,
+          -33.653554
+        ],
+        [
+          150.9663491,
+          -33.6423973
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

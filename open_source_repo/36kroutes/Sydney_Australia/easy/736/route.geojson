@@ -1,0 +1,228 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    150.910396,
+    -33.93207,
+    150.912224,
+    -33.928056
+  ],
+  "features": [
+    {
+      "bbox": [
+        150.910396,
+        -33.93207,
+        150.912224,
+        -33.928056
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 624.8,
+            "duration": 449.8,
+            "steps": [
+              {
+                "distance": 170.2,
+                "duration": 122.6,
+                "type": 11,
+                "instruction": "Head east",
+                "name": "-",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 89.1,
+                "duration": 64.2,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  3,
+                  5
+                ]
+              },
+              {
+                "distance": 8.3,
+                "duration": 6.0,
+                "type": 0,
+                "instruction": "Turn left onto Pearce Street",
+                "name": "Pearce Street",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 91.5,
+                "duration": 65.9,
+                "type": 1,
+                "instruction": "Turn right onto Gill Avenue",
+                "name": "Gill Avenue",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 209.0,
+                "duration": 150.5,
+                "type": 7,
+                "instruction": "Enter the roundabout and take the 2nd exit onto Gill Avenue",
+                "name": "Gill Avenue",
+                "exit_number": 2,
+                "way_points": [
+                  7,
+                  13
+                ]
+              },
+              {
+                "distance": 56.6,
+                "duration": 40.8,
+                "type": 7,
+                "instruction": "Enter the roundabout and take the 2nd exit onto Gill Avenue",
+                "name": "Gill Avenue",
+                "exit_number": 2,
+                "way_points": [
+                  13,
+                  19
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Gill Avenue, straight ahead",
+                "name": "-",
+                "way_points": [
+                  19,
+                  19
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          19
+        ],
+        "summary": {
+          "distance": 624.8,
+          "duration": 449.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            150.910396,
+            -33.928056
+          ],
+          [
+            150.911408,
+            -33.928119
+          ],
+          [
+            150.911991,
+            -33.928195
+          ],
+          [
+            150.912224,
+            -33.928244
+          ],
+          [
+            150.912088,
+            -33.928985
+          ],
+          [
+            150.912078,
+            -33.929036
+          ],
+          [
+            150.912167,
+            -33.929048
+          ],
+          [
+            150.911989,
+            -33.929857
+          ],
+          [
+            150.912047,
+            -33.929896
+          ],
+          [
+            150.912054,
+            -33.929927
+          ],
+          [
+            150.912024,
+            -33.929975
+          ],
+          [
+            150.911962,
+            -33.929989
+          ],
+          [
+            150.911755,
+            -33.930808
+          ],
+          [
+            150.911554,
+            -33.931633
+          ],
+          [
+            150.911498,
+            -33.931646
+          ],
+          [
+            150.911465,
+            -33.931686
+          ],
+          [
+            150.911485,
+            -33.931748
+          ],
+          [
+            150.911532,
+            -33.931769
+          ],
+          [
+            150.911529,
+            -33.931816
+          ],
+          [
+            150.911477,
+            -33.93207
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756394997280,
+    "query": {
+      "coordinates": [
+        [
+          150.9103961,
+          -33.9280556
+        ],
+        [
+          150.9114769,
+          -33.9320696
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

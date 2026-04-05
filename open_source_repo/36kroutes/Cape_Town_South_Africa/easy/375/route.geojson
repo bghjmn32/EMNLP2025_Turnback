@@ -1,0 +1,169 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.485297,
+    -33.814969,
+    18.48763,
+    -33.811832
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.485297,
+        -33.814969,
+        18.48763,
+        -33.811832
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 511.4,
+            "duration": 368.2,
+            "steps": [
+              {
+                "distance": 78.4,
+                "duration": 56.5,
+                "type": 11,
+                "instruction": "Head west on Blouzicht",
+                "name": "Blouzicht",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 322.7,
+                "duration": 232.4,
+                "type": 1,
+                "instruction": "Turn right onto Willow Road",
+                "name": "Willow Road",
+                "way_points": [
+                  3,
+                  11
+                ]
+              },
+              {
+                "distance": 110.2,
+                "duration": 79.3,
+                "type": 1,
+                "instruction": "Turn right onto Finch Way",
+                "name": "Finch Way",
+                "way_points": [
+                  11,
+                  13
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Finch Way, straight ahead",
+                "name": "-",
+                "way_points": [
+                  13,
+                  13
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          13
+        ],
+        "summary": {
+          "distance": 511.4,
+          "duration": 368.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.48763,
+            -33.814953
+          ],
+          [
+            18.487045,
+            -33.814969
+          ],
+          [
+            18.486899,
+            -33.814955
+          ],
+          [
+            18.486787,
+            -33.814929
+          ],
+          [
+            18.486863,
+            -33.814584
+          ],
+          [
+            18.486858,
+            -33.814418
+          ],
+          [
+            18.486793,
+            -33.814217
+          ],
+          [
+            18.486711,
+            -33.814097
+          ],
+          [
+            18.486516,
+            -33.813855
+          ],
+          [
+            18.486087,
+            -33.813353
+          ],
+          [
+            18.485698,
+            -33.812897
+          ],
+          [
+            18.485297,
+            -33.81243
+          ],
+          [
+            18.485873,
+            -33.812068
+          ],
+          [
+            18.486249,
+            -33.811832
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756804701889,
+    "query": {
+      "coordinates": [
+        [
+          18.4876298,
+          -33.8149531
+        ],
+        [
+          18.4862485,
+          -33.8118322
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.060954,
+    19.403043,
+    -99.059154,
+    19.409881
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.060954,
+        19.403043,
+        -99.059154,
+        19.409881
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 926.5,
+            "duration": 667.1,
+            "steps": [
+              {
+                "distance": 735.5,
+                "duration": 529.6,
+                "type": 11,
+                "instruction": "Head north on Calle 6",
+                "name": "Calle 6",
+                "way_points": [
+                  0,
+                  19
+                ]
+              },
+              {
+                "distance": 191.0,
+                "duration": 137.5,
+                "type": 0,
+                "instruction": "Turn left onto Avenida Norte",
+                "name": "Avenida Norte",
+                "way_points": [
+                  19,
+                  21
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Avenida Norte, straight ahead",
+                "name": "-",
+                "way_points": [
+                  21,
+                  21
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          21
+        ],
+        "summary": {
+          "distance": 926.5,
+          "duration": 667.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.059864,
+            19.403043
+          ],
+          [
+            -99.059832,
+            19.403321
+          ],
+          [
+            -99.059805,
+            19.403544
+          ],
+          [
+            -99.059795,
+            19.403606
+          ],
+          [
+            -99.059748,
+            19.404024
+          ],
+          [
+            -99.059732,
+            19.404156
+          ],
+          [
+            -99.059645,
+            19.404905
+          ],
+          [
+            -99.059644,
+            19.404941
+          ],
+          [
+            -99.059615,
+            19.405179
+          ],
+          [
+            -99.059539,
+            19.406002
+          ],
+          [
+            -99.059523,
+            19.406136
+          ],
+          [
+            -99.05949,
+            19.406449
+          ],
+          [
+            -99.059458,
+            19.406735
+          ],
+          [
+            -99.059418,
+            19.407105
+          ],
+          [
+            -99.059357,
+            19.407661
+          ],
+          [
+            -99.059274,
+            19.40851
+          ],
+          [
+            -99.059244,
+            19.408739
+          ],
+          [
+            -99.059199,
+            19.409189
+          ],
+          [
+            -99.059194,
+            19.409227
+          ],
+          [
+            -99.059154,
+            19.409623
+          ],
+          [
+            -99.059698,
+            19.409692
+          ],
+          [
+            -99.060954,
+            19.409881
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306938836,
+    "query": {
+      "coordinates": [
+        [
+          -99.0598644,
+          19.4030427
+        ],
+        [
+          -99.0609544,
+          19.409881
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

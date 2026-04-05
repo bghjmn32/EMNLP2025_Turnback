@@ -1,0 +1,189 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.698432,
+    -22.909456,
+    -43.69575,
+    -22.904583
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.698432,
+        -22.909456,
+        -43.69575,
+        -22.904583
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 882.5,
+            "duration": 635.4,
+            "steps": [
+              {
+                "distance": 99.0,
+                "duration": 71.3,
+                "type": 11,
+                "instruction": "Head south",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 253.6,
+                "duration": 182.6,
+                "type": 1,
+                "instruction": "Turn right onto Avenida João XXIII",
+                "name": "Avenida João XXIII",
+                "way_points": [
+                  1,
+                  5
+                ]
+              },
+              {
+                "distance": 529.9,
+                "duration": 381.5,
+                "type": 1,
+                "instruction": "Turn right onto Rua Um",
+                "name": "Rua Um",
+                "way_points": [
+                  5,
+                  18
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Rua Um, straight ahead",
+                "name": "-",
+                "way_points": [
+                  18,
+                  18
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          18
+        ],
+        "summary": {
+          "distance": 882.5,
+          "duration": 635.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.69575,
+            -22.908617
+          ],
+          [
+            -43.696073,
+            -22.909456
+          ],
+          [
+            -43.696685,
+            -22.909272
+          ],
+          [
+            -43.696938,
+            -22.909197
+          ],
+          [
+            -43.69742,
+            -22.909044
+          ],
+          [
+            -43.698432,
+            -22.908765
+          ],
+          [
+            -43.698111,
+            -22.908228
+          ],
+          [
+            -43.697917,
+            -22.907881
+          ],
+          [
+            -43.697725,
+            -22.907569
+          ],
+          [
+            -43.697536,
+            -22.907251
+          ],
+          [
+            -43.697333,
+            -22.906914
+          ],
+          [
+            -43.69714,
+            -22.906577
+          ],
+          [
+            -43.696958,
+            -22.906261
+          ],
+          [
+            -43.696761,
+            -22.905922
+          ],
+          [
+            -43.696565,
+            -22.905586
+          ],
+          [
+            -43.696368,
+            -22.905263
+          ],
+          [
+            -43.696267,
+            -22.905108
+          ],
+          [
+            -43.696217,
+            -22.905021
+          ],
+          [
+            -43.695951,
+            -22.904583
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756393770208,
+    "query": {
+      "coordinates": [
+        [
+          -43.6957502,
+          -22.908617
+        ],
+        [
+          -43.6959515,
+          -22.9045833
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

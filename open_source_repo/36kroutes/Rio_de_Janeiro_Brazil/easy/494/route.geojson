@@ -1,0 +1,169 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.491508,
+    -22.891824,
+    -43.488058,
+    -22.888221
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.491508,
+        -22.891824,
+        -43.488058,
+        -22.888221
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 601.9,
+            "duration": 433.4,
+            "steps": [
+              {
+                "distance": 124.1,
+                "duration": 89.3,
+                "type": 11,
+                "instruction": "Head north on Rua Guilherme Francisco Morais",
+                "name": "Rua Guilherme Francisco Morais",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 440.9,
+                "duration": 317.4,
+                "type": 1,
+                "instruction": "Turn right onto Estrada do Viegas",
+                "name": "Estrada do Viegas",
+                "way_points": [
+                  2,
+                  12
+                ]
+              },
+              {
+                "distance": 36.9,
+                "duration": 26.6,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  12,
+                  13
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  13,
+                  13
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          13
+        ],
+        "summary": {
+          "distance": 601.9,
+          "duration": 433.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.491161,
+            -22.891824
+          ],
+          [
+            -43.491381,
+            -22.891188
+          ],
+          [
+            -43.491508,
+            -22.890755
+          ],
+          [
+            -43.490851,
+            -22.890361
+          ],
+          [
+            -43.490603,
+            -22.890226
+          ],
+          [
+            -43.490171,
+            -22.889976
+          ],
+          [
+            -43.4896,
+            -22.889619
+          ],
+          [
+            -43.489293,
+            -22.889449
+          ],
+          [
+            -43.489091,
+            -22.889313
+          ],
+          [
+            -43.488692,
+            -22.88904
+          ],
+          [
+            -43.488504,
+            -22.888884
+          ],
+          [
+            -43.488146,
+            -22.888533
+          ],
+          [
+            -43.488058,
+            -22.888421
+          ],
+          [
+            -43.488346,
+            -22.888221
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756392801252,
+    "query": {
+      "coordinates": [
+        [
+          -43.4911606,
+          -22.8918236
+        ],
+        [
+          -43.4883459,
+          -22.8882214
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

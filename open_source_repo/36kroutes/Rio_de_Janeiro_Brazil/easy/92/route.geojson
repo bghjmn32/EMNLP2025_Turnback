@@ -1,0 +1,286 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.437241,
+    -22.992861,
+    -43.433487,
+    -22.988561
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.437241,
+        -22.992861,
+        -43.433487,
+        -22.988561
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 847.3,
+            "duration": 610.0,
+            "steps": [
+              {
+                "distance": 166.8,
+                "duration": 120.1,
+                "type": 11,
+                "instruction": "Head east on Condominio Residencial Pedra Do Calemba",
+                "name": "Condominio Residencial Pedra Do Calemba",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 22.8,
+                "duration": 16.4,
+                "type": 1,
+                "instruction": "Turn right onto Rua Professor Santos Moreira",
+                "name": "Rua Professor Santos Moreira",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 33.9,
+                "duration": 24.4,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 22.9,
+                "duration": 16.5,
+                "type": 0,
+                "instruction": "Turn left onto Rua F",
+                "name": "Rua F",
+                "way_points": [
+                  3,
+                  5
+                ]
+              },
+              {
+                "distance": 127.3,
+                "duration": 91.6,
+                "type": 13,
+                "instruction": "Keep right onto Rua F",
+                "name": "Rua F",
+                "way_points": [
+                  5,
+                  13
+                ]
+              },
+              {
+                "distance": 119.2,
+                "duration": 85.8,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  13,
+                  14
+                ]
+              },
+              {
+                "distance": 123.8,
+                "duration": 89.1,
+                "type": 1,
+                "instruction": "Turn right onto Rua E",
+                "name": "Rua E",
+                "way_points": [
+                  14,
+                  18
+                ]
+              },
+              {
+                "distance": 72.5,
+                "duration": 52.2,
+                "type": 0,
+                "instruction": "Turn left onto Avenida A",
+                "name": "Avenida A",
+                "way_points": [
+                  18,
+                  19
+                ]
+              },
+              {
+                "distance": 139.7,
+                "duration": 100.6,
+                "type": 13,
+                "instruction": "Keep right",
+                "name": "-",
+                "way_points": [
+                  19,
+                  22
+                ]
+              },
+              {
+                "distance": 18.5,
+                "duration": 13.3,
+                "type": 13,
+                "instruction": "Keep right",
+                "name": "-",
+                "way_points": [
+                  22,
+                  23
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  23,
+                  23
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          23
+        ],
+        "summary": {
+          "distance": 847.3,
+          "duration": 610.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.437241,
+            -22.992861
+          ],
+          [
+            -43.435654,
+            -22.992521
+          ],
+          [
+            -43.435592,
+            -22.992718
+          ],
+          [
+            -43.43527,
+            -22.992649
+          ],
+          [
+            -43.435303,
+            -22.992542
+          ],
+          [
+            -43.435285,
+            -22.992449
+          ],
+          [
+            -43.435247,
+            -22.992402
+          ],
+          [
+            -43.435175,
+            -22.992354
+          ],
+          [
+            -43.435022,
+            -22.992271
+          ],
+          [
+            -43.434973,
+            -22.992253
+          ],
+          [
+            -43.434701,
+            -22.992148
+          ],
+          [
+            -43.434637,
+            -22.992124
+          ],
+          [
+            -43.434369,
+            -22.99202
+          ],
+          [
+            -43.43418,
+            -22.991946
+          ],
+          [
+            -43.4346,
+            -22.990947
+          ],
+          [
+            -43.434486,
+            -22.990904
+          ],
+          [
+            -43.434151,
+            -22.990776
+          ],
+          [
+            -43.433811,
+            -22.990641
+          ],
+          [
+            -43.433487,
+            -22.990513
+          ],
+          [
+            -43.433758,
+            -22.989911
+          ],
+          [
+            -43.433711,
+            -22.989492
+          ],
+          [
+            -43.433721,
+            -22.989417
+          ],
+          [
+            -43.434032,
+            -22.988713
+          ],
+          [
+            -43.434103,
+            -22.988561
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756390530022,
+    "query": {
+      "coordinates": [
+        [
+          -43.4372411,
+          -22.9928612
+        ],
+        [
+          -43.4341029,
+          -22.9885607
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

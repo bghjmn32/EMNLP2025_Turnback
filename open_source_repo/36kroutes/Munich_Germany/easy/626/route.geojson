@@ -1,0 +1,277 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    11.571176,
+    48.096997,
+    11.574048,
+    48.103567
+  ],
+  "features": [
+    {
+      "bbox": [
+        11.571176,
+        48.096997,
+        11.574048,
+        48.103567
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 971.1,
+            "duration": 699.2,
+            "steps": [
+              {
+                "distance": 9.2,
+                "duration": 6.6,
+                "type": 11,
+                "instruction": "Head southeast on Grödner Straße",
+                "name": "Grödner Straße",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 529.1,
+                "duration": 380.9,
+                "type": 1,
+                "instruction": "Turn right onto Säbener Straße",
+                "name": "Säbener Straße",
+                "way_points": [
+                  1,
+                  11
+                ]
+              },
+              {
+                "distance": 7.6,
+                "duration": 5.5,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 194.5,
+                "duration": 140.0,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  12,
+                  18
+                ]
+              },
+              {
+                "distance": 88.9,
+                "duration": 64.0,
+                "type": 12,
+                "instruction": "Keep left",
+                "name": "-",
+                "way_points": [
+                  18,
+                  25
+                ]
+              },
+              {
+                "distance": 56.9,
+                "duration": 41.0,
+                "type": 6,
+                "instruction": "Continue straight onto Am Hollerbusch",
+                "name": "Am Hollerbusch",
+                "way_points": [
+                  25,
+                  27
+                ]
+              },
+              {
+                "distance": 84.8,
+                "duration": 61.1,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  27,
+                  29
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  29,
+                  29
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          29
+        ],
+        "summary": {
+          "distance": 971.1,
+          "duration": 699.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            11.572906,
+            48.103567
+          ],
+          [
+            11.573009,
+            48.103521
+          ],
+          [
+            11.57284,
+            48.103204
+          ],
+          [
+            11.572279,
+            48.10171
+          ],
+          [
+            11.572106,
+            48.101274
+          ],
+          [
+            11.572025,
+            48.10103
+          ],
+          [
+            11.572005,
+            48.100971
+          ],
+          [
+            11.571893,
+            48.100677
+          ],
+          [
+            11.571708,
+            48.100191
+          ],
+          [
+            11.571621,
+            48.09998
+          ],
+          [
+            11.571452,
+            48.099528
+          ],
+          [
+            11.571213,
+            48.098918
+          ],
+          [
+            11.571312,
+            48.098902
+          ],
+          [
+            11.571176,
+            48.098444
+          ],
+          [
+            11.571185,
+            48.098303
+          ],
+          [
+            11.57123,
+            48.098132
+          ],
+          [
+            11.571397,
+            48.097795
+          ],
+          [
+            11.571578,
+            48.097464
+          ],
+          [
+            11.571725,
+            48.097223
+          ],
+          [
+            11.571785,
+            48.097193
+          ],
+          [
+            11.571946,
+            48.097177
+          ],
+          [
+            11.571994,
+            48.097206
+          ],
+          [
+            11.572016,
+            48.097211
+          ],
+          [
+            11.572282,
+            48.097282
+          ],
+          [
+            11.572546,
+            48.097355
+          ],
+          [
+            11.572824,
+            48.097429
+          ],
+          [
+            11.573011,
+            48.09748
+          ],
+          [
+            11.573502,
+            48.097667
+          ],
+          [
+            11.573967,
+            48.097092
+          ],
+          [
+            11.574048,
+            48.096997
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756138576587,
+    "query": {
+      "coordinates": [
+        [
+          11.5729056,
+          48.1035666
+        ],
+        [
+          11.5740483,
+          48.0969965
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    174.84864,
+    -36.944553,
+    174.854454,
+    -36.943162
+  ],
+  "features": [
+    {
+      "bbox": [
+        174.84864,
+        -36.944553,
+        174.854454,
+        -36.943162
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 729.6,
+            "duration": 525.3,
+            "steps": [
+              {
+                "distance": 30.9,
+                "duration": 22.2,
+                "type": 11,
+                "instruction": "Head northwest",
+                "name": "-",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 45.5,
+                "duration": 32.8,
+                "type": 4,
+                "instruction": "Turn slight left onto Water Street",
+                "name": "Water Street",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 152.6,
+                "duration": 109.9,
+                "type": 1,
+                "instruction": "Turn right onto Water Street",
+                "name": "Water Street",
+                "way_points": [
+                  3,
+                  7
+                ]
+              },
+              {
+                "distance": 341.4,
+                "duration": 245.8,
+                "type": 0,
+                "instruction": "Turn left onto High Street",
+                "name": "High Street",
+                "way_points": [
+                  7,
+                  12
+                ]
+              },
+              {
+                "distance": 159.2,
+                "duration": 114.6,
+                "type": 1,
+                "instruction": "Turn right onto Hutton Street",
+                "name": "Hutton Street",
+                "way_points": [
+                  12,
+                  13
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Hutton Street, straight ahead",
+                "name": "-",
+                "way_points": [
+                  13,
+                  13
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          13
+        ],
+        "summary": {
+          "distance": 729.6,
+          "duration": 525.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            174.854454,
+            -36.944373
+          ],
+          [
+            174.85432,
+            -36.944315
+          ],
+          [
+            174.854128,
+            -36.944286
+          ],
+          [
+            174.85363,
+            -36.944381
+          ],
+          [
+            174.85329,
+            -36.944069
+          ],
+          [
+            174.852978,
+            -36.9438
+          ],
+          [
+            174.852803,
+            -36.943648
+          ],
+          [
+            174.852478,
+            -36.943364
+          ],
+          [
+            174.851564,
+            -36.944049
+          ],
+          [
+            174.851281,
+            -36.944176
+          ],
+          [
+            174.850815,
+            -36.944256
+          ],
+          [
+            174.850135,
+            -36.944348
+          ],
+          [
+            174.849068,
+            -36.944553
+          ],
+          [
+            174.84864,
+            -36.943162
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756375298855,
+    "query": {
+      "coordinates": [
+        [
+          174.8546735,
+          -36.9446894
+        ],
+        [
+          174.8486404,
+          -36.9431622
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

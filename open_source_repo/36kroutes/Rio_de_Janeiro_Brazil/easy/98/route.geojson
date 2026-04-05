@@ -1,0 +1,211 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.558875,
+    -22.928382,
+    -43.55657,
+    -22.922295
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.558875,
+        -22.928382,
+        -43.55657,
+        -22.922295
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1007.0,
+            "duration": 725.0,
+            "steps": [
+              {
+                "distance": 25.6,
+                "duration": 18.4,
+                "type": 11,
+                "instruction": "Head east on Rua Manjeiro",
+                "name": "Rua Manjeiro",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 350.7,
+                "duration": 252.5,
+                "type": 1,
+                "instruction": "Turn right onto Rua Macarau",
+                "name": "Rua Macarau",
+                "way_points": [
+                  1,
+                  3
+                ]
+              },
+              {
+                "distance": 283.0,
+                "duration": 203.8,
+                "type": 0,
+                "instruction": "Turn left onto Estrada Iaraquã",
+                "name": "Estrada Iaraquã",
+                "way_points": [
+                  3,
+                  14
+                ]
+              },
+              {
+                "distance": 198.0,
+                "duration": 142.5,
+                "type": 13,
+                "instruction": "Keep right onto Rua Soldado João Pimentel",
+                "name": "Rua Soldado João Pimentel",
+                "way_points": [
+                  14,
+                  17
+                ]
+              },
+              {
+                "distance": 149.7,
+                "duration": 107.8,
+                "type": 1,
+                "instruction": "Turn right onto Rua Soldado Hivil Miliato",
+                "name": "Rua Soldado Hivil Miliato",
+                "way_points": [
+                  17,
+                  18
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Rua Soldado Hivil Miliato, straight ahead",
+                "name": "-",
+                "way_points": [
+                  18,
+                  18
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          18
+        ],
+        "summary": {
+          "distance": 1007.0,
+          "duration": 725.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.558805,
+            -22.922295
+          ],
+          [
+            -43.558555,
+            -22.922308
+          ],
+          [
+            -43.558704,
+            -22.92355
+          ],
+          [
+            -43.558875,
+            -22.925448
+          ],
+          [
+            -43.558302,
+            -22.925465
+          ],
+          [
+            -43.558023,
+            -22.925481
+          ],
+          [
+            -43.557915,
+            -22.925492
+          ],
+          [
+            -43.557731,
+            -22.925536
+          ],
+          [
+            -43.557628,
+            -22.925579
+          ],
+          [
+            -43.557454,
+            -22.925694
+          ],
+          [
+            -43.557331,
+            -22.925815
+          ],
+          [
+            -43.557275,
+            -22.925876
+          ],
+          [
+            -43.556977,
+            -22.926215
+          ],
+          [
+            -43.55692,
+            -22.926277
+          ],
+          [
+            -43.556632,
+            -22.926603
+          ],
+          [
+            -43.556621,
+            -22.927096
+          ],
+          [
+            -43.556605,
+            -22.927724
+          ],
+          [
+            -43.55657,
+            -22.928382
+          ],
+          [
+            -43.558032,
+            -22.928369
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756390536188,
+    "query": {
+      "coordinates": [
+        [
+          -43.5588046,
+          -22.9222952
+        ],
+        [
+          -43.5580321,
+          -22.9283687
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

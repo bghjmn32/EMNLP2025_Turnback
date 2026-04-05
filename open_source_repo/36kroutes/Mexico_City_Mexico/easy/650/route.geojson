@@ -1,0 +1,236 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.173604,
+    19.450597,
+    -99.16853,
+    19.452914
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.173604,
+        19.450597,
+        -99.16853,
+        19.452914
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 795.0,
+            "duration": 572.4,
+            "steps": [
+              {
+                "distance": 104.9,
+                "duration": 75.5,
+                "type": 11,
+                "instruction": "Head north on Calle Plan de San Luis",
+                "name": "Calle Plan de San Luis",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 324.9,
+                "duration": 233.9,
+                "type": 0,
+                "instruction": "Turn left onto Calle Manuel Carpio",
+                "name": "Calle Manuel Carpio",
+                "way_points": [
+                  1,
+                  6
+                ]
+              },
+              {
+                "distance": 181.0,
+                "duration": 130.3,
+                "type": 0,
+                "instruction": "Turn left onto Calle Plan de Ayala",
+                "name": "Calle Plan de Ayala",
+                "way_points": [
+                  6,
+                  8
+                ]
+              },
+              {
+                "distance": 40.3,
+                "duration": 29.0,
+                "type": 0,
+                "instruction": "Turn left onto Calle Plan de Ayala",
+                "name": "Calle Plan de Ayala",
+                "way_points": [
+                  8,
+                  11
+                ]
+              },
+              {
+                "distance": 61.7,
+                "duration": 44.4,
+                "type": 1,
+                "instruction": "Turn right onto Calle Plan de Ayala",
+                "name": "Calle Plan de Ayala",
+                "way_points": [
+                  11,
+                  13
+                ]
+              },
+              {
+                "distance": 10.4,
+                "duration": 7.5,
+                "type": 1,
+                "instruction": "Turn right onto Calzada México - Tacuba",
+                "name": "Calzada México - Tacuba",
+                "way_points": [
+                  13,
+                  14
+                ]
+              },
+              {
+                "distance": 19.2,
+                "duration": 13.8,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  14,
+                  15
+                ]
+              },
+              {
+                "distance": 52.7,
+                "duration": 38.0,
+                "type": 13,
+                "instruction": "Keep right",
+                "name": "-",
+                "way_points": [
+                  15,
+                  16
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  16,
+                  16
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          16
+        ],
+        "summary": {
+          "distance": 795.0,
+          "duration": 572.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.168706,
+            19.451543
+          ],
+          [
+            -99.16853,
+            19.452472
+          ],
+          [
+            -99.168742,
+            19.452506
+          ],
+          [
+            -99.169475,
+            19.4526
+          ],
+          [
+            -99.170006,
+            19.452682
+          ],
+          [
+            -99.171111,
+            19.452843
+          ],
+          [
+            -99.171593,
+            19.452914
+          ],
+          [
+            -99.17253,
+            19.451856
+          ],
+          [
+            -99.1727,
+            19.451665
+          ],
+          [
+            -99.172648,
+            19.451614
+          ],
+          [
+            -99.172605,
+            19.451499
+          ],
+          [
+            -99.172635,
+            19.451331
+          ],
+          [
+            -99.173027,
+            19.451085
+          ],
+          [
+            -99.173128,
+            19.451028
+          ],
+          [
+            -99.173182,
+            19.451105
+          ],
+          [
+            -99.173309,
+            19.450981
+          ],
+          [
+            -99.173604,
+            19.450597
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306886396,
+    "query": {
+      "coordinates": [
+        [
+          -99.1687062,
+          19.4515432
+        ],
+        [
+          -99.1736039,
+          19.4505967
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

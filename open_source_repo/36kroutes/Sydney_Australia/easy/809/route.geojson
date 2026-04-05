@@ -1,0 +1,229 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    151.023345,
+    -33.93213,
+    151.026518,
+    -33.92683
+  ],
+  "features": [
+    {
+      "bbox": [
+        151.023345,
+        -33.93213,
+        151.026518,
+        -33.92683
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 673.9,
+            "duration": 485.2,
+            "steps": [
+              {
+                "distance": 207.6,
+                "duration": 149.5,
+                "type": 11,
+                "instruction": "Head northwest on Northam Avenue",
+                "name": "Northam Avenue",
+                "way_points": [
+                  0,
+                  5
+                ]
+              },
+              {
+                "distance": 22.2,
+                "duration": 16.0,
+                "type": 13,
+                "instruction": "Keep right onto Northam Avenue",
+                "name": "Northam Avenue",
+                "way_points": [
+                  5,
+                  7
+                ]
+              },
+              {
+                "distance": 409.7,
+                "duration": 295.0,
+                "type": 7,
+                "instruction": "Enter the roundabout and take the 3rd exit onto Northam Avenue",
+                "name": "Northam Avenue",
+                "exit_number": 3,
+                "way_points": [
+                  7,
+                  19
+                ]
+              },
+              {
+                "distance": 25.1,
+                "duration": 18.1,
+                "type": 12,
+                "instruction": "Keep left onto Northam Avenue",
+                "name": "Northam Avenue",
+                "way_points": [
+                  19,
+                  20
+                ]
+              },
+              {
+                "distance": 9.3,
+                "duration": 6.7,
+                "type": 7,
+                "instruction": "Enter the roundabout and take the 1st exit onto Shenton Avenue",
+                "name": "Shenton Avenue",
+                "exit_number": 1,
+                "way_points": [
+                  20,
+                  22
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Shenton Avenue, straight ahead",
+                "name": "-",
+                "way_points": [
+                  22,
+                  22
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          22
+        ],
+        "summary": {
+          "distance": 673.9,
+          "duration": 485.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            151.023358,
+            -33.93213
+          ],
+          [
+            151.023349,
+            -33.932117
+          ],
+          [
+            151.023345,
+            -33.932038
+          ],
+          [
+            151.023353,
+            -33.931887
+          ],
+          [
+            151.023572,
+            -33.931201
+          ],
+          [
+            151.02385,
+            -33.930318
+          ],
+          [
+            151.02392,
+            -33.930197
+          ],
+          [
+            151.023962,
+            -33.930142
+          ],
+          [
+            151.023987,
+            -33.930142
+          ],
+          [
+            151.02403,
+            -33.930122
+          ],
+          [
+            151.024049,
+            -33.930081
+          ],
+          [
+            151.024046,
+            -33.930069
+          ],
+          [
+            151.024088,
+            -33.929992
+          ],
+          [
+            151.024158,
+            -33.929863
+          ],
+          [
+            151.02477,
+            -33.929127
+          ],
+          [
+            151.024997,
+            -33.928866
+          ],
+          [
+            151.025438,
+            -33.928342
+          ],
+          [
+            151.025538,
+            -33.928226
+          ],
+          [
+            151.026151,
+            -33.927497
+          ],
+          [
+            151.026438,
+            -33.927109
+          ],
+          [
+            151.026518,
+            -33.926894
+          ],
+          [
+            151.026517,
+            -33.926881
+          ],
+          [
+            151.026458,
+            -33.92683
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756395350173,
+    "query": {
+      "coordinates": [
+        [
+          151.0233581,
+          -33.9321296
+        ],
+        [
+          151.0264579,
+          -33.9268299
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

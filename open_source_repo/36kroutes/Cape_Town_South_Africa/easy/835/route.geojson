@@ -1,0 +1,211 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.474409,
+    -34.01555,
+    18.479766,
+    -34.009806
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.474409,
+        -34.01555,
+        18.479766,
+        -34.009806
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 989.4,
+            "duration": 712.4,
+            "steps": [
+              {
+                "distance": 89.3,
+                "duration": 64.3,
+                "type": 11,
+                "instruction": "Head north on Milford Road",
+                "name": "Milford Road",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 147.0,
+                "duration": 105.9,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  4
+                ]
+              },
+              {
+                "distance": 553.7,
+                "duration": 398.7,
+                "type": 1,
+                "instruction": "Turn right onto Pluto Road",
+                "name": "Pluto Road",
+                "way_points": [
+                  4,
+                  14
+                ]
+              },
+              {
+                "distance": 87.9,
+                "duration": 63.3,
+                "type": 0,
+                "instruction": "Turn left onto Mortlake Road",
+                "name": "Mortlake Road",
+                "way_points": [
+                  14,
+                  15
+                ]
+              },
+              {
+                "distance": 111.4,
+                "duration": 80.2,
+                "type": 1,
+                "instruction": "Turn right onto Sussex Road",
+                "name": "Sussex Road",
+                "way_points": [
+                  15,
+                  18
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Sussex Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  18,
+                  18
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          18
+        ],
+        "summary": {
+          "distance": 989.4,
+          "duration": 712.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.479766,
+            -34.01555
+          ],
+          [
+            18.479484,
+            -34.014782
+          ],
+          [
+            18.479063,
+            -34.01481
+          ],
+          [
+            18.478679,
+            -34.014881
+          ],
+          [
+            18.477938,
+            -34.015081
+          ],
+          [
+            18.477839,
+            -34.014817
+          ],
+          [
+            18.477659,
+            -34.014433
+          ],
+          [
+            18.477418,
+            -34.013938
+          ],
+          [
+            18.477174,
+            -34.013436
+          ],
+          [
+            18.476911,
+            -34.012879
+          ],
+          [
+            18.476694,
+            -34.012433
+          ],
+          [
+            18.476655,
+            -34.012353
+          ],
+          [
+            18.476463,
+            -34.011959
+          ],
+          [
+            18.476244,
+            -34.011505
+          ],
+          [
+            18.475738,
+            -34.010448
+          ],
+          [
+            18.474851,
+            -34.010739
+          ],
+          [
+            18.474635,
+            -34.010279
+          ],
+          [
+            18.474441,
+            -34.009873
+          ],
+          [
+            18.474409,
+            -34.009806
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756805762730,
+    "query": {
+      "coordinates": [
+        [
+          18.4797662,
+          -34.0155501
+        ],
+        [
+          18.4744094,
+          -34.0098063
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

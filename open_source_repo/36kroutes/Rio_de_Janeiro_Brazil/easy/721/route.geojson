@@ -1,0 +1,157 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.384586,
+    -22.919141,
+    -43.381517,
+    -22.916731
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.384586,
+        -22.919141,
+        -43.381517,
+        -22.916731
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 569.5,
+            "duration": 410.0,
+            "steps": [
+              {
+                "distance": 9.7,
+                "duration": 6.9,
+                "type": 11,
+                "instruction": "Head south on Rua 674",
+                "name": "Rua 674",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 290.7,
+                "duration": 209.3,
+                "type": 0,
+                "instruction": "Turn left onto Avenida dos Mananciais",
+                "name": "Avenida dos Mananciais",
+                "way_points": [
+                  1,
+                  7
+                ]
+              },
+              {
+                "distance": 269.2,
+                "duration": 193.8,
+                "type": 1,
+                "instruction": "Turn right onto Rua Soldado Simplício de Lara",
+                "name": "Rua Soldado Simplício de Lara",
+                "way_points": [
+                  7,
+                  10
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Rua Soldado Simplício de Lara, straight ahead",
+                "name": "-",
+                "way_points": [
+                  10,
+                  10
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          10
+        ],
+        "summary": {
+          "distance": 569.5,
+          "duration": 410.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.384586,
+            -22.9169
+          ],
+          [
+            -43.384586,
+            -22.916987
+          ],
+          [
+            -43.38418,
+            -22.916952
+          ],
+          [
+            -43.383919,
+            -22.916923
+          ],
+          [
+            -43.383552,
+            -22.916892
+          ],
+          [
+            -43.382898,
+            -22.916832
+          ],
+          [
+            -43.381996,
+            -22.916749
+          ],
+          [
+            -43.381762,
+            -22.916731
+          ],
+          [
+            -43.381649,
+            -22.917661
+          ],
+          [
+            -43.381547,
+            -22.91873
+          ],
+          [
+            -43.381517,
+            -22.919141
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756394040806,
+    "query": {
+      "coordinates": [
+        [
+          -43.3845861,
+          -22.9169002
+        ],
+        [
+          -43.3815169,
+          -22.9191409
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

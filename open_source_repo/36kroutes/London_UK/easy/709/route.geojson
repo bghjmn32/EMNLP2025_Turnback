@@ -1,0 +1,192 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -0.024463,
+    51.44472,
+    -0.0215,
+    51.45007
+  ],
+  "features": [
+    {
+      "bbox": [
+        -0.024463,
+        51.44472,
+        -0.0215,
+        51.45007
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 724.8,
+            "duration": 521.9,
+            "steps": [
+              {
+                "distance": 75.4,
+                "duration": 54.3,
+                "type": 11,
+                "instruction": "Head west",
+                "name": "-",
+                "way_points": [
+                  0,
+                  4
+                ]
+              },
+              {
+                "distance": 30.0,
+                "duration": 21.6,
+                "type": 1,
+                "instruction": "Turn right onto Silvermere Road",
+                "name": "Silvermere Road",
+                "way_points": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "distance": 592.1,
+                "duration": 426.3,
+                "type": 0,
+                "instruction": "Turn left onto Doggett Road",
+                "name": "Doggett Road",
+                "way_points": [
+                  5,
+                  13
+                ]
+              },
+              {
+                "distance": 27.4,
+                "duration": 19.8,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  13,
+                  16
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  16,
+                  16
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          16
+        ],
+        "summary": {
+          "distance": 724.8,
+          "duration": 521.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -0.0215,
+            51.450068
+          ],
+          [
+            -0.02221,
+            51.45007
+          ],
+          [
+            -0.022313,
+            51.450046
+          ],
+          [
+            -0.02241,
+            51.449995
+          ],
+          [
+            -0.022488,
+            51.449922
+          ],
+          [
+            -0.02292,
+            51.449935
+          ],
+          [
+            -0.023604,
+            51.448449
+          ],
+          [
+            -0.023709,
+            51.448175
+          ],
+          [
+            -0.023824,
+            51.44788
+          ],
+          [
+            -0.023982,
+            51.447446
+          ],
+          [
+            -0.024152,
+            51.446905
+          ],
+          [
+            -0.024327,
+            51.446254
+          ],
+          [
+            -0.024137,
+            51.445032
+          ],
+          [
+            -0.024097,
+            51.444724
+          ],
+          [
+            -0.024216,
+            51.44472
+          ],
+          [
+            -0.024361,
+            51.444779
+          ],
+          [
+            -0.024463,
+            51.444792
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756828677663,
+    "query": {
+      "coordinates": [
+        [
+          -0.0214997,
+          51.450068
+        ],
+        [
+          -0.0244627,
+          51.4447923
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

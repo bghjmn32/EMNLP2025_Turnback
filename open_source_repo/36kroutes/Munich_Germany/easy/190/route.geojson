@@ -1,0 +1,261 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    11.546541,
+    48.211759,
+    11.557578,
+    48.214733
+  ],
+  "features": [
+    {
+      "bbox": [
+        11.546541,
+        48.211759,
+        11.557578,
+        48.214733
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 999.6,
+            "duration": 719.7,
+            "steps": [
+              {
+                "distance": 93.4,
+                "duration": 67.3,
+                "type": 11,
+                "instruction": "Head west",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 94.0,
+                "duration": 67.7,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  4
+                ]
+              },
+              {
+                "distance": 8.3,
+                "duration": 6.0,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "distance": 60.2,
+                "duration": 43.4,
+                "type": 1,
+                "instruction": "Turn right onto Ittlingerstraße",
+                "name": "Ittlingerstraße",
+                "way_points": [
+                  5,
+                  7
+                ]
+              },
+              {
+                "distance": 9.9,
+                "duration": 7.1,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  7,
+                  9
+                ]
+              },
+              {
+                "distance": 675.5,
+                "duration": 486.3,
+                "type": 13,
+                "instruction": "Keep right",
+                "name": "-",
+                "way_points": [
+                  9,
+                  23
+                ]
+              },
+              {
+                "distance": 58.3,
+                "duration": 42.0,
+                "type": 4,
+                "instruction": "Turn slight left onto Dülferstraße",
+                "name": "Dülferstraße",
+                "way_points": [
+                  23,
+                  25
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Dülferstraße, straight ahead",
+                "name": "-",
+                "way_points": [
+                  25,
+                  25
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          25
+        ],
+        "summary": {
+          "distance": 999.6,
+          "duration": 719.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            11.557578,
+            48.211759
+          ],
+          [
+            11.556319,
+            48.211799
+          ],
+          [
+            11.556321,
+            48.212205
+          ],
+          [
+            11.556306,
+            48.212236
+          ],
+          [
+            11.556328,
+            48.212642
+          ],
+          [
+            11.556216,
+            48.212644
+          ],
+          [
+            11.556254,
+            48.213034
+          ],
+          [
+            11.556282,
+            48.213184
+          ],
+          [
+            11.556209,
+            48.21319
+          ],
+          [
+            11.55615,
+            48.213197
+          ],
+          [
+            11.556119,
+            48.213201
+          ],
+          [
+            11.555792,
+            48.213243
+          ],
+          [
+            11.555674,
+            48.213259
+          ],
+          [
+            11.555139,
+            48.213342
+          ],
+          [
+            11.553807,
+            48.21352
+          ],
+          [
+            11.553555,
+            48.213549
+          ],
+          [
+            11.553428,
+            48.21357
+          ],
+          [
+            11.552105,
+            48.213788
+          ],
+          [
+            11.550699,
+            48.214055
+          ],
+          [
+            11.550146,
+            48.214162
+          ],
+          [
+            11.547954,
+            48.214578
+          ],
+          [
+            11.547598,
+            48.214625
+          ],
+          [
+            11.547484,
+            48.214638
+          ],
+          [
+            11.547326,
+            48.214693
+          ],
+          [
+            11.546994,
+            48.214714
+          ],
+          [
+            11.546541,
+            48.214733
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756137025489,
+    "query": {
+      "coordinates": [
+        [
+          11.5575784,
+          48.211759
+        ],
+        [
+          11.5465414,
+          48.2147329
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

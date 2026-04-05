@@ -1,0 +1,122 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.540776,
+    -33.883792,
+    18.550054,
+    -33.878881
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.540776,
+        -33.883792,
+        18.550054,
+        -33.878881
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1101.4,
+            "duration": 793.0,
+            "steps": [
+              {
+                "distance": 434.3,
+                "duration": 312.7,
+                "type": 11,
+                "instruction": "Head southwest on Montague Road",
+                "name": "Montague Road",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 667.1,
+                "duration": 480.3,
+                "type": 3,
+                "instruction": "Turn sharp right onto Akasia Substation",
+                "name": "Akasia Substation",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Akasia Substation, straight ahead",
+                "name": "-",
+                "way_points": [
+                  4,
+                  4
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          4
+        ],
+        "summary": {
+          "distance": 1101.4,
+          "duration": 793.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.550054,
+            -33.878881
+          ],
+          [
+            18.548447,
+            -33.880953
+          ],
+          [
+            18.547636,
+            -33.882028
+          ],
+          [
+            18.547737,
+            -33.88218
+          ],
+          [
+            18.540776,
+            -33.883792
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756805283216,
+    "query": {
+      "coordinates": [
+        [
+          18.5500535,
+          -33.8788813
+        ],
+        [
+          18.5407756,
+          -33.8837917
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

@@ -1,0 +1,222 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.126118,
+    19.428795,
+    -99.119574,
+    19.43365
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.126118,
+        19.428795,
+        -99.119574,
+        19.43365
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1209.4,
+            "duration": 870.8,
+            "steps": [
+              {
+                "distance": 39.9,
+                "duration": 28.7,
+                "type": 11,
+                "instruction": "Head west",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 77.6,
+                "duration": 55.9,
+                "type": 0,
+                "instruction": "Turn left onto Calle Margil",
+                "name": "Calle Margil",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 639.4,
+                "duration": 460.4,
+                "type": 0,
+                "instruction": "Turn left onto Calle Emiliano Zapata",
+                "name": "Calle Emiliano Zapata",
+                "way_points": [
+                  2,
+                  12
+                ]
+              },
+              {
+                "distance": 360.2,
+                "duration": 259.3,
+                "type": 1,
+                "instruction": "Turn right onto Calle Juan de la Granja",
+                "name": "Calle Juan de la Granja",
+                "way_points": [
+                  12,
+                  16
+                ]
+              },
+              {
+                "distance": 67.5,
+                "duration": 48.6,
+                "type": 0,
+                "instruction": "Turn left onto Calle la Candelaria",
+                "name": "Calle la Candelaria",
+                "way_points": [
+                  16,
+                  17
+                ]
+              },
+              {
+                "distance": 24.8,
+                "duration": 17.9,
+                "type": 1,
+                "instruction": "Turn right onto Avenida Congreso de la Unión, EJE 2 OTE",
+                "name": "Avenida Congreso de la Unión, EJE 2 OTE",
+                "way_points": [
+                  17,
+                  18
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Avenida Congreso de la Unión, EJE 2 OTE, straight ahead",
+                "name": "-",
+                "way_points": [
+                  18,
+                  18
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          18
+        ],
+        "summary": {
+          "distance": 1209.4,
+          "duration": 870.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.125639,
+            19.43362
+          ],
+          [
+            -99.126018,
+            19.43365
+          ],
+          [
+            -99.126118,
+            19.432958
+          ],
+          [
+            -99.125198,
+            19.432871
+          ],
+          [
+            -99.124512,
+            19.432801
+          ],
+          [
+            -99.123886,
+            19.432726
+          ],
+          [
+            -99.123182,
+            19.432648
+          ],
+          [
+            -99.122741,
+            19.432601
+          ],
+          [
+            -99.122376,
+            19.432564
+          ],
+          [
+            -99.122104,
+            19.432539
+          ],
+          [
+            -99.121205,
+            19.432446
+          ],
+          [
+            -99.121111,
+            19.432434
+          ],
+          [
+            -99.120059,
+            19.432317
+          ],
+          [
+            -99.120063,
+            19.432155
+          ],
+          [
+            -99.120069,
+            19.431623
+          ],
+          [
+            -99.120085,
+            19.430484
+          ],
+          [
+            -99.120214,
+            19.429084
+          ],
+          [
+            -99.119574,
+            19.429016
+          ],
+          [
+            -99.119606,
+            19.428795
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756311442284,
+    "query": {
+      "coordinates": [
+        [
+          -99.1256334,
+          19.4336621
+        ],
+        [
+          -99.1196059,
+          19.4287951
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

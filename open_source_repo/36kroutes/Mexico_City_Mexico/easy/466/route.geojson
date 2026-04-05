@@ -1,0 +1,165 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.00169,
+    19.260509,
+    -98.999179,
+    19.264592
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.00169,
+        19.260509,
+        -98.999179,
+        19.264592
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 544.5,
+            "duration": 392.0,
+            "steps": [
+              {
+                "distance": 29.8,
+                "duration": 21.5,
+                "type": 11,
+                "instruction": "Head southwest",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 27.4,
+                "duration": 19.7,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 487.3,
+                "duration": 350.9,
+                "type": 0,
+                "instruction": "Turn left onto Calzada de la Mónera",
+                "name": "Calzada de la Mónera",
+                "way_points": [
+                  2,
+                  12
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calzada de la Mónera, straight ahead",
+                "name": "-",
+                "way_points": [
+                  12,
+                  12
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          12
+        ],
+        "summary": {
+          "distance": 544.5,
+          "duration": 392.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -98.999179,
+            19.264592
+          ],
+          [
+            -98.999323,
+            19.264361
+          ],
+          [
+            -98.999583,
+            19.264372
+          ],
+          [
+            -98.999652,
+            19.263865
+          ],
+          [
+            -98.999712,
+            19.263715
+          ],
+          [
+            -98.999853,
+            19.263463
+          ],
+          [
+            -99.00039,
+            19.262581
+          ],
+          [
+            -99.000576,
+            19.262295
+          ],
+          [
+            -99.000769,
+            19.261978
+          ],
+          [
+            -99.000938,
+            19.261698
+          ],
+          [
+            -99.001192,
+            19.261297
+          ],
+          [
+            -99.001431,
+            19.260919
+          ],
+          [
+            -99.00169,
+            19.260509
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306180986,
+    "query": {
+      "coordinates": [
+        [
+          -98.9991791,
+          19.2645921
+        ],
+        [
+          -99.0016899,
+          19.2605087
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

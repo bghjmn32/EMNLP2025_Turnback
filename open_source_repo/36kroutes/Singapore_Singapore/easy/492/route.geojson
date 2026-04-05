@@ -1,0 +1,307 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    103.890744,
+    1.301102,
+    103.893454,
+    1.30837
+  ],
+  "features": [
+    {
+      "bbox": [
+        103.890744,
+        1.301102,
+        103.893454,
+        1.30837
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1150.6,
+            "duration": 828.4,
+            "steps": [
+              {
+                "distance": 28.3,
+                "duration": 20.4,
+                "type": 11,
+                "instruction": "Head west",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 31.9,
+                "duration": 23.0,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  4
+                ]
+              },
+              {
+                "distance": 69.7,
+                "duration": 50.2,
+                "type": 1,
+                "instruction": "Turn right onto Bournemouth Road",
+                "name": "Bournemouth Road",
+                "way_points": [
+                  4,
+                  6
+                ]
+              },
+              {
+                "distance": 5.9,
+                "duration": 4.2,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 239.4,
+                "duration": 172.4,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 704.9,
+                "duration": 507.5,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  8,
+                  27
+                ]
+              },
+              {
+                "distance": 8.7,
+                "duration": 6.2,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  27,
+                  29
+                ]
+              },
+              {
+                "distance": 2.7,
+                "duration": 1.9,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  29,
+                  30
+                ]
+              },
+              {
+                "distance": 59.1,
+                "duration": 42.5,
+                "type": 1,
+                "instruction": "Turn right onto Swanage Road",
+                "name": "Swanage Road",
+                "way_points": [
+                  30,
+                  31
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Swanage Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  31,
+                  31
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          31
+        ],
+        "summary": {
+          "distance": 1150.6,
+          "duration": 828.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            103.89106,
+            1.301146
+          ],
+          [
+            103.890809,
+            1.301102
+          ],
+          [
+            103.89078,
+            1.301249
+          ],
+          [
+            103.890759,
+            1.301312
+          ],
+          [
+            103.890744,
+            1.301381
+          ],
+          [
+            103.891203,
+            1.301478
+          ],
+          [
+            103.891357,
+            1.30151
+          ],
+          [
+            103.891347,
+            1.301562
+          ],
+          [
+            103.893454,
+            1.302009
+          ],
+          [
+            103.89321,
+            1.302766
+          ],
+          [
+            103.893194,
+            1.302845
+          ],
+          [
+            103.893187,
+            1.302894
+          ],
+          [
+            103.893184,
+            1.303098
+          ],
+          [
+            103.893119,
+            1.303704
+          ],
+          [
+            103.893114,
+            1.303749
+          ],
+          [
+            103.893109,
+            1.303814
+          ],
+          [
+            103.893069,
+            1.304311
+          ],
+          [
+            103.893061,
+            1.304575
+          ],
+          [
+            103.893057,
+            1.304624
+          ],
+          [
+            103.893053,
+            1.304657
+          ],
+          [
+            103.892918,
+            1.306499
+          ],
+          [
+            103.892915,
+            1.306524
+          ],
+          [
+            103.892911,
+            1.306576
+          ],
+          [
+            103.892866,
+            1.307141
+          ],
+          [
+            103.892823,
+            1.307726
+          ],
+          [
+            103.892819,
+            1.307781
+          ],
+          [
+            103.892817,
+            1.307814
+          ],
+          [
+            103.892787,
+            1.308292
+          ],
+          [
+            103.892821,
+            1.308296
+          ],
+          [
+            103.892864,
+            1.308301
+          ],
+          [
+            103.892863,
+            1.308325
+          ],
+          [
+            103.893392,
+            1.30837
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756392786629,
+    "query": {
+      "coordinates": [
+        [
+          103.8910596,
+          1.3011459
+        ],
+        [
+          103.8933921,
+          1.3083702
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

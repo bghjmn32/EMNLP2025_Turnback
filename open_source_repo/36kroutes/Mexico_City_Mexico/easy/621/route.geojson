@@ -1,0 +1,168 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.239482,
+    19.237847,
+    -99.235293,
+    19.242136
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.239482,
+        19.237847,
+        -99.235293,
+        19.242136
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 856.7,
+            "duration": 616.8,
+            "steps": [
+              {
+                "distance": 74.1,
+                "duration": 53.3,
+                "type": 11,
+                "instruction": "Head northwest on Carretera Picacho-Ajusco",
+                "name": "Carretera Picacho-Ajusco",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 322.6,
+                "duration": 232.3,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  2,
+                  7
+                ]
+              },
+              {
+                "distance": 253.0,
+                "duration": 182.2,
+                "type": 1,
+                "instruction": "Turn right onto Calle 4 de Mayo",
+                "name": "Calle 4 de Mayo",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 207.0,
+                "duration": 149.1,
+                "type": 0,
+                "instruction": "Turn left onto Carretera Picacho-Ajusco",
+                "name": "Carretera Picacho-Ajusco",
+                "way_points": [
+                  8,
+                  10
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Carretera Picacho-Ajusco, straight ahead",
+                "name": "-",
+                "way_points": [
+                  10,
+                  10
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          10
+        ],
+        "summary": {
+          "distance": 856.7,
+          "duration": 616.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.235293,
+            19.237847
+          ],
+          [
+            -99.235652,
+            19.238201
+          ],
+          [
+            -99.235776,
+            19.238332
+          ],
+          [
+            -99.236278,
+            19.238135
+          ],
+          [
+            -99.237512,
+            19.238226
+          ],
+          [
+            -99.237894,
+            19.238341
+          ],
+          [
+            -99.238118,
+            19.238408
+          ],
+          [
+            -99.238756,
+            19.23855
+          ],
+          [
+            -99.23816,
+            19.240755
+          ],
+          [
+            -99.239265,
+            19.241892
+          ],
+          [
+            -99.239482,
+            19.242136
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306792352,
+    "query": {
+      "coordinates": [
+        [
+          -99.2352927,
+          19.2378472
+        ],
+        [
+          -99.2394825,
+          19.2421359
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

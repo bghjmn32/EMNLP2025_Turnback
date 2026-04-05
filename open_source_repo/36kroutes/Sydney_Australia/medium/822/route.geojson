@@ -1,0 +1,243 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    150.929244,
+    -33.87653,
+    150.94464,
+    -33.874248
+  ],
+  "features": [
+    {
+      "bbox": [
+        150.929244,
+        -33.87653,
+        150.94464,
+        -33.874248
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1683.2,
+            "duration": 1211.9,
+            "steps": [
+              {
+                "distance": 10.2,
+                "duration": 7.4,
+                "type": 11,
+                "instruction": "Head west on Richardson Street",
+                "name": "Richardson Street",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 286.9,
+                "duration": 206.5,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  6
+                ]
+              },
+              {
+                "distance": 343.7,
+                "duration": 247.5,
+                "type": 1,
+                "instruction": "Turn right onto Wolseley Street",
+                "name": "Wolseley Street",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 8.3,
+                "duration": 6.0,
+                "type": 0,
+                "instruction": "Turn left onto Wenden Street",
+                "name": "Wenden Street",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 784.3,
+                "duration": 564.7,
+                "type": 1,
+                "instruction": "Turn right onto Margaret Street",
+                "name": "Margaret Street",
+                "way_points": [
+                  8,
+                  11
+                ]
+              },
+              {
+                "distance": 72.1,
+                "duration": 51.9,
+                "type": 0,
+                "instruction": "Turn left onto Maud Street",
+                "name": "Maud Street",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 14.4,
+                "duration": 10.4,
+                "type": 1,
+                "instruction": "Turn right onto Thorney Road",
+                "name": "Thorney Road",
+                "way_points": [
+                  12,
+                  13
+                ]
+              },
+              {
+                "distance": 8.9,
+                "duration": 6.4,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  13,
+                  14
+                ]
+              },
+              {
+                "distance": 154.4,
+                "duration": 111.1,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  14,
+                  15
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  15,
+                  15
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          15
+        ],
+        "summary": {
+          "distance": 1683.2,
+          "duration": 1211.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            150.94464,
+            -33.874263
+          ],
+          [
+            150.944531,
+            -33.874248
+          ],
+          [
+            150.94385,
+            -33.875334
+          ],
+          [
+            150.943814,
+            -33.875392
+          ],
+          [
+            150.943769,
+            -33.875466
+          ],
+          [
+            150.943117,
+            -33.876476
+          ],
+          [
+            150.943082,
+            -33.87653
+          ],
+          [
+            150.939409,
+            -33.876025
+          ],
+          [
+            150.939383,
+            -33.876097
+          ],
+          [
+            150.93641,
+            -33.875465
+          ],
+          [
+            150.933815,
+            -33.874903
+          ],
+          [
+            150.931157,
+            -33.874337
+          ],
+          [
+            150.93103,
+            -33.874978
+          ],
+          [
+            150.93088,
+            -33.874943
+          ],
+          [
+            150.930855,
+            -33.87502
+          ],
+          [
+            150.929244,
+            -33.874647
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756401444530,
+    "query": {
+      "coordinates": [
+        [
+          150.9446402,
+          -33.8742631
+        ],
+        [
+          150.9292444,
+          -33.8746471
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

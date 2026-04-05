@@ -1,0 +1,188 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.22833,
+    19.406142,
+    -99.221929,
+    19.408249
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.22833,
+        19.406142,
+        -99.221929,
+        19.408249
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 793.0,
+            "duration": 570.9,
+            "steps": [
+              {
+                "distance": 98.4,
+                "duration": 70.8,
+                "type": 11,
+                "instruction": "Head northeast on Calle Sierra Grande",
+                "name": "Calle Sierra Grande",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 344.4,
+                "duration": 247.9,
+                "type": 1,
+                "instruction": "Turn right onto Calle Monte Cáucaso",
+                "name": "Calle Monte Cáucaso",
+                "way_points": [
+                  1,
+                  6
+                ]
+              },
+              {
+                "distance": 338.8,
+                "duration": 244.0,
+                "type": 1,
+                "instruction": "Turn right onto Avenida Montes Auvernia",
+                "name": "Avenida Montes Auvernia",
+                "way_points": [
+                  6,
+                  14
+                ]
+              },
+              {
+                "distance": 11.4,
+                "duration": 8.2,
+                "type": 0,
+                "instruction": "Turn left onto Calle 730",
+                "name": "Calle 730",
+                "way_points": [
+                  14,
+                  15
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle 730, straight ahead",
+                "name": "-",
+                "way_points": [
+                  15,
+                  15
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          15
+        ],
+        "summary": {
+          "distance": 793.0,
+          "duration": 570.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.22833,
+            19.407624
+          ],
+          [
+            -99.227666,
+            19.408249
+          ],
+          [
+            -99.227042,
+            19.407937
+          ],
+          [
+            -99.22633,
+            19.407716
+          ],
+          [
+            -99.225662,
+            19.407512
+          ],
+          [
+            -99.224949,
+            19.407485
+          ],
+          [
+            -99.224713,
+            19.407803
+          ],
+          [
+            -99.224203,
+            19.407499
+          ],
+          [
+            -99.223826,
+            19.407253
+          ],
+          [
+            -99.223674,
+            19.407152
+          ],
+          [
+            -99.223523,
+            19.407065
+          ],
+          [
+            -99.223254,
+            19.406909
+          ],
+          [
+            -99.222804,
+            19.406621
+          ],
+          [
+            -99.222319,
+            19.406324
+          ],
+          [
+            -99.222005,
+            19.406142
+          ],
+          [
+            -99.221929,
+            19.406215
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306136682,
+    "query": {
+      "coordinates": [
+        [
+          -99.2283296,
+          19.407624
+        ],
+        [
+          -99.2219288,
+          19.4062153
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

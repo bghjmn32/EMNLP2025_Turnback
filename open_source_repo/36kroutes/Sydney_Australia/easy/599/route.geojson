@@ -1,0 +1,184 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    150.947464,
+    -33.937565,
+    150.950433,
+    -33.933844
+  ],
+  "features": [
+    {
+      "bbox": [
+        150.947464,
+        -33.937565,
+        150.950433,
+        -33.933844
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 635.2,
+            "duration": 457.3,
+            "steps": [
+              {
+                "distance": 11.7,
+                "duration": 8.4,
+                "type": 11,
+                "instruction": "Head east on Selway Avenue",
+                "name": "Selway Avenue",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 423.0,
+                "duration": 304.5,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  6
+                ]
+              },
+              {
+                "distance": 191.2,
+                "duration": 137.7,
+                "type": 3,
+                "instruction": "Turn sharp right",
+                "name": "-",
+                "way_points": [
+                  6,
+                  13
+                ]
+              },
+              {
+                "distance": 9.3,
+                "duration": 6.7,
+                "type": 0,
+                "instruction": "Turn left onto Curtis Crescent",
+                "name": "Curtis Crescent",
+                "way_points": [
+                  13,
+                  14
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Curtis Crescent, straight ahead",
+                "name": "-",
+                "way_points": [
+                  14,
+                  14
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          14
+        ],
+        "summary": {
+          "distance": 635.2,
+          "duration": 457.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            150.947464,
+            -33.937565
+          ],
+          [
+            150.947591,
+            -33.937559
+          ],
+          [
+            150.947587,
+            -33.937502
+          ],
+          [
+            150.947523,
+            -33.935954
+          ],
+          [
+            150.947562,
+            -33.935753
+          ],
+          [
+            150.947663,
+            -33.935519
+          ],
+          [
+            150.948362,
+            -33.933872
+          ],
+          [
+            150.948407,
+            -33.933898
+          ],
+          [
+            150.949218,
+            -33.933878
+          ],
+          [
+            150.949307,
+            -33.933876
+          ],
+          [
+            150.949375,
+            -33.933874
+          ],
+          [
+            150.949945,
+            -33.933857
+          ],
+          [
+            150.950332,
+            -33.933897
+          ],
+          [
+            150.950414,
+            -33.933926
+          ],
+          [
+            150.950433,
+            -33.933844
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756394085369,
+    "query": {
+      "coordinates": [
+        [
+          150.9474639,
+          -33.9375647
+        ],
+        [
+          150.9504327,
+          -33.9338439
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

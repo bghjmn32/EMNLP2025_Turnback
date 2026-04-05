@@ -1,0 +1,308 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    11.597549,
+    48.087606,
+    11.599389,
+    48.093443
+  ],
+  "features": [
+    {
+      "bbox": [
+        11.597549,
+        48.087606,
+        11.599389,
+        48.093443
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 750.8,
+            "duration": 540.6,
+            "steps": [
+              {
+                "distance": 366.4,
+                "duration": 263.8,
+                "type": 11,
+                "instruction": "Head north on Minnewitstraße",
+                "name": "Minnewitstraße",
+                "way_points": [
+                  0,
+                  13
+                ]
+              },
+              {
+                "distance": 4.9,
+                "duration": 3.5,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  13,
+                  14
+                ]
+              },
+              {
+                "distance": 127.6,
+                "duration": 91.9,
+                "type": 6,
+                "instruction": "Continue straight",
+                "name": "-",
+                "way_points": [
+                  14,
+                  20
+                ]
+              },
+              {
+                "distance": 22.3,
+                "duration": 16.1,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  20,
+                  22
+                ]
+              },
+              {
+                "distance": 8.8,
+                "duration": 6.4,
+                "type": 0,
+                "instruction": "Turn left onto Wikingerstraße",
+                "name": "Wikingerstraße",
+                "way_points": [
+                  22,
+                  24
+                ]
+              },
+              {
+                "distance": 7.1,
+                "duration": 5.1,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  24,
+                  26
+                ]
+              },
+              {
+                "distance": 9.1,
+                "duration": 6.6,
+                "type": 1,
+                "instruction": "Turn right onto Cincinnatistraße",
+                "name": "Cincinnatistraße",
+                "way_points": [
+                  26,
+                  28
+                ]
+              },
+              {
+                "distance": 204.6,
+                "duration": 147.3,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  28,
+                  34
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  34,
+                  34
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          34
+        ],
+        "summary": {
+          "distance": 750.8,
+          "duration": 540.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            11.599389,
+            48.087606
+          ],
+          [
+            11.599374,
+            48.087635
+          ],
+          [
+            11.599369,
+            48.087644
+          ],
+          [
+            11.599351,
+            48.087677
+          ],
+          [
+            11.599283,
+            48.087807
+          ],
+          [
+            11.599251,
+            48.087867
+          ],
+          [
+            11.598943,
+            48.088449
+          ],
+          [
+            11.598912,
+            48.088508
+          ],
+          [
+            11.598881,
+            48.088565
+          ],
+          [
+            11.598326,
+            48.089595
+          ],
+          [
+            11.59816,
+            48.089859
+          ],
+          [
+            11.598005,
+            48.090073
+          ],
+          [
+            11.59785,
+            48.090273
+          ],
+          [
+            11.597549,
+            48.090657
+          ],
+          [
+            11.597604,
+            48.09068
+          ],
+          [
+            11.597945,
+            48.090865
+          ],
+          [
+            11.598197,
+            48.090998
+          ],
+          [
+            11.598439,
+            48.091127
+          ],
+          [
+            11.598607,
+            48.091235
+          ],
+          [
+            11.598594,
+            48.091326
+          ],
+          [
+            11.598528,
+            48.091506
+          ],
+          [
+            11.598703,
+            48.091581
+          ],
+          [
+            11.598783,
+            48.091613
+          ],
+          [
+            11.598751,
+            48.091646
+          ],
+          [
+            11.598719,
+            48.09168
+          ],
+          [
+            11.598746,
+            48.091706
+          ],
+          [
+            11.598732,
+            48.091736
+          ],
+          [
+            11.598783,
+            48.09176
+          ],
+          [
+            11.598832,
+            48.091785
+          ],
+          [
+            11.598608,
+            48.091984
+          ],
+          [
+            11.598398,
+            48.092213
+          ],
+          [
+            11.598118,
+            48.092702
+          ],
+          [
+            11.59788,
+            48.093113
+          ],
+          [
+            11.597684,
+            48.093403
+          ],
+          [
+            11.597692,
+            48.093443
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756140317475,
+    "query": {
+      "coordinates": [
+        [
+          11.599389,
+          48.0876055
+        ],
+        [
+          11.597692,
+          48.0934425
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

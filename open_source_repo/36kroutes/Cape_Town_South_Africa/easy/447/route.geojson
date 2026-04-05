@@ -1,0 +1,251 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.507161,
+    -33.877059,
+    18.510369,
+    -33.871394
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.507161,
+        -33.877059,
+        18.510369,
+        -33.871394
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 862.7,
+            "duration": 621.1,
+            "steps": [
+              {
+                "distance": 30.3,
+                "duration": 21.8,
+                "type": 11,
+                "instruction": "Head west on Nautilus Way",
+                "name": "Nautilus Way",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 26.0,
+                "duration": 18.7,
+                "type": 1,
+                "instruction": "Turn right onto Nautilus Way",
+                "name": "Nautilus Way",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 192.7,
+                "duration": 138.8,
+                "type": 1,
+                "instruction": "Turn right onto Atlas Drive",
+                "name": "Atlas Drive",
+                "way_points": [
+                  3,
+                  10
+                ]
+              },
+              {
+                "distance": 555.0,
+                "duration": 399.6,
+                "type": 0,
+                "instruction": "Turn left onto Democracy Way",
+                "name": "Democracy Way",
+                "way_points": [
+                  10,
+                  27
+                ]
+              },
+              {
+                "distance": 58.8,
+                "duration": 42.3,
+                "type": 1,
+                "instruction": "Turn right onto Umthuma Crescent",
+                "name": "Umthuma Crescent",
+                "way_points": [
+                  27,
+                  28
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Umthuma Crescent, straight ahead",
+                "name": "-",
+                "way_points": [
+                  28,
+                  28
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          28
+        ],
+        "summary": {
+          "distance": 862.7,
+          "duration": 621.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.507703,
+            -33.877059
+          ],
+          [
+            18.507504,
+            -33.877032
+          ],
+          [
+            18.507382,
+            -33.877057
+          ],
+          [
+            18.507161,
+            -33.876913
+          ],
+          [
+            18.507476,
+            -33.876523
+          ],
+          [
+            18.507811,
+            -33.876126
+          ],
+          [
+            18.507876,
+            -33.87606
+          ],
+          [
+            18.507957,
+            -33.87603
+          ],
+          [
+            18.50804,
+            -33.876012
+          ],
+          [
+            18.508164,
+            -33.876015
+          ],
+          [
+            18.508691,
+            -33.876103
+          ],
+          [
+            18.508732,
+            -33.875776
+          ],
+          [
+            18.508722,
+            -33.875609
+          ],
+          [
+            18.508666,
+            -33.875409
+          ],
+          [
+            18.508554,
+            -33.874997
+          ],
+          [
+            18.508464,
+            -33.874638
+          ],
+          [
+            18.508402,
+            -33.874419
+          ],
+          [
+            18.508358,
+            -33.874242
+          ],
+          [
+            18.508394,
+            -33.874095
+          ],
+          [
+            18.508467,
+            -33.873957
+          ],
+          [
+            18.509034,
+            -33.873215
+          ],
+          [
+            18.50929,
+            -33.872889
+          ],
+          [
+            18.509413,
+            -33.872722
+          ],
+          [
+            18.509615,
+            -33.872445
+          ],
+          [
+            18.509845,
+            -33.872152
+          ],
+          [
+            18.509872,
+            -33.872006
+          ],
+          [
+            18.509835,
+            -33.87183
+          ],
+          [
+            18.509747,
+            -33.871507
+          ],
+          [
+            18.510369,
+            -33.871394
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756804844614,
+    "query": {
+      "coordinates": [
+        [
+          18.5077031,
+          -33.8770586
+        ],
+        [
+          18.5103688,
+          -33.871394
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

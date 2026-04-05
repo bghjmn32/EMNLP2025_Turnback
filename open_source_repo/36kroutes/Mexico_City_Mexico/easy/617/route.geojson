@@ -1,0 +1,193 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.235652,
+    19.237847,
+    -99.230244,
+    19.244765
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.235652,
+        19.237847,
+        -99.230244,
+        19.244765
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1136.3,
+            "duration": 818.1,
+            "steps": [
+              {
+                "distance": 54.5,
+                "duration": 39.2,
+                "type": 11,
+                "instruction": "Head northwest on Carretera Picacho-Ajusco",
+                "name": "Carretera Picacho-Ajusco",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 631.6,
+                "duration": 454.7,
+                "type": 3,
+                "instruction": "Turn sharp right onto Calle Tonatzin",
+                "name": "Calle Tonatzin",
+                "way_points": [
+                  1,
+                  11
+                ]
+              },
+              {
+                "distance": 450.2,
+                "duration": 324.1,
+                "type": 0,
+                "instruction": "Turn left onto Calle Tochtli",
+                "name": "Calle Tochtli",
+                "way_points": [
+                  11,
+                  19
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Tochtli, straight ahead",
+                "name": "-",
+                "way_points": [
+                  19,
+                  19
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          19
+        ],
+        "summary": {
+          "distance": 1136.3,
+          "duration": 818.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.235293,
+            19.237847
+          ],
+          [
+            -99.235652,
+            19.238201
+          ],
+          [
+            -99.235055,
+            19.238511
+          ],
+          [
+            -99.23406,
+            19.239028
+          ],
+          [
+            -99.23396,
+            19.239078
+          ],
+          [
+            -99.233311,
+            19.239404
+          ],
+          [
+            -99.233155,
+            19.239483
+          ],
+          [
+            -99.232785,
+            19.239669
+          ],
+          [
+            -99.23243,
+            19.239843
+          ],
+          [
+            -99.231716,
+            19.240206
+          ],
+          [
+            -99.231301,
+            19.240424
+          ],
+          [
+            -99.230369,
+            19.240916
+          ],
+          [
+            -99.230689,
+            19.241714
+          ],
+          [
+            -99.230953,
+            19.242392
+          ],
+          [
+            -99.23096,
+            19.242487
+          ],
+          [
+            -99.230823,
+            19.242849
+          ],
+          [
+            -99.230672,
+            19.243418
+          ],
+          [
+            -99.23041,
+            19.244158
+          ],
+          [
+            -99.230337,
+            19.244427
+          ],
+          [
+            -99.230244,
+            19.244765
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306748949,
+    "query": {
+      "coordinates": [
+        [
+          -99.2352927,
+          19.2378472
+        ],
+        [
+          -99.2302445,
+          19.244765
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

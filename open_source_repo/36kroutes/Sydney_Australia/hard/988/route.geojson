@@ -1,0 +1,250 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    151.036471,
+    -33.881163,
+    151.041201,
+    -33.865644
+  ],
+  "features": [
+    {
+      "bbox": [
+        151.036471,
+        -33.881163,
+        151.041201,
+        -33.865644
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1865.7,
+            "duration": 1343.3,
+            "steps": [
+              {
+                "distance": 1573.3,
+                "duration": 1132.8,
+                "type": 11,
+                "instruction": "Head north on Nottinghill Road",
+                "name": "Nottinghill Road",
+                "way_points": [
+                  0,
+                  14
+                ]
+              },
+              {
+                "distance": 16.7,
+                "duration": 12.1,
+                "type": 1,
+                "instruction": "Turn right onto Kerrs Road",
+                "name": "Kerrs Road",
+                "way_points": [
+                  14,
+                  15
+                ]
+              },
+              {
+                "distance": 9.1,
+                "duration": 6.6,
+                "type": 0,
+                "instruction": "Turn left onto Carroll Street",
+                "name": "Carroll Street",
+                "way_points": [
+                  15,
+                  16
+                ]
+              },
+              {
+                "distance": 105.9,
+                "duration": 76.2,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  16,
+                  21
+                ]
+              },
+              {
+                "distance": 113.2,
+                "duration": 81.5,
+                "type": 0,
+                "instruction": "Turn left onto Bank Street",
+                "name": "Bank Street",
+                "way_points": [
+                  21,
+                  23
+                ]
+              },
+              {
+                "distance": 47.4,
+                "duration": 34.1,
+                "type": 1,
+                "instruction": "Turn right onto Cook Street",
+                "name": "Cook Street",
+                "way_points": [
+                  23,
+                  25
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Cook Street, straight ahead",
+                "name": "-",
+                "way_points": [
+                  25,
+                  25
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          25
+        ],
+        "summary": {
+          "distance": 1865.7,
+          "duration": 1343.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            151.036471,
+            -33.881163
+          ],
+          [
+            151.036711,
+            -33.879974
+          ],
+          [
+            151.036771,
+            -33.879678
+          ],
+          [
+            151.037222,
+            -33.877496
+          ],
+          [
+            151.037831,
+            -33.874543
+          ],
+          [
+            151.038053,
+            -33.873462
+          ],
+          [
+            151.038407,
+            -33.871743
+          ],
+          [
+            151.038432,
+            -33.871618
+          ],
+          [
+            151.038556,
+            -33.871024
+          ],
+          [
+            151.038754,
+            -33.870085
+          ],
+          [
+            151.038828,
+            -33.869733
+          ],
+          [
+            151.038959,
+            -33.869108
+          ],
+          [
+            151.039197,
+            -33.867977
+          ],
+          [
+            151.039332,
+            -33.867306
+          ],
+          [
+            151.03935,
+            -33.867217
+          ],
+          [
+            151.039513,
+            -33.86715
+          ],
+          [
+            151.039487,
+            -33.867071
+          ],
+          [
+            151.039577,
+            -33.867035
+          ],
+          [
+            151.039592,
+            -33.867029
+          ],
+          [
+            151.039996,
+            -33.866865
+          ],
+          [
+            151.040397,
+            -33.866702
+          ],
+          [
+            151.040517,
+            -33.866652
+          ],
+          [
+            151.040678,
+            -33.865723
+          ],
+          [
+            151.040693,
+            -33.865644
+          ],
+          [
+            151.041117,
+            -33.865692
+          ],
+          [
+            151.041201,
+            -33.865704
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756407844868,
+    "query": {
+      "coordinates": [
+        [
+          151.0364711,
+          -33.8811633
+        ],
+        [
+          151.0412013,
+          -33.865704
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

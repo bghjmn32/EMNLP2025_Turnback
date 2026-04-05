@@ -1,0 +1,222 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.125264,
+    19.508815,
+    -99.124029,
+    19.513747
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.125264,
+        19.508815,
+        -99.124029,
+        19.513747
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 709.6,
+            "duration": 510.9,
+            "steps": [
+              {
+                "distance": 13.5,
+                "duration": 9.7,
+                "type": 11,
+                "instruction": "Head northwest",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 89.1,
+                "duration": 64.1,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  3
+                ]
+              },
+              {
+                "distance": 275.9,
+                "duration": 198.6,
+                "type": 3,
+                "instruction": "Turn sharp right onto Avenida Acueducto de Guadalupe",
+                "name": "Avenida Acueducto de Guadalupe",
+                "way_points": [
+                  3,
+                  10
+                ]
+              },
+              {
+                "distance": 7.5,
+                "duration": 5.4,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  10,
+                  11
+                ]
+              },
+              {
+                "distance": 115.5,
+                "duration": 83.2,
+                "type": 1,
+                "instruction": "Turn right onto Avenida Instituto Politécnico Nacional",
+                "name": "Avenida Instituto Politécnico Nacional",
+                "way_points": [
+                  11,
+                  16
+                ]
+              },
+              {
+                "distance": 208.2,
+                "duration": 149.9,
+                "type": 0,
+                "instruction": "Turn left onto Calle Santiago de Chile",
+                "name": "Calle Santiago de Chile",
+                "way_points": [
+                  16,
+                  18
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Santiago de Chile, straight ahead",
+                "name": "-",
+                "way_points": [
+                  18,
+                  18
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          18
+        ],
+        "summary": {
+          "distance": 709.6,
+          "duration": 510.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.125189,
+            19.513112
+          ],
+          [
+            -99.125264,
+            19.513211
+          ],
+          [
+            -99.124759,
+            19.513645
+          ],
+          [
+            -99.124632,
+            19.513747
+          ],
+          [
+            -99.124249,
+            19.513003
+          ],
+          [
+            -99.124213,
+            19.512898
+          ],
+          [
+            -99.12421,
+            19.512783
+          ],
+          [
+            -99.12423,
+            19.512639
+          ],
+          [
+            -99.124367,
+            19.512025
+          ],
+          [
+            -99.124493,
+            19.511551
+          ],
+          [
+            -99.124552,
+            19.511393
+          ],
+          [
+            -99.124487,
+            19.511366
+          ],
+          [
+            -99.124507,
+            19.511219
+          ],
+          [
+            -99.124435,
+            19.511018
+          ],
+          [
+            -99.124455,
+            19.510931
+          ],
+          [
+            -99.124625,
+            19.510764
+          ],
+          [
+            -99.124887,
+            19.510504
+          ],
+          [
+            -99.12445,
+            19.509662
+          ],
+          [
+            -99.124029,
+            19.508815
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756305771280,
+    "query": {
+      "coordinates": [
+        [
+          -99.1251892,
+          19.5131116
+        ],
+        [
+          -99.1240291,
+          19.5088152
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.197647,
+    19.455242,
+    -99.194927,
+    19.461785
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.197647,
+        19.455242,
+        -99.194927,
+        19.461785
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1067.5,
+            "duration": 768.6,
+            "steps": [
+              {
+                "distance": 22.5,
+                "duration": 16.2,
+                "type": 11,
+                "instruction": "Head northwest",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 109.8,
+                "duration": 79.1,
+                "type": 1,
+                "instruction": "Turn right onto Calzada Legaria",
+                "name": "Calzada Legaria",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 81.3,
+                "duration": 58.5,
+                "type": 2,
+                "instruction": "Turn sharp left onto Calle Lago Izabal",
+                "name": "Calle Lago Izabal",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 93.4,
+                "duration": 67.3,
+                "type": 1,
+                "instruction": "Turn right onto Calle Lago Ayarza",
+                "name": "Calle Lago Ayarza",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 247.2,
+                "duration": 178.0,
+                "type": 0,
+                "instruction": "Turn left onto Calle Lago Poo",
+                "name": "Calle Lago Poo",
+                "way_points": [
+                  4,
+                  8
+                ]
+              },
+              {
+                "distance": 457.7,
+                "duration": 329.6,
+                "type": 1,
+                "instruction": "Turn right onto Calle Lago Tana",
+                "name": "Calle Lago Tana",
+                "way_points": [
+                  8,
+                  12
+                ]
+              },
+              {
+                "distance": 55.6,
+                "duration": 40.0,
+                "type": 0,
+                "instruction": "Turn left onto Calle Lago Gascasónica",
+                "name": "Calle Lago Gascasónica",
+                "way_points": [
+                  12,
+                  13
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Lago Gascasónica, straight ahead",
+                "name": "-",
+                "way_points": [
+                  13,
+                  13
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          13
+        ],
+        "summary": {
+          "distance": 1067.5,
+          "duration": 768.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.195645,
+            19.455242
+          ],
+          [
+            -99.19578,
+            19.455399
+          ],
+          [
+            -99.194927,
+            19.455972
+          ],
+          [
+            -99.195671,
+            19.456178
+          ],
+          [
+            -99.195415,
+            19.456982
+          ],
+          [
+            -99.196091,
+            19.457204
+          ],
+          [
+            -99.196663,
+            19.457382
+          ],
+          [
+            -99.197173,
+            19.457551
+          ],
+          [
+            -99.197647,
+            19.457701
+          ],
+          [
+            -99.197241,
+            19.458818
+          ],
+          [
+            -99.197206,
+            19.458941
+          ],
+          [
+            -99.196747,
+            19.460551
+          ],
+          [
+            -99.196431,
+            19.461652
+          ],
+          [
+            -99.196942,
+            19.461785
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306485234,
+    "query": {
+      "coordinates": [
+        [
+          -99.195645,
+          19.4552421
+        ],
+        [
+          -99.196942,
+          19.4617851
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

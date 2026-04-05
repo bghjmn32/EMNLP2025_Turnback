@@ -1,0 +1,187 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.604462,
+    -22.886524,
+    -43.603197,
+    -22.88268
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.604462,
+        -22.886524,
+        -43.603197,
+        -22.88268
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 600.6,
+            "duration": 432.4,
+            "steps": [
+              {
+                "distance": 180.9,
+                "duration": 130.2,
+                "type": 11,
+                "instruction": "Head southwest on Rua D",
+                "name": "Rua D",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 118.9,
+                "duration": 85.6,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  2,
+                  4
+                ]
+              },
+              {
+                "distance": 217.2,
+                "duration": 156.4,
+                "type": 1,
+                "instruction": "Turn right onto Estrada do Encanamento",
+                "name": "Estrada do Encanamento",
+                "way_points": [
+                  4,
+                  6
+                ]
+              },
+              {
+                "distance": 14.7,
+                "duration": 10.6,
+                "type": 0,
+                "instruction": "Turn left onto Estrada do Encanamento",
+                "name": "Estrada do Encanamento",
+                "way_points": [
+                  6,
+                  8
+                ]
+              },
+              {
+                "distance": 68.9,
+                "duration": 49.6,
+                "type": 4,
+                "instruction": "Turn slight left onto Estrada do Campinho",
+                "name": "Estrada do Campinho",
+                "way_points": [
+                  8,
+                  12
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Estrada do Campinho, straight ahead",
+                "name": "-",
+                "way_points": [
+                  12,
+                  12
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          12
+        ],
+        "summary": {
+          "distance": 600.6,
+          "duration": 432.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.603406,
+            -22.88268
+          ],
+          [
+            -43.603625,
+            -22.883089
+          ],
+          [
+            -43.604139,
+            -22.88416
+          ],
+          [
+            -43.603724,
+            -22.884399
+          ],
+          [
+            -43.603197,
+            -22.884781
+          ],
+          [
+            -43.603871,
+            -22.88559
+          ],
+          [
+            -43.604462,
+            -22.886348
+          ],
+          [
+            -43.604445,
+            -22.886411
+          ],
+          [
+            -43.604395,
+            -22.88646
+          ],
+          [
+            -43.604252,
+            -22.886501
+          ],
+          [
+            -43.604036,
+            -22.886524
+          ],
+          [
+            -43.603901,
+            -22.886509
+          ],
+          [
+            -43.603733,
+            -22.886492
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756392209406,
+    "query": {
+      "coordinates": [
+        [
+          -43.6034062,
+          -22.8826803
+        ],
+        [
+          -43.6037329,
+          -22.8864921
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

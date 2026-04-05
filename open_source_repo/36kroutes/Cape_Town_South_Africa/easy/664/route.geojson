@@ -1,0 +1,196 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.490213,
+    -33.858791,
+    18.496501,
+    -33.854971
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.490213,
+        -33.858791,
+        18.496501,
+        -33.854971
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 925.4,
+            "duration": 666.3,
+            "steps": [
+              {
+                "distance": 39.2,
+                "duration": 28.2,
+                "type": 11,
+                "instruction": "Head north",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 56.2,
+                "duration": 40.5,
+                "type": 1,
+                "instruction": "Turn right onto Isabella Drive",
+                "name": "Isabella Drive",
+                "way_points": [
+                  1,
+                  4
+                ]
+              },
+              {
+                "distance": 410.7,
+                "duration": 295.7,
+                "type": 0,
+                "instruction": "Turn left onto Bay Beach Avenue",
+                "name": "Bay Beach Avenue",
+                "way_points": [
+                  4,
+                  9
+                ]
+              },
+              {
+                "distance": 419.3,
+                "duration": 301.9,
+                "type": 1,
+                "instruction": "Turn right onto Ocean Way",
+                "name": "Ocean Way",
+                "way_points": [
+                  9,
+                  17
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Ocean Way, straight ahead",
+                "name": "-",
+                "way_points": [
+                  17,
+                  17
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          17
+        ],
+        "summary": {
+          "distance": 925.4,
+          "duration": 666.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.490213,
+            -33.858791
+          ],
+          [
+            18.490213,
+            -33.858439
+          ],
+          [
+            18.490296,
+            -33.858439
+          ],
+          [
+            18.490543,
+            -33.858441
+          ],
+          [
+            18.490822,
+            -33.858448
+          ],
+          [
+            18.491383,
+            -33.857502
+          ],
+          [
+            18.491769,
+            -33.856866
+          ],
+          [
+            18.491911,
+            -33.856618
+          ],
+          [
+            18.491963,
+            -33.856434
+          ],
+          [
+            18.491976,
+            -33.854971
+          ],
+          [
+            18.492627,
+            -33.855067
+          ],
+          [
+            18.49489,
+            -33.855085
+          ],
+          [
+            18.495105,
+            -33.855086
+          ],
+          [
+            18.495481,
+            -33.855086
+          ],
+          [
+            18.49596,
+            -33.855086
+          ],
+          [
+            18.495995,
+            -33.855083
+          ],
+          [
+            18.496374,
+            -33.855037
+          ],
+          [
+            18.496501,
+            -33.855024
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756805361432,
+    "query": {
+      "coordinates": [
+        [
+          18.4902127,
+          -33.8587912
+        ],
+        [
+          18.4965009,
+          -33.8550237
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

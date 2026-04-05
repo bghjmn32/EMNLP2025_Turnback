@@ -1,0 +1,145 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.013312,
+    19.285312,
+    -99.010163,
+    19.289727
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.013312,
+        19.285312,
+        -99.010163,
+        19.289727
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 786.7,
+            "duration": 566.5,
+            "steps": [
+              {
+                "distance": 220.8,
+                "duration": 159.0,
+                "type": 11,
+                "instruction": "Head north on Calle Vicente Castañeda",
+                "name": "Calle Vicente Castañeda",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 334.5,
+                "duration": 240.9,
+                "type": 0,
+                "instruction": "Turn left onto Calle Juan Andreu Almazán",
+                "name": "Calle Juan Andreu Almazán",
+                "way_points": [
+                  2,
+                  5
+                ]
+              },
+              {
+                "distance": 231.4,
+                "duration": 166.6,
+                "type": 1,
+                "instruction": "Turn right onto Calle Álvaro Obregón",
+                "name": "Calle Álvaro Obregón",
+                "way_points": [
+                  5,
+                  7
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Álvaro Obregón, straight ahead",
+                "name": "-",
+                "way_points": [
+                  7,
+                  7
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          7
+        ],
+        "summary": {
+          "distance": 786.7,
+          "duration": 566.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.01087,
+            19.285312
+          ],
+          [
+            -99.01041,
+            19.28652
+          ],
+          [
+            -99.010163,
+            19.287182
+          ],
+          [
+            -99.010878,
+            19.287293
+          ],
+          [
+            -99.012094,
+            19.287465
+          ],
+          [
+            -99.013312,
+            19.287647
+          ],
+          [
+            -99.013271,
+            19.288687
+          ],
+          [
+            -99.013235,
+            19.289727
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756307510123,
+    "query": {
+      "coordinates": [
+        [
+          -99.0108699,
+          19.2853123
+        ],
+        [
+          -99.0132349,
+          19.2897265
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

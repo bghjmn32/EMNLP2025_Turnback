@@ -1,0 +1,186 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.010878,
+    19.285312,
+    -99.009203,
+    19.291211
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.010878,
+        19.285312,
+        -99.009203,
+        19.291211
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 900.6,
+            "duration": 648.4,
+            "steps": [
+              {
+                "distance": 220.8,
+                "duration": 159.0,
+                "type": 11,
+                "instruction": "Head north on Calle Vicente Castañeda",
+                "name": "Calle Vicente Castañeda",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 76.1,
+                "duration": 54.8,
+                "type": 0,
+                "instruction": "Turn left onto Calle Juan Andreu Almazán",
+                "name": "Calle Juan Andreu Almazán",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 340.1,
+                "duration": 244.9,
+                "type": 1,
+                "instruction": "Turn right onto Calle Jesús González Ortega",
+                "name": "Calle Jesús González Ortega",
+                "way_points": [
+                  3,
+                  6
+                ]
+              },
+              {
+                "distance": 124.0,
+                "duration": 89.3,
+                "type": 1,
+                "instruction": "Turn right onto Calle Felipe Ángeles",
+                "name": "Calle Felipe Ángeles",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 113.7,
+                "duration": 81.8,
+                "type": 0,
+                "instruction": "Turn left onto Calle Montes de las Cordilleras",
+                "name": "Calle Montes de las Cordilleras",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 26.0,
+                "duration": 18.7,
+                "type": 1,
+                "instruction": "Turn right onto Calle Ojo de Agua",
+                "name": "Calle Ojo de Agua",
+                "way_points": [
+                  8,
+                  9
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Ojo de Agua, straight ahead",
+                "name": "-",
+                "way_points": [
+                  9,
+                  9
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          9
+        ],
+        "summary": {
+          "distance": 900.6,
+          "duration": 648.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.01087,
+            19.285312
+          ],
+          [
+            -99.01041,
+            19.28652
+          ],
+          [
+            -99.010163,
+            19.287182
+          ],
+          [
+            -99.010878,
+            19.287293
+          ],
+          [
+            -99.010835,
+            19.288349
+          ],
+          [
+            -99.010776,
+            19.289363
+          ],
+          [
+            -99.010729,
+            19.290348
+          ],
+          [
+            -99.009559,
+            19.290194
+          ],
+          [
+            -99.009448,
+            19.291211
+          ],
+          [
+            -99.009203,
+            19.291181
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756307508978,
+    "query": {
+      "coordinates": [
+        [
+          -99.0108699,
+          19.2853123
+        ],
+        [
+          -99.0092027,
+          19.2911811
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.25235,
+    19.388816,
+    -99.248423,
+    19.390638
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.25235,
+        19.388816,
+        -99.248423,
+        19.390638
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 688.0,
+            "duration": 495.3,
+            "steps": [
+              {
+                "distance": 172.7,
+                "duration": 124.3,
+                "type": 11,
+                "instruction": "Head north on Paseo de las Lilas",
+                "name": "Paseo de las Lilas",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 69.1,
+                "duration": 49.7,
+                "type": 7,
+                "instruction": "Enter the roundabout and take the 1st exit onto Paseo de los Laureles",
+                "name": "Paseo de los Laureles",
+                "exit_number": 1,
+                "way_points": [
+                  2,
+                  4
+                ]
+              },
+              {
+                "distance": 15.5,
+                "duration": 11.2,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  4,
+                  6
+                ]
+              },
+              {
+                "distance": 25.2,
+                "duration": 18.1,
+                "type": 0,
+                "instruction": "Turn left onto Paseo de los Laureles",
+                "name": "Paseo de los Laureles",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 136.8,
+                "duration": 98.5,
+                "type": 13,
+                "instruction": "Keep right",
+                "name": "-",
+                "way_points": [
+                  7,
+                  13
+                ]
+              },
+              {
+                "distance": 100.8,
+                "duration": 72.6,
+                "type": 0,
+                "instruction": "Turn left onto Calle Paseo de los Tamarindos",
+                "name": "Calle Paseo de los Tamarindos",
+                "way_points": [
+                  13,
+                  14
+                ]
+              },
+              {
+                "distance": 167.9,
+                "duration": 120.9,
+                "type": 3,
+                "instruction": "Turn sharp right",
+                "name": "-",
+                "way_points": [
+                  14,
+                  20
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  20,
+                  20
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          20
+        ],
+        "summary": {
+          "distance": 688.0,
+          "duration": 495.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.248423,
+            19.388816
+          ],
+          [
+            -99.248426,
+            19.388858
+          ],
+          [
+            -99.248499,
+            19.390368
+          ],
+          [
+            -99.248544,
+            19.390414
+          ],
+          [
+            -99.249136,
+            19.390412
+          ],
+          [
+            -99.249128,
+            19.390467
+          ],
+          [
+            -99.249162,
+            19.390544
+          ],
+          [
+            -99.249401,
+            19.390523
+          ],
+          [
+            -99.249584,
+            19.390615
+          ],
+          [
+            -99.249725,
+            19.390638
+          ],
+          [
+            -99.25033,
+            19.390563
+          ],
+          [
+            -99.250477,
+            19.390568
+          ],
+          [
+            -99.250566,
+            19.390596
+          ],
+          [
+            -99.250664,
+            19.390625
+          ],
+          [
+            -99.250935,
+            19.389755
+          ],
+          [
+            -99.251001,
+            19.389933
+          ],
+          [
+            -99.251052,
+            19.389988
+          ],
+          [
+            -99.25115,
+            19.390046
+          ],
+          [
+            -99.251383,
+            19.390098
+          ],
+          [
+            -99.252095,
+            19.390065
+          ],
+          [
+            -99.25235,
+            19.390083
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756307705741,
+    "query": {
+      "coordinates": [
+        [
+          -99.2484226,
+          19.3888162
+        ],
+        [
+          -99.2523496,
+          19.3900831
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

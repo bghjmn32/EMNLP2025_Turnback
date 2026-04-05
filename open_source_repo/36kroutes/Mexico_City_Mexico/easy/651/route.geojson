@@ -1,0 +1,203 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.168706,
+    19.448538,
+    -99.162115,
+    19.452472
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.168706,
+        19.448538,
+        -99.162115,
+        19.452472
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1137.9,
+            "duration": 819.3,
+            "steps": [
+              {
+                "distance": 104.9,
+                "duration": 75.5,
+                "type": 11,
+                "instruction": "Head north on Calle Plan de San Luis",
+                "name": "Calle Plan de San Luis",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 371.1,
+                "duration": 267.2,
+                "type": 1,
+                "instruction": "Turn right onto Calle Manuel Carpio",
+                "name": "Calle Manuel Carpio",
+                "way_points": [
+                  1,
+                  9
+                ]
+              },
+              {
+                "distance": 201.7,
+                "duration": 145.2,
+                "type": 1,
+                "instruction": "Turn right onto Calle Lauro Aguirre",
+                "name": "Calle Lauro Aguirre",
+                "way_points": [
+                  9,
+                  10
+                ]
+              },
+              {
+                "distance": 341.0,
+                "duration": 245.5,
+                "type": 0,
+                "instruction": "Turn left onto Avenida Salvador Díaz Mirón",
+                "name": "Avenida Salvador Díaz Mirón",
+                "way_points": [
+                  10,
+                  14
+                ]
+              },
+              {
+                "distance": 119.2,
+                "duration": 85.8,
+                "type": 1,
+                "instruction": "Turn right onto Calle Cedro",
+                "name": "Calle Cedro",
+                "way_points": [
+                  14,
+                  16
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Cedro, straight ahead",
+                "name": "-",
+                "way_points": [
+                  16,
+                  16
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          16
+        ],
+        "summary": {
+          "distance": 1137.9,
+          "duration": 819.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.168706,
+            19.451543
+          ],
+          [
+            -99.16853,
+            19.452472
+          ],
+          [
+            -99.168454,
+            19.45246
+          ],
+          [
+            -99.16763,
+            19.452349
+          ],
+          [
+            -99.166527,
+            19.452197
+          ],
+          [
+            -99.16643,
+            19.452182
+          ],
+          [
+            -99.16602,
+            19.452111
+          ],
+          [
+            -99.165403,
+            19.452005
+          ],
+          [
+            -99.165164,
+            19.451964
+          ],
+          [
+            -99.165035,
+            19.451944
+          ],
+          [
+            -99.165314,
+            19.450149
+          ],
+          [
+            -99.164459,
+            19.449998
+          ],
+          [
+            -99.164096,
+            19.449927
+          ],
+          [
+            -99.16353,
+            19.44983
+          ],
+          [
+            -99.162115,
+            19.449594
+          ],
+          [
+            -99.162233,
+            19.448973
+          ],
+          [
+            -99.162307,
+            19.448538
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306886586,
+    "query": {
+      "coordinates": [
+        [
+          -99.1687062,
+          19.4515432
+        ],
+        [
+          -99.1623074,
+          19.4485379
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

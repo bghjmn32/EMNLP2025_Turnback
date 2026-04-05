@@ -1,0 +1,197 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.524951,
+    -33.873968,
+    18.527088,
+    -33.86402
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.524951,
+        -33.873968,
+        18.527088,
+        -33.86402
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1166.1,
+            "duration": 839.6,
+            "steps": [
+              {
+                "distance": 29.6,
+                "duration": 21.3,
+                "type": 11,
+                "instruction": "Head east on Engine Avenue",
+                "name": "Engine Avenue",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 21.0,
+                "duration": 15.1,
+                "type": 12,
+                "instruction": "Keep left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 1115.5,
+                "duration": 803.2,
+                "type": 0,
+                "instruction": "Turn left onto Railway Road",
+                "name": "Railway Road",
+                "way_points": [
+                  2,
+                  20
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Railway Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  20,
+                  20
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          20
+        ],
+        "summary": {
+          "distance": 1166.1,
+          "duration": 839.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.524951,
+            -33.873888
+          ],
+          [
+            18.525257,
+            -33.873968
+          ],
+          [
+            18.52547,
+            -33.873902
+          ],
+          [
+            18.525666,
+            -33.873218
+          ],
+          [
+            18.526107,
+            -33.87164
+          ],
+          [
+            18.526164,
+            -33.871466
+          ],
+          [
+            18.526229,
+            -33.871304
+          ],
+          [
+            18.526442,
+            -33.870511
+          ],
+          [
+            18.526501,
+            -33.870277
+          ],
+          [
+            18.526564,
+            -33.869764
+          ],
+          [
+            18.526569,
+            -33.869535
+          ],
+          [
+            18.526531,
+            -33.869092
+          ],
+          [
+            18.526501,
+            -33.868773
+          ],
+          [
+            18.526433,
+            -33.868216
+          ],
+          [
+            18.526424,
+            -33.867795
+          ],
+          [
+            18.526439,
+            -33.867526
+          ],
+          [
+            18.526623,
+            -33.866478
+          ],
+          [
+            18.526668,
+            -33.86624
+          ],
+          [
+            18.526774,
+            -33.865704
+          ],
+          [
+            18.526981,
+            -33.864601
+          ],
+          [
+            18.527088,
+            -33.86402
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756805644030,
+    "query": {
+      "coordinates": [
+        [
+          18.5249512,
+          -33.8738883
+        ],
+        [
+          18.5270884,
+          -33.86402
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

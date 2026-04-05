@@ -1,0 +1,222 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.499262,
+    -33.938432,
+    18.50385,
+    -33.933803
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.499262,
+        -33.938432,
+        18.50385,
+        -33.933803
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 769.8,
+            "duration": 554.2,
+            "steps": [
+              {
+                "distance": 15.5,
+                "duration": 11.1,
+                "type": 11,
+                "instruction": "Head south on Union Avenue",
+                "name": "Union Avenue",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 436.9,
+                "duration": 314.5,
+                "type": 7,
+                "instruction": "Enter the roundabout and take the 3rd exit onto Union Avenue",
+                "name": "Union Avenue",
+                "exit_number": 3,
+                "way_points": [
+                  1,
+                  13
+                ]
+              },
+              {
+                "distance": 86.4,
+                "duration": 62.2,
+                "type": 7,
+                "instruction": "Enter the roundabout and take the 1st exit onto Uitvlugt Road",
+                "name": "Uitvlugt Road",
+                "exit_number": 1,
+                "way_points": [
+                  13,
+                  17
+                ]
+              },
+              {
+                "distance": 231.0,
+                "duration": 166.3,
+                "type": 1,
+                "instruction": "Turn right onto Ridge Way",
+                "name": "Ridge Way",
+                "way_points": [
+                  17,
+                  23
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Ridge Way, straight ahead",
+                "name": "-",
+                "way_points": [
+                  23,
+                  23
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          23
+        ],
+        "summary": {
+          "distance": 769.8,
+          "duration": 554.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.50385,
+            -33.933803
+          ],
+          [
+            18.503797,
+            -33.933936
+          ],
+          [
+            18.503799,
+            -33.933955
+          ],
+          [
+            18.503762,
+            -33.934021
+          ],
+          [
+            18.503713,
+            -33.934041
+          ],
+          [
+            18.503659,
+            -33.934039
+          ],
+          [
+            18.503588,
+            -33.934066
+          ],
+          [
+            18.503454,
+            -33.934183
+          ],
+          [
+            18.50312,
+            -33.934482
+          ],
+          [
+            18.502365,
+            -33.935162
+          ],
+          [
+            18.502107,
+            -33.935398
+          ],
+          [
+            18.501975,
+            -33.935518
+          ],
+          [
+            18.500686,
+            -33.936669
+          ],
+          [
+            18.500608,
+            -33.936788
+          ],
+          [
+            18.500594,
+            -33.936855
+          ],
+          [
+            18.500569,
+            -33.936883
+          ],
+          [
+            18.501059,
+            -33.937238
+          ],
+          [
+            18.501198,
+            -33.937307
+          ],
+          [
+            18.500561,
+            -33.937885
+          ],
+          [
+            18.500041,
+            -33.938352
+          ],
+          [
+            18.499941,
+            -33.938394
+          ],
+          [
+            18.499857,
+            -33.938409
+          ],
+          [
+            18.499658,
+            -33.938416
+          ],
+          [
+            18.499262,
+            -33.938432
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756806018042,
+    "query": {
+      "coordinates": [
+        [
+          18.5038496,
+          -33.9338035
+        ],
+        [
+          18.499262,
+          -33.9384322
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

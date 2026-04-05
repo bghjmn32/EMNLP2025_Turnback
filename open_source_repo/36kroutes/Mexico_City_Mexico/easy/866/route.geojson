@@ -1,0 +1,191 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.211077,
+    19.454571,
+    -99.206778,
+    19.45586
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.211077,
+        19.454571,
+        -99.206778,
+        19.45586
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 637.4,
+            "duration": 459.0,
+            "steps": [
+              {
+                "distance": 144.5,
+                "duration": 104.1,
+                "type": 11,
+                "instruction": "Head south on Privada Ángel Silva",
+                "name": "Privada Ángel Silva",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 311.4,
+                "duration": 224.2,
+                "type": 1,
+                "instruction": "Turn right onto Calle Ignacio Allende",
+                "name": "Calle Ignacio Allende",
+                "way_points": [
+                  2,
+                  6
+                ]
+              },
+              {
+                "distance": 44.3,
+                "duration": 31.9,
+                "type": 1,
+                "instruction": "Turn right onto Calle General Aristas",
+                "name": "Calle General Aristas",
+                "way_points": [
+                  6,
+                  8
+                ]
+              },
+              {
+                "distance": 113.5,
+                "duration": 81.7,
+                "type": 0,
+                "instruction": "Turn left onto Calzada México Tacuba",
+                "name": "Calzada México Tacuba",
+                "way_points": [
+                  8,
+                  10
+                ]
+              },
+              {
+                "distance": 23.7,
+                "duration": 17.1,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  10,
+                  13
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  13,
+                  13
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          13
+        ],
+        "summary": {
+          "distance": 637.4,
+          "duration": 459.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.206778,
+            19.45586
+          ],
+          [
+            -99.206806,
+            19.455603
+          ],
+          [
+            -99.206951,
+            19.454571
+          ],
+          [
+            -99.207076,
+            19.454599
+          ],
+          [
+            -99.207903,
+            19.454772
+          ],
+          [
+            -99.208733,
+            19.454998
+          ],
+          [
+            -99.209823,
+            19.455279
+          ],
+          [
+            -99.209851,
+            19.455436
+          ],
+          [
+            -99.209973,
+            19.455646
+          ],
+          [
+            -99.210765,
+            19.455452
+          ],
+          [
+            -99.211029,
+            19.455431
+          ],
+          [
+            -99.211029,
+            19.455571
+          ],
+          [
+            -99.211045,
+            19.455605
+          ],
+          [
+            -99.211077,
+            19.455624
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756308018726,
+    "query": {
+      "coordinates": [
+        [
+          -99.2067778,
+          19.45586
+        ],
+        [
+          -99.2110772,
+          19.4556241
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

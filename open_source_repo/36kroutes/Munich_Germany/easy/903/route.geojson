@@ -1,0 +1,272 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    11.609403,
+    48.136872,
+    11.61503,
+    48.140732
+  ],
+  "features": [
+    {
+      "bbox": [
+        11.609403,
+        48.136872,
+        11.61503,
+        48.140732
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 800.9,
+            "duration": 576.7,
+            "steps": [
+              {
+                "distance": 115.0,
+                "duration": 82.8,
+                "type": 11,
+                "instruction": "Head southeast",
+                "name": "-",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 4.9,
+                "duration": 3.5,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 7.3,
+                "duration": 5.2,
+                "type": 1,
+                "instruction": "Turn right onto Stuckstraße",
+                "name": "Stuckstraße",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 381.7,
+                "duration": 274.9,
+                "type": 2,
+                "instruction": "Turn sharp left onto Zaubzerstraße",
+                "name": "Zaubzerstraße",
+                "way_points": [
+                  4,
+                  12
+                ]
+              },
+              {
+                "distance": 107.5,
+                "duration": 77.4,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  12,
+                  18
+                ]
+              },
+              {
+                "distance": 143.8,
+                "duration": 103.6,
+                "type": 5,
+                "instruction": "Turn slight right onto Leuchtenbergring",
+                "name": "Leuchtenbergring",
+                "way_points": [
+                  18,
+                  21
+                ]
+              },
+              {
+                "distance": 22.6,
+                "duration": 16.3,
+                "type": 0,
+                "instruction": "Turn left onto Einsteinstraße",
+                "name": "Einsteinstraße",
+                "way_points": [
+                  21,
+                  23
+                ]
+              },
+              {
+                "distance": 18.1,
+                "duration": 13.0,
+                "type": 1,
+                "instruction": "Turn right onto Leuchtenbergring, B 2R",
+                "name": "Leuchtenbergring, B 2R",
+                "way_points": [
+                  23,
+                  25
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Leuchtenbergring, B 2R, straight ahead",
+                "name": "-",
+                "way_points": [
+                  25,
+                  25
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          25
+        ],
+        "summary": {
+          "distance": 800.9,
+          "duration": 576.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            11.609403,
+            48.140732
+          ],
+          [
+            11.609685,
+            48.140457
+          ],
+          [
+            11.609464,
+            48.139772
+          ],
+          [
+            11.609529,
+            48.139764
+          ],
+          [
+            11.60949,
+            48.139703
+          ],
+          [
+            11.609588,
+            48.139691
+          ],
+          [
+            11.612026,
+            48.139388
+          ],
+          [
+            11.612344,
+            48.139363
+          ],
+          [
+            11.613172,
+            48.139295
+          ],
+          [
+            11.613299,
+            48.139285
+          ],
+          [
+            11.613375,
+            48.139282
+          ],
+          [
+            11.613977,
+            48.139264
+          ],
+          [
+            11.61458,
+            48.139242
+          ],
+          [
+            11.614578,
+            48.139203
+          ],
+          [
+            11.614577,
+            48.139172
+          ],
+          [
+            11.614514,
+            48.138878
+          ],
+          [
+            11.614486,
+            48.138563
+          ],
+          [
+            11.614482,
+            48.138336
+          ],
+          [
+            11.614526,
+            48.138288
+          ],
+          [
+            11.614501,
+            48.138175
+          ],
+          [
+            11.614487,
+            48.138081
+          ],
+          [
+            11.614651,
+            48.137001
+          ],
+          [
+            11.614797,
+            48.137013
+          ],
+          [
+            11.614953,
+            48.137026
+          ],
+          [
+            11.614984,
+            48.136959
+          ],
+          [
+            11.61503,
+            48.136872
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756139557133,
+    "query": {
+      "coordinates": [
+        [
+          11.6094028,
+          48.1407319
+        ],
+        [
+          11.6150315,
+          48.1368723
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

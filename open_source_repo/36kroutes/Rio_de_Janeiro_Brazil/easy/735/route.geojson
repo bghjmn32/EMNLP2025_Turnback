@@ -1,0 +1,193 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.392784,
+    -22.890193,
+    -43.390119,
+    -22.886954
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.392784,
+        -22.890193,
+        -43.390119,
+        -22.886954
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 646.8,
+            "duration": 465.7,
+            "steps": [
+              {
+                "distance": 90.3,
+                "duration": 65.0,
+                "type": 11,
+                "instruction": "Head north on Rua João Carvalhal",
+                "name": "Rua João Carvalhal",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 32.4,
+                "duration": 23.4,
+                "type": 1,
+                "instruction": "Turn right onto Rua Teófilo Guimarães",
+                "name": "Rua Teófilo Guimarães",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 183.8,
+                "duration": 132.3,
+                "type": 0,
+                "instruction": "Turn left onto Rua Antônio de Mendonça",
+                "name": "Rua Antônio de Mendonça",
+                "way_points": [
+                  2,
+                  4
+                ]
+              },
+              {
+                "distance": 32.2,
+                "duration": 23.2,
+                "type": 0,
+                "instruction": "Turn left onto Rua Olímpio de Castro",
+                "name": "Rua Olímpio de Castro",
+                "way_points": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "distance": 91.7,
+                "duration": 66.0,
+                "type": 1,
+                "instruction": "Turn right onto Rua Heitor de Amorim",
+                "name": "Rua Heitor de Amorim",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 206.5,
+                "duration": 148.7,
+                "type": 1,
+                "instruction": "Turn right onto Avenida Albérico Diniz",
+                "name": "Avenida Albérico Diniz",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 10.0,
+                "duration": 7.2,
+                "type": 0,
+                "instruction": "Turn left onto Rua Pacífico Pereira",
+                "name": "Rua Pacífico Pereira",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Rua Pacífico Pereira, straight ahead",
+                "name": "-",
+                "way_points": [
+                  8,
+                  8
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          8
+        ],
+        "summary": {
+          "distance": 646.8,
+          "duration": 465.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.392784,
+            -22.890193
+          ],
+          [
+            -43.392615,
+            -22.889397
+          ],
+          [
+            -43.392302,
+            -22.889446
+          ],
+          [
+            -43.392132,
+            -22.888632
+          ],
+          [
+            -43.391975,
+            -22.887821
+          ],
+          [
+            -43.392283,
+            -22.887764
+          ],
+          [
+            -43.392119,
+            -22.886954
+          ],
+          [
+            -43.390137,
+            -22.887293
+          ],
+          [
+            -43.390119,
+            -22.887205
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756394104862,
+    "query": {
+      "coordinates": [
+        [
+          -43.3927845,
+          -22.8901932
+        ],
+        [
+          -43.3901194,
+          -22.8872051
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

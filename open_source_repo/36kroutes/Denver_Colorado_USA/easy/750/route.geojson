@@ -1,0 +1,145 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -104.858227,
+    39.71117,
+    -104.850776,
+    39.711289
+  ],
+  "features": [
+    {
+      "bbox": [
+        -104.858227,
+        39.71117,
+        -104.850776,
+        39.711289
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 652.2,
+            "duration": 469.6,
+            "steps": [
+              {
+                "distance": 7.1,
+                "duration": 5.1,
+                "type": 11,
+                "instruction": "Head north on South Nome Street",
+                "name": "South Nome Street",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 637.3,
+                "duration": 458.9,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  6
+                ]
+              },
+              {
+                "distance": 7.9,
+                "duration": 5.7,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  7,
+                  7
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          7
+        ],
+        "summary": {
+          "distance": 652.2,
+          "duration": 469.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -104.850776,
+            39.711225
+          ],
+          [
+            -104.850777,
+            39.711289
+          ],
+          [
+            -104.854568,
+            39.711271
+          ],
+          [
+            -104.854654,
+            39.711272
+          ],
+          [
+            -104.854767,
+            39.711272
+          ],
+          [
+            -104.85657,
+            39.711252
+          ],
+          [
+            -104.858227,
+            39.711241
+          ],
+          [
+            -104.858226,
+            39.71117
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306898596,
+    "query": {
+      "coordinates": [
+        [
+          -104.8507763,
+          39.7112253
+        ],
+        [
+          -104.8582262,
+          39.7111702
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

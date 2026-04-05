@@ -1,0 +1,297 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.294363,
+    19.367769,
+    -99.287501,
+    19.37415
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.294363,
+        19.367769,
+        -99.287501,
+        19.37415
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1192.4,
+            "duration": 858.6,
+            "steps": [
+              {
+                "distance": 113.9,
+                "duration": 82.0,
+                "type": 11,
+                "instruction": "Head east",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 185.1,
+                "duration": 133.2,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  9
+                ]
+              },
+              {
+                "distance": 200.2,
+                "duration": 144.1,
+                "type": 1,
+                "instruction": "Turn right onto Avenida San José de los Cedros",
+                "name": "Avenida San José de los Cedros",
+                "way_points": [
+                  9,
+                  15
+                ]
+              },
+              {
+                "distance": 276.7,
+                "duration": 199.2,
+                "type": 12,
+                "instruction": "Keep left onto Jacarandas",
+                "name": "Jacarandas",
+                "way_points": [
+                  15,
+                  24
+                ]
+              },
+              {
+                "distance": 223.4,
+                "duration": 160.9,
+                "type": 0,
+                "instruction": "Turn left onto Calle Ébano",
+                "name": "Calle Ébano",
+                "way_points": [
+                  24,
+                  27
+                ]
+              },
+              {
+                "distance": 113.4,
+                "duration": 81.6,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  27,
+                  31
+                ]
+              },
+              {
+                "distance": 79.8,
+                "duration": 57.4,
+                "type": 1,
+                "instruction": "Turn right onto Prolongación 10 de Diciembre",
+                "name": "Prolongación 10 de Diciembre",
+                "way_points": [
+                  31,
+                  34
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Prolongación 10 de Diciembre, straight ahead",
+                "name": "-",
+                "way_points": [
+                  34,
+                  34
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          34
+        ],
+        "summary": {
+          "distance": 1192.4,
+          "duration": 858.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.294363,
+            19.367769
+          ],
+          [
+            -99.293347,
+            19.36813
+          ],
+          [
+            -99.29339,
+            19.368273
+          ],
+          [
+            -99.293393,
+            19.36831
+          ],
+          [
+            -99.293316,
+            19.368406
+          ],
+          [
+            -99.293327,
+            19.368549
+          ],
+          [
+            -99.293298,
+            19.36862
+          ],
+          [
+            -99.293148,
+            19.368762
+          ],
+          [
+            -99.293023,
+            19.368857
+          ],
+          [
+            -99.292763,
+            19.369604
+          ],
+          [
+            -99.29263,
+            19.369552
+          ],
+          [
+            -99.292558,
+            19.369539
+          ],
+          [
+            -99.292363,
+            19.369563
+          ],
+          [
+            -99.292054,
+            19.369635
+          ],
+          [
+            -99.291859,
+            19.369711
+          ],
+          [
+            -99.290968,
+            19.37006
+          ],
+          [
+            -99.290783,
+            19.37014
+          ],
+          [
+            -99.290564,
+            19.37031
+          ],
+          [
+            -99.290359,
+            19.370489
+          ],
+          [
+            -99.290076,
+            19.370706
+          ],
+          [
+            -99.289732,
+            19.370971
+          ],
+          [
+            -99.289542,
+            19.371117
+          ],
+          [
+            -99.289098,
+            19.371397
+          ],
+          [
+            -99.288988,
+            19.371452
+          ],
+          [
+            -99.288848,
+            19.371522
+          ],
+          [
+            -99.288735,
+            19.372447
+          ],
+          [
+            -99.288665,
+            19.373179
+          ],
+          [
+            -99.288669,
+            19.373523
+          ],
+          [
+            -99.28841,
+            19.373528
+          ],
+          [
+            -99.288419,
+            19.373815
+          ],
+          [
+            -99.288266,
+            19.373807
+          ],
+          [
+            -99.288258,
+            19.37415
+          ],
+          [
+            -99.287995,
+            19.374124
+          ],
+          [
+            -99.287708,
+            19.374089
+          ],
+          [
+            -99.287501,
+            19.374082
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756305214395,
+    "query": {
+      "coordinates": [
+        [
+          -99.2943631,
+          19.3677693
+        ],
+        [
+          -99.2875013,
+          19.3740824
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.037463,
+    19.382068,
+    -99.033818,
+    19.385781
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.037463,
+        19.382068,
+        -99.033818,
+        19.385781
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 650.0,
+            "duration": 468.0,
+            "steps": [
+              {
+                "distance": 230.4,
+                "duration": 165.9,
+                "type": 11,
+                "instruction": "Head southeast on Calzada General Ignacio Zaragoza",
+                "name": "Calzada General Ignacio Zaragoza",
+                "way_points": [
+                  0,
+                  4
+                ]
+              },
+              {
+                "distance": 119.2,
+                "duration": 85.8,
+                "type": 13,
+                "instruction": "Keep right",
+                "name": "-",
+                "way_points": [
+                  4,
+                  6
+                ]
+              },
+              {
+                "distance": 53.1,
+                "duration": 38.2,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 165.9,
+                "duration": 119.5,
+                "type": 0,
+                "instruction": "Turn left onto Avenida Lanceros de Oaxaca",
+                "name": "Avenida Lanceros de Oaxaca",
+                "way_points": [
+                  7,
+                  10
+                ]
+              },
+              {
+                "distance": 81.4,
+                "duration": 58.6,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  10,
+                  11
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  11,
+                  11
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          11
+        ],
+        "summary": {
+          "distance": 650.0,
+          "duration": 468.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.037463,
+            19.385781
+          ],
+          [
+            -99.03694,
+            19.385481
+          ],
+          [
+            -99.03591,
+            19.384875
+          ],
+          [
+            -99.035788,
+            19.384787
+          ],
+          [
+            -99.035601,
+            19.384683
+          ],
+          [
+            -99.035298,
+            19.384107
+          ],
+          [
+            -99.034905,
+            19.38389
+          ],
+          [
+            -99.035162,
+            19.383478
+          ],
+          [
+            -99.034709,
+            19.383211
+          ],
+          [
+            -99.03411,
+            19.382865
+          ],
+          [
+            -99.033818,
+            19.382692
+          ],
+          [
+            -99.034224,
+            19.382068
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306268743,
+    "query": {
+      "coordinates": [
+        [
+          -99.037463,
+          19.3857814
+        ],
+        [
+          -99.034224,
+          19.3820681
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

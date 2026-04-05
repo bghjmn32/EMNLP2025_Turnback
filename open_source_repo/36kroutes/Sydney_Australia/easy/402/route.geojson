@@ -1,0 +1,195 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    150.847401,
+    -33.91885,
+    150.850126,
+    -33.917464
+  ],
+  "features": [
+    {
+      "bbox": [
+        150.847401,
+        -33.91885,
+        150.850126,
+        -33.917464
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 490.9,
+            "duration": 353.4,
+            "steps": [
+              {
+                "distance": 90.6,
+                "duration": 65.2,
+                "type": 11,
+                "instruction": "Head north",
+                "name": "-",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 10.2,
+                "duration": 7.3,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 27.6,
+                "duration": 19.8,
+                "type": 0,
+                "instruction": "Turn left onto Stante Close",
+                "name": "Stante Close",
+                "way_points": [
+                  4,
+                  7
+                ]
+              },
+              {
+                "distance": 206.5,
+                "duration": 148.7,
+                "type": 1,
+                "instruction": "Turn right onto Hall Circuit",
+                "name": "Hall Circuit",
+                "way_points": [
+                  7,
+                  13
+                ]
+              },
+              {
+                "distance": 156.0,
+                "duration": 112.3,
+                "type": 0,
+                "instruction": "Turn left onto Bravo Avenue",
+                "name": "Bravo Avenue",
+                "way_points": [
+                  13,
+                  14
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Bravo Avenue, straight ahead",
+                "name": "-",
+                "way_points": [
+                  14,
+                  14
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          14
+        ],
+        "summary": {
+          "distance": 490.9,
+          "duration": 353.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            150.849852,
+            -33.918612
+          ],
+          [
+            150.849899,
+            -33.918378
+          ],
+          [
+            150.850014,
+            -33.917877
+          ],
+          [
+            150.850095,
+            -33.917882
+          ],
+          [
+            150.850126,
+            -33.917794
+          ],
+          [
+            150.849996,
+            -33.917775
+          ],
+          [
+            150.849926,
+            -33.917778
+          ],
+          [
+            150.849842,
+            -33.917816
+          ],
+          [
+            150.849773,
+            -33.917758
+          ],
+          [
+            150.849705,
+            -33.917748
+          ],
+          [
+            150.848936,
+            -33.917642
+          ],
+          [
+            150.848531,
+            -33.917585
+          ],
+          [
+            150.848178,
+            -33.917536
+          ],
+          [
+            150.847662,
+            -33.917464
+          ],
+          [
+            150.847401,
+            -33.91885
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756392553870,
+    "query": {
+      "coordinates": [
+        [
+          150.8498521,
+          -33.9186122
+        ],
+        [
+          150.8474013,
+          -33.91885
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

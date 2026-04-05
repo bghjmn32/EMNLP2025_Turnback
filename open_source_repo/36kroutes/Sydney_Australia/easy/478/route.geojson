@@ -1,0 +1,183 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    151.259521,
+    -33.80483,
+    151.263467,
+    -33.801485
+  ],
+  "features": [
+    {
+      "bbox": [
+        151.259521,
+        -33.80483,
+        151.263467,
+        -33.801485
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 659.5,
+            "duration": 474.8,
+            "steps": [
+              {
+                "distance": 151.0,
+                "duration": 108.7,
+                "type": 11,
+                "instruction": "Head east on Ernest Street",
+                "name": "Ernest Street",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 211.6,
+                "duration": 152.3,
+                "type": 0,
+                "instruction": "Turn left onto Bungaloe Avenue",
+                "name": "Bungaloe Avenue",
+                "way_points": [
+                  3,
+                  6
+                ]
+              },
+              {
+                "distance": 86.5,
+                "duration": 62.3,
+                "type": 1,
+                "instruction": "Turn right onto Hilder Road",
+                "name": "Hilder Road",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 200.1,
+                "duration": 144.1,
+                "type": 0,
+                "instruction": "Turn left onto Condamine Street",
+                "name": "Condamine Street",
+                "way_points": [
+                  7,
+                  9
+                ]
+              },
+              {
+                "distance": 10.3,
+                "duration": 7.4,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  9,
+                  11
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  11,
+                  11
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          11
+        ],
+        "summary": {
+          "distance": 659.5,
+          "duration": 474.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            151.259521,
+            -33.804608
+          ],
+          [
+            151.260453,
+            -33.804738
+          ],
+          [
+            151.260546,
+            -33.804751
+          ],
+          [
+            151.261134,
+            -33.80483
+          ],
+          [
+            151.26157,
+            -33.803638
+          ],
+          [
+            151.261691,
+            -33.803473
+          ],
+          [
+            151.262032,
+            -33.803106
+          ],
+          [
+            151.262952,
+            -33.803253
+          ],
+          [
+            151.263141,
+            -33.802413
+          ],
+          [
+            151.263357,
+            -33.801485
+          ],
+          [
+            151.26341,
+            -33.801493
+          ],
+          [
+            151.263467,
+            -33.801499
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756393094588,
+    "query": {
+      "coordinates": [
+        [
+          151.2595214,
+          -33.8046076
+        ],
+        [
+          151.263467,
+          -33.8014987
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

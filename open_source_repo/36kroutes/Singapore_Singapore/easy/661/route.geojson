@@ -1,0 +1,173 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    103.861719,
+    1.354036,
+    103.863802,
+    1.358124
+  ],
+  "features": [
+    {
+      "bbox": [
+        103.861719,
+        1.354036,
+        103.863802,
+        1.358124
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 615.9,
+            "duration": 443.4,
+            "steps": [
+              {
+                "distance": 51.4,
+                "duration": 37.0,
+                "type": 11,
+                "instruction": "Head southwest on Tai Hwan Heights",
+                "name": "Tai Hwan Heights",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 288.7,
+                "duration": 207.8,
+                "type": 0,
+                "instruction": "Turn left onto Tai Hwan Heights",
+                "name": "Tai Hwan Heights",
+                "way_points": [
+                  1,
+                  6
+                ]
+              },
+              {
+                "distance": 275.8,
+                "duration": 198.6,
+                "type": 1,
+                "instruction": "Turn right onto Li Hwan Drive",
+                "name": "Li Hwan Drive",
+                "way_points": [
+                  6,
+                  14
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Li Hwan Drive, straight ahead",
+                "name": "-",
+                "way_points": [
+                  14,
+                  14
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          14
+        ],
+        "summary": {
+          "distance": 615.9,
+          "duration": 443.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            103.861991,
+            1.358124
+          ],
+          [
+            103.861719,
+            1.35775
+          ],
+          [
+            103.861992,
+            1.357556
+          ],
+          [
+            103.862232,
+            1.357387
+          ],
+          [
+            103.86271,
+            1.357018
+          ],
+          [
+            103.863258,
+            1.356606
+          ],
+          [
+            103.863802,
+            1.3562
+          ],
+          [
+            103.863145,
+            1.355345
+          ],
+          [
+            103.862996,
+            1.355118
+          ],
+          [
+            103.862935,
+            1.355001
+          ],
+          [
+            103.862862,
+            1.354796
+          ],
+          [
+            103.862807,
+            1.354566
+          ],
+          [
+            103.862734,
+            1.354249
+          ],
+          [
+            103.862715,
+            1.354174
+          ],
+          [
+            103.862678,
+            1.354036
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756394075159,
+    "query": {
+      "coordinates": [
+        [
+          103.8619914,
+          1.3581236
+        ],
+        [
+          103.8626779,
+          1.3540364
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,229 @@
+{
+    "type": "FeatureCollection",
+    "bbox": [
+        2.454049,
+        48.874009,
+        2.461444,
+        48.878385
+    ],
+    "features": [
+        {
+            "bbox": [
+                2.454049,
+                48.874009,
+                2.461444,
+                48.878385
+            ],
+            "type": "Feature",
+            "properties": {
+                "segments": [
+                    {
+                        "distance": 943.0,
+                        "duration": 678.9,
+                        "steps": [
+                            {
+                                "distance": 12.0,
+                                "duration": 8.6,
+                                "type": 11,
+                                "instruction": "Head east on Boulevard de la Boissi\u00e8re",
+                                "name": "Boulevard de la Boissi\u00e8re",
+                                "way_points": [
+                                    0,
+                                    1
+                                ]
+                            },
+                            {
+                                "distance": 27.2,
+                                "duration": 19.6,
+                                "type": 1,
+                                "instruction": "Turn right",
+                                "name": "-",
+                                "way_points": [
+                                    1,
+                                    2
+                                ]
+                            },
+                            {
+                                "distance": 19.0,
+                                "duration": 13.7,
+                                "type": 0,
+                                "instruction": "Turn left",
+                                "name": "-",
+                                "way_points": [
+                                    2,
+                                    3
+                                ]
+                            },
+                            {
+                                "distance": 61.7,
+                                "duration": 44.4,
+                                "type": 1,
+                                "instruction": "Turn right",
+                                "name": "-",
+                                "way_points": [
+                                    3,
+                                    5
+                                ]
+                            },
+                            {
+                                "distance": 154.5,
+                                "duration": 111.3,
+                                "type": 3,
+                                "instruction": "Turn sharp right onto Rue des Saules Clouet",
+                                "name": "Rue des Saules Clouet",
+                                "way_points": [
+                                    5,
+                                    7
+                                ]
+                            },
+                            {
+                                "distance": 548.2,
+                                "duration": 394.7,
+                                "type": 0,
+                                "instruction": "Turn left onto Avenue du Docteur Fernand Lamaze",
+                                "name": "Avenue du Docteur Fernand Lamaze",
+                                "way_points": [
+                                    7,
+                                    16
+                                ]
+                            },
+                            {
+                                "distance": 120.3,
+                                "duration": 86.6,
+                                "type": 1,
+                                "instruction": "Turn right onto Avenue du Pr\u00e9sident Salvador Allende",
+                                "name": "Avenue du Pr\u00e9sident Salvador Allende",
+                                "way_points": [
+                                    16,
+                                    17
+                                ]
+                            },
+                            {
+                                "distance": 0.0,
+                                "duration": 0.0,
+                                "type": 10,
+                                "instruction": "Arrive at Avenue du Pr\u00e9sident Salvador Allende, straight ahead",
+                                "name": "-",
+                                "way_points": [
+                                    17,
+                                    17
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "way_points": [
+                    0,
+                    17
+                ],
+                "summary": {
+                    "distance": 943.0,
+                    "duration": 678.9
+                }
+            },
+            "geometry": {
+                "coordinates": [
+                    [
+                        2.454049,
+                        48.878385
+                    ],
+                    [
+                        2.45421,
+                        48.878368
+                    ],
+                    [
+                        2.454171,
+                        48.878125
+                    ],
+                    [
+                        2.45443,
+                        48.878114
+                    ],
+                    [
+                        2.454421,
+                        48.878048
+                    ],
+                    [
+                        2.455158,
+                        48.877988
+                    ],
+                    [
+                        2.455029,
+                        48.877848
+                    ],
+                    [
+                        2.454397,
+                        48.876695
+                    ],
+                    [
+                        2.45474,
+                        48.876611
+                    ],
+                    [
+                        2.456103,
+                        48.876324
+                    ],
+                    [
+                        2.457582,
+                        48.875991
+                    ],
+                    [
+                        2.457697,
+                        48.875966
+                    ],
+                    [
+                        2.459061,
+                        48.87567
+                    ],
+                    [
+                        2.459618,
+                        48.87552
+                    ],
+                    [
+                        2.459945,
+                        48.875433
+                    ],
+                    [
+                        2.461114,
+                        48.875113
+                    ],
+                    [
+                        2.461444,
+                        48.875022
+                    ],
+                    [
+                        2.460863,
+                        48.874009
+                    ]
+                ],
+                "type": "LineString"
+            }
+        }
+    ],
+    "metadata": {
+        "attribution": "openrouteservice.org | OpenStreetMap contributors",
+        "service": "routing",
+        "timestamp": 1755871592171,
+        "query": {
+            "coordinates": [
+                [
+                    2.4540486,
+                    48.8783853
+                ],
+                [
+                    2.4608628,
+                    48.8740092
+                ]
+            ],
+            "profile": "foot-walking",
+            "profileName": "foot-walking",
+            "format": "geojson"
+        },
+        "engine": {
+            "version": "9.3.0",
+            "build_date": "2025-06-06T15:39:25Z",
+            "graph_date": "2025-08-19T13:56:51Z",
+            "osm_date": "2025-08-10T23:59:57Z"
+        }
+    }
+}

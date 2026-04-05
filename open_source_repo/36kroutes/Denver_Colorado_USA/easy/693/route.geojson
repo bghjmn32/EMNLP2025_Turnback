@@ -1,0 +1,272 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -104.908174,
+    39.738714,
+    -104.90232,
+    39.740047
+  ],
+  "features": [
+    {
+      "bbox": [
+        -104.908174,
+        39.738714,
+        -104.90232,
+        39.740047
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 795.2,
+            "duration": 572.6,
+            "steps": [
+              {
+                "distance": 80.0,
+                "duration": 57.6,
+                "type": 11,
+                "instruction": "Head north on Quince Street",
+                "name": "Quince Street",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 82.3,
+                "duration": 59.3,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  4
+                ]
+              },
+              {
+                "distance": 29.2,
+                "duration": 21.0,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "distance": 11.2,
+                "duration": 8.1,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  5,
+                  7
+                ]
+              },
+              {
+                "distance": 36.8,
+                "duration": 26.5,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 401.1,
+                "duration": 288.8,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  8,
+                  21
+                ]
+              },
+              {
+                "distance": 141.4,
+                "duration": 101.8,
+                "type": 2,
+                "instruction": "Turn sharp left",
+                "name": "-",
+                "way_points": [
+                  21,
+                  24
+                ]
+              },
+              {
+                "distance": 13.2,
+                "duration": 9.5,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  24,
+                  25
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  25,
+                  25
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          25
+        ],
+        "summary": {
+          "distance": 795.2,
+          "duration": 572.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -104.90232,
+            39.738714
+          ],
+          [
+            -104.902329,
+            39.739433
+          ],
+          [
+            -104.90298,
+            39.739422
+          ],
+          [
+            -104.903124,
+            39.739402
+          ],
+          [
+            -104.903289,
+            39.7394
+          ],
+          [
+            -104.903285,
+            39.739663
+          ],
+          [
+            -104.903343,
+            39.739703
+          ],
+          [
+            -104.903397,
+            39.739703
+          ],
+          [
+            -104.903393,
+            39.740033
+          ],
+          [
+            -104.903429,
+            39.740031
+          ],
+          [
+            -104.903463,
+            39.74003
+          ],
+          [
+            -104.903564,
+            39.740029
+          ],
+          [
+            -104.903585,
+            39.740029
+          ],
+          [
+            -104.904664,
+            39.74003
+          ],
+          [
+            -104.90525,
+            39.740034
+          ],
+          [
+            -104.905725,
+            39.740038
+          ],
+          [
+            -104.90581,
+            39.740042
+          ],
+          [
+            -104.905904,
+            39.74004
+          ],
+          [
+            -104.906886,
+            39.740042
+          ],
+          [
+            -104.906953,
+            39.740047
+          ],
+          [
+            -104.907046,
+            39.740039
+          ],
+          [
+            -104.908082,
+            39.740038
+          ],
+          [
+            -104.908024,
+            39.740008
+          ],
+          [
+            -104.908028,
+            39.739129
+          ],
+          [
+            -104.90802,
+            39.73879
+          ],
+          [
+            -104.908174,
+            39.738783
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306666931,
+    "query": {
+      "coordinates": [
+        [
+          -104.9023199,
+          39.7387137
+        ],
+        [
+          -104.9081737,
+          39.738783
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

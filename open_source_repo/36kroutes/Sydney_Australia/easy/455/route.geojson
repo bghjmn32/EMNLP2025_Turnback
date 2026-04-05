@@ -1,0 +1,189 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    150.812552,
+    -33.988914,
+    150.816223,
+    -33.985847
+  ],
+  "features": [
+    {
+      "bbox": [
+        150.812552,
+        -33.988914,
+        150.816223,
+        -33.985847
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 524.1,
+            "duration": 377.3,
+            "steps": [
+              {
+                "distance": 11.1,
+                "duration": 8.0,
+                "type": 11,
+                "instruction": "Head southeast on Dock Street",
+                "name": "Dock Street",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 156.0,
+                "duration": 112.3,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  8
+                ]
+              },
+              {
+                "distance": 356.9,
+                "duration": 257.0,
+                "type": 0,
+                "instruction": "Turn left onto Needlebush Avenue",
+                "name": "Needlebush Avenue",
+                "way_points": [
+                  8,
+                  18
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Needlebush Avenue, straight ahead",
+                "name": "-",
+                "way_points": [
+                  18,
+                  18
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          18
+        ],
+        "summary": {
+          "distance": 524.1,
+          "duration": 377.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            150.816168,
+            -33.985847
+          ],
+          [
+            150.816223,
+            -33.985935
+          ],
+          [
+            150.816159,
+            -33.985968
+          ],
+          [
+            150.816085,
+            -33.985968
+          ],
+          [
+            150.815509,
+            -33.986214
+          ],
+          [
+            150.815242,
+            -33.986274
+          ],
+          [
+            150.814964,
+            -33.986277
+          ],
+          [
+            150.814703,
+            -33.986243
+          ],
+          [
+            150.814635,
+            -33.986214
+          ],
+          [
+            150.814542,
+            -33.986412
+          ],
+          [
+            150.814418,
+            -33.986587
+          ],
+          [
+            150.814346,
+            -33.986676
+          ],
+          [
+            150.813915,
+            -33.987228
+          ],
+          [
+            150.813872,
+            -33.987281
+          ],
+          [
+            150.813616,
+            -33.987591
+          ],
+          [
+            150.813434,
+            -33.987819
+          ],
+          [
+            150.812951,
+            -33.988421
+          ],
+          [
+            150.812579,
+            -33.98888
+          ],
+          [
+            150.812552,
+            -33.988914
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756392912159,
+    "query": {
+      "coordinates": [
+        [
+          150.8161677,
+          -33.9858467
+        ],
+        [
+          150.8125518,
+          -33.9889136
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

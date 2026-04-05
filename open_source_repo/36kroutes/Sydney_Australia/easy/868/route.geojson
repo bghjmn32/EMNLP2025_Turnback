@@ -1,0 +1,289 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    150.838434,
+    -34.074993,
+    150.842604,
+    -34.072907
+  ],
+  "features": [
+    {
+      "bbox": [
+        150.838434,
+        -34.074993,
+        150.842604,
+        -34.072907
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 744.9,
+            "duration": 536.3,
+            "steps": [
+              {
+                "distance": 6.1,
+                "duration": 4.4,
+                "type": 11,
+                "instruction": "Head southwest on Nymboida Crescent",
+                "name": "Nymboida Crescent",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 185.0,
+                "duration": 133.2,
+                "type": 0,
+                "instruction": "Turn left onto Nymboida Crescent",
+                "name": "Nymboida Crescent",
+                "way_points": [
+                  1,
+                  6
+                ]
+              },
+              {
+                "distance": 88.4,
+                "duration": 63.6,
+                "type": 1,
+                "instruction": "Turn right onto Bellinger Road",
+                "name": "Bellinger Road",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 69.5,
+                "duration": 50.1,
+                "type": 0,
+                "instruction": "Turn left onto Wattle Road",
+                "name": "Wattle Road",
+                "way_points": [
+                  7,
+                  9
+                ]
+              },
+              {
+                "distance": 7.4,
+                "duration": 5.3,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  9,
+                  10
+                ]
+              },
+              {
+                "distance": 226.5,
+                "duration": 163.1,
+                "type": 13,
+                "instruction": "Keep right",
+                "name": "-",
+                "way_points": [
+                  10,
+                  12
+                ]
+              },
+              {
+                "distance": 37.1,
+                "duration": 26.7,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  12,
+                  16
+                ]
+              },
+              {
+                "distance": 6.0,
+                "duration": 4.3,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  16,
+                  17
+                ]
+              },
+              {
+                "distance": 14.0,
+                "duration": 10.1,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  17,
+                  18
+                ]
+              },
+              {
+                "distance": 28.3,
+                "duration": 20.4,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  18,
+                  19
+                ]
+              },
+              {
+                "distance": 76.6,
+                "duration": 55.1,
+                "type": 0,
+                "instruction": "Turn left onto Acacia Avenue",
+                "name": "Acacia Avenue",
+                "way_points": [
+                  19,
+                  21
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Acacia Avenue, straight ahead",
+                "name": "-",
+                "way_points": [
+                  21,
+                  21
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          21
+        ],
+        "summary": {
+          "distance": 744.9,
+          "duration": 536.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            150.838485,
+            -34.073538
+          ],
+          [
+            150.838434,
+            -34.073572
+          ],
+          [
+            150.838667,
+            -34.073794
+          ],
+          [
+            150.838777,
+            -34.073871
+          ],
+          [
+            150.838921,
+            -34.073917
+          ],
+          [
+            150.839345,
+            -34.073972
+          ],
+          [
+            150.840258,
+            -34.074098
+          ],
+          [
+            150.8402,
+            -34.074891
+          ],
+          [
+            150.840281,
+            -34.074902
+          ],
+          [
+            150.840945,
+            -34.074993
+          ],
+          [
+            150.840963,
+            -34.074928
+          ],
+          [
+            150.841109,
+            -34.074181
+          ],
+          [
+            150.841258,
+            -34.072907
+          ],
+          [
+            150.841313,
+            -34.072913
+          ],
+          [
+            150.841432,
+            -34.072927
+          ],
+          [
+            150.841486,
+            -34.072933
+          ],
+          [
+            150.841657,
+            -34.072953
+          ],
+          [
+            150.841647,
+            -34.073006
+          ],
+          [
+            150.841799,
+            -34.07301
+          ],
+          [
+            150.841784,
+            -34.073265
+          ],
+          [
+            150.842157,
+            -34.073313
+          ],
+          [
+            150.842604,
+            -34.073377
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756395664747,
+    "query": {
+      "coordinates": [
+        [
+          150.8384852,
+          -34.0735376
+        ],
+        [
+          150.8426037,
+          -34.0733768
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

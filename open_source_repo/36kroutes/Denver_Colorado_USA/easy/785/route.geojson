@@ -1,0 +1,227 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -105.050283,
+    39.805493,
+    -105.04843,
+    39.812813
+  ],
+  "features": [
+    {
+      "bbox": [
+        -105.050283,
+        39.805493,
+        -105.04843,
+        39.812813
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1091.4,
+            "duration": 785.8,
+            "steps": [
+              {
+                "distance": 151.0,
+                "duration": 108.7,
+                "type": 11,
+                "instruction": "Head west on West 64th Avenue",
+                "name": "West 64th Avenue",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 54.9,
+                "duration": 39.5,
+                "type": 0,
+                "instruction": "Turn left onto Xavier Court",
+                "name": "Xavier Court",
+                "way_points": [
+                  2,
+                  4
+                ]
+              },
+              {
+                "distance": 870.8,
+                "duration": 627.0,
+                "type": 0,
+                "instruction": "Turn left onto West 63rd Place",
+                "name": "West 63rd Place",
+                "way_points": [
+                  4,
+                  20
+                ]
+              },
+              {
+                "distance": 6.1,
+                "duration": 4.4,
+                "type": 0,
+                "instruction": "Turn left onto West 60th Avenue",
+                "name": "West 60th Avenue",
+                "way_points": [
+                  20,
+                  21
+                ]
+              },
+              {
+                "distance": 8.5,
+                "duration": 6.1,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  21,
+                  22
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  22,
+                  22
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          22
+        ],
+        "summary": {
+          "distance": 1091.4,
+          "duration": 785.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -105.04843,
+            39.812813
+          ],
+          [
+            -105.049314,
+            39.812812
+          ],
+          [
+            -105.050198,
+            39.812811
+          ],
+          [
+            -105.050201,
+            39.812474
+          ],
+          [
+            -105.050283,
+            39.81233
+          ],
+          [
+            -105.050185,
+            39.812285
+          ],
+          [
+            -105.04965,
+            39.812278
+          ],
+          [
+            -105.048934,
+            39.812284
+          ],
+          [
+            -105.048879,
+            39.812276
+          ],
+          [
+            -105.048821,
+            39.812246
+          ],
+          [
+            -105.048781,
+            39.812195
+          ],
+          [
+            -105.048776,
+            39.812133
+          ],
+          [
+            -105.048759,
+            39.810433
+          ],
+          [
+            -105.048757,
+            39.810068
+          ],
+          [
+            -105.048731,
+            39.808875
+          ],
+          [
+            -105.048722,
+            39.808398
+          ],
+          [
+            -105.048722,
+            39.807735
+          ],
+          [
+            -105.048708,
+            39.807035
+          ],
+          [
+            -105.048704,
+            39.806765
+          ],
+          [
+            -105.048701,
+            39.806424
+          ],
+          [
+            -105.048694,
+            39.805569
+          ],
+          [
+            -105.048622,
+            39.80557
+          ],
+          [
+            -105.048617,
+            39.805493
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756307043240,
+    "query": {
+      "coordinates": [
+        [
+          -105.04843,
+          39.812813
+        ],
+        [
+          -105.0486168,
+          39.805493
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    103.771141,
+    1.33508,
+    103.775812,
+    1.337523
+  ],
+  "features": [
+    {
+      "bbox": [
+        103.771141,
+        1.33508,
+        103.775812,
+        1.337523
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 629.7,
+            "duration": 453.4,
+            "steps": [
+              {
+                "distance": 62.0,
+                "duration": 44.6,
+                "type": 11,
+                "instruction": "Head southwest",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 35.5,
+                "duration": 25.6,
+                "type": 13,
+                "instruction": "Keep right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 73.1,
+                "duration": 52.7,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  2,
+                  4
+                ]
+              },
+              {
+                "distance": 459.1,
+                "duration": 330.6,
+                "type": 0,
+                "instruction": "Turn left onto Kismis Avenue",
+                "name": "Kismis Avenue",
+                "way_points": [
+                  4,
+                  12
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Kismis Avenue, straight ahead",
+                "name": "-",
+                "way_points": [
+                  12,
+                  12
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          12
+        ],
+        "summary": {
+          "distance": 629.7,
+          "duration": 453.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            103.775812,
+            1.337523
+          ],
+          [
+            103.775401,
+            1.337146
+          ],
+          [
+            103.775166,
+            1.33693
+          ],
+          [
+            103.775022,
+            1.336976
+          ],
+          [
+            103.774538,
+            1.337128
+          ],
+          [
+            103.774404,
+            1.336844
+          ],
+          [
+            103.774049,
+            1.336583
+          ],
+          [
+            103.773732,
+            1.336351
+          ],
+          [
+            103.773011,
+            1.335822
+          ],
+          [
+            103.772725,
+            1.335613
+          ],
+          [
+            103.772108,
+            1.335164
+          ],
+          [
+            103.771192,
+            1.335084
+          ],
+          [
+            103.771141,
+            1.33508
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756392912286,
+    "query": {
+      "coordinates": [
+        [
+          103.7758119,
+          1.3375226
+        ],
+        [
+          103.7711409,
+          1.3350799
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

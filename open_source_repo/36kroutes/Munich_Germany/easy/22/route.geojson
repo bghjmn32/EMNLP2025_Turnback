@@ -1,0 +1,197 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    11.43249,
+    48.120964,
+    11.437479,
+    48.126673
+  ],
+  "features": [
+    {
+      "bbox": [
+        11.43249,
+        48.120964,
+        11.437479,
+        48.126673
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 775.9,
+            "duration": 558.6,
+            "steps": [
+              {
+                "distance": 50.9,
+                "duration": 36.6,
+                "type": 11,
+                "instruction": "Head east on Sudetenstraße",
+                "name": "Sudetenstraße",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 707.5,
+                "duration": 509.4,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  3,
+                  17
+                ]
+              },
+              {
+                "distance": 17.5,
+                "duration": 12.6,
+                "type": 6,
+                "instruction": "Continue straight",
+                "name": "-",
+                "way_points": [
+                  17,
+                  20
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  20,
+                  20
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          20
+        ],
+        "summary": {
+          "distance": 775.9,
+          "duration": 558.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            11.43249,
+            48.121104
+          ],
+          [
+            11.432705,
+            48.121058
+          ],
+          [
+            11.432912,
+            48.121013
+          ],
+          [
+            11.433142,
+            48.120964
+          ],
+          [
+            11.43351,
+            48.12156
+          ],
+          [
+            11.433574,
+            48.121621
+          ],
+          [
+            11.43362,
+            48.121655
+          ],
+          [
+            11.433718,
+            48.121826
+          ],
+          [
+            11.433944,
+            48.12231
+          ],
+          [
+            11.43416,
+            48.123091
+          ],
+          [
+            11.434334,
+            48.123497
+          ],
+          [
+            11.434518,
+            48.12377
+          ],
+          [
+            11.43496,
+            48.124352
+          ],
+          [
+            11.435661,
+            48.125101
+          ],
+          [
+            11.435834,
+            48.125261
+          ],
+          [
+            11.43635,
+            48.125679
+          ],
+          [
+            11.43708,
+            48.126241
+          ],
+          [
+            11.437441,
+            48.126526
+          ],
+          [
+            11.437475,
+            48.126562
+          ],
+          [
+            11.437479,
+            48.126621
+          ],
+          [
+            11.437448,
+            48.126673
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756136391456,
+    "query": {
+      "coordinates": [
+        [
+          11.43249,
+          48.1211038
+        ],
+        [
+          11.437448,
+          48.1266725
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

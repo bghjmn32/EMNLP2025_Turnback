@@ -1,0 +1,191 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.497193,
+    -33.88038,
+    18.499668,
+    -33.876663
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.497193,
+        -33.88038,
+        18.499668,
+        -33.876663
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 593.8,
+            "duration": 427.6,
+            "steps": [
+              {
+                "distance": 169.5,
+                "duration": 122.0,
+                "type": 11,
+                "instruction": "Head southeast on Vaal Road",
+                "name": "Vaal Road",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 378.1,
+                "duration": 272.2,
+                "type": 1,
+                "instruction": "Turn right onto Koeberg Service Road",
+                "name": "Koeberg Service Road",
+                "way_points": [
+                  1,
+                  10
+                ]
+              },
+              {
+                "distance": 23.8,
+                "duration": 17.1,
+                "type": 1,
+                "instruction": "Turn right onto Quest Road",
+                "name": "Quest Road",
+                "way_points": [
+                  10,
+                  11
+                ]
+              },
+              {
+                "distance": 10.4,
+                "duration": 7.5,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 12.1,
+                "duration": 8.7,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  12,
+                  13
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  13,
+                  13
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          13
+        ],
+        "summary": {
+          "distance": 593.8,
+          "duration": 427.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.498123,
+            -33.876663
+          ],
+          [
+            18.499668,
+            -33.877487
+          ],
+          [
+            18.499525,
+            -33.877676
+          ],
+          [
+            18.499359,
+            -33.877891
+          ],
+          [
+            18.499227,
+            -33.878063
+          ],
+          [
+            18.498786,
+            -33.878634
+          ],
+          [
+            18.498346,
+            -33.879209
+          ],
+          [
+            18.498161,
+            -33.879449
+          ],
+          [
+            18.497993,
+            -33.879667
+          ],
+          [
+            18.497907,
+            -33.879778
+          ],
+          [
+            18.497465,
+            -33.880353
+          ],
+          [
+            18.497248,
+            -33.880238
+          ],
+          [
+            18.497193,
+            -33.880319
+          ],
+          [
+            18.497301,
+            -33.88038
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756804025928,
+    "query": {
+      "coordinates": [
+        [
+          18.4981234,
+          -33.8766629
+        ],
+        [
+          18.4973014,
+          -33.8803796
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

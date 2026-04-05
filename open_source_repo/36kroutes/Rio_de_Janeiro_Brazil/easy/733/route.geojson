@@ -1,0 +1,179 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.397444,
+    -22.890193,
+    -43.392615,
+    -22.887889
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.397444,
+        -22.890193,
+        -43.392615,
+        -22.887889
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 714.5,
+            "duration": 514.4,
+            "steps": [
+              {
+                "distance": 90.3,
+                "duration": 65.0,
+                "type": 11,
+                "instruction": "Head north on Rua João Carvalhal",
+                "name": "Rua João Carvalhal",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 33.5,
+                "duration": 24.1,
+                "type": 0,
+                "instruction": "Turn left onto Rua Teófilo Guimarães",
+                "name": "Rua Teófilo Guimarães",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 92.0,
+                "duration": 66.3,
+                "type": 1,
+                "instruction": "Turn right onto Rua Goncalo Rolemberg",
+                "name": "Rua Goncalo Rolemberg",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 398.1,
+                "duration": 286.6,
+                "type": 0,
+                "instruction": "Turn left onto Rua Bárbara Heliodora",
+                "name": "Rua Bárbara Heliodora",
+                "way_points": [
+                  3,
+                  9
+                ]
+              },
+              {
+                "distance": 100.5,
+                "duration": 72.4,
+                "type": 4,
+                "instruction": "Turn slight left onto Rua Teodoro Sampaio",
+                "name": "Rua Teodoro Sampaio",
+                "way_points": [
+                  9,
+                  10
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Rua Teodoro Sampaio, straight ahead",
+                "name": "-",
+                "way_points": [
+                  10,
+                  10
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          10
+        ],
+        "summary": {
+          "distance": 714.5,
+          "duration": 514.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.392784,
+            -22.890193
+          ],
+          [
+            -43.392615,
+            -22.889397
+          ],
+          [
+            -43.392935,
+            -22.889337
+          ],
+          [
+            -43.392771,
+            -22.888524
+          ],
+          [
+            -43.394392,
+            -22.888252
+          ],
+          [
+            -43.395085,
+            -22.888123
+          ],
+          [
+            -43.395532,
+            -22.888045
+          ],
+          [
+            -43.39592,
+            -22.887981
+          ],
+          [
+            -43.396065,
+            -22.887961
+          ],
+          [
+            -43.396596,
+            -22.887889
+          ],
+          [
+            -43.397444,
+            -22.888343
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756394102700,
+    "query": {
+      "coordinates": [
+        [
+          -43.3927845,
+          -22.8901932
+        ],
+        [
+          -43.3974443,
+          -22.888343
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

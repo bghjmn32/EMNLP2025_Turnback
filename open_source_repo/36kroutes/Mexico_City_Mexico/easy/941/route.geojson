@@ -1,0 +1,189 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.056558,
+    19.179974,
+    -99.054455,
+    19.183985
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.056558,
+        19.179974,
+        -99.054455,
+        19.183985
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 659.1,
+            "duration": 474.6,
+            "steps": [
+              {
+                "distance": 122.4,
+                "duration": 88.1,
+                "type": 11,
+                "instruction": "Head east",
+                "name": "-",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 467.0,
+                "duration": 336.2,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  2,
+                  17
+                ]
+              },
+              {
+                "distance": 69.7,
+                "duration": 50.2,
+                "type": 1,
+                "instruction": "Turn right onto Calle Cuauhtémoc",
+                "name": "Calle Cuauhtémoc",
+                "way_points": [
+                  17,
+                  18
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Cuauhtémoc, straight ahead",
+                "name": "-",
+                "way_points": [
+                  18,
+                  18
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          18
+        ],
+        "summary": {
+          "distance": 659.1,
+          "duration": 474.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.056558,
+            19.180331
+          ],
+          [
+            -99.056107,
+            19.180201
+          ],
+          [
+            -99.055456,
+            19.179974
+          ],
+          [
+            -99.055371,
+            19.180221
+          ],
+          [
+            -99.055357,
+            19.180381
+          ],
+          [
+            -99.055446,
+            19.180698
+          ],
+          [
+            -99.055465,
+            19.18092
+          ],
+          [
+            -99.055497,
+            19.180967
+          ],
+          [
+            -99.055769,
+            19.181134
+          ],
+          [
+            -99.055787,
+            19.181191
+          ],
+          [
+            -99.05579,
+            19.181642
+          ],
+          [
+            -99.055773,
+            19.181782
+          ],
+          [
+            -99.055683,
+            19.182217
+          ],
+          [
+            -99.055617,
+            19.182681
+          ],
+          [
+            -99.055559,
+            19.182901
+          ],
+          [
+            -99.055496,
+            19.183055
+          ],
+          [
+            -99.055231,
+            19.183544
+          ],
+          [
+            -99.055111,
+            19.183889
+          ],
+          [
+            -99.054455,
+            19.183985
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756308490109,
+    "query": {
+      "coordinates": [
+        [
+          -99.0565579,
+          19.1803306
+        ],
+        [
+          -99.054455,
+          19.1839851
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

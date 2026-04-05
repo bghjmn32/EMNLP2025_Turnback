@@ -1,0 +1,220 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.117445,
+    19.460767,
+    -99.111539,
+    19.46668
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.117445,
+        19.460767,
+        -99.111539,
+        19.46668
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1256.5,
+            "duration": 904.7,
+            "steps": [
+              {
+                "distance": 28.9,
+                "duration": 20.8,
+                "type": 11,
+                "instruction": "Head northeast on Avenida Ferrocarril Hidalgo",
+                "name": "Avenida Ferrocarril Hidalgo",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 373.8,
+                "duration": 269.1,
+                "type": 1,
+                "instruction": "Turn right onto Calle Oriente 103",
+                "name": "Calle Oriente 103",
+                "way_points": [
+                  1,
+                  10
+                ]
+              },
+              {
+                "distance": 455.5,
+                "duration": 328.0,
+                "type": 1,
+                "instruction": "Turn right onto Calle Norte 58",
+                "name": "Calle Norte 58",
+                "way_points": [
+                  10,
+                  15
+                ]
+              },
+              {
+                "distance": 398.3,
+                "duration": 286.8,
+                "type": 0,
+                "instruction": "Turn left onto Calle Oriente 91",
+                "name": "Calle Oriente 91",
+                "way_points": [
+                  15,
+                  23
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Oriente 91, straight ahead",
+                "name": "-",
+                "way_points": [
+                  23,
+                  23
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          23
+        ],
+        "summary": {
+          "distance": 1256.5,
+          "duration": 904.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.117445,
+            19.466468
+          ],
+          [
+            -99.117286,
+            19.46668
+          ],
+          [
+            -99.116989,
+            19.466567
+          ],
+          [
+            -99.116468,
+            19.466378
+          ],
+          [
+            -99.116101,
+            19.466246
+          ],
+          [
+            -99.115714,
+            19.466111
+          ],
+          [
+            -99.115329,
+            19.465987
+          ],
+          [
+            -99.114982,
+            19.465861
+          ],
+          [
+            -99.114644,
+            19.465725
+          ],
+          [
+            -99.114303,
+            19.465614
+          ],
+          [
+            -99.113951,
+            19.465493
+          ],
+          [
+            -99.114288,
+            19.464616
+          ],
+          [
+            -99.114336,
+            19.464499
+          ],
+          [
+            -99.114836,
+            19.463211
+          ],
+          [
+            -99.114917,
+            19.46292
+          ],
+          [
+            -99.115237,
+            19.461588
+          ],
+          [
+            -99.114737,
+            19.461484
+          ],
+          [
+            -99.114243,
+            19.461368
+          ],
+          [
+            -99.113747,
+            19.461253
+          ],
+          [
+            -99.113202,
+            19.461149
+          ],
+          [
+            -99.113068,
+            19.461121
+          ],
+          [
+            -99.112529,
+            19.460994
+          ],
+          [
+            -99.112045,
+            19.460879
+          ],
+          [
+            -99.111539,
+            19.460767
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306631638,
+    "query": {
+      "coordinates": [
+        [
+          -99.1174452,
+          19.4664676
+        ],
+        [
+          -99.1115395,
+          19.4607674
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

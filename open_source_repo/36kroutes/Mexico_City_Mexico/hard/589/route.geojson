@@ -1,0 +1,285 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.136515,
+    19.387538,
+    -99.131862,
+    19.405234
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.136515,
+        19.387538,
+        -99.131862,
+        19.405234
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 2267.6,
+            "duration": 1632.6,
+            "steps": [
+              {
+                "distance": 69.3,
+                "duration": 49.9,
+                "type": 11,
+                "instruction": "Head southwest on Calle Rubén M. Campos",
+                "name": "Calle Rubén M. Campos",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 1738.3,
+                "duration": 1251.6,
+                "type": 1,
+                "instruction": "Turn right onto Calle Pedro Santacilia",
+                "name": "Calle Pedro Santacilia",
+                "way_points": [
+                  3,
+                  21
+                ]
+              },
+              {
+                "distance": 52.0,
+                "duration": 37.4,
+                "type": 1,
+                "instruction": "Turn right onto Avenida Río de la Piedad",
+                "name": "Avenida Río de la Piedad",
+                "way_points": [
+                  21,
+                  22
+                ]
+              },
+              {
+                "distance": 109.4,
+                "duration": 78.8,
+                "type": 0,
+                "instruction": "Turn left onto Calle Marcos Carillo",
+                "name": "Calle Marcos Carillo",
+                "way_points": [
+                  22,
+                  26
+                ]
+              },
+              {
+                "distance": 84.8,
+                "duration": 61.1,
+                "type": 1,
+                "instruction": "Turn right onto Calle Sur 88 A",
+                "name": "Calle Sur 88 A",
+                "way_points": [
+                  26,
+                  28
+                ]
+              },
+              {
+                "distance": 106.6,
+                "duration": 76.7,
+                "type": 4,
+                "instruction": "Turn slight left onto Calle Ventura G. Tena",
+                "name": "Calle Ventura G. Tena",
+                "way_points": [
+                  28,
+                  30
+                ]
+              },
+              {
+                "distance": 107.1,
+                "duration": 77.1,
+                "type": 0,
+                "instruction": "Turn left onto Calle José Sotero Castañeda",
+                "name": "Calle José Sotero Castañeda",
+                "way_points": [
+                  30,
+                  31
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle José Sotero Castañeda, straight ahead",
+                "name": "-",
+                "way_points": [
+                  31,
+                  31
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          31
+        ],
+        "summary": {
+          "distance": 2267.6,
+          "duration": 1632.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.135895,
+            19.38762
+          ],
+          [
+            -99.135958,
+            19.387591
+          ],
+          [
+            -99.136001,
+            19.387538
+          ],
+          [
+            -99.136515,
+            19.387612
+          ],
+          [
+            -99.136327,
+            19.388876
+          ],
+          [
+            -99.136139,
+            19.390191
+          ],
+          [
+            -99.136128,
+            19.390266
+          ],
+          [
+            -99.135934,
+            19.391556
+          ],
+          [
+            -99.135867,
+            19.391964
+          ],
+          [
+            -99.135611,
+            19.393534
+          ],
+          [
+            -99.135584,
+            19.393696
+          ],
+          [
+            -99.135398,
+            19.394835
+          ],
+          [
+            -99.135371,
+            19.395003
+          ],
+          [
+            -99.135353,
+            19.395111
+          ],
+          [
+            -99.135338,
+            19.395207
+          ],
+          [
+            -99.135312,
+            19.395365
+          ],
+          [
+            -99.135112,
+            19.396682
+          ],
+          [
+            -99.134855,
+            19.39824
+          ],
+          [
+            -99.13473,
+            19.398932
+          ],
+          [
+            -99.134509,
+            19.401142
+          ],
+          [
+            -99.134499,
+            19.401246
+          ],
+          [
+            -99.134314,
+            19.403102
+          ],
+          [
+            -99.133819,
+            19.403065
+          ],
+          [
+            -99.133813,
+            19.403142
+          ],
+          [
+            -99.133794,
+            19.403374
+          ],
+          [
+            -99.133785,
+            19.403472
+          ],
+          [
+            -99.133725,
+            19.404044
+          ],
+          [
+            -99.133322,
+            19.403988
+          ],
+          [
+            -99.132938,
+            19.403879
+          ],
+          [
+            -99.132494,
+            19.404082
+          ],
+          [
+            -99.132016,
+            19.404282
+          ],
+          [
+            -99.131862,
+            19.405234
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756316053626,
+    "query": {
+      "coordinates": [
+        [
+          -99.1358948,
+          19.38762
+        ],
+        [
+          -99.1318619,
+          19.405234
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

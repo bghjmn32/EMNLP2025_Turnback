@@ -1,0 +1,234 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.178178,
+    19.417626,
+    -99.174443,
+    19.421638
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.178178,
+        19.417626,
+        -99.174443,
+        19.421638
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 734.8,
+            "duration": 529.0,
+            "steps": [
+              {
+                "distance": 25.1,
+                "duration": 18.1,
+                "type": 11,
+                "instruction": "Head southeast",
+                "name": "-",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 10.7,
+                "duration": 7.7,
+                "type": 12,
+                "instruction": "Keep left",
+                "name": "-",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 93.8,
+                "duration": 67.6,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  4,
+                  6
+                ]
+              },
+              {
+                "distance": 146.4,
+                "duration": 105.4,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  6,
+                  14
+                ]
+              },
+              {
+                "distance": 363.0,
+                "duration": 261.4,
+                "type": 1,
+                "instruction": "Turn right onto Calle Puebla",
+                "name": "Calle Puebla",
+                "way_points": [
+                  14,
+                  20
+                ]
+              },
+              {
+                "distance": 95.8,
+                "duration": 69.0,
+                "type": 1,
+                "instruction": "Turn right onto Calle Juan de la Barrera",
+                "name": "Calle Juan de la Barrera",
+                "way_points": [
+                  20,
+                  21
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Juan de la Barrera, straight ahead",
+                "name": "-",
+                "way_points": [
+                  21,
+                  21
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          21
+        ],
+        "summary": {
+          "distance": 734.8,
+          "duration": 529.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.174625,
+            19.421638
+          ],
+          [
+            -99.174593,
+            19.421588
+          ],
+          [
+            -99.174523,
+            19.421487
+          ],
+          [
+            -99.174496,
+            19.421448
+          ],
+          [
+            -99.174443,
+            19.421366
+          ],
+          [
+            -99.17468,
+            19.421291
+          ],
+          [
+            -99.175305,
+            19.421139
+          ],
+          [
+            -99.175343,
+            19.421035
+          ],
+          [
+            -99.175419,
+            19.420886
+          ],
+          [
+            -99.175453,
+            19.420795
+          ],
+          [
+            -99.175446,
+            19.420751
+          ],
+          [
+            -99.175412,
+            19.420701
+          ],
+          [
+            -99.175369,
+            19.420522
+          ],
+          [
+            -99.175308,
+            19.420265
+          ],
+          [
+            -99.175217,
+            19.419881
+          ],
+          [
+            -99.175675,
+            19.419776
+          ],
+          [
+            -99.176149,
+            19.419668
+          ],
+          [
+            -99.176259,
+            19.419601
+          ],
+          [
+            -99.176489,
+            19.419197
+          ],
+          [
+            -99.176736,
+            19.418769
+          ],
+          [
+            -99.177373,
+            19.417626
+          ],
+          [
+            -99.178178,
+            19.418032
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306091421,
+    "query": {
+      "coordinates": [
+        [
+          -99.1746246,
+          19.4216383
+        ],
+        [
+          -99.1781782,
+          19.4180323
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

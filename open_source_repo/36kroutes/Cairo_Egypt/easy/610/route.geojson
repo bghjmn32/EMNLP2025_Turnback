@@ -1,0 +1,260 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    31.262597,
+    30.004206,
+    31.266231,
+    30.007977
+  ],
+  "features": [
+    {
+      "bbox": [
+        31.262597,
+        30.004206,
+        31.266231,
+        30.007977
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 783.3,
+            "duration": 564.0,
+            "steps": [
+              {
+                "distance": 14.9,
+                "duration": 10.7,
+                "type": 11,
+                "instruction": "Head east",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 24.9,
+                "duration": 17.9,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 57.8,
+                "duration": 41.6,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 106.5,
+                "duration": 76.7,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  3,
+                  6
+                ]
+              },
+              {
+                "distance": 101.0,
+                "duration": 72.7,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 116.3,
+                "duration": 83.8,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  7,
+                  11
+                ]
+              },
+              {
+                "distance": 95.5,
+                "duration": 68.8,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 266.3,
+                "duration": 191.8,
+                "type": 3,
+                "instruction": "Turn sharp right onto شارع الكردى",
+                "name": "شارع الكردى",
+                "way_points": [
+                  12,
+                  22
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at شارع الكردى, straight ahead",
+                "name": "-",
+                "way_points": [
+                  22,
+                  22
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          22
+        ],
+        "summary": {
+          "distance": 783.3,
+          "duration": 564.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            31.266013,
+            30.00454
+          ],
+          [
+            31.266165,
+            30.004566
+          ],
+          [
+            31.266231,
+            30.004349
+          ],
+          [
+            31.265654,
+            30.004206
+          ],
+          [
+            31.265576,
+            30.004607
+          ],
+          [
+            31.265521,
+            30.004906
+          ],
+          [
+            31.265475,
+            30.005151
+          ],
+          [
+            31.264435,
+            30.005034
+          ],
+          [
+            31.264391,
+            30.005266
+          ],
+          [
+            31.264347,
+            30.005538
+          ],
+          [
+            31.264245,
+            30.00581
+          ],
+          [
+            31.264127,
+            30.006038
+          ],
+          [
+            31.263243,
+            30.005648
+          ],
+          [
+            31.263182,
+            30.005868
+          ],
+          [
+            31.263155,
+            30.005959
+          ],
+          [
+            31.263073,
+            30.006276
+          ],
+          [
+            31.263013,
+            30.006531
+          ],
+          [
+            31.263006,
+            30.006549
+          ],
+          [
+            31.262904,
+            30.006923
+          ],
+          [
+            31.262859,
+            30.007074
+          ],
+          [
+            31.262745,
+            30.007439
+          ],
+          [
+            31.262675,
+            30.007694
+          ],
+          [
+            31.262597,
+            30.007977
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756731465678,
+    "query": {
+      "coordinates": [
+        [
+          31.2660129,
+          30.0045401
+        ],
+        [
+          31.2625974,
+          30.0079769
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

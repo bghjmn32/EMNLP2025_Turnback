@@ -1,0 +1,194 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    150.992837,
+    -33.893371,
+    150.995151,
+    -33.890854
+  ],
+  "features": [
+    {
+      "bbox": [
+        150.992837,
+        -33.893371,
+        150.995151,
+        -33.890854
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 492.9,
+            "duration": 354.9,
+            "steps": [
+              {
+                "distance": 18.4,
+                "duration": 13.3,
+                "type": 11,
+                "instruction": "Head northwest on Bennett Street",
+                "name": "Bennett Street",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 7.9,
+                "duration": 5.7,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 47.5,
+                "duration": 34.2,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 42.2,
+                "duration": 30.4,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  3,
+                  5
+                ]
+              },
+              {
+                "distance": 201.0,
+                "duration": 144.7,
+                "type": 6,
+                "instruction": "Continue straight",
+                "name": "-",
+                "way_points": [
+                  5,
+                  7
+                ]
+              },
+              {
+                "distance": 175.8,
+                "duration": 126.6,
+                "type": 1,
+                "instruction": "Turn right onto Hilda Street",
+                "name": "Hilda Street",
+                "way_points": [
+                  7,
+                  11
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Hilda Street, straight ahead",
+                "name": "-",
+                "way_points": [
+                  11,
+                  11
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          11
+        ],
+        "summary": {
+          "distance": 492.9,
+          "duration": 354.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            150.995004,
+            -33.89098
+          ],
+          [
+            150.994875,
+            -33.890854
+          ],
+          [
+            150.994807,
+            -33.890897
+          ],
+          [
+            150.995151,
+            -33.891215
+          ],
+          [
+            150.995131,
+            -33.89133
+          ],
+          [
+            150.995041,
+            -33.891582
+          ],
+          [
+            150.994728,
+            -33.893337
+          ],
+          [
+            150.994722,
+            -33.893371
+          ],
+          [
+            150.993921,
+            -33.893272
+          ],
+          [
+            150.993853,
+            -33.893263
+          ],
+          [
+            150.99375,
+            -33.893251
+          ],
+          [
+            150.992837,
+            -33.893138
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756395984582,
+    "query": {
+      "coordinates": [
+        [
+          150.9950041,
+          -33.8909799
+        ],
+        [
+          150.9928374,
+          -33.8931383
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

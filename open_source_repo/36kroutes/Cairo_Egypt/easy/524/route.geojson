@@ -1,0 +1,288 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    31.434442,
+    30.027114,
+    31.442147,
+    30.030405
+  ],
+  "features": [
+    {
+      "bbox": [
+        31.434442,
+        30.027114,
+        31.442147,
+        30.030405
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1088.5,
+            "duration": 783.7,
+            "steps": [
+              {
+                "distance": 240.4,
+                "duration": 173.1,
+                "type": 11,
+                "instruction": "Head east on شارع عباس محمود العقاد",
+                "name": "شارع عباس محمود العقاد",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 21.2,
+                "duration": 15.3,
+                "type": 6,
+                "instruction": "Continue straight onto شارع عباس محمود العقاد",
+                "name": "شارع عباس محمود العقاد",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 157.8,
+                "duration": 113.6,
+                "type": 0,
+                "instruction": "Turn left onto شارع عمرو بن العاص",
+                "name": "شارع عمرو بن العاص",
+                "way_points": [
+                  4,
+                  8
+                ]
+              },
+              {
+                "distance": 83.4,
+                "duration": 60.0,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  8,
+                  9
+                ]
+              },
+              {
+                "distance": 106.1,
+                "duration": 76.4,
+                "type": 0,
+                "instruction": "Turn left onto شارع مصعب بن عمير",
+                "name": "شارع مصعب بن عمير",
+                "way_points": [
+                  9,
+                  11
+                ]
+              },
+              {
+                "distance": 51.8,
+                "duration": 37.3,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  11,
+                  17
+                ]
+              },
+              {
+                "distance": 74.6,
+                "duration": 53.7,
+                "type": 2,
+                "instruction": "Turn sharp left onto شارع مصعب بن عمير",
+                "name": "شارع مصعب بن عمير",
+                "way_points": [
+                  17,
+                  19
+                ]
+              },
+              {
+                "distance": 353.1,
+                "duration": 254.2,
+                "type": 5,
+                "instruction": "Turn slight right onto محور مصطفى كامل الجانبى",
+                "name": "محور مصطفى كامل الجانبى",
+                "way_points": [
+                  19,
+                  29
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at محور مصطفى كامل الجانبى, straight ahead",
+                "name": "-",
+                "way_points": [
+                  29,
+                  29
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          29
+        ],
+        "summary": {
+          "distance": 1088.5,
+          "duration": 783.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            31.434442,
+            30.030405
+          ],
+          [
+            31.434586,
+            30.030355
+          ],
+          [
+            31.434893,
+            30.030183
+          ],
+          [
+            31.436313,
+            30.028993
+          ],
+          [
+            31.436468,
+            30.028857
+          ],
+          [
+            31.436564,
+            30.028932
+          ],
+          [
+            31.436771,
+            30.029088
+          ],
+          [
+            31.437127,
+            30.029419
+          ],
+          [
+            31.437628,
+            30.029859
+          ],
+          [
+            31.438241,
+            30.029329
+          ],
+          [
+            31.438814,
+            30.02982
+          ],
+          [
+            31.439002,
+            30.030018
+          ],
+          [
+            31.439096,
+            30.030017
+          ],
+          [
+            31.439169,
+            30.029981
+          ],
+          [
+            31.439227,
+            30.029921
+          ],
+          [
+            31.439262,
+            30.029854
+          ],
+          [
+            31.439274,
+            30.029769
+          ],
+          [
+            31.439245,
+            30.029699
+          ],
+          [
+            31.439673,
+            30.029671
+          ],
+          [
+            31.440011,
+            30.029604
+          ],
+          [
+            31.440092,
+            30.029494
+          ],
+          [
+            31.440178,
+            30.029371
+          ],
+          [
+            31.440355,
+            30.029172
+          ],
+          [
+            31.441211,
+            30.028385
+          ],
+          [
+            31.441546,
+            30.028099
+          ],
+          [
+            31.441903,
+            30.02777
+          ],
+          [
+            31.442053,
+            30.027584
+          ],
+          [
+            31.442107,
+            30.027486
+          ],
+          [
+            31.442144,
+            30.027268
+          ],
+          [
+            31.442147,
+            30.027114
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756731298242,
+    "query": {
+      "coordinates": [
+        [
+          31.4344418,
+          30.0304051
+        ],
+        [
+          31.4421469,
+          30.0271135
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -104.933214,
+    39.743307,
+    -104.929243,
+    39.74494
+  ],
+  "features": [
+    {
+      "bbox": [
+        -104.933214,
+        39.743307,
+        -104.929243,
+        39.74494
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 521.2,
+            "duration": 375.2,
+            "steps": [
+              {
+                "distance": 242.5,
+                "duration": 174.6,
+                "type": 11,
+                "instruction": "Head west",
+                "name": "-",
+                "way_points": [
+                  0,
+                  5
+                ]
+              },
+              {
+                "distance": 181.1,
+                "duration": 130.4,
+                "type": 1,
+                "instruction": "Turn right onto Dahlia Street",
+                "name": "Dahlia Street",
+                "way_points": [
+                  5,
+                  12
+                ]
+              },
+              {
+                "distance": 97.5,
+                "duration": 70.2,
+                "type": 0,
+                "instruction": "Turn left onto East 18th Avenue",
+                "name": "East 18th Avenue",
+                "way_points": [
+                  12,
+                  14
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at East 18th Avenue, straight ahead",
+                "name": "-",
+                "way_points": [
+                  14,
+                  14
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          14
+        ],
+        "summary": {
+          "distance": 521.2,
+          "duration": 375.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -104.929243,
+            39.743314
+          ],
+          [
+            -104.929801,
+            39.743317
+          ],
+          [
+            -104.930378,
+            39.743312
+          ],
+          [
+            -104.930949,
+            39.743307
+          ],
+          [
+            -104.931636,
+            39.743307
+          ],
+          [
+            -104.932079,
+            39.743309
+          ],
+          [
+            -104.932079,
+            39.743392
+          ],
+          [
+            -104.932077,
+            39.743538
+          ],
+          [
+            -104.932075,
+            39.74373
+          ],
+          [
+            -104.932075,
+            39.743833
+          ],
+          [
+            -104.932074,
+            39.744224
+          ],
+          [
+            -104.932072,
+            39.744675
+          ],
+          [
+            -104.932073,
+            39.744938
+          ],
+          [
+            -104.932653,
+            39.744939
+          ],
+          [
+            -104.933214,
+            39.74494
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306468668,
+    "query": {
+      "coordinates": [
+        [
+          -104.9292431,
+          39.7433143
+        ],
+        [
+          -104.9332139,
+          39.7449396
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

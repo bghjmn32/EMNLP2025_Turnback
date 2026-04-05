@@ -1,0 +1,301 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.512325,
+    -33.995043,
+    18.516688,
+    -33.989324
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.512325,
+        -33.995043,
+        18.516688,
+        -33.989324
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1058.9,
+            "duration": 762.4,
+            "steps": [
+              {
+                "distance": 10.4,
+                "duration": 7.5,
+                "type": 11,
+                "instruction": "Head southeast",
+                "name": "-",
+                "way_points": [
+                  0,
+                  4
+                ]
+              },
+              {
+                "distance": 500.4,
+                "duration": 360.3,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  4,
+                  20
+                ]
+              },
+              {
+                "distance": 8.8,
+                "duration": 6.3,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  20,
+                  21
+                ]
+              },
+              {
+                "distance": 119.0,
+                "duration": 85.7,
+                "type": 0,
+                "instruction": "Turn left onto Blomvlei Road",
+                "name": "Blomvlei Road",
+                "way_points": [
+                  21,
+                  23
+                ]
+              },
+              {
+                "distance": 81.6,
+                "duration": 58.8,
+                "type": 1,
+                "instruction": "Turn right onto Lyndon Crescent",
+                "name": "Lyndon Crescent",
+                "way_points": [
+                  23,
+                  24
+                ]
+              },
+              {
+                "distance": 265.5,
+                "duration": 191.1,
+                "type": 1,
+                "instruction": "Turn right onto Lyndon Crescent",
+                "name": "Lyndon Crescent",
+                "way_points": [
+                  24,
+                  34
+                ]
+              },
+              {
+                "distance": 73.2,
+                "duration": 52.7,
+                "type": 1,
+                "instruction": "Turn right onto Lyndon Crescent",
+                "name": "Lyndon Crescent",
+                "way_points": [
+                  34,
+                  35
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Lyndon Crescent, straight ahead",
+                "name": "-",
+                "way_points": [
+                  35,
+                  35
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          35
+        ],
+        "summary": {
+          "distance": 1058.9,
+          "duration": 762.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.512325,
+            -33.989324
+          ],
+          [
+            18.512351,
+            -33.989341
+          ],
+          [
+            18.512381,
+            -33.989358
+          ],
+          [
+            18.512397,
+            -33.989368
+          ],
+          [
+            18.512417,
+            -33.989378
+          ],
+          [
+            18.512374,
+            -33.98944
+          ],
+          [
+            18.51236,
+            -33.989492
+          ],
+          [
+            18.512381,
+            -33.989643
+          ],
+          [
+            18.512436,
+            -33.989872
+          ],
+          [
+            18.512491,
+            -33.990196
+          ],
+          [
+            18.512606,
+            -33.991401
+          ],
+          [
+            18.512697,
+            -33.991877
+          ],
+          [
+            18.512915,
+            -33.9925
+          ],
+          [
+            18.513028,
+            -33.992707
+          ],
+          [
+            18.51317,
+            -33.992915
+          ],
+          [
+            18.513346,
+            -33.993131
+          ],
+          [
+            18.51345,
+            -33.993217
+          ],
+          [
+            18.51348,
+            -33.993226
+          ],
+          [
+            18.513587,
+            -33.993235
+          ],
+          [
+            18.513776,
+            -33.993211
+          ],
+          [
+            18.514005,
+            -33.993148
+          ],
+          [
+            18.51403,
+            -33.993224
+          ],
+          [
+            18.514847,
+            -33.993084
+          ],
+          [
+            18.515294,
+            -33.993004
+          ],
+          [
+            18.515478,
+            -33.993722
+          ],
+          [
+            18.514917,
+            -33.993827
+          ],
+          [
+            18.514847,
+            -33.993851
+          ],
+          [
+            18.514806,
+            -33.993888
+          ],
+          [
+            18.514802,
+            -33.993941
+          ],
+          [
+            18.514848,
+            -33.994007
+          ],
+          [
+            18.515275,
+            -33.994429
+          ],
+          [
+            18.515329,
+            -33.994455
+          ],
+          [
+            18.515387,
+            -33.994469
+          ],
+          [
+            18.515519,
+            -33.994472
+          ],
+          [
+            18.516607,
+            -33.994388
+          ],
+          [
+            18.516688,
+            -33.995043
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756804009296,
+    "query": {
+      "coordinates": [
+        [
+          18.5123251,
+          -33.9893242
+        ],
+        [
+          18.5166883,
+          -33.995043
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

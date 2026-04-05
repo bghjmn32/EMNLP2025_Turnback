@@ -1,0 +1,153 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.463178,
+    -22.989008,
+    -43.460494,
+    -22.985944
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.463178,
+        -22.989008,
+        -43.460494,
+        -22.985944
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 625.3,
+            "duration": 450.2,
+            "steps": [
+              {
+                "distance": 151.2,
+                "duration": 108.9,
+                "type": 11,
+                "instruction": "Head east on Rua Simon Wiesenthal",
+                "name": "Rua Simon Wiesenthal",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 270.7,
+                "duration": 194.9,
+                "type": 0,
+                "instruction": "Turn left onto Rua Wellington Jones Paiva",
+                "name": "Rua Wellington Jones Paiva",
+                "way_points": [
+                  3,
+                  8
+                ]
+              },
+              {
+                "distance": 203.4,
+                "duration": 146.5,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  8,
+                  9
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  9,
+                  9
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          9
+        ],
+        "summary": {
+          "distance": 625.3,
+          "duration": 450.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.463178,
+            -22.989008
+          ],
+          [
+            -43.462896,
+            -22.988965
+          ],
+          [
+            -43.462225,
+            -22.98896
+          ],
+          [
+            -43.461705,
+            -22.988988
+          ],
+          [
+            -43.461621,
+            -22.988774
+          ],
+          [
+            -43.461274,
+            -22.988131
+          ],
+          [
+            -43.460975,
+            -22.987596
+          ],
+          [
+            -43.46073,
+            -22.987215
+          ],
+          [
+            -43.460494,
+            -22.986828
+          ],
+          [
+            -43.462234,
+            -22.985944
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756395285202,
+    "query": {
+      "coordinates": [
+        [
+          -43.4631777,
+          -22.9890079
+        ],
+        [
+          -43.4622341,
+          -22.9859445
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

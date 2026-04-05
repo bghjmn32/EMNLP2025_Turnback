@@ -1,0 +1,233 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    0.053338,
+    51.522677,
+    0.058497,
+    51.525892
+  ],
+  "features": [
+    {
+      "bbox": [
+        0.053338,
+        51.522677,
+        0.058497,
+        51.525892
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 669.4,
+            "duration": 482.0,
+            "steps": [
+              {
+                "distance": 11.6,
+                "duration": 8.3,
+                "type": 11,
+                "instruction": "Head north",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 113.9,
+                "duration": 82.0,
+                "type": 0,
+                "instruction": "Turn left onto Vicarage Lane",
+                "name": "Vicarage Lane",
+                "way_points": [
+                  1,
+                  7
+                ]
+              },
+              {
+                "distance": 15.1,
+                "duration": 10.9,
+                "type": 0,
+                "instruction": "Turn left onto High Street South, A117",
+                "name": "High Street South, A117",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 254.4,
+                "duration": 183.2,
+                "type": 1,
+                "instruction": "Turn right onto Hollington Road",
+                "name": "Hollington Road",
+                "way_points": [
+                  8,
+                  9
+                ]
+              },
+              {
+                "distance": 253.8,
+                "duration": 182.7,
+                "type": 0,
+                "instruction": "Turn left onto Sandford Road",
+                "name": "Sandford Road",
+                "way_points": [
+                  9,
+                  15
+                ]
+              },
+              {
+                "distance": 5.2,
+                "duration": 3.8,
+                "type": 0,
+                "instruction": "Turn left onto Sandford Close",
+                "name": "Sandford Close",
+                "way_points": [
+                  15,
+                  16
+                ]
+              },
+              {
+                "distance": 15.4,
+                "duration": 11.1,
+                "type": 4,
+                "instruction": "Turn slight left",
+                "name": "-",
+                "way_points": [
+                  16,
+                  18
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  18,
+                  18
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          18
+        ],
+        "summary": {
+          "distance": 669.4,
+          "duration": 482.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            0.058497,
+            51.525795
+          ],
+          [
+            0.058436,
+            51.525892
+          ],
+          [
+            0.058177,
+            51.525847
+          ],
+          [
+            0.057717,
+            51.525765
+          ],
+          [
+            0.057622,
+            51.525749
+          ],
+          [
+            0.057416,
+            51.525712
+          ],
+          [
+            0.057201,
+            51.525675
+          ],
+          [
+            0.05685,
+            51.525617
+          ],
+          [
+            0.056906,
+            51.525486
+          ],
+          [
+            0.053338,
+            51.524933
+          ],
+          [
+            0.053393,
+            51.524736
+          ],
+          [
+            0.053538,
+            51.524375
+          ],
+          [
+            0.053745,
+            51.523824
+          ],
+          [
+            0.053952,
+            51.523273
+          ],
+          [
+            0.054101,
+            51.522888
+          ],
+          [
+            0.054154,
+            51.522709
+          ],
+          [
+            0.054219,
+            51.522685
+          ],
+          [
+            0.054311,
+            51.522682
+          ],
+          [
+            0.054441,
+            51.522677
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756828397329,
+    "query": {
+      "coordinates": [
+        [
+          0.0584967,
+          51.525795
+        ],
+        [
+          0.054441,
+          51.5226771
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

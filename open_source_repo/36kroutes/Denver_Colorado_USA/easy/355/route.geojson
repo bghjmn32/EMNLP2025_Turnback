@@ -1,0 +1,165 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -104.936938,
+    39.624032,
+    -104.932103,
+    39.625162
+  ],
+  "features": [
+    {
+      "bbox": [
+        -104.936938,
+        39.624032,
+        -104.932103,
+        39.625162
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 543.9,
+            "duration": 391.6,
+            "steps": [
+              {
+                "distance": 20.5,
+                "duration": 14.7,
+                "type": 11,
+                "instruction": "Head north on South Dahlia Street",
+                "name": "South Dahlia Street",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 414.9,
+                "duration": 298.7,
+                "type": 2,
+                "instruction": "Turn sharp left",
+                "name": "-",
+                "way_points": [
+                  2,
+                  11
+                ]
+              },
+              {
+                "distance": 108.6,
+                "duration": 78.2,
+                "type": 1,
+                "instruction": "Turn right onto South Birch Street",
+                "name": "South Birch Street",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at South Birch Street, straight ahead",
+                "name": "-",
+                "way_points": [
+                  12,
+                  12
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          12
+        ],
+        "summary": {
+          "distance": 543.9,
+          "duration": 391.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -104.932133,
+            39.624032
+          ],
+          [
+            -104.93211,
+            39.62414
+          ],
+          [
+            -104.932103,
+            39.624215
+          ],
+          [
+            -104.93229,
+            39.624188
+          ],
+          [
+            -104.932825,
+            39.624183
+          ],
+          [
+            -104.933262,
+            39.624203
+          ],
+          [
+            -104.933896,
+            39.624208
+          ],
+          [
+            -104.934019,
+            39.624222
+          ],
+          [
+            -104.93411,
+            39.624228
+          ],
+          [
+            -104.934627,
+            39.624192
+          ],
+          [
+            -104.936834,
+            39.624197
+          ],
+          [
+            -104.936938,
+            39.624185
+          ],
+          [
+            -104.93693,
+            39.625162
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756305395712,
+    "query": {
+      "coordinates": [
+        [
+          -104.9321327,
+          39.6240324
+        ],
+        [
+          -104.9369302,
+          39.6251617
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

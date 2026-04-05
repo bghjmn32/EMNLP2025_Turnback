@@ -1,0 +1,197 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.195095,
+    19.224905,
+    -99.189317,
+    19.230946
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.195095,
+        19.224905,
+        -99.189317,
+        19.230946
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1179.6,
+            "duration": 849.3,
+            "steps": [
+              {
+                "distance": 890.3,
+                "duration": 641.0,
+                "type": 11,
+                "instruction": "Head southwest",
+                "name": "-",
+                "way_points": [
+                  0,
+                  17
+                ]
+              },
+              {
+                "distance": 223.1,
+                "duration": 160.7,
+                "type": 1,
+                "instruction": "Turn right onto Avenida la Felicidad",
+                "name": "Avenida la Felicidad",
+                "way_points": [
+                  17,
+                  19
+                ]
+              },
+              {
+                "distance": 66.2,
+                "duration": 47.6,
+                "type": 2,
+                "instruction": "Turn sharp left onto Cerrada la Felicidad",
+                "name": "Cerrada la Felicidad",
+                "way_points": [
+                  19,
+                  20
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Cerrada la Felicidad, straight ahead",
+                "name": "-",
+                "way_points": [
+                  20,
+                  20
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          20
+        ],
+        "summary": {
+          "distance": 1179.6,
+          "duration": 849.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.189317,
+            19.230946
+          ],
+          [
+            -99.189348,
+            19.230898
+          ],
+          [
+            -99.189484,
+            19.230827
+          ],
+          [
+            -99.189554,
+            19.230767
+          ],
+          [
+            -99.190134,
+            19.229824
+          ],
+          [
+            -99.19022,
+            19.229712
+          ],
+          [
+            -99.190395,
+            19.22961
+          ],
+          [
+            -99.190724,
+            19.229344
+          ],
+          [
+            -99.190901,
+            19.229191
+          ],
+          [
+            -99.191025,
+            19.229048
+          ],
+          [
+            -99.191182,
+            19.228842
+          ],
+          [
+            -99.191389,
+            19.228493
+          ],
+          [
+            -99.191545,
+            19.228122
+          ],
+          [
+            -99.191947,
+            19.227676
+          ],
+          [
+            -99.193551,
+            19.225754
+          ],
+          [
+            -99.194188,
+            19.224939
+          ],
+          [
+            -99.19425,
+            19.224905
+          ],
+          [
+            -99.194572,
+            19.22492
+          ],
+          [
+            -99.194525,
+            19.226429
+          ],
+          [
+            -99.194878,
+            19.226798
+          ],
+          [
+            -99.195095,
+            19.226239
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756304469746,
+    "query": {
+      "coordinates": [
+        [
+          -99.189317,
+          19.2309462
+        ],
+        [
+          -99.1950949,
+          19.2262389
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

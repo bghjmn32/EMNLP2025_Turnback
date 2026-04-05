@@ -1,0 +1,201 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -104.945173,
+    39.76446,
+    -104.94319,
+    39.769212
+  ],
+  "features": [
+    {
+      "bbox": [
+        -104.945173,
+        39.76446,
+        -104.94319,
+        39.769212
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 693.9,
+            "duration": 499.6,
+            "steps": [
+              {
+                "distance": 10.9,
+                "duration": 7.9,
+                "type": 11,
+                "instruction": "Head north",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 105.1,
+                "duration": 75.7,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  3
+                ]
+              },
+              {
+                "distance": 129.1,
+                "duration": 92.9,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 14.3,
+                "duration": 10.3,
+                "type": 0,
+                "instruction": "Turn left onto East 35th Avenue",
+                "name": "East 35th Avenue",
+                "way_points": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "distance": 132.5,
+                "duration": 95.4,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 49.4,
+                "duration": 35.5,
+                "type": 0,
+                "instruction": "Turn left onto East 36th Avenue",
+                "name": "East 36th Avenue",
+                "way_points": [
+                  6,
+                  8
+                ]
+              },
+              {
+                "distance": 252.6,
+                "duration": 181.9,
+                "type": 1,
+                "instruction": "Turn right onto Monroe Street",
+                "name": "Monroe Street",
+                "way_points": [
+                  8,
+                  10
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Monroe Street, straight ahead",
+                "name": "-",
+                "way_points": [
+                  10,
+                  10
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          10
+        ],
+        "summary": {
+          "distance": 693.9,
+          "duration": 499.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -104.94319,
+            39.76446
+          ],
+          [
+            -104.94319,
+            39.764558
+          ],
+          [
+            -104.943807,
+            39.764558
+          ],
+          [
+            -104.944419,
+            39.764557
+          ],
+          [
+            -104.944423,
+            39.765718
+          ],
+          [
+            -104.944591,
+            39.765718
+          ],
+          [
+            -104.944599,
+            39.76691
+          ],
+          [
+            -104.944966,
+            39.766913
+          ],
+          [
+            -104.945173,
+            39.76694
+          ],
+          [
+            -104.945165,
+            39.7681
+          ],
+          [
+            -104.945162,
+            39.769212
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756304875355,
+    "query": {
+      "coordinates": [
+        [
+          -104.9431905,
+          39.7644596
+        ],
+        [
+          -104.9451616,
+          39.7692117
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

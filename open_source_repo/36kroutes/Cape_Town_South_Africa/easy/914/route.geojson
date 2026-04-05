@@ -1,0 +1,215 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.457821,
+    -33.931024,
+    18.463596,
+    -33.929509
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.457821,
+        -33.931024,
+        18.463596,
+        -33.929509
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 644.2,
+            "duration": 463.8,
+            "steps": [
+              {
+                "distance": 234.7,
+                "duration": 169.0,
+                "type": 11,
+                "instruction": "Head northeast on Hopkins Street",
+                "name": "Hopkins Street",
+                "way_points": [
+                  0,
+                  9
+                ]
+              },
+              {
+                "distance": 16.2,
+                "duration": 11.6,
+                "type": 0,
+                "instruction": "Turn left onto Durham Avenue",
+                "name": "Durham Avenue",
+                "way_points": [
+                  9,
+                  10
+                ]
+              },
+              {
+                "distance": 145.0,
+                "duration": 104.4,
+                "type": 1,
+                "instruction": "Turn right onto Chapel Street",
+                "name": "Chapel Street",
+                "way_points": [
+                  10,
+                  14
+                ]
+              },
+              {
+                "distance": 21.9,
+                "duration": 15.8,
+                "type": 0,
+                "instruction": "Turn left onto Addison Road",
+                "name": "Addison Road",
+                "way_points": [
+                  14,
+                  15
+                ]
+              },
+              {
+                "distance": 226.5,
+                "duration": 163.1,
+                "type": 1,
+                "instruction": "Turn right onto Tennyson Street",
+                "name": "Tennyson Street",
+                "way_points": [
+                  15,
+                  19
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Tennyson Street, straight ahead",
+                "name": "-",
+                "way_points": [
+                  19,
+                  19
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          19
+        ],
+        "summary": {
+          "distance": 644.2,
+          "duration": 463.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.457821,
+            -33.931024
+          ],
+          [
+            18.457875,
+            -33.930985
+          ],
+          [
+            18.458154,
+            -33.930797
+          ],
+          [
+            18.458202,
+            -33.930762
+          ],
+          [
+            18.458239,
+            -33.930735
+          ],
+          [
+            18.458737,
+            -33.930398
+          ],
+          [
+            18.458958,
+            -33.930243
+          ],
+          [
+            18.459421,
+            -33.92992
+          ],
+          [
+            18.459605,
+            -33.929798
+          ],
+          [
+            18.459816,
+            -33.929729
+          ],
+          [
+            18.459804,
+            -33.929584
+          ],
+          [
+            18.460153,
+            -33.929586
+          ],
+          [
+            18.460304,
+            -33.929583
+          ],
+          [
+            18.461065,
+            -33.929567
+          ],
+          [
+            18.461343,
+            -33.92968
+          ],
+          [
+            18.461463,
+            -33.929509
+          ],
+          [
+            18.461994,
+            -33.929761
+          ],
+          [
+            18.462532,
+            -33.930016
+          ],
+          [
+            18.463065,
+            -33.930269
+          ],
+          [
+            18.463596,
+            -33.930518
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756805919938,
+    "query": {
+      "coordinates": [
+        [
+          18.4578209,
+          -33.9310236
+        ],
+        [
+          18.4635962,
+          -33.9305179
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

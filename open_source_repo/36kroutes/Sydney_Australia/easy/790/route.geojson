@@ -1,0 +1,138 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    150.86347,
+    -33.954842,
+    150.864621,
+    -33.954698
+  ],
+  "features": [
+    {
+      "bbox": [
+        150.86347,
+        -33.954842,
+        150.864621,
+        -33.954698
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 112.6,
+            "duration": 81.0,
+            "steps": [
+              {
+                "distance": 62.0,
+                "duration": 44.6,
+                "type": 11,
+                "instruction": "Head east",
+                "name": "-",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 50.6,
+                "duration": 36.4,
+                "type": 1,
+                "instruction": "Turn right onto Camden Valley Way cycleway",
+                "name": "Camden Valley Way cycleway",
+                "way_points": [
+                  2,
+                  8
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Camden Valley Way cycleway, straight ahead",
+                "name": "-",
+                "way_points": [
+                  8,
+                  8
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          8
+        ],
+        "summary": {
+          "distance": 112.6,
+          "duration": 81.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            150.86347,
+            -33.954698
+          ],
+          [
+            150.863827,
+            -33.954723
+          ],
+          [
+            150.86414,
+            -33.954706
+          ],
+          [
+            150.864159,
+            -33.954761
+          ],
+          [
+            150.864246,
+            -33.954781
+          ],
+          [
+            150.864412,
+            -33.954822
+          ],
+          [
+            150.864501,
+            -33.954842
+          ],
+          [
+            150.864572,
+            -33.954827
+          ],
+          [
+            150.864621,
+            -33.954817
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756395249644,
+    "query": {
+      "coordinates": [
+        [
+          150.8634697,
+          -33.9546985
+        ],
+        [
+          150.8646211,
+          -33.9548173
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

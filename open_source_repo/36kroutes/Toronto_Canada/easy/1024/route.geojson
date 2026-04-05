@@ -1,0 +1,294 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -79.340024,
+    43.684748,
+    -79.333664,
+    43.690128
+  ],
+  "features": [
+    {
+      "bbox": [
+        -79.340024,
+        43.684748,
+        -79.333664,
+        43.690128
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 991.5,
+            "duration": 713.9,
+            "steps": [
+              {
+                "distance": 7.1,
+                "duration": 5.1,
+                "type": 11,
+                "instruction": "Head east",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 7.9,
+                "duration": 5.7,
+                "type": 1,
+                "instruction": "Turn right onto Lesmount Avenue",
+                "name": "Lesmount Avenue",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 125.0,
+                "duration": 90.0,
+                "type": 0,
+                "instruction": "Turn left onto Memorial Park Avenue",
+                "name": "Memorial Park Avenue",
+                "way_points": [
+                  2,
+                  5
+                ]
+              },
+              {
+                "distance": 7.4,
+                "duration": 5.3,
+                "type": 1,
+                "instruction": "Turn right onto Inwood Avenue",
+                "name": "Inwood Avenue",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 97.8,
+                "duration": 70.4,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  6,
+                  10
+                ]
+              },
+              {
+                "distance": 7.2,
+                "duration": 5.2,
+                "type": 4,
+                "instruction": "Turn slight left",
+                "name": "-",
+                "way_points": [
+                  10,
+                  11
+                ]
+              },
+              {
+                "distance": 186.4,
+                "duration": 134.2,
+                "type": 1,
+                "instruction": "Turn right onto Frankdale Avenue",
+                "name": "Frankdale Avenue",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 74.8,
+                "duration": 53.8,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  12,
+                  15
+                ]
+              },
+              {
+                "distance": 461.0,
+                "duration": 331.9,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  15,
+                  23
+                ]
+              },
+              {
+                "distance": 16.8,
+                "duration": 12.1,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  23,
+                  25
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  25,
+                  25
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          25
+        ],
+        "summary": {
+          "distance": 991.5,
+          "duration": 713.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -79.340024,
+            43.689683
+          ],
+          [
+            -79.339941,
+            43.689707
+          ],
+          [
+            -79.339913,
+            43.689638
+          ],
+          [
+            -79.339638,
+            43.689693
+          ],
+          [
+            -79.338955,
+            43.68984
+          ],
+          [
+            -79.338418,
+            43.689947
+          ],
+          [
+            -79.338392,
+            43.689884
+          ],
+          [
+            -79.338302,
+            43.689898
+          ],
+          [
+            -79.338252,
+            43.689929
+          ],
+          [
+            -79.337336,
+            43.690128
+          ],
+          [
+            -79.337241,
+            43.690102
+          ],
+          [
+            -79.337155,
+            43.69012
+          ],
+          [
+            -79.3365,
+            43.688512
+          ],
+          [
+            -79.336436,
+            43.688525
+          ],
+          [
+            -79.336385,
+            43.688523
+          ],
+          [
+            -79.335607,
+            43.688693
+          ],
+          [
+            -79.335574,
+            43.688639
+          ],
+          [
+            -79.335522,
+            43.688557
+          ],
+          [
+            -79.335483,
+            43.688517
+          ],
+          [
+            -79.33479,
+            43.686913
+          ],
+          [
+            -79.33476,
+            43.686851
+          ],
+          [
+            -79.334733,
+            43.686796
+          ],
+          [
+            -79.333885,
+            43.684828
+          ],
+          [
+            -79.333868,
+            43.684748
+          ],
+          [
+            -79.333759,
+            43.684766
+          ],
+          [
+            -79.333664,
+            43.684781
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756126598274,
+    "query": {
+      "coordinates": [
+        [
+          -79.3400238,
+          43.6896831
+        ],
+        [
+          -79.333664,
+          43.6847813
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

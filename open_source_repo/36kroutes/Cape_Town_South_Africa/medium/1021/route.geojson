@@ -1,0 +1,299 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.565378,
+    -33.951491,
+    18.574087,
+    -33.943985
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.565378,
+        -33.951491,
+        18.574087,
+        -33.943985
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1529.5,
+            "duration": 1101.3,
+            "steps": [
+              {
+                "distance": 101.7,
+                "duration": 73.3,
+                "type": 11,
+                "instruction": "Head northwest on Anne Street",
+                "name": "Anne Street",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 78.8,
+                "duration": 56.8,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  2,
+                  4
+                ]
+              },
+              {
+                "distance": 512.2,
+                "duration": 368.8,
+                "type": 4,
+                "instruction": "Turn slight left onto Tafelberg Road",
+                "name": "Tafelberg Road",
+                "way_points": [
+                  4,
+                  14
+                ]
+              },
+              {
+                "distance": 552.3,
+                "duration": 397.6,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  14,
+                  17
+                ]
+              },
+              {
+                "distance": 58.1,
+                "duration": 41.9,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  17,
+                  18
+                ]
+              },
+              {
+                "distance": 14.2,
+                "duration": 10.2,
+                "type": 0,
+                "instruction": "Turn left onto River Road",
+                "name": "River Road",
+                "way_points": [
+                  18,
+                  20
+                ]
+              },
+              {
+                "distance": 77.0,
+                "duration": 55.4,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  20,
+                  24
+                ]
+              },
+              {
+                "distance": 84.1,
+                "duration": 60.5,
+                "type": 5,
+                "instruction": "Turn slight right onto Hydrangea Street",
+                "name": "Hydrangea Street",
+                "way_points": [
+                  24,
+                  28
+                ]
+              },
+              {
+                "distance": 51.1,
+                "duration": 36.8,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  28,
+                  29
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  29,
+                  29
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          29
+        ],
+        "summary": {
+          "distance": 1529.5,
+          "duration": 1101.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.574087,
+            -33.951491
+          ],
+          [
+            18.573627,
+            -33.95126
+          ],
+          [
+            18.573142,
+            -33.951019
+          ],
+          [
+            18.573168,
+            -33.95084
+          ],
+          [
+            18.573069,
+            -33.950318
+          ],
+          [
+            18.57301,
+            -33.950259
+          ],
+          [
+            18.572918,
+            -33.950105
+          ],
+          [
+            18.572894,
+            -33.95002
+          ],
+          [
+            18.572904,
+            -33.948849
+          ],
+          [
+            18.572912,
+            -33.948602
+          ],
+          [
+            18.572933,
+            -33.946871
+          ],
+          [
+            18.572937,
+            -33.946544
+          ],
+          [
+            18.572941,
+            -33.946265
+          ],
+          [
+            18.572946,
+            -33.945838
+          ],
+          [
+            18.572969,
+            -33.945752
+          ],
+          [
+            18.570953,
+            -33.945735
+          ],
+          [
+            18.568626,
+            -33.945715
+          ],
+          [
+            18.566982,
+            -33.945701
+          ],
+          [
+            18.566993,
+            -33.945178
+          ],
+          [
+            18.566908,
+            -33.945144
+          ],
+          [
+            18.56688,
+            -33.9451
+          ],
+          [
+            18.566778,
+            -33.945104
+          ],
+          [
+            18.566386,
+            -33.944958
+          ],
+          [
+            18.566205,
+            -33.944887
+          ],
+          [
+            18.566126,
+            -33.944832
+          ],
+          [
+            18.566083,
+            -33.944739
+          ],
+          [
+            18.566043,
+            -33.94471
+          ],
+          [
+            18.565599,
+            -33.944533
+          ],
+          [
+            18.565378,
+            -33.944444
+          ],
+          [
+            18.565383,
+            -33.943985
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756808691523,
+    "query": {
+      "coordinates": [
+        [
+          18.5740867,
+          -33.9514914
+        ],
+        [
+          18.5653829,
+          -33.9439849
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

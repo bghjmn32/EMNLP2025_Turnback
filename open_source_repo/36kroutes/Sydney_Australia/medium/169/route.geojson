@@ -1,0 +1,288 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    151.064864,
+    -33.970103,
+    151.073074,
+    -33.963987
+  ],
+  "features": [
+    {
+      "bbox": [
+        151.064864,
+        -33.970103,
+        151.073074,
+        -33.963987
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1551.5,
+            "duration": 1117.1,
+            "steps": [
+              {
+                "distance": 216.5,
+                "duration": 155.9,
+                "type": 11,
+                "instruction": "Head south on Scott Street",
+                "name": "Scott Street",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 26.5,
+                "duration": 19.1,
+                "type": 0,
+                "instruction": "Turn left onto Delves Street",
+                "name": "Delves Street",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 190.9,
+                "duration": 137.4,
+                "type": 1,
+                "instruction": "Turn right onto Scott Street",
+                "name": "Scott Street",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 132.4,
+                "duration": 95.3,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  4,
+                  6
+                ]
+              },
+              {
+                "distance": 18.4,
+                "duration": 13.2,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  6,
+                  8
+                ]
+              },
+              {
+                "distance": 31.0,
+                "duration": 22.4,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  8,
+                  9
+                ]
+              },
+              {
+                "distance": 212.0,
+                "duration": 152.6,
+                "type": 3,
+                "instruction": "Turn sharp right onto Anderson Road",
+                "name": "Anderson Road",
+                "way_points": [
+                  9,
+                  11
+                ]
+              },
+              {
+                "distance": 110.7,
+                "duration": 79.7,
+                "type": 0,
+                "instruction": "Turn left onto Oates Road",
+                "name": "Oates Road",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 44.9,
+                "duration": 32.3,
+                "type": 0,
+                "instruction": "Turn left onto Blackshaw Avenue",
+                "name": "Blackshaw Avenue",
+                "way_points": [
+                  12,
+                  13
+                ]
+              },
+              {
+                "distance": 108.3,
+                "duration": 78.0,
+                "type": 1,
+                "instruction": "Turn right onto Kendall Street",
+                "name": "Kendall Street",
+                "way_points": [
+                  13,
+                  14
+                ]
+              },
+              {
+                "distance": 455.6,
+                "duration": 328.1,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  14,
+                  17
+                ]
+              },
+              {
+                "distance": 4.4,
+                "duration": 3.1,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  17,
+                  18
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  18,
+                  18
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          18
+        ],
+        "summary": {
+          "distance": 1551.5,
+          "duration": 1117.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            151.073074,
+            -33.963987
+          ],
+          [
+            151.07264,
+            -33.965792
+          ],
+          [
+            151.072578,
+            -33.965884
+          ],
+          [
+            151.072731,
+            -33.966086
+          ],
+          [
+            151.07106,
+            -33.967099
+          ],
+          [
+            151.071101,
+            -33.967147
+          ],
+          [
+            151.071892,
+            -33.968069
+          ],
+          [
+            151.071807,
+            -33.968115
+          ],
+          [
+            151.071725,
+            -33.968159
+          ],
+          [
+            151.071925,
+            -33.968383
+          ],
+          [
+            151.071773,
+            -33.96839
+          ],
+          [
+            151.069658,
+            -33.968087
+          ],
+          [
+            151.069457,
+            -33.969068
+          ],
+          [
+            151.069935,
+            -33.969143
+          ],
+          [
+            151.069741,
+            -33.970103
+          ],
+          [
+            151.069669,
+            -33.970093
+          ],
+          [
+            151.069591,
+            -33.970082
+          ],
+          [
+            151.064871,
+            -33.96941
+          ],
+          [
+            151.064864,
+            -33.969449
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756397377126,
+    "query": {
+      "coordinates": [
+        [
+          151.0730744,
+          -33.9639869
+        ],
+        [
+          151.0648639,
+          -33.9694489
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

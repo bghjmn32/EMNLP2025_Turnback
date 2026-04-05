@@ -1,0 +1,177 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.481395,
+    -33.823627,
+    18.4839,
+    -33.822576
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.481395,
+        -33.823627,
+        18.4839,
+        -33.822576
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 414.3,
+            "duration": 298.3,
+            "steps": [
+              {
+                "distance": 126.8,
+                "duration": 91.3,
+                "type": 11,
+                "instruction": "Head east on Service Road",
+                "name": "Service Road",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 44.6,
+                "duration": 32.1,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  3,
+                  7
+                ]
+              },
+              {
+                "distance": 242.9,
+                "duration": 174.9,
+                "type": 0,
+                "instruction": "Turn left onto Blaauwberg Road",
+                "name": "Blaauwberg Road",
+                "way_points": [
+                  7,
+                  15
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Blaauwberg Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  15,
+                  15
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          15
+        ],
+        "summary": {
+          "distance": 414.3,
+          "duration": 298.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.482473,
+            -33.823282
+          ],
+          [
+            18.482735,
+            -33.823351
+          ],
+          [
+            18.483497,
+            -33.823552
+          ],
+          [
+            18.483782,
+            -33.823627
+          ],
+          [
+            18.483801,
+            -33.823523
+          ],
+          [
+            18.483809,
+            -33.823484
+          ],
+          [
+            18.483851,
+            -33.823368
+          ],
+          [
+            18.4839,
+            -33.823239
+          ],
+          [
+            18.483258,
+            -33.823069
+          ],
+          [
+            18.483139,
+            -33.823038
+          ],
+          [
+            18.483022,
+            -33.823007
+          ],
+          [
+            18.482838,
+            -33.822958
+          ],
+          [
+            18.482632,
+            -33.822903
+          ],
+          [
+            18.482092,
+            -33.822761
+          ],
+          [
+            18.481742,
+            -33.822668
+          ],
+          [
+            18.481395,
+            -33.822576
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756805590542,
+    "query": {
+      "coordinates": [
+        [
+          18.4824733,
+          -33.8232816
+        ],
+        [
+          18.4813949,
+          -33.8225764
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

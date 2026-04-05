@@ -1,0 +1,176 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.649037,
+    -22.984937,
+    -43.645898,
+    -22.979501
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.649037,
+        -22.984937,
+        -43.645898,
+        -22.979501
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 898.3,
+            "duration": 646.8,
+            "steps": [
+              {
+                "distance": 98.5,
+                "duration": 70.9,
+                "type": 11,
+                "instruction": "Head east on Rua Pereira Neto",
+                "name": "Rua Pereira Neto",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 73.7,
+                "duration": 53.1,
+                "type": 1,
+                "instruction": "Turn right onto Estrada da Pedra",
+                "name": "Estrada da Pedra",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 414.9,
+                "duration": 298.7,
+                "type": 12,
+                "instruction": "Keep left onto Rua Antônio Pires",
+                "name": "Rua Antônio Pires",
+                "way_points": [
+                  2,
+                  10
+                ]
+              },
+              {
+                "distance": 311.3,
+                "duration": 224.1,
+                "type": 1,
+                "instruction": "Turn right onto Rua Vicente Rodrigues",
+                "name": "Rua Vicente Rodrigues",
+                "way_points": [
+                  10,
+                  12
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Rua Vicente Rodrigues, straight ahead",
+                "name": "-",
+                "way_points": [
+                  12,
+                  12
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          12
+        ],
+        "summary": {
+          "distance": 898.3,
+          "duration": 646.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.649037,
+            -22.979501
+          ],
+          [
+            -43.648084,
+            -22.979623
+          ],
+          [
+            -43.6481,
+            -22.980286
+          ],
+          [
+            -43.647919,
+            -22.98047
+          ],
+          [
+            -43.647456,
+            -22.981139
+          ],
+          [
+            -43.646987,
+            -22.981822
+          ],
+          [
+            -43.646717,
+            -22.98221
+          ],
+          [
+            -43.646479,
+            -22.982554
+          ],
+          [
+            -43.646465,
+            -22.982585
+          ],
+          [
+            -43.646387,
+            -22.982704
+          ],
+          [
+            -43.645898,
+            -22.983414
+          ],
+          [
+            -43.646852,
+            -22.983973
+          ],
+          [
+            -43.648449,
+            -22.984937
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756394724898,
+    "query": {
+      "coordinates": [
+        [
+          -43.649037,
+          -22.9795006
+        ],
+        [
+          -43.648449,
+          -22.9849368
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

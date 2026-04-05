@@ -1,0 +1,181 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.095162,
+    19.396601,
+    -99.089302,
+    19.397425
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.095162,
+        19.396601,
+        -99.089302,
+        19.397425
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 641.1,
+            "duration": 461.6,
+            "steps": [
+              {
+                "distance": 10.0,
+                "duration": 7.2,
+                "type": 11,
+                "instruction": "Head east",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 32.2,
+                "duration": 23.2,
+                "type": 0,
+                "instruction": "Turn left onto Calle Resina",
+                "name": "Calle Resina",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 598.9,
+                "duration": 431.2,
+                "type": 1,
+                "instruction": "Turn right onto Calle Canela",
+                "name": "Calle Canela",
+                "way_points": [
+                  2,
+                  16
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Canela, straight ahead",
+                "name": "-",
+                "way_points": [
+                  16,
+                  16
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          16
+        ],
+        "summary": {
+          "distance": 641.1,
+          "duration": 461.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.095162,
+            19.397172
+          ],
+          [
+            -99.095067,
+            19.397159
+          ],
+          [
+            -99.094944,
+            19.397425
+          ],
+          [
+            -99.094827,
+            19.397402
+          ],
+          [
+            -99.093752,
+            19.397261
+          ],
+          [
+            -99.092934,
+            19.397137
+          ],
+          [
+            -99.092832,
+            19.397117
+          ],
+          [
+            -99.092495,
+            19.397061
+          ],
+          [
+            -99.092254,
+            19.397021
+          ],
+          [
+            -99.091898,
+            19.396961
+          ],
+          [
+            -99.0915,
+            19.396899
+          ],
+          [
+            -99.091422,
+            19.396887
+          ],
+          [
+            -99.091117,
+            19.39684
+          ],
+          [
+            -99.090743,
+            19.396795
+          ],
+          [
+            -99.090473,
+            19.396752
+          ],
+          [
+            -99.090416,
+            19.396743
+          ],
+          [
+            -99.089302,
+            19.396601
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756304127428,
+    "query": {
+      "coordinates": [
+        [
+          -99.0951616,
+          19.3971716
+        ],
+        [
+          -99.0893021,
+          19.3966006
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

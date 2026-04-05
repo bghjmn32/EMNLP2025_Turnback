@@ -1,0 +1,216 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -79.434643,
+    43.731116,
+    -79.42176,
+    43.733689
+  ],
+  "features": [
+    {
+      "bbox": [
+        -79.434643,
+        43.731116,
+        -79.42176,
+        43.733689
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1100.7,
+            "duration": 792.5,
+            "steps": [
+              {
+                "distance": 9.4,
+                "duration": 6.8,
+                "type": 11,
+                "instruction": "Head southeast",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 173.3,
+                "duration": 124.8,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  8
+                ]
+              },
+              {
+                "distance": 17.4,
+                "duration": 12.5,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  8,
+                  10
+                ]
+              },
+              {
+                "distance": 900.6,
+                "duration": 648.4,
+                "type": 0,
+                "instruction": "Turn left onto Bannockburn Avenue",
+                "name": "Bannockburn Avenue",
+                "way_points": [
+                  10,
+                  22
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Bannockburn Avenue, straight ahead",
+                "name": "-",
+                "way_points": [
+                  22,
+                  22
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          22
+        ],
+        "summary": {
+          "distance": 1100.7,
+          "duration": 792.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -79.434643,
+            43.731184
+          ],
+          [
+            -79.434574,
+            43.731116
+          ],
+          [
+            -79.434563,
+            43.731119
+          ],
+          [
+            -79.434486,
+            43.731137
+          ],
+          [
+            -79.43433,
+            43.73112
+          ],
+          [
+            -79.434069,
+            43.731134
+          ],
+          [
+            -79.432719,
+            43.731435
+          ],
+          [
+            -79.432583,
+            43.731452
+          ],
+          [
+            -79.432493,
+            43.731471
+          ],
+          [
+            -79.432464,
+            43.731393
+          ],
+          [
+            -79.432438,
+            43.73132
+          ],
+          [
+            -79.432293,
+            43.731353
+          ],
+          [
+            -79.431948,
+            43.73143
+          ],
+          [
+            -79.430797,
+            43.731691
+          ],
+          [
+            -79.430578,
+            43.73179
+          ],
+          [
+            -79.430333,
+            43.731851
+          ],
+          [
+            -79.429748,
+            43.731862
+          ],
+          [
+            -79.429542,
+            43.731884
+          ],
+          [
+            -79.42901,
+            43.732058
+          ],
+          [
+            -79.428719,
+            43.732101
+          ],
+          [
+            -79.428632,
+            43.732121
+          ],
+          [
+            -79.424487,
+            43.73307
+          ],
+          [
+            -79.42176,
+            43.733689
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756125179657,
+    "query": {
+      "coordinates": [
+        [
+          -79.4346435,
+          43.7311843
+        ],
+        [
+          -79.4217602,
+          43.7336889
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

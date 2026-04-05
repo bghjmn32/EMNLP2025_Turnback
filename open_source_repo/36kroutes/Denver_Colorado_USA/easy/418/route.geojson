@@ -1,0 +1,245 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -104.895283,
+    39.695902,
+    -104.889888,
+    39.696785
+  ],
+  "features": [
+    {
+      "bbox": [
+        -104.895283,
+        39.695902,
+        -104.889888,
+        39.696785
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 648.7,
+            "duration": 467.1,
+            "steps": [
+              {
+                "distance": 69.7,
+                "duration": 50.2,
+                "type": 11,
+                "instruction": "Head north on South Tamarac Street",
+                "name": "South Tamarac Street",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 45.1,
+                "duration": 32.4,
+                "type": 0,
+                "instruction": "Turn left onto East Mississippi Avenue",
+                "name": "East Mississippi Avenue",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 24.0,
+                "duration": 17.3,
+                "type": 3,
+                "instruction": "Turn sharp right",
+                "name": "-",
+                "way_points": [
+                  2,
+                  4
+                ]
+              },
+              {
+                "distance": 285.2,
+                "duration": 205.4,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  4,
+                  11
+                ]
+              },
+              {
+                "distance": 52.4,
+                "duration": 37.7,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  11,
+                  17
+                ]
+              },
+              {
+                "distance": 148.5,
+                "duration": 106.9,
+                "type": 0,
+                "instruction": "Turn left onto East Mississippi Avenue",
+                "name": "East Mississippi Avenue",
+                "way_points": [
+                  17,
+                  19
+                ]
+              },
+              {
+                "distance": 23.7,
+                "duration": 17.1,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  19,
+                  21
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  21,
+                  21
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          21
+        ],
+        "summary": {
+          "distance": 648.7,
+          "duration": 467.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -104.894758,
+            39.695902
+          ],
+          [
+            -104.894757,
+            39.696529
+          ],
+          [
+            -104.895283,
+            39.696536
+          ],
+          [
+            -104.895209,
+            39.696662
+          ],
+          [
+            -104.89521,
+            39.69674
+          ],
+          [
+            -104.894112,
+            39.696738
+          ],
+          [
+            -104.894062,
+            39.696753
+          ],
+          [
+            -104.893964,
+            39.696753
+          ],
+          [
+            -104.893911,
+            39.696753
+          ],
+          [
+            -104.892852,
+            39.696752
+          ],
+          [
+            -104.891952,
+            39.696756
+          ],
+          [
+            -104.891891,
+            39.696785
+          ],
+          [
+            -104.89188,
+            39.696779
+          ],
+          [
+            -104.891809,
+            39.696772
+          ],
+          [
+            -104.891652,
+            39.696756
+          ],
+          [
+            -104.891582,
+            39.696749
+          ],
+          [
+            -104.891601,
+            39.696649
+          ],
+          [
+            -104.891624,
+            39.696522
+          ],
+          [
+            -104.891053,
+            39.696522
+          ],
+          [
+            -104.889888,
+            39.696523
+          ],
+          [
+            -104.889889,
+            39.696405
+          ],
+          [
+            -104.889919,
+            39.696312
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756305679218,
+    "query": {
+      "coordinates": [
+        [
+          -104.894758,
+          39.6959021
+        ],
+        [
+          -104.8899194,
+          39.696312
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

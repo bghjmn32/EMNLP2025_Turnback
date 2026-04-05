@@ -1,0 +1,271 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -79.423647,
+    43.657619,
+    -79.418965,
+    43.65946
+  ],
+  "features": [
+    {
+      "bbox": [
+        -79.423647,
+        43.657619,
+        -79.418965,
+        43.65946
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 626.3,
+            "duration": 451.0,
+            "steps": [
+              {
+                "distance": 115.3,
+                "duration": 83.0,
+                "type": 11,
+                "instruction": "Head north",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 47.2,
+                "duration": 34.0,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  4
+                ]
+              },
+              {
+                "distance": 9.7,
+                "duration": 7.0,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  4,
+                  6
+                ]
+              },
+              {
+                "distance": 90.5,
+                "duration": 65.2,
+                "type": 4,
+                "instruction": "Turn slight left",
+                "name": "-",
+                "way_points": [
+                  6,
+                  9
+                ]
+              },
+              {
+                "distance": 2.6,
+                "duration": 1.9,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  9,
+                  10
+                ]
+              },
+              {
+                "distance": 9.5,
+                "duration": 6.8,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  10,
+                  12
+                ]
+              },
+              {
+                "distance": 2.2,
+                "duration": 1.6,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  12,
+                  13
+                ]
+              },
+              {
+                "distance": 189.2,
+                "duration": 136.2,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  13,
+                  21
+                ]
+              },
+              {
+                "distance": 160.2,
+                "duration": 115.4,
+                "type": 1,
+                "instruction": "Turn right onto Montrose Avenue",
+                "name": "Montrose Avenue",
+                "way_points": [
+                  21,
+                  22
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Montrose Avenue, straight ahead",
+                "name": "-",
+                "way_points": [
+                  22,
+                  22
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          22
+        ],
+        "summary": {
+          "distance": 626.3,
+          "duration": 451.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -79.423255,
+            43.657619
+          ],
+          [
+            -79.423647,
+            43.658616
+          ],
+          [
+            -79.42315,
+            43.658715
+          ],
+          [
+            -79.42312,
+            43.658719
+          ],
+          [
+            -79.423094,
+            43.658696
+          ],
+          [
+            -79.423032,
+            43.658707
+          ],
+          [
+            -79.422977,
+            43.658718
+          ],
+          [
+            -79.422926,
+            43.658763
+          ],
+          [
+            -79.422456,
+            43.658855
+          ],
+          [
+            -79.421917,
+            43.658959
+          ],
+          [
+            -79.421895,
+            43.658941
+          ],
+          [
+            -79.421838,
+            43.658948
+          ],
+          [
+            -79.421779,
+            43.658955
+          ],
+          [
+            -79.42177,
+            43.658973
+          ],
+          [
+            -79.421238,
+            43.659086
+          ],
+          [
+            -79.420694,
+            43.659203
+          ],
+          [
+            -79.420632,
+            43.659217
+          ],
+          [
+            -79.420586,
+            43.659226
+          ],
+          [
+            -79.420078,
+            43.659341
+          ],
+          [
+            -79.419602,
+            43.659451
+          ],
+          [
+            -79.419575,
+            43.659447
+          ],
+          [
+            -79.41952,
+            43.65946
+          ],
+          [
+            -79.418965,
+            43.658076
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756124238073,
+    "query": {
+      "coordinates": [
+        [
+          -79.4232554,
+          43.6576191
+        ],
+        [
+          -79.4189646,
+          43.6580757
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

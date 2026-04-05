@@ -1,0 +1,177 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -98.994799,
+    19.23126,
+    -98.991708,
+    19.235994
+  ],
+  "features": [
+    {
+      "bbox": [
+        -98.994799,
+        19.23126,
+        -98.991708,
+        19.235994
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1085.5,
+            "duration": 781.5,
+            "steps": [
+              {
+                "distance": 55.1,
+                "duration": 39.7,
+                "type": 11,
+                "instruction": "Head west",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 517.7,
+                "duration": 372.7,
+                "type": 1,
+                "instruction": "Turn right onto Avenida del Comercio Norte",
+                "name": "Avenida del Comercio Norte",
+                "way_points": [
+                  1,
+                  8
+                ]
+              },
+              {
+                "distance": 512.7,
+                "duration": 369.1,
+                "type": 3,
+                "instruction": "Turn sharp right onto Avenida Camino Real a Tetelco",
+                "name": "Avenida Camino Real a Tetelco",
+                "way_points": [
+                  8,
+                  15
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Avenida Camino Real a Tetelco, straight ahead",
+                "name": "-",
+                "way_points": [
+                  15,
+                  15
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          15
+        ],
+        "summary": {
+          "distance": 1085.5,
+          "duration": 781.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -98.993998,
+            19.23126
+          ],
+          [
+            -98.994514,
+            19.23135
+          ],
+          [
+            -98.994558,
+            19.231994
+          ],
+          [
+            -98.994589,
+            19.2324
+          ],
+          [
+            -98.994621,
+            19.23282
+          ],
+          [
+            -98.994649,
+            19.233203
+          ],
+          [
+            -98.994752,
+            19.234584
+          ],
+          [
+            -98.994758,
+            19.23582
+          ],
+          [
+            -98.994799,
+            19.235994
+          ],
+          [
+            -98.99417,
+            19.235477
+          ],
+          [
+            -98.993845,
+            19.235164
+          ],
+          [
+            -98.993569,
+            19.234853
+          ],
+          [
+            -98.992939,
+            19.234044
+          ],
+          [
+            -98.992654,
+            19.233644
+          ],
+          [
+            -98.992166,
+            19.233051
+          ],
+          [
+            -98.991708,
+            19.232448
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756305092612,
+    "query": {
+      "coordinates": [
+        [
+          -98.9939977,
+          19.2312601
+        ],
+        [
+          -98.9917081,
+          19.232448
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

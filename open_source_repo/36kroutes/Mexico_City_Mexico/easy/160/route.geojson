@@ -1,0 +1,172 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.12762,
+    19.424384,
+    -99.126577,
+    19.428398
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.12762,
+        19.424384,
+        -99.126577,
+        19.428398
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 643.8,
+            "duration": 463.5,
+            "steps": [
+              {
+                "distance": 72.1,
+                "duration": 51.9,
+                "type": 11,
+                "instruction": "Head east on Calle República de El Salvador",
+                "name": "Calle República de El Salvador",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 438.9,
+                "duration": 316.0,
+                "type": 1,
+                "instruction": "Turn right onto Calle Roldán",
+                "name": "Calle Roldán",
+                "way_points": [
+                  1,
+                  8
+                ]
+              },
+              {
+                "distance": 89.1,
+                "duration": 64.2,
+                "type": 1,
+                "instruction": "Turn right onto Calle Puente de Santo Tomás",
+                "name": "Calle Puente de Santo Tomás",
+                "way_points": [
+                  8,
+                  9
+                ]
+              },
+              {
+                "distance": 43.7,
+                "duration": 31.5,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  9,
+                  11
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  11,
+                  11
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          11
+        ],
+        "summary": {
+          "distance": 643.8,
+          "duration": 463.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.12762,
+            19.428398
+          ],
+          [
+            -99.12694,
+            19.428304
+          ],
+          [
+            -99.126932,
+            19.427681
+          ],
+          [
+            -99.126877,
+            19.426683
+          ],
+          [
+            -99.126833,
+            19.4258
+          ],
+          [
+            -99.126817,
+            19.42571
+          ],
+          [
+            -99.126711,
+            19.42538
+          ],
+          [
+            -99.126602,
+            19.424548
+          ],
+          [
+            -99.126577,
+            19.424384
+          ],
+          [
+            -99.127425,
+            19.424441
+          ],
+          [
+            -99.127431,
+            19.424704
+          ],
+          [
+            -99.12746,
+            19.424831
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756304741917,
+    "query": {
+      "coordinates": [
+        [
+          -99.1276201,
+          19.4283983
+        ],
+        [
+          -99.1274605,
+          19.4248308
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

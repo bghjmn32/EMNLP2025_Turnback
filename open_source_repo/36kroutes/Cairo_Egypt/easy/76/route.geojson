@@ -1,0 +1,194 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    31.303193,
+    29.857747,
+    31.309224,
+    29.859874
+  ],
+  "features": [
+    {
+      "bbox": [
+        31.303193,
+        29.857747,
+        31.309224,
+        29.859874
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 717.7,
+            "duration": 516.8,
+            "steps": [
+              {
+                "distance": 91.4,
+                "duration": 65.8,
+                "type": 11,
+                "instruction": "Head north on شارع الرشاح",
+                "name": "شارع الرشاح",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 21.3,
+                "duration": 15.3,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 13.2,
+                "duration": 9.5,
+                "type": 0,
+                "instruction": "Turn left onto شارع الرشاح",
+                "name": "شارع الرشاح",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 322.6,
+                "duration": 232.3,
+                "type": 1,
+                "instruction": "Turn right onto شارع أبو بلال",
+                "name": "شارع أبو بلال",
+                "way_points": [
+                  4,
+                  6
+                ]
+              },
+              {
+                "distance": 7.3,
+                "duration": 5.2,
+                "type": 1,
+                "instruction": "Turn right onto شارع سيد عوده",
+                "name": "شارع سيد عوده",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 261.9,
+                "duration": 188.6,
+                "type": 0,
+                "instruction": "Turn left onto شارع عمر بن الخطاب 2",
+                "name": "شارع عمر بن الخطاب 2",
+                "way_points": [
+                  7,
+                  11
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at شارع عمر بن الخطاب 2, straight ahead",
+                "name": "-",
+                "way_points": [
+                  11,
+                  11
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          11
+        ],
+        "summary": {
+          "distance": 717.7,
+          "duration": 516.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            31.303399,
+            29.857747
+          ],
+          [
+            31.303252,
+            29.858319
+          ],
+          [
+            31.303193,
+            29.858549
+          ],
+          [
+            31.303409,
+            29.858591
+          ],
+          [
+            31.30338,
+            29.858707
+          ],
+          [
+            31.304942,
+            29.858866
+          ],
+          [
+            31.306693,
+            29.859107
+          ],
+          [
+            31.306733,
+            29.859051
+          ],
+          [
+            31.307874,
+            29.859294
+          ],
+          [
+            31.308523,
+            29.859421
+          ],
+          [
+            31.308844,
+            29.859646
+          ],
+          [
+            31.309224,
+            29.859874
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756730131417,
+    "query": {
+      "coordinates": [
+        [
+          31.303399,
+          29.8577465
+        ],
+        [
+          31.3092244,
+          29.859874
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

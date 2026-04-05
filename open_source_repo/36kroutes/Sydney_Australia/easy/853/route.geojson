@@ -1,0 +1,272 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    151.064044,
+    -33.891395,
+    151.067156,
+    -33.886243
+  ],
+  "features": [
+    {
+      "bbox": [
+        151.064044,
+        -33.891395,
+        151.067156,
+        -33.886243
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 958.5,
+            "duration": 690.1,
+            "steps": [
+              {
+                "distance": 46.3,
+                "duration": 33.4,
+                "type": 11,
+                "instruction": "Head north",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 9.2,
+                "duration": 6.6,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 290.1,
+                "duration": 208.9,
+                "type": 1,
+                "instruction": "Turn right onto Margaret Street",
+                "name": "Margaret Street",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 72.1,
+                "duration": 51.9,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  3,
+                  5
+                ]
+              },
+              {
+                "distance": 14.3,
+                "duration": 10.3,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  5,
+                  9
+                ]
+              },
+              {
+                "distance": 236.0,
+                "duration": 169.9,
+                "type": 12,
+                "instruction": "Keep left",
+                "name": "-",
+                "way_points": [
+                  9,
+                  15
+                ]
+              },
+              {
+                "distance": 62.6,
+                "duration": 45.1,
+                "type": 1,
+                "instruction": "Turn right onto Rebecca Road",
+                "name": "Rebecca Road",
+                "way_points": [
+                  15,
+                  18
+                ]
+              },
+              {
+                "distance": 227.9,
+                "duration": 164.1,
+                "type": 0,
+                "instruction": "Turn left onto Terry Street",
+                "name": "Terry Street",
+                "way_points": [
+                  18,
+                  25
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Terry Street, straight ahead",
+                "name": "-",
+                "way_points": [
+                  25,
+                  25
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          25
+        ],
+        "summary": {
+          "distance": 958.5,
+          "duration": 690.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            151.066722,
+            -33.886658
+          ],
+          [
+            151.066796,
+            -33.886246
+          ],
+          [
+            151.066896,
+            -33.886243
+          ],
+          [
+            151.066388,
+            -33.888817
+          ],
+          [
+            151.066477,
+            -33.888828
+          ],
+          [
+            151.067156,
+            -33.888933
+          ],
+          [
+            151.067153,
+            -33.888953
+          ],
+          [
+            151.067146,
+            -33.889002
+          ],
+          [
+            151.067138,
+            -33.88905
+          ],
+          [
+            151.067137,
+            -33.88906
+          ],
+          [
+            151.067149,
+            -33.889087
+          ],
+          [
+            151.067025,
+            -33.889911
+          ],
+          [
+            151.067052,
+            -33.889989
+          ],
+          [
+            151.067047,
+            -33.890046
+          ],
+          [
+            151.066825,
+            -33.891102
+          ],
+          [
+            151.066815,
+            -33.891154
+          ],
+          [
+            151.066706,
+            -33.891133
+          ],
+          [
+            151.066657,
+            -33.89112
+          ],
+          [
+            151.066201,
+            -33.890922
+          ],
+          [
+            151.066166,
+            -33.890973
+          ],
+          [
+            151.065914,
+            -33.891319
+          ],
+          [
+            151.065826,
+            -33.891368
+          ],
+          [
+            151.065729,
+            -33.891395
+          ],
+          [
+            151.065639,
+            -33.891395
+          ],
+          [
+            151.06523,
+            -33.891334
+          ],
+          [
+            151.064044,
+            -33.891194
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756395603896,
+    "query": {
+      "coordinates": [
+        [
+          151.0667223,
+          -33.8866586
+        ],
+        [
+          151.0640439,
+          -33.8911942
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

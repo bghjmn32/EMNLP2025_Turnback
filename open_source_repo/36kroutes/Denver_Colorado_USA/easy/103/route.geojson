@@ -1,0 +1,248 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -104.821426,
+    39.652342,
+    -104.812574,
+    39.653241
+  ],
+  "features": [
+    {
+      "bbox": [
+        -104.821426,
+        39.652342,
+        -104.812574,
+        39.653241
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 907.1,
+            "duration": 653.1,
+            "steps": [
+              {
+                "distance": 36.6,
+                "duration": 26.4,
+                "type": 11,
+                "instruction": "Head west",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 105.1,
+                "duration": 75.7,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  6
+                ]
+              },
+              {
+                "distance": 7.1,
+                "duration": 5.1,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 102.3,
+                "duration": 73.7,
+                "type": 1,
+                "instruction": "Turn right onto East Hampden Avenue",
+                "name": "East Hampden Avenue",
+                "way_points": [
+                  7,
+                  9
+                ]
+              },
+              {
+                "distance": 78.3,
+                "duration": 56.4,
+                "type": 0,
+                "instruction": "Turn left onto East Jefferson Avenue",
+                "name": "East Jefferson Avenue",
+                "way_points": [
+                  9,
+                  11
+                ]
+              },
+              {
+                "distance": 355.5,
+                "duration": 256.0,
+                "type": 1,
+                "instruction": "Turn right onto East Hampden Place",
+                "name": "East Hampden Place",
+                "way_points": [
+                  11,
+                  15
+                ]
+              },
+              {
+                "distance": 98.6,
+                "duration": 71.0,
+                "type": 1,
+                "instruction": "Turn right onto South Dawson Street",
+                "name": "South Dawson Street",
+                "way_points": [
+                  15,
+                  17
+                ]
+              },
+              {
+                "distance": 123.6,
+                "duration": 89.0,
+                "type": 0,
+                "instruction": "Turn left onto East Hampden Avenue",
+                "name": "East Hampden Avenue",
+                "way_points": [
+                  17,
+                  19
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at East Hampden Avenue, straight ahead",
+                "name": "-",
+                "way_points": [
+                  19,
+                  19
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          19
+        ],
+        "summary": {
+          "distance": 907.1,
+          "duration": 653.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -104.812574,
+            39.653221
+          ],
+          [
+            -104.813002,
+            39.653222
+          ],
+          [
+            -104.81302,
+            39.65324
+          ],
+          [
+            -104.813102,
+            39.65324
+          ],
+          [
+            -104.813213,
+            39.653241
+          ],
+          [
+            -104.813257,
+            39.653224
+          ],
+          [
+            -104.814214,
+            39.653223
+          ],
+          [
+            -104.814216,
+            39.653159
+          ],
+          [
+            -104.814617,
+            39.653159
+          ],
+          [
+            -104.815411,
+            39.653159
+          ],
+          [
+            -104.815409,
+            39.653025
+          ],
+          [
+            -104.815395,
+            39.652455
+          ],
+          [
+            -104.818196,
+            39.652443
+          ],
+          [
+            -104.81867,
+            39.652442
+          ],
+          [
+            -104.819142,
+            39.652431
+          ],
+          [
+            -104.819531,
+            39.652342
+          ],
+          [
+            -104.819904,
+            39.653023
+          ],
+          [
+            -104.819982,
+            39.653158
+          ],
+          [
+            -104.821274,
+            39.653155
+          ],
+          [
+            -104.821426,
+            39.653155
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756304304582,
+    "query": {
+      "coordinates": [
+        [
+          -104.8125741,
+          39.6532205
+        ],
+        [
+          -104.8214257,
+          39.6531551
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

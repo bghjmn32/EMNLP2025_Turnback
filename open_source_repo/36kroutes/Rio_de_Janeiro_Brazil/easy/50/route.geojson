@@ -1,0 +1,181 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.709839,
+    -22.902327,
+    -43.705462,
+    -22.900514
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.709839,
+        -22.902327,
+        -43.705462,
+        -22.900514
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 604.1,
+            "duration": 434.9,
+            "steps": [
+              {
+                "distance": 358.9,
+                "duration": 258.4,
+                "type": 11,
+                "instruction": "Head northwest on Rua 1",
+                "name": "Rua 1",
+                "way_points": [
+                  0,
+                  11
+                ]
+              },
+              {
+                "distance": 213.9,
+                "duration": 154.0,
+                "type": 0,
+                "instruction": "Turn left onto Avenida Canal",
+                "name": "Avenida Canal",
+                "way_points": [
+                  11,
+                  13
+                ]
+              },
+              {
+                "distance": 31.3,
+                "duration": 22.5,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  13,
+                  16
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  16,
+                  16
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          16
+        ],
+        "summary": {
+          "distance": 604.1,
+          "duration": 434.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.705462,
+            -22.902327
+          ],
+          [
+            -43.70564,
+            -22.902215
+          ],
+          [
+            -43.705805,
+            -22.902114
+          ],
+          [
+            -43.706123,
+            -22.901927
+          ],
+          [
+            -43.706436,
+            -22.901725
+          ],
+          [
+            -43.706771,
+            -22.901523
+          ],
+          [
+            -43.706913,
+            -22.901431
+          ],
+          [
+            -43.707097,
+            -22.901321
+          ],
+          [
+            -43.707411,
+            -22.901116
+          ],
+          [
+            -43.707723,
+            -22.900922
+          ],
+          [
+            -43.708044,
+            -22.900723
+          ],
+          [
+            -43.70836,
+            -22.900514
+          ],
+          [
+            -43.70942,
+            -22.901846
+          ],
+          [
+            -43.709593,
+            -22.902067
+          ],
+          [
+            -43.709663,
+            -22.902019
+          ],
+          [
+            -43.70978,
+            -22.901941
+          ],
+          [
+            -43.709839,
+            -22.901901
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756390299137,
+    "query": {
+      "coordinates": [
+        [
+          -43.7054622,
+          -22.9023272
+        ],
+        [
+          -43.7098395,
+          -22.901901
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

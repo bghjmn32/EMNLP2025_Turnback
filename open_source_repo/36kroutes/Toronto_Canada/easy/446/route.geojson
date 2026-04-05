@@ -1,0 +1,249 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -79.314657,
+    43.689266,
+    -79.312239,
+    43.695356
+  ],
+  "features": [
+    {
+      "bbox": [
+        -79.314657,
+        43.689266,
+        -79.312239,
+        43.695356
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 891.3,
+            "duration": 641.7,
+            "steps": [
+              {
+                "distance": 10.7,
+                "duration": 7.7,
+                "type": 11,
+                "instruction": "Head west",
+                "name": "-",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 9.1,
+                "duration": 6.5,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  2,
+                  4
+                ]
+              },
+              {
+                "distance": 196.6,
+                "duration": 141.6,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  4,
+                  9
+                ]
+              },
+              {
+                "distance": 606.5,
+                "duration": 436.7,
+                "type": 0,
+                "instruction": "Turn left onto Cedarvale Avenue",
+                "name": "Cedarvale Avenue",
+                "way_points": [
+                  9,
+                  18
+                ]
+              },
+              {
+                "distance": 55.8,
+                "duration": 40.2,
+                "type": 1,
+                "instruction": "Turn right onto Milverton Boulevard",
+                "name": "Milverton Boulevard",
+                "way_points": [
+                  18,
+                  20
+                ]
+              },
+              {
+                "distance": 6.3,
+                "duration": 4.5,
+                "type": 0,
+                "instruction": "Turn left onto Coleridge Avenue",
+                "name": "Coleridge Avenue",
+                "way_points": [
+                  20,
+                  21
+                ]
+              },
+              {
+                "distance": 6.2,
+                "duration": 4.5,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  21,
+                  22
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  22,
+                  22
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          22
+        ],
+        "summary": {
+          "distance": 891.3,
+          "duration": 641.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -79.312239,
+            43.695356
+          ],
+          [
+            -79.312298,
+            43.695342
+          ],
+          [
+            -79.312365,
+            43.695326
+          ],
+          [
+            -79.312349,
+            43.695281
+          ],
+          [
+            -79.312337,
+            43.695247
+          ],
+          [
+            -79.313334,
+            43.695018
+          ],
+          [
+            -79.313395,
+            43.695004
+          ],
+          [
+            -79.313448,
+            43.694992
+          ],
+          [
+            -79.314594,
+            43.694724
+          ],
+          [
+            -79.314657,
+            43.694694
+          ],
+          [
+            -79.314058,
+            43.693316
+          ],
+          [
+            -79.314016,
+            43.693179
+          ],
+          [
+            -79.313991,
+            43.693123
+          ],
+          [
+            -79.313964,
+            43.693064
+          ],
+          [
+            -79.313702,
+            43.692495
+          ],
+          [
+            -79.313298,
+            43.691543
+          ],
+          [
+            -79.313275,
+            43.69149
+          ],
+          [
+            -79.313249,
+            43.69143
+          ],
+          [
+            -79.312408,
+            43.689488
+          ],
+          [
+            -79.312484,
+            43.68947
+          ],
+          [
+            -79.31307,
+            43.689337
+          ],
+          [
+            -79.313047,
+            43.689283
+          ],
+          [
+            -79.313121,
+            43.689266
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756125186632,
+    "query": {
+      "coordinates": [
+        [
+          -79.3122386,
+          43.695356
+        ],
+        [
+          -79.3131211,
+          43.6892663
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

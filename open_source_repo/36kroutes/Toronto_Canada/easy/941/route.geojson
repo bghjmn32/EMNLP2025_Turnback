@@ -1,0 +1,181 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -79.432669,
+    43.724686,
+    -79.428758,
+    43.732345
+  ],
+  "features": [
+    {
+      "bbox": [
+        -79.432669,
+        43.724686,
+        -79.428758,
+        43.732345
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1014.0,
+            "duration": 730.1,
+            "steps": [
+              {
+                "distance": 366.5,
+                "duration": 263.9,
+                "type": 11,
+                "instruction": "Head south",
+                "name": "-",
+                "way_points": [
+                  0,
+                  9
+                ]
+              },
+              {
+                "distance": 105.5,
+                "duration": 75.9,
+                "type": 0,
+                "instruction": "Turn left onto Old Orchard Grove",
+                "name": "Old Orchard Grove",
+                "way_points": [
+                  9,
+                  10
+                ]
+              },
+              {
+                "distance": 542.1,
+                "duration": 390.3,
+                "type": 1,
+                "instruction": "Turn right onto Barse Street",
+                "name": "Barse Street",
+                "way_points": [
+                  10,
+                  16
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Barse Street, straight ahead",
+                "name": "-",
+                "way_points": [
+                  16,
+                  16
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          16
+        ],
+        "summary": {
+          "distance": 1014.0,
+          "duration": 730.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -79.432669,
+            43.732345
+          ],
+          [
+            -79.432629,
+            43.732196
+          ],
+          [
+            -79.432493,
+            43.731471
+          ],
+          [
+            -79.432464,
+            43.731393
+          ],
+          [
+            -79.432438,
+            43.73132
+          ],
+          [
+            -79.432426,
+            43.731271
+          ],
+          [
+            -79.43222,
+            43.730404
+          ],
+          [
+            -79.43204,
+            43.729728
+          ],
+          [
+            -79.431997,
+            43.729571
+          ],
+          [
+            -79.431874,
+            43.729101
+          ],
+          [
+            -79.430616,
+            43.729372
+          ],
+          [
+            -79.430256,
+            43.728522
+          ],
+          [
+            -79.429955,
+            43.727772
+          ],
+          [
+            -79.429646,
+            43.727003
+          ],
+          [
+            -79.429394,
+            43.726256
+          ],
+          [
+            -79.429084,
+            43.725474
+          ],
+          [
+            -79.428758,
+            43.724686
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756126413519,
+    "query": {
+      "coordinates": [
+        [
+          -79.4326691,
+          43.7323449
+        ],
+        [
+          -79.4287579,
+          43.7246864
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

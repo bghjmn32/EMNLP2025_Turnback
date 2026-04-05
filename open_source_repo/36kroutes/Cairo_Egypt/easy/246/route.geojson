@@ -1,0 +1,195 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    31.813499,
+    30.134657,
+    31.814788,
+    30.139817
+  ],
+  "features": [
+    {
+      "bbox": [
+        31.813499,
+        30.134657,
+        31.814788,
+        30.139817
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 765.0,
+            "duration": 550.8,
+            "steps": [
+              {
+                "distance": 23.9,
+                "duration": 17.2,
+                "type": 11,
+                "instruction": "Head south",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 43.0,
+                "duration": 31.0,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 411.6,
+                "duration": 296.3,
+                "type": 1,
+                "instruction": "Turn right onto شارع الامام محمد متولي الشعراوي",
+                "name": "شارع الامام محمد متولي الشعراوي",
+                "way_points": [
+                  2,
+                  9
+                ]
+              },
+              {
+                "distance": 124.0,
+                "duration": 89.3,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  9,
+                  10
+                ]
+              },
+              {
+                "distance": 162.5,
+                "duration": 117.0,
+                "type": 2,
+                "instruction": "Turn sharp left onto شارع الامام احمد بن حنبل",
+                "name": "شارع الامام احمد بن حنبل",
+                "way_points": [
+                  10,
+                  14
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at شارع الامام احمد بن حنبل, straight ahead",
+                "name": "-",
+                "way_points": [
+                  14,
+                  14
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          14
+        ],
+        "summary": {
+          "distance": 765.0,
+          "duration": 550.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            31.813952,
+            30.134889
+          ],
+          [
+            31.813967,
+            30.134674
+          ],
+          [
+            31.813519,
+            30.134657
+          ],
+          [
+            31.813502,
+            30.135658
+          ],
+          [
+            31.813502,
+            30.136092
+          ],
+          [
+            31.813501,
+            30.13623
+          ],
+          [
+            31.813501,
+            30.136689
+          ],
+          [
+            31.813501,
+            30.136822
+          ],
+          [
+            31.8135,
+            30.137707
+          ],
+          [
+            31.813499,
+            30.138358
+          ],
+          [
+            31.814788,
+            30.138385
+          ],
+          [
+            31.814722,
+            30.138483
+          ],
+          [
+            31.81473,
+            30.138589
+          ],
+          [
+            31.814744,
+            30.138771
+          ],
+          [
+            31.814547,
+            30.139817
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756730661319,
+    "query": {
+      "coordinates": [
+        [
+          31.813952,
+          30.1348886
+        ],
+        [
+          31.8145474,
+          30.1398172
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

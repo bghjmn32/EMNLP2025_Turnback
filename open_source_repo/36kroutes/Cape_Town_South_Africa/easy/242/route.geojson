@@ -1,0 +1,154 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.459377,
+    -33.988474,
+    18.461134,
+    -33.983857
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.459377,
+        -33.988474,
+        18.461134,
+        -33.983857
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 664.8,
+            "duration": 478.7,
+            "steps": [
+              {
+                "distance": 157.6,
+                "duration": 113.5,
+                "type": 11,
+                "instruction": "Head east on Eyton Road",
+                "name": "Eyton Road",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 507.2,
+                "duration": 365.2,
+                "type": 0,
+                "instruction": "Turn left onto Linda Road",
+                "name": "Linda Road",
+                "way_points": [
+                  3,
+                  12
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Linda Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  12,
+                  12
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          12
+        ],
+        "summary": {
+          "distance": 664.8,
+          "duration": 478.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.45947,
+            -33.988474
+          ],
+          [
+            18.459851,
+            -33.9884
+          ],
+          [
+            18.460777,
+            -33.988222
+          ],
+          [
+            18.461134,
+            -33.98815
+          ],
+          [
+            18.460953,
+            -33.98751
+          ],
+          [
+            18.460773,
+            -33.986868
+          ],
+          [
+            18.460595,
+            -33.986231
+          ],
+          [
+            18.46044,
+            -33.98568
+          ],
+          [
+            18.460399,
+            -33.985611
+          ],
+          [
+            18.459955,
+            -33.984859
+          ],
+          [
+            18.459644,
+            -33.984317
+          ],
+          [
+            18.459597,
+            -33.984236
+          ],
+          [
+            18.459377,
+            -33.983857
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756804370435,
+    "query": {
+      "coordinates": [
+        [
+          18.4594699,
+          -33.9884736
+        ],
+        [
+          18.4593771,
+          -33.9838567
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

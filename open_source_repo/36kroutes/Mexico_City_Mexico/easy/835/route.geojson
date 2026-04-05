@@ -1,0 +1,267 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.13295,
+    19.515885,
+    -99.128292,
+    19.520742
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.13295,
+        19.515885,
+        -99.128292,
+        19.520742
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1119.5,
+            "duration": 806.0,
+            "steps": [
+              {
+                "distance": 51.7,
+                "duration": 37.2,
+                "type": 11,
+                "instruction": "Head east on Avenida Chiquihuite",
+                "name": "Avenida Chiquihuite",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 177.7,
+                "duration": 127.9,
+                "type": 3,
+                "instruction": "Turn sharp right onto Calle San Juan",
+                "name": "Calle San Juan",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 107.5,
+                "duration": 77.4,
+                "type": 0,
+                "instruction": "Turn left onto Avenida Acueducto, PERIF",
+                "name": "Avenida Acueducto, PERIF",
+                "way_points": [
+                  2,
+                  4
+                ]
+              },
+              {
+                "distance": 7.9,
+                "duration": 5.7,
+                "type": 12,
+                "instruction": "Keep left onto Avenida Río de los Remedios",
+                "name": "Avenida Río de los Remedios",
+                "way_points": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "distance": 28.0,
+                "duration": 20.1,
+                "type": 13,
+                "instruction": "Keep right",
+                "name": "-",
+                "way_points": [
+                  5,
+                  8
+                ]
+              },
+              {
+                "distance": 60.0,
+                "duration": 43.2,
+                "type": 0,
+                "instruction": "Turn left onto Avenida Acueducto de Guadalupe",
+                "name": "Avenida Acueducto de Guadalupe",
+                "way_points": [
+                  8,
+                  12
+                ]
+              },
+              {
+                "distance": 138.1,
+                "duration": 99.5,
+                "type": 1,
+                "instruction": "Turn right onto Calle Río de los Remedios, PERIF",
+                "name": "Calle Río de los Remedios, PERIF",
+                "way_points": [
+                  12,
+                  14
+                ]
+              },
+              {
+                "distance": 174.4,
+                "duration": 125.6,
+                "type": 0,
+                "instruction": "Turn left onto Calle 13 de Septiembre",
+                "name": "Calle 13 de Septiembre",
+                "way_points": [
+                  14,
+                  16
+                ]
+              },
+              {
+                "distance": 374.2,
+                "duration": 269.4,
+                "type": 1,
+                "instruction": "Turn right onto Calle Escuadrón 201",
+                "name": "Calle Escuadrón 201",
+                "way_points": [
+                  16,
+                  21
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Escuadrón 201, straight ahead",
+                "name": "-",
+                "way_points": [
+                  21,
+                  21
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          21
+        ],
+        "summary": {
+          "distance": 1119.5,
+          "duration": 806.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.129671,
+            19.520704
+          ],
+          [
+            -99.129179,
+            19.520742
+          ],
+          [
+            -99.129627,
+            19.5192
+          ],
+          [
+            -99.129257,
+            19.518927
+          ],
+          [
+            -99.128796,
+            19.518634
+          ],
+          [
+            -99.128723,
+            19.518648
+          ],
+          [
+            -99.128606,
+            19.518587
+          ],
+          [
+            -99.128638,
+            19.518522
+          ],
+          [
+            -99.128669,
+            19.518477
+          ],
+          [
+            -99.128643,
+            19.518452
+          ],
+          [
+            -99.128407,
+            19.518224
+          ],
+          [
+            -99.128361,
+            19.518174
+          ],
+          [
+            -99.128292,
+            19.518073
+          ],
+          [
+            -99.129121,
+            19.517766
+          ],
+          [
+            -99.129532,
+            19.517654
+          ],
+          [
+            -99.129507,
+            19.517543
+          ],
+          [
+            -99.129387,
+            19.516092
+          ],
+          [
+            -99.130076,
+            19.516046
+          ],
+          [
+            -99.130754,
+            19.516
+          ],
+          [
+            -99.131494,
+            19.515966
+          ],
+          [
+            -99.132216,
+            19.515924
+          ],
+          [
+            -99.13295,
+            19.515885
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756307842809,
+    "query": {
+      "coordinates": [
+        [
+          -99.1296709,
+          19.5207038
+        ],
+        [
+          -99.13295,
+          19.5158852
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

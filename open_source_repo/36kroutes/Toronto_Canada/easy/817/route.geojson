@@ -1,0 +1,210 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -79.30397,
+    43.709705,
+    -79.2979,
+    43.713087
+  ],
+  "features": [
+    {
+      "bbox": [
+        -79.30397,
+        43.709705,
+        -79.2979,
+        43.713087
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 810.1,
+            "duration": 583.3,
+            "steps": [
+              {
+                "distance": 6.3,
+                "duration": 4.6,
+                "type": 11,
+                "instruction": "Head northwest on Merritt Road",
+                "name": "Merritt Road",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 13.0,
+                "duration": 9.4,
+                "type": 0,
+                "instruction": "Turn left onto Merritt Road",
+                "name": "Merritt Road",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 80.5,
+                "duration": 58.0,
+                "type": 1,
+                "instruction": "Turn right onto Valor Boulevard",
+                "name": "Valor Boulevard",
+                "way_points": [
+                  2,
+                  4
+                ]
+              },
+              {
+                "distance": 200.7,
+                "duration": 144.5,
+                "type": 1,
+                "instruction": "Turn right onto Furnival Road",
+                "name": "Furnival Road",
+                "way_points": [
+                  4,
+                  9
+                ]
+              },
+              {
+                "distance": 117.6,
+                "duration": 84.7,
+                "type": 0,
+                "instruction": "Turn left onto Squires Avenue",
+                "name": "Squires Avenue",
+                "way_points": [
+                  9,
+                  11
+                ]
+              },
+              {
+                "distance": 391.8,
+                "duration": 282.1,
+                "type": 1,
+                "instruction": "Turn right onto Tiago Avenue",
+                "name": "Tiago Avenue",
+                "way_points": [
+                  11,
+                  15
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Tiago Avenue, straight ahead",
+                "name": "-",
+                "way_points": [
+                  15,
+                  15
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          15
+        ],
+        "summary": {
+          "distance": 810.1,
+          "duration": 583.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -79.302928,
+            43.709783
+          ],
+          [
+            -79.302999,
+            43.709806
+          ],
+          [
+            -79.303079,
+            43.709705
+          ],
+          [
+            -79.303151,
+            43.709731
+          ],
+          [
+            -79.30397,
+            43.710036
+          ],
+          [
+            -79.303558,
+            43.710631
+          ],
+          [
+            -79.303498,
+            43.710701
+          ],
+          [
+            -79.303425,
+            43.710738
+          ],
+          [
+            -79.303068,
+            43.710823
+          ],
+          [
+            -79.302117,
+            43.711041
+          ],
+          [
+            -79.30219,
+            43.711232
+          ],
+          [
+            -79.302559,
+            43.71205
+          ],
+          [
+            -79.300468,
+            43.712519
+          ],
+          [
+            -79.300371,
+            43.712541
+          ],
+          [
+            -79.300283,
+            43.71256
+          ],
+          [
+            -79.2979,
+            43.713087
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756126111145,
+    "query": {
+      "coordinates": [
+        [
+          -79.3029276,
+          43.7097827
+        ],
+        [
+          -79.2978999,
+          43.7130874
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

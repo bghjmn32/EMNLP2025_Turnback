@@ -1,0 +1,172 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -104.735017,
+    39.653236,
+    -104.729293,
+    39.655057
+  ],
+  "features": [
+    {
+      "bbox": [
+        -104.735017,
+        39.653236,
+        -104.729293,
+        39.655057
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 598.1,
+            "duration": 430.7,
+            "steps": [
+              {
+                "distance": 15.5,
+                "duration": 11.2,
+                "type": 11,
+                "instruction": "Head west on East Soddie Road",
+                "name": "East Soddie Road",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 24.5,
+                "duration": 17.6,
+                "type": 0,
+                "instruction": "Turn left onto South Soddie Loop",
+                "name": "South Soddie Loop",
+                "way_points": [
+                  1,
+                  3
+                ]
+              },
+              {
+                "distance": 518.0,
+                "duration": 373.0,
+                "type": 13,
+                "instruction": "Keep right onto South Soddie Loop",
+                "name": "South Soddie Loop",
+                "way_points": [
+                  3,
+                  9
+                ]
+              },
+              {
+                "distance": 40.1,
+                "duration": 28.9,
+                "type": 2,
+                "instruction": "Turn sharp left onto PCC Welcome Road",
+                "name": "PCC Welcome Road",
+                "way_points": [
+                  9,
+                  11
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at PCC Welcome Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  11,
+                  11
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          11
+        ],
+        "summary": {
+          "distance": 598.1,
+          "duration": 430.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -104.729293,
+            39.655057
+          ],
+          [
+            -104.729474,
+            39.65505
+          ],
+          [
+            -104.729468,
+            39.654951
+          ],
+          [
+            -104.729547,
+            39.654846
+          ],
+          [
+            -104.729704,
+            39.654775
+          ],
+          [
+            -104.734311,
+            39.653271
+          ],
+          [
+            -104.734441,
+            39.653262
+          ],
+          [
+            -104.734564,
+            39.653298
+          ],
+          [
+            -104.734853,
+            39.653529
+          ],
+          [
+            -104.735017,
+            39.653597
+          ],
+          [
+            -104.735012,
+            39.653352
+          ],
+          [
+            -104.735011,
+            39.653236
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756307220616,
+    "query": {
+      "coordinates": [
+        [
+          -104.7292929,
+          39.6550573
+        ],
+        [
+          -104.7350113,
+          39.6532355
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    174.65287,
+    -36.599036,
+    174.660055,
+    -36.598265
+  ],
+  "features": [
+    {
+      "bbox": [
+        174.65287,
+        -36.599036,
+        174.660055,
+        -36.598265
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 664.3,
+            "duration": 478.3,
+            "steps": [
+              {
+                "distance": 664.3,
+                "duration": 478.3,
+                "type": 11,
+                "instruction": "Head northwest on Wainui Road",
+                "name": "Wainui Road",
+                "way_points": [
+                  0,
+                  9
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Wainui Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  9,
+                  9
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          9
+        ],
+        "summary": {
+          "distance": 664.3,
+          "duration": 478.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            174.660055,
+            -36.599036
+          ],
+          [
+            174.659531,
+            -36.598723
+          ],
+          [
+            174.65923,
+            -36.598617
+          ],
+          [
+            174.658704,
+            -36.598487
+          ],
+          [
+            174.657838,
+            -36.598364
+          ],
+          [
+            174.657438,
+            -36.598293
+          ],
+          [
+            174.657157,
+            -36.598265
+          ],
+          [
+            174.656954,
+            -36.598267
+          ],
+          [
+            174.653398,
+            -36.598686
+          ],
+          [
+            174.65287,
+            -36.598779
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756373617498,
+    "query": {
+      "coordinates": [
+        [
+          174.6600546,
+          -36.5990358
+        ],
+        [
+          174.6528696,
+          -36.5987791
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

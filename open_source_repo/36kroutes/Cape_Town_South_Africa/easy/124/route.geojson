@@ -1,0 +1,195 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.488099,
+    -33.971972,
+    18.490232,
+    -33.966756
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.488099,
+        -33.971972,
+        18.490232,
+        -33.966756
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 763.1,
+            "duration": 549.4,
+            "steps": [
+              {
+                "distance": 282.1,
+                "duration": 203.1,
+                "type": 11,
+                "instruction": "Head north",
+                "name": "-",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 216.6,
+                "duration": 155.9,
+                "type": 0,
+                "instruction": "Turn left onto Sandown Road",
+                "name": "Sandown Road",
+                "way_points": [
+                  3,
+                  8
+                ]
+              },
+              {
+                "distance": 232.7,
+                "duration": 167.5,
+                "type": 1,
+                "instruction": "Turn right onto Wood Road",
+                "name": "Wood Road",
+                "way_points": [
+                  8,
+                  12
+                ]
+              },
+              {
+                "distance": 20.3,
+                "duration": 14.6,
+                "type": 1,
+                "instruction": "Turn right onto Riverton Road",
+                "name": "Riverton Road",
+                "way_points": [
+                  12,
+                  13
+                ]
+              },
+              {
+                "distance": 11.4,
+                "duration": 8.2,
+                "type": 0,
+                "instruction": "Turn left onto Wood Road",
+                "name": "Wood Road",
+                "way_points": [
+                  13,
+                  14
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Wood Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  14,
+                  14
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          14
+        ],
+        "summary": {
+          "distance": 763.1,
+          "duration": 549.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.48938,
+            -33.971972
+          ],
+          [
+            18.489395,
+            -33.97192
+          ],
+          [
+            18.48984,
+            -33.970671
+          ],
+          [
+            18.490232,
+            -33.969536
+          ],
+          [
+            18.489601,
+            -33.969376
+          ],
+          [
+            18.489464,
+            -33.969309
+          ],
+          [
+            18.488533,
+            -33.968915
+          ],
+          [
+            18.488484,
+            -33.968895
+          ],
+          [
+            18.488099,
+            -33.968736
+          ],
+          [
+            18.488345,
+            -33.968313
+          ],
+          [
+            18.488608,
+            -33.967863
+          ],
+          [
+            18.488858,
+            -33.967441
+          ],
+          [
+            18.489204,
+            -33.966855
+          ],
+          [
+            18.489424,
+            -33.966859
+          ],
+          [
+            18.489432,
+            -33.966756
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756804012434,
+    "query": {
+      "coordinates": [
+        [
+          18.48938,
+          -33.9719725
+        ],
+        [
+          18.4894316,
+          -33.9667562
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    151.159523,
+    -33.61168,
+    151.163928,
+    -33.604154
+  ],
+  "features": [
+    {
+      "bbox": [
+        151.159523,
+        -33.61168,
+        151.163928,
+        -33.604154
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1656.8,
+            "duration": 1192.9,
+            "steps": [
+              {
+                "distance": 640.0,
+                "duration": 460.8,
+                "type": 11,
+                "instruction": "Head north on Pacific Highway, B83",
+                "name": "Pacific Highway, B83",
+                "way_points": [
+                  0,
+                  10
+                ]
+              },
+              {
+                "distance": 939.2,
+                "duration": 676.2,
+                "type": 3,
+                "instruction": "Turn sharp right onto Pacific Highway, B83",
+                "name": "Pacific Highway, B83",
+                "way_points": [
+                  10,
+                  20
+                ]
+              },
+              {
+                "distance": 77.7,
+                "duration": 55.9,
+                "type": 2,
+                "instruction": "Turn sharp left",
+                "name": "-",
+                "way_points": [
+                  20,
+                  24
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  24,
+                  24
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          24
+        ],
+        "summary": {
+          "distance": 1656.8,
+          "duration": 1192.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            151.159523,
+            -33.608511
+          ],
+          [
+            151.159729,
+            -33.608081
+          ],
+          [
+            151.159895,
+            -33.607803
+          ],
+          [
+            151.160058,
+            -33.607581
+          ],
+          [
+            151.160325,
+            -33.607305
+          ],
+          [
+            151.160643,
+            -33.607025
+          ],
+          [
+            151.161598,
+            -33.606381
+          ],
+          [
+            151.16175,
+            -33.606264
+          ],
+          [
+            151.162094,
+            -33.606008
+          ],
+          [
+            151.163267,
+            -33.60481
+          ],
+          [
+            151.163928,
+            -33.604154
+          ],
+          [
+            151.163714,
+            -33.604428
+          ],
+          [
+            151.16218,
+            -33.606252
+          ],
+          [
+            151.16178,
+            -33.606727
+          ],
+          [
+            151.160691,
+            -33.608043
+          ],
+          [
+            151.160505,
+            -33.608356
+          ],
+          [
+            151.160399,
+            -33.608591
+          ],
+          [
+            151.160303,
+            -33.608884
+          ],
+          [
+            151.160265,
+            -33.609103
+          ],
+          [
+            151.160022,
+            -33.611126
+          ],
+          [
+            151.159958,
+            -33.61168
+          ],
+          [
+            151.160051,
+            -33.611628
+          ],
+          [
+            151.160112,
+            -33.611501
+          ],
+          [
+            151.160138,
+            -33.61139
+          ],
+          [
+            151.16017,
+            -33.611035
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756401871728,
+    "query": {
+      "coordinates": [
+        [
+          151.1595229,
+          -33.6085113
+        ],
+        [
+          151.1601698,
+          -33.6110353
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

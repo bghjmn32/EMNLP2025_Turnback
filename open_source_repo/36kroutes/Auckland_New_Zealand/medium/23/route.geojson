@@ -1,0 +1,186 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    174.650668,
+    -36.599036,
+    174.660055,
+    -36.591761
+  ],
+  "features": [
+    {
+      "bbox": [
+        174.650668,
+        -36.599036,
+        174.660055,
+        -36.591761
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1482.5,
+            "duration": 1067.4,
+            "steps": [
+              {
+                "distance": 664.3,
+                "duration": 478.3,
+                "type": 11,
+                "instruction": "Head northwest on Wainui Road",
+                "name": "Wainui Road",
+                "way_points": [
+                  0,
+                  9
+                ]
+              },
+              {
+                "distance": 818.2,
+                "duration": 589.1,
+                "type": 1,
+                "instruction": "Turn right onto Upper Orewa Road",
+                "name": "Upper Orewa Road",
+                "way_points": [
+                  9,
+                  20
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Upper Orewa Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  20,
+                  20
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          20
+        ],
+        "summary": {
+          "distance": 1482.5,
+          "duration": 1067.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            174.660055,
+            -36.599036
+          ],
+          [
+            174.659531,
+            -36.598723
+          ],
+          [
+            174.65923,
+            -36.598617
+          ],
+          [
+            174.658704,
+            -36.598487
+          ],
+          [
+            174.657838,
+            -36.598364
+          ],
+          [
+            174.657438,
+            -36.598293
+          ],
+          [
+            174.657157,
+            -36.598265
+          ],
+          [
+            174.656954,
+            -36.598267
+          ],
+          [
+            174.653398,
+            -36.598686
+          ],
+          [
+            174.65287,
+            -36.598779
+          ],
+          [
+            174.65205,
+            -36.59711
+          ],
+          [
+            174.651132,
+            -36.594913
+          ],
+          [
+            174.651055,
+            -36.594655
+          ],
+          [
+            174.651056,
+            -36.59435
+          ],
+          [
+            174.651082,
+            -36.594076
+          ],
+          [
+            174.651188,
+            -36.593243
+          ],
+          [
+            174.651174,
+            -36.592883
+          ],
+          [
+            174.65114,
+            -36.592709
+          ],
+          [
+            174.651023,
+            -36.592372
+          ],
+          [
+            174.65078,
+            -36.591888
+          ],
+          [
+            174.650668,
+            -36.591761
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756375993621,
+    "query": {
+      "coordinates": [
+        [
+          174.6600546,
+          -36.5990358
+        ],
+        [
+          174.6506681,
+          -36.5917606
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

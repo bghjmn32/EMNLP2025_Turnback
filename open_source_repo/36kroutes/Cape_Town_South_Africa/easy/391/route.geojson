@@ -1,0 +1,195 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.466605,
+    -33.935908,
+    18.469982,
+    -33.932979
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.466605,
+        -33.935908,
+        18.469982,
+        -33.932979
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 586.8,
+            "duration": 422.5,
+            "steps": [
+              {
+                "distance": 347.2,
+                "duration": 250.0,
+                "type": 11,
+                "instruction": "Head southeast on Lower Main Road",
+                "name": "Lower Main Road",
+                "way_points": [
+                  0,
+                  4
+                ]
+              },
+              {
+                "distance": 28.3,
+                "duration": 20.3,
+                "type": 0,
+                "instruction": "Turn left onto Saint Michael's Road",
+                "name": "Saint Michael's Road",
+                "way_points": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "distance": 50.7,
+                "duration": 36.5,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  5,
+                  9
+                ]
+              },
+              {
+                "distance": 13.9,
+                "duration": 10.0,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  9,
+                  10
+                ]
+              },
+              {
+                "distance": 146.8,
+                "duration": 105.7,
+                "type": 0,
+                "instruction": "Turn left onto Saint Michael's Road",
+                "name": "Saint Michael's Road",
+                "way_points": [
+                  10,
+                  14
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Saint Michael's Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  14,
+                  14
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          14
+        ],
+        "summary": {
+          "distance": 586.8,
+          "duration": 422.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.466605,
+            -33.932979
+          ],
+          [
+            18.466838,
+            -33.933434
+          ],
+          [
+            18.467112,
+            -33.933958
+          ],
+          [
+            18.467817,
+            -33.935703
+          ],
+          [
+            18.467903,
+            -33.935908
+          ],
+          [
+            18.468184,
+            -33.935807
+          ],
+          [
+            18.468141,
+            -33.935686
+          ],
+          [
+            18.468131,
+            -33.935661
+          ],
+          [
+            18.468406,
+            -33.935586
+          ],
+          [
+            18.468479,
+            -33.935565
+          ],
+          [
+            18.468521,
+            -33.935685
+          ],
+          [
+            18.468558,
+            -33.935671
+          ],
+          [
+            18.468938,
+            -33.935538
+          ],
+          [
+            18.469457,
+            -33.935345
+          ],
+          [
+            18.469982,
+            -33.935161
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756804732042,
+    "query": {
+      "coordinates": [
+        [
+          18.4666049,
+          -33.9329794
+        ],
+        [
+          18.4699815,
+          -33.9351611
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

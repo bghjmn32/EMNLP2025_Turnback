@@ -1,0 +1,184 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.607714,
+    -22.892266,
+    -43.603406,
+    -22.88268
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.607714,
+        -22.892266,
+        -43.603406,
+        -22.88268
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1306.0,
+            "duration": 940.3,
+            "steps": [
+              {
+                "distance": 395.0,
+                "duration": 284.4,
+                "type": 11,
+                "instruction": "Head southwest on Rua D",
+                "name": "Rua D",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 476.2,
+                "duration": 342.9,
+                "type": 6,
+                "instruction": "Continue straight onto Rua E",
+                "name": "Rua E",
+                "way_points": [
+                  3,
+                  8
+                ]
+              },
+              {
+                "distance": 198.6,
+                "duration": 143.0,
+                "type": 0,
+                "instruction": "Turn left onto Rua Botucarai",
+                "name": "Rua Botucarai",
+                "way_points": [
+                  8,
+                  13
+                ]
+              },
+              {
+                "distance": 236.1,
+                "duration": 170.0,
+                "type": 1,
+                "instruction": "Turn right onto Rua Pocinhos",
+                "name": "Rua Pocinhos",
+                "way_points": [
+                  13,
+                  14
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Rua Pocinhos, straight ahead",
+                "name": "-",
+                "way_points": [
+                  14,
+                  14
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          14
+        ],
+        "summary": {
+          "distance": 1306.0,
+          "duration": 940.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.603406,
+            -22.88268
+          ],
+          [
+            -43.603625,
+            -22.883089
+          ],
+          [
+            -43.604139,
+            -22.88416
+          ],
+          [
+            -43.604971,
+            -22.885926
+          ],
+          [
+            -43.605088,
+            -22.886089
+          ],
+          [
+            -43.605146,
+            -22.886158
+          ],
+          [
+            -43.606079,
+            -22.887331
+          ],
+          [
+            -43.606531,
+            -22.887908
+          ],
+          [
+            -43.607714,
+            -22.889385
+          ],
+          [
+            -43.607543,
+            -22.88967
+          ],
+          [
+            -43.60746,
+            -22.889744
+          ],
+          [
+            -43.607282,
+            -22.889863
+          ],
+          [
+            -43.60676,
+            -22.890217
+          ],
+          [
+            -43.606279,
+            -22.89055
+          ],
+          [
+            -43.607635,
+            -22.892266
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756399080124,
+    "query": {
+      "coordinates": [
+        [
+          -43.6034062,
+          -22.8826803
+        ],
+        [
+          -43.6076351,
+          -22.8922663
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

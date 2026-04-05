@@ -1,0 +1,254 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -79.435248,
+    43.722503,
+    -79.418347,
+    43.727853
+  ],
+  "features": [
+    {
+      "bbox": [
+        -79.435248,
+        43.722503,
+        -79.418347,
+        43.727853
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1553.5,
+            "duration": 1118.5,
+            "steps": [
+              {
+                "distance": 5.9,
+                "duration": 4.3,
+                "type": 11,
+                "instruction": "Head south",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 1060.3,
+                "duration": 763.4,
+                "type": 1,
+                "instruction": "Turn right onto Fairlawn Avenue",
+                "name": "Fairlawn Avenue",
+                "way_points": [
+                  1,
+                  12
+                ]
+              },
+              {
+                "distance": 6.1,
+                "duration": 4.4,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  12,
+                  14
+                ]
+              },
+              {
+                "distance": 18.4,
+                "duration": 13.2,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  14,
+                  16
+                ]
+              },
+              {
+                "distance": 17.7,
+                "duration": 12.7,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  16,
+                  17
+                ]
+              },
+              {
+                "distance": 445.2,
+                "duration": 320.5,
+                "type": 1,
+                "instruction": "Turn right onto Prince Charles Drive",
+                "name": "Prince Charles Drive",
+                "way_points": [
+                  17,
+                  26
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Prince Charles Drive, on the left",
+                "name": "-",
+                "way_points": [
+                  26,
+                  26
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          26
+        ],
+        "summary": {
+          "distance": 1553.5,
+          "duration": 1118.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -79.418368,
+            43.727853
+          ],
+          [
+            -79.418347,
+            43.727802
+          ],
+          [
+            -79.418483,
+            43.727766
+          ],
+          [
+            -79.418818,
+            43.727677
+          ],
+          [
+            -79.420292,
+            43.727366
+          ],
+          [
+            -79.420763,
+            43.727263
+          ],
+          [
+            -79.423638,
+            43.726661
+          ],
+          [
+            -79.424342,
+            43.726513
+          ],
+          [
+            -79.425089,
+            43.726271
+          ],
+          [
+            -79.427022,
+            43.725905
+          ],
+          [
+            -79.429084,
+            43.725474
+          ],
+          [
+            -79.430577,
+            43.725136
+          ],
+          [
+            -79.430969,
+            43.725047
+          ],
+          [
+            -79.430965,
+            43.725029
+          ],
+          [
+            -79.430955,
+            43.724993
+          ],
+          [
+            -79.431073,
+            43.724975
+          ],
+          [
+            -79.431179,
+            43.724958
+          ],
+          [
+            -79.431141,
+            43.724801
+          ],
+          [
+            -79.431768,
+            43.724681
+          ],
+          [
+            -79.431866,
+            43.724662
+          ],
+          [
+            -79.432656,
+            43.72451
+          ],
+          [
+            -79.433346,
+            43.724305
+          ],
+          [
+            -79.433862,
+            43.72404
+          ],
+          [
+            -79.434636,
+            43.723505
+          ],
+          [
+            -79.435038,
+            43.722973
+          ],
+          [
+            -79.435241,
+            43.722528
+          ],
+          [
+            -79.435248,
+            43.722503
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756126857520,
+    "query": {
+      "coordinates": [
+        [
+          -79.4183671,
+          43.7278533
+        ],
+        [
+          -79.4352355,
+          43.7225017
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

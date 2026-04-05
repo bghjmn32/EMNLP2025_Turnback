@@ -1,0 +1,188 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    151.068204,
+    -33.721258,
+    151.071498,
+    -33.718461
+  ],
+  "features": [
+    {
+      "bbox": [
+        151.068204,
+        -33.721258,
+        151.071498,
+        -33.718461
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 543.9,
+            "duration": 391.6,
+            "steps": [
+              {
+                "distance": 171.4,
+                "duration": 123.4,
+                "type": 11,
+                "instruction": "Head west on Duffy Avenue",
+                "name": "Duffy Avenue",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 7.3,
+                "duration": 5.3,
+                "type": 1,
+                "instruction": "Turn right onto Poplar Place",
+                "name": "Poplar Place",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 148.2,
+                "duration": 106.7,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  3,
+                  9
+                ]
+              },
+              {
+                "distance": 217.0,
+                "duration": 156.2,
+                "type": 1,
+                "instruction": "Turn right onto Eucalyptus Drive",
+                "name": "Eucalyptus Drive",
+                "way_points": [
+                  9,
+                  15
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Eucalyptus Drive, straight ahead",
+                "name": "-",
+                "way_points": [
+                  15,
+                  15
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          15
+        ],
+        "summary": {
+          "distance": 543.9,
+          "duration": 391.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            151.071498,
+            -33.721258
+          ],
+          [
+            151.070629,
+            -33.721058
+          ],
+          [
+            151.069706,
+            -33.720865
+          ],
+          [
+            151.06972,
+            -33.720801
+          ],
+          [
+            151.069659,
+            -33.72079
+          ],
+          [
+            151.069247,
+            -33.720705
+          ],
+          [
+            151.0692,
+            -33.720688
+          ],
+          [
+            151.069129,
+            -33.720663
+          ],
+          [
+            151.068282,
+            -33.720396
+          ],
+          [
+            151.068204,
+            -33.720374
+          ],
+          [
+            151.068296,
+            -33.719985
+          ],
+          [
+            151.068355,
+            -33.719691
+          ],
+          [
+            151.068446,
+            -33.719208
+          ],
+          [
+            151.068484,
+            -33.718996
+          ],
+          [
+            151.068546,
+            -33.718731
+          ],
+          [
+            151.068651,
+            -33.718461
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756392130140,
+    "query": {
+      "coordinates": [
+        [
+          151.071498,
+          -33.7212581
+        ],
+        [
+          151.0686511,
+          -33.7184614
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

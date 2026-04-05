@@ -1,0 +1,170 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    151.11281,
+    -33.877146,
+    151.121039,
+    -33.87595
+  ],
+  "features": [
+    {
+      "bbox": [
+        151.11281,
+        -33.877146,
+        151.121039,
+        -33.87595
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 772.5,
+            "duration": 556.2,
+            "steps": [
+              {
+                "distance": 726.8,
+                "duration": 523.3,
+                "type": 11,
+                "instruction": "Head east on Queen Street",
+                "name": "Queen Street",
+                "way_points": [
+                  0,
+                  13
+                ]
+              },
+              {
+                "distance": 45.6,
+                "duration": 32.9,
+                "type": 13,
+                "instruction": "Keep right onto Queen Street",
+                "name": "Queen Street",
+                "way_points": [
+                  13,
+                  16
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Queen Street, straight ahead",
+                "name": "-",
+                "way_points": [
+                  16,
+                  16
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          16
+        ],
+        "summary": {
+          "distance": 772.5,
+          "duration": 556.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            151.11281,
+            -33.87595
+          ],
+          [
+            151.112908,
+            -33.875963
+          ],
+          [
+            151.113689,
+            -33.876091
+          ],
+          [
+            151.115779,
+            -33.876374
+          ],
+          [
+            151.116083,
+            -33.876413
+          ],
+          [
+            151.11634,
+            -33.876449
+          ],
+          [
+            151.116378,
+            -33.876453
+          ],
+          [
+            151.11696,
+            -33.87653
+          ],
+          [
+            151.117291,
+            -33.876571
+          ],
+          [
+            151.117337,
+            -33.876578
+          ],
+          [
+            151.117889,
+            -33.876651
+          ],
+          [
+            151.118218,
+            -33.876692
+          ],
+          [
+            151.119178,
+            -33.876823
+          ],
+          [
+            151.120579,
+            -33.877005
+          ],
+          [
+            151.120636,
+            -33.877027
+          ],
+          [
+            151.120822,
+            -33.877056
+          ],
+          [
+            151.121039,
+            -33.877146
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756392611903,
+    "query": {
+      "coordinates": [
+        [
+          151.1128103,
+          -33.8759496
+        ],
+        [
+          151.1210387,
+          -33.8771459
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

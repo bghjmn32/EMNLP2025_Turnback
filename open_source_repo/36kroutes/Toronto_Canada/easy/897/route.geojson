@@ -1,0 +1,248 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -79.463191,
+    43.697131,
+    -79.451288,
+    43.698689
+  ],
+  "features": [
+    {
+      "bbox": [
+        -79.463191,
+        43.697131,
+        -79.451288,
+        43.698689
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1049.9,
+            "duration": 756.0,
+            "steps": [
+              {
+                "distance": 0.8,
+                "duration": 0.6,
+                "type": 11,
+                "instruction": "Head north on Dufferin Street",
+                "name": "Dufferin Street",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 425.6,
+                "duration": 306.4,
+                "type": 0,
+                "instruction": "Turn left onto Schell Avenue",
+                "name": "Schell Avenue",
+                "way_points": [
+                  1,
+                  9
+                ]
+              },
+              {
+                "distance": 45.2,
+                "duration": 32.6,
+                "type": 1,
+                "instruction": "Turn right onto Miranda Avenue",
+                "name": "Miranda Avenue",
+                "way_points": [
+                  9,
+                  10
+                ]
+              },
+              {
+                "distance": 191.2,
+                "duration": 137.7,
+                "type": 0,
+                "instruction": "Turn left onto Schell Avenue",
+                "name": "Schell Avenue",
+                "way_points": [
+                  10,
+                  12
+                ]
+              },
+              {
+                "distance": 4.7,
+                "duration": 3.4,
+                "type": 1,
+                "instruction": "Turn right onto Ronald Avenue",
+                "name": "Ronald Avenue",
+                "way_points": [
+                  12,
+                  13
+                ]
+              },
+              {
+                "distance": 193.1,
+                "duration": 139.0,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  13,
+                  17
+                ]
+              },
+              {
+                "distance": 33.0,
+                "duration": 23.8,
+                "type": 1,
+                "instruction": "Turn right onto Montcalm Avenue",
+                "name": "Montcalm Avenue",
+                "way_points": [
+                  17,
+                  18
+                ]
+              },
+              {
+                "distance": 156.2,
+                "duration": 112.5,
+                "type": 0,
+                "instruction": "Turn left onto Clarkson Avenue",
+                "name": "Clarkson Avenue",
+                "way_points": [
+                  18,
+                  19
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Clarkson Avenue, straight ahead",
+                "name": "-",
+                "way_points": [
+                  19,
+                  19
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          19
+        ],
+        "summary": {
+          "distance": 1049.9,
+          "duration": 756.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -79.451288,
+            43.698682
+          ],
+          [
+            -79.451289,
+            43.698689
+          ],
+          [
+            -79.451428,
+            43.698685
+          ],
+          [
+            -79.451541,
+            43.698673
+          ],
+          [
+            -79.451878,
+            43.698637
+          ],
+          [
+            -79.452281,
+            43.698597
+          ],
+          [
+            -79.453362,
+            43.698485
+          ],
+          [
+            -79.454139,
+            43.698322
+          ],
+          [
+            -79.455281,
+            43.698074
+          ],
+          [
+            -79.456418,
+            43.697797
+          ],
+          [
+            -79.456601,
+            43.698181
+          ],
+          [
+            -79.457763,
+            43.697957
+          ],
+          [
+            -79.458888,
+            43.697709
+          ],
+          [
+            -79.458911,
+            43.697749
+          ],
+          [
+            -79.459053,
+            43.697717
+          ],
+          [
+            -79.459277,
+            43.697673
+          ],
+          [
+            -79.459486,
+            43.697631
+          ],
+          [
+            -79.46121,
+            43.697248
+          ],
+          [
+            -79.461328,
+            43.697533
+          ],
+          [
+            -79.463191,
+            43.697131
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756126268045,
+    "query": {
+      "coordinates": [
+        [
+          -79.4512941,
+          43.6986808
+        ],
+        [
+          -79.4631906,
+          43.6971313
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

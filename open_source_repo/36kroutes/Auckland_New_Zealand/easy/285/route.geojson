@@ -1,0 +1,150 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    174.531059,
+    -36.26217,
+    174.536023,
+    -36.261146
+  ],
+  "features": [
+    {
+      "bbox": [
+        174.531059,
+        -36.26217,
+        174.536023,
+        -36.261146
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 512.3,
+            "duration": 368.8,
+            "steps": [
+              {
+                "distance": 28.6,
+                "duration": 20.6,
+                "type": 11,
+                "instruction": "Head west",
+                "name": "-",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 483.7,
+                "duration": 348.2,
+                "type": 2,
+                "instruction": "Turn sharp left onto Shepherd Road",
+                "name": "Shepherd Road",
+                "way_points": [
+                  2,
+                  11
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Shepherd Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  11,
+                  11
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          11
+        ],
+        "summary": {
+          "distance": 512.3,
+          "duration": 368.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            174.531374,
+            -36.26118
+          ],
+          [
+            174.531189,
+            -36.261146
+          ],
+          [
+            174.531059,
+            -36.261146
+          ],
+          [
+            174.53346,
+            -36.262073
+          ],
+          [
+            174.533716,
+            -36.262151
+          ],
+          [
+            174.533833,
+            -36.26217
+          ],
+          [
+            174.534088,
+            -36.262165
+          ],
+          [
+            174.53459,
+            -36.26209
+          ],
+          [
+            174.534919,
+            -36.262027
+          ],
+          [
+            174.535113,
+            -36.26197
+          ],
+          [
+            174.535356,
+            -36.26187
+          ],
+          [
+            174.536023,
+            -36.261581
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756374385695,
+    "query": {
+      "coordinates": [
+        [
+          174.5313735,
+          -36.2611796
+        ],
+        [
+          174.5360225,
+          -36.2615813
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

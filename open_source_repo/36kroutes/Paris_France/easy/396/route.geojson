@@ -1,0 +1,263 @@
+{
+    "type": "FeatureCollection",
+    "bbox": [
+        2.292267,
+        48.890889,
+        2.294865,
+        48.895731
+    ],
+    "features": [
+        {
+            "bbox": [
+                2.292267,
+                48.890889,
+                2.294865,
+                48.895731
+            ],
+            "type": "Feature",
+            "properties": {
+                "segments": [
+                    {
+                        "distance": 683.5,
+                        "duration": 492.1,
+                        "steps": [
+                            {
+                                "distance": 186.1,
+                                "duration": 134.0,
+                                "type": 11,
+                                "instruction": "Head northwest on Rue Jules Guesde",
+                                "name": "Rue Jules Guesde",
+                                "way_points": [
+                                    0,
+                                    8
+                                ]
+                            },
+                            {
+                                "distance": 6.1,
+                                "duration": 4.4,
+                                "type": 1,
+                                "instruction": "Turn right",
+                                "name": "-",
+                                "way_points": [
+                                    8,
+                                    9
+                                ]
+                            },
+                            {
+                                "distance": 101.3,
+                                "duration": 72.9,
+                                "type": 0,
+                                "instruction": "Turn left",
+                                "name": "-",
+                                "way_points": [
+                                    9,
+                                    11
+                                ]
+                            },
+                            {
+                                "distance": 73.8,
+                                "duration": 53.1,
+                                "type": 1,
+                                "instruction": "Turn right onto Rue Louis Rouquier",
+                                "name": "Rue Louis Rouquier",
+                                "way_points": [
+                                    11,
+                                    12
+                                ]
+                            },
+                            {
+                                "distance": 113.1,
+                                "duration": 81.4,
+                                "type": 0,
+                                "instruction": "Turn left",
+                                "name": "-",
+                                "way_points": [
+                                    12,
+                                    14
+                                ]
+                            },
+                            {
+                                "distance": 2.1,
+                                "duration": 1.5,
+                                "type": 1,
+                                "instruction": "Turn right",
+                                "name": "-",
+                                "way_points": [
+                                    14,
+                                    15
+                                ]
+                            },
+                            {
+                                "distance": 5.3,
+                                "duration": 3.8,
+                                "type": 0,
+                                "instruction": "Turn left onto Rue Jules Ferry",
+                                "name": "Rue Jules Ferry",
+                                "way_points": [
+                                    15,
+                                    16
+                                ]
+                            },
+                            {
+                                "distance": 117.3,
+                                "duration": 84.4,
+                                "type": 4,
+                                "instruction": "Turn slight left onto Rue Marjolin",
+                                "name": "Rue Marjolin",
+                                "way_points": [
+                                    16,
+                                    18
+                                ]
+                            },
+                            {
+                                "distance": 78.4,
+                                "duration": 56.4,
+                                "type": 1,
+                                "instruction": "Turn right onto Rue Pierre Brossolette",
+                                "name": "Rue Pierre Brossolette",
+                                "way_points": [
+                                    18,
+                                    20
+                                ]
+                            },
+                            {
+                                "distance": 0.0,
+                                "duration": 0.0,
+                                "type": 10,
+                                "instruction": "Arrive at Rue Pierre Brossolette, straight ahead",
+                                "name": "-",
+                                "way_points": [
+                                    20,
+                                    20
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "way_points": [
+                    0,
+                    20
+                ],
+                "summary": {
+                    "distance": 683.5,
+                    "duration": 492.1
+                }
+            },
+            "geometry": {
+                "coordinates": [
+                    [
+                        2.294865,
+                        48.890889
+                    ],
+                    [
+                        2.294787,
+                        48.890965
+                    ],
+                    [
+                        2.294701,
+                        48.891049
+                    ],
+                    [
+                        2.29424,
+                        48.891499
+                    ],
+                    [
+                        2.294153,
+                        48.891561
+                    ],
+                    [
+                        2.294068,
+                        48.891623
+                    ],
+                    [
+                        2.293511,
+                        48.892165
+                    ],
+                    [
+                        2.293456,
+                        48.892218
+                    ],
+                    [
+                        2.293417,
+                        48.892264
+                    ],
+                    [
+                        2.293469,
+                        48.892307
+                    ],
+                    [
+                        2.292806,
+                        48.893069
+                    ],
+                    [
+                        2.292784,
+                        48.893099
+                    ],
+                    [
+                        2.293643,
+                        48.893446
+                    ],
+                    [
+                        2.293617,
+                        48.893477
+                    ],
+                    [
+                        2.292953,
+                        48.894357
+                    ],
+                    [
+                        2.292978,
+                        48.894367
+                    ],
+                    [
+                        2.292973,
+                        48.894414
+                    ],
+                    [
+                        2.292934,
+                        48.894459
+                    ],
+                    [
+                        2.292267,
+                        48.895361
+                    ],
+                    [
+                        2.292708,
+                        48.895538
+                    ],
+                    [
+                        2.29318,
+                        48.895731
+                    ]
+                ],
+                "type": "LineString"
+            }
+        }
+    ],
+    "metadata": {
+        "attribution": "openrouteservice.org | OpenStreetMap contributors",
+        "service": "routing",
+        "timestamp": 1755871582569,
+        "query": {
+            "coordinates": [
+                [
+                    2.294865,
+                    48.890889
+                ],
+                [
+                    2.2931801,
+                    48.8957305
+                ]
+            ],
+            "profile": "foot-walking",
+            "profileName": "foot-walking",
+            "format": "geojson"
+        },
+        "engine": {
+            "version": "9.3.0",
+            "build_date": "2025-06-06T15:39:25Z",
+            "graph_date": "2025-08-19T13:56:51Z",
+            "osm_date": "2025-08-10T23:59:57Z"
+        }
+    }
+}

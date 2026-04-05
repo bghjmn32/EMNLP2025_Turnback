@@ -1,0 +1,180 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -104.819065,
+    39.72179,
+    -104.817384,
+    39.724914
+  ],
+  "features": [
+    {
+      "bbox": [
+        -104.819065,
+        39.72179,
+        -104.817384,
+        39.724914
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 496.7,
+            "duration": 357.6,
+            "steps": [
+              {
+                "distance": 340.0,
+                "duration": 244.8,
+                "type": 11,
+                "instruction": "Head south",
+                "name": "-",
+                "way_points": [
+                  0,
+                  5
+                ]
+              },
+              {
+                "distance": 34.8,
+                "duration": 25.0,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  5,
+                  7
+                ]
+              },
+              {
+                "distance": 91.4,
+                "duration": 65.8,
+                "type": 0,
+                "instruction": "Turn left onto East 4th Avenue",
+                "name": "East 4th Avenue",
+                "way_points": [
+                  7,
+                  11
+                ]
+              },
+              {
+                "distance": 30.6,
+                "duration": 22.0,
+                "type": 3,
+                "instruction": "Turn sharp right",
+                "name": "-",
+                "way_points": [
+                  11,
+                  13
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, on the left",
+                "name": "-",
+                "way_points": [
+                  13,
+                  13
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          13
+        ],
+        "summary": {
+          "distance": 496.7,
+          "duration": 357.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -104.819049,
+            39.724914
+          ],
+          [
+            -104.819047,
+            39.724696
+          ],
+          [
+            -104.819051,
+            39.723927
+          ],
+          [
+            -104.819051,
+            39.72383
+          ],
+          [
+            -104.819065,
+            39.722319
+          ],
+          [
+            -104.818464,
+            39.722316
+          ],
+          [
+            -104.818471,
+            39.72212
+          ],
+          [
+            -104.818475,
+            39.722003
+          ],
+          [
+            -104.818381,
+            39.722003
+          ],
+          [
+            -104.817557,
+            39.722012
+          ],
+          [
+            -104.817479,
+            39.722025
+          ],
+          [
+            -104.817425,
+            39.722061
+          ],
+          [
+            -104.817432,
+            39.721961
+          ],
+          [
+            -104.817384,
+            39.72179
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756305275662,
+    "query": {
+      "coordinates": [
+        [
+          -104.8190487,
+          39.7249137
+        ],
+        [
+          -104.8164877,
+          39.7215397
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

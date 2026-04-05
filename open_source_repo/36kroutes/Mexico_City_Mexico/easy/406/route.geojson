@@ -1,0 +1,225 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.108888,
+    19.442806,
+    -99.104852,
+    19.447724
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.108888,
+        19.442806,
+        -99.104852,
+        19.447724
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 918.3,
+            "duration": 661.2,
+            "steps": [
+              {
+                "distance": 123.3,
+                "duration": 88.8,
+                "type": 11,
+                "instruction": "Head south on Calle Marmolería",
+                "name": "Calle Marmolería",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 190.0,
+                "duration": 136.8,
+                "type": 0,
+                "instruction": "Turn left onto Calle Choferes",
+                "name": "Calle Choferes",
+                "way_points": [
+                  1,
+                  5
+                ]
+              },
+              {
+                "distance": 130.2,
+                "duration": 93.8,
+                "type": 1,
+                "instruction": "Turn right onto Calle Floricultra",
+                "name": "Calle Floricultra",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 277.5,
+                "duration": 199.8,
+                "type": 0,
+                "instruction": "Turn left onto Calle Electricistas",
+                "name": "Calle Electricistas",
+                "way_points": [
+                  6,
+                  12
+                ]
+              },
+              {
+                "distance": 123.8,
+                "duration": 89.1,
+                "type": 1,
+                "instruction": "Turn right onto Calle Cantería",
+                "name": "Calle Cantería",
+                "way_points": [
+                  12,
+                  13
+                ]
+              },
+              {
+                "distance": 71.4,
+                "duration": 51.4,
+                "type": 0,
+                "instruction": "Turn left onto Calle Impresores",
+                "name": "Calle Impresores",
+                "way_points": [
+                  13,
+                  15
+                ]
+              },
+              {
+                "distance": 2.1,
+                "duration": 1.5,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  15,
+                  16
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  16,
+                  16
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          16
+        ],
+        "summary": {
+          "distance": 918.3,
+          "duration": 661.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.108494,
+            19.447724
+          ],
+          [
+            -99.108888,
+            19.446678
+          ],
+          [
+            -99.108461,
+            19.446528
+          ],
+          [
+            -99.10804,
+            19.446382
+          ],
+          [
+            -99.107606,
+            19.446244
+          ],
+          [
+            -99.107186,
+            19.446092
+          ],
+          [
+            -99.107594,
+            19.444986
+          ],
+          [
+            -99.107189,
+            19.444823
+          ],
+          [
+            -99.106757,
+            19.444683
+          ],
+          [
+            -99.106329,
+            19.444532
+          ],
+          [
+            -99.105891,
+            19.444387
+          ],
+          [
+            -99.105475,
+            19.444246
+          ],
+          [
+            -99.105118,
+            19.444106
+          ],
+          [
+            -99.105489,
+            19.44305
+          ],
+          [
+            -99.105009,
+            19.442879
+          ],
+          [
+            -99.104852,
+            19.442824
+          ],
+          [
+            -99.104858,
+            19.442806
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756305891404,
+    "query": {
+      "coordinates": [
+        [
+          -99.1084944,
+          19.4477235
+        ],
+        [
+          -99.1048584,
+          19.4428057
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.474276,
+    -33.987827,
+    18.476806,
+    -33.985173
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.474276,
+        -33.987827,
+        18.476806,
+        -33.985173
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 505.0,
+            "duration": 363.6,
+            "steps": [
+              {
+                "distance": 51.6,
+                "duration": 37.2,
+                "type": 11,
+                "instruction": "Head south on 2nd Avenue",
+                "name": "2nd Avenue",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 163.9,
+                "duration": 118.0,
+                "type": 0,
+                "instruction": "Turn left onto York Street",
+                "name": "York Street",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 68.3,
+                "duration": 49.2,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  3,
+                  7
+                ]
+              },
+              {
+                "distance": 2.4,
+                "duration": 1.7,
+                "type": 1,
+                "instruction": "Turn right onto Princes Road",
+                "name": "Princes Road",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 34.0,
+                "duration": 24.5,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  8,
+                  10
+                ]
+              },
+              {
+                "distance": 154.7,
+                "duration": 111.4,
+                "type": 6,
+                "instruction": "Continue straight onto Princes Road",
+                "name": "Princes Road",
+                "way_points": [
+                  10,
+                  14
+                ]
+              },
+              {
+                "distance": 30.1,
+                "duration": 21.7,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  14,
+                  15
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  15,
+                  15
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          15
+        ],
+        "summary": {
+          "distance": 505.0,
+          "duration": 363.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.47429,
+            -33.985173
+          ],
+          [
+            18.474281,
+            -33.985443
+          ],
+          [
+            18.474276,
+            -33.985637
+          ],
+          [
+            18.476052,
+            -33.985685
+          ],
+          [
+            18.476076,
+            -33.985737
+          ],
+          [
+            18.476214,
+            -33.985854
+          ],
+          [
+            18.476505,
+            -33.986118
+          ],
+          [
+            18.476549,
+            -33.986115
+          ],
+          [
+            18.476568,
+            -33.98613
+          ],
+          [
+            18.47654,
+            -33.9862
+          ],
+          [
+            18.476525,
+            -33.986431
+          ],
+          [
+            18.476519,
+            -33.986656
+          ],
+          [
+            18.47651,
+            -33.986952
+          ],
+          [
+            18.476498,
+            -33.987207
+          ],
+          [
+            18.47648,
+            -33.987822
+          ],
+          [
+            18.476806,
+            -33.987827
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756805953056,
+    "query": {
+      "coordinates": [
+        [
+          18.4742898,
+          -33.9851727
+        ],
+        [
+          18.4768058,
+          -33.9878273
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

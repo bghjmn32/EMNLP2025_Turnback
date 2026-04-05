@@ -1,0 +1,230 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    103.78051,
+    1.300218,
+    103.783662,
+    1.301816
+  ],
+  "features": [
+    {
+      "bbox": [
+        103.78051,
+        1.300218,
+        103.783662,
+        1.301816
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 557.4,
+            "duration": 401.3,
+            "steps": [
+              {
+                "distance": 6.6,
+                "duration": 4.8,
+                "type": 11,
+                "instruction": "Head northwest on Dover Road",
+                "name": "Dover Road",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 6.0,
+                "duration": 4.3,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 82.0,
+                "duration": 59.1,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 390.4,
+                "duration": 281.1,
+                "type": 1,
+                "instruction": "Turn right onto Dover Drive",
+                "name": "Dover Drive",
+                "way_points": [
+                  3,
+                  17
+                ]
+              },
+              {
+                "distance": 3.2,
+                "duration": 2.3,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  17,
+                  18
+                ]
+              },
+              {
+                "distance": 69.0,
+                "duration": 49.7,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  18,
+                  20
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  20,
+                  20
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          20
+        ],
+        "summary": {
+          "distance": 557.4,
+          "duration": 401.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            103.783294,
+            1.301768
+          ],
+          [
+            103.783258,
+            1.301816
+          ],
+          [
+            103.783212,
+            1.301787
+          ],
+          [
+            103.783662,
+            1.301203
+          ],
+          [
+            103.78336,
+            1.301016
+          ],
+          [
+            103.782321,
+            1.300363
+          ],
+          [
+            103.782214,
+            1.300314
+          ],
+          [
+            103.7821,
+            1.300276
+          ],
+          [
+            103.781877,
+            1.30023
+          ],
+          [
+            103.781771,
+            1.300218
+          ],
+          [
+            103.781685,
+            1.300243
+          ],
+          [
+            103.781587,
+            1.300311
+          ],
+          [
+            103.781377,
+            1.300576
+          ],
+          [
+            103.781314,
+            1.300659
+          ],
+          [
+            103.78119,
+            1.300821
+          ],
+          [
+            103.781096,
+            1.300944
+          ],
+          [
+            103.780981,
+            1.301099
+          ],
+          [
+            103.780885,
+            1.30122
+          ],
+          [
+            103.780906,
+            1.30124
+          ],
+          [
+            103.780805,
+            1.30139
+          ],
+          [
+            103.78051,
+            1.301716
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756391033116,
+    "query": {
+      "coordinates": [
+        [
+          103.7832936,
+          1.3017679
+        ],
+        [
+          103.7805097,
+          1.301716
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

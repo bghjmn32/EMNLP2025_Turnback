@@ -1,0 +1,265 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.272126,
+    -22.847928,
+    -43.26604,
+    -22.842444
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.272126,
+        -22.847928,
+        -43.26604,
+        -22.842444
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1335.1,
+            "duration": 961.3,
+            "steps": [
+              {
+                "distance": 133.5,
+                "duration": 96.1,
+                "type": 11,
+                "instruction": "Head northwest on Rua Etelvina",
+                "name": "Rua Etelvina",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 209.7,
+                "duration": 151.0,
+                "type": 0,
+                "instruction": "Turn left onto Travessa Etelvina",
+                "name": "Travessa Etelvina",
+                "way_points": [
+                  1,
+                  4
+                ]
+              },
+              {
+                "distance": 179.2,
+                "duration": 129.0,
+                "type": 1,
+                "instruction": "Turn right onto Rua Teotônio de Brito",
+                "name": "Rua Teotônio de Brito",
+                "way_points": [
+                  4,
+                  6
+                ]
+              },
+              {
+                "distance": 97.2,
+                "duration": 70.0,
+                "type": 0,
+                "instruction": "Turn left onto Rua Tenente Pimentel",
+                "name": "Rua Tenente Pimentel",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 232.4,
+                "duration": 167.3,
+                "type": 1,
+                "instruction": "Turn right onto Rua Aurélio Garcindo",
+                "name": "Rua Aurélio Garcindo",
+                "way_points": [
+                  7,
+                  9
+                ]
+              },
+              {
+                "distance": 173.2,
+                "duration": 124.7,
+                "type": 1,
+                "instruction": "Turn right onto Rua Eça de Queiroz",
+                "name": "Rua Eça de Queiroz",
+                "way_points": [
+                  9,
+                  10
+                ]
+              },
+              {
+                "distance": 135.7,
+                "duration": 97.7,
+                "type": 0,
+                "instruction": "Turn left onto Rua Latino Coelho",
+                "name": "Rua Latino Coelho",
+                "way_points": [
+                  10,
+                  11
+                ]
+              },
+              {
+                "distance": 76.3,
+                "duration": 54.9,
+                "type": 1,
+                "instruction": "Turn right onto Rua Tomaz Ribeiro",
+                "name": "Rua Tomaz Ribeiro",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 28.6,
+                "duration": 20.6,
+                "type": 1,
+                "instruction": "Turn right onto Rua Ibiapina",
+                "name": "Rua Ibiapina",
+                "way_points": [
+                  12,
+                  13
+                ]
+              },
+              {
+                "distance": 15.3,
+                "duration": 11.0,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  13,
+                  14
+                ]
+              },
+              {
+                "distance": 54.0,
+                "duration": 38.9,
+                "type": 0,
+                "instruction": "Turn left onto Rua Ibiapina",
+                "name": "Rua Ibiapina",
+                "way_points": [
+                  14,
+                  15
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Rua Ibiapina, straight ahead",
+                "name": "-",
+                "way_points": [
+                  15,
+                  15
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          15
+        ],
+        "summary": {
+          "distance": 1335.1,
+          "duration": 961.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.26604,
+            -22.847894
+          ],
+          [
+            -43.266781,
+            -22.846906
+          ],
+          [
+            -43.267359,
+            -22.84729
+          ],
+          [
+            -43.268242,
+            -22.847784
+          ],
+          [
+            -43.268499,
+            -22.847928
+          ],
+          [
+            -43.268922,
+            -22.847284
+          ],
+          [
+            -43.269406,
+            -22.846551
+          ],
+          [
+            -43.270217,
+            -22.847005
+          ],
+          [
+            -43.270726,
+            -22.846271
+          ],
+          [
+            -43.271396,
+            -22.84522
+          ],
+          [
+            -43.270876,
+            -22.843738
+          ],
+          [
+            -43.272126,
+            -22.843336
+          ],
+          [
+            -43.271894,
+            -22.842684
+          ],
+          [
+            -43.271619,
+            -22.842726
+          ],
+          [
+            -43.271573,
+            -22.842595
+          ],
+          [
+            -43.272074,
+            -22.842444
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756394247678,
+    "query": {
+      "coordinates": [
+        [
+          -43.2660399,
+          -22.8478938
+        ],
+        [
+          -43.2720745,
+          -22.842444
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

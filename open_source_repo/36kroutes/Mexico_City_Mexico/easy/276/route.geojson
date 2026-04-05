@@ -1,0 +1,281 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.154343,
+    19.527168,
+    -99.150093,
+    19.528161
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.154343,
+        19.527168,
+        -99.150093,
+        19.528161
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 581.0,
+            "duration": 418.3,
+            "steps": [
+              {
+                "distance": 68.5,
+                "duration": 49.3,
+                "type": 11,
+                "instruction": "Head north on Calle 45 del Temoluco",
+                "name": "Calle 45 del Temoluco",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 121.1,
+                "duration": 87.2,
+                "type": 1,
+                "instruction": "Turn right onto Calle Llovizna",
+                "name": "Calle Llovizna",
+                "way_points": [
+                  1,
+                  7
+                ]
+              },
+              {
+                "distance": 28.2,
+                "duration": 20.3,
+                "type": 0,
+                "instruction": "Turn left onto Calle 37 del Temoluco",
+                "name": "Calle 37 del Temoluco",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 17.2,
+                "duration": 12.4,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  8,
+                  9
+                ]
+              },
+              {
+                "distance": 14.3,
+                "duration": 10.3,
+                "type": 12,
+                "instruction": "Keep left",
+                "name": "-",
+                "way_points": [
+                  9,
+                  10
+                ]
+              },
+              {
+                "distance": 65.8,
+                "duration": 47.4,
+                "type": 0,
+                "instruction": "Turn left onto Andador 36",
+                "name": "Andador 36",
+                "way_points": [
+                  10,
+                  15
+                ]
+              },
+              {
+                "distance": 265.9,
+                "duration": 191.4,
+                "type": 1,
+                "instruction": "Turn right onto Avenida de Las Brisas",
+                "name": "Avenida de Las Brisas",
+                "way_points": [
+                  15,
+                  30
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Avenida de Las Brisas, straight ahead",
+                "name": "-",
+                "way_points": [
+                  30,
+                  30
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          30
+        ],
+        "summary": {
+          "distance": 581.0,
+          "duration": 418.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.154343,
+            19.527323
+          ],
+          [
+            -99.154107,
+            19.527897
+          ],
+          [
+            -99.154021,
+            19.52786
+          ],
+          [
+            -99.153824,
+            19.527776
+          ],
+          [
+            -99.15357,
+            19.527666
+          ],
+          [
+            -99.153287,
+            19.527544
+          ],
+          [
+            -99.153069,
+            19.52745
+          ],
+          [
+            -99.153056,
+            19.527444
+          ],
+          [
+            -99.152931,
+            19.527669
+          ],
+          [
+            -99.152779,
+            19.52761
+          ],
+          [
+            -99.152649,
+            19.527649
+          ],
+          [
+            -99.152614,
+            19.527739
+          ],
+          [
+            -99.152613,
+            19.527865
+          ],
+          [
+            -99.152578,
+            19.527898
+          ],
+          [
+            -99.152534,
+            19.527912
+          ],
+          [
+            -99.1524,
+            19.528161
+          ],
+          [
+            -99.152345,
+            19.528138
+          ],
+          [
+            -99.152215,
+            19.528081
+          ],
+          [
+            -99.151929,
+            19.527958
+          ],
+          [
+            -99.151603,
+            19.527818
+          ],
+          [
+            -99.151412,
+            19.527736
+          ],
+          [
+            -99.151326,
+            19.527699
+          ],
+          [
+            -99.151215,
+            19.527651
+          ],
+          [
+            -99.151104,
+            19.527603
+          ],
+          [
+            -99.150855,
+            19.527496
+          ],
+          [
+            -99.150723,
+            19.527439
+          ],
+          [
+            -99.150586,
+            19.52738
+          ],
+          [
+            -99.150512,
+            19.527348
+          ],
+          [
+            -99.150295,
+            19.527255
+          ],
+          [
+            -99.150247,
+            19.527234
+          ],
+          [
+            -99.150093,
+            19.527168
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756305180933,
+    "query": {
+      "coordinates": [
+        [
+          -99.1543434,
+          19.527323
+        ],
+        [
+          -99.1500926,
+          19.5271675
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

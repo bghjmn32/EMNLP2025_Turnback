@@ -1,0 +1,240 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.066719,
+    19.412705,
+    -99.063958,
+    19.417532
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.066719,
+        19.412705,
+        -99.063958,
+        19.417532
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 782.4,
+            "duration": 563.3,
+            "steps": [
+              {
+                "distance": 10.7,
+                "duration": 7.7,
+                "type": 11,
+                "instruction": "Head west on Cerrada Capitán Rodríguez Arenas",
+                "name": "Cerrada Capitán Rodríguez Arenas",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 280.6,
+                "duration": 202.0,
+                "type": 0,
+                "instruction": "Turn left onto Calle 3",
+                "name": "Calle 3",
+                "way_points": [
+                  1,
+                  5
+                ]
+              },
+              {
+                "distance": 147.5,
+                "duration": 106.2,
+                "type": 1,
+                "instruction": "Turn right onto Avenida Guadalupe",
+                "name": "Avenida Guadalupe",
+                "way_points": [
+                  5,
+                  7
+                ]
+              },
+              {
+                "distance": 181.1,
+                "duration": 130.4,
+                "type": 0,
+                "instruction": "Turn left onto Cerrada San Antonio",
+                "name": "Cerrada San Antonio",
+                "way_points": [
+                  7,
+                  10
+                ]
+              },
+              {
+                "distance": 13.2,
+                "duration": 9.5,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  10,
+                  11
+                ]
+              },
+              {
+                "distance": 21.1,
+                "duration": 15.2,
+                "type": 1,
+                "instruction": "Turn right onto Avenida Xochimilco, EJE 1 NTE",
+                "name": "Avenida Xochimilco, EJE 1 NTE",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 122.8,
+                "duration": 88.4,
+                "type": 0,
+                "instruction": "Turn left onto Calle 2",
+                "name": "Calle 2",
+                "way_points": [
+                  12,
+                  16
+                ]
+              },
+              {
+                "distance": 5.3,
+                "duration": 3.8,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  16,
+                  17
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  17,
+                  17
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          17
+        ],
+        "summary": {
+          "distance": 782.4,
+          "duration": 563.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.063958,
+            19.41753
+          ],
+          [
+            -99.06406,
+            19.417532
+          ],
+          [
+            -99.064121,
+            19.416889
+          ],
+          [
+            -99.064224,
+            19.416074
+          ],
+          [
+            -99.064265,
+            19.415702
+          ],
+          [
+            -99.064342,
+            19.415023
+          ],
+          [
+            -99.064998,
+            19.415166
+          ],
+          [
+            -99.065721,
+            19.415283
+          ],
+          [
+            -99.065831,
+            19.414244
+          ],
+          [
+            -99.065865,
+            19.414206
+          ],
+          [
+            -99.066335,
+            19.413907
+          ],
+          [
+            -99.066347,
+            19.413789
+          ],
+          [
+            -99.066547,
+            19.413804
+          ],
+          [
+            -99.06658,
+            19.413487
+          ],
+          [
+            -99.066624,
+            19.413065
+          ],
+          [
+            -99.066649,
+            19.412824
+          ],
+          [
+            -99.066668,
+            19.412705
+          ],
+          [
+            -99.066719,
+            19.412707
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756307157620,
+    "query": {
+      "coordinates": [
+        [
+          -99.0639578,
+          19.4175295
+        ],
+        [
+          -99.0667188,
+          19.4127072
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

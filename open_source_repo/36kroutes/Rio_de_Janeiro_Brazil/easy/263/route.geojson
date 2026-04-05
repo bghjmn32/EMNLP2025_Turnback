@@ -1,0 +1,234 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.458036,
+    -23.023788,
+    -43.448871,
+    -23.02227
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.458036,
+        -23.023788,
+        -43.448871,
+        -23.02227
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1156.5,
+            "duration": 832.7,
+            "steps": [
+              {
+                "distance": 12.1,
+                "duration": 8.7,
+                "type": 11,
+                "instruction": "Head east",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 8.4,
+                "duration": 6.1,
+                "type": 0,
+                "instruction": "Turn left onto Avenida Gláucio Gil",
+                "name": "Avenida Gláucio Gil",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 191.0,
+                "duration": 137.5,
+                "type": 7,
+                "instruction": "Enter the roundabout and take the 1st exit onto Rua Professor Hermes Lima",
+                "name": "Rua Professor Hermes Lima",
+                "exit_number": 1,
+                "way_points": [
+                  2,
+                  5
+                ]
+              },
+              {
+                "distance": 175.5,
+                "duration": 126.4,
+                "type": 1,
+                "instruction": "Turn right onto Rua Professor Sousa Leão",
+                "name": "Rua Professor Sousa Leão",
+                "way_points": [
+                  5,
+                  8
+                ]
+              },
+              {
+                "distance": 649.1,
+                "duration": 467.4,
+                "type": 0,
+                "instruction": "Turn left onto Rua Engenheiro Joaquim Cardoso",
+                "name": "Rua Engenheiro Joaquim Cardoso",
+                "way_points": [
+                  8,
+                  14
+                ]
+              },
+              {
+                "distance": 58.2,
+                "duration": 41.9,
+                "type": 1,
+                "instruction": "Turn right onto Rua das Acontecências",
+                "name": "Rua das Acontecências",
+                "way_points": [
+                  14,
+                  15
+                ]
+              },
+              {
+                "distance": 62.2,
+                "duration": 44.8,
+                "type": 0,
+                "instruction": "Turn left onto Avenida Lúcio Costa",
+                "name": "Avenida Lúcio Costa",
+                "way_points": [
+                  15,
+                  18
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Avenida Lúcio Costa, straight ahead",
+                "name": "-",
+                "way_points": [
+                  18,
+                  18
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          18
+        ],
+        "summary": {
+          "distance": 1156.5,
+          "duration": 832.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.458036,
+            -23.022851
+          ],
+          [
+            -43.457926,
+            -23.022812
+          ],
+          [
+            -43.457958,
+            -23.022743
+          ],
+          [
+            -43.457966,
+            -23.022711
+          ],
+          [
+            -43.45684,
+            -23.022435
+          ],
+          [
+            -43.456199,
+            -23.02227
+          ],
+          [
+            -43.456106,
+            -23.02259
+          ],
+          [
+            -43.455996,
+            -23.022969
+          ],
+          [
+            -43.455731,
+            -23.023788
+          ],
+          [
+            -43.454752,
+            -23.023575
+          ],
+          [
+            -43.453821,
+            -23.02333
+          ],
+          [
+            -43.453639,
+            -23.023282
+          ],
+          [
+            -43.453341,
+            -23.023217
+          ],
+          [
+            -43.451623,
+            -23.022768
+          ],
+          [
+            -43.449607,
+            -23.022274
+          ],
+          [
+            -43.449457,
+            -23.022778
+          ],
+          [
+            -43.449342,
+            -23.022749
+          ],
+          [
+            -43.449207,
+            -23.022714
+          ],
+          [
+            -43.448871,
+            -23.02263
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756391469179,
+    "query": {
+      "coordinates": [
+        [
+          -43.458036,
+          -23.0228507
+        ],
+        [
+          -43.4488707,
+          -23.0226299
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

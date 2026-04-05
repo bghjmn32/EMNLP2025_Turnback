@@ -1,0 +1,182 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.510235,
+    -33.885041,
+    18.514944,
+    -33.881456
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.510235,
+        -33.885041,
+        18.514944,
+        -33.881456
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1004.9,
+            "duration": 723.5,
+            "steps": [
+              {
+                "distance": 352.3,
+                "duration": 253.6,
+                "type": 11,
+                "instruction": "Head south",
+                "name": "-",
+                "way_points": [
+                  0,
+                  4
+                ]
+              },
+              {
+                "distance": 652.6,
+                "duration": 469.9,
+                "type": 0,
+                "instruction": "Turn left onto Ocean Spirit Avenue",
+                "name": "Ocean Spirit Avenue",
+                "way_points": [
+                  4,
+                  19
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Ocean Spirit Avenue, straight ahead",
+                "name": "-",
+                "way_points": [
+                  19,
+                  19
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          19
+        ],
+        "summary": {
+          "distance": 1004.9,
+          "duration": 723.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.510882,
+            -33.881841
+          ],
+          [
+            18.510584,
+            -33.88318
+          ],
+          [
+            18.5105,
+            -33.883688
+          ],
+          [
+            18.510247,
+            -33.884843
+          ],
+          [
+            18.510235,
+            -33.884963
+          ],
+          [
+            18.510652,
+            -33.885032
+          ],
+          [
+            18.51077,
+            -33.885041
+          ],
+          [
+            18.511193,
+            -33.885007
+          ],
+          [
+            18.511387,
+            -33.884961
+          ],
+          [
+            18.512849,
+            -33.88419
+          ],
+          [
+            18.513927,
+            -33.883652
+          ],
+          [
+            18.514242,
+            -33.883383
+          ],
+          [
+            18.514357,
+            -33.883261
+          ],
+          [
+            18.514517,
+            -33.883038
+          ],
+          [
+            18.514644,
+            -33.882767
+          ],
+          [
+            18.514744,
+            -33.882401
+          ],
+          [
+            18.514847,
+            -33.881911
+          ],
+          [
+            18.514888,
+            -33.881734
+          ],
+          [
+            18.514915,
+            -33.881592
+          ],
+          [
+            18.514944,
+            -33.881456
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756804419727,
+    "query": {
+      "coordinates": [
+        [
+          18.5108818,
+          -33.8818414
+        ],
+        [
+          18.514944,
+          -33.8814561
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

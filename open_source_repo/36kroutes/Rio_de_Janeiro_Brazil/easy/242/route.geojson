@@ -1,0 +1,177 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.308932,
+    -22.809497,
+    -43.303983,
+    -22.807339
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.308932,
+        -22.809497,
+        -43.303983,
+        -22.807339
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 650.6,
+            "duration": 468.4,
+            "steps": [
+              {
+                "distance": 147.9,
+                "duration": 106.5,
+                "type": 11,
+                "instruction": "Head southwest on Rua Mendes",
+                "name": "Rua Mendes",
+                "way_points": [
+                  0,
+                  11
+                ]
+              },
+              {
+                "distance": 19.2,
+                "duration": 13.8,
+                "type": 13,
+                "instruction": "Keep right",
+                "name": "-",
+                "way_points": [
+                  11,
+                  13
+                ]
+              },
+              {
+                "distance": 483.6,
+                "duration": 348.2,
+                "type": 3,
+                "instruction": "Turn sharp right onto Rua Correa Dias",
+                "name": "Rua Correa Dias",
+                "way_points": [
+                  13,
+                  15
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Rua Correa Dias, straight ahead",
+                "name": "-",
+                "way_points": [
+                  15,
+                  15
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          15
+        ],
+        "summary": {
+          "distance": 650.6,
+          "duration": 468.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.303983,
+            -22.807339
+          ],
+          [
+            -43.304077,
+            -22.807435
+          ],
+          [
+            -43.304113,
+            -22.807473
+          ],
+          [
+            -43.304155,
+            -22.807476
+          ],
+          [
+            -43.304219,
+            -22.80741
+          ],
+          [
+            -43.304225,
+            -22.807404
+          ],
+          [
+            -43.304243,
+            -22.807386
+          ],
+          [
+            -43.304394,
+            -22.807536
+          ],
+          [
+            -43.304694,
+            -22.807626
+          ],
+          [
+            -43.304982,
+            -22.807756
+          ],
+          [
+            -43.304989,
+            -22.807736
+          ],
+          [
+            -43.304817,
+            -22.80766
+          ],
+          [
+            -43.304715,
+            -22.807665
+          ],
+          [
+            -43.304637,
+            -22.807698
+          ],
+          [
+            -43.307051,
+            -22.808693
+          ],
+          [
+            -43.308932,
+            -22.809497
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756391397824,
+    "query": {
+      "coordinates": [
+        [
+          -43.3039832,
+          -22.8073388
+        ],
+        [
+          -43.3089321,
+          -22.8094966
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

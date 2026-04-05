@@ -1,0 +1,193 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.130596,
+    19.200589,
+    -99.129304,
+    19.20401
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.130596,
+        19.200589,
+        -99.129304,
+        19.20401
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 504.8,
+            "duration": 363.5,
+            "steps": [
+              {
+                "distance": 369.9,
+                "duration": 266.4,
+                "type": 11,
+                "instruction": "Head north on Calle 16 de Septiembre",
+                "name": "Calle 16 de Septiembre",
+                "way_points": [
+                  0,
+                  15
+                ]
+              },
+              {
+                "distance": 79.5,
+                "duration": 57.2,
+                "type": 1,
+                "instruction": "Turn right onto Calle Encinos",
+                "name": "Calle Encinos",
+                "way_points": [
+                  15,
+                  18
+                ]
+              },
+              {
+                "distance": 55.5,
+                "duration": 39.9,
+                "type": 0,
+                "instruction": "Turn left onto Calle Aminco",
+                "name": "Calle Aminco",
+                "way_points": [
+                  18,
+                  19
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Aminco, straight ahead",
+                "name": "-",
+                "way_points": [
+                  19,
+                  19
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          19
+        ],
+        "summary": {
+          "distance": 504.8,
+          "duration": 363.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.129487,
+            19.200589
+          ],
+          [
+            -99.129513,
+            19.200691
+          ],
+          [
+            -99.129522,
+            19.200812
+          ],
+          [
+            -99.129486,
+            19.20171
+          ],
+          [
+            -99.129475,
+            19.201819
+          ],
+          [
+            -99.129438,
+            19.202072
+          ],
+          [
+            -99.129374,
+            19.202479
+          ],
+          [
+            -99.129373,
+            19.202538
+          ],
+          [
+            -99.129304,
+            19.202922
+          ],
+          [
+            -99.129326,
+            19.202968
+          ],
+          [
+            -99.129381,
+            19.202988
+          ],
+          [
+            -99.129638,
+            19.203024
+          ],
+          [
+            -99.129779,
+            19.203036
+          ],
+          [
+            -99.129948,
+            19.203076
+          ],
+          [
+            -99.130196,
+            19.203162
+          ],
+          [
+            -99.130275,
+            19.203187
+          ],
+          [
+            -99.130227,
+            19.203382
+          ],
+          [
+            -99.130103,
+            19.20376
+          ],
+          [
+            -99.130087,
+            19.203877
+          ],
+          [
+            -99.130596,
+            19.20401
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756305528411,
+    "query": {
+      "coordinates": [
+        [
+          -99.1294874,
+          19.2005892
+        ],
+        [
+          -99.1305962,
+          19.2040103
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

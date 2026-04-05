@@ -1,0 +1,142 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    103.695286,
+    1.373962,
+    103.696427,
+    1.378347
+  ],
+  "features": [
+    {
+      "bbox": [
+        103.695286,
+        1.373962,
+        103.696427,
+        1.378347
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 505.8,
+            "duration": 364.2,
+            "steps": [
+              {
+                "distance": 467.6,
+                "duration": 336.7,
+                "type": 11,
+                "instruction": "Head south on Lim Chu Kang Road",
+                "name": "Lim Chu Kang Road",
+                "way_points": [
+                  0,
+                  7
+                ]
+              },
+              {
+                "distance": 38.2,
+                "duration": 27.5,
+                "type": 12,
+                "instruction": "Keep left",
+                "name": "-",
+                "way_points": [
+                  7,
+                  9
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  9,
+                  9
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          9
+        ],
+        "summary": {
+          "distance": 505.8,
+          "duration": 364.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            103.696427,
+            1.378347
+          ],
+          [
+            103.696379,
+            1.378166
+          ],
+          [
+            103.696271,
+            1.377726
+          ],
+          [
+            103.695763,
+            1.376017
+          ],
+          [
+            103.695582,
+            1.375437
+          ],
+          [
+            103.695507,
+            1.375176
+          ],
+          [
+            103.695405,
+            1.374813
+          ],
+          [
+            103.695286,
+            1.374301
+          ],
+          [
+            103.69532,
+            1.374164
+          ],
+          [
+            103.695335,
+            1.373962
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756393710481,
+    "query": {
+      "coordinates": [
+        [
+          103.6964267,
+          1.3783471
+        ],
+        [
+          103.695335,
+          1.3739618
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

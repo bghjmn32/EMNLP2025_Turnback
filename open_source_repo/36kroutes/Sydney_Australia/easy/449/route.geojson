@@ -1,0 +1,169 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    150.812573,
+    -33.7657,
+    150.816986,
+    -33.764213
+  ],
+  "features": [
+    {
+      "bbox": [
+        150.812573,
+        -33.7657,
+        150.816986,
+        -33.764213
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 546.7,
+            "duration": 393.6,
+            "steps": [
+              {
+                "distance": 24.8,
+                "duration": 17.9,
+                "type": 11,
+                "instruction": "Head east on Kurrajong Avenue",
+                "name": "Kurrajong Avenue",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 43.9,
+                "duration": 31.6,
+                "type": 12,
+                "instruction": "Keep left onto Kurrajong Road",
+                "name": "Kurrajong Road",
+                "way_points": [
+                  1,
+                  4
+                ]
+              },
+              {
+                "distance": 168.6,
+                "duration": 121.4,
+                "type": 7,
+                "instruction": "Enter the roundabout and take the 1st exit onto Belmore Avenue",
+                "name": "Belmore Avenue",
+                "exit_number": 1,
+                "way_points": [
+                  4,
+                  7
+                ]
+              },
+              {
+                "distance": 309.3,
+                "duration": 222.7,
+                "type": 1,
+                "instruction": "Turn right onto Dudley Street",
+                "name": "Dudley Street",
+                "way_points": [
+                  7,
+                  10
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Dudley Street, straight ahead",
+                "name": "-",
+                "way_points": [
+                  10,
+                  10
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          10
+        ],
+        "summary": {
+          "distance": 546.7,
+          "duration": 393.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            150.812573,
+            -33.765652
+          ],
+          [
+            150.812838,
+            -33.765686
+          ],
+          [
+            150.812902,
+            -33.765691
+          ],
+          [
+            150.813174,
+            -33.7657
+          ],
+          [
+            150.813311,
+            -33.765683
+          ],
+          [
+            150.81334,
+            -33.765676
+          ],
+          [
+            150.813427,
+            -33.765431
+          ],
+          [
+            150.813677,
+            -33.764213
+          ],
+          [
+            150.813761,
+            -33.764224
+          ],
+          [
+            150.815448,
+            -33.764433
+          ],
+          [
+            150.816986,
+            -33.764625
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756392801255,
+    "query": {
+      "coordinates": [
+        [
+          150.8125725,
+          -33.7656521
+        ],
+        [
+          150.8169862,
+          -33.7646251
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

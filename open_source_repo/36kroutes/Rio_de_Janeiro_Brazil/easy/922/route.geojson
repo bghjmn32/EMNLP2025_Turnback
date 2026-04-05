@@ -1,0 +1,146 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.462977,
+    -22.864209,
+    -43.459729,
+    -22.861346
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.462977,
+        -22.864209,
+        -43.459729,
+        -22.861346
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 505.1,
+            "duration": 363.6,
+            "steps": [
+              {
+                "distance": 432.1,
+                "duration": 311.1,
+                "type": 11,
+                "instruction": "Head northeast on Estrada da Água Branca",
+                "name": "Estrada da Água Branca",
+                "way_points": [
+                  0,
+                  9
+                ]
+              },
+              {
+                "distance": 73.0,
+                "duration": 52.5,
+                "type": 0,
+                "instruction": "Turn left onto Rua Eurico Sales",
+                "name": "Rua Eurico Sales",
+                "way_points": [
+                  9,
+                  10
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Rua Eurico Sales, straight ahead",
+                "name": "-",
+                "way_points": [
+                  10,
+                  10
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          10
+        ],
+        "summary": {
+          "distance": 505.1,
+          "duration": 363.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.462977,
+            -22.864209
+          ],
+          [
+            -43.462573,
+            -22.863615
+          ],
+          [
+            -43.462491,
+            -22.863502
+          ],
+          [
+            -43.461935,
+            -22.862693
+          ],
+          [
+            -43.461774,
+            -22.862515
+          ],
+          [
+            -43.461696,
+            -22.862456
+          ],
+          [
+            -43.461259,
+            -22.862179
+          ],
+          [
+            -43.460813,
+            -22.862025
+          ],
+          [
+            -43.460194,
+            -22.861988
+          ],
+          [
+            -43.459904,
+            -22.861982
+          ],
+          [
+            -43.459729,
+            -22.861346
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756395218049,
+    "query": {
+      "coordinates": [
+        [
+          -43.4629773,
+          -22.8642088
+        ],
+        [
+          -43.459729,
+          -22.8613461
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

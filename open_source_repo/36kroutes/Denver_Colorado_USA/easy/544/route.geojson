@@ -1,0 +1,299 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -105.071863,
+    39.851834,
+    -105.066762,
+    39.856577
+  ],
+  "features": [
+    {
+      "bbox": [
+        -105.071863,
+        39.851834,
+        -105.066762,
+        39.856577
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1126.7,
+            "duration": 811.2,
+            "steps": [
+              {
+                "distance": 42.3,
+                "duration": 30.4,
+                "type": 11,
+                "instruction": "Head south",
+                "name": "-",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 93.2,
+                "duration": 67.1,
+                "type": 1,
+                "instruction": "Turn right onto Chase Drive",
+                "name": "Chase Drive",
+                "way_points": [
+                  2,
+                  6
+                ]
+              },
+              {
+                "distance": 34.3,
+                "duration": 24.7,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 23.1,
+                "duration": 16.7,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  7,
+                  9
+                ]
+              },
+              {
+                "distance": 164.5,
+                "duration": 118.5,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  9,
+                  12
+                ]
+              },
+              {
+                "distance": 85.9,
+                "duration": 61.9,
+                "type": 0,
+                "instruction": "Turn left onto Chase Drive",
+                "name": "Chase Drive",
+                "way_points": [
+                  12,
+                  13
+                ]
+              },
+              {
+                "distance": 557.7,
+                "duration": 401.6,
+                "type": 0,
+                "instruction": "Turn left onto Otis Drive",
+                "name": "Otis Drive",
+                "way_points": [
+                  13,
+                  25
+                ]
+              },
+              {
+                "distance": 89.5,
+                "duration": 64.5,
+                "type": 0,
+                "instruction": "Turn left onto Lamar Drive",
+                "name": "Lamar Drive",
+                "way_points": [
+                  25,
+                  27
+                ]
+              },
+              {
+                "distance": 36.1,
+                "duration": 26.0,
+                "type": 6,
+                "instruction": "Continue straight onto Lamar Drive",
+                "name": "Lamar Drive",
+                "way_points": [
+                  27,
+                  29
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Lamar Drive, straight ahead",
+                "name": "-",
+                "way_points": [
+                  29,
+                  29
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          29
+        ],
+        "summary": {
+          "distance": 1126.7,
+          "duration": 811.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -105.071462,
+            39.854719
+          ],
+          [
+            -105.071462,
+            39.854557
+          ],
+          [
+            -105.071178,
+            39.854556
+          ],
+          [
+            -105.071126,
+            39.854385
+          ],
+          [
+            -105.071148,
+            39.854123
+          ],
+          [
+            -105.07119,
+            39.853964
+          ],
+          [
+            -105.071309,
+            39.853744
+          ],
+          [
+            -105.070949,
+            39.853607
+          ],
+          [
+            -105.070937,
+            39.85347
+          ],
+          [
+            -105.070912,
+            39.853402
+          ],
+          [
+            -105.071263,
+            39.85304
+          ],
+          [
+            -105.071688,
+            39.852432
+          ],
+          [
+            -105.071863,
+            39.852122
+          ],
+          [
+            -105.070928,
+            39.851834
+          ],
+          [
+            -105.070715,
+            39.852148
+          ],
+          [
+            -105.070329,
+            39.852494
+          ],
+          [
+            -105.0699,
+            39.852842
+          ],
+          [
+            -105.069583,
+            39.853104
+          ],
+          [
+            -105.069262,
+            39.853532
+          ],
+          [
+            -105.069027,
+            39.853929
+          ],
+          [
+            -105.068478,
+            39.85472
+          ],
+          [
+            -105.068213,
+            39.854928
+          ],
+          [
+            -105.067877,
+            39.855136
+          ],
+          [
+            -105.06758,
+            39.855276
+          ],
+          [
+            -105.067159,
+            39.855389
+          ],
+          [
+            -105.066762,
+            39.855452
+          ],
+          [
+            -105.066823,
+            39.855702
+          ],
+          [
+            -105.06685,
+            39.856253
+          ],
+          [
+            -105.066856,
+            39.856444
+          ],
+          [
+            -105.066854,
+            39.856577
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306144870,
+    "query": {
+      "coordinates": [
+        [
+          -105.0714625,
+          39.8547187
+        ],
+        [
+          -105.0668543,
+          39.856577
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

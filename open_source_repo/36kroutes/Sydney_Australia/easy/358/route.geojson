@@ -1,0 +1,220 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    151.16008,
+    -33.711456,
+    151.165243,
+    -33.704519
+  ],
+  "features": [
+    {
+      "bbox": [
+        151.16008,
+        -33.711456,
+        151.165243,
+        -33.704519
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 954.5,
+            "duration": 687.2,
+            "steps": [
+              {
+                "distance": 82.3,
+                "duration": 59.2,
+                "type": 11,
+                "instruction": "Head north on Warrimoo Avenue",
+                "name": "Warrimoo Avenue",
+                "way_points": [
+                  0,
+                  5
+                ]
+              },
+              {
+                "distance": 9.2,
+                "duration": 6.6,
+                "type": 1,
+                "instruction": "Turn right onto Dalton Road",
+                "name": "Dalton Road",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 853.7,
+                "duration": 614.7,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  6,
+                  22
+                ]
+              },
+              {
+                "distance": 9.3,
+                "duration": 6.7,
+                "type": 0,
+                "instruction": "Turn left onto Tomah Street",
+                "name": "Tomah Street",
+                "way_points": [
+                  22,
+                  23
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Tomah Street, straight ahead",
+                "name": "-",
+                "way_points": [
+                  23,
+                  23
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          23
+        ],
+        "summary": {
+          "distance": 954.5,
+          "duration": 687.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            151.16008,
+            -33.711456
+          ],
+          [
+            151.160142,
+            -33.711144
+          ],
+          [
+            151.16016,
+            -33.711053
+          ],
+          [
+            151.160195,
+            -33.710877
+          ],
+          [
+            151.160215,
+            -33.710801
+          ],
+          [
+            151.160254,
+            -33.710733
+          ],
+          [
+            151.160352,
+            -33.710747
+          ],
+          [
+            151.160431,
+            -33.710662
+          ],
+          [
+            151.161139,
+            -33.709767
+          ],
+          [
+            151.161476,
+            -33.70931
+          ],
+          [
+            151.161604,
+            -33.709172
+          ],
+          [
+            151.161701,
+            -33.709087
+          ],
+          [
+            151.162021,
+            -33.708916
+          ],
+          [
+            151.163346,
+            -33.70812
+          ],
+          [
+            151.163403,
+            -33.708081
+          ],
+          [
+            151.163981,
+            -33.70741
+          ],
+          [
+            151.164459,
+            -33.706852
+          ],
+          [
+            151.164558,
+            -33.706717
+          ],
+          [
+            151.164676,
+            -33.706508
+          ],
+          [
+            151.164703,
+            -33.706458
+          ],
+          [
+            151.165054,
+            -33.705337
+          ],
+          [
+            151.165187,
+            -33.704869
+          ],
+          [
+            151.165243,
+            -33.704533
+          ],
+          [
+            151.165143,
+            -33.704519
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756392261031,
+    "query": {
+      "coordinates": [
+        [
+          151.16008,
+          -33.7114559
+        ],
+        [
+          151.1651434,
+          -33.704519
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.471531,
+    -34.026522,
+    18.473106,
+    -34.022546
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.471531,
+        -34.026522,
+        18.473106,
+        -34.022546
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 517.6,
+            "duration": 372.7,
+            "steps": [
+              {
+                "distance": 229.0,
+                "duration": 164.9,
+                "type": 11,
+                "instruction": "Head south on Delany Road",
+                "name": "Delany Road",
+                "way_points": [
+                  0,
+                  5
+                ]
+              },
+              {
+                "distance": 76.9,
+                "duration": 55.4,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  5,
+                  8
+                ]
+              },
+              {
+                "distance": 9.6,
+                "duration": 6.9,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  8,
+                  9
+                ]
+              },
+              {
+                "distance": 202.1,
+                "duration": 145.5,
+                "type": 6,
+                "instruction": "Continue straight onto Princess Vlei Road",
+                "name": "Princess Vlei Road",
+                "way_points": [
+                  9,
+                  16
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Princess Vlei Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  16,
+                  16
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          16
+        ],
+        "summary": {
+          "distance": 517.6,
+          "duration": 372.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.472176,
+            -34.022546
+          ],
+          [
+            18.472168,
+            -34.022635
+          ],
+          [
+            18.471944,
+            -34.023523
+          ],
+          [
+            18.471835,
+            -34.023906
+          ],
+          [
+            18.471625,
+            -34.024336
+          ],
+          [
+            18.471531,
+            -34.024526
+          ],
+          [
+            18.471611,
+            -34.024565
+          ],
+          [
+            18.471918,
+            -34.02467
+          ],
+          [
+            18.472298,
+            -34.024799
+          ],
+          [
+            18.472259,
+            -34.024879
+          ],
+          [
+            18.472231,
+            -34.024943
+          ],
+          [
+            18.472224,
+            -34.025012
+          ],
+          [
+            18.47224,
+            -34.025084
+          ],
+          [
+            18.472343,
+            -34.025254
+          ],
+          [
+            18.472468,
+            -34.025461
+          ],
+          [
+            18.472726,
+            -34.025887
+          ],
+          [
+            18.473106,
+            -34.026522
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756804597107,
+    "query": {
+      "coordinates": [
+        [
+          18.4721764,
+          -34.0225459
+        ],
+        [
+          18.4731058,
+          -34.0265221
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

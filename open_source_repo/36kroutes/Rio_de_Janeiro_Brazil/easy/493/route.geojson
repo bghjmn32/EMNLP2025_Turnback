@@ -1,0 +1,156 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.629297,
+    -22.991037,
+    -43.626842,
+    -22.987335
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.629297,
+        -22.991037,
+        -43.626842,
+        -22.987335
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 599.9,
+            "duration": 432.0,
+            "steps": [
+              {
+                "distance": 74.1,
+                "duration": 53.3,
+                "type": 11,
+                "instruction": "Head southwest on Estrada da Capoeira Grande",
+                "name": "Estrada da Capoeira Grande",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 203.8,
+                "duration": 146.7,
+                "type": 0,
+                "instruction": "Turn left onto Rua Juarez Getirana",
+                "name": "Rua Juarez Getirana",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 301.9,
+                "duration": 217.3,
+                "type": 1,
+                "instruction": "Turn right onto Rua Tito Madi",
+                "name": "Rua Tito Madi",
+                "way_points": [
+                  2,
+                  6
+                ]
+              },
+              {
+                "distance": 20.2,
+                "duration": 14.5,
+                "type": 0,
+                "instruction": "Turn left onto Rua Compositor Ribamar",
+                "name": "Rua Compositor Ribamar",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Rua Compositor Ribamar, on the right",
+                "name": "-",
+                "way_points": [
+                  7,
+                  7
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          7
+        ],
+        "summary": {
+          "distance": 599.9,
+          "duration": 432.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.62745,
+            -22.987335
+          ],
+          [
+            -43.62794,
+            -22.987825
+          ],
+          [
+            -43.626842,
+            -22.989353
+          ],
+          [
+            -43.627431,
+            -22.989732
+          ],
+          [
+            -43.628024,
+            -22.990076
+          ],
+          [
+            -43.628607,
+            -22.990436
+          ],
+          [
+            -43.629297,
+            -22.990856
+          ],
+          [
+            -43.629288,
+            -22.991037
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756392800291,
+    "query": {
+      "coordinates": [
+        [
+          -43.6274499,
+          -22.9873347
+        ],
+        [
+          -43.6301059,
+          -22.9910714
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

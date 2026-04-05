@@ -1,0 +1,203 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    31.655649,
+    30.119003,
+    31.659897,
+    30.120081
+  ],
+  "features": [
+    {
+      "bbox": [
+        31.655649,
+        30.119003,
+        31.659897,
+        30.120081
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 619.4,
+            "duration": 446.0,
+            "steps": [
+              {
+                "distance": 380.8,
+                "duration": 274.2,
+                "type": 11,
+                "instruction": "Head west on شارع 25 يناير",
+                "name": "شارع 25 يناير",
+                "way_points": [
+                  0,
+                  9
+                ]
+              },
+              {
+                "distance": 58.7,
+                "duration": 42.3,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  9,
+                  10
+                ]
+              },
+              {
+                "distance": 39.7,
+                "duration": 28.6,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  10,
+                  11
+                ]
+              },
+              {
+                "distance": 108.2,
+                "duration": 77.9,
+                "type": 12,
+                "instruction": "Keep left",
+                "name": "-",
+                "way_points": [
+                  11,
+                  15
+                ]
+              },
+              {
+                "distance": 32.0,
+                "duration": 23.0,
+                "type": 4,
+                "instruction": "Turn slight left onto شارع الثورة",
+                "name": "شارع الثورة",
+                "way_points": [
+                  15,
+                  16
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at شارع الثورة, straight ahead",
+                "name": "-",
+                "way_points": [
+                  16,
+                  16
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          16
+        ],
+        "summary": {
+          "distance": 619.4,
+          "duration": 446.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            31.659897,
+            30.120081
+          ],
+          [
+            31.658196,
+            30.119788
+          ],
+          [
+            31.656911,
+            30.119565
+          ],
+          [
+            31.656793,
+            30.119553
+          ],
+          [
+            31.656676,
+            30.119561
+          ],
+          [
+            31.656563,
+            30.119591
+          ],
+          [
+            31.65646,
+            30.119641
+          ],
+          [
+            31.656373,
+            30.11971
+          ],
+          [
+            31.656308,
+            30.119793
+          ],
+          [
+            31.656246,
+            30.119965
+          ],
+          [
+            31.655649,
+            30.119854
+          ],
+          [
+            31.655731,
+            30.119504
+          ],
+          [
+            31.656118,
+            30.119212
+          ],
+          [
+            31.656291,
+            30.119119
+          ],
+          [
+            31.656478,
+            30.119049
+          ],
+          [
+            31.656675,
+            30.119003
+          ],
+          [
+            31.657001,
+            30.119058
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756730343257,
+    "query": {
+      "coordinates": [
+        [
+          31.659897,
+          30.1200807
+        ],
+        [
+          31.6570011,
+          30.1190584
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

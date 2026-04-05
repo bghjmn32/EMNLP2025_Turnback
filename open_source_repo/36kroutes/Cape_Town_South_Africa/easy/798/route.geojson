@@ -1,0 +1,256 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.572667,
+    -33.944655,
+    18.578358,
+    -33.938418
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.572667,
+        -33.944655,
+        18.578358,
+        -33.938418
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1229.3,
+            "duration": 885.1,
+            "steps": [
+              {
+                "distance": 148.1,
+                "duration": 106.6,
+                "type": 11,
+                "instruction": "Head north on 5th Street",
+                "name": "5th Street",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 80.9,
+                "duration": 58.2,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 17.6,
+                "duration": 12.7,
+                "type": 1,
+                "instruction": "Turn right onto 4th Street",
+                "name": "4th Street",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 11.8,
+                "duration": 8.5,
+                "type": 0,
+                "instruction": "Turn left onto Maitland Road",
+                "name": "Maitland Road",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 42.5,
+                "duration": 30.6,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  4,
+                  7
+                ]
+              },
+              {
+                "distance": 440.4,
+                "duration": 317.1,
+                "type": 2,
+                "instruction": "Turn sharp left",
+                "name": "-",
+                "way_points": [
+                  7,
+                  12
+                ]
+              },
+              {
+                "distance": 85.0,
+                "duration": 61.2,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  12,
+                  16
+                ]
+              },
+              {
+                "distance": 403.0,
+                "duration": 290.2,
+                "type": 5,
+                "instruction": "Turn slight right onto Civic Road",
+                "name": "Civic Road",
+                "way_points": [
+                  16,
+                  21
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Civic Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  21,
+                  21
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          21
+        ],
+        "summary": {
+          "distance": 1229.3,
+          "duration": 885.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.578186,
+            -33.944655
+          ],
+          [
+            18.578358,
+            -33.94333
+          ],
+          [
+            18.577485,
+            -33.943265
+          ],
+          [
+            18.577505,
+            -33.943108
+          ],
+          [
+            18.577399,
+            -33.943048
+          ],
+          [
+            18.577411,
+            -33.942998
+          ],
+          [
+            18.577542,
+            -33.94299
+          ],
+          [
+            18.577618,
+            -33.942777
+          ],
+          [
+            18.57676,
+            -33.942808
+          ],
+          [
+            18.575472,
+            -33.942768
+          ],
+          [
+            18.574689,
+            -33.942786
+          ],
+          [
+            18.5736,
+            -33.942764
+          ],
+          [
+            18.572846,
+            -33.942786
+          ],
+          [
+            18.572835,
+            -33.942572
+          ],
+          [
+            18.572807,
+            -33.942405
+          ],
+          [
+            18.57272,
+            -33.942179
+          ],
+          [
+            18.572667,
+            -33.942042
+          ],
+          [
+            18.572694,
+            -33.939855
+          ],
+          [
+            18.572698,
+            -33.93957
+          ],
+          [
+            18.572701,
+            -33.939364
+          ],
+          [
+            18.572707,
+            -33.938883
+          ],
+          [
+            18.572712,
+            -33.938418
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756805662814,
+    "query": {
+      "coordinates": [
+        [
+          18.5781857,
+          -33.9446547
+        ],
+        [
+          18.5727123,
+          -33.9384178
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

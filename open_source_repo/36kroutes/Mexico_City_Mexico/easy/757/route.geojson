@@ -1,0 +1,152 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.104474,
+    19.272589,
+    -99.103729,
+    19.279836
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.104474,
+        19.272589,
+        -99.103729,
+        19.279836
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 823.7,
+            "duration": 593.1,
+            "steps": [
+              {
+                "distance": 434.0,
+                "duration": 312.5,
+                "type": 11,
+                "instruction": "Head south",
+                "name": "-",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 82.2,
+                "duration": 59.2,
+                "type": 13,
+                "instruction": "Keep right",
+                "name": "-",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 13.9,
+                "duration": 10.0,
+                "type": 1,
+                "instruction": "Turn right onto Calle El Recodo",
+                "name": "Calle El Recodo",
+                "way_points": [
+                  3,
+                  5
+                ]
+              },
+              {
+                "distance": 293.6,
+                "duration": 211.4,
+                "type": 0,
+                "instruction": "Turn left onto Calle El Recodo",
+                "name": "Calle El Recodo",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle El Recodo, straight ahead",
+                "name": "-",
+                "way_points": [
+                  6,
+                  6
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          6
+        ],
+        "summary": {
+          "distance": 823.7,
+          "duration": 593.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.103729,
+            19.279836
+          ],
+          [
+            -99.103999,
+            19.2768
+          ],
+          [
+            -99.104074,
+            19.275946
+          ],
+          [
+            -99.10414,
+            19.27521
+          ],
+          [
+            -99.104226,
+            19.275218
+          ],
+          [
+            -99.104271,
+            19.275222
+          ],
+          [
+            -99.104474,
+            19.272589
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756307393510,
+    "query": {
+      "coordinates": [
+        [
+          -99.1037287,
+          19.2798357
+        ],
+        [
+          -99.1044744,
+          19.2725887
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

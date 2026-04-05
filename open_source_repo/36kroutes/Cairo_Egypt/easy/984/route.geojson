@@ -1,0 +1,281 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    31.404541,
+    30.025389,
+    31.405842,
+    30.032421
+  ],
+  "features": [
+    {
+      "bbox": [
+        31.404541,
+        30.025389,
+        31.405842,
+        30.032421
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 905.3,
+            "duration": 651.8,
+            "steps": [
+              {
+                "distance": 7.5,
+                "duration": 5.4,
+                "type": 11,
+                "instruction": "Head east",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 209.1,
+                "duration": 150.6,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  8
+                ]
+              },
+              {
+                "distance": 31.5,
+                "duration": 22.6,
+                "type": 12,
+                "instruction": "Keep left",
+                "name": "-",
+                "way_points": [
+                  8,
+                  9
+                ]
+              },
+              {
+                "distance": 21.5,
+                "duration": 15.5,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  9,
+                  10
+                ]
+              },
+              {
+                "distance": 566.2,
+                "duration": 407.7,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  10,
+                  28
+                ]
+              },
+              {
+                "distance": 30.3,
+                "duration": 21.8,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  28,
+                  29
+                ]
+              },
+              {
+                "distance": 39.2,
+                "duration": 28.2,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  29,
+                  30
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  30,
+                  30
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          30
+        ],
+        "summary": {
+          "distance": 905.3,
+          "duration": 651.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            31.404891,
+            30.032421
+          ],
+          [
+            31.404968,
+            30.032414
+          ],
+          [
+            31.404887,
+            30.031797
+          ],
+          [
+            31.404816,
+            30.03139
+          ],
+          [
+            31.404825,
+            30.031308
+          ],
+          [
+            31.404848,
+            30.031264
+          ],
+          [
+            31.404922,
+            30.031195
+          ],
+          [
+            31.405454,
+            30.030892
+          ],
+          [
+            31.405486,
+            30.030825
+          ],
+          [
+            31.405764,
+            30.030677
+          ],
+          [
+            31.405649,
+            30.030511
+          ],
+          [
+            31.405776,
+            30.03042
+          ],
+          [
+            31.405806,
+            30.030363
+          ],
+          [
+            31.405842,
+            30.030221
+          ],
+          [
+            31.405833,
+            30.030095
+          ],
+          [
+            31.405778,
+            30.029971
+          ],
+          [
+            31.405602,
+            30.029666
+          ],
+          [
+            31.405299,
+            30.028961
+          ],
+          [
+            31.405212,
+            30.028696
+          ],
+          [
+            31.405079,
+            30.028084
+          ],
+          [
+            31.405031,
+            30.027696
+          ],
+          [
+            31.40501,
+            30.027324
+          ],
+          [
+            31.405017,
+            30.027024
+          ],
+          [
+            31.405066,
+            30.026548
+          ],
+          [
+            31.405131,
+            30.026201
+          ],
+          [
+            31.405157,
+            30.026047
+          ],
+          [
+            31.405109,
+            30.025892
+          ],
+          [
+            31.405023,
+            30.025806
+          ],
+          [
+            31.404842,
+            30.025742
+          ],
+          [
+            31.404934,
+            30.025482
+          ],
+          [
+            31.404541,
+            30.025389
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756732205232,
+    "query": {
+      "coordinates": [
+        [
+          31.4048905,
+          30.0324208
+        ],
+        [
+          31.4045414,
+          30.0253892
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.11684,
+    19.491868,
+    -99.114734,
+    19.497282
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.11684,
+        19.491868,
+        -99.114734,
+        19.497282
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 821.0,
+            "duration": 591.1,
+            "steps": [
+              {
+                "distance": 109.9,
+                "duration": 79.1,
+                "type": 11,
+                "instruction": "Head southwest on Avenida Huitzilíhuitl",
+                "name": "Avenida Huitzilíhuitl",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 224.9,
+                "duration": 162.0,
+                "type": 0,
+                "instruction": "Turn left onto Calle Iztaccíhuatl",
+                "name": "Calle Iztaccíhuatl",
+                "way_points": [
+                  1,
+                  5
+                ]
+              },
+              {
+                "distance": 174.0,
+                "duration": 125.3,
+                "type": 1,
+                "instruction": "Turn right onto Calle Acamapichtli",
+                "name": "Calle Acamapichtli",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 54.0,
+                "duration": 38.9,
+                "type": 0,
+                "instruction": "Turn left onto Calle Acoltzin",
+                "name": "Calle Acoltzin",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 258.1,
+                "duration": 185.8,
+                "type": 1,
+                "instruction": "Turn right onto Calle Ahuizotl",
+                "name": "Calle Ahuizotl",
+                "way_points": [
+                  7,
+                  9
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Ahuizotl, straight ahead",
+                "name": "-",
+                "way_points": [
+                  9,
+                  9
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          9
+        ],
+        "summary": {
+          "distance": 821.0,
+          "duration": 591.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.115765,
+            19.497282
+          ],
+          [
+            -99.116412,
+            19.496503
+          ],
+          [
+            -99.11598,
+            19.496186
+          ],
+          [
+            -99.115575,
+            19.495879
+          ],
+          [
+            -99.115144,
+            19.49558
+          ],
+          [
+            -99.114734,
+            19.495243
+          ],
+          [
+            -99.115729,
+            19.493991
+          ],
+          [
+            -99.11532,
+            19.493695
+          ],
+          [
+            -99.116178,
+            19.492671
+          ],
+          [
+            -99.11684,
+            19.491868
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306569850,
+    "query": {
+      "coordinates": [
+        [
+          -99.1157655,
+          19.4972816
+        ],
+        [
+          -99.1168398,
+          19.4918682
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

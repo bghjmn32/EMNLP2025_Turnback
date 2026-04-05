@@ -1,0 +1,218 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.46703,
+    -34.002223,
+    18.468427,
+    -33.997703
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.46703,
+        -34.002223,
+        18.468427,
+        -33.997703
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 633.3,
+            "duration": 456.0,
+            "steps": [
+              {
+                "distance": 10.7,
+                "duration": 7.7,
+                "type": 11,
+                "instruction": "Head south on Main Road, M4",
+                "name": "Main Road, M4",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 140.3,
+                "duration": 101.0,
+                "type": 1,
+                "instruction": "Turn right onto Baker Road",
+                "name": "Baker Road",
+                "way_points": [
+                  1,
+                  4
+                ]
+              },
+              {
+                "distance": 182.8,
+                "duration": 131.6,
+                "type": 0,
+                "instruction": "Turn left onto Robinson Road",
+                "name": "Robinson Road",
+                "way_points": [
+                  4,
+                  7
+                ]
+              },
+              {
+                "distance": 91.9,
+                "duration": 66.2,
+                "type": 1,
+                "instruction": "Turn right onto Aliwal Road",
+                "name": "Aliwal Road",
+                "way_points": [
+                  7,
+                  9
+                ]
+              },
+              {
+                "distance": 129.8,
+                "duration": 93.5,
+                "type": 0,
+                "instruction": "Turn left onto Cornwall Place",
+                "name": "Cornwall Place",
+                "way_points": [
+                  9,
+                  14
+                ]
+              },
+              {
+                "distance": 77.7,
+                "duration": 56.0,
+                "type": 1,
+                "instruction": "Turn right onto Sunninghill Road",
+                "name": "Sunninghill Road",
+                "way_points": [
+                  14,
+                  17
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Sunninghill Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  17,
+                  17
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          17
+        ],
+        "summary": {
+          "distance": 633.3,
+          "duration": 456.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.468427,
+            -33.997703
+          ],
+          [
+            18.468417,
+            -33.997799
+          ],
+          [
+            18.467911,
+            -33.997962
+          ],
+          [
+            18.467594,
+            -33.998096
+          ],
+          [
+            18.467069,
+            -33.998376
+          ],
+          [
+            18.467426,
+            -33.999027
+          ],
+          [
+            18.467671,
+            -33.999484
+          ],
+          [
+            18.467888,
+            -33.999873
+          ],
+          [
+            18.467621,
+            -34.000152
+          ],
+          [
+            18.467297,
+            -34.000538
+          ],
+          [
+            18.467381,
+            -34.000685
+          ],
+          [
+            18.467426,
+            -34.000979
+          ],
+          [
+            18.467492,
+            -34.001304
+          ],
+          [
+            18.467526,
+            -34.001491
+          ],
+          [
+            18.467559,
+            -34.001678
+          ],
+          [
+            18.467215,
+            -34.002032
+          ],
+          [
+            18.467181,
+            -34.002067
+          ],
+          [
+            18.46703,
+            -34.002223
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756803913971,
+    "query": {
+      "coordinates": [
+        [
+          18.4684274,
+          -33.9977032
+        ],
+        [
+          18.4670301,
+          -34.0022229
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

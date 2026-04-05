@@ -1,0 +1,293 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.400479,
+    -22.964464,
+    -43.391782,
+    -22.960718
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.400479,
+        -22.964464,
+        -43.391782,
+        -22.960718
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1199.1,
+            "duration": 863.4,
+            "steps": [
+              {
+                "distance": 21.7,
+                "duration": 15.6,
+                "type": 11,
+                "instruction": "Head west",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 24.3,
+                "duration": 17.5,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 574.0,
+                "duration": 413.3,
+                "type": 0,
+                "instruction": "Turn left onto Estrada Santa Maura",
+                "name": "Estrada Santa Maura",
+                "way_points": [
+                  2,
+                  18
+                ]
+              },
+              {
+                "distance": 497.8,
+                "duration": 358.4,
+                "type": 1,
+                "instruction": "Turn right onto Estrada dos Bandeirantes",
+                "name": "Estrada dos Bandeirantes",
+                "way_points": [
+                  18,
+                  27
+                ]
+              },
+              {
+                "distance": 25.8,
+                "duration": 18.6,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  27,
+                  29
+                ]
+              },
+              {
+                "distance": 23.5,
+                "duration": 16.9,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  29,
+                  31
+                ]
+              },
+              {
+                "distance": 32.0,
+                "duration": 23.1,
+                "type": 1,
+                "instruction": "Turn right onto Estrada dos Bandeirantes",
+                "name": "Estrada dos Bandeirantes",
+                "way_points": [
+                  31,
+                  33
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Estrada dos Bandeirantes, straight ahead",
+                "name": "-",
+                "way_points": [
+                  33,
+                  33
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          33
+        ],
+        "summary": {
+          "distance": 1199.1,
+          "duration": 863.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.400268,
+            -22.964045
+          ],
+          [
+            -43.400479,
+            -22.964061
+          ],
+          [
+            -43.400476,
+            -22.964279
+          ],
+          [
+            -43.399906,
+            -22.964435
+          ],
+          [
+            -43.399877,
+            -22.96444
+          ],
+          [
+            -43.399778,
+            -22.964452
+          ],
+          [
+            -43.399508,
+            -22.964464
+          ],
+          [
+            -43.399233,
+            -22.964457
+          ],
+          [
+            -43.398552,
+            -22.96435
+          ],
+          [
+            -43.398212,
+            -22.964297
+          ],
+          [
+            -43.39765,
+            -22.964153
+          ],
+          [
+            -43.397499,
+            -22.964105
+          ],
+          [
+            -43.397365,
+            -22.964032
+          ],
+          [
+            -43.397278,
+            -22.963938
+          ],
+          [
+            -43.397198,
+            -22.963817
+          ],
+          [
+            -43.397174,
+            -22.96372
+          ],
+          [
+            -43.397134,
+            -22.963247
+          ],
+          [
+            -43.397111,
+            -22.962024
+          ],
+          [
+            -43.397118,
+            -22.961874
+          ],
+          [
+            -43.395358,
+            -22.961441
+          ],
+          [
+            -43.395172,
+            -22.961398
+          ],
+          [
+            -43.394992,
+            -22.961357
+          ],
+          [
+            -43.394955,
+            -22.961346
+          ],
+          [
+            -43.394299,
+            -22.961216
+          ],
+          [
+            -43.393911,
+            -22.961123
+          ],
+          [
+            -43.392858,
+            -22.960871
+          ],
+          [
+            -43.392687,
+            -22.960827
+          ],
+          [
+            -43.39241,
+            -22.96076
+          ],
+          [
+            -43.392243,
+            -22.960876
+          ],
+          [
+            -43.392209,
+            -22.960901
+          ],
+          [
+            -43.392186,
+            -22.960861
+          ],
+          [
+            -43.392094,
+            -22.960718
+          ],
+          [
+            -43.391846,
+            -22.96073
+          ],
+          [
+            -43.391782,
+            -22.960733
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756391880345,
+    "query": {
+      "coordinates": [
+        [
+          -43.4002681,
+          -22.9640449
+        ],
+        [
+          -43.3917817,
+          -22.9607328
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

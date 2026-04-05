@@ -1,0 +1,206 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    31.236614,
+    30.049134,
+    31.240815,
+    30.051409
+  ],
+  "features": [
+    {
+      "bbox": [
+        31.236614,
+        30.049134,
+        31.240815,
+        30.051409
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 551.9,
+            "duration": 397.4,
+            "steps": [
+              {
+                "distance": 84.7,
+                "duration": 61.0,
+                "type": 11,
+                "instruction": "Head west on شارع الفضل",
+                "name": "شارع الفضل",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 20.2,
+                "duration": 14.5,
+                "type": 5,
+                "instruction": "Turn slight right onto شارع البورصه الجديده",
+                "name": "شارع البورصه الجديده",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 36.2,
+                "duration": 26.1,
+                "type": 0,
+                "instruction": "Turn left onto شارع طلعت حرب",
+                "name": "شارع طلعت حرب",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 273.3,
+                "duration": 196.8,
+                "type": 1,
+                "instruction": "Turn right onto شارع معروف",
+                "name": "شارع معروف",
+                "way_points": [
+                  4,
+                  12
+                ]
+              },
+              {
+                "distance": 30.9,
+                "duration": 22.3,
+                "type": 1,
+                "instruction": "Turn right onto حارة محمد موسي",
+                "name": "حارة محمد موسي",
+                "way_points": [
+                  12,
+                  13
+                ]
+              },
+              {
+                "distance": 106.5,
+                "duration": 76.7,
+                "type": 0,
+                "instruction": "Turn left onto شارع السياس",
+                "name": "شارع السياس",
+                "way_points": [
+                  13,
+                  14
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at شارع السياس, straight ahead",
+                "name": "-",
+                "way_points": [
+                  14,
+                  14
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          14
+        ],
+        "summary": {
+          "distance": 551.9,
+          "duration": 397.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            31.240815,
+            30.049276
+          ],
+          [
+            31.24053,
+            30.04929
+          ],
+          [
+            31.239936,
+            30.04932
+          ],
+          [
+            31.23976,
+            30.049419
+          ],
+          [
+            31.239578,
+            30.049134
+          ],
+          [
+            31.238914,
+            30.049576
+          ],
+          [
+            31.238675,
+            30.049728
+          ],
+          [
+            31.23854,
+            30.049815
+          ],
+          [
+            31.238439,
+            30.049881
+          ],
+          [
+            31.237945,
+            30.050185
+          ],
+          [
+            31.237629,
+            30.050387
+          ],
+          [
+            31.237516,
+            30.05046
+          ],
+          [
+            31.237298,
+            30.050599
+          ],
+          [
+            31.237489,
+            30.050822
+          ],
+          [
+            31.236614,
+            30.051409
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756730575495,
+    "query": {
+      "coordinates": [
+        [
+          31.2408149,
+          30.0492764
+        ],
+        [
+          31.236614,
+          30.0514088
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

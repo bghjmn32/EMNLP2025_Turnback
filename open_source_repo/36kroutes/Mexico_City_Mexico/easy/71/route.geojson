@@ -1,0 +1,207 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.071035,
+    19.413065,
+    -99.066372,
+    19.417617
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.071035,
+        19.413065,
+        -99.066372,
+        19.417617
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 976.2,
+            "duration": 702.9,
+            "steps": [
+              {
+                "distance": 5.8,
+                "duration": 4.2,
+                "type": 11,
+                "instruction": "Head east on Privada Herlinda",
+                "name": "Privada Herlinda",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 258.7,
+                "duration": 186.2,
+                "type": 0,
+                "instruction": "Turn left onto Calle 2",
+                "name": "Calle 2",
+                "way_points": [
+                  1,
+                  5
+                ]
+              },
+              {
+                "distance": 385.5,
+                "duration": 277.5,
+                "type": 0,
+                "instruction": "Turn left onto Avenida Guadalupe",
+                "name": "Avenida Guadalupe",
+                "way_points": [
+                  5,
+                  11
+                ]
+              },
+              {
+                "distance": 188.9,
+                "duration": 136.0,
+                "type": 1,
+                "instruction": "Turn right onto Privada Guadalupe",
+                "name": "Privada Guadalupe",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 137.4,
+                "duration": 99.0,
+                "type": 0,
+                "instruction": "Turn left onto Calle Unión",
+                "name": "Calle Unión",
+                "way_points": [
+                  12,
+                  17
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Unión, straight ahead",
+                "name": "-",
+                "way_points": [
+                  17,
+                  17
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          17
+        ],
+        "summary": {
+          "distance": 976.2,
+          "duration": 702.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.066679,
+            19.413071
+          ],
+          [
+            -99.066624,
+            19.413065
+          ],
+          [
+            -99.06658,
+            19.413487
+          ],
+          [
+            -99.066547,
+            19.413804
+          ],
+          [
+            -99.066445,
+            19.41475
+          ],
+          [
+            -99.066372,
+            19.415379
+          ],
+          [
+            -99.06685,
+            19.415443
+          ],
+          [
+            -99.067438,
+            19.415529
+          ],
+          [
+            -99.068437,
+            19.415665
+          ],
+          [
+            -99.068655,
+            19.415692
+          ],
+          [
+            -99.069353,
+            19.415788
+          ],
+          [
+            -99.070007,
+            19.415891
+          ],
+          [
+            -99.069726,
+            19.417568
+          ],
+          [
+            -99.070492,
+            19.417598
+          ],
+          [
+            -99.070682,
+            19.41761
+          ],
+          [
+            -99.070748,
+            19.417614
+          ],
+          [
+            -99.070816,
+            19.417617
+          ],
+          [
+            -99.071035,
+            19.417616
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756304309918,
+    "query": {
+      "coordinates": [
+        [
+          -99.0666786,
+          19.4130712
+        ],
+        [
+          -99.0710351,
+          19.4176169
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

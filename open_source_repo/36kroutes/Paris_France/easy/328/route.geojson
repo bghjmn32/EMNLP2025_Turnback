@@ -1,0 +1,229 @@
+{
+    "type": "FeatureCollection",
+    "bbox": [
+        2.227426,
+        48.841161,
+        2.230325,
+        48.844175
+    ],
+    "features": [
+        {
+            "bbox": [
+                2.227426,
+                48.841161,
+                2.230325,
+                48.844175
+            ],
+            "type": "Feature",
+            "properties": {
+                "segments": [
+                    {
+                        "distance": 527.0,
+                        "duration": 379.4,
+                        "steps": [
+                            {
+                                "distance": 22.3,
+                                "duration": 16.0,
+                                "type": 11,
+                                "instruction": "Head north",
+                                "name": "-",
+                                "way_points": [
+                                    0,
+                                    1
+                                ]
+                            },
+                            {
+                                "distance": 4.7,
+                                "duration": 3.4,
+                                "type": 0,
+                                "instruction": "Turn left",
+                                "name": "-",
+                                "way_points": [
+                                    1,
+                                    2
+                                ]
+                            },
+                            {
+                                "distance": 36.9,
+                                "duration": 26.6,
+                                "type": 0,
+                                "instruction": "Turn left",
+                                "name": "-",
+                                "way_points": [
+                                    2,
+                                    3
+                                ]
+                            },
+                            {
+                                "distance": 323.8,
+                                "duration": 233.2,
+                                "type": 0,
+                                "instruction": "Turn left onto Rue des Abondances",
+                                "name": "Rue des Abondances",
+                                "way_points": [
+                                    3,
+                                    7
+                                ]
+                            },
+                            {
+                                "distance": 36.0,
+                                "duration": 25.9,
+                                "type": 1,
+                                "instruction": "Turn right",
+                                "name": "-",
+                                "way_points": [
+                                    7,
+                                    13
+                                ]
+                            },
+                            {
+                                "distance": 88.9,
+                                "duration": 64.0,
+                                "type": 1,
+                                "instruction": "Turn right onto Rue du Port",
+                                "name": "Rue du Port",
+                                "way_points": [
+                                    13,
+                                    15
+                                ]
+                            },
+                            {
+                                "distance": 14.3,
+                                "duration": 10.3,
+                                "type": 1,
+                                "instruction": "Turn right",
+                                "name": "-",
+                                "way_points": [
+                                    15,
+                                    17
+                                ]
+                            },
+                            {
+                                "distance": 0.0,
+                                "duration": 0.0,
+                                "type": 10,
+                                "instruction": "Arrive at your destination, on the right",
+                                "name": "-",
+                                "way_points": [
+                                    17,
+                                    17
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "way_points": [
+                    0,
+                    17
+                ],
+                "summary": {
+                    "distance": 527.0,
+                    "duration": 379.4
+                }
+            },
+            "geometry": {
+                "coordinates": [
+                    [
+                        2.230264,
+                        48.843897
+                    ],
+                    [
+                        2.230325,
+                        48.844093
+                    ],
+                    [
+                        2.230288,
+                        48.844128
+                    ],
+                    [
+                        2.229788,
+                        48.844175
+                    ],
+                    [
+                        2.22951,
+                        48.843122
+                    ],
+                    [
+                        2.229083,
+                        48.841581
+                    ],
+                    [
+                        2.229047,
+                        48.84146
+                    ],
+                    [
+                        2.229004,
+                        48.841309
+                    ],
+                    [
+                        2.228946,
+                        48.841306
+                    ],
+                    [
+                        2.228914,
+                        48.841258
+                    ],
+                    [
+                        2.228812,
+                        48.841185
+                    ],
+                    [
+                        2.228771,
+                        48.841173
+                    ],
+                    [
+                        2.228644,
+                        48.841181
+                    ],
+                    [
+                        2.228639,
+                        48.841161
+                    ],
+                    [
+                        2.228134,
+                        48.841216
+                    ],
+                    [
+                        2.227445,
+                        48.841305
+                    ],
+                    [
+                        2.227456,
+                        48.841395
+                    ],
+                    [
+                        2.227426,
+                        48.841428
+                    ]
+                ],
+                "type": "LineString"
+            }
+        }
+    ],
+    "metadata": {
+        "attribution": "openrouteservice.org | OpenStreetMap contributors",
+        "service": "routing",
+        "timestamp": 1755871380513,
+        "query": {
+            "coordinates": [
+                [
+                    2.2302635,
+                    48.8438973
+                ],
+                [
+                    2.2274256,
+                    48.8420383
+                ]
+            ],
+            "profile": "foot-walking",
+            "profileName": "foot-walking",
+            "format": "geojson"
+        },
+        "engine": {
+            "version": "9.3.0",
+            "build_date": "2025-06-06T15:39:25Z",
+            "graph_date": "2025-08-19T13:56:51Z",
+            "osm_date": "2025-08-10T23:59:57Z"
+        }
+    }
+}

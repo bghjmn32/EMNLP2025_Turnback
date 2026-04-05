@@ -1,0 +1,138 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    31.796538,
+    30.097847,
+    31.811953,
+    30.099402
+  ],
+  "features": [
+    {
+      "bbox": [
+        31.796538,
+        30.097847,
+        31.811953,
+        30.099402
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1504.5,
+            "duration": 1083.2,
+            "steps": [
+              {
+                "distance": 49.6,
+                "duration": 35.7,
+                "type": 11,
+                "instruction": "Head east",
+                "name": "-",
+                "way_points": [
+                  0,
+                  4
+                ]
+              },
+              {
+                "distance": 1454.9,
+                "duration": 1047.5,
+                "type": 1,
+                "instruction": "Turn right onto طريق القاهرة, السويس, 16",
+                "name": "طريق القاهرة, السويس, 16",
+                "way_points": [
+                  4,
+                  8
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at طريق القاهرة, السويس, 16, straight ahead",
+                "name": "-",
+                "way_points": [
+                  8,
+                  8
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          8
+        ],
+        "summary": {
+          "distance": 1504.5,
+          "duration": 1083.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            31.796538,
+            30.09917
+          ],
+          [
+            31.796666,
+            30.099181
+          ],
+          [
+            31.796784,
+            30.099227
+          ],
+          [
+            31.796877,
+            30.099304
+          ],
+          [
+            31.796938,
+            30.099402
+          ],
+          [
+            31.803239,
+            30.098722
+          ],
+          [
+            31.805348,
+            30.098522
+          ],
+          [
+            31.808708,
+            30.098156
+          ],
+          [
+            31.811953,
+            30.097847
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756733219586,
+    "query": {
+      "coordinates": [
+        [
+          31.7965379,
+          30.09917
+        ],
+        [
+          31.8119534,
+          30.097847
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

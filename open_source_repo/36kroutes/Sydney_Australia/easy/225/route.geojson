@@ -1,0 +1,271 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    151.233946,
+    -33.882271,
+    151.237414,
+    -33.880693
+  ],
+  "features": [
+    {
+      "bbox": [
+        151.233946,
+        -33.882271,
+        151.237414,
+        -33.880693
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 528.2,
+            "duration": 380.3,
+            "steps": [
+              {
+                "distance": 43.7,
+                "duration": 31.4,
+                "type": 11,
+                "instruction": "Head northwest on Hampden Street",
+                "name": "Hampden Street",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 104.7,
+                "duration": 75.4,
+                "type": 1,
+                "instruction": "Turn right onto Cecil Street",
+                "name": "Cecil Street",
+                "way_points": [
+                  1,
+                  4
+                ]
+              },
+              {
+                "distance": 24.8,
+                "duration": 17.9,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  4,
+                  6
+                ]
+              },
+              {
+                "distance": 4.8,
+                "duration": 3.4,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 14.0,
+                "duration": 10.1,
+                "type": 13,
+                "instruction": "Keep right",
+                "name": "-",
+                "way_points": [
+                  7,
+                  10
+                ]
+              },
+              {
+                "distance": 54.4,
+                "duration": 39.2,
+                "type": 13,
+                "instruction": "Keep right",
+                "name": "-",
+                "way_points": [
+                  10,
+                  14
+                ]
+              },
+              {
+                "distance": 51.5,
+                "duration": 37.1,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  14,
+                  16
+                ]
+              },
+              {
+                "distance": 64.6,
+                "duration": 46.5,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  16,
+                  18
+                ]
+              },
+              {
+                "distance": 165.8,
+                "duration": 119.4,
+                "type": 1,
+                "instruction": "Turn right onto Cameron Street",
+                "name": "Cameron Street",
+                "way_points": [
+                  18,
+                  22
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Cameron Street, straight ahead",
+                "name": "-",
+                "way_points": [
+                  22,
+                  22
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          22
+        ],
+        "summary": {
+          "distance": 528.2,
+          "duration": 380.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            151.234313,
+            -33.882271
+          ],
+          [
+            151.233946,
+            -33.882023
+          ],
+          [
+            151.234563,
+            -33.881393
+          ],
+          [
+            151.23461,
+            -33.881385
+          ],
+          [
+            151.234712,
+            -33.881416
+          ],
+          [
+            151.234835,
+            -33.881313
+          ],
+          [
+            151.234882,
+            -33.881245
+          ],
+          [
+            151.234841,
+            -33.881218
+          ],
+          [
+            151.234824,
+            -33.881188
+          ],
+          [
+            151.234822,
+            -33.881173
+          ],
+          [
+            151.234834,
+            -33.881096
+          ],
+          [
+            151.234907,
+            -33.880965
+          ],
+          [
+            151.234951,
+            -33.880929
+          ],
+          [
+            151.234997,
+            -33.880849
+          ],
+          [
+            151.235177,
+            -33.88071
+          ],
+          [
+            151.23525,
+            -33.880777
+          ],
+          [
+            151.235534,
+            -33.881065
+          ],
+          [
+            151.235786,
+            -33.880899
+          ],
+          [
+            151.236071,
+            -33.880693
+          ],
+          [
+            151.236272,
+            -33.880877
+          ],
+          [
+            151.236512,
+            -33.881065
+          ],
+          [
+            151.237014,
+            -33.881407
+          ],
+          [
+            151.237414,
+            -33.88168
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756391386084,
+    "query": {
+      "coordinates": [
+        [
+          151.2343132,
+          -33.8822707
+        ],
+        [
+          151.237414,
+          -33.8816799
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

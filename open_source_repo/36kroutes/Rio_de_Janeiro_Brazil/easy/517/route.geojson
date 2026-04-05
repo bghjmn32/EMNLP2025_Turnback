@@ -1,0 +1,204 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.350525,
+    -22.88135,
+    -43.343459,
+    -22.878695
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.350525,
+        -22.88135,
+        -43.343459,
+        -22.878695
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 984.0,
+            "duration": 708.5,
+            "steps": [
+              {
+                "distance": 66.5,
+                "duration": 47.9,
+                "type": 11,
+                "instruction": "Head east on Praça dos Lavradores",
+                "name": "Praça dos Lavradores",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 102.8,
+                "duration": 74.0,
+                "type": 2,
+                "instruction": "Turn sharp left onto Rua Dinis Barreto",
+                "name": "Rua Dinis Barreto",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 706.7,
+                "duration": 508.8,
+                "type": 0,
+                "instruction": "Turn left onto Rua Maria José",
+                "name": "Rua Maria José",
+                "way_points": [
+                  2,
+                  17
+                ]
+              },
+              {
+                "distance": 108.0,
+                "duration": 77.8,
+                "type": 1,
+                "instruction": "Turn right onto Rua Conde de Linhares",
+                "name": "Rua Conde de Linhares",
+                "way_points": [
+                  17,
+                  19
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Rua Conde de Linhares, straight ahead",
+                "name": "-",
+                "way_points": [
+                  19,
+                  19
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          19
+        ],
+        "summary": {
+          "distance": 984.0,
+          "duration": 708.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.344107,
+            -22.88135
+          ],
+          [
+            -43.343459,
+            -22.881345
+          ],
+          [
+            -43.343703,
+            -22.880449
+          ],
+          [
+            -43.343989,
+            -22.880428
+          ],
+          [
+            -43.344735,
+            -22.880363
+          ],
+          [
+            -43.34492,
+            -22.880347
+          ],
+          [
+            -43.34608,
+            -22.880229
+          ],
+          [
+            -43.346198,
+            -22.880223
+          ],
+          [
+            -43.346789,
+            -22.880175
+          ],
+          [
+            -43.347037,
+            -22.88016
+          ],
+          [
+            -43.347332,
+            -22.880132
+          ],
+          [
+            -43.347829,
+            -22.880084
+          ],
+          [
+            -43.348168,
+            -22.880057
+          ],
+          [
+            -43.348471,
+            -22.880029
+          ],
+          [
+            -43.348931,
+            -22.879987
+          ],
+          [
+            -43.349481,
+            -22.879903
+          ],
+          [
+            -43.350073,
+            -22.879753
+          ],
+          [
+            -43.350525,
+            -22.879619
+          ],
+          [
+            -43.350216,
+            -22.8788
+          ],
+          [
+            -43.350209,
+            -22.878695
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756392975494,
+    "query": {
+      "coordinates": [
+        [
+          -43.3441075,
+          -22.8813498
+        ],
+        [
+          -43.3502093,
+          -22.8786952
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

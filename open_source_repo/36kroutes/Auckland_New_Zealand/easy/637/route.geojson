@@ -1,0 +1,236 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    174.876185,
+    -36.937917,
+    174.881554,
+    -36.936441
+  ],
+  "features": [
+    {
+      "bbox": [
+        174.876185,
+        -36.937917,
+        174.881554,
+        -36.936441
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 605.8,
+            "duration": 436.2,
+            "steps": [
+              {
+                "distance": 17.0,
+                "duration": 12.2,
+                "type": 11,
+                "instruction": "Head east",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 51.8,
+                "duration": 37.3,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  3
+                ]
+              },
+              {
+                "distance": 254.1,
+                "duration": 183.0,
+                "type": 0,
+                "instruction": "Turn left onto Highbrook Drive",
+                "name": "Highbrook Drive",
+                "way_points": [
+                  3,
+                  10
+                ]
+              },
+              {
+                "distance": 22.1,
+                "duration": 15.9,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  10,
+                  11
+                ]
+              },
+              {
+                "distance": 111.2,
+                "duration": 80.1,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 23.1,
+                "duration": 16.6,
+                "type": 3,
+                "instruction": "Turn sharp right",
+                "name": "-",
+                "way_points": [
+                  12,
+                  13
+                ]
+              },
+              {
+                "distance": 33.7,
+                "duration": 24.3,
+                "type": 0,
+                "instruction": "Turn left onto Highbrook Drive",
+                "name": "Highbrook Drive",
+                "way_points": [
+                  13,
+                  14
+                ]
+              },
+              {
+                "distance": 92.8,
+                "duration": 66.8,
+                "type": 13,
+                "instruction": "Keep right onto Highbrook Drive",
+                "name": "Highbrook Drive",
+                "way_points": [
+                  14,
+                  16
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Highbrook Drive, straight ahead",
+                "name": "-",
+                "way_points": [
+                  16,
+                  16
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          16
+        ],
+        "summary": {
+          "distance": 605.8,
+          "duration": 436.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            174.881252,
+            -36.937883
+          ],
+          [
+            174.881438,
+            -36.937917
+          ],
+          [
+            174.881487,
+            -36.937726
+          ],
+          [
+            174.881554,
+            -36.937461
+          ],
+          [
+            174.880757,
+            -36.937319
+          ],
+          [
+            174.880482,
+            -36.93727
+          ],
+          [
+            174.880101,
+            -36.937206
+          ],
+          [
+            174.879854,
+            -36.937159
+          ],
+          [
+            174.879711,
+            -36.937133
+          ],
+          [
+            174.879163,
+            -36.937035
+          ],
+          [
+            174.878764,
+            -36.936962
+          ],
+          [
+            174.878662,
+            -36.937144
+          ],
+          [
+            174.87744,
+            -36.936927
+          ],
+          [
+            174.877556,
+            -36.936742
+          ],
+          [
+            174.877189,
+            -36.936665
+          ],
+          [
+            174.876908,
+            -36.936579
+          ],
+          [
+            174.876185,
+            -36.936441
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756375176030,
+    "query": {
+      "coordinates": [
+        [
+          174.8812522,
+          -36.9378829
+        ],
+        [
+          174.8761853,
+          -36.9364411
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.228263,
+    19.292919,
+    -99.22235,
+    19.297616
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.228263,
+        19.292919,
+        -99.22235,
+        19.297616
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1121.1,
+            "duration": 807.2,
+            "steps": [
+              {
+                "distance": 324.8,
+                "duration": 233.9,
+                "type": 11,
+                "instruction": "Head east on Calle Sinanché",
+                "name": "Calle Sinanché",
+                "way_points": [
+                  0,
+                  5
+                ]
+              },
+              {
+                "distance": 311.5,
+                "duration": 224.3,
+                "type": 0,
+                "instruction": "Turn left onto Calle Bochil",
+                "name": "Calle Bochil",
+                "way_points": [
+                  5,
+                  7
+                ]
+              },
+              {
+                "distance": 261.8,
+                "duration": 188.5,
+                "type": 1,
+                "instruction": "Turn right onto Calle Opichen",
+                "name": "Calle Opichen",
+                "way_points": [
+                  7,
+                  11
+                ]
+              },
+              {
+                "distance": 155.1,
+                "duration": 111.6,
+                "type": 0,
+                "instruction": "Turn left onto Calle Akil",
+                "name": "Calle Akil",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 67.8,
+                "duration": 48.8,
+                "type": 1,
+                "instruction": "Turn right onto Calle Cacalchén",
+                "name": "Calle Cacalchén",
+                "way_points": [
+                  12,
+                  13
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Cacalchén, straight ahead",
+                "name": "-",
+                "way_points": [
+                  13,
+                  13
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          13
+        ],
+        "summary": {
+          "distance": 1121.1,
+          "duration": 807.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.228263,
+            19.292919
+          ],
+          [
+            -99.227628,
+            19.292979
+          ],
+          [
+            -99.22703,
+            19.293023
+          ],
+          [
+            -99.226404,
+            19.29307
+          ],
+          [
+            -99.225784,
+            19.293115
+          ],
+          [
+            -99.225178,
+            19.293164
+          ],
+          [
+            -99.225268,
+            19.294567
+          ],
+          [
+            -99.225373,
+            19.29596
+          ],
+          [
+            -99.224751,
+            19.296008
+          ],
+          [
+            -99.224129,
+            19.296049
+          ],
+          [
+            -99.223497,
+            19.296109
+          ],
+          [
+            -99.222887,
+            19.296157
+          ],
+          [
+            -99.222992,
+            19.297547
+          ],
+          [
+            -99.22235,
+            19.297616
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756305948031,
+    "query": {
+      "coordinates": [
+        [
+          -99.2282626,
+          19.2929189
+        ],
+        [
+          -99.2223498,
+          19.2976161
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

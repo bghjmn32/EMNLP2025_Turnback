@@ -1,0 +1,283 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.522145,
+    -33.957063,
+    18.5266,
+    -33.952109
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.522145,
+        -33.957063,
+        18.5266,
+        -33.952109
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 807.3,
+            "duration": 581.2,
+            "steps": [
+              {
+                "distance": 56.4,
+                "duration": 40.6,
+                "type": 11,
+                "instruction": "Head north on Lilac Street",
+                "name": "Lilac Street",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 56.0,
+                "duration": 40.3,
+                "type": 6,
+                "instruction": "Continue straight",
+                "name": "-",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 25.0,
+                "duration": 18.0,
+                "type": 6,
+                "instruction": "Continue straight onto Sage Crescent",
+                "name": "Sage Crescent",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 28.7,
+                "duration": 20.7,
+                "type": 13,
+                "instruction": "Keep right",
+                "name": "-",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 57.2,
+                "duration": 41.2,
+                "type": 5,
+                "instruction": "Turn slight right",
+                "name": "-",
+                "way_points": [
+                  4,
+                  9
+                ]
+              },
+              {
+                "distance": 77.6,
+                "duration": 55.9,
+                "type": 2,
+                "instruction": "Turn sharp left onto Loerie Road",
+                "name": "Loerie Road",
+                "way_points": [
+                  9,
+                  10
+                ]
+              },
+              {
+                "distance": 234.7,
+                "duration": 169.0,
+                "type": 1,
+                "instruction": "Turn right onto Weaver Court",
+                "name": "Weaver Court",
+                "way_points": [
+                  10,
+                  18
+                ]
+              },
+              {
+                "distance": 93.7,
+                "duration": 67.4,
+                "type": 12,
+                "instruction": "Keep left",
+                "name": "-",
+                "way_points": [
+                  18,
+                  20
+                ]
+              },
+              {
+                "distance": 178.0,
+                "duration": 128.2,
+                "type": 6,
+                "instruction": "Continue straight onto Palmtree Court",
+                "name": "Palmtree Court",
+                "way_points": [
+                  20,
+                  25
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Palmtree Court, straight ahead",
+                "name": "-",
+                "way_points": [
+                  25,
+                  25
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          25
+        ],
+        "summary": {
+          "distance": 807.3,
+          "duration": 581.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.522455,
+            -33.957063
+          ],
+          [
+            18.522331,
+            -33.956567
+          ],
+          [
+            18.522202,
+            -33.956075
+          ],
+          [
+            18.522145,
+            -33.955855
+          ],
+          [
+            18.522278,
+            -33.955622
+          ],
+          [
+            18.522422,
+            -33.955571
+          ],
+          [
+            18.522498,
+            -33.955545
+          ],
+          [
+            18.522599,
+            -33.955509
+          ],
+          [
+            18.522814,
+            -33.955524
+          ],
+          [
+            18.522869,
+            -33.955527
+          ],
+          [
+            18.522483,
+            -33.954907
+          ],
+          [
+            18.522984,
+            -33.954678
+          ],
+          [
+            18.522985,
+            -33.954604
+          ],
+          [
+            18.523008,
+            -33.954555
+          ],
+          [
+            18.523369,
+            -33.954331
+          ],
+          [
+            18.523497,
+            -33.954302
+          ],
+          [
+            18.523669,
+            -33.954319
+          ],
+          [
+            18.524091,
+            -33.954055
+          ],
+          [
+            18.524515,
+            -33.953785
+          ],
+          [
+            18.52491,
+            -33.953526
+          ],
+          [
+            18.525316,
+            -33.953267
+          ],
+          [
+            18.52577,
+            -33.952996
+          ],
+          [
+            18.525989,
+            -33.952852
+          ],
+          [
+            18.526163,
+            -33.95269
+          ],
+          [
+            18.526407,
+            -33.952431
+          ],
+          [
+            18.5266,
+            -33.952109
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756804928984,
+    "query": {
+      "coordinates": [
+        [
+          18.522455,
+          -33.9570634
+        ],
+        [
+          18.5265997,
+          -33.9521087
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

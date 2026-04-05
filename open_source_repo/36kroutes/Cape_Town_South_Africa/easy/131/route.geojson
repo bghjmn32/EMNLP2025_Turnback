@@ -1,0 +1,162 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.478419,
+    -33.823351,
+    18.482735,
+    -33.821734
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.478419,
+        -33.823351,
+        18.482735,
+        -33.821734
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 478.1,
+            "duration": 344.2,
+            "steps": [
+              {
+                "distance": 418.4,
+                "duration": 301.2,
+                "type": 11,
+                "instruction": "Head west on Service Road",
+                "name": "Service Road",
+                "way_points": [
+                  0,
+                  5
+                ]
+              },
+              {
+                "distance": 59.7,
+                "duration": 43.0,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  5,
+                  14
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  14,
+                  14
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          14
+        ],
+        "summary": {
+          "distance": 478.1,
+          "duration": 344.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.482735,
+            -33.823351
+          ],
+          [
+            18.482473,
+            -33.823282
+          ],
+          [
+            18.48185,
+            -33.823117
+          ],
+          [
+            18.481258,
+            -33.822961
+          ],
+          [
+            18.479417,
+            -33.822474
+          ],
+          [
+            18.478419,
+            -33.82221
+          ],
+          [
+            18.47843,
+            -33.822181
+          ],
+          [
+            18.478455,
+            -33.822114
+          ],
+          [
+            18.47847,
+            -33.822074
+          ],
+          [
+            18.478513,
+            -33.82196
+          ],
+          [
+            18.478547,
+            -33.821868
+          ],
+          [
+            18.47856,
+            -33.821833
+          ],
+          [
+            18.478573,
+            -33.821797
+          ],
+          [
+            18.478531,
+            -33.821746
+          ],
+          [
+            18.478482,
+            -33.821734
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756804022495,
+    "query": {
+      "coordinates": [
+        [
+          18.4827347,
+          -33.8233506
+        ],
+        [
+          18.4784818,
+          -33.821734
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

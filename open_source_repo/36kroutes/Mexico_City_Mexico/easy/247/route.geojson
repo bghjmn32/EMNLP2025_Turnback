@@ -1,0 +1,205 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.130673,
+    19.471512,
+    -99.127496,
+    19.475298
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.130673,
+        19.471512,
+        -99.127496,
+        19.475298
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 664.0,
+            "duration": 478.1,
+            "steps": [
+              {
+                "distance": 183.1,
+                "duration": 131.8,
+                "type": 11,
+                "instruction": "Head south on Calle Real del Monte",
+                "name": "Calle Real del Monte",
+                "way_points": [
+                  0,
+                  4
+                ]
+              },
+              {
+                "distance": 207.6,
+                "duration": 149.5,
+                "type": 0,
+                "instruction": "Turn left onto Calle Fama",
+                "name": "Calle Fama",
+                "way_points": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "distance": 19.7,
+                "duration": 14.2,
+                "type": 1,
+                "instruction": "Turn right onto Calle Fundidora de Monterrey",
+                "name": "Calle Fundidora de Monterrey",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 53.5,
+                "duration": 38.5,
+                "type": 0,
+                "instruction": "Turn left onto Calle Elena",
+                "name": "Calle Elena",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 41.1,
+                "duration": 29.6,
+                "type": 1,
+                "instruction": "Turn right onto Calle Parque María del Carmen",
+                "name": "Calle Parque María del Carmen",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 78.6,
+                "duration": 56.6,
+                "type": 0,
+                "instruction": "Turn left onto Calle Parque María del Carmen",
+                "name": "Calle Parque María del Carmen",
+                "way_points": [
+                  8,
+                  10
+                ]
+              },
+              {
+                "distance": 80.6,
+                "duration": 58.0,
+                "type": 1,
+                "instruction": "Turn right onto Calle Teresa",
+                "name": "Calle Teresa",
+                "way_points": [
+                  10,
+                  11
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Teresa, straight ahead",
+                "name": "-",
+                "way_points": [
+                  11,
+                  11
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          11
+        ],
+        "summary": {
+          "distance": 664.0,
+          "duration": 478.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.130158,
+            19.475298
+          ],
+          [
+            -99.130295,
+            19.474891
+          ],
+          [
+            -99.13043,
+            19.474478
+          ],
+          [
+            -99.130559,
+            19.474078
+          ],
+          [
+            -99.130673,
+            19.473724
+          ],
+          [
+            -99.128818,
+            19.473072
+          ],
+          [
+            -99.128877,
+            19.472904
+          ],
+          [
+            -99.128392,
+            19.472756
+          ],
+          [
+            -99.128511,
+            19.472403
+          ],
+          [
+            -99.128145,
+            19.472284
+          ],
+          [
+            -99.127801,
+            19.472176
+          ],
+          [
+            -99.127496,
+            19.471512
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756305103781,
+    "query": {
+      "coordinates": [
+        [
+          -99.1301582,
+          19.4752976
+        ],
+        [
+          -99.1274957,
+          19.4715115
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

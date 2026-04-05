@@ -1,0 +1,161 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -79.428245,
+    43.667954,
+    -79.420983,
+    43.669976
+  ],
+  "features": [
+    {
+      "bbox": [
+        -79.428245,
+        43.667954,
+        -79.420983,
+        43.669976
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 679.7,
+            "duration": 489.4,
+            "steps": [
+              {
+                "distance": 211.3,
+                "duration": 152.1,
+                "type": 11,
+                "instruction": "Head east on Hallam Street",
+                "name": "Hallam Street",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 55.0,
+                "duration": 39.6,
+                "type": 0,
+                "instruction": "Turn left onto Shaw Street",
+                "name": "Shaw Street",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 413.4,
+                "duration": 297.7,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  4,
+                  11
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  11,
+                  11
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          11
+        ],
+        "summary": {
+          "distance": 679.7,
+          "duration": 489.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -79.428245,
+            43.667954
+          ],
+          [
+            -79.428143,
+            43.667959
+          ],
+          [
+            -79.428014,
+            43.667959
+          ],
+          [
+            -79.42572,
+            43.668461
+          ],
+          [
+            -79.425911,
+            43.668935
+          ],
+          [
+            -79.425846,
+            43.66895
+          ],
+          [
+            -79.425822,
+            43.668966
+          ],
+          [
+            -79.425312,
+            43.669077
+          ],
+          [
+            -79.423481,
+            43.669478
+          ],
+          [
+            -79.421457,
+            43.669886
+          ],
+          [
+            -79.421012,
+            43.669976
+          ],
+          [
+            -79.420983,
+            43.669968
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756124844543,
+    "query": {
+      "coordinates": [
+        [
+          -79.4282448,
+          43.667954
+        ],
+        [
+          -79.4209827,
+          43.6699684
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

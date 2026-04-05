@@ -1,0 +1,200 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.179863,
+    19.37019,
+    -99.173222,
+    19.372547
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.179863,
+        19.37019,
+        -99.173222,
+        19.372547
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 956.7,
+            "duration": 688.8,
+            "steps": [
+              {
+                "distance": 43.1,
+                "duration": 31.0,
+                "type": 11,
+                "instruction": "Head north on Avenida Insurgentes Sur",
+                "name": "Avenida Insurgentes Sur",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 628.1,
+                "duration": 452.3,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  2,
+                  16
+                ]
+              },
+              {
+                "distance": 269.2,
+                "duration": 193.8,
+                "type": 0,
+                "instruction": "Turn left onto Doctor José Ignacio Bartolache",
+                "name": "Doctor José Ignacio Bartolache",
+                "way_points": [
+                  16,
+                  17
+                ]
+              },
+              {
+                "distance": 16.2,
+                "duration": 11.7,
+                "type": 1,
+                "instruction": "Turn right onto Félix Cuevas, EJE 7 SUR",
+                "name": "Félix Cuevas, EJE 7 SUR",
+                "way_points": [
+                  17,
+                  18
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Félix Cuevas, EJE 7 SUR, straight ahead",
+                "name": "-",
+                "way_points": [
+                  18,
+                  18
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          18
+        ],
+        "summary": {
+          "distance": 956.7,
+          "duration": 688.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.179863,
+            19.371257
+          ],
+          [
+            -99.179763,
+            19.371576
+          ],
+          [
+            -99.179746,
+            19.371628
+          ],
+          [
+            -99.179582,
+            19.37161
+          ],
+          [
+            -99.179514,
+            19.371602
+          ],
+          [
+            -99.17888,
+            19.371465
+          ],
+          [
+            -99.178265,
+            19.371299
+          ],
+          [
+            -99.177955,
+            19.371215
+          ],
+          [
+            -99.177611,
+            19.37114
+          ],
+          [
+            -99.177398,
+            19.371089
+          ],
+          [
+            -99.176885,
+            19.37097
+          ],
+          [
+            -99.176142,
+            19.370783
+          ],
+          [
+            -99.175411,
+            19.370579
+          ],
+          [
+            -99.174697,
+            19.370371
+          ],
+          [
+            -99.174437,
+            19.370301
+          ],
+          [
+            -99.174405,
+            19.370294
+          ],
+          [
+            -99.17396,
+            19.37019
+          ],
+          [
+            -99.173373,
+            19.372547
+          ],
+          [
+            -99.173222,
+            19.372513
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756308267873,
+    "query": {
+      "coordinates": [
+        [
+          -99.1798629,
+          19.3712565
+        ],
+        [
+          -99.1732225,
+          19.3725126
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

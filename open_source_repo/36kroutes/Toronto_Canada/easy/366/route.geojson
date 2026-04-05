@@ -1,0 +1,251 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -79.402914,
+    43.70134,
+    -79.399253,
+    43.704015
+  ],
+  "features": [
+    {
+      "bbox": [
+        -79.402914,
+        43.70134,
+        -79.399253,
+        43.704015
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 544.6,
+            "duration": 392.1,
+            "steps": [
+              {
+                "distance": 6.3,
+                "duration": 4.5,
+                "type": 11,
+                "instruction": "Head north",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 8.2,
+                "duration": 5.9,
+                "type": 0,
+                "instruction": "Turn left onto Lola Road",
+                "name": "Lola Road",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 167.9,
+                "duration": 120.9,
+                "type": 1,
+                "instruction": "Turn right onto Duplex Avenue",
+                "name": "Duplex Avenue",
+                "way_points": [
+                  2,
+                  5
+                ]
+              },
+              {
+                "distance": 94.6,
+                "duration": 68.1,
+                "type": 0,
+                "instruction": "Turn left onto Hillsdale Avenue West",
+                "name": "Hillsdale Avenue West",
+                "way_points": [
+                  5,
+                  7
+                ]
+              },
+              {
+                "distance": 6.8,
+                "duration": 4.9,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 7.0,
+                "duration": 5.0,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  8,
+                  9
+                ]
+              },
+              {
+                "distance": 161.3,
+                "duration": 116.1,
+                "type": 1,
+                "instruction": "Turn right onto Colin Avenue",
+                "name": "Colin Avenue",
+                "way_points": [
+                  9,
+                  11
+                ]
+              },
+              {
+                "distance": 12.5,
+                "duration": 9.0,
+                "type": 13,
+                "instruction": "Keep right onto Colin Avenue",
+                "name": "Colin Avenue",
+                "way_points": [
+                  11,
+                  13
+                ]
+              },
+              {
+                "distance": 80.2,
+                "duration": 57.7,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  13,
+                  17
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  17,
+                  17
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          17
+        ],
+        "summary": {
+          "distance": 544.6,
+          "duration": 392.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -79.399253,
+            43.70134
+          ],
+          [
+            -79.399274,
+            43.701395
+          ],
+          [
+            -79.399373,
+            43.701374
+          ],
+          [
+            -79.399654,
+            43.702109
+          ],
+          [
+            -79.399907,
+            43.702773
+          ],
+          [
+            -79.399928,
+            43.70283
+          ],
+          [
+            -79.400022,
+            43.702816
+          ],
+          [
+            -79.401065,
+            43.702611
+          ],
+          [
+            -79.401086,
+            43.70267
+          ],
+          [
+            -79.40117,
+            43.702654
+          ],
+          [
+            -79.40167,
+            43.703944
+          ],
+          [
+            -79.401814,
+            43.70398
+          ],
+          [
+            -79.401934,
+            43.703999
+          ],
+          [
+            -79.401959,
+            43.704015
+          ],
+          [
+            -79.402055,
+            43.703996
+          ],
+          [
+            -79.40211,
+            43.703973
+          ],
+          [
+            -79.402867,
+            43.703817
+          ],
+          [
+            -79.402914,
+            43.703822
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756125018442,
+    "query": {
+      "coordinates": [
+        [
+          -79.3992533,
+          43.7013403
+        ],
+        [
+          -79.4029136,
+          43.7038222
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

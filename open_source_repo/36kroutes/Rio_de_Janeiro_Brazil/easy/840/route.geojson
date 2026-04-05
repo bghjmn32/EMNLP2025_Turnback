@@ -1,0 +1,145 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.652062,
+    -22.979501,
+    -43.648969,
+    -22.976154
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.652062,
+        -22.979501,
+        -43.648969,
+        -22.976154
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 655.1,
+            "duration": 471.7,
+            "steps": [
+              {
+                "distance": 284.6,
+                "duration": 204.9,
+                "type": 11,
+                "instruction": "Head north on Rua Geraldo Rosa",
+                "name": "Rua Geraldo Rosa",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 319.0,
+                "duration": 229.7,
+                "type": 0,
+                "instruction": "Turn left onto Rua Alcides Franco",
+                "name": "Rua Alcides Franco",
+                "way_points": [
+                  3,
+                  6
+                ]
+              },
+              {
+                "distance": 51.5,
+                "duration": 37.1,
+                "type": 1,
+                "instruction": "Turn right onto Rua Professor Souza Pinto",
+                "name": "Rua Professor Souza Pinto",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Rua Professor Souza Pinto, straight ahead",
+                "name": "-",
+                "way_points": [
+                  7,
+                  7
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          7
+        ],
+        "summary": {
+          "distance": 655.1,
+          "duration": 471.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.649037,
+            -22.979501
+          ],
+          [
+            -43.649012,
+            -22.978672
+          ],
+          [
+            -43.648996,
+            -22.977833
+          ],
+          [
+            -43.648969,
+            -22.976942
+          ],
+          [
+            -43.650837,
+            -22.976797
+          ],
+          [
+            -43.651995,
+            -22.976623
+          ],
+          [
+            -43.652062,
+            -22.976613
+          ],
+          [
+            -43.651991,
+            -22.976154
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756394725942,
+    "query": {
+      "coordinates": [
+        [
+          -43.649037,
+          -22.9795006
+        ],
+        [
+          -43.6519907,
+          -22.9761538
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -79.482774,
+    43.645486,
+    -79.481349,
+    43.649169
+  ],
+  "features": [
+    {
+      "bbox": [
+        -79.482774,
+        43.645486,
+        -79.481349,
+        43.649169
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 507.6,
+            "duration": 365.5,
+            "steps": [
+              {
+                "distance": 3.5,
+                "duration": 2.5,
+                "type": 11,
+                "instruction": "Head east",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 381.8,
+                "duration": 274.9,
+                "type": 1,
+                "instruction": "Turn right onto Armadale Avenue",
+                "name": "Armadale Avenue",
+                "way_points": [
+                  1,
+                  7
+                ]
+              },
+              {
+                "distance": 122.3,
+                "duration": 88.1,
+                "type": 1,
+                "instruction": "Turn right onto Sunnybrook Road",
+                "name": "Sunnybrook Road",
+                "way_points": [
+                  7,
+                  9
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Sunnybrook Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  9,
+                  9
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          9
+        ],
+        "summary": {
+          "distance": 507.6,
+          "duration": 365.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -79.482774,
+            43.649161
+          ],
+          [
+            -79.482732,
+            43.649169
+          ],
+          [
+            -79.482571,
+            43.648792
+          ],
+          [
+            -79.482276,
+            43.64814
+          ],
+          [
+            -79.482231,
+            43.648008
+          ],
+          [
+            -79.481927,
+            43.647288
+          ],
+          [
+            -79.481629,
+            43.646584
+          ],
+          [
+            -79.481349,
+            43.645885
+          ],
+          [
+            -79.482194,
+            43.645701
+          ],
+          [
+            -79.482758,
+            43.645486
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756124111074,
+    "query": {
+      "coordinates": [
+        [
+          -79.4827738,
+          43.6491607
+        ],
+        [
+          -79.4827577,
+          43.6454863
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -79.411669,
+    43.714202,
+    -79.405193,
+    43.71543
+  ],
+  "features": [
+    {
+      "bbox": [
+        -79.411669,
+        43.714202,
+        -79.405193,
+        43.71543
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 609.1,
+            "duration": 438.6,
+            "steps": [
+              {
+                "distance": 4.8,
+                "duration": 3.5,
+                "type": 11,
+                "instruction": "Head south on Heather Street",
+                "name": "Heather Street",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 381.3,
+                "duration": 274.6,
+                "type": 1,
+                "instruction": "Turn right onto Lytton Boulevard",
+                "name": "Lytton Boulevard",
+                "way_points": [
+                  1,
+                  8
+                ]
+              },
+              {
+                "distance": 150.1,
+                "duration": 108.1,
+                "type": 0,
+                "instruction": "Turn left onto Lytton Boulevard",
+                "name": "Lytton Boulevard",
+                "way_points": [
+                  8,
+                  16
+                ]
+              },
+              {
+                "distance": 72.8,
+                "duration": 52.4,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  16,
+                  23
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  23,
+                  23
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          23
+        ],
+        "summary": {
+          "distance": 609.1,
+          "duration": 438.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -79.405209,
+            43.71543
+          ],
+          [
+            -79.405193,
+            43.715388
+          ],
+          [
+            -79.407337,
+            43.71494
+          ],
+          [
+            -79.409066,
+            43.714578
+          ],
+          [
+            -79.4092,
+            43.714569
+          ],
+          [
+            -79.40933,
+            43.714576
+          ],
+          [
+            -79.409441,
+            43.7146
+          ],
+          [
+            -79.409597,
+            43.714655
+          ],
+          [
+            -79.409714,
+            43.714732
+          ],
+          [
+            -79.409776,
+            43.714699
+          ],
+          [
+            -79.410202,
+            43.714323
+          ],
+          [
+            -79.410466,
+            43.714218
+          ],
+          [
+            -79.410642,
+            43.714202
+          ],
+          [
+            -79.410745,
+            43.714223
+          ],
+          [
+            -79.410903,
+            43.714341
+          ],
+          [
+            -79.411019,
+            43.714401
+          ],
+          [
+            -79.411178,
+            43.714429
+          ],
+          [
+            -79.411169,
+            43.714477
+          ],
+          [
+            -79.411158,
+            43.71456
+          ],
+          [
+            -79.411179,
+            43.714631
+          ],
+          [
+            -79.411342,
+            43.714708
+          ],
+          [
+            -79.411398,
+            43.714756
+          ],
+          [
+            -79.411501,
+            43.714833
+          ],
+          [
+            -79.411669,
+            43.714904
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756124614412,
+    "query": {
+      "coordinates": [
+        [
+          -79.4052093,
+          43.7154299
+        ],
+        [
+          -79.4116689,
+          43.7149036
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

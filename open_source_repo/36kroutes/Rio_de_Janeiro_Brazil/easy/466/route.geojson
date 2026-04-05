@@ -1,0 +1,188 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.411495,
+    -22.966155,
+    -43.406249,
+    -22.964851
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.411495,
+        -22.966155,
+        -43.406249,
+        -22.964851
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 582.3,
+            "duration": 419.3,
+            "steps": [
+              {
+                "distance": 52.5,
+                "duration": 37.8,
+                "type": 11,
+                "instruction": "Head west on Estrada Santa Maura",
+                "name": "Estrada Santa Maura",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 25.2,
+                "duration": 18.2,
+                "type": 13,
+                "instruction": "Keep right onto Estrada Santa Maura",
+                "name": "Estrada Santa Maura",
+                "way_points": [
+                  1,
+                  3
+                ]
+              },
+              {
+                "distance": 13.9,
+                "duration": 10.0,
+                "type": 6,
+                "instruction": "Continue straight",
+                "name": "-",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 490.7,
+                "duration": 353.3,
+                "type": 0,
+                "instruction": "Turn left onto Estrada dos Bandeirantes",
+                "name": "Estrada dos Bandeirantes",
+                "way_points": [
+                  4,
+                  15
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Estrada dos Bandeirantes, straight ahead",
+                "name": "-",
+                "way_points": [
+                  15,
+                  15
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          15
+        ],
+        "summary": {
+          "distance": 582.3,
+          "duration": 419.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.406249,
+            -22.965243
+          ],
+          [
+            -43.406754,
+            -22.96516
+          ],
+          [
+            -43.406839,
+            -22.965056
+          ],
+          [
+            -43.406886,
+            -22.964969
+          ],
+          [
+            -43.406933,
+            -22.964851
+          ],
+          [
+            -43.407132,
+            -22.964949
+          ],
+          [
+            -43.407181,
+            -22.964967
+          ],
+          [
+            -43.407349,
+            -22.965046
+          ],
+          [
+            -43.407568,
+            -22.965117
+          ],
+          [
+            -43.408497,
+            -22.965344
+          ],
+          [
+            -43.4089,
+            -22.965433
+          ],
+          [
+            -43.409034,
+            -22.965464
+          ],
+          [
+            -43.409249,
+            -22.965515
+          ],
+          [
+            -43.410901,
+            -22.965915
+          ],
+          [
+            -43.411326,
+            -22.966071
+          ],
+          [
+            -43.411495,
+            -22.966155
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756392674205,
+    "query": {
+      "coordinates": [
+        [
+          -43.4062495,
+          -22.965243
+        ],
+        [
+          -43.4114953,
+          -22.9661548
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

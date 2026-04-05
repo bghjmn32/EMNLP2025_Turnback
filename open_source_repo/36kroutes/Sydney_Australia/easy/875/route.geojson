@@ -1,0 +1,184 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    150.836858,
+    -34.076443,
+    150.840258,
+    -34.073538
+  ],
+  "features": [
+    {
+      "bbox": [
+        150.836858,
+        -34.076443,
+        150.840258,
+        -34.073538
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 824.7,
+            "duration": 593.8,
+            "steps": [
+              {
+                "distance": 6.1,
+                "duration": 4.4,
+                "type": 11,
+                "instruction": "Head southwest on Nymboida Crescent",
+                "name": "Nymboida Crescent",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 185.0,
+                "duration": 133.2,
+                "type": 0,
+                "instruction": "Turn left onto Nymboida Crescent",
+                "name": "Nymboida Crescent",
+                "way_points": [
+                  1,
+                  6
+                ]
+              },
+              {
+                "distance": 261.7,
+                "duration": 188.4,
+                "type": 1,
+                "instruction": "Turn right onto Bellinger Road",
+                "name": "Bellinger Road",
+                "way_points": [
+                  6,
+                  9
+                ]
+              },
+              {
+                "distance": 372.0,
+                "duration": 267.8,
+                "type": 1,
+                "instruction": "Turn right onto Cudgegong Road",
+                "name": "Cudgegong Road",
+                "way_points": [
+                  9,
+                  14
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Cudgegong Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  14,
+                  14
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          14
+        ],
+        "summary": {
+          "distance": 824.7,
+          "duration": 593.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            150.838485,
+            -34.073538
+          ],
+          [
+            150.838434,
+            -34.073572
+          ],
+          [
+            150.838667,
+            -34.073794
+          ],
+          [
+            150.838777,
+            -34.073871
+          ],
+          [
+            150.838921,
+            -34.073917
+          ],
+          [
+            150.839345,
+            -34.073972
+          ],
+          [
+            150.840258,
+            -34.074098
+          ],
+          [
+            150.8402,
+            -34.074891
+          ],
+          [
+            150.840086,
+            -34.076226
+          ],
+          [
+            150.840043,
+            -34.076443
+          ],
+          [
+            150.839266,
+            -34.076354
+          ],
+          [
+            150.839165,
+            -34.076333
+          ],
+          [
+            150.839096,
+            -34.076301
+          ],
+          [
+            150.837429,
+            -34.075013
+          ],
+          [
+            150.836858,
+            -34.07456
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756395691835,
+    "query": {
+      "coordinates": [
+        [
+          150.8384852,
+          -34.0735376
+        ],
+        [
+          150.8368581,
+          -34.0745596
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

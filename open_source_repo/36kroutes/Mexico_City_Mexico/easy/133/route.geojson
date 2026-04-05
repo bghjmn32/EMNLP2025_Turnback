@@ -1,0 +1,181 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.165957,
+    19.390992,
+    -99.15793,
+    19.392579
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.165957,
+        19.390992,
+        -99.15793,
+        19.392579
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 891.2,
+            "duration": 641.6,
+            "steps": [
+              {
+                "distance": 27.7,
+                "duration": 19.9,
+                "type": 11,
+                "instruction": "Head north on Avenida Coyoacán",
+                "name": "Avenida Coyoacán",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 16.7,
+                "duration": 12.0,
+                "type": 1,
+                "instruction": "Turn right onto Calle Mier y Pesado",
+                "name": "Calle Mier y Pesado",
+                "way_points": [
+                  1,
+                  3
+                ]
+              },
+              {
+                "distance": 846.8,
+                "duration": 609.7,
+                "type": 1,
+                "instruction": "Turn right onto Calle Luz Saviñón",
+                "name": "Calle Luz Saviñón",
+                "way_points": [
+                  3,
+                  16
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Luz Saviñón, straight ahead",
+                "name": "-",
+                "way_points": [
+                  16,
+                  16
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          16
+        ],
+        "summary": {
+          "distance": 891.2,
+          "duration": 641.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.165917,
+            19.392269
+          ],
+          [
+            -99.165957,
+            19.392515
+          ],
+          [
+            -99.165869,
+            19.392532
+          ],
+          [
+            -99.165822,
+            19.392579
+          ],
+          [
+            -99.165569,
+            19.392524
+          ],
+          [
+            -99.16537,
+            19.39248
+          ],
+          [
+            -99.164361,
+            19.392257
+          ],
+          [
+            -99.163031,
+            19.391964
+          ],
+          [
+            -99.162896,
+            19.391934
+          ],
+          [
+            -99.161977,
+            19.391734
+          ],
+          [
+            -99.161379,
+            19.391604
+          ],
+          [
+            -99.160741,
+            19.391458
+          ],
+          [
+            -99.159965,
+            19.391287
+          ],
+          [
+            -99.159312,
+            19.391193
+          ],
+          [
+            -99.159247,
+            19.391183
+          ],
+          [
+            -99.158604,
+            19.39109
+          ],
+          [
+            -99.15793,
+            19.390992
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756304582201,
+    "query": {
+      "coordinates": [
+        [
+          -99.1659169,
+          19.3922687
+        ],
+        [
+          -99.1579304,
+          19.390992
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

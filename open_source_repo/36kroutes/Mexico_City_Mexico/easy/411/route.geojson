@@ -1,0 +1,161 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.150197,
+    19.369179,
+    -99.147174,
+    19.374326
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.150197,
+        19.369179,
+        -99.147174,
+        19.374326
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 806.3,
+            "duration": 580.5,
+            "steps": [
+              {
+                "distance": 125.9,
+                "duration": 90.6,
+                "type": 11,
+                "instruction": "Head west on Calle Eleuterio Méndez",
+                "name": "Calle Eleuterio Méndez",
+                "way_points": [
+                  0,
+                  4
+                ]
+              },
+              {
+                "distance": 580.0,
+                "duration": 417.6,
+                "type": 0,
+                "instruction": "Turn left onto Calle Rafaél Martínez \"Rip Rip\"",
+                "name": "Calle Rafaél Martínez \"Rip Rip\"",
+                "way_points": [
+                  4,
+                  8
+                ]
+              },
+              {
+                "distance": 100.4,
+                "duration": 72.3,
+                "type": 1,
+                "instruction": "Turn right onto Avenida Municipio Libre, EJE 7 SUR",
+                "name": "Avenida Municipio Libre, EJE 7 SUR",
+                "way_points": [
+                  8,
+                  11
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Avenida Municipio Libre, EJE 7 SUR, straight ahead",
+                "name": "-",
+                "way_points": [
+                  11,
+                  11
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          11
+        ],
+        "summary": {
+          "distance": 806.3,
+          "duration": 580.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.147174,
+            19.374149
+          ],
+          [
+            -99.147548,
+            19.374205
+          ],
+          [
+            -99.147959,
+            19.374266
+          ],
+          [
+            -99.148238,
+            19.374308
+          ],
+          [
+            -99.148359,
+            19.374326
+          ],
+          [
+            -99.148589,
+            19.372821
+          ],
+          [
+            -99.148788,
+            19.37174
+          ],
+          [
+            -99.149044,
+            19.370461
+          ],
+          [
+            -99.149252,
+            19.369179
+          ],
+          [
+            -99.149563,
+            19.369229
+          ],
+          [
+            -99.150035,
+            19.369303
+          ],
+          [
+            -99.150197,
+            19.369327
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756305946494,
+    "query": {
+      "coordinates": [
+        [
+          -99.1471737,
+          19.374149
+        ],
+        [
+          -99.1501966,
+          19.369327
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

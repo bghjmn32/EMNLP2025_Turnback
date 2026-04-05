@@ -1,0 +1,247 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.204361,
+    19.472587,
+    -99.200178,
+    19.474919
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.204361,
+        19.472587,
+        -99.200178,
+        19.474919
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 834.3,
+            "duration": 600.7,
+            "steps": [
+              {
+                "distance": 84.5,
+                "duration": 60.9,
+                "type": 11,
+                "instruction": "Head west on Avenida 5 de Mayo",
+                "name": "Avenida 5 de Mayo",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 49.9,
+                "duration": 36.0,
+                "type": 12,
+                "instruction": "Keep left onto Avenida Tezozómoc",
+                "name": "Avenida Tezozómoc",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 52.7,
+                "duration": 37.9,
+                "type": 6,
+                "instruction": "Continue straight onto Avenida Camino de Santa Lucía",
+                "name": "Avenida Camino de Santa Lucía",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 38.7,
+                "duration": 27.9,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 182.4,
+                "duration": 131.3,
+                "type": 0,
+                "instruction": "Turn left onto Avenida Camino a Santa Lucía",
+                "name": "Avenida Camino a Santa Lucía",
+                "way_points": [
+                  4,
+                  9
+                ]
+              },
+              {
+                "distance": 20.0,
+                "duration": 14.4,
+                "type": 1,
+                "instruction": "Turn right onto Avenida Camino de Santa Lucía",
+                "name": "Avenida Camino de Santa Lucía",
+                "way_points": [
+                  9,
+                  10
+                ]
+              },
+              {
+                "distance": 85.3,
+                "duration": 61.4,
+                "type": 13,
+                "instruction": "Keep right",
+                "name": "-",
+                "way_points": [
+                  10,
+                  13
+                ]
+              },
+              {
+                "distance": 247.1,
+                "duration": 177.9,
+                "type": 3,
+                "instruction": "Turn sharp right onto Calle Aldana",
+                "name": "Calle Aldana",
+                "way_points": [
+                  13,
+                  15
+                ]
+              },
+              {
+                "distance": 73.7,
+                "duration": 53.0,
+                "type": 0,
+                "instruction": "Turn left onto Avenida Morelos",
+                "name": "Avenida Morelos",
+                "way_points": [
+                  15,
+                  16
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Avenida Morelos, straight ahead",
+                "name": "-",
+                "way_points": [
+                  16,
+                  16
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          16
+        ],
+        "summary": {
+          "distance": 834.3,
+          "duration": 600.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.200178,
+            19.473082
+          ],
+          [
+            -99.200954,
+            19.473286
+          ],
+          [
+            -99.201426,
+            19.473226
+          ],
+          [
+            -99.201912,
+            19.473105
+          ],
+          [
+            -99.201987,
+            19.473446
+          ],
+          [
+            -99.203111,
+            19.47314
+          ],
+          [
+            -99.203207,
+            19.473114
+          ],
+          [
+            -99.203305,
+            19.473087
+          ],
+          [
+            -99.203345,
+            19.473008
+          ],
+          [
+            -99.203313,
+            19.472751
+          ],
+          [
+            -99.203495,
+            19.472699
+          ],
+          [
+            -99.203608,
+            19.472756
+          ],
+          [
+            -99.203694,
+            19.472749
+          ],
+          [
+            -99.204268,
+            19.472587
+          ],
+          [
+            -99.203961,
+            19.473716
+          ],
+          [
+            -99.203685,
+            19.47474
+          ],
+          [
+            -99.204361,
+            19.474919
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756308613673,
+    "query": {
+      "coordinates": [
+        [
+          -99.2001776,
+          19.4730823
+        ],
+        [
+          -99.2043613,
+          19.4749189
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,253 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    151.159712,
+    -33.927253,
+    151.161741,
+    -33.922874
+  ],
+  "features": [
+    {
+      "bbox": [
+        151.159712,
+        -33.927253,
+        151.161741,
+        -33.922874
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 690.3,
+            "duration": 497.0,
+            "steps": [
+              {
+                "distance": 66.7,
+                "duration": 48.0,
+                "type": 11,
+                "instruction": "Head southeast on Farrow Lane",
+                "name": "Farrow Lane",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 73.5,
+                "duration": 52.9,
+                "type": 1,
+                "instruction": "Turn right onto Zuttion Lane",
+                "name": "Zuttion Lane",
+                "way_points": [
+                  1,
+                  3
+                ]
+              },
+              {
+                "distance": 37.0,
+                "duration": 26.6,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 7.4,
+                "duration": 5.4,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "distance": 20.9,
+                "duration": 15.0,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  5,
+                  8
+                ]
+              },
+              {
+                "distance": 243.7,
+                "duration": 175.5,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  8,
+                  20
+                ]
+              },
+              {
+                "distance": 241.1,
+                "duration": 173.6,
+                "type": 0,
+                "instruction": "Turn left onto Station Street",
+                "name": "Station Street",
+                "way_points": [
+                  20,
+                  23
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Station Street, straight ahead",
+                "name": "-",
+                "way_points": [
+                  23,
+                  23
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          23
+        ],
+        "summary": {
+          "distance": 690.3,
+          "duration": 497.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            151.161272,
+            -33.922874
+          ],
+          [
+            151.161741,
+            -33.92333
+          ],
+          [
+            151.161209,
+            -33.923781
+          ],
+          [
+            151.161184,
+            -33.923802
+          ],
+          [
+            151.161439,
+            -33.924058
+          ],
+          [
+            151.16138,
+            -33.924104
+          ],
+          [
+            151.161425,
+            -33.924144
+          ],
+          [
+            151.161498,
+            -33.924203
+          ],
+          [
+            151.161543,
+            -33.924234
+          ],
+          [
+            151.161351,
+            -33.924401
+          ],
+          [
+            151.161323,
+            -33.924425
+          ],
+          [
+            151.161294,
+            -33.924451
+          ],
+          [
+            151.160824,
+            -33.924857
+          ],
+          [
+            151.160795,
+            -33.924882
+          ],
+          [
+            151.160762,
+            -33.924909
+          ],
+          [
+            151.160554,
+            -33.925084
+          ],
+          [
+            151.160284,
+            -33.925322
+          ],
+          [
+            151.160252,
+            -33.925351
+          ],
+          [
+            151.160222,
+            -33.925377
+          ],
+          [
+            151.159743,
+            -33.925786
+          ],
+          [
+            151.159712,
+            -33.925813
+          ],
+          [
+            151.160355,
+            -33.926286
+          ],
+          [
+            151.160898,
+            -33.926687
+          ],
+          [
+            151.161665,
+            -33.927253
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756391459630,
+    "query": {
+      "coordinates": [
+        [
+          151.1612722,
+          -33.922874
+        ],
+        [
+          151.1616653,
+          -33.9272531
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

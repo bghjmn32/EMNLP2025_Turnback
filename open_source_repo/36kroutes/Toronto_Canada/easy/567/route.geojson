@@ -1,0 +1,217 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -79.460904,
+    43.653172,
+    -79.457853,
+    43.658498
+  ],
+  "features": [
+    {
+      "bbox": [
+        -79.460904,
+        43.653172,
+        -79.457853,
+        43.658498
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 688.4,
+            "duration": 495.6,
+            "steps": [
+              {
+                "distance": 213.1,
+                "duration": 153.5,
+                "type": 11,
+                "instruction": "Head north on Indian Grove",
+                "name": "Indian Grove",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 2.5,
+                "duration": 1.8,
+                "type": 1,
+                "instruction": "Turn right onto Bloor Street West",
+                "name": "Bloor Street West",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 41.7,
+                "duration": 30.0,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  4,
+                  8
+                ]
+              },
+              {
+                "distance": 373.5,
+                "duration": 269.0,
+                "type": 1,
+                "instruction": "Turn right onto Indian Grove",
+                "name": "Indian Grove",
+                "way_points": [
+                  8,
+                  11
+                ]
+              },
+              {
+                "distance": 6.1,
+                "duration": 4.4,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 6.8,
+                "duration": 4.9,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  12,
+                  13
+                ]
+              },
+              {
+                "distance": 44.7,
+                "duration": 32.2,
+                "type": 0,
+                "instruction": "Turn left onto Glenlake Avenue",
+                "name": "Glenlake Avenue",
+                "way_points": [
+                  13,
+                  14
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Glenlake Avenue, straight ahead",
+                "name": "-",
+                "way_points": [
+                  14,
+                  14
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          14
+        ],
+        "summary": {
+          "distance": 688.4,
+          "duration": 495.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -79.457853,
+            43.653172
+          ],
+          [
+            -79.458119,
+            43.653795
+          ],
+          [
+            -79.45859,
+            43.654904
+          ],
+          [
+            -79.458632,
+            43.655004
+          ],
+          [
+            -79.458602,
+            43.655011
+          ],
+          [
+            -79.458639,
+            43.655103
+          ],
+          [
+            -79.458675,
+            43.655191
+          ],
+          [
+            -79.458844,
+            43.655223
+          ],
+          [
+            -79.458925,
+            43.655239
+          ],
+          [
+            -79.458996,
+            43.655415
+          ],
+          [
+            -79.459354,
+            43.656297
+          ],
+          [
+            -79.460273,
+            43.658453
+          ],
+          [
+            -79.460346,
+            43.65844
+          ],
+          [
+            -79.460372,
+            43.658498
+          ],
+          [
+            -79.460904,
+            43.658382
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756125499229,
+    "query": {
+      "coordinates": [
+        [
+          -79.4578534,
+          43.6531722
+        ],
+        [
+          -79.4609036,
+          43.6583821
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

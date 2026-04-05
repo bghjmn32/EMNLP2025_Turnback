@@ -1,0 +1,146 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    151.065493,
+    -33.721258,
+    151.071498,
+    -33.720025
+  ],
+  "features": [
+    {
+      "bbox": [
+        151.065493,
+        -33.721258,
+        151.071498,
+        -33.720025
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 607.6,
+            "duration": 437.5,
+            "steps": [
+              {
+                "distance": 566.6,
+                "duration": 407.9,
+                "type": 11,
+                "instruction": "Head west on Duffy Avenue",
+                "name": "Duffy Avenue",
+                "way_points": [
+                  0,
+                  9
+                ]
+              },
+              {
+                "distance": 41.0,
+                "duration": 29.5,
+                "type": 0,
+                "instruction": "Turn left onto Elouera Road",
+                "name": "Elouera Road",
+                "way_points": [
+                  9,
+                  10
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Elouera Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  10,
+                  10
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          10
+        ],
+        "summary": {
+          "distance": 607.6,
+          "duration": 437.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            151.071498,
+            -33.721258
+          ],
+          [
+            151.070629,
+            -33.721058
+          ],
+          [
+            151.069706,
+            -33.720865
+          ],
+          [
+            151.069184,
+            -33.720759
+          ],
+          [
+            151.069165,
+            -33.720755
+          ],
+          [
+            151.068185,
+            -33.720455
+          ],
+          [
+            151.067366,
+            -33.720218
+          ],
+          [
+            151.067228,
+            -33.720193
+          ],
+          [
+            151.066373,
+            -33.72008
+          ],
+          [
+            151.065578,
+            -33.720025
+          ],
+          [
+            151.065493,
+            -33.720387
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756392131262,
+    "query": {
+      "coordinates": [
+        [
+          151.071498,
+          -33.7212581
+        ],
+        [
+          151.0654926,
+          -33.720387
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

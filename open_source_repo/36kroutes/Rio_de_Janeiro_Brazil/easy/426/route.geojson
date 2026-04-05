@@ -1,0 +1,170 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.611043,
+    -22.919328,
+    -43.605844,
+    -22.914967
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.611043,
+        -22.919328,
+        -43.605844,
+        -22.914967
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 918.6,
+            "duration": 661.4,
+            "steps": [
+              {
+                "distance": 376.1,
+                "duration": 270.8,
+                "type": 11,
+                "instruction": "Head north on Rua das Amoreiras",
+                "name": "Rua das Amoreiras",
+                "way_points": [
+                  0,
+                  8
+                ]
+              },
+              {
+                "distance": 542.5,
+                "duration": 390.6,
+                "type": 1,
+                "instruction": "Turn right onto Alfredo Del Cima",
+                "name": "Alfredo Del Cima",
+                "way_points": [
+                  8,
+                  16
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Alfredo Del Cima, straight ahead",
+                "name": "-",
+                "way_points": [
+                  16,
+                  16
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          16
+        ],
+        "summary": {
+          "distance": 918.6,
+          "duration": 661.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.611043,
+            -22.919328
+          ],
+          [
+            -43.611036,
+            -22.918996
+          ],
+          [
+            -43.611021,
+            -22.918439
+          ],
+          [
+            -43.611009,
+            -22.918027
+          ],
+          [
+            -43.610995,
+            -22.917494
+          ],
+          [
+            -43.610997,
+            -22.917164
+          ],
+          [
+            -43.610978,
+            -22.916175
+          ],
+          [
+            -43.610977,
+            -22.915992
+          ],
+          [
+            -43.610976,
+            -22.915946
+          ],
+          [
+            -43.609573,
+            -22.915885
+          ],
+          [
+            -43.608737,
+            -22.915839
+          ],
+          [
+            -43.608367,
+            -22.915808
+          ],
+          [
+            -43.607937,
+            -22.915678
+          ],
+          [
+            -43.607715,
+            -22.915605
+          ],
+          [
+            -43.606915,
+            -22.915335
+          ],
+          [
+            -43.60624,
+            -22.915091
+          ],
+          [
+            -43.605844,
+            -22.914967
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756392385703,
+    "query": {
+      "coordinates": [
+        [
+          -43.611043,
+          -22.9193284
+        ],
+        [
+          -43.6058441,
+          -22.9149672
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

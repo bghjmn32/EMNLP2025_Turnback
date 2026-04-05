@@ -1,0 +1,200 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.198964,
+    19.324027,
+    -99.196055,
+    19.328845
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.198964,
+        19.324027,
+        -99.196055,
+        19.328845
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 813.7,
+            "duration": 585.8,
+            "steps": [
+              {
+                "distance": 29.5,
+                "duration": 21.2,
+                "type": 11,
+                "instruction": "Head east on Calle Rocas",
+                "name": "Calle Rocas",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 136.8,
+                "duration": 98.5,
+                "type": 0,
+                "instruction": "Turn left onto Calle Fuego",
+                "name": "Calle Fuego",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 333.8,
+                "duration": 240.3,
+                "type": 0,
+                "instruction": "Turn left onto Calle Cascada",
+                "name": "Calle Cascada",
+                "way_points": [
+                  2,
+                  9
+                ]
+              },
+              {
+                "distance": 313.6,
+                "duration": 225.8,
+                "type": 1,
+                "instruction": "Turn right onto Avenida Paseo del Pedregal",
+                "name": "Avenida Paseo del Pedregal",
+                "way_points": [
+                  9,
+                  18
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Avenida Paseo del Pedregal, straight ahead",
+                "name": "-",
+                "way_points": [
+                  18,
+                  18
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          18
+        ],
+        "summary": {
+          "distance": 813.7,
+          "duration": 585.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.196394,
+            19.324043
+          ],
+          [
+            -99.196114,
+            19.324027
+          ],
+          [
+            -99.196055,
+            19.325256
+          ],
+          [
+            -99.197303,
+            19.325447
+          ],
+          [
+            -99.19752,
+            19.325493
+          ],
+          [
+            -99.197687,
+            19.325556
+          ],
+          [
+            -99.198115,
+            19.325824
+          ],
+          [
+            -99.198596,
+            19.32615
+          ],
+          [
+            -99.198811,
+            19.326249
+          ],
+          [
+            -99.198964,
+            19.326317
+          ],
+          [
+            -99.1989,
+            19.326501
+          ],
+          [
+            -99.198731,
+            19.326855
+          ],
+          [
+            -99.198317,
+            19.327537
+          ],
+          [
+            -99.198253,
+            19.327698
+          ],
+          [
+            -99.198219,
+            19.327867
+          ],
+          [
+            -99.198224,
+            19.328125
+          ],
+          [
+            -99.198301,
+            19.328384
+          ],
+          [
+            -99.198446,
+            19.328615
+          ],
+          [
+            -99.19867,
+            19.328845
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306948615,
+    "query": {
+      "coordinates": [
+        [
+          -99.1963942,
+          19.324043
+        ],
+        [
+          -99.1986704,
+          19.328845
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

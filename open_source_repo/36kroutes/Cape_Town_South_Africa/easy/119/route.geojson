@@ -1,0 +1,215 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.500592,
+    -34.005215,
+    18.501861,
+    -34.001375
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.500592,
+        -34.005215,
+        18.501861,
+        -34.001375
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 612.1,
+            "duration": 440.7,
+            "steps": [
+              {
+                "distance": 143.4,
+                "duration": 103.3,
+                "type": 11,
+                "instruction": "Head southwest",
+                "name": "-",
+                "way_points": [
+                  0,
+                  7
+                ]
+              },
+              {
+                "distance": 11.1,
+                "duration": 8.0,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 8.2,
+                "duration": 5.9,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  8,
+                  9
+                ]
+              },
+              {
+                "distance": 295.5,
+                "duration": 212.8,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  9,
+                  14
+                ]
+              },
+              {
+                "distance": 153.9,
+                "duration": 110.8,
+                "type": 1,
+                "instruction": "Turn right onto Plantation Road",
+                "name": "Plantation Road",
+                "way_points": [
+                  14,
+                  19
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Plantation Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  19,
+                  19
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          19
+        ],
+        "summary": {
+          "distance": 612.1,
+          "duration": 440.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.501173,
+            -34.001375
+          ],
+          [
+            18.500882,
+            -34.001894
+          ],
+          [
+            18.500801,
+            -34.002107
+          ],
+          [
+            18.500818,
+            -34.002195
+          ],
+          [
+            18.500746,
+            -34.002331
+          ],
+          [
+            18.500761,
+            -34.002345
+          ],
+          [
+            18.500813,
+            -34.002366
+          ],
+          [
+            18.501037,
+            -34.002402
+          ],
+          [
+            18.501087,
+            -34.002311
+          ],
+          [
+            18.501168,
+            -34.002342
+          ],
+          [
+            18.501056,
+            -34.002527
+          ],
+          [
+            18.500592,
+            -34.003471
+          ],
+          [
+            18.50089,
+            -34.003972
+          ],
+          [
+            18.501178,
+            -34.004072
+          ],
+          [
+            18.501861,
+            -34.004308
+          ],
+          [
+            18.501822,
+            -34.004387
+          ],
+          [
+            18.501705,
+            -34.004537
+          ],
+          [
+            18.501524,
+            -34.004702
+          ],
+          [
+            18.501292,
+            -34.004864
+          ],
+          [
+            18.500639,
+            -34.005215
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756804006173,
+    "query": {
+      "coordinates": [
+        [
+          18.5011727,
+          -34.0013748
+        ],
+        [
+          18.5006394,
+          -34.0052149
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

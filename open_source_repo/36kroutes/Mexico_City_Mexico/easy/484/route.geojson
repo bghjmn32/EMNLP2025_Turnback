@@ -1,0 +1,176 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.022471,
+    19.261885,
+    -99.02056,
+    19.265969
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.022471,
+        19.261885,
+        -99.02056,
+        19.265969
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 646.5,
+            "duration": 465.5,
+            "steps": [
+              {
+                "distance": 90.7,
+                "duration": 65.3,
+                "type": 11,
+                "instruction": "Head south on Calle Aquexcomatl 2",
+                "name": "Calle Aquexcomatl 2",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 80.5,
+                "duration": 57.9,
+                "type": 1,
+                "instruction": "Turn right onto Calle Atotolco Chinanco",
+                "name": "Calle Atotolco Chinanco",
+                "way_points": [
+                  2,
+                  5
+                ]
+              },
+              {
+                "distance": 295.6,
+                "duration": 212.8,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 179.8,
+                "duration": 129.4,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  6,
+                  12
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  12,
+                  12
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          12
+        ],
+        "summary": {
+          "distance": 646.5,
+          "duration": 465.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.02056,
+            19.265969
+          ],
+          [
+            -99.020671,
+            19.265604
+          ],
+          [
+            -99.020817,
+            19.265191
+          ],
+          [
+            -99.021017,
+            19.265246
+          ],
+          [
+            -99.021366,
+            19.265366
+          ],
+          [
+            -99.021545,
+            19.265419
+          ],
+          [
+            -99.022471,
+            19.262909
+          ],
+          [
+            -99.022334,
+            19.262805
+          ],
+          [
+            -99.021969,
+            19.262518
+          ],
+          [
+            -99.021925,
+            19.262479
+          ],
+          [
+            -99.021469,
+            19.262172
+          ],
+          [
+            -99.021248,
+            19.261984
+          ],
+          [
+            -99.021149,
+            19.261885
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306250833,
+    "query": {
+      "coordinates": [
+        [
+          -99.0205596,
+          19.2659691
+        ],
+        [
+          -99.0211488,
+          19.2618854
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

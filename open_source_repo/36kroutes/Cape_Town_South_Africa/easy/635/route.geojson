@@ -1,0 +1,164 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.477136,
+    -34.026719,
+    18.47959,
+    -34.021552
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.477136,
+        -34.026719,
+        18.47959,
+        -34.021552
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 799.9,
+            "duration": 575.9,
+            "steps": [
+              {
+                "distance": 340.6,
+                "duration": 245.2,
+                "type": 11,
+                "instruction": "Head north on Woodgate Road",
+                "name": "Woodgate Road",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 216.3,
+                "duration": 155.8,
+                "type": 1,
+                "instruction": "Turn right onto Medway Road",
+                "name": "Medway Road",
+                "way_points": [
+                  3,
+                  6
+                ]
+              },
+              {
+                "distance": 168.8,
+                "duration": 121.5,
+                "type": 0,
+                "instruction": "Turn left onto Lympleigh Road",
+                "name": "Lympleigh Road",
+                "way_points": [
+                  6,
+                  8
+                ]
+              },
+              {
+                "distance": 74.2,
+                "duration": 53.4,
+                "type": 1,
+                "instruction": "Turn right onto Basil Road",
+                "name": "Basil Road",
+                "way_points": [
+                  8,
+                  9
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Basil Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  9,
+                  9
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          9
+        ],
+        "summary": {
+          "distance": 799.9,
+          "duration": 575.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.478238,
+            -34.026719
+          ],
+          [
+            18.477689,
+            -34.025275
+          ],
+          [
+            18.477663,
+            -34.025204
+          ],
+          [
+            18.477136,
+            -34.023796
+          ],
+          [
+            18.477889,
+            -34.023598
+          ],
+          [
+            18.478632,
+            -34.023402
+          ],
+          [
+            18.479373,
+            -34.023207
+          ],
+          [
+            18.479077,
+            -34.022421
+          ],
+          [
+            18.478825,
+            -34.021758
+          ],
+          [
+            18.47959,
+            -34.021552
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756805260751,
+    "query": {
+      "coordinates": [
+        [
+          18.4782378,
+          -34.0267193
+        ],
+        [
+          18.4795904,
+          -34.0215518
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

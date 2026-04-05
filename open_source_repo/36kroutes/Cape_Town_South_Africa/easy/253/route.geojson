@@ -1,0 +1,234 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.460123,
+    -33.934606,
+    18.463099,
+    -33.928978
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.460123,
+        -33.934606,
+        18.463099,
+        -33.928978
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 759.8,
+            "duration": 547.0,
+            "steps": [
+              {
+                "distance": 14.9,
+                "duration": 10.7,
+                "type": 11,
+                "instruction": "Head east on Albert Road, M57",
+                "name": "Albert Road, M57",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 3.4,
+                "duration": 2.4,
+                "type": 3,
+                "instruction": "Turn sharp right onto Burns Road",
+                "name": "Burns Road",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 59.4,
+                "duration": 42.7,
+                "type": 2,
+                "instruction": "Turn sharp left",
+                "name": "-",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 540.6,
+                "duration": 389.2,
+                "type": 3,
+                "instruction": "Turn sharp right onto Coleridge Road",
+                "name": "Coleridge Road",
+                "way_points": [
+                  3,
+                  17
+                ]
+              },
+              {
+                "distance": 132.3,
+                "duration": 95.3,
+                "type": 0,
+                "instruction": "Turn left onto Durham Avenue",
+                "name": "Durham Avenue",
+                "way_points": [
+                  17,
+                  20
+                ]
+              },
+              {
+                "distance": 9.2,
+                "duration": 6.6,
+                "type": 0,
+                "instruction": "Turn left onto Victoria Road, M4",
+                "name": "Victoria Road, M4",
+                "way_points": [
+                  20,
+                  21
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Victoria Road, M4, straight ahead",
+                "name": "-",
+                "way_points": [
+                  21,
+                  21
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          21
+        ],
+        "summary": {
+          "distance": 759.8,
+          "duration": 547.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.462343,
+            -33.928978
+          ],
+          [
+            18.462499,
+            -33.929014
+          ],
+          [
+            18.462481,
+            -33.929041
+          ],
+          [
+            18.463099,
+            -33.929188
+          ],
+          [
+            18.462862,
+            -33.929521
+          ],
+          [
+            18.462854,
+            -33.929532
+          ],
+          [
+            18.46281,
+            -33.929598
+          ],
+          [
+            18.462532,
+            -33.930016
+          ],
+          [
+            18.462005,
+            -33.930794
+          ],
+          [
+            18.461483,
+            -33.931544
+          ],
+          [
+            18.461307,
+            -33.931803
+          ],
+          [
+            18.461033,
+            -33.932206
+          ],
+          [
+            18.460889,
+            -33.932422
+          ],
+          [
+            18.460657,
+            -33.932761
+          ],
+          [
+            18.46052,
+            -33.932956
+          ],
+          [
+            18.460365,
+            -33.933197
+          ],
+          [
+            18.460281,
+            -33.933283
+          ],
+          [
+            18.460144,
+            -33.933373
+          ],
+          [
+            18.460193,
+            -33.934143
+          ],
+          [
+            18.460201,
+            -33.934384
+          ],
+          [
+            18.460123,
+            -33.93455
+          ],
+          [
+            18.460195,
+            -33.934606
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756804398977,
+    "query": {
+      "coordinates": [
+        [
+          18.4623434,
+          -33.9289776
+        ],
+        [
+          18.4601953,
+          -33.9346063
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

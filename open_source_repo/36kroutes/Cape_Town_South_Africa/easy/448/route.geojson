@@ -1,0 +1,238 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.446223,
+    -33.931631,
+    18.450091,
+    -33.926849
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.446223,
+        -33.931631,
+        18.450091,
+        -33.926849
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 818.3,
+            "duration": 589.2,
+            "steps": [
+              {
+                "distance": 296.8,
+                "duration": 213.7,
+                "type": 11,
+                "instruction": "Head south on Plein Street",
+                "name": "Plein Street",
+                "way_points": [
+                  0,
+                  6
+                ]
+              },
+              {
+                "distance": 10.9,
+                "duration": 7.9,
+                "type": 0,
+                "instruction": "Turn left onto Victoria Road, M4",
+                "name": "Victoria Road, M4",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 191.3,
+                "duration": 137.8,
+                "type": 1,
+                "instruction": "Turn right onto Victoria Walk",
+                "name": "Victoria Walk",
+                "way_points": [
+                  7,
+                  13
+                ]
+              },
+              {
+                "distance": 164.3,
+                "duration": 118.3,
+                "type": 1,
+                "instruction": "Turn right onto Earl Street",
+                "name": "Earl Street",
+                "way_points": [
+                  13,
+                  18
+                ]
+              },
+              {
+                "distance": 76.1,
+                "duration": 54.8,
+                "type": 1,
+                "instruction": "Turn right onto King Street",
+                "name": "King Street",
+                "way_points": [
+                  18,
+                  20
+                ]
+              },
+              {
+                "distance": 78.8,
+                "duration": 56.7,
+                "type": 0,
+                "instruction": "Turn left onto Walmer Road",
+                "name": "Walmer Road",
+                "way_points": [
+                  20,
+                  22
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Walmer Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  22,
+                  22
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          22
+        ],
+        "summary": {
+          "distance": 818.3,
+          "duration": 589.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.450091,
+            -33.926849
+          ],
+          [
+            18.450073,
+            -33.926892
+          ],
+          [
+            18.449785,
+            -33.927581
+          ],
+          [
+            18.449536,
+            -33.928178
+          ],
+          [
+            18.449513,
+            -33.928233
+          ],
+          [
+            18.449307,
+            -33.928724
+          ],
+          [
+            18.449037,
+            -33.929371
+          ],
+          [
+            18.449151,
+            -33.929396
+          ],
+          [
+            18.449022,
+            -33.929805
+          ],
+          [
+            18.449013,
+            -33.929836
+          ],
+          [
+            18.448971,
+            -33.929977
+          ],
+          [
+            18.448884,
+            -33.930254
+          ],
+          [
+            18.448762,
+            -33.930651
+          ],
+          [
+            18.448633,
+            -33.931062
+          ],
+          [
+            18.447577,
+            -33.930829
+          ],
+          [
+            18.44712,
+            -33.930731
+          ],
+          [
+            18.447081,
+            -33.930748
+          ],
+          [
+            18.44707,
+            -33.930771
+          ],
+          [
+            18.447047,
+            -33.930888
+          ],
+          [
+            18.446738,
+            -33.9309
+          ],
+          [
+            18.446223,
+            -33.930927
+          ],
+          [
+            18.446279,
+            -33.93135
+          ],
+          [
+            18.446317,
+            -33.931631
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756804845703,
+    "query": {
+      "coordinates": [
+        [
+          18.450091,
+          -33.9268493
+        ],
+        [
+          18.446317,
+          -33.9316313
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

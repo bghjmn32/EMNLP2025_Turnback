@@ -1,0 +1,174 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -104.875933,
+    39.879762,
+    -104.868962,
+    39.880765
+  ],
+  "features": [
+    {
+      "bbox": [
+        -104.875933,
+        39.879762,
+        -104.868962,
+        39.880765
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 652.7,
+            "duration": 469.9,
+            "steps": [
+              {
+                "distance": 525.4,
+                "duration": 378.3,
+                "type": 11,
+                "instruction": "Head west on East 102nd Avenue",
+                "name": "East 102nd Avenue",
+                "way_points": [
+                  0,
+                  11
+                ]
+              },
+              {
+                "distance": 127.3,
+                "duration": 91.7,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  11,
+                  17
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  17,
+                  17
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          17
+        ],
+        "summary": {
+          "distance": 652.7,
+          "duration": 469.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -104.868962,
+            39.880751
+          ],
+          [
+            -104.869932,
+            39.880757
+          ],
+          [
+            -104.870886,
+            39.88076
+          ],
+          [
+            -104.870966,
+            39.88076
+          ],
+          [
+            -104.871883,
+            39.880765
+          ],
+          [
+            -104.872052,
+            39.880748
+          ],
+          [
+            -104.872163,
+            39.880717
+          ],
+          [
+            -104.873129,
+            39.880346
+          ],
+          [
+            -104.87332,
+            39.880273
+          ],
+          [
+            -104.873503,
+            39.880236
+          ],
+          [
+            -104.873946,
+            39.880231
+          ],
+          [
+            -104.874968,
+            39.880232
+          ],
+          [
+            -104.874979,
+            39.880021
+          ],
+          [
+            -104.875298,
+            39.880015
+          ],
+          [
+            -104.875405,
+            39.880074
+          ],
+          [
+            -104.875644,
+            39.880076
+          ],
+          [
+            -104.875933,
+            39.879844
+          ],
+          [
+            -104.875927,
+            39.879762
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756307392452,
+    "query": {
+      "coordinates": [
+        [
+          -104.8689625,
+          39.8807505
+        ],
+        [
+          -104.8759273,
+          39.8797616
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

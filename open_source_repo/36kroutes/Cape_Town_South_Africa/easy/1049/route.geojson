@@ -1,0 +1,172 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.489279,
+    -33.897797,
+    18.490751,
+    -33.893288
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.489279,
+        -33.897797,
+        18.490751,
+        -33.893288
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 697.2,
+            "duration": 502.0,
+            "steps": [
+              {
+                "distance": 69.6,
+                "duration": 50.1,
+                "type": 11,
+                "instruction": "Head west on Bancroft Street",
+                "name": "Bancroft Street",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 354.2,
+                "duration": 255.0,
+                "type": 0,
+                "instruction": "Turn left onto Linnet Street",
+                "name": "Linnet Street",
+                "way_points": [
+                  2,
+                  8
+                ]
+              },
+              {
+                "distance": 138.8,
+                "duration": 100.0,
+                "type": 0,
+                "instruction": "Turn left onto Farnworth Street",
+                "name": "Farnworth Street",
+                "way_points": [
+                  8,
+                  9
+                ]
+              },
+              {
+                "distance": 134.6,
+                "duration": 96.9,
+                "type": 1,
+                "instruction": "Turn right onto Koeberg Road, M5",
+                "name": "Koeberg Road, M5",
+                "way_points": [
+                  9,
+                  11
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Koeberg Road, M5, straight ahead",
+                "name": "-",
+                "way_points": [
+                  11,
+                  11
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          11
+        ],
+        "summary": {
+          "distance": 697.2,
+          "duration": 502.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.490724,
+            -33.893409
+          ],
+          [
+            18.490406,
+            -33.893357
+          ],
+          [
+            18.489984,
+            -33.893288
+          ],
+          [
+            18.48983,
+            -33.893934
+          ],
+          [
+            18.48967,
+            -33.894574
+          ],
+          [
+            18.489532,
+            -33.895107
+          ],
+          [
+            18.489502,
+            -33.895532
+          ],
+          [
+            18.489433,
+            -33.895809
+          ],
+          [
+            18.489279,
+            -33.896415
+          ],
+          [
+            18.490751,
+            -33.896672
+          ],
+          [
+            18.490403,
+            -33.897406
+          ],
+          [
+            18.490217,
+            -33.897797
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756806172369,
+    "query": {
+      "coordinates": [
+        [
+          18.4907237,
+          -33.8934092
+        ],
+        [
+          18.4902166,
+          -33.8977974
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

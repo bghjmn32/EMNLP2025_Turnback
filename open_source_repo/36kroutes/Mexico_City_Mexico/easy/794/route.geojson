@@ -1,0 +1,161 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.151657,
+    19.183243,
+    -99.148811,
+    19.193009
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.151657,
+        19.183243,
+        -99.148811,
+        19.193009
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1146.5,
+            "duration": 825.4,
+            "steps": [
+              {
+                "distance": 154.9,
+                "duration": 111.5,
+                "type": 11,
+                "instruction": "Head north",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 19.5,
+                "duration": 14.0,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 972.2,
+                "duration": 699.9,
+                "type": 1,
+                "instruction": "Turn right onto Antiguo Camino a Cuernavaca",
+                "name": "Antiguo Camino a Cuernavaca",
+                "way_points": [
+                  2,
+                  11
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Antiguo Camino a Cuernavaca, straight ahead",
+                "name": "-",
+                "way_points": [
+                  11,
+                  11
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          11
+        ],
+        "summary": {
+          "distance": 1146.5,
+          "duration": 825.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.151657,
+            19.183243
+          ],
+          [
+            -99.151341,
+            19.184603
+          ],
+          [
+            -99.151511,
+            19.184672
+          ],
+          [
+            -99.151225,
+            19.185984
+          ],
+          [
+            -99.150576,
+            19.188132
+          ],
+          [
+            -99.150107,
+            19.189472
+          ],
+          [
+            -99.149905,
+            19.189966
+          ],
+          [
+            -99.149614,
+            19.190616
+          ],
+          [
+            -99.149433,
+            19.190923
+          ],
+          [
+            -99.149321,
+            19.191232
+          ],
+          [
+            -99.149037,
+            19.192446
+          ],
+          [
+            -99.148811,
+            19.193009
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756307653428,
+    "query": {
+      "coordinates": [
+        [
+          -99.1516572,
+          19.1832432
+        ],
+        [
+          -99.1488108,
+          19.1930089
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

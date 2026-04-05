@@ -1,0 +1,293 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.389106,
+    -33.916608,
+    18.393661,
+    -33.9152
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.389106,
+        -33.916608,
+        18.393661,
+        -33.9152
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 650.6,
+            "duration": 468.4,
+            "steps": [
+              {
+                "distance": 24.8,
+                "duration": 17.8,
+                "type": 11,
+                "instruction": "Head northeast on Main Road, M61",
+                "name": "Main Road, M61",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 69.0,
+                "duration": 49.7,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  8
+                ]
+              },
+              {
+                "distance": 33.5,
+                "duration": 24.1,
+                "type": 0,
+                "instruction": "Turn left onto Main Road, M61",
+                "name": "Main Road, M61",
+                "way_points": [
+                  8,
+                  9
+                ]
+              },
+              {
+                "distance": 163.9,
+                "duration": 118.0,
+                "type": 1,
+                "instruction": "Turn right onto The Glen Road",
+                "name": "The Glen Road",
+                "way_points": [
+                  9,
+                  11
+                ]
+              },
+              {
+                "distance": 66.8,
+                "duration": 48.1,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  11,
+                  14
+                ]
+              },
+              {
+                "distance": 31.1,
+                "duration": 22.4,
+                "type": 1,
+                "instruction": "Turn right onto Heathfield Road",
+                "name": "Heathfield Road",
+                "way_points": [
+                  14,
+                  15
+                ]
+              },
+              {
+                "distance": 60.6,
+                "duration": 43.7,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  15,
+                  16
+                ]
+              },
+              {
+                "distance": 17.7,
+                "duration": 12.8,
+                "type": 1,
+                "instruction": "Turn right onto Milner Road",
+                "name": "Milner Road",
+                "way_points": [
+                  16,
+                  17
+                ]
+              },
+              {
+                "distance": 65.3,
+                "duration": 47.0,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  17,
+                  18
+                ]
+              },
+              {
+                "distance": 51.4,
+                "duration": 37.0,
+                "type": 1,
+                "instruction": "Turn right onto Bellevue Road",
+                "name": "Bellevue Road",
+                "way_points": [
+                  18,
+                  19
+                ]
+              },
+              {
+                "distance": 66.3,
+                "duration": 47.7,
+                "type": 0,
+                "instruction": "Turn left onto High Level Road",
+                "name": "High Level Road",
+                "way_points": [
+                  19,
+                  22
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at High Level Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  22,
+                  22
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          22
+        ],
+        "summary": {
+          "distance": 650.6,
+          "duration": 468.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.389106,
+            -33.9165
+          ],
+          [
+            18.389255,
+            -33.916315
+          ],
+          [
+            18.389127,
+            -33.916234
+          ],
+          [
+            18.389124,
+            -33.916207
+          ],
+          [
+            18.389144,
+            -33.916186
+          ],
+          [
+            18.389286,
+            -33.916018
+          ],
+          [
+            18.389329,
+            -33.915967
+          ],
+          [
+            18.38937,
+            -33.915949
+          ],
+          [
+            18.389499,
+            -33.916018
+          ],
+          [
+            18.38971,
+            -33.915773
+          ],
+          [
+            18.390132,
+            -33.91602
+          ],
+          [
+            18.391174,
+            -33.916608
+          ],
+          [
+            18.391262,
+            -33.916508
+          ],
+          [
+            18.391374,
+            -33.91638
+          ],
+          [
+            18.391591,
+            -33.916116
+          ],
+          [
+            18.391866,
+            -33.916278
+          ],
+          [
+            18.392238,
+            -33.915828
+          ],
+          [
+            18.392397,
+            -33.915917
+          ],
+          [
+            18.392787,
+            -33.915426
+          ],
+          [
+            18.393247,
+            -33.915687
+          ],
+          [
+            18.393279,
+            -33.91565
+          ],
+          [
+            18.393453,
+            -33.915444
+          ],
+          [
+            18.393661,
+            -33.9152
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756804222879,
+    "query": {
+      "coordinates": [
+        [
+          18.3891056,
+          -33.9165002
+        ],
+        [
+          18.3936605,
+          -33.9152
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

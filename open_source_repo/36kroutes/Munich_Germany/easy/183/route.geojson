@@ -1,0 +1,289 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    11.379647,
+    48.128076,
+    11.383113,
+    48.132326
+  ],
+  "features": [
+    {
+      "bbox": [
+        11.379647,
+        48.128076,
+        11.383113,
+        48.132326
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 860.5,
+            "duration": 619.5,
+            "steps": [
+              {
+                "distance": 22.3,
+                "duration": 16.0,
+                "type": 11,
+                "instruction": "Head west",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 56.3,
+                "duration": 40.6,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 12.3,
+                "duration": 8.8,
+                "type": 6,
+                "instruction": "Continue straight",
+                "name": "-",
+                "way_points": [
+                  2,
+                  4
+                ]
+              },
+              {
+                "distance": 26.9,
+                "duration": 19.3,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  4,
+                  7
+                ]
+              },
+              {
+                "distance": 33.4,
+                "duration": 24.0,
+                "type": 13,
+                "instruction": "Keep right",
+                "name": "-",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 112.6,
+                "duration": 81.1,
+                "type": 1,
+                "instruction": "Turn right onto Wildweg",
+                "name": "Wildweg",
+                "way_points": [
+                  8,
+                  11
+                ]
+              },
+              {
+                "distance": 95.1,
+                "duration": 68.5,
+                "type": 1,
+                "instruction": "Turn right onto Försterweg",
+                "name": "Försterweg",
+                "way_points": [
+                  11,
+                  15
+                ]
+              },
+              {
+                "distance": 74.7,
+                "duration": 53.8,
+                "type": 0,
+                "instruction": "Turn left onto Eisenbahnstraße",
+                "name": "Eisenbahnstraße",
+                "way_points": [
+                  15,
+                  16
+                ]
+              },
+              {
+                "distance": 136.6,
+                "duration": 98.3,
+                "type": 1,
+                "instruction": "Turn right onto Wendelsteinstraße",
+                "name": "Wendelsteinstraße",
+                "way_points": [
+                  16,
+                  18
+                ]
+              },
+              {
+                "distance": 76.9,
+                "duration": 55.4,
+                "type": 1,
+                "instruction": "Turn right onto Hartstraße",
+                "name": "Hartstraße",
+                "way_points": [
+                  18,
+                  19
+                ]
+              },
+              {
+                "distance": 213.5,
+                "duration": 153.7,
+                "type": 0,
+                "instruction": "Turn left onto Zeusstraße",
+                "name": "Zeusstraße",
+                "way_points": [
+                  19,
+                  21
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Zeusstraße, straight ahead",
+                "name": "-",
+                "way_points": [
+                  21,
+                  21
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          21
+        ],
+        "summary": {
+          "distance": 860.5,
+          "duration": 619.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            11.380174,
+            48.13155
+          ],
+          [
+            11.379879,
+            48.131515
+          ],
+          [
+            11.379678,
+            48.132003
+          ],
+          [
+            11.379657,
+            48.132091
+          ],
+          [
+            11.379647,
+            48.132112
+          ],
+          [
+            11.379717,
+            48.132133
+          ],
+          [
+            11.37982,
+            48.132178
+          ],
+          [
+            11.379924,
+            48.132261
+          ],
+          [
+            11.380364,
+            48.132326
+          ],
+          [
+            11.380513,
+            48.131934
+          ],
+          [
+            11.380554,
+            48.131918
+          ],
+          [
+            11.381396,
+            48.13205
+          ],
+          [
+            11.381487,
+            48.131843
+          ],
+          [
+            11.381539,
+            48.131675
+          ],
+          [
+            11.381572,
+            48.131581
+          ],
+          [
+            11.381703,
+            48.13122
+          ],
+          [
+            11.382694,
+            48.131337
+          ],
+          [
+            11.382877,
+            48.130793
+          ],
+          [
+            11.383113,
+            48.130141
+          ],
+          [
+            11.382144,
+            48.129896
+          ],
+          [
+            11.383,
+            48.128213
+          ],
+          [
+            11.383055,
+            48.128076
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756137018268,
+    "query": {
+      "coordinates": [
+        [
+          11.3801737,
+          48.1315499
+        ],
+        [
+          11.383055,
+          48.1280755
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

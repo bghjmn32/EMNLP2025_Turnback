@@ -1,0 +1,187 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    174.856133,
+    -36.955636,
+    174.860123,
+    -36.950917
+  ],
+  "features": [
+    {
+      "bbox": [
+        174.856133,
+        -36.955636,
+        174.860123,
+        -36.950917
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 683.8,
+            "duration": 492.3,
+            "steps": [
+              {
+                "distance": 8.6,
+                "duration": 6.2,
+                "type": 11,
+                "instruction": "Head southeast",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 2.5,
+                "duration": 1.8,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 34.6,
+                "duration": 24.9,
+                "type": 3,
+                "instruction": "Turn sharp right",
+                "name": "-",
+                "way_points": [
+                  2,
+                  4
+                ]
+              },
+              {
+                "distance": 560.1,
+                "duration": 403.2,
+                "type": 0,
+                "instruction": "Turn left onto Wymondley Road",
+                "name": "Wymondley Road",
+                "way_points": [
+                  4,
+                  10
+                ]
+              },
+              {
+                "distance": 78.1,
+                "duration": 56.2,
+                "type": 1,
+                "instruction": "Turn right onto Clarrie Wills Way",
+                "name": "Clarrie Wills Way",
+                "way_points": [
+                  10,
+                  12
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Clarrie Wills Way, straight ahead",
+                "name": "-",
+                "way_points": [
+                  12,
+                  12
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          12
+        ],
+        "summary": {
+          "distance": 683.8,
+          "duration": 492.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            174.856137,
+            -36.950917
+          ],
+          [
+            174.856198,
+            -36.950978
+          ],
+          [
+            174.856219,
+            -36.950963
+          ],
+          [
+            174.856226,
+            -36.951165
+          ],
+          [
+            174.856133,
+            -36.951245
+          ],
+          [
+            174.856196,
+            -36.951305
+          ],
+          [
+            174.857063,
+            -36.952129
+          ],
+          [
+            174.858085,
+            -36.953122
+          ],
+          [
+            174.859196,
+            -36.954202
+          ],
+          [
+            174.860046,
+            -36.955028
+          ],
+          [
+            174.860123,
+            -36.955141
+          ],
+          [
+            174.85956,
+            -36.955537
+          ],
+          [
+            174.859525,
+            -36.955636
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756375743475,
+    "query": {
+      "coordinates": [
+        [
+          174.8561374,
+          -36.9509174
+        ],
+        [
+          174.8595252,
+          -36.9556364
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

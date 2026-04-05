@@ -1,0 +1,157 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -79.42542,
+    43.707314,
+    -79.405427,
+    43.711553
+  ],
+  "features": [
+    {
+      "bbox": [
+        -79.42542,
+        43.707314,
+        -79.405427,
+        43.711553
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1683.9,
+            "duration": 1212.4,
+            "steps": [
+              {
+                "distance": 8.8,
+                "duration": 6.4,
+                "type": 11,
+                "instruction": "Head east",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 7.2,
+                "duration": 5.2,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 1667.8,
+                "duration": 1200.8,
+                "type": 3,
+                "instruction": "Turn sharp right onto St Clements Avenue",
+                "name": "St Clements Avenue",
+                "way_points": [
+                  2,
+                  10
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at St Clements Avenue, straight ahead",
+                "name": "-",
+                "way_points": [
+                  10,
+                  10
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          10
+        ],
+        "summary": {
+          "distance": 1683.9,
+          "duration": 1212.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -79.42542,
+            43.707314
+          ],
+          [
+            -79.425317,
+            43.707341
+          ],
+          [
+            -79.425361,
+            43.707397
+          ],
+          [
+            -79.421605,
+            43.708181
+          ],
+          [
+            -79.42094,
+            43.708277
+          ],
+          [
+            -79.417021,
+            43.709099
+          ],
+          [
+            -79.411234,
+            43.710317
+          ],
+          [
+            -79.411107,
+            43.710342
+          ],
+          [
+            -79.411005,
+            43.710362
+          ],
+          [
+            -79.407228,
+            43.711165
+          ],
+          [
+            -79.405427,
+            43.711553
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756128796942,
+    "query": {
+      "coordinates": [
+        [
+          -79.4254204,
+          43.7073142
+        ],
+        [
+          -79.4054266,
+          43.7115527
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

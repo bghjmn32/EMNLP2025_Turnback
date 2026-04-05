@@ -1,0 +1,205 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -105.053361,
+    39.626669,
+    -105.049751,
+    39.629561
+  ],
+  "features": [
+    {
+      "bbox": [
+        -105.053361,
+        39.626669,
+        -105.049751,
+        39.629561
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 575.0,
+            "duration": 414.0,
+            "steps": [
+              {
+                "distance": 40.6,
+                "duration": 29.2,
+                "type": 11,
+                "instruction": "Head east",
+                "name": "-",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 320.8,
+                "duration": 231.0,
+                "type": 0,
+                "instruction": "Turn left onto West Homestead Street",
+                "name": "West Homestead Street",
+                "way_points": [
+                  2,
+                  14
+                ]
+              },
+              {
+                "distance": 213.7,
+                "duration": 153.8,
+                "type": 1,
+                "instruction": "Turn right onto Pinyon Street",
+                "name": "Pinyon Street",
+                "way_points": [
+                  14,
+                  22
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Pinyon Street, straight ahead",
+                "name": "-",
+                "way_points": [
+                  22,
+                  22
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          22
+        ],
+        "summary": {
+          "distance": 575.0,
+          "duration": 414.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -105.049907,
+            39.629284
+          ],
+          [
+            -105.049758,
+            39.629315
+          ],
+          [
+            -105.049751,
+            39.629561
+          ],
+          [
+            -105.050162,
+            39.629516
+          ],
+          [
+            -105.050283,
+            39.629489
+          ],
+          [
+            -105.050479,
+            39.629434
+          ],
+          [
+            -105.050674,
+            39.629358
+          ],
+          [
+            -105.050995,
+            39.629186
+          ],
+          [
+            -105.051143,
+            39.629077
+          ],
+          [
+            -105.051172,
+            39.629054
+          ],
+          [
+            -105.051392,
+            39.628835
+          ],
+          [
+            -105.051549,
+            39.628606
+          ],
+          [
+            -105.051611,
+            39.628516
+          ],
+          [
+            -105.051617,
+            39.628131
+          ],
+          [
+            -105.051649,
+            39.627506
+          ],
+          [
+            -105.052154,
+            39.627472
+          ],
+          [
+            -105.052794,
+            39.627433
+          ],
+          [
+            -105.053109,
+            39.627384
+          ],
+          [
+            -105.053144,
+            39.627372
+          ],
+          [
+            -105.053311,
+            39.627243
+          ],
+          [
+            -105.053357,
+            39.627055
+          ],
+          [
+            -105.053352,
+            39.626785
+          ],
+          [
+            -105.053361,
+            39.626669
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306537920,
+    "query": {
+      "coordinates": [
+        [
+          -105.049907,
+          39.6292837
+        ],
+        [
+          -105.0533612,
+          39.6266693
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

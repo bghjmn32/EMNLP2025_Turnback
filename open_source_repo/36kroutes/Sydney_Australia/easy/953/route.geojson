@@ -1,0 +1,184 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    150.779628,
+    -33.757464,
+    150.780921,
+    -33.752296
+  ],
+  "features": [
+    {
+      "bbox": [
+        150.779628,
+        -33.757464,
+        150.780921,
+        -33.752296
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 691.7,
+            "duration": 498.0,
+            "steps": [
+              {
+                "distance": 26.8,
+                "duration": 19.3,
+                "type": 11,
+                "instruction": "Head northwest on Glossop Street",
+                "name": "Glossop Street",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 209.5,
+                "duration": 150.8,
+                "type": 1,
+                "instruction": "Turn right onto Wattle Avenue",
+                "name": "Wattle Avenue",
+                "way_points": [
+                  1,
+                  4
+                ]
+              },
+              {
+                "distance": 172.3,
+                "duration": 124.1,
+                "type": 0,
+                "instruction": "Turn left onto Anzac Street",
+                "name": "Anzac Street",
+                "way_points": [
+                  4,
+                  7
+                ]
+              },
+              {
+                "distance": 283.1,
+                "duration": 203.9,
+                "type": 1,
+                "instruction": "Turn right onto Catalina Street",
+                "name": "Catalina Street",
+                "way_points": [
+                  7,
+                  14
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Catalina Street, straight ahead",
+                "name": "-",
+                "way_points": [
+                  14,
+                  14
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          14
+        ],
+        "summary": {
+          "distance": 691.7,
+          "duration": 498.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            150.779855,
+            -33.757464
+          ],
+          [
+            150.779628,
+            -33.757314
+          ],
+          [
+            150.77967,
+            -33.757265
+          ],
+          [
+            150.780294,
+            -33.756527
+          ],
+          [
+            150.780921,
+            -33.755767
+          ],
+          [
+            150.780466,
+            -33.755501
+          ],
+          [
+            150.780401,
+            -33.755441
+          ],
+          [
+            150.779695,
+            -33.754624
+          ],
+          [
+            150.779938,
+            -33.75452
+          ],
+          [
+            150.780006,
+            -33.754466
+          ],
+          [
+            150.780107,
+            -33.754352
+          ],
+          [
+            150.78016,
+            -33.754231
+          ],
+          [
+            150.780271,
+            -33.753743
+          ],
+          [
+            150.780589,
+            -33.752355
+          ],
+          [
+            150.780603,
+            -33.752296
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756396150281,
+    "query": {
+      "coordinates": [
+        [
+          150.7798548,
+          -33.7574639
+        ],
+        [
+          150.7806031,
+          -33.7522956
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

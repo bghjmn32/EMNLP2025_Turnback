@@ -1,0 +1,242 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.302383,
+    -22.812796,
+    -43.30037,
+    -22.809286
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.302383,
+        -22.812796,
+        -43.30037,
+        -22.809286
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 556.6,
+            "duration": 400.7,
+            "steps": [
+              {
+                "distance": 58.1,
+                "duration": 41.8,
+                "type": 11,
+                "instruction": "Head west on Rua São Bento",
+                "name": "Rua São Bento",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 41.1,
+                "duration": 29.6,
+                "type": 1,
+                "instruction": "Turn right onto Rua Sete",
+                "name": "Rua Sete",
+                "way_points": [
+                  2,
+                  4
+                ]
+              },
+              {
+                "distance": 40.0,
+                "duration": 28.8,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "distance": 298.2,
+                "duration": 214.7,
+                "type": 0,
+                "instruction": "Turn left onto Travessa Henrique Dias",
+                "name": "Travessa Henrique Dias",
+                "way_points": [
+                  5,
+                  16
+                ]
+              },
+              {
+                "distance": 86.4,
+                "duration": 62.2,
+                "type": 12,
+                "instruction": "Keep left",
+                "name": "-",
+                "way_points": [
+                  16,
+                  22
+                ]
+              },
+              {
+                "distance": 32.7,
+                "duration": 23.5,
+                "type": 0,
+                "instruction": "Turn left onto Rua Bulhões Marcial",
+                "name": "Rua Bulhões Marcial",
+                "way_points": [
+                  22,
+                  23
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Rua Bulhões Marcial, straight ahead",
+                "name": "-",
+                "way_points": [
+                  23,
+                  23
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          23
+        ],
+        "summary": {
+          "distance": 556.6,
+          "duration": 400.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.30037,
+            -22.812796
+          ],
+          [
+            -43.300669,
+            -22.812775
+          ],
+          [
+            -43.300936,
+            -22.812762
+          ],
+          [
+            -43.300971,
+            -22.812422
+          ],
+          [
+            -43.30094,
+            -22.81242
+          ],
+          [
+            -43.300965,
+            -22.812061
+          ],
+          [
+            -43.301029,
+            -22.812065
+          ],
+          [
+            -43.301059,
+            -22.811776
+          ],
+          [
+            -43.301074,
+            -22.811635
+          ],
+          [
+            -43.301128,
+            -22.810935
+          ],
+          [
+            -43.301169,
+            -22.810707
+          ],
+          [
+            -43.301248,
+            -22.810454
+          ],
+          [
+            -43.30129,
+            -22.8103
+          ],
+          [
+            -43.301317,
+            -22.810254
+          ],
+          [
+            -43.301487,
+            -22.809872
+          ],
+          [
+            -43.301548,
+            -22.809764
+          ],
+          [
+            -43.301677,
+            -22.809545
+          ],
+          [
+            -43.301699,
+            -22.809524
+          ],
+          [
+            -43.301783,
+            -22.809417
+          ],
+          [
+            -43.30197,
+            -22.809526
+          ],
+          [
+            -43.30217,
+            -22.809665
+          ],
+          [
+            -43.302248,
+            -22.809558
+          ],
+          [
+            -43.302202,
+            -22.809528
+          ],
+          [
+            -43.302383,
+            -22.809286
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756392757137,
+    "query": {
+      "coordinates": [
+        [
+          -43.30037,
+          -22.8127964
+        ],
+        [
+          -43.302383,
+          -22.8092856
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

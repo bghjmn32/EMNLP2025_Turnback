@@ -1,0 +1,158 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.62745,
+    -22.987335,
+    -43.623952,
+    -22.984469
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.62745,
+        -22.987335,
+        -43.623952,
+        -22.984469
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 519.4,
+            "duration": 374.0,
+            "steps": [
+              {
+                "distance": 440.9,
+                "duration": 317.5,
+                "type": 11,
+                "instruction": "Head northeast on Estrada da Capoeira Grande",
+                "name": "Estrada da Capoeira Grande",
+                "way_points": [
+                  0,
+                  12
+                ]
+              },
+              {
+                "distance": 78.5,
+                "duration": 56.5,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  12,
+                  13
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  13,
+                  13
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          13
+        ],
+        "summary": {
+          "distance": 519.4,
+          "duration": 374.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.62745,
+            -22.987335
+          ],
+          [
+            -43.62701,
+            -22.986917
+          ],
+          [
+            -43.626861,
+            -22.986778
+          ],
+          [
+            -43.626717,
+            -22.986674
+          ],
+          [
+            -43.626399,
+            -22.98649
+          ],
+          [
+            -43.626101,
+            -22.986342
+          ],
+          [
+            -43.625889,
+            -22.986151
+          ],
+          [
+            -43.625456,
+            -22.98559
+          ],
+          [
+            -43.625065,
+            -22.985119
+          ],
+          [
+            -43.624876,
+            -22.984892
+          ],
+          [
+            -43.624717,
+            -22.984686
+          ],
+          [
+            -43.624585,
+            -22.984521
+          ],
+          [
+            -43.624543,
+            -22.984469
+          ],
+          [
+            -43.623952,
+            -22.984918
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756392795229,
+    "query": {
+      "coordinates": [
+        [
+          -43.6274499,
+          -22.9873347
+        ],
+        [
+          -43.6239517,
+          -22.9849183
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

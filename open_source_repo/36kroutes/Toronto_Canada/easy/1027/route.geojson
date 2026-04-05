@@ -1,0 +1,172 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -79.364972,
+    43.727238,
+    -79.358158,
+    43.72858
+  ],
+  "features": [
+    {
+      "bbox": [
+        -79.364972,
+        43.727238,
+        -79.358158,
+        43.72858
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 806.7,
+            "duration": 580.8,
+            "steps": [
+              {
+                "distance": 143.7,
+                "duration": 103.4,
+                "type": 11,
+                "instruction": "Head south on Glenorchy Road",
+                "name": "Glenorchy Road",
+                "way_points": [
+                  0,
+                  4
+                ]
+              },
+              {
+                "distance": 371.9,
+                "duration": 267.8,
+                "type": 0,
+                "instruction": "Turn left onto Royal Oak Drive",
+                "name": "Royal Oak Drive",
+                "way_points": [
+                  4,
+                  7
+                ]
+              },
+              {
+                "distance": 111.8,
+                "duration": 80.5,
+                "type": 3,
+                "instruction": "Turn sharp right onto The Bridle Path",
+                "name": "The Bridle Path",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 179.4,
+                "duration": 129.1,
+                "type": 0,
+                "instruction": "Turn left onto Salonica Road",
+                "name": "Salonica Road",
+                "way_points": [
+                  8,
+                  11
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Salonica Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  11,
+                  11
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          11
+        ],
+        "summary": {
+          "distance": 806.7,
+          "duration": 580.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -79.364972,
+            43.72858
+          ],
+          [
+            -79.364947,
+            43.728219
+          ],
+          [
+            -79.364913,
+            43.727488
+          ],
+          [
+            -79.364869,
+            43.727359
+          ],
+          [
+            -79.364824,
+            43.727301
+          ],
+          [
+            -79.362648,
+            43.72776
+          ],
+          [
+            -79.360451,
+            43.728227
+          ],
+          [
+            -79.360382,
+            43.728242
+          ],
+          [
+            -79.360308,
+            43.727238
+          ],
+          [
+            -79.360228,
+            43.727253
+          ],
+          [
+            -79.359224,
+            43.727461
+          ],
+          [
+            -79.358158,
+            43.727673
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756126601908,
+    "query": {
+      "coordinates": [
+        [
+          -79.3649716,
+          43.7285798
+        ],
+        [
+          -79.3581585,
+          43.7276729
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

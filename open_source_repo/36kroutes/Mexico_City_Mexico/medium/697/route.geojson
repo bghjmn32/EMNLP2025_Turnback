@@ -1,0 +1,261 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.22833,
+    19.407624,
+    -99.218845,
+    19.415384
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.22833,
+        19.407624,
+        -99.218845,
+        19.415384
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1589.6,
+            "duration": 1144.5,
+            "steps": [
+              {
+                "distance": 347.2,
+                "duration": 250.0,
+                "type": 11,
+                "instruction": "Head northeast on Calle Sierra Grande",
+                "name": "Calle Sierra Grande",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 139.9,
+                "duration": 100.7,
+                "type": 6,
+                "instruction": "Continue straight onto Calle Sierra Grande",
+                "name": "Calle Sierra Grande",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 38.6,
+                "duration": 27.8,
+                "type": 6,
+                "instruction": "Continue straight onto Calle Sierra Grande",
+                "name": "Calle Sierra Grande",
+                "way_points": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "distance": 198.8,
+                "duration": 143.1,
+                "type": 1,
+                "instruction": "Turn right onto Calle Montes Apalaches",
+                "name": "Calle Montes Apalaches",
+                "way_points": [
+                  5,
+                  9
+                ]
+              },
+              {
+                "distance": 496.5,
+                "duration": 357.5,
+                "type": 0,
+                "instruction": "Turn left onto Calle Monte Cáucaso",
+                "name": "Calle Monte Cáucaso",
+                "way_points": [
+                  9,
+                  14
+                ]
+              },
+              {
+                "distance": 120.4,
+                "duration": 86.7,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  14,
+                  17
+                ]
+              },
+              {
+                "distance": 226.7,
+                "duration": 163.2,
+                "type": 0,
+                "instruction": "Turn left onto Avenida Paseo de la Reforma",
+                "name": "Avenida Paseo de la Reforma",
+                "way_points": [
+                  17,
+                  20
+                ]
+              },
+              {
+                "distance": 21.6,
+                "duration": 15.5,
+                "type": 7,
+                "instruction": "Enter the roundabout and take the 1st exit",
+                "name": "-",
+                "exit_number": 1,
+                "way_points": [
+                  20,
+                  22
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  22,
+                  22
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          22
+        ],
+        "summary": {
+          "distance": 1589.6,
+          "duration": 1144.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.22833,
+            19.407624
+          ],
+          [
+            -99.227666,
+            19.408249
+          ],
+          [
+            -99.226674,
+            19.409165
+          ],
+          [
+            -99.226078,
+            19.409904
+          ],
+          [
+            -99.225285,
+            19.410916
+          ],
+          [
+            -99.22507,
+            19.411197
+          ],
+          [
+            -99.224798,
+            19.411028
+          ],
+          [
+            -99.224443,
+            19.410807
+          ],
+          [
+            -99.224207,
+            19.41066
+          ],
+          [
+            -99.223475,
+            19.410232
+          ],
+          [
+            -99.221929,
+            19.412264
+          ],
+          [
+            -99.220897,
+            19.413746
+          ],
+          [
+            -99.220869,
+            19.413786
+          ],
+          [
+            -99.220818,
+            19.413874
+          ],
+          [
+            -99.220799,
+            19.413913
+          ],
+          [
+            -99.220005,
+            19.413499
+          ],
+          [
+            -99.219947,
+            19.41347
+          ],
+          [
+            -99.219796,
+            19.413388
+          ],
+          [
+            -99.219377,
+            19.414254
+          ],
+          [
+            -99.219254,
+            19.414557
+          ],
+          [
+            -99.219014,
+            19.415285
+          ],
+          [
+            -99.218916,
+            19.415314
+          ],
+          [
+            -99.218845,
+            19.415384
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756311680127,
+    "query": {
+      "coordinates": [
+        [
+          -99.2283296,
+          19.407624
+        ],
+        [
+          -99.2188449,
+          19.4153836
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -79.339237,
+    43.651721,
+    -79.3355,
+    43.653875
+  ],
+  "features": [
+    {
+      "bbox": [
+        -79.339237,
+        43.651721,
+        -79.3355,
+        43.653875
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 525.9,
+            "duration": 378.7,
+            "steps": [
+              {
+                "distance": 7.3,
+                "duration": 5.2,
+                "type": 11,
+                "instruction": "Head northwest on Carlaw Avenue",
+                "name": "Carlaw Avenue",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 207.5,
+                "duration": 149.4,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  3
+                ]
+              },
+              {
+                "distance": 229.4,
+                "duration": 165.2,
+                "type": 1,
+                "instruction": "Turn right onto Logan Avenue",
+                "name": "Logan Avenue",
+                "way_points": [
+                  3,
+                  5
+                ]
+              },
+              {
+                "distance": 81.7,
+                "duration": 58.8,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  5,
+                  8
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  8,
+                  8
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          8
+        ],
+        "summary": {
+          "distance": 525.9,
+          "duration": 378.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -79.3355,
+            43.652606
+          ],
+          [
+            -79.335547,
+            43.652662
+          ],
+          [
+            -79.33576,
+            43.652573
+          ],
+          [
+            -79.337774,
+            43.651721
+          ],
+          [
+            -79.338622,
+            43.652748
+          ],
+          [
+            -79.339237,
+            43.653492
+          ],
+          [
+            -79.338753,
+            43.653681
+          ],
+          [
+            -79.338584,
+            43.653772
+          ],
+          [
+            -79.338373,
+            43.653875
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756124437077,
+    "query": {
+      "coordinates": [
+        [
+          -79.3355001,
+          43.652606
+        ],
+        [
+          -79.3383728,
+          43.6538753
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

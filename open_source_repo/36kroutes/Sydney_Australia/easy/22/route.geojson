@@ -1,0 +1,122 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    150.65002,
+    -33.842733,
+    150.652816,
+    -33.839523
+  ],
+  "features": [
+    {
+      "bbox": [
+        150.65002,
+        -33.842733,
+        150.652816,
+        -33.839523
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 567.7,
+            "duration": 408.7,
+            "steps": [
+              {
+                "distance": 361.0,
+                "duration": 259.9,
+                "type": 11,
+                "instruction": "Head north on The Straight Road",
+                "name": "The Straight Road",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 206.7,
+                "duration": 148.8,
+                "type": 1,
+                "instruction": "Turn right onto Allan Road",
+                "name": "Allan Road",
+                "way_points": [
+                  2,
+                  4
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Allan Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  4,
+                  4
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          4
+        ],
+        "summary": {
+          "distance": 567.7,
+          "duration": 408.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            150.65002,
+            -33.842733
+          ],
+          [
+            150.650502,
+            -33.840079
+          ],
+          [
+            150.650603,
+            -33.839523
+          ],
+          [
+            150.651895,
+            -33.839691
+          ],
+          [
+            150.652816,
+            -33.839803
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756390001388,
+    "query": {
+      "coordinates": [
+        [
+          150.6500202,
+          -33.8427334
+        ],
+        [
+          150.652816,
+          -33.8398029
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

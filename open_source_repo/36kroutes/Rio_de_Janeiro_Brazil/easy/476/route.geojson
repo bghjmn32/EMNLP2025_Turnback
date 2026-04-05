@@ -1,0 +1,171 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.632031,
+    -22.875585,
+    -43.627783,
+    -22.873534
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.632031,
+        -22.875585,
+        -43.627783,
+        -22.873534
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 583.5,
+            "duration": 420.1,
+            "steps": [
+              {
+                "distance": 40.5,
+                "duration": 29.2,
+                "type": 11,
+                "instruction": "Head south on Avenida Mario Pereira dos Santos",
+                "name": "Avenida Mario Pereira dos Santos",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 77.1,
+                "duration": 55.5,
+                "type": 13,
+                "instruction": "Keep right onto Avenida Mario Pereira dos Santos",
+                "name": "Avenida Mario Pereira dos Santos",
+                "way_points": [
+                  1,
+                  3
+                ]
+              },
+              {
+                "distance": 378.2,
+                "duration": 272.3,
+                "type": 1,
+                "instruction": "Turn right onto Rua José Sales",
+                "name": "Rua José Sales",
+                "way_points": [
+                  3,
+                  6
+                ]
+              },
+              {
+                "distance": 43.0,
+                "duration": 30.9,
+                "type": 1,
+                "instruction": "Turn right onto Rua Mauricio Andrade",
+                "name": "Rua Mauricio Andrade",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 44.7,
+                "duration": 32.2,
+                "type": 0,
+                "instruction": "Turn left onto Rua Maria das Graças da Silva",
+                "name": "Rua Maria das Graças da Silva",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Rua Maria das Graças da Silva, straight ahead",
+                "name": "-",
+                "way_points": [
+                  8,
+                  8
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          8
+        ],
+        "summary": {
+          "distance": 583.5,
+          "duration": 420.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.627867,
+            -22.873534
+          ],
+          [
+            -43.627783,
+            -22.87389
+          ],
+          [
+            -43.62786,
+            -22.874135
+          ],
+          [
+            -43.627995,
+            -22.874556
+          ],
+          [
+            -43.62822,
+            -22.874626
+          ],
+          [
+            -43.629763,
+            -22.875087
+          ],
+          [
+            -43.631513,
+            -22.875585
+          ],
+          [
+            -43.631616,
+            -22.87521
+          ],
+          [
+            -43.632031,
+            -22.875333
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756392688233,
+    "query": {
+      "coordinates": [
+        [
+          -43.6278671,
+          -22.8735343
+        ],
+        [
+          -43.6320314,
+          -22.8753326
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

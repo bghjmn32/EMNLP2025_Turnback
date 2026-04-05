@@ -1,0 +1,286 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.500191,
+    -33.918858,
+    18.507471,
+    -33.910164
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.500191,
+        -33.918858,
+        18.507471,
+        -33.910164
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1577.6,
+            "duration": 1135.8,
+            "steps": [
+              {
+                "distance": 125.1,
+                "duration": 90.1,
+                "type": 11,
+                "instruction": "Head southwest",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 74.8,
+                "duration": 53.8,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 169.3,
+                "duration": 121.9,
+                "type": 0,
+                "instruction": "Turn left onto 14th Street",
+                "name": "14th Street",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 226.8,
+                "duration": 163.3,
+                "type": 1,
+                "instruction": "Turn right onto 5th Avenue",
+                "name": "5th Avenue",
+                "way_points": [
+                  3,
+                  6
+                ]
+              },
+              {
+                "distance": 456.2,
+                "duration": 328.4,
+                "type": 6,
+                "instruction": "Continue straight onto 5th Avenue",
+                "name": "5th Avenue",
+                "way_points": [
+                  6,
+                  12
+                ]
+              },
+              {
+                "distance": 169.6,
+                "duration": 122.1,
+                "type": 0,
+                "instruction": "Turn left onto 5th Street",
+                "name": "5th Street",
+                "way_points": [
+                  12,
+                  14
+                ]
+              },
+              {
+                "distance": 2.4,
+                "duration": 1.7,
+                "type": 1,
+                "instruction": "Turn right onto 6th Avenue",
+                "name": "6th Avenue",
+                "way_points": [
+                  14,
+                  15
+                ]
+              },
+              {
+                "distance": 123.8,
+                "duration": 89.2,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  15,
+                  17
+                ]
+              },
+              {
+                "distance": 199.9,
+                "duration": 143.9,
+                "type": 1,
+                "instruction": "Turn right onto 7th Avenue",
+                "name": "7th Avenue",
+                "way_points": [
+                  17,
+                  22
+                ]
+              },
+              {
+                "distance": 29.7,
+                "duration": 21.3,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  22,
+                  23
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  23,
+                  23
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          23
+        ],
+        "summary": {
+          "distance": 1577.6,
+          "duration": 1135.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.501051,
+            -33.910164
+          ],
+          [
+            18.500191,
+            -33.911034
+          ],
+          [
+            18.500332,
+            -33.911696
+          ],
+          [
+            18.502129,
+            -33.911387
+          ],
+          [
+            18.502289,
+            -33.912059
+          ],
+          [
+            18.502449,
+            -33.912721
+          ],
+          [
+            18.502614,
+            -33.913387
+          ],
+          [
+            18.502778,
+            -33.914055
+          ],
+          [
+            18.502943,
+            -33.914724
+          ],
+          [
+            18.503108,
+            -33.915392
+          ],
+          [
+            18.503272,
+            -33.916057
+          ],
+          [
+            18.503434,
+            -33.91672
+          ],
+          [
+            18.503598,
+            -33.917407
+          ],
+          [
+            18.504473,
+            -33.917263
+          ],
+          [
+            18.505401,
+            -33.917108
+          ],
+          [
+            18.505406,
+            -33.91713
+          ],
+          [
+            18.506185,
+            -33.91701
+          ],
+          [
+            18.506724,
+            -33.917097
+          ],
+          [
+            18.506741,
+            -33.917165
+          ],
+          [
+            18.506901,
+            -33.917817
+          ],
+          [
+            18.507026,
+            -33.918324
+          ],
+          [
+            18.507093,
+            -33.918599
+          ],
+          [
+            18.507157,
+            -33.918858
+          ],
+          [
+            18.507471,
+            -33.918804
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756808605864,
+    "query": {
+      "coordinates": [
+        [
+          18.501051,
+          -33.9101644
+        ],
+        [
+          18.5074713,
+          -33.9188037
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

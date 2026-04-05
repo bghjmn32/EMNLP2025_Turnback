@@ -1,0 +1,242 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    11.403672,
+    48.090105,
+    11.409465,
+    48.09124
+  ],
+  "features": [
+    {
+      "bbox": [
+        11.403672,
+        48.090105,
+        11.409465,
+        48.09124
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 565.3,
+            "duration": 407.0,
+            "steps": [
+              {
+                "distance": 46.7,
+                "duration": 33.6,
+                "type": 11,
+                "instruction": "Head southwest on Nordstraße",
+                "name": "Nordstraße",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 136.2,
+                "duration": 98.0,
+                "type": 1,
+                "instruction": "Turn right onto Forstkastenstraße",
+                "name": "Forstkastenstraße",
+                "way_points": [
+                  1,
+                  4
+                ]
+              },
+              {
+                "distance": 139.7,
+                "duration": 100.6,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  4,
+                  11
+                ]
+              },
+              {
+                "distance": 10.3,
+                "duration": 7.4,
+                "type": 1,
+                "instruction": "Turn right onto Vitusstraße",
+                "name": "Vitusstraße",
+                "way_points": [
+                  11,
+                  13
+                ]
+              },
+              {
+                "distance": 89.2,
+                "duration": 64.2,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  13,
+                  17
+                ]
+              },
+              {
+                "distance": 143.1,
+                "duration": 103.1,
+                "type": 1,
+                "instruction": "Turn right onto Bennostraße",
+                "name": "Bennostraße",
+                "way_points": [
+                  17,
+                  23
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Bennostraße, straight ahead",
+                "name": "-",
+                "way_points": [
+                  23,
+                  23
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          23
+        ],
+        "summary": {
+          "distance": 565.3,
+          "duration": 407.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            11.409465,
+            48.090784
+          ],
+          [
+            11.409032,
+            48.090479
+          ],
+          [
+            11.407806,
+            48.091091
+          ],
+          [
+            11.407744,
+            48.091148
+          ],
+          [
+            11.407602,
+            48.09124
+          ],
+          [
+            11.407564,
+            48.09122
+          ],
+          [
+            11.407411,
+            48.091194
+          ],
+          [
+            11.407164,
+            48.091043
+          ],
+          [
+            11.406991,
+            48.090853
+          ],
+          [
+            11.406862,
+            48.090774
+          ],
+          [
+            11.406709,
+            48.090646
+          ],
+          [
+            11.406208,
+            48.090441
+          ],
+          [
+            11.406157,
+            48.090472
+          ],
+          [
+            11.406104,
+            48.090502
+          ],
+          [
+            11.405862,
+            48.090432
+          ],
+          [
+            11.405618,
+            48.090359
+          ],
+          [
+            11.405412,
+            48.090283
+          ],
+          [
+            11.405068,
+            48.090105
+          ],
+          [
+            11.404868,
+            48.090218
+          ],
+          [
+            11.404819,
+            48.090255
+          ],
+          [
+            11.404664,
+            48.090356
+          ],
+          [
+            11.404435,
+            48.090496
+          ],
+          [
+            11.403764,
+            48.090932
+          ],
+          [
+            11.403672,
+            48.090992
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756137119775,
+    "query": {
+      "coordinates": [
+        [
+          11.4094646,
+          48.0907844
+        ],
+        [
+          11.4036718,
+          48.0909916
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

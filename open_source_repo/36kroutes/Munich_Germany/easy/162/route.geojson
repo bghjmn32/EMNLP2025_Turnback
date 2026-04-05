@@ -1,0 +1,189 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    11.679907,
+    48.148907,
+    11.683112,
+    48.152219
+  ],
+  "features": [
+    {
+      "bbox": [
+        11.679907,
+        48.148907,
+        11.683112,
+        48.152219
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 548.7,
+            "duration": 395.0,
+            "steps": [
+              {
+                "distance": 244.9,
+                "duration": 176.4,
+                "type": 11,
+                "instruction": "Head southeast on Humboldtstraße",
+                "name": "Humboldtstraße",
+                "way_points": [
+                  0,
+                  5
+                ]
+              },
+              {
+                "distance": 225.2,
+                "duration": 162.1,
+                "type": 1,
+                "instruction": "Turn right onto Karl-Hammerschmidt-Straße",
+                "name": "Karl-Hammerschmidt-Straße",
+                "way_points": [
+                  5,
+                  16
+                ]
+              },
+              {
+                "distance": 78.6,
+                "duration": 56.6,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  16,
+                  18
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  18,
+                  18
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          18
+        ],
+        "summary": {
+          "distance": 548.7,
+          "duration": 395.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            11.679907,
+            48.152219
+          ],
+          [
+            11.680001,
+            48.152136
+          ],
+          [
+            11.680226,
+            48.151996
+          ],
+          [
+            11.680637,
+            48.151855
+          ],
+          [
+            11.682648,
+            48.151209
+          ],
+          [
+            11.682777,
+            48.151166
+          ],
+          [
+            11.682744,
+            48.151071
+          ],
+          [
+            11.682606,
+            48.150639
+          ],
+          [
+            11.682473,
+            48.150227
+          ],
+          [
+            11.682442,
+            48.150131
+          ],
+          [
+            11.682424,
+            48.150074
+          ],
+          [
+            11.682408,
+            48.150026
+          ],
+          [
+            11.682384,
+            48.149943
+          ],
+          [
+            11.682343,
+            48.149809
+          ],
+          [
+            11.682268,
+            48.149586
+          ],
+          [
+            11.68219,
+            48.149338
+          ],
+          [
+            11.682142,
+            48.149186
+          ],
+          [
+            11.68223,
+            48.149176
+          ],
+          [
+            11.683112,
+            48.148907
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756136936491,
+    "query": {
+      "coordinates": [
+        [
+          11.679907,
+          48.1522192
+        ],
+        [
+          11.6831119,
+          48.1489068
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.462126,
+    -22.98548,
+    -43.458966,
+    -22.983921
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.462126,
+        -22.98548,
+        -43.458966,
+        -22.983921
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 678.7,
+            "duration": 488.7,
+            "steps": [
+              {
+                "distance": 152.9,
+                "duration": 110.1,
+                "type": 11,
+                "instruction": "Head northeast on Travessa de Olindo",
+                "name": "Travessa de Olindo",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 211.3,
+                "duration": 152.1,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  3,
+                  7
+                ]
+              },
+              {
+                "distance": 191.1,
+                "duration": 137.6,
+                "type": 0,
+                "instruction": "Turn left onto Rua Elísio de Araújo",
+                "name": "Rua Elísio de Araújo",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 123.4,
+                "duration": 88.9,
+                "type": 2,
+                "instruction": "Turn sharp left",
+                "name": "-",
+                "way_points": [
+                  8,
+                  9
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  9,
+                  9
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          9
+        ],
+        "summary": {
+          "distance": 678.7,
+          "duration": 488.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.462126,
+            -22.98547
+          ],
+          [
+            -43.46153,
+            -22.984529
+          ],
+          [
+            -43.461381,
+            -22.984344
+          ],
+          [
+            -43.461333,
+            -22.98431
+          ],
+          [
+            -43.460941,
+            -22.984741
+          ],
+          [
+            -43.460639,
+            -22.985039
+          ],
+          [
+            -43.46022,
+            -22.98533
+          ],
+          [
+            -43.459762,
+            -22.98548
+          ],
+          [
+            -43.458966,
+            -22.983926
+          ],
+          [
+            -43.460172,
+            -22.983921
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756393648332,
+    "query": {
+      "coordinates": [
+        [
+          -43.4621259,
+          -22.9854701
+        ],
+        [
+          -43.4601722,
+          -22.9839207
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

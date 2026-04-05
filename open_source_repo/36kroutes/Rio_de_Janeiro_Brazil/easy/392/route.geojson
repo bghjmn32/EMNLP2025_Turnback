@@ -1,0 +1,202 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.606531,
+    -22.889276,
+    -43.603406,
+    -22.88268
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.606531,
+        -22.889276,
+        -43.603406,
+        -22.88268
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1034.3,
+            "duration": 744.7,
+            "steps": [
+              {
+                "distance": 395.0,
+                "duration": 284.4,
+                "type": 11,
+                "instruction": "Head southwest on Rua D",
+                "name": "Rua D",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 272.2,
+                "duration": 196.0,
+                "type": 6,
+                "instruction": "Continue straight onto Rua E",
+                "name": "Rua E",
+                "way_points": [
+                  3,
+                  7
+                ]
+              },
+              {
+                "distance": 196.2,
+                "duration": 141.2,
+                "type": 0,
+                "instruction": "Turn left onto Rua Cotiporã",
+                "name": "Rua Cotiporã",
+                "way_points": [
+                  7,
+                  10
+                ]
+              },
+              {
+                "distance": 55.7,
+                "duration": 40.1,
+                "type": 0,
+                "instruction": "Turn left onto Rua Pocinhos",
+                "name": "Rua Pocinhos",
+                "way_points": [
+                  10,
+                  11
+                ]
+              },
+              {
+                "distance": 57.5,
+                "duration": 41.4,
+                "type": 1,
+                "instruction": "Turn right onto Praça Junqueiro",
+                "name": "Praça Junqueiro",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 57.7,
+                "duration": 41.6,
+                "type": 1,
+                "instruction": "Turn right onto Rua Coremas",
+                "name": "Rua Coremas",
+                "way_points": [
+                  12,
+                  13
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Rua Coremas, straight ahead",
+                "name": "-",
+                "way_points": [
+                  13,
+                  13
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          13
+        ],
+        "summary": {
+          "distance": 1034.3,
+          "duration": 744.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.603406,
+            -22.88268
+          ],
+          [
+            -43.603625,
+            -22.883089
+          ],
+          [
+            -43.604139,
+            -22.88416
+          ],
+          [
+            -43.604971,
+            -22.885926
+          ],
+          [
+            -43.605088,
+            -22.886089
+          ],
+          [
+            -43.605146,
+            -22.886158
+          ],
+          [
+            -43.606079,
+            -22.887331
+          ],
+          [
+            -43.606531,
+            -22.887908
+          ],
+          [
+            -43.606011,
+            -22.888271
+          ],
+          [
+            -43.60548,
+            -22.888622
+          ],
+          [
+            -43.604985,
+            -22.888949
+          ],
+          [
+            -43.604658,
+            -22.888549
+          ],
+          [
+            -43.604198,
+            -22.888846
+          ],
+          [
+            -43.604513,
+            -22.889276
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756392248969,
+    "query": {
+      "coordinates": [
+        [
+          -43.6034062,
+          -22.8826803
+        ],
+        [
+          -43.6045135,
+          -22.8892762
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

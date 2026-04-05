@@ -1,0 +1,172 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    11.445741,
+    48.191676,
+    11.450873,
+    48.194484
+  ],
+  "features": [
+    {
+      "bbox": [
+        11.445741,
+        48.191676,
+        11.450873,
+        48.194484
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 584.3,
+            "duration": 420.7,
+            "steps": [
+              {
+                "distance": 209.0,
+                "duration": 150.5,
+                "type": 11,
+                "instruction": "Head east",
+                "name": "-",
+                "way_points": [
+                  0,
+                  4
+                ]
+              },
+              {
+                "distance": 214.1,
+                "duration": 154.2,
+                "type": 1,
+                "instruction": "Turn right onto Paul-Ehrlich-Weg",
+                "name": "Paul-Ehrlich-Weg",
+                "way_points": [
+                  4,
+                  9
+                ]
+              },
+              {
+                "distance": 144.0,
+                "duration": 103.7,
+                "type": 0,
+                "instruction": "Turn left onto Hauseggerstraße",
+                "name": "Hauseggerstraße",
+                "way_points": [
+                  9,
+                  10
+                ]
+              },
+              {
+                "distance": 17.2,
+                "duration": 12.4,
+                "type": 0,
+                "instruction": "Turn left onto Lauthstraße",
+                "name": "Lauthstraße",
+                "way_points": [
+                  10,
+                  11
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Lauthstraße, straight ahead",
+                "name": "-",
+                "way_points": [
+                  11,
+                  11
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          11
+        ],
+        "summary": {
+          "distance": 584.3,
+          "duration": 420.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            11.445741,
+            48.191676
+          ],
+          [
+            11.446342,
+            48.191825
+          ],
+          [
+            11.448088,
+            48.19234
+          ],
+          [
+            11.448177,
+            48.192407
+          ],
+          [
+            11.448224,
+            48.192491
+          ],
+          [
+            11.448728,
+            48.19263
+          ],
+          [
+            11.449727,
+            48.192899
+          ],
+          [
+            11.449939,
+            48.192987
+          ],
+          [
+            11.450324,
+            48.193097
+          ],
+          [
+            11.450873,
+            48.193254
+          ],
+          [
+            11.450269,
+            48.194484
+          ],
+          [
+            11.450053,
+            48.194426
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756138684178,
+    "query": {
+      "coordinates": [
+        [
+          11.4457414,
+          48.1916755
+        ],
+        [
+          11.4500533,
+          48.1944264
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

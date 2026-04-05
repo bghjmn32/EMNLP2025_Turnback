@@ -1,0 +1,221 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.53625,
+    -33.903983,
+    18.543243,
+    -33.899067
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.53625,
+        -33.903983,
+        18.543243,
+        -33.899067
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1197.6,
+            "duration": 862.3,
+            "steps": [
+              {
+                "distance": 215.7,
+                "duration": 155.3,
+                "type": 11,
+                "instruction": "Head southeast on Bloem Street",
+                "name": "Bloem Street",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 230.5,
+                "duration": 166.0,
+                "type": 0,
+                "instruction": "Turn left onto Smartt Road",
+                "name": "Smartt Road",
+                "way_points": [
+                  2,
+                  5
+                ]
+              },
+              {
+                "distance": 305.7,
+                "duration": 220.1,
+                "type": 1,
+                "instruction": "Turn right onto Townsend Street",
+                "name": "Townsend Street",
+                "way_points": [
+                  5,
+                  8
+                ]
+              },
+              {
+                "distance": 190.8,
+                "duration": 137.4,
+                "type": 0,
+                "instruction": "Turn left onto Piet Retief Street",
+                "name": "Piet Retief Street",
+                "way_points": [
+                  8,
+                  10
+                ]
+              },
+              {
+                "distance": 156.0,
+                "duration": 112.3,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  10,
+                  13
+                ]
+              },
+              {
+                "distance": 22.8,
+                "duration": 16.4,
+                "type": 0,
+                "instruction": "Turn left onto Beaufort Street",
+                "name": "Beaufort Street",
+                "way_points": [
+                  13,
+                  14
+                ]
+              },
+              {
+                "distance": 76.2,
+                "duration": 54.9,
+                "type": 1,
+                "instruction": "Turn right onto Gregory Road",
+                "name": "Gregory Road",
+                "way_points": [
+                  14,
+                  15
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Gregory Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  15,
+                  15
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          15
+        ],
+        "summary": {
+          "distance": 1197.6,
+          "duration": 862.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.53625,
+            -33.899067
+          ],
+          [
+            18.536287,
+            -33.899121
+          ],
+          [
+            18.536745,
+            -33.900959
+          ],
+          [
+            18.537534,
+            -33.900816
+          ],
+          [
+            18.538346,
+            -33.900688
+          ],
+          [
+            18.53919,
+            -33.900537
+          ],
+          [
+            18.53952,
+            -33.901872
+          ],
+          [
+            18.539768,
+            -33.902887
+          ],
+          [
+            18.539848,
+            -33.903231
+          ],
+          [
+            18.541734,
+            -33.902906
+          ],
+          [
+            18.541872,
+            -33.902882
+          ],
+          [
+            18.54214,
+            -33.903967
+          ],
+          [
+            18.542171,
+            -33.903983
+          ],
+          [
+            18.542485,
+            -33.903934
+          ],
+          [
+            18.542435,
+            -33.903733
+          ],
+          [
+            18.543243,
+            -33.903592
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756804756016,
+    "query": {
+      "coordinates": [
+        [
+          18.5362496,
+          -33.8990666
+        ],
+        [
+          18.5432428,
+          -33.903592
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

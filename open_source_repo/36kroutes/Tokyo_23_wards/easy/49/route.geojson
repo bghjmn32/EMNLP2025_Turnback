@@ -1,0 +1,182 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    139.632962,
+    35.727878,
+    139.636556,
+    35.732123
+  ],
+  "features": [
+    {
+      "bbox": [
+        139.632962,
+        35.727878,
+        139.636556,
+        35.732123
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 589.0,
+            "duration": 424.1,
+            "steps": [
+              {
+                "distance": 559.2,
+                "duration": 402.6,
+                "type": 11,
+                "instruction": "Head northwest on さくら通り",
+                "name": "さくら通り",
+                "way_points": [
+                  0,
+                  18
+                ]
+              },
+              {
+                "distance": 29.9,
+                "duration": 21.5,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  18,
+                  19
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  19,
+                  19
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          19
+        ],
+        "summary": {
+          "distance": 589.0,
+          "duration": 424.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            139.636556,
+            35.727878
+          ],
+          [
+            139.636478,
+            35.727971
+          ],
+          [
+            139.636201,
+            35.728336
+          ],
+          [
+            139.635971,
+            35.728636
+          ],
+          [
+            139.63591,
+            35.728682
+          ],
+          [
+            139.635715,
+            35.728832
+          ],
+          [
+            139.635575,
+            35.729034
+          ],
+          [
+            139.635379,
+            35.729247
+          ],
+          [
+            139.635158,
+            35.729502
+          ],
+          [
+            139.635076,
+            35.729618
+          ],
+          [
+            139.634871,
+            35.729924
+          ],
+          [
+            139.634669,
+            35.730215
+          ],
+          [
+            139.634515,
+            35.730409
+          ],
+          [
+            139.634344,
+            35.730613
+          ],
+          [
+            139.633711,
+            35.731443
+          ],
+          [
+            139.633616,
+            35.731572
+          ],
+          [
+            139.633453,
+            35.731794
+          ],
+          [
+            139.633413,
+            35.73183
+          ],
+          [
+            139.633279,
+            35.732123
+          ],
+          [
+            139.632962,
+            35.732045
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756133009779,
+    "query": {
+      "coordinates": [
+        [
+          139.6365563,
+          35.7278784
+        ],
+        [
+          139.6329624,
+          35.7320445
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

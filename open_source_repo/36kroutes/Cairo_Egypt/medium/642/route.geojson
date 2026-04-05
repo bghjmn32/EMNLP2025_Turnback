@@ -1,0 +1,208 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    31.771561,
+    30.271905,
+    31.781949,
+    30.279949
+  ],
+  "features": [
+    {
+      "bbox": [
+        31.771561,
+        30.271905,
+        31.781949,
+        30.279949
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1707.7,
+            "duration": 1229.5,
+            "steps": [
+              {
+                "distance": 24.6,
+                "duration": 17.7,
+                "type": 11,
+                "instruction": "Head southwest",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 401.3,
+                "duration": 288.9,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  5
+                ]
+              },
+              {
+                "distance": 927.0,
+                "duration": 667.5,
+                "type": 1,
+                "instruction": "Turn right onto شارع خوفو",
+                "name": "شارع خوفو",
+                "way_points": [
+                  5,
+                  14
+                ]
+              },
+              {
+                "distance": 354.8,
+                "duration": 255.5,
+                "type": 1,
+                "instruction": "Turn right onto شارع سيتي",
+                "name": "شارع سيتي",
+                "way_points": [
+                  14,
+                  20
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at شارع سيتي, straight ahead",
+                "name": "-",
+                "way_points": [
+                  20,
+                  20
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          20
+        ],
+        "summary": {
+          "distance": 1707.7,
+          "duration": 1229.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            31.774369,
+            30.272043
+          ],
+          [
+            31.774169,
+            30.271905
+          ],
+          [
+            31.774012,
+            30.272075
+          ],
+          [
+            31.773576,
+            30.272546
+          ],
+          [
+            31.773304,
+            30.27284
+          ],
+          [
+            31.771561,
+            30.274725
+          ],
+          [
+            31.77278,
+            30.275565
+          ],
+          [
+            31.773321,
+            30.275943
+          ],
+          [
+            31.773792,
+            30.276271
+          ],
+          [
+            31.773876,
+            30.276329
+          ],
+          [
+            31.774122,
+            30.276501
+          ],
+          [
+            31.77426,
+            30.276597
+          ],
+          [
+            31.776499,
+            30.278161
+          ],
+          [
+            31.776629,
+            30.278251
+          ],
+          [
+            31.779085,
+            30.279949
+          ],
+          [
+            31.779988,
+            30.279313
+          ],
+          [
+            31.780284,
+            30.279105
+          ],
+          [
+            31.780359,
+            30.279052
+          ],
+          [
+            31.780862,
+            30.278698
+          ],
+          [
+            31.781402,
+            30.278322
+          ],
+          [
+            31.781949,
+            30.277932
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756733835320,
+    "query": {
+      "coordinates": [
+        [
+          31.7743693,
+          30.2720426
+        ],
+        [
+          31.7819494,
+          30.2779324
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

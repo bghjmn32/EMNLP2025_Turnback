@@ -1,0 +1,245 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -104.850385,
+    39.72569,
+    -104.847774,
+    39.727486
+  ],
+  "features": [
+    {
+      "bbox": [
+        -104.850385,
+        39.72569,
+        -104.847774,
+        39.727486
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 482.2,
+            "duration": 347.1,
+            "steps": [
+              {
+                "distance": 10.0,
+                "duration": 7.2,
+                "type": 11,
+                "instruction": "Head east on East 6th Avenue, CO 30",
+                "name": "East 6th Avenue, CO 30",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 17.2,
+                "duration": 12.4,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 213.3,
+                "duration": 153.5,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  2,
+                  4
+                ]
+              },
+              {
+                "distance": 4.7,
+                "duration": 3.4,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "distance": 5.5,
+                "duration": 4.0,
+                "type": 6,
+                "instruction": "Continue straight",
+                "name": "-",
+                "way_points": [
+                  5,
+                  7
+                ]
+              },
+              {
+                "distance": 65.2,
+                "duration": 46.9,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  7,
+                  11
+                ]
+              },
+              {
+                "distance": 166.3,
+                "duration": 119.7,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  11,
+                  21
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  21,
+                  21
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          21
+        ],
+        "summary": {
+          "distance": 482.2,
+          "duration": 347.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -104.850385,
+            39.72569
+          ],
+          [
+            -104.850268,
+            39.725691
+          ],
+          [
+            -104.850268,
+            39.725846
+          ],
+          [
+            -104.84794,
+            39.725873
+          ],
+          [
+            -104.847775,
+            39.725873
+          ],
+          [
+            -104.847775,
+            39.725916
+          ],
+          [
+            -104.847774,
+            39.725945
+          ],
+          [
+            -104.847774,
+            39.725966
+          ],
+          [
+            -104.847793,
+            39.725966
+          ],
+          [
+            -104.847916,
+            39.725994
+          ],
+          [
+            -104.84811,
+            39.725998
+          ],
+          [
+            -104.848531,
+            39.725991
+          ],
+          [
+            -104.848534,
+            39.726149
+          ],
+          [
+            -104.848537,
+            39.72631
+          ],
+          [
+            -104.84854,
+            39.72646
+          ],
+          [
+            -104.848543,
+            39.726627
+          ],
+          [
+            -104.848545,
+            39.726746
+          ],
+          [
+            -104.848547,
+            39.726888
+          ],
+          [
+            -104.84855,
+            39.727043
+          ],
+          [
+            -104.848553,
+            39.72721
+          ],
+          [
+            -104.848556,
+            39.727368
+          ],
+          [
+            -104.848558,
+            39.727486
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306234820,
+    "query": {
+      "coordinates": [
+        [
+          -104.8503854,
+          39.7256895
+        ],
+        [
+          -104.848558,
+          39.7274863
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.086118,
+    19.476116,
+    -99.084361,
+    19.482666
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.086118,
+        19.476116,
+        -99.084361,
+        19.482666
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 903.8,
+            "duration": 650.7,
+            "steps": [
+              {
+                "distance": 63.3,
+                "duration": 45.6,
+                "type": 11,
+                "instruction": "Head south on Camino de la Satisfacción A",
+                "name": "Camino de la Satisfacción A",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 16.0,
+                "duration": 11.5,
+                "type": 0,
+                "instruction": "Turn left onto Camino de la Liga",
+                "name": "Camino de la Liga",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 583.6,
+                "duration": 420.2,
+                "type": 1,
+                "instruction": "Turn right onto Calle Puerto Ensenada",
+                "name": "Calle Puerto Ensenada",
+                "way_points": [
+                  2,
+                  8
+                ]
+              },
+              {
+                "distance": 186.8,
+                "duration": 134.5,
+                "type": 0,
+                "instruction": "Turn left onto Calle Puerto Tampico",
+                "name": "Calle Puerto Tampico",
+                "way_points": [
+                  8,
+                  12
+                ]
+              },
+              {
+                "distance": 54.1,
+                "duration": 39.0,
+                "type": 1,
+                "instruction": "Turn right onto Calle Puerto de Acapulco",
+                "name": "Calle Puerto de Acapulco",
+                "way_points": [
+                  12,
+                  13
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Puerto de Acapulco, straight ahead",
+                "name": "-",
+                "way_points": [
+                  13,
+                  13
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          13
+        ],
+        "summary": {
+          "distance": 903.8,
+          "duration": 650.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.085231,
+            19.482666
+          ],
+          [
+            -99.085343,
+            19.482107
+          ],
+          [
+            -99.085204,
+            19.482047
+          ],
+          [
+            -99.085374,
+            19.481147
+          ],
+          [
+            -99.085426,
+            19.480802
+          ],
+          [
+            -99.085487,
+            19.480477
+          ],
+          [
+            -99.085776,
+            19.478885
+          ],
+          [
+            -99.086057,
+            19.477238
+          ],
+          [
+            -99.086118,
+            19.47687
+          ],
+          [
+            -99.085692,
+            19.476812
+          ],
+          [
+            -99.085261,
+            19.476733
+          ],
+          [
+            -99.084826,
+            19.476661
+          ],
+          [
+            -99.084361,
+            19.476595
+          ],
+          [
+            -99.084451,
+            19.476116
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306317872,
+    "query": {
+      "coordinates": [
+        [
+          -99.0852308,
+          19.4826664
+        ],
+        [
+          -99.084451,
+          19.476116
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

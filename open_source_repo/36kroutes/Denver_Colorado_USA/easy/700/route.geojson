@@ -1,0 +1,180 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -104.981761,
+    39.662257,
+    -104.975814,
+    39.6677
+  ],
+  "features": [
+    {
+      "bbox": [
+        -104.981761,
+        39.662257,
+        -104.975814,
+        39.6677
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1109.4,
+            "duration": 798.8,
+            "steps": [
+              {
+                "distance": 399.5,
+                "duration": 287.6,
+                "type": 11,
+                "instruction": "Head south on South Pennsylvania Street",
+                "name": "South Pennsylvania Street",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 201.0,
+                "duration": 144.7,
+                "type": 0,
+                "instruction": "Turn left onto East Bates Avenue",
+                "name": "East Bates Avenue",
+                "way_points": [
+                  3,
+                  5
+                ]
+              },
+              {
+                "distance": 198.7,
+                "duration": 143.1,
+                "type": 1,
+                "instruction": "Turn right onto South Washington Street",
+                "name": "South Washington Street",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 310.3,
+                "duration": 223.4,
+                "type": 0,
+                "instruction": "Turn left onto East Cornell Avenue",
+                "name": "East Cornell Avenue",
+                "way_points": [
+                  6,
+                  13
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at East Cornell Avenue, straight ahead",
+                "name": "-",
+                "way_points": [
+                  13,
+                  13
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          13
+        ],
+        "summary": {
+          "distance": 1109.4,
+          "duration": 798.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -104.981734,
+            39.6677
+          ],
+          [
+            -104.981727,
+            39.665886
+          ],
+          [
+            -104.981755,
+            39.66505
+          ],
+          [
+            -104.981761,
+            39.664108
+          ],
+          [
+            -104.981206,
+            39.664108
+          ],
+          [
+            -104.979414,
+            39.664109
+          ],
+          [
+            -104.979433,
+            39.662322
+          ],
+          [
+            -104.978879,
+            39.662323
+          ],
+          [
+            -104.97832,
+            39.662323
+          ],
+          [
+            -104.978231,
+            39.662303
+          ],
+          [
+            -104.978114,
+            39.66229
+          ],
+          [
+            -104.977554,
+            39.662284
+          ],
+          [
+            -104.976869,
+            39.662277
+          ],
+          [
+            -104.975814,
+            39.662257
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306737475,
+    "query": {
+      "coordinates": [
+        [
+          -104.9817343,
+          39.6677003
+        ],
+        [
+          -104.975814,
+          39.662257
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

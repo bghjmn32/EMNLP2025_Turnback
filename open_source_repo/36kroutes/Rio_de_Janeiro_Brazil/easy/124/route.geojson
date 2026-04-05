@@ -1,0 +1,160 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.572666,
+    -22.874408,
+    -43.570754,
+    -22.871106
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.572666,
+        -22.874408,
+        -43.570754,
+        -22.871106
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 567.8,
+            "duration": 408.8,
+            "steps": [
+              {
+                "distance": 40.4,
+                "duration": 29.1,
+                "type": 11,
+                "instruction": "Head north on Rua José Tales Valanzuela",
+                "name": "Rua José Tales Valanzuela",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 160.5,
+                "duration": 115.6,
+                "type": 0,
+                "instruction": "Turn left onto Rua Manoel Antônio de Barros",
+                "name": "Rua Manoel Antônio de Barros",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 338.3,
+                "duration": 243.6,
+                "type": 1,
+                "instruction": "Turn right onto Rua José Mauricio Melo",
+                "name": "Rua José Mauricio Melo",
+                "way_points": [
+                  2,
+                  7
+                ]
+              },
+              {
+                "distance": 28.7,
+                "duration": 20.6,
+                "type": 1,
+                "instruction": "Turn right onto Rua Artur Santos",
+                "name": "Rua Artur Santos",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Rua Artur Santos, straight ahead",
+                "name": "-",
+                "way_points": [
+                  8,
+                  8
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          8
+        ],
+        "summary": {
+          "distance": 567.8,
+          "duration": 408.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.570754,
+            -22.874408
+          ],
+          [
+            -43.570793,
+            -22.874046
+          ],
+          [
+            -43.572355,
+            -22.874156
+          ],
+          [
+            -43.572401,
+            -22.873696
+          ],
+          [
+            -43.572409,
+            -22.873612
+          ],
+          [
+            -43.572542,
+            -22.872389
+          ],
+          [
+            -43.572611,
+            -22.87179
+          ],
+          [
+            -43.572666,
+            -22.871128
+          ],
+          [
+            -43.572387,
+            -22.871106
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756390752558,
+    "query": {
+      "coordinates": [
+        [
+          -43.5707545,
+          -22.8744077
+        ],
+        [
+          -43.572387,
+          -22.8711062
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

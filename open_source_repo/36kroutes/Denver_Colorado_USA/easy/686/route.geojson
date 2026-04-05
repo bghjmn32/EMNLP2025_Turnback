@@ -1,0 +1,167 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -104.884755,
+    39.868509,
+    -104.881668,
+    39.87126
+  ],
+  "features": [
+    {
+      "bbox": [
+        -104.884755,
+        39.868509,
+        -104.881668,
+        39.87126
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 775.3,
+            "duration": 558.2,
+            "steps": [
+              {
+                "distance": 208.0,
+                "duration": 149.7,
+                "type": 11,
+                "instruction": "Head east",
+                "name": "-",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 56.8,
+                "duration": 40.9,
+                "type": 1,
+                "instruction": "Turn right onto Alton Way",
+                "name": "Alton Way",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 233.1,
+                "duration": 167.8,
+                "type": 1,
+                "instruction": "Turn right onto East 96th Avenue",
+                "name": "East 96th Avenue",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 248.0,
+                "duration": 178.6,
+                "type": 0,
+                "instruction": "Turn left onto Yosemite Street",
+                "name": "Yosemite Street",
+                "way_points": [
+                  4,
+                  6
+                ]
+              },
+              {
+                "distance": 29.4,
+                "duration": 21.2,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  7,
+                  7
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          7
+        ],
+        "summary": {
+          "distance": 775.3,
+          "duration": 558.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -104.884109,
+            39.87126
+          ],
+          [
+            -104.882226,
+            39.871254
+          ],
+          [
+            -104.881672,
+            39.871252
+          ],
+          [
+            -104.881668,
+            39.870741
+          ],
+          [
+            -104.884399,
+            39.87074
+          ],
+          [
+            -104.884402,
+            39.869447
+          ],
+          [
+            -104.884411,
+            39.86851
+          ],
+          [
+            -104.884755,
+            39.868509
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306652846,
+    "query": {
+      "coordinates": [
+        [
+          -104.8841089,
+          39.8712602
+        ],
+        [
+          -104.8847553,
+          39.8685088
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

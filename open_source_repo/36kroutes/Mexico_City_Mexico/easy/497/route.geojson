@@ -1,0 +1,220 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.125295,
+    19.427648,
+    -99.122104,
+    19.432564
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.125295,
+        19.427648,
+        -99.122104,
+        19.432564
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 829.7,
+            "duration": 597.4,
+            "steps": [
+              {
+                "distance": 28.6,
+                "duration": 20.6,
+                "type": 11,
+                "instruction": "Head west on Calle Emiliano Zapata",
+                "name": "Calle Emiliano Zapata",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 212.4,
+                "duration": 152.9,
+                "type": 0,
+                "instruction": "Turn left onto Calle el Rosario",
+                "name": "Calle el Rosario",
+                "way_points": [
+                  1,
+                  4
+                ]
+              },
+              {
+                "distance": 79.2,
+                "duration": 57.0,
+                "type": 1,
+                "instruction": "Turn right onto Calle Corregidora",
+                "name": "Calle Corregidora",
+                "way_points": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "distance": 192.2,
+                "duration": 138.4,
+                "type": 0,
+                "instruction": "Turn left onto Calle Santa Escuela",
+                "name": "Calle Santa Escuela",
+                "way_points": [
+                  5,
+                  7
+                ]
+              },
+              {
+                "distance": 87.3,
+                "duration": 62.8,
+                "type": 1,
+                "instruction": "Turn right onto Calle Zavala",
+                "name": "Calle Zavala",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 97.9,
+                "duration": 70.5,
+                "type": 0,
+                "instruction": "Turn left onto Calle Pradera",
+                "name": "Calle Pradera",
+                "way_points": [
+                  8,
+                  10
+                ]
+              },
+              {
+                "distance": 56.9,
+                "duration": 41.0,
+                "type": 1,
+                "instruction": "Turn right onto Calle General Anaya",
+                "name": "Calle General Anaya",
+                "way_points": [
+                  10,
+                  11
+                ]
+              },
+              {
+                "distance": 75.3,
+                "duration": 54.2,
+                "type": 0,
+                "instruction": "Turn left onto Anillo de Circunvalación, EJE 1 OTE",
+                "name": "Anillo de Circunvalación, EJE 1 OTE",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Anillo de Circunvalación, EJE 1 OTE, straight ahead",
+                "name": "-",
+                "way_points": [
+                  12,
+                  12
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          12
+        ],
+        "summary": {
+          "distance": 829.7,
+          "duration": 597.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.122104,
+            19.432539
+          ],
+          [
+            -99.122376,
+            19.432564
+          ],
+          [
+            -99.122449,
+            19.431913
+          ],
+          [
+            -99.12251,
+            19.431419
+          ],
+          [
+            -99.122659,
+            19.430674
+          ],
+          [
+            -99.123412,
+            19.430736
+          ],
+          [
+            -99.123603,
+            19.429655
+          ],
+          [
+            -99.123715,
+            19.429031
+          ],
+          [
+            -99.12454,
+            19.429136
+          ],
+          [
+            -99.124604,
+            19.428663
+          ],
+          [
+            -99.124659,
+            19.428263
+          ],
+          [
+            -99.125198,
+            19.428318
+          ],
+          [
+            -99.125295,
+            19.427648
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306301137,
+    "query": {
+      "coordinates": [
+        [
+          -99.1221042,
+          19.4325389
+        ],
+        [
+          -99.1252955,
+          19.4276475
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

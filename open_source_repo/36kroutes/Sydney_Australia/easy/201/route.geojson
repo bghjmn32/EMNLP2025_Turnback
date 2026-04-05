@@ -1,0 +1,173 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    151.145452,
+    -33.707859,
+    151.147229,
+    -33.702468
+  ],
+  "features": [
+    {
+      "bbox": [
+        151.145452,
+        -33.707859,
+        151.147229,
+        -33.702468
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 694.3,
+            "duration": 499.9,
+            "steps": [
+              {
+                "distance": 322.7,
+                "duration": 232.3,
+                "type": 11,
+                "instruction": "Head northwest",
+                "name": "-",
+                "way_points": [
+                  0,
+                  5
+                ]
+              },
+              {
+                "distance": 8.7,
+                "duration": 6.3,
+                "type": 1,
+                "instruction": "Turn right onto Gawler Place",
+                "name": "Gawler Place",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 362.9,
+                "duration": 261.3,
+                "type": 0,
+                "instruction": "Turn left onto Bobbin Head Road",
+                "name": "Bobbin Head Road",
+                "way_points": [
+                  6,
+                  14
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Bobbin Head Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  14,
+                  14
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          14
+        ],
+        "summary": {
+          "distance": 694.3,
+          "duration": 499.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            151.146967,
+            -33.707859
+          ],
+          [
+            151.145517,
+            -33.705854
+          ],
+          [
+            151.145465,
+            -33.705767
+          ],
+          [
+            151.145452,
+            -33.705701
+          ],
+          [
+            151.145468,
+            -33.70535
+          ],
+          [
+            151.145474,
+            -33.705304
+          ],
+          [
+            151.145567,
+            -33.705318
+          ],
+          [
+            151.145627,
+            -33.70507
+          ],
+          [
+            151.146101,
+            -33.703855
+          ],
+          [
+            151.146181,
+            -33.703648
+          ],
+          [
+            151.146348,
+            -33.703222
+          ],
+          [
+            151.146435,
+            -33.703068
+          ],
+          [
+            151.146549,
+            -33.702932
+          ],
+          [
+            151.146768,
+            -33.702768
+          ],
+          [
+            151.147229,
+            -33.702468
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756391152084,
+    "query": {
+      "coordinates": [
+        [
+          151.1469669,
+          -33.7078592
+        ],
+        [
+          151.1472285,
+          -33.7024679
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

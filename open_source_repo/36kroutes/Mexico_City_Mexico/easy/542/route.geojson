@@ -1,0 +1,194 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.199937,
+    19.452613,
+    -99.195645,
+    19.455399
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.199937,
+        19.452613,
+        -99.195645,
+        19.455399
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 567.9,
+            "duration": 408.9,
+            "steps": [
+              {
+                "distance": 22.5,
+                "duration": 16.2,
+                "type": 11,
+                "instruction": "Head northwest",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 387.6,
+                "duration": 279.1,
+                "type": 0,
+                "instruction": "Turn left onto Calzada Legaria",
+                "name": "Calzada Legaria",
+                "way_points": [
+                  1,
+                  10
+                ]
+              },
+              {
+                "distance": 157.8,
+                "duration": 113.6,
+                "type": 7,
+                "instruction": "Enter the roundabout and take the 2nd exit onto Calzada Legaria",
+                "name": "Calzada Legaria",
+                "exit_number": 2,
+                "way_points": [
+                  10,
+                  19
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calzada Legaria, straight ahead",
+                "name": "-",
+                "way_points": [
+                  19,
+                  19
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          19
+        ],
+        "summary": {
+          "distance": 567.9,
+          "duration": 408.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.195645,
+            19.455242
+          ],
+          [
+            -99.19578,
+            19.455399
+          ],
+          [
+            -99.196365,
+            19.455003
+          ],
+          [
+            -99.196703,
+            19.454775
+          ],
+          [
+            -99.196879,
+            19.454657
+          ],
+          [
+            -99.197065,
+            19.454522
+          ],
+          [
+            -99.197504,
+            19.454239
+          ],
+          [
+            -99.197705,
+            19.454109
+          ],
+          [
+            -99.197895,
+            19.453986
+          ],
+          [
+            -99.197956,
+            19.453946
+          ],
+          [
+            -99.198811,
+            19.453405
+          ],
+          [
+            -99.198885,
+            19.453421
+          ],
+          [
+            -99.19896,
+            19.453418
+          ],
+          [
+            -99.199032,
+            19.453394
+          ],
+          [
+            -99.199093,
+            19.453352
+          ],
+          [
+            -99.199145,
+            19.453286
+          ],
+          [
+            -99.199172,
+            19.453208
+          ],
+          [
+            -99.19917,
+            19.453125
+          ],
+          [
+            -99.199551,
+            19.452862
+          ],
+          [
+            -99.199937,
+            19.452613
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306444199,
+    "query": {
+      "coordinates": [
+        [
+          -99.195645,
+          19.4552421
+        ],
+        [
+          -99.1999371,
+          19.4526127
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

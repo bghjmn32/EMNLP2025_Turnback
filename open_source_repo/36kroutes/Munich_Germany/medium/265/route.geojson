@@ -1,0 +1,310 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    11.65743,
+    48.109372,
+    11.664967,
+    48.120476
+  ],
+  "features": [
+    {
+      "bbox": [
+        11.65743,
+        48.109372,
+        11.664967,
+        48.120476
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1492.0,
+            "duration": 1074.2,
+            "steps": [
+              {
+                "distance": 34.8,
+                "duration": 25.0,
+                "type": 11,
+                "instruction": "Head north",
+                "name": "-",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 137.8,
+                "duration": 99.2,
+                "type": 0,
+                "instruction": "Turn left onto Etzwiesenstraße",
+                "name": "Etzwiesenstraße",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 47.2,
+                "duration": 34.0,
+                "type": 1,
+                "instruction": "Turn right onto Etzwiesenstraße",
+                "name": "Etzwiesenstraße",
+                "way_points": [
+                  3,
+                  5
+                ]
+              },
+              {
+                "distance": 16.7,
+                "duration": 12.0,
+                "type": 1,
+                "instruction": "Turn right onto Zehntfeldstraße",
+                "name": "Zehntfeldstraße",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 1185.4,
+                "duration": 853.4,
+                "type": 0,
+                "instruction": "Turn left onto Eigerstraße",
+                "name": "Eigerstraße",
+                "way_points": [
+                  6,
+                  39
+                ]
+              },
+              {
+                "distance": 70.1,
+                "duration": 50.5,
+                "type": 1,
+                "instruction": "Turn right onto Hanslbauerstraße",
+                "name": "Hanslbauerstraße",
+                "way_points": [
+                  39,
+                  40
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Hanslbauerstraße, straight ahead",
+                "name": "-",
+                "way_points": [
+                  40,
+                  40
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          40
+        ],
+        "summary": {
+          "distance": 1492.0,
+          "duration": 1074.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            11.659037,
+            48.109372
+          ],
+          [
+            11.659039,
+            48.109619
+          ],
+          [
+            11.65904,
+            48.109685
+          ],
+          [
+            11.65743,
+            48.110302
+          ],
+          [
+            11.657477,
+            48.110354
+          ],
+          [
+            11.657754,
+            48.110667
+          ],
+          [
+            11.657952,
+            48.110596
+          ],
+          [
+            11.658411,
+            48.111133
+          ],
+          [
+            11.658808,
+            48.1116
+          ],
+          [
+            11.659072,
+            48.111909
+          ],
+          [
+            11.660745,
+            48.113957
+          ],
+          [
+            11.660974,
+            48.11423
+          ],
+          [
+            11.661468,
+            48.114818
+          ],
+          [
+            11.661658,
+            48.115044
+          ],
+          [
+            11.661876,
+            48.115299
+          ],
+          [
+            11.662075,
+            48.115568
+          ],
+          [
+            11.662419,
+            48.116059
+          ],
+          [
+            11.662579,
+            48.116287
+          ],
+          [
+            11.662592,
+            48.116306
+          ],
+          [
+            11.662755,
+            48.116538
+          ],
+          [
+            11.662931,
+            48.11679
+          ],
+          [
+            11.663003,
+            48.116892
+          ],
+          [
+            11.663103,
+            48.117034
+          ],
+          [
+            11.663148,
+            48.117098
+          ],
+          [
+            11.663276,
+            48.117281
+          ],
+          [
+            11.663434,
+            48.117507
+          ],
+          [
+            11.66362,
+            48.117771
+          ],
+          [
+            11.663784,
+            48.118006
+          ],
+          [
+            11.66379,
+            48.118014
+          ],
+          [
+            11.663946,
+            48.118236
+          ],
+          [
+            11.663965,
+            48.118263
+          ],
+          [
+            11.664124,
+            48.11849
+          ],
+          [
+            11.664285,
+            48.11872
+          ],
+          [
+            11.664483,
+            48.119001
+          ],
+          [
+            11.664645,
+            48.119234
+          ],
+          [
+            11.664823,
+            48.119487
+          ],
+          [
+            11.664967,
+            48.11971
+          ],
+          [
+            11.664959,
+            48.11974
+          ],
+          [
+            11.664913,
+            48.119768
+          ],
+          [
+            11.664478,
+            48.119935
+          ],
+          [
+            11.664962,
+            48.120476
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756141863911,
+    "query": {
+      "coordinates": [
+        [
+          11.659037,
+          48.1093722
+        ],
+        [
+          11.6649617,
+          48.1204761
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

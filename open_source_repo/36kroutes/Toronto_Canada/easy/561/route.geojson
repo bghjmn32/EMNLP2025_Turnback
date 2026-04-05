@@ -1,0 +1,222 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -79.467578,
+    43.705201,
+    -79.455517,
+    43.707592
+  ],
+  "features": [
+    {
+      "bbox": [
+        -79.467578,
+        43.705201,
+        -79.455517,
+        43.707592
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1187.4,
+            "duration": 854.9,
+            "steps": [
+              {
+                "distance": 30.0,
+                "duration": 21.6,
+                "type": 11,
+                "instruction": "Head north on Lotherton Pathway",
+                "name": "Lotherton Pathway",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 204.1,
+                "duration": 146.9,
+                "type": 1,
+                "instruction": "Turn right onto Lotherton Pathway",
+                "name": "Lotherton Pathway",
+                "way_points": [
+                  1,
+                  6
+                ]
+              },
+              {
+                "distance": 72.2,
+                "duration": 52.0,
+                "type": 1,
+                "instruction": "Turn right onto Caledonia Road",
+                "name": "Caledonia Road",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 773.7,
+                "duration": 557.1,
+                "type": 0,
+                "instruction": "Turn left onto Glen Park Avenue",
+                "name": "Glen Park Avenue",
+                "way_points": [
+                  7,
+                  15
+                ]
+              },
+              {
+                "distance": 103.5,
+                "duration": 74.5,
+                "type": 1,
+                "instruction": "Turn right onto Ennerdale Street",
+                "name": "Ennerdale Street",
+                "way_points": [
+                  15,
+                  17
+                ]
+              },
+              {
+                "distance": 3.8,
+                "duration": 2.8,
+                "type": 0,
+                "instruction": "Turn left onto Glencairn Avenue",
+                "name": "Glencairn Avenue",
+                "way_points": [
+                  17,
+                  18
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Glencairn Avenue, straight ahead",
+                "name": "-",
+                "way_points": [
+                  18,
+                  18
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          18
+        ],
+        "summary": {
+          "distance": 1187.4,
+          "duration": 854.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -79.467578,
+            43.705201
+          ],
+          [
+            -79.467574,
+            43.705471
+          ],
+          [
+            -79.467335,
+            43.705477
+          ],
+          [
+            -79.467047,
+            43.705554
+          ],
+          [
+            -79.466772,
+            43.70565
+          ],
+          [
+            -79.465998,
+            43.705828
+          ],
+          [
+            -79.465141,
+            43.705956
+          ],
+          [
+            -79.464957,
+            43.70532
+          ],
+          [
+            -79.464693,
+            43.705406
+          ],
+          [
+            -79.464439,
+            43.705609
+          ],
+          [
+            -79.464289,
+            43.705688
+          ],
+          [
+            -79.464138,
+            43.705731
+          ],
+          [
+            -79.461199,
+            43.706368
+          ],
+          [
+            -79.460081,
+            43.706649
+          ],
+          [
+            -79.458558,
+            43.706989
+          ],
+          [
+            -79.455924,
+            43.707592
+          ],
+          [
+            -79.455776,
+            43.707227
+          ],
+          [
+            -79.455563,
+            43.706699
+          ],
+          [
+            -79.455517,
+            43.706708
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756125486997,
+    "query": {
+      "coordinates": [
+        [
+          -79.4675776,
+          43.7052011
+        ],
+        [
+          -79.4555167,
+          43.7067084
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

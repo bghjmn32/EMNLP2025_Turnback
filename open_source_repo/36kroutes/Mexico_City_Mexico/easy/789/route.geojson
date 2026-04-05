@@ -1,0 +1,134 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.073984,
+    19.482374,
+    -99.071637,
+    19.485859
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.073984,
+        19.482374,
+        -99.071637,
+        19.485859
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 577.2,
+            "duration": 415.6,
+            "steps": [
+              {
+                "distance": 314.9,
+                "duration": 226.7,
+                "type": 11,
+                "instruction": "Head south on Calle Estado de Chihuahua",
+                "name": "Calle Estado de Chihuahua",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 262.2,
+                "duration": 188.8,
+                "type": 0,
+                "instruction": "Turn left onto Avenida Tlaxcala",
+                "name": "Avenida Tlaxcala",
+                "way_points": [
+                  2,
+                  7
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Avenida Tlaxcala, straight ahead",
+                "name": "-",
+                "way_points": [
+                  7,
+                  7
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          7
+        ],
+        "summary": {
+          "distance": 577.2,
+          "duration": 415.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.072976,
+            19.485859
+          ],
+          [
+            -99.073438,
+            19.484602
+          ],
+          [
+            -99.073984,
+            19.483191
+          ],
+          [
+            -99.073499,
+            19.483013
+          ],
+          [
+            -99.073024,
+            19.482846
+          ],
+          [
+            -99.072556,
+            19.482692
+          ],
+          [
+            -99.072092,
+            19.482535
+          ],
+          [
+            -99.071637,
+            19.482374
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756307640866,
+    "query": {
+      "coordinates": [
+        [
+          -99.0729765,
+          19.4858589
+        ],
+        [
+          -99.0716373,
+          19.4823741
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

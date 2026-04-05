@@ -1,0 +1,181 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -104.972367,
+    39.663076,
+    -104.962763,
+    39.664075
+  ],
+  "features": [
+    {
+      "bbox": [
+        -104.972367,
+        39.663076,
+        -104.962763,
+        39.664075
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 884.1,
+            "duration": 636.5,
+            "steps": [
+              {
+                "distance": 305.0,
+                "duration": 219.6,
+                "type": 11,
+                "instruction": "Head east on East Bates Avenue",
+                "name": "East Bates Avenue",
+                "way_points": [
+                  0,
+                  4
+                ]
+              },
+              {
+                "distance": 56.1,
+                "duration": 40.4,
+                "type": 1,
+                "instruction": "Turn right onto South Franklin Street",
+                "name": "South Franklin Street",
+                "way_points": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "distance": 523.0,
+                "duration": 376.5,
+                "type": 0,
+                "instruction": "Turn left onto East Cornell Avenue",
+                "name": "East Cornell Avenue",
+                "way_points": [
+                  5,
+                  16
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at East Cornell Avenue, straight ahead",
+                "name": "-",
+                "way_points": [
+                  16,
+                  16
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          16
+        ],
+        "summary": {
+          "distance": 884.1,
+          "duration": 636.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -104.972367,
+            39.664075
+          ],
+          [
+            -104.971348,
+            39.664061
+          ],
+          [
+            -104.970864,
+            39.66406
+          ],
+          [
+            -104.97028,
+            39.664064
+          ],
+          [
+            -104.968804,
+            39.664058
+          ],
+          [
+            -104.96881,
+            39.663553
+          ],
+          [
+            -104.967663,
+            39.663561
+          ],
+          [
+            -104.967057,
+            39.663536
+          ],
+          [
+            -104.966621,
+            39.663475
+          ],
+          [
+            -104.966153,
+            39.663395
+          ],
+          [
+            -104.965677,
+            39.663313
+          ],
+          [
+            -104.965098,
+            39.663214
+          ],
+          [
+            -104.964486,
+            39.663109
+          ],
+          [
+            -104.964199,
+            39.663082
+          ],
+          [
+            -104.963285,
+            39.66308
+          ],
+          [
+            -104.963032,
+            39.66308
+          ],
+          [
+            -104.962763,
+            39.663076
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756303939469,
+    "query": {
+      "coordinates": [
+        [
+          -104.9723672,
+          39.6640745
+        ],
+        [
+          -104.9627626,
+          39.6630758
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

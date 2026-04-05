@@ -1,0 +1,255 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.470195,
+    -34.055448,
+    18.471681,
+    -34.047072
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.470195,
+        -34.055448,
+        18.471681,
+        -34.047072
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1065.7,
+            "duration": 767.3,
+            "steps": [
+              {
+                "distance": 261.2,
+                "duration": 188.0,
+                "type": 11,
+                "instruction": "Head north on 6th Avenue",
+                "name": "6th Avenue",
+                "way_points": [
+                  0,
+                  5
+                ]
+              },
+              {
+                "distance": 77.0,
+                "duration": 55.5,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  5,
+                  8
+                ]
+              },
+              {
+                "distance": 396.2,
+                "duration": 285.2,
+                "type": 1,
+                "instruction": "Turn right onto Tonbridge Avenue",
+                "name": "Tonbridge Avenue",
+                "way_points": [
+                  8,
+                  19
+                ]
+              },
+              {
+                "distance": 7.4,
+                "duration": 5.3,
+                "type": 3,
+                "instruction": "Turn sharp right onto Maidstone Road",
+                "name": "Maidstone Road",
+                "way_points": [
+                  19,
+                  20
+                ]
+              },
+              {
+                "distance": 323.9,
+                "duration": 233.2,
+                "type": 2,
+                "instruction": "Turn sharp left onto Rochester Road",
+                "name": "Rochester Road",
+                "way_points": [
+                  20,
+                  29
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Rochester Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  29,
+                  29
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          29
+        ],
+        "summary": {
+          "distance": 1065.7,
+          "duration": 767.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.471681,
+            -34.055448
+          ],
+          [
+            18.471639,
+            -34.05531
+          ],
+          [
+            18.471603,
+            -34.055193
+          ],
+          [
+            18.47124,
+            -34.054025
+          ],
+          [
+            18.471153,
+            -34.053756
+          ],
+          [
+            18.470975,
+            -34.053173
+          ],
+          [
+            18.470748,
+            -34.053162
+          ],
+          [
+            18.470284,
+            -34.053073
+          ],
+          [
+            18.470195,
+            -34.052992
+          ],
+          [
+            18.470286,
+            -34.052947
+          ],
+          [
+            18.470356,
+            -34.052859
+          ],
+          [
+            18.470408,
+            -34.052728
+          ],
+          [
+            18.470563,
+            -34.052335
+          ],
+          [
+            18.470842,
+            -34.051654
+          ],
+          [
+            18.471178,
+            -34.050831
+          ],
+          [
+            18.471399,
+            -34.050286
+          ],
+          [
+            18.471403,
+            -34.050214
+          ],
+          [
+            18.471516,
+            -34.049931
+          ],
+          [
+            18.471549,
+            -34.049757
+          ],
+          [
+            18.471481,
+            -34.049663
+          ],
+          [
+            18.471559,
+            -34.049679
+          ],
+          [
+            18.471561,
+            -34.049609
+          ],
+          [
+            18.471576,
+            -34.049488
+          ],
+          [
+            18.471165,
+            -34.048548
+          ],
+          [
+            18.471096,
+            -34.048387
+          ],
+          [
+            18.470975,
+            -34.048131
+          ],
+          [
+            18.470869,
+            -34.047926
+          ],
+          [
+            18.47061,
+            -34.047305
+          ],
+          [
+            18.470645,
+            -34.047219
+          ],
+          [
+            18.470966,
+            -34.047072
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756805519132,
+    "query": {
+      "coordinates": [
+        [
+          18.4716812,
+          -34.0554479
+        ],
+        [
+          18.4709661,
+          -34.0470716
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

@@ -1,0 +1,303 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    11.543216,
+    48.114356,
+    11.546408,
+    48.121055
+  ],
+  "features": [
+    {
+      "bbox": [
+        11.543216,
+        48.114356,
+        11.546408,
+        48.121055
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 962.8,
+            "duration": 693.2,
+            "steps": [
+              {
+                "distance": 33.5,
+                "duration": 24.1,
+                "type": 11,
+                "instruction": "Head west",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 24.3,
+                "duration": 17.5,
+                "type": 12,
+                "instruction": "Keep left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 13.9,
+                "duration": 10.0,
+                "type": 4,
+                "instruction": "Turn slight left",
+                "name": "-",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 432.0,
+                "duration": 311.0,
+                "type": 0,
+                "instruction": "Turn left onto Aberlestraße",
+                "name": "Aberlestraße",
+                "way_points": [
+                  3,
+                  10
+                ]
+              },
+              {
+                "distance": 282.9,
+                "duration": 203.7,
+                "type": 13,
+                "instruction": "Keep right",
+                "name": "-",
+                "way_points": [
+                  10,
+                  19
+                ]
+              },
+              {
+                "distance": 45.1,
+                "duration": 32.5,
+                "type": 1,
+                "instruction": "Turn right onto Gaißacher Straße",
+                "name": "Gaißacher Straße",
+                "way_points": [
+                  19,
+                  21
+                ]
+              },
+              {
+                "distance": 122.1,
+                "duration": 87.9,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  21,
+                  26
+                ]
+              },
+              {
+                "distance": 5.5,
+                "duration": 3.9,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  26,
+                  28
+                ]
+              },
+              {
+                "distance": 3.8,
+                "duration": 2.7,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  28,
+                  30
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  30,
+                  30
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          30
+        ],
+        "summary": {
+          "distance": 962.8,
+          "duration": 693.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            11.546408,
+            48.121021
+          ],
+          [
+            11.545959,
+            48.121042
+          ],
+          [
+            11.545632,
+            48.121055
+          ],
+          [
+            11.545475,
+            48.120988
+          ],
+          [
+            11.545379,
+            48.12002
+          ],
+          [
+            11.545323,
+            48.119448
+          ],
+          [
+            11.545266,
+            48.118868
+          ],
+          [
+            11.545213,
+            48.118361
+          ],
+          [
+            11.545186,
+            48.117839
+          ],
+          [
+            11.545184,
+            48.11777
+          ],
+          [
+            11.545154,
+            48.11711
+          ],
+          [
+            11.545399,
+            48.116409
+          ],
+          [
+            11.545428,
+            48.116327
+          ],
+          [
+            11.545393,
+            48.115999
+          ],
+          [
+            11.545338,
+            48.115849
+          ],
+          [
+            11.545251,
+            48.115379
+          ],
+          [
+            11.545269,
+            48.115262
+          ],
+          [
+            11.545263,
+            48.114756
+          ],
+          [
+            11.545307,
+            48.114656
+          ],
+          [
+            11.545309,
+            48.114601
+          ],
+          [
+            11.544792,
+            48.114596
+          ],
+          [
+            11.544761,
+            48.11454
+          ],
+          [
+            11.544502,
+            48.114558
+          ],
+          [
+            11.543652,
+            48.114582
+          ],
+          [
+            11.54345,
+            48.114571
+          ],
+          [
+            11.543441,
+            48.1145
+          ],
+          [
+            11.54327,
+            48.114405
+          ],
+          [
+            11.543268,
+            48.114371
+          ],
+          [
+            11.543267,
+            48.114356
+          ],
+          [
+            11.543245,
+            48.114357
+          ],
+          [
+            11.543216,
+            48.114357
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756136777626,
+    "query": {
+      "coordinates": [
+        [
+          11.5464082,
+          48.1210206
+        ],
+        [
+          11.5432162,
+          48.1143571
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.022606,
+    19.298446,
+    -99.019343,
+    19.301196
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.022606,
+        19.298446,
+        -99.019343,
+        19.301196
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 757.4,
+            "duration": 545.3,
+            "steps": [
+              {
+                "distance": 23.0,
+                "duration": 16.6,
+                "type": 11,
+                "instruction": "Head south on Calle Primera Jerusalén",
+                "name": "Calle Primera Jerusalén",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 37.0,
+                "duration": 26.6,
+                "type": 0,
+                "instruction": "Turn left onto Privada Segunda Cerrada Jerusalém",
+                "name": "Privada Segunda Cerrada Jerusalém",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 98.4,
+                "duration": 70.9,
+                "type": 1,
+                "instruction": "Turn right onto Calle Jerusalén",
+                "name": "Calle Jerusalén",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 175.9,
+                "duration": 126.6,
+                "type": 1,
+                "instruction": "Turn right onto Calle Miguel Hidalgo",
+                "name": "Calle Miguel Hidalgo",
+                "way_points": [
+                  3,
+                  7
+                ]
+              },
+              {
+                "distance": 180.1,
+                "duration": 129.7,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 99.1,
+                "duration": 71.3,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  8,
+                  9
+                ]
+              },
+              {
+                "distance": 56.9,
+                "duration": 41.0,
+                "type": 1,
+                "instruction": "Turn right onto Calle San Rafael Atlixco",
+                "name": "Calle San Rafael Atlixco",
+                "way_points": [
+                  9,
+                  11
+                ]
+              },
+              {
+                "distance": 87.0,
+                "duration": 62.7,
+                "type": 0,
+                "instruction": "Turn left onto Callejón Primer Rosalino Chávez",
+                "name": "Callejón Primer Rosalino Chávez",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Callejón Primer Rosalino Chávez, straight ahead",
+                "name": "-",
+                "way_points": [
+                  12,
+                  12
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          12
+        ],
+        "summary": {
+          "distance": 757.4,
+          "duration": 545.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.019619,
+            19.299587
+          ],
+          [
+            -99.019682,
+            19.299389
+          ],
+          [
+            -99.019343,
+            19.299301
+          ],
+          [
+            -99.019584,
+            19.298446
+          ],
+          [
+            -99.019888,
+            19.298516
+          ],
+          [
+            -99.020039,
+            19.298548
+          ],
+          [
+            -99.020198,
+            19.298574
+          ],
+          [
+            -99.02124,
+            19.298667
+          ],
+          [
+            -99.020758,
+            19.300222
+          ],
+          [
+            -99.021679,
+            19.300418
+          ],
+          [
+            -99.021762,
+            19.300613
+          ],
+          [
+            -99.021835,
+            19.300907
+          ],
+          [
+            -99.022606,
+            19.301196
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756304017800,
+    "query": {
+      "coordinates": [
+        [
+          -99.019619,
+          19.2995874
+        ],
+        [
+          -99.0226057,
+          19.3011955
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

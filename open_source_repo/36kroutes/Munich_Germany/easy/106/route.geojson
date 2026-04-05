@@ -1,0 +1,227 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    11.476342,
+    48.106238,
+    11.48483,
+    48.109631
+  ],
+  "features": [
+    {
+      "bbox": [
+        11.476342,
+        48.106238,
+        11.48483,
+        48.109631
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 921.3,
+            "duration": 663.3,
+            "steps": [
+              {
+                "distance": 72.2,
+                "duration": 52.0,
+                "type": 11,
+                "instruction": "Head east",
+                "name": "-",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 99.0,
+                "duration": 71.3,
+                "type": 1,
+                "instruction": "Turn right onto Heiglhofstraße",
+                "name": "Heiglhofstraße",
+                "way_points": [
+                  3,
+                  6
+                ]
+              },
+              {
+                "distance": 315.6,
+                "duration": 227.3,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  6,
+                  15
+                ]
+              },
+              {
+                "distance": 205.2,
+                "duration": 147.7,
+                "type": 1,
+                "instruction": "Turn right onto Waldgartenstraße",
+                "name": "Waldgartenstraße",
+                "way_points": [
+                  15,
+                  18
+                ]
+              },
+              {
+                "distance": 229.2,
+                "duration": 165.1,
+                "type": 0,
+                "instruction": "Turn left onto Am Waldrand",
+                "name": "Am Waldrand",
+                "way_points": [
+                  18,
+                  22
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Am Waldrand, straight ahead",
+                "name": "-",
+                "way_points": [
+                  22,
+                  22
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          22
+        ],
+        "summary": {
+          "distance": 921.3,
+          "duration": 663.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            11.476342,
+            48.109631
+          ],
+          [
+            11.476694,
+            48.109614
+          ],
+          [
+            11.477217,
+            48.109618
+          ],
+          [
+            11.477314,
+            48.109618
+          ],
+          [
+            11.477319,
+            48.109528
+          ],
+          [
+            11.477352,
+            48.108938
+          ],
+          [
+            11.477373,
+            48.108729
+          ],
+          [
+            11.477486,
+            48.108721
+          ],
+          [
+            11.477547,
+            48.108709
+          ],
+          [
+            11.479259,
+            48.108724
+          ],
+          [
+            11.480062,
+            48.108754
+          ],
+          [
+            11.480472,
+            48.108766
+          ],
+          [
+            11.480801,
+            48.108776
+          ],
+          [
+            11.481128,
+            48.108809
+          ],
+          [
+            11.481494,
+            48.108858
+          ],
+          [
+            11.481599,
+            48.10883
+          ],
+          [
+            11.48175,
+            48.108339
+          ],
+          [
+            11.481875,
+            48.107606
+          ],
+          [
+            11.481987,
+            48.107005
+          ],
+          [
+            11.482521,
+            48.106956
+          ],
+          [
+            11.48303,
+            48.10683
+          ],
+          [
+            11.484408,
+            48.106378
+          ],
+          [
+            11.48483,
+            48.106238
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756136784866,
+    "query": {
+      "coordinates": [
+        [
+          11.4763422,
+          48.1096307
+        ],
+        [
+          11.4848295,
+          48.1062381
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

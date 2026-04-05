@@ -1,0 +1,301 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -0.012619,
+    51.58023,
+    -0.004035,
+    51.58452
+  ],
+  "features": [
+    {
+      "bbox": [
+        -0.012619,
+        51.58023,
+        -0.004035,
+        51.58452
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1136.6,
+            "duration": 818.3,
+            "steps": [
+              {
+                "distance": 65.4,
+                "duration": 47.1,
+                "type": 11,
+                "instruction": "Head northwest on Western Road",
+                "name": "Western Road",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 67.2,
+                "duration": 48.4,
+                "type": 1,
+                "instruction": "Turn right onto Shernhall Street",
+                "name": "Shernhall Street",
+                "way_points": [
+                  2,
+                  4
+                ]
+              },
+              {
+                "distance": 344.1,
+                "duration": 247.7,
+                "type": 2,
+                "instruction": "Turn sharp left onto Barclay Road",
+                "name": "Barclay Road",
+                "way_points": [
+                  4,
+                  12
+                ]
+              },
+              {
+                "distance": 326.8,
+                "duration": 235.3,
+                "type": 1,
+                "instruction": "Turn right onto Beulah Path",
+                "name": "Beulah Path",
+                "way_points": [
+                  12,
+                  18
+                ]
+              },
+              {
+                "distance": 11.3,
+                "duration": 8.2,
+                "type": 4,
+                "instruction": "Turn slight left onto Trelawny Close",
+                "name": "Trelawny Close",
+                "way_points": [
+                  18,
+                  19
+                ]
+              },
+              {
+                "distance": 161.6,
+                "duration": 116.4,
+                "type": 1,
+                "instruction": "Turn right onto Orford Road",
+                "name": "Orford Road",
+                "way_points": [
+                  19,
+                  25
+                ]
+              },
+              {
+                "distance": 160.2,
+                "duration": 115.4,
+                "type": 0,
+                "instruction": "Turn left onto Church End",
+                "name": "Church End",
+                "way_points": [
+                  25,
+                  35
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Church End, straight ahead",
+                "name": "-",
+                "way_points": [
+                  35,
+                  35
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          35
+        ],
+        "summary": {
+          "distance": 1136.6,
+          "duration": 818.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -0.004291,
+            51.58023
+          ],
+          [
+            -0.004525,
+            51.580456
+          ],
+          [
+            -0.004805,
+            51.580724
+          ],
+          [
+            -0.004277,
+            51.580978
+          ],
+          [
+            -0.004035,
+            51.581093
+          ],
+          [
+            -0.004133,
+            51.581114
+          ],
+          [
+            -0.004588,
+            51.58109
+          ],
+          [
+            -0.006805,
+            51.580745
+          ],
+          [
+            -0.006893,
+            51.580731
+          ],
+          [
+            -0.00753,
+            51.580634
+          ],
+          [
+            -0.007941,
+            51.580573
+          ],
+          [
+            -0.00847,
+            51.580496
+          ],
+          [
+            -0.008881,
+            51.580439
+          ],
+          [
+            -0.009147,
+            51.580641
+          ],
+          [
+            -0.009295,
+            51.580868
+          ],
+          [
+            -0.009662,
+            51.581509
+          ],
+          [
+            -0.01016,
+            51.582375
+          ],
+          [
+            -0.010309,
+            51.582586
+          ],
+          [
+            -0.010726,
+            51.58313
+          ],
+          [
+            -0.01087,
+            51.583179
+          ],
+          [
+            -0.010875,
+            51.583297
+          ],
+          [
+            -0.011033,
+            51.58356
+          ],
+          [
+            -0.011245,
+            51.58386
+          ],
+          [
+            -0.011399,
+            51.584078
+          ],
+          [
+            -0.011641,
+            51.584426
+          ],
+          [
+            -0.01173,
+            51.58452
+          ],
+          [
+            -0.012165,
+            51.584445
+          ],
+          [
+            -0.012373,
+            51.584358
+          ],
+          [
+            -0.012466,
+            51.584268
+          ],
+          [
+            -0.012496,
+            51.584158
+          ],
+          [
+            -0.012504,
+            51.583974
+          ],
+          [
+            -0.012503,
+            51.583943
+          ],
+          [
+            -0.01249,
+            51.583814
+          ],
+          [
+            -0.01248,
+            51.583634
+          ],
+          [
+            -0.012515,
+            51.583484
+          ],
+          [
+            -0.012619,
+            51.583395
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756828572602,
+    "query": {
+      "coordinates": [
+        [
+          -0.0042909,
+          51.5802304
+        ],
+        [
+          -0.0126189,
+          51.5833945
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.494213,
+    -33.97933,
+    18.497921,
+    -33.977465
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.494213,
+        -33.97933,
+        18.497921,
+        -33.977465
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 605.6,
+            "duration": 436.0,
+            "steps": [
+              {
+                "distance": 92.3,
+                "duration": 66.5,
+                "type": 11,
+                "instruction": "Head east",
+                "name": "-",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 69.0,
+                "duration": 49.7,
+                "type": 0,
+                "instruction": "Turn left onto Anglesey Street",
+                "name": "Anglesey Street",
+                "way_points": [
+                  3,
+                  5
+                ]
+              },
+              {
+                "distance": 84.7,
+                "duration": 61.0,
+                "type": 1,
+                "instruction": "Turn right onto Heifer Street",
+                "name": "Heifer Street",
+                "way_points": [
+                  5,
+                  7
+                ]
+              },
+              {
+                "distance": 32.0,
+                "duration": 23.1,
+                "type": 1,
+                "instruction": "Turn right onto 7th Avenue",
+                "name": "7th Avenue",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 161.7,
+                "duration": 116.4,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  8,
+                  9
+                ]
+              },
+              {
+                "distance": 165.8,
+                "duration": 119.4,
+                "type": 1,
+                "instruction": "Turn right onto 5th Avenue",
+                "name": "5th Avenue",
+                "way_points": [
+                  9,
+                  10
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at 5th Avenue, straight ahead",
+                "name": "-",
+                "way_points": [
+                  10,
+                  10
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          10
+        ],
+        "summary": {
+          "distance": 605.6,
+          "duration": 436.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.494213,
+            -33.978024
+          ],
+          [
+            18.494311,
+            -33.978031
+          ],
+          [
+            18.495121,
+            -33.978078
+          ],
+          [
+            18.495212,
+            -33.978084
+          ],
+          [
+            18.495261,
+            -33.977533
+          ],
+          [
+            18.495268,
+            -33.977465
+          ],
+          [
+            18.495672,
+            -33.977488
+          ],
+          [
+            18.496184,
+            -33.977521
+          ],
+          [
+            18.496168,
+            -33.977808
+          ],
+          [
+            18.497921,
+            -33.977839
+          ],
+          [
+            18.497892,
+            -33.97933
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756804418763,
+    "query": {
+      "coordinates": [
+        [
+          18.494213,
+          -33.9780243
+        ],
+        [
+          18.4978921,
+          -33.9793297
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

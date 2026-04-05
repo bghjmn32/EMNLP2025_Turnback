@@ -1,0 +1,307 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    103.66146,
+    1.309405,
+    103.665057,
+    1.315718
+  ],
+  "features": [
+    {
+      "bbox": [
+        103.66146,
+        1.309405,
+        103.665057,
+        1.315718
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1003.5,
+            "duration": 722.5,
+            "steps": [
+              {
+                "distance": 21.0,
+                "duration": 15.1,
+                "type": 11,
+                "instruction": "Head east on Gul Crescent",
+                "name": "Gul Crescent",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 6.6,
+                "duration": 4.8,
+                "type": 2,
+                "instruction": "Turn sharp left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 54.6,
+                "duration": 39.3,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 336.3,
+                "duration": 242.1,
+                "type": 12,
+                "instruction": "Keep left",
+                "name": "-",
+                "way_points": [
+                  3,
+                  13
+                ]
+              },
+              {
+                "distance": 4.7,
+                "duration": 3.4,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  13,
+                  14
+                ]
+              },
+              {
+                "distance": 136.3,
+                "duration": 98.1,
+                "type": 0,
+                "instruction": "Turn left onto Gul Lane",
+                "name": "Gul Lane",
+                "way_points": [
+                  14,
+                  20
+                ]
+              },
+              {
+                "distance": 9.2,
+                "duration": 6.7,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  20,
+                  21
+                ]
+              },
+              {
+                "distance": 420.1,
+                "duration": 302.5,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  21,
+                  29
+                ]
+              },
+              {
+                "distance": 14.7,
+                "duration": 10.6,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  29,
+                  31
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  31,
+                  31
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          31
+        ],
+        "summary": {
+          "distance": 1003.5,
+          "duration": 722.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            103.66426,
+            1.309445
+          ],
+          [
+            103.664445,
+            1.309405
+          ],
+          [
+            103.664438,
+            1.309465
+          ],
+          [
+            103.664928,
+            1.309437
+          ],
+          [
+            103.664978,
+            1.30946
+          ],
+          [
+            103.665041,
+            1.309515
+          ],
+          [
+            103.665057,
+            1.309631
+          ],
+          [
+            103.665027,
+            1.310006
+          ],
+          [
+            103.664975,
+            1.310358
+          ],
+          [
+            103.6649,
+            1.31076
+          ],
+          [
+            103.664858,
+            1.310914
+          ],
+          [
+            103.664687,
+            1.311212
+          ],
+          [
+            103.664296,
+            1.311607
+          ],
+          [
+            103.663899,
+            1.312014
+          ],
+          [
+            103.663931,
+            1.312042
+          ],
+          [
+            103.663771,
+            1.312192
+          ],
+          [
+            103.663669,
+            1.312291
+          ],
+          [
+            103.663606,
+            1.312357
+          ],
+          [
+            103.663278,
+            1.31267
+          ],
+          [
+            103.663063,
+            1.312877
+          ],
+          [
+            103.663047,
+            1.312891
+          ],
+          [
+            103.663101,
+            1.312955
+          ],
+          [
+            103.662605,
+            1.313434
+          ],
+          [
+            103.661934,
+            1.314049
+          ],
+          [
+            103.661476,
+            1.314468
+          ],
+          [
+            103.66146,
+            1.31453
+          ],
+          [
+            103.661478,
+            1.314612
+          ],
+          [
+            103.661507,
+            1.314663
+          ],
+          [
+            103.662151,
+            1.315336
+          ],
+          [
+            103.662452,
+            1.315627
+          ],
+          [
+            103.662403,
+            1.315673
+          ],
+          [
+            103.662356,
+            1.315718
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756393277222,
+    "query": {
+      "coordinates": [
+        [
+          103.66426,
+          1.3094449
+        ],
+        [
+          103.6623559,
+          1.3157178
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

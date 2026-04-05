@@ -1,0 +1,188 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    31.667326,
+    29.996582,
+    31.668658,
+    30.00093
+  ],
+  "features": [
+    {
+      "bbox": [
+        31.667326,
+        29.996582,
+        31.668658,
+        30.00093
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 629.3,
+            "duration": 453.1,
+            "steps": [
+              {
+                "distance": 44.9,
+                "duration": 32.3,
+                "type": 11,
+                "instruction": "Head east",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 287.4,
+                "duration": 206.9,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  6
+                ]
+              },
+              {
+                "distance": 135.9,
+                "duration": 97.9,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  6,
+                  10
+                ]
+              },
+              {
+                "distance": 161.1,
+                "duration": 116.0,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  10,
+                  15
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  15,
+                  15
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          15
+        ],
+        "summary": {
+          "distance": 629.3,
+          "duration": 453.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            31.667846,
+            30.00093
+          ],
+          [
+            31.668286,
+            30.000796
+          ],
+          [
+            31.668102,
+            30.000327
+          ],
+          [
+            31.668017,
+            30.00011
+          ],
+          [
+            31.667712,
+            29.999333
+          ],
+          [
+            31.667634,
+            29.999141
+          ],
+          [
+            31.667326,
+            29.998349
+          ],
+          [
+            31.667741,
+            29.998223
+          ],
+          [
+            31.66778,
+            29.998212
+          ],
+          [
+            31.668197,
+            29.998086
+          ],
+          [
+            31.668658,
+            29.997946
+          ],
+          [
+            31.668466,
+            29.997492
+          ],
+          [
+            31.668359,
+            29.997307
+          ],
+          [
+            31.668321,
+            29.997209
+          ],
+          [
+            31.668278,
+            29.997006
+          ],
+          [
+            31.668109,
+            29.996582
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756730018582,
+    "query": {
+      "coordinates": [
+        [
+          31.6678462,
+          30.0009299
+        ],
+        [
+          31.6681092,
+          29.9965823
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

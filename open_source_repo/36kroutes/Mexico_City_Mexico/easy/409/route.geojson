@@ -1,0 +1,187 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.147174,
+    19.374094,
+    -99.145124,
+    19.380539
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.147174,
+        19.374094,
+        -99.145124,
+        19.380539
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 876.1,
+            "duration": 630.8,
+            "steps": [
+              {
+                "distance": 39.4,
+                "duration": 28.4,
+                "type": 11,
+                "instruction": "Head east on Calle Eleuterio Méndez",
+                "name": "Calle Eleuterio Méndez",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 92.2,
+                "duration": 66.4,
+                "type": 0,
+                "instruction": "Turn left onto Calle Filipinas",
+                "name": "Calle Filipinas",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 33.8,
+                "duration": 24.3,
+                "type": 0,
+                "instruction": "Turn left onto Avenida 17",
+                "name": "Avenida 17",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 632.8,
+                "duration": 455.6,
+                "type": 1,
+                "instruction": "Turn right onto Calle Rafaél Solana \"Verduguillo\"",
+                "name": "Calle Rafaél Solana \"Verduguillo\"",
+                "way_points": [
+                  3,
+                  11
+                ]
+              },
+              {
+                "distance": 77.8,
+                "duration": 56.0,
+                "type": 1,
+                "instruction": "Turn right onto Avenida Francisco Field Jurado",
+                "name": "Avenida Francisco Field Jurado",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Avenida Francisco Field Jurado, straight ahead",
+                "name": "-",
+                "way_points": [
+                  12,
+                  12
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          12
+        ],
+        "summary": {
+          "distance": 876.1,
+          "duration": 630.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.147174,
+            19.374149
+          ],
+          [
+            -99.146803,
+            19.374094
+          ],
+          [
+            -99.146662,
+            19.374912
+          ],
+          [
+            -99.146982,
+            19.374949
+          ],
+          [
+            -99.14689,
+            19.375519
+          ],
+          [
+            -99.146815,
+            19.375917
+          ],
+          [
+            -99.146691,
+            19.376515
+          ],
+          [
+            -99.146532,
+            19.377288
+          ],
+          [
+            -99.146354,
+            19.378104
+          ],
+          [
+            -99.146181,
+            19.378957
+          ],
+          [
+            -99.146026,
+            19.379732
+          ],
+          [
+            -99.145852,
+            19.380539
+          ],
+          [
+            -99.145124,
+            19.380402
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756305900528,
+    "query": {
+      "coordinates": [
+        [
+          -99.1471737,
+          19.374149
+        ],
+        [
+          -99.1451238,
+          19.3804023
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

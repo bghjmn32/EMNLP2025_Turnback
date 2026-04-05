@@ -1,0 +1,214 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -104.871302,
+    39.900898,
+    -104.867294,
+    39.902482
+  ],
+  "features": [
+    {
+      "bbox": [
+        -104.871302,
+        39.900898,
+        -104.867294,
+        39.902482
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 738.9,
+            "duration": 532.0,
+            "steps": [
+              {
+                "distance": 59.9,
+                "duration": 43.2,
+                "type": 11,
+                "instruction": "Head north",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 71.4,
+                "duration": 51.4,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  3
+                ]
+              },
+              {
+                "distance": 65.1,
+                "duration": 46.9,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 62.4,
+                "duration": 44.9,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "distance": 93.4,
+                "duration": 67.2,
+                "type": 1,
+                "instruction": "Turn right onto Florence Street",
+                "name": "Florence Street",
+                "way_points": [
+                  5,
+                  8
+                ]
+              },
+              {
+                "distance": 386.7,
+                "duration": 278.4,
+                "type": 1,
+                "instruction": "Turn right onto East 112th Way",
+                "name": "East 112th Way",
+                "way_points": [
+                  8,
+                  16
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at East 112th Way, straight ahead",
+                "name": "-",
+                "way_points": [
+                  16,
+                  16
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          16
+        ],
+        "summary": {
+          "distance": 738.9,
+          "duration": 532.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -104.869447,
+            39.900942
+          ],
+          [
+            -104.86946,
+            39.901481
+          ],
+          [
+            -104.86997,
+            39.901484
+          ],
+          [
+            -104.870297,
+            39.901485
+          ],
+          [
+            -104.87031,
+            39.9009
+          ],
+          [
+            -104.871042,
+            39.900898
+          ],
+          [
+            -104.871047,
+            39.901135
+          ],
+          [
+            -104.871088,
+            39.90131
+          ],
+          [
+            -104.871302,
+            39.901702
+          ],
+          [
+            -104.87083,
+            39.901853
+          ],
+          [
+            -104.870539,
+            39.901889
+          ],
+          [
+            -104.867946,
+            39.90188
+          ],
+          [
+            -104.867784,
+            39.901901
+          ],
+          [
+            -104.867583,
+            39.901983
+          ],
+          [
+            -104.867399,
+            39.902181
+          ],
+          [
+            -104.867294,
+            39.902347
+          ],
+          [
+            -104.867349,
+            39.902482
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756305922130,
+    "query": {
+      "coordinates": [
+        [
+          -104.8694474,
+          39.900942
+        ],
+        [
+          -104.8673492,
+          39.9024819
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

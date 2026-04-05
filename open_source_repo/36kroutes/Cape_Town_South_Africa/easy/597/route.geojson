@@ -1,0 +1,214 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.54046,
+    -34.008069,
+    18.543025,
+    -34.005209
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.54046,
+        -34.008069,
+        18.543025,
+        -34.005209
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 564.6,
+            "duration": 406.5,
+            "steps": [
+              {
+                "distance": 14.1,
+                "duration": 10.1,
+                "type": 11,
+                "instruction": "Head northwest",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 38.5,
+                "duration": 27.7,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 233.3,
+                "duration": 168.0,
+                "type": 0,
+                "instruction": "Turn left onto Ottery Road",
+                "name": "Ottery Road",
+                "way_points": [
+                  2,
+                  6
+                ]
+              },
+              {
+                "distance": 177.9,
+                "duration": 128.1,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  6,
+                  12
+                ]
+              },
+              {
+                "distance": 10.5,
+                "duration": 7.6,
+                "type": 0,
+                "instruction": "Turn left onto Olieboom Road",
+                "name": "Olieboom Road",
+                "way_points": [
+                  12,
+                  13
+                ]
+              },
+              {
+                "distance": 90.5,
+                "duration": 65.1,
+                "type": 0,
+                "instruction": "Turn left onto Seed Road",
+                "name": "Seed Road",
+                "way_points": [
+                  13,
+                  16
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Seed Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  16,
+                  16
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          16
+        ],
+        "summary": {
+          "distance": 564.6,
+          "duration": 406.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.540973,
+            -34.005305
+          ],
+          [
+            18.540874,
+            -34.005209
+          ],
+          [
+            18.54046,
+            -34.005251
+          ],
+          [
+            18.540527,
+            -34.005717
+          ],
+          [
+            18.540574,
+            -34.006044
+          ],
+          [
+            18.540646,
+            -34.006544
+          ],
+          [
+            18.540757,
+            -34.007334
+          ],
+          [
+            18.541725,
+            -34.007339
+          ],
+          [
+            18.541816,
+            -34.00736
+          ],
+          [
+            18.541876,
+            -34.007409
+          ],
+          [
+            18.541988,
+            -34.007652
+          ],
+          [
+            18.54202,
+            -34.007922
+          ],
+          [
+            18.541974,
+            -34.008033
+          ],
+          [
+            18.542079,
+            -34.008069
+          ],
+          [
+            18.542241,
+            -34.008
+          ],
+          [
+            18.542376,
+            -34.007966
+          ],
+          [
+            18.543025,
+            -34.007875
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756805131415,
+    "query": {
+      "coordinates": [
+        [
+          18.5409734,
+          -34.0053049
+        ],
+        [
+          18.5430248,
+          -34.0078751
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

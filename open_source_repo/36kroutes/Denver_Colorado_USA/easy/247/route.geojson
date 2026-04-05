@@ -1,0 +1,246 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -104.965645,
+    39.809894,
+    -104.961891,
+    39.813006
+  ],
+  "features": [
+    {
+      "bbox": [
+        -104.965645,
+        39.809894,
+        -104.961891,
+        39.813006
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 923.0,
+            "duration": 664.5,
+            "steps": [
+              {
+                "distance": 30.6,
+                "duration": 22.0,
+                "type": 11,
+                "instruction": "Head south",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 286.1,
+                "duration": 206.0,
+                "type": 0,
+                "instruction": "Turn left onto East 64th Avenue",
+                "name": "East 64th Avenue",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 16.5,
+                "duration": 11.9,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 389.2,
+                "duration": 280.2,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  3,
+                  16
+                ]
+              },
+              {
+                "distance": 145.1,
+                "duration": 104.5,
+                "type": 3,
+                "instruction": "Turn sharp right",
+                "name": "-",
+                "way_points": [
+                  16,
+                  23
+                ]
+              },
+              {
+                "distance": 55.5,
+                "duration": 40.0,
+                "type": 3,
+                "instruction": "Turn sharp right",
+                "name": "-",
+                "way_points": [
+                  23,
+                  24
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  24,
+                  24
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          24
+        ],
+        "summary": {
+          "distance": 923.0,
+          "duration": 664.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -104.965239,
+            39.813006
+          ],
+          [
+            -104.965241,
+            39.812731
+          ],
+          [
+            -104.961891,
+            39.812715
+          ],
+          [
+            -104.961901,
+            39.812566
+          ],
+          [
+            -104.962059,
+            39.812515
+          ],
+          [
+            -104.962416,
+            39.812469
+          ],
+          [
+            -104.962671,
+            39.812399
+          ],
+          [
+            -104.962864,
+            39.812284
+          ],
+          [
+            -104.96347,
+            39.811841
+          ],
+          [
+            -104.963591,
+            39.811713
+          ],
+          [
+            -104.96373,
+            39.81152
+          ],
+          [
+            -104.96387,
+            39.811167
+          ],
+          [
+            -104.963905,
+            39.810924
+          ],
+          [
+            -104.963915,
+            39.810333
+          ],
+          [
+            -104.963958,
+            39.810228
+          ],
+          [
+            -104.964044,
+            39.810104
+          ],
+          [
+            -104.964122,
+            39.809894
+          ],
+          [
+            -104.964197,
+            39.809995
+          ],
+          [
+            -104.964403,
+            39.810184
+          ],
+          [
+            -104.964669,
+            39.810292
+          ],
+          [
+            -104.964967,
+            39.810329
+          ],
+          [
+            -104.965238,
+            39.810287
+          ],
+          [
+            -104.96545,
+            39.810203
+          ],
+          [
+            -104.965538,
+            39.810154
+          ],
+          [
+            -104.965645,
+            39.810646
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756304965135,
+    "query": {
+      "coordinates": [
+        [
+          -104.9652392,
+          39.8130059
+        ],
+        [
+          -104.9656454,
+          39.8106459
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

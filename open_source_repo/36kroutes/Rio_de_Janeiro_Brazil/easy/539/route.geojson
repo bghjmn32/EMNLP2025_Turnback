@@ -1,0 +1,241 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.315729,
+    -23.01401,
+    -43.3128,
+    -23.008764
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.315729,
+        -23.01401,
+        -43.3128,
+        -23.008764
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 847.6,
+            "duration": 610.3,
+            "steps": [
+              {
+                "distance": 23.3,
+                "duration": 16.8,
+                "type": 11,
+                "instruction": "Head north",
+                "name": "-",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 9.0,
+                "duration": 6.5,
+                "type": 1,
+                "instruction": "Turn right onto Avenida Lúcio Costa",
+                "name": "Avenida Lúcio Costa",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 245.6,
+                "duration": 176.8,
+                "type": 12,
+                "instruction": "Keep left onto Avenida Afonso de Taunay",
+                "name": "Avenida Afonso de Taunay",
+                "way_points": [
+                  4,
+                  7
+                ]
+              },
+              {
+                "distance": 17.5,
+                "duration": 12.6,
+                "type": 12,
+                "instruction": "Keep left onto Avenida Afonso de Taunay",
+                "name": "Avenida Afonso de Taunay",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 138.4,
+                "duration": 99.7,
+                "type": 7,
+                "instruction": "Enter the roundabout and take the 3rd exit onto Avenida Afonso de Taunay",
+                "name": "Avenida Afonso de Taunay",
+                "exit_number": 3,
+                "way_points": [
+                  8,
+                  12
+                ]
+              },
+              {
+                "distance": 83.4,
+                "duration": 60.0,
+                "type": 0,
+                "instruction": "Turn left onto Rua Armenia",
+                "name": "Rua Armenia",
+                "way_points": [
+                  12,
+                  13
+                ]
+              },
+              {
+                "distance": 74.8,
+                "duration": 53.8,
+                "type": 1,
+                "instruction": "Turn right onto Rua General Ivan Raposo",
+                "name": "Rua General Ivan Raposo",
+                "way_points": [
+                  13,
+                  14
+                ]
+              },
+              {
+                "distance": 255.7,
+                "duration": 184.1,
+                "type": 0,
+                "instruction": "Turn left onto Rua Fernando Nogueira de Sousa",
+                "name": "Rua Fernando Nogueira de Sousa",
+                "way_points": [
+                  14,
+                  17
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Rua Fernando Nogueira de Sousa, straight ahead",
+                "name": "-",
+                "way_points": [
+                  17,
+                  17
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          17
+        ],
+        "summary": {
+          "distance": 847.6,
+          "duration": 610.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.313847,
+            -23.01401
+          ],
+          [
+            -43.313837,
+            -23.013968
+          ],
+          [
+            -43.313953,
+            -23.013939
+          ],
+          [
+            -43.313955,
+            -23.013882
+          ],
+          [
+            -43.313867,
+            -23.013875
+          ],
+          [
+            -43.313719,
+            -23.013737
+          ],
+          [
+            -43.313601,
+            -23.013479
+          ],
+          [
+            -43.313136,
+            -23.011799
+          ],
+          [
+            -43.313142,
+            -23.011641
+          ],
+          [
+            -43.313168,
+            -23.011616
+          ],
+          [
+            -43.313178,
+            -23.011555
+          ],
+          [
+            -43.313123,
+            -23.011497
+          ],
+          [
+            -43.3128,
+            -23.010468
+          ],
+          [
+            -43.313584,
+            -23.010264
+          ],
+          [
+            -43.313407,
+            -23.009611
+          ],
+          [
+            -43.314162,
+            -23.009321
+          ],
+          [
+            -43.314936,
+            -23.00905
+          ],
+          [
+            -43.315729,
+            -23.008764
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756393055717,
+    "query": {
+      "coordinates": [
+        [
+          -43.313847,
+          -23.0140098
+        ],
+        [
+          -43.315729,
+          -23.0087638
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

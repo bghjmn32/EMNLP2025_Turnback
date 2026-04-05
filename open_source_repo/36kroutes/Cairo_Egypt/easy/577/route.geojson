@@ -1,0 +1,197 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    31.301188,
+    29.906297,
+    31.306004,
+    29.90696
+  ],
+  "features": [
+    {
+      "bbox": [
+        31.301188,
+        29.906297,
+        31.306004,
+        29.90696
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 500.0,
+            "duration": 360.0,
+            "steps": [
+              {
+                "distance": 27.3,
+                "duration": 19.7,
+                "type": 11,
+                "instruction": "Head northeast on حارة رمضان عبد المنعم",
+                "name": "حارة رمضان عبد المنعم",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 36.9,
+                "duration": 26.6,
+                "type": 1,
+                "instruction": "Turn right onto شارع علي اسماعيل",
+                "name": "شارع علي اسماعيل",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 435.7,
+                "duration": 313.7,
+                "type": 0,
+                "instruction": "Turn left onto شارع النقطه",
+                "name": "شارع النقطه",
+                "way_points": [
+                  2,
+                  20
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at شارع النقطه, straight ahead",
+                "name": "-",
+                "way_points": [
+                  20,
+                  20
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          20
+        ],
+        "summary": {
+          "distance": 500.0,
+          "duration": 360.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            31.301188,
+            29.906486
+          ],
+          [
+            31.301438,
+            29.906601
+          ],
+          [
+            31.301591,
+            29.906297
+          ],
+          [
+            31.302062,
+            29.906441
+          ],
+          [
+            31.302235,
+            29.906484
+          ],
+          [
+            31.302575,
+            29.906517
+          ],
+          [
+            31.303077,
+            29.906552
+          ],
+          [
+            31.303363,
+            29.906561
+          ],
+          [
+            31.303626,
+            29.906538
+          ],
+          [
+            31.303981,
+            29.906533
+          ],
+          [
+            31.304125,
+            29.906559
+          ],
+          [
+            31.304262,
+            29.906605
+          ],
+          [
+            31.30449,
+            29.906687
+          ],
+          [
+            31.304799,
+            29.906763
+          ],
+          [
+            31.305029,
+            29.906792
+          ],
+          [
+            31.305065,
+            29.906796
+          ],
+          [
+            31.305261,
+            29.906823
+          ],
+          [
+            31.305461,
+            29.90685
+          ],
+          [
+            31.305582,
+            29.906874
+          ],
+          [
+            31.305813,
+            29.906919
+          ],
+          [
+            31.306004,
+            29.90696
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756731405378,
+    "query": {
+      "coordinates": [
+        [
+          31.3011879,
+          29.9064857
+        ],
+        [
+          31.3060041,
+          29.9069601
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

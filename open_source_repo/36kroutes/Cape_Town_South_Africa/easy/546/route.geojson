@@ -1,0 +1,210 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.500602,
+    -33.931639,
+    18.5065,
+    -33.929595
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.500602,
+        -33.931639,
+        18.5065,
+        -33.929595
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 632.6,
+            "duration": 455.4,
+            "steps": [
+              {
+                "distance": 138.6,
+                "duration": 99.8,
+                "type": 11,
+                "instruction": "Head west",
+                "name": "-",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 149.2,
+                "duration": 107.4,
+                "type": 1,
+                "instruction": "Turn right onto Sunrise Road",
+                "name": "Sunrise Road",
+                "way_points": [
+                  3,
+                  7
+                ]
+              },
+              {
+                "distance": 3.6,
+                "duration": 2.6,
+                "type": 1,
+                "instruction": "Turn right onto Avonduur Road",
+                "name": "Avonduur Road",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 59.9,
+                "duration": 43.1,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  8,
+                  9
+                ]
+              },
+              {
+                "distance": 15.2,
+                "duration": 10.9,
+                "type": 1,
+                "instruction": "Turn right onto Morningside Road",
+                "name": "Morningside Road",
+                "way_points": [
+                  9,
+                  10
+                ]
+              },
+              {
+                "distance": 266.1,
+                "duration": 191.6,
+                "type": 0,
+                "instruction": "Turn left onto Old Mill Road",
+                "name": "Old Mill Road",
+                "way_points": [
+                  10,
+                  15
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Old Mill Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  15,
+                  15
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          15
+        ],
+        "summary": {
+          "distance": 632.6,
+          "duration": 455.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.5065,
+            -33.929595
+          ],
+          [
+            18.505927,
+            -33.929662
+          ],
+          [
+            18.505071,
+            -33.929754
+          ],
+          [
+            18.505033,
+            -33.929793
+          ],
+          [
+            18.504809,
+            -33.929809
+          ],
+          [
+            18.503805,
+            -33.929931
+          ],
+          [
+            18.503552,
+            -33.929967
+          ],
+          [
+            18.503443,
+            -33.93001
+          ],
+          [
+            18.503412,
+            -33.929989
+          ],
+          [
+            18.502807,
+            -33.930185
+          ],
+          [
+            18.50268,
+            -33.930099
+          ],
+          [
+            18.501596,
+            -33.931249
+          ],
+          [
+            18.50148,
+            -33.931352
+          ],
+          [
+            18.501351,
+            -33.931436
+          ],
+          [
+            18.501188,
+            -33.931508
+          ],
+          [
+            18.500602,
+            -33.931639
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756805041658,
+    "query": {
+      "coordinates": [
+        [
+          18.5064997,
+          -33.9295954
+        ],
+        [
+          18.5006023,
+          -33.9316386
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

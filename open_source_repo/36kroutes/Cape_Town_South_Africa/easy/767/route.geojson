@@ -1,0 +1,215 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.484792,
+    -33.825278,
+    18.487383,
+    -33.823992
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.484792,
+        -33.825278,
+        18.487383,
+        -33.823992
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 353.7,
+            "duration": 254.7,
+            "steps": [
+              {
+                "distance": 39.8,
+                "duration": 28.7,
+                "type": 11,
+                "instruction": "Head west",
+                "name": "-",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 52.7,
+                "duration": 38.0,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  2,
+                  8
+                ]
+              },
+              {
+                "distance": 8.6,
+                "duration": 6.2,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  8,
+                  9
+                ]
+              },
+              {
+                "distance": 96.6,
+                "duration": 69.6,
+                "type": 0,
+                "instruction": "Turn left onto Rubens Road",
+                "name": "Rubens Road",
+                "way_points": [
+                  9,
+                  11
+                ]
+              },
+              {
+                "distance": 156.0,
+                "duration": 112.3,
+                "type": 1,
+                "instruction": "Turn right onto Athens Road",
+                "name": "Athens Road",
+                "way_points": [
+                  11,
+                  19
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Athens Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  19,
+                  19
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          19
+        ],
+        "summary": {
+          "distance": 353.7,
+          "duration": 254.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.487383,
+            -33.824102
+          ],
+          [
+            18.487126,
+            -33.824033
+          ],
+          [
+            18.486973,
+            -33.823992
+          ],
+          [
+            18.486948,
+            -33.824039
+          ],
+          [
+            18.48689,
+            -33.824104
+          ],
+          [
+            18.48687,
+            -33.824155
+          ],
+          [
+            18.486818,
+            -33.824289
+          ],
+          [
+            18.486795,
+            -33.824345
+          ],
+          [
+            18.486793,
+            -33.824434
+          ],
+          [
+            18.486702,
+            -33.824448
+          ],
+          [
+            18.486696,
+            -33.824516
+          ],
+          [
+            18.486402,
+            -33.825278
+          ],
+          [
+            18.486143,
+            -33.82521
+          ],
+          [
+            18.48611,
+            -33.825201
+          ],
+          [
+            18.485897,
+            -33.825145
+          ],
+          [
+            18.485631,
+            -33.825075
+          ],
+          [
+            18.485585,
+            -33.825063
+          ],
+          [
+            18.485348,
+            -33.825
+          ],
+          [
+            18.485149,
+            -33.824948
+          ],
+          [
+            18.484792,
+            -33.824856
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756805600584,
+    "query": {
+      "coordinates": [
+        [
+          18.4873829,
+          -33.8241025
+        ],
+        [
+          18.4847919,
+          -33.8248563
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

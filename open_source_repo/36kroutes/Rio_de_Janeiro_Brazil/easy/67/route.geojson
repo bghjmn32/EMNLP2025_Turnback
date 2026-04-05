@@ -1,0 +1,192 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.639677,
+    -23.002006,
+    -43.636215,
+    -22.998332
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.639677,
+        -23.002006,
+        -43.636215,
+        -22.998332
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 692.6,
+            "duration": 498.6,
+            "steps": [
+              {
+                "distance": 100.3,
+                "duration": 72.2,
+                "type": 11,
+                "instruction": "Head east on Rua Nanci",
+                "name": "Rua Nanci",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 380.8,
+                "duration": 274.2,
+                "type": 1,
+                "instruction": "Turn right onto Rua Cabo Antônio Carlos Botelho",
+                "name": "Rua Cabo Antônio Carlos Botelho",
+                "way_points": [
+                  1,
+                  11
+                ]
+              },
+              {
+                "distance": 22.8,
+                "duration": 16.4,
+                "type": 0,
+                "instruction": "Turn left onto Rua Belchior da Fonseca",
+                "name": "Rua Belchior da Fonseca",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 188.6,
+                "duration": 135.8,
+                "type": 6,
+                "instruction": "Continue straight onto Rua Belchior da Fonseca",
+                "name": "Rua Belchior da Fonseca",
+                "way_points": [
+                  12,
+                  16
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Rua Belchior da Fonseca, straight ahead",
+                "name": "-",
+                "way_points": [
+                  16,
+                  16
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          16
+        ],
+        "summary": {
+          "distance": 692.6,
+          "duration": 498.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.639677,
+            -22.998332
+          ],
+          [
+            -43.638745,
+            -22.998611
+          ],
+          [
+            -43.638699,
+            -22.998932
+          ],
+          [
+            -43.63867,
+            -22.999021
+          ],
+          [
+            -43.638609,
+            -22.999093
+          ],
+          [
+            -43.638533,
+            -22.999152
+          ],
+          [
+            -43.638446,
+            -22.9993
+          ],
+          [
+            -43.638402,
+            -22.99948
+          ],
+          [
+            -43.638358,
+            -22.999804
+          ],
+          [
+            -43.638288,
+            -23.00112
+          ],
+          [
+            -43.638273,
+            -23.001551
+          ],
+          [
+            -43.638279,
+            -23.001948
+          ],
+          [
+            -43.638056,
+            -23.001948
+          ],
+          [
+            -43.637843,
+            -23.001956
+          ],
+          [
+            -43.637613,
+            -23.001967
+          ],
+          [
+            -43.636794,
+            -23.002005
+          ],
+          [
+            -43.636215,
+            -23.002006
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756390376722,
+    "query": {
+      "coordinates": [
+        [
+          -43.6396773,
+          -22.9983324
+        ],
+        [
+          -43.6362148,
+          -23.0020059
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

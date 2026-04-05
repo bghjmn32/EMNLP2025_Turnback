@@ -1,0 +1,169 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.206951,
+    19.453691,
+    -99.201688,
+    19.45586
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.206951,
+        19.453691,
+        -99.201688,
+        19.45586
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 715.9,
+            "duration": 515.5,
+            "steps": [
+              {
+                "distance": 144.5,
+                "duration": 104.1,
+                "type": 11,
+                "instruction": "Head south on Privada Ángel Silva",
+                "name": "Privada Ángel Silva",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 332.8,
+                "duration": 239.6,
+                "type": 0,
+                "instruction": "Turn left onto Calle Ignacio Allende",
+                "name": "Calle Ignacio Allende",
+                "way_points": [
+                  2,
+                  8
+                ]
+              },
+              {
+                "distance": 238.6,
+                "duration": 171.8,
+                "type": 12,
+                "instruction": "Keep left onto Calle Ignacio Allende",
+                "name": "Calle Ignacio Allende",
+                "way_points": [
+                  8,
+                  13
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Ignacio Allende, straight ahead",
+                "name": "-",
+                "way_points": [
+                  13,
+                  13
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          13
+        ],
+        "summary": {
+          "distance": 715.9,
+          "duration": 515.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.206778,
+            19.45586
+          ],
+          [
+            -99.206806,
+            19.455603
+          ],
+          [
+            -99.206951,
+            19.454571
+          ],
+          [
+            -99.205652,
+            19.454216
+          ],
+          [
+            -99.204922,
+            19.454002
+          ],
+          [
+            -99.2047,
+            19.453932
+          ],
+          [
+            -99.204241,
+            19.453856
+          ],
+          [
+            -99.203942,
+            19.453808
+          ],
+          [
+            -99.203889,
+            19.453801
+          ],
+          [
+            -99.203271,
+            19.453999
+          ],
+          [
+            -99.203132,
+            19.454006
+          ],
+          [
+            -99.20285,
+            19.453969
+          ],
+          [
+            -99.202166,
+            19.45379
+          ],
+          [
+            -99.201688,
+            19.453691
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756308019932,
+    "query": {
+      "coordinates": [
+        [
+          -99.2067778,
+          19.45586
+        ],
+        [
+          -99.2016881,
+          19.4536908
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

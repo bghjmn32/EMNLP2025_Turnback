@@ -1,0 +1,303 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.446047,
+    -33.926892,
+    18.450091,
+    -33.924542
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.446047,
+        -33.926892,
+        18.450091,
+        -33.924542
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 659.7,
+            "duration": 475.0,
+            "steps": [
+              {
+                "distance": 5.0,
+                "duration": 3.6,
+                "type": 11,
+                "instruction": "Head south on Plein Street",
+                "name": "Plein Street",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 132.0,
+                "duration": 95.0,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  5
+                ]
+              },
+              {
+                "distance": 52.4,
+                "duration": 37.7,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  5,
+                  13
+                ]
+              },
+              {
+                "distance": 176.7,
+                "duration": 127.2,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  13,
+                  18
+                ]
+              },
+              {
+                "distance": 61.5,
+                "duration": 44.3,
+                "type": 1,
+                "instruction": "Turn right onto Davison Road",
+                "name": "Davison Road",
+                "way_points": [
+                  18,
+                  19
+                ]
+              },
+              {
+                "distance": 33.7,
+                "duration": 24.3,
+                "type": 0,
+                "instruction": "Turn left onto Grey Street",
+                "name": "Grey Street",
+                "way_points": [
+                  19,
+                  21
+                ]
+              },
+              {
+                "distance": 89.9,
+                "duration": 64.7,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  21,
+                  25
+                ]
+              },
+              {
+                "distance": 53.9,
+                "duration": 38.8,
+                "type": 1,
+                "instruction": "Turn right onto Porter Street",
+                "name": "Porter Street",
+                "way_points": [
+                  25,
+                  29
+                ]
+              },
+              {
+                "distance": 54.7,
+                "duration": 39.3,
+                "type": 1,
+                "instruction": "Turn right onto Beach Road",
+                "name": "Beach Road",
+                "way_points": [
+                  29,
+                  30
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Beach Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  30,
+                  30
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          30
+        ],
+        "summary": {
+          "distance": 659.7,
+          "duration": 475.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.450091,
+            -33.926849
+          ],
+          [
+            18.450073,
+            -33.926892
+          ],
+          [
+            18.449848,
+            -33.926883
+          ],
+          [
+            18.449505,
+            -33.926846
+          ],
+          [
+            18.449299,
+            -33.926823
+          ],
+          [
+            18.448654,
+            -33.926749
+          ],
+          [
+            18.448643,
+            -33.926765
+          ],
+          [
+            18.448572,
+            -33.926768
+          ],
+          [
+            18.448531,
+            -33.926763
+          ],
+          [
+            18.448473,
+            -33.926755
+          ],
+          [
+            18.448282,
+            -33.926734
+          ],
+          [
+            18.448287,
+            -33.92671
+          ],
+          [
+            18.448299,
+            -33.926645
+          ],
+          [
+            18.448313,
+            -33.926585
+          ],
+          [
+            18.448157,
+            -33.926569
+          ],
+          [
+            18.44796,
+            -33.926549
+          ],
+          [
+            18.447553,
+            -33.926503
+          ],
+          [
+            18.447158,
+            -33.926476
+          ],
+          [
+            18.446409,
+            -33.926418
+          ],
+          [
+            18.44643,
+            -33.925866
+          ],
+          [
+            18.446168,
+            -33.925859
+          ],
+          [
+            18.446065,
+            -33.925857
+          ],
+          [
+            18.446064,
+            -33.925827
+          ],
+          [
+            18.446057,
+            -33.925613
+          ],
+          [
+            18.446047,
+            -33.925136
+          ],
+          [
+            18.446062,
+            -33.925049
+          ],
+          [
+            18.446171,
+            -33.925024
+          ],
+          [
+            18.446217,
+            -33.924981
+          ],
+          [
+            18.44623,
+            -33.924906
+          ],
+          [
+            18.446222,
+            -33.924648
+          ],
+          [
+            18.4468,
+            -33.924542
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756804858085,
+    "query": {
+      "coordinates": [
+        [
+          18.450091,
+          -33.9268493
+        ],
+        [
+          18.4468002,
+          -33.9245418
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

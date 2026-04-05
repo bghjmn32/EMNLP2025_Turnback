@@ -1,0 +1,179 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    150.65002,
+    -33.845994,
+    150.652682,
+    -33.839523
+  ],
+  "features": [
+    {
+      "bbox": [
+        150.65002,
+        -33.845994,
+        150.652682,
+        -33.839523
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1276.2,
+            "duration": 918.9,
+            "steps": [
+              {
+                "distance": 361.0,
+                "duration": 259.9,
+                "type": 11,
+                "instruction": "Head north on The Straight Road",
+                "name": "The Straight Road",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 120.8,
+                "duration": 87.0,
+                "type": 1,
+                "instruction": "Turn right onto Allan Road",
+                "name": "Allan Road",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 481.2,
+                "duration": 346.5,
+                "type": 1,
+                "instruction": "Turn right onto Winbourne Road",
+                "name": "Winbourne Road",
+                "way_points": [
+                  3,
+                  5
+                ]
+              },
+              {
+                "distance": 243.7,
+                "duration": 175.4,
+                "type": 0,
+                "instruction": "Turn left onto Mulgoa Road",
+                "name": "Mulgoa Road",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 69.6,
+                "duration": 50.1,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  6,
+                  10
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  10,
+                  10
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          10
+        ],
+        "summary": {
+          "distance": 1276.2,
+          "duration": 918.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            150.65002,
+            -33.842733
+          ],
+          [
+            150.650502,
+            -33.840079
+          ],
+          [
+            150.650603,
+            -33.839523
+          ],
+          [
+            150.651895,
+            -33.839691
+          ],
+          [
+            150.65111,
+            -33.843871
+          ],
+          [
+            150.651021,
+            -33.843934
+          ],
+          [
+            150.652682,
+            -33.845636
+          ],
+          [
+            150.65258,
+            -33.845732
+          ],
+          [
+            150.652466,
+            -33.845807
+          ],
+          [
+            150.652315,
+            -33.845867
+          ],
+          [
+            150.652072,
+            -33.845994
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756396657498,
+    "query": {
+      "coordinates": [
+        [
+          150.6500202,
+          -33.8427334
+        ],
+        [
+          150.6520721,
+          -33.8459941
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

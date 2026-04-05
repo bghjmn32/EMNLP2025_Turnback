@@ -1,0 +1,290 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -104.968357,
+    39.891277,
+    -104.962132,
+    39.893026
+  ],
+  "features": [
+    {
+      "bbox": [
+        -104.968357,
+        39.891277,
+        -104.962132,
+        39.893026
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 912.6,
+            "duration": 657.1,
+            "steps": [
+              {
+                "distance": 23.8,
+                "duration": 17.2,
+                "type": 11,
+                "instruction": "Head southeast on Leroy Drive",
+                "name": "Leroy Drive",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 25.5,
+                "duration": 18.4,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 69.5,
+                "duration": 50.0,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  2,
+                  4
+                ]
+              },
+              {
+                "distance": 21.8,
+                "duration": 15.7,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "distance": 117.5,
+                "duration": 84.6,
+                "type": 1,
+                "instruction": "Turn right onto Leroy Drive",
+                "name": "Leroy Drive",
+                "way_points": [
+                  5,
+                  10
+                ]
+              },
+              {
+                "distance": 30.7,
+                "duration": 22.1,
+                "type": 3,
+                "instruction": "Turn sharp right",
+                "name": "-",
+                "way_points": [
+                  10,
+                  11
+                ]
+              },
+              {
+                "distance": 21.6,
+                "duration": 15.6,
+                "type": 2,
+                "instruction": "Turn sharp left",
+                "name": "-",
+                "way_points": [
+                  11,
+                  13
+                ]
+              },
+              {
+                "distance": 240.4,
+                "duration": 173.1,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  13,
+                  18
+                ]
+              },
+              {
+                "distance": 156.5,
+                "duration": 112.7,
+                "type": 1,
+                "instruction": "Turn right onto Irma Drive",
+                "name": "Irma Drive",
+                "way_points": [
+                  18,
+                  20
+                ]
+              },
+              {
+                "distance": 205.4,
+                "duration": 147.9,
+                "type": 0,
+                "instruction": "Turn left onto East 108th Avenue",
+                "name": "East 108th Avenue",
+                "way_points": [
+                  20,
+                  24
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at East 108th Avenue, straight ahead",
+                "name": "-",
+                "way_points": [
+                  24,
+                  24
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          24
+        ],
+        "summary": {
+          "distance": 912.6,
+          "duration": 657.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -104.962439,
+            39.893012
+          ],
+          [
+            -104.962315,
+            39.89282
+          ],
+          [
+            -104.96259,
+            39.89273
+          ],
+          [
+            -104.962462,
+            39.89254
+          ],
+          [
+            -104.962386,
+            39.892133
+          ],
+          [
+            -104.962132,
+            39.892125
+          ],
+          [
+            -104.962184,
+            39.891912
+          ],
+          [
+            -104.962301,
+            39.891712
+          ],
+          [
+            -104.96245,
+            39.891544
+          ],
+          [
+            -104.962635,
+            39.8914
+          ],
+          [
+            -104.962865,
+            39.891277
+          ],
+          [
+            -104.962996,
+            39.891534
+          ],
+          [
+            -104.963095,
+            39.891481
+          ],
+          [
+            -104.963215,
+            39.891438
+          ],
+          [
+            -104.963591,
+            39.89197
+          ],
+          [
+            -104.963942,
+            39.892271
+          ],
+          [
+            -104.964319,
+            39.892127
+          ],
+          [
+            -104.965032,
+            39.891857
+          ],
+          [
+            -104.965288,
+            39.891759
+          ],
+          [
+            -104.965894,
+            39.892684
+          ],
+          [
+            -104.966084,
+            39.893026
+          ],
+          [
+            -104.966203,
+            39.892996
+          ],
+          [
+            -104.966549,
+            39.892901
+          ],
+          [
+            -104.967511,
+            39.892643
+          ],
+          [
+            -104.968357,
+            39.892418
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756307078771,
+    "query": {
+      "coordinates": [
+        [
+          -104.9624393,
+          39.8930119
+        ],
+        [
+          -104.968357,
+          39.892418
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

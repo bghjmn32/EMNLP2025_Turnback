@@ -1,0 +1,276 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.160413,
+    19.381743,
+    -99.150027,
+    19.383498
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.160413,
+        19.381743,
+        -99.150027,
+        19.383498
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1313.7,
+            "duration": 945.9,
+            "steps": [
+              {
+                "distance": 55.1,
+                "duration": 39.7,
+                "type": 11,
+                "instruction": "Head south on Calle La Quemada",
+                "name": "Calle La Quemada",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 142.8,
+                "duration": 102.8,
+                "type": 1,
+                "instruction": "Turn right onto Calle Isabel Lozano Viuda de Betti",
+                "name": "Calle Isabel Lozano Viuda de Betti",
+                "way_points": [
+                  1,
+                  3
+                ]
+              },
+              {
+                "distance": 90.9,
+                "duration": 65.5,
+                "type": 0,
+                "instruction": "Turn left onto Calle Monte Albán",
+                "name": "Calle Monte Albán",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 45.0,
+                "duration": 32.4,
+                "type": 1,
+                "instruction": "Turn right onto Calle Bartolomé R. Salido",
+                "name": "Calle Bartolomé R. Salido",
+                "way_points": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "distance": 90.4,
+                "duration": 65.1,
+                "type": 0,
+                "instruction": "Turn left onto Calle Bonampak",
+                "name": "Calle Bonampak",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 867.4,
+                "duration": 624.5,
+                "type": 1,
+                "instruction": "Turn right onto Calle San Borja",
+                "name": "Calle San Borja",
+                "way_points": [
+                  6,
+                  24
+                ]
+              },
+              {
+                "distance": 9.2,
+                "duration": 6.6,
+                "type": 1,
+                "instruction": "Turn right onto Calle Juan Enrique Pestalozzi",
+                "name": "Calle Juan Enrique Pestalozzi",
+                "way_points": [
+                  24,
+                  25
+                ]
+              },
+              {
+                "distance": 12.9,
+                "duration": 9.3,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  25,
+                  26
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  26,
+                  26
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          26
+        ],
+        "summary": {
+          "distance": 1313.7,
+          "duration": 945.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.150027,
+            19.383498
+          ],
+          [
+            -99.150099,
+            19.383007
+          ],
+          [
+            -99.150683,
+            19.383118
+          ],
+          [
+            -99.151435,
+            19.383252
+          ],
+          [
+            -99.151629,
+            19.382455
+          ],
+          [
+            -99.152049,
+            19.382537
+          ],
+          [
+            -99.152231,
+            19.381743
+          ],
+          [
+            -99.152779,
+            19.38183
+          ],
+          [
+            -99.152905,
+            19.381858
+          ],
+          [
+            -99.153489,
+            19.381977
+          ],
+          [
+            -99.154128,
+            19.382094
+          ],
+          [
+            -99.154701,
+            19.38221
+          ],
+          [
+            -99.1553,
+            19.382305
+          ],
+          [
+            -99.156021,
+            19.382453
+          ],
+          [
+            -99.156759,
+            19.382572
+          ],
+          [
+            -99.156846,
+            19.382592
+          ],
+          [
+            -99.157018,
+            19.382631
+          ],
+          [
+            -99.157227,
+            19.382678
+          ],
+          [
+            -99.157946,
+            19.382845
+          ],
+          [
+            -99.158078,
+            19.382873
+          ],
+          [
+            -99.158829,
+            19.383042
+          ],
+          [
+            -99.159539,
+            19.3832
+          ],
+          [
+            -99.159632,
+            19.383221
+          ],
+          [
+            -99.160242,
+            19.383362
+          ],
+          [
+            -99.160313,
+            19.383379
+          ],
+          [
+            -99.160293,
+            19.383459
+          ],
+          [
+            -99.160413,
+            19.383484
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756310891149,
+    "query": {
+      "coordinates": [
+        [
+          -99.1500271,
+          19.383498
+        ],
+        [
+          -99.1604135,
+          19.3834836
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

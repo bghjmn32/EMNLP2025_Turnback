@@ -1,0 +1,207 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    11.606946,
+    48.146255,
+    11.612292,
+    48.148437
+  ],
+  "features": [
+    {
+      "bbox": [
+        11.606946,
+        48.146255,
+        11.612292,
+        48.148437
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 601.3,
+            "duration": 432.9,
+            "steps": [
+              {
+                "distance": 58.3,
+                "duration": 42.0,
+                "type": 11,
+                "instruction": "Head south",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 314.5,
+                "duration": 226.4,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  11
+                ]
+              },
+              {
+                "distance": 127.9,
+                "duration": 92.1,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 91.5,
+                "duration": 65.9,
+                "type": 0,
+                "instruction": "Turn left onto Wehrlestraße",
+                "name": "Wehrlestraße",
+                "way_points": [
+                  12,
+                  16
+                ]
+              },
+              {
+                "distance": 9.1,
+                "duration": 6.6,
+                "type": 0,
+                "instruction": "Turn left onto Merzstraße",
+                "name": "Merzstraße",
+                "way_points": [
+                  16,
+                  17
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Merzstraße, straight ahead",
+                "name": "-",
+                "way_points": [
+                  17,
+                  17
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          17
+        ],
+        "summary": {
+          "distance": 601.3,
+          "duration": 432.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            11.612292,
+            48.146755
+          ],
+          [
+            11.612058,
+            48.146255
+          ],
+          [
+            11.610922,
+            48.146541
+          ],
+          [
+            11.610838,
+            48.146562
+          ],
+          [
+            11.610768,
+            48.146582
+          ],
+          [
+            11.609656,
+            48.146899
+          ],
+          [
+            11.609601,
+            48.146915
+          ],
+          [
+            11.609541,
+            48.146935
+          ],
+          [
+            11.609209,
+            48.147047
+          ],
+          [
+            11.608823,
+            48.147155
+          ],
+          [
+            11.608772,
+            48.147169
+          ],
+          [
+            11.608119,
+            48.147288
+          ],
+          [
+            11.60818,
+            48.148437
+          ],
+          [
+            11.608092,
+            48.148428
+          ],
+          [
+            11.608018,
+            48.148425
+          ],
+          [
+            11.607841,
+            48.148415
+          ],
+          [
+            11.606949,
+            48.148388
+          ],
+          [
+            11.606946,
+            48.148306
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756137840481,
+    "query": {
+      "coordinates": [
+        [
+          11.6122924,
+          48.1467551
+        ],
+        [
+          11.6069464,
+          48.148306
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

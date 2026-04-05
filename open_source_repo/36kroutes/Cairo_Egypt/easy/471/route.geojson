@@ -1,0 +1,201 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    31.235631,
+    29.966025,
+    31.243073,
+    29.968216
+  ],
+  "features": [
+    {
+      "bbox": [
+        31.235631,
+        29.966025,
+        31.243073,
+        29.968216
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 948.5,
+            "duration": 682.9,
+            "steps": [
+              {
+                "distance": 516.8,
+                "duration": 372.1,
+                "type": 11,
+                "instruction": "Head northeast",
+                "name": "-",
+                "way_points": [
+                  0,
+                  11
+                ]
+              },
+              {
+                "distance": 227.3,
+                "duration": 163.6,
+                "type": 1,
+                "instruction": "Turn right onto شارع كورنيش النيل",
+                "name": "شارع كورنيش النيل",
+                "way_points": [
+                  11,
+                  13
+                ]
+              },
+              {
+                "distance": 204.4,
+                "duration": 147.2,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  13,
+                  21
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  21,
+                  21
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          21
+        ],
+        "summary": {
+          "distance": 948.5,
+          "duration": 682.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            31.235631,
+            29.966025
+          ],
+          [
+            31.236279,
+            29.966475
+          ],
+          [
+            31.237377,
+            29.967237
+          ],
+          [
+            31.238608,
+            29.968081
+          ],
+          [
+            31.238683,
+            29.968183
+          ],
+          [
+            31.238917,
+            29.968216
+          ],
+          [
+            31.238983,
+            29.968214
+          ],
+          [
+            31.239013,
+            29.968198
+          ],
+          [
+            31.239538,
+            29.967636
+          ],
+          [
+            31.239596,
+            29.96761
+          ],
+          [
+            31.239638,
+            29.967612
+          ],
+          [
+            31.239759,
+            29.96767
+          ],
+          [
+            31.240607,
+            29.966957
+          ],
+          [
+            31.241498,
+            29.96629
+          ],
+          [
+            31.241589,
+            29.966378
+          ],
+          [
+            31.241693,
+            29.966474
+          ],
+          [
+            31.24179,
+            29.966564
+          ],
+          [
+            31.24195,
+            29.966707
+          ],
+          [
+            31.242111,
+            29.966836
+          ],
+          [
+            31.242479,
+            29.967114
+          ],
+          [
+            31.242804,
+            29.967337
+          ],
+          [
+            31.243073,
+            29.967517
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756731173028,
+    "query": {
+      "coordinates": [
+        [
+          31.2356307,
+          29.9660251
+        ],
+        [
+          31.2430728,
+          29.9675171
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

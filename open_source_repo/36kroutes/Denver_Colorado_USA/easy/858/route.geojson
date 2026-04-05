@@ -1,0 +1,214 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -105.04313,
+    39.834553,
+    -105.034314,
+    39.838167
+  ],
+  "features": [
+    {
+      "bbox": [
+        -105.04313,
+        39.834553,
+        -105.034314,
+        39.838167
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1154.0,
+            "duration": 830.9,
+            "steps": [
+              {
+                "distance": 620.5,
+                "duration": 446.8,
+                "type": 11,
+                "instruction": "Head east on West 78th Avenue",
+                "name": "West 78th Avenue",
+                "way_points": [
+                  0,
+                  9
+                ]
+              },
+              {
+                "distance": 305.9,
+                "duration": 220.3,
+                "type": 1,
+                "instruction": "Turn right onto Meade Street",
+                "name": "Meade Street",
+                "way_points": [
+                  9,
+                  11
+                ]
+              },
+              {
+                "distance": 60.6,
+                "duration": 43.6,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 28.7,
+                "duration": 20.6,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  12,
+                  13
+                ]
+              },
+              {
+                "distance": 71.9,
+                "duration": 51.8,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  13,
+                  14
+                ]
+              },
+              {
+                "distance": 66.4,
+                "duration": 47.8,
+                "type": 1,
+                "instruction": "Turn right onto Lowell Boulevard",
+                "name": "Lowell Boulevard",
+                "way_points": [
+                  14,
+                  16
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Lowell Boulevard, straight ahead",
+                "name": "-",
+                "way_points": [
+                  16,
+                  16
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          16
+        ],
+        "summary": {
+          "distance": 1154.0,
+          "duration": 830.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -105.04313,
+            39.838161
+          ],
+          [
+            -105.042651,
+            39.83816
+          ],
+          [
+            -105.042081,
+            39.838164
+          ],
+          [
+            -105.041724,
+            39.838162
+          ],
+          [
+            -105.040571,
+            39.838167
+          ],
+          [
+            -105.038964,
+            39.838158
+          ],
+          [
+            -105.03792,
+            39.838158
+          ],
+          [
+            -105.037409,
+            39.838158
+          ],
+          [
+            -105.036914,
+            39.838156
+          ],
+          [
+            -105.035863,
+            39.838146
+          ],
+          [
+            -105.035873,
+            39.83634
+          ],
+          [
+            -105.035878,
+            39.835395
+          ],
+          [
+            -105.035168,
+            39.835393
+          ],
+          [
+            -105.035156,
+            39.835135
+          ],
+          [
+            -105.034314,
+            39.83515
+          ],
+          [
+            -105.034314,
+            39.835055
+          ],
+          [
+            -105.034318,
+            39.834553
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756307319004,
+    "query": {
+      "coordinates": [
+        [
+          -105.0431302,
+          39.8381611
+        ],
+        [
+          -105.0343178,
+          39.834553
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

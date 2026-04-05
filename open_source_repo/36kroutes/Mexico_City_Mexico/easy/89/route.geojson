@@ -1,0 +1,231 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.065364,
+    19.284136,
+    -99.057586,
+    19.289566
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.065364,
+        19.284136,
+        -99.057586,
+        19.289566
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1232.8,
+            "duration": 887.6,
+            "steps": [
+              {
+                "distance": 110.9,
+                "duration": 79.9,
+                "type": 11,
+                "instruction": "Head northeast on Calle Pámpano",
+                "name": "Calle Pámpano",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 839.1,
+                "duration": 604.1,
+                "type": 0,
+                "instruction": "Turn left onto Avenida Sirena",
+                "name": "Avenida Sirena",
+                "way_points": [
+                  1,
+                  18
+                ]
+              },
+              {
+                "distance": 114.5,
+                "duration": 82.5,
+                "type": 0,
+                "instruction": "Turn left onto Calle Salmón",
+                "name": "Calle Salmón",
+                "way_points": [
+                  18,
+                  19
+                ]
+              },
+              {
+                "distance": 10.8,
+                "duration": 7.8,
+                "type": 0,
+                "instruction": "Turn left onto Calle Aleta",
+                "name": "Calle Aleta",
+                "way_points": [
+                  19,
+                  20
+                ]
+              },
+              {
+                "distance": 157.4,
+                "duration": 113.3,
+                "type": 1,
+                "instruction": "Turn right onto Calle Salmón",
+                "name": "Calle Salmón",
+                "way_points": [
+                  20,
+                  23
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Salmón, straight ahead",
+                "name": "-",
+                "way_points": [
+                  23,
+                  23
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          23
+        ],
+        "summary": {
+          "distance": 1232.8,
+          "duration": 887.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.058238,
+            19.284136
+          ],
+          [
+            -99.057586,
+            19.284922
+          ],
+          [
+            -99.058001,
+            19.285201
+          ],
+          [
+            -99.058331,
+            19.285442
+          ],
+          [
+            -99.058388,
+            19.285482
+          ],
+          [
+            -99.05878,
+            19.285762
+          ],
+          [
+            -99.05917,
+            19.286039
+          ],
+          [
+            -99.059603,
+            19.286325
+          ],
+          [
+            -99.059977,
+            19.286609
+          ],
+          [
+            -99.060373,
+            19.286902
+          ],
+          [
+            -99.060766,
+            19.287202
+          ],
+          [
+            -99.061132,
+            19.287488
+          ],
+          [
+            -99.061515,
+            19.287771
+          ],
+          [
+            -99.061918,
+            19.288064
+          ],
+          [
+            -99.06231,
+            19.288362
+          ],
+          [
+            -99.062705,
+            19.28867
+          ],
+          [
+            -99.063099,
+            19.288965
+          ],
+          [
+            -99.063487,
+            19.289271
+          ],
+          [
+            -99.063885,
+            19.289566
+          ],
+          [
+            -99.064534,
+            19.288738
+          ],
+          [
+            -99.064452,
+            19.288678
+          ],
+          [
+            -99.064766,
+            19.288308
+          ],
+          [
+            -99.06506,
+            19.287935
+          ],
+          [
+            -99.065364,
+            19.287555
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756304398087,
+    "query": {
+      "coordinates": [
+        [
+          -99.058238,
+          19.2841361
+        ],
+        [
+          -99.0653638,
+          19.2875546
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

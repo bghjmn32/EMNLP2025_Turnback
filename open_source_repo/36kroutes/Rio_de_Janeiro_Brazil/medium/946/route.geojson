@@ -1,0 +1,279 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.33982,
+    -22.882407,
+    -43.333701,
+    -22.879098
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.33982,
+        -22.882407,
+        -43.333701,
+        -22.879098
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1021.0,
+            "duration": 735.1,
+            "steps": [
+              {
+                "distance": 92.4,
+                "duration": 66.5,
+                "type": 11,
+                "instruction": "Head west on Avenida Ernani Cardoso",
+                "name": "Avenida Ernani Cardoso",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 9.1,
+                "duration": 6.6,
+                "type": 1,
+                "instruction": "Turn right onto Rua Mendes de Aguiar",
+                "name": "Rua Mendes de Aguiar",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 61.7,
+                "duration": 44.4,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  2,
+                  5
+                ]
+              },
+              {
+                "distance": 226.3,
+                "duration": 162.9,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  5,
+                  9
+                ]
+              },
+              {
+                "distance": 229.9,
+                "duration": 165.5,
+                "type": 4,
+                "instruction": "Turn slight left onto Rua Curimatá",
+                "name": "Rua Curimatá",
+                "way_points": [
+                  9,
+                  10
+                ]
+              },
+              {
+                "distance": 103.3,
+                "duration": 74.4,
+                "type": 1,
+                "instruction": "Turn right onto Rua Padre Manso",
+                "name": "Rua Padre Manso",
+                "way_points": [
+                  10,
+                  12
+                ]
+              },
+              {
+                "distance": 18.8,
+                "duration": 13.5,
+                "type": 13,
+                "instruction": "Keep right onto Praça Armando Cruz",
+                "name": "Praça Armando Cruz",
+                "way_points": [
+                  12,
+                  14
+                ]
+              },
+              {
+                "distance": 35.6,
+                "duration": 25.7,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  14,
+                  20
+                ]
+              },
+              {
+                "distance": 243.9,
+                "duration": 175.6,
+                "type": 0,
+                "instruction": "Turn left onto Rua Quaxima",
+                "name": "Rua Quaxima",
+                "way_points": [
+                  20,
+                  24
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Rua Quaxima, on the right",
+                "name": "-",
+                "way_points": [
+                  24,
+                  24
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          24
+        ],
+        "summary": {
+          "distance": 1021.0,
+          "duration": 735.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.333701,
+            -22.882279
+          ],
+          [
+            -43.334592,
+            -22.882407
+          ],
+          [
+            -43.334585,
+            -22.882325
+          ],
+          [
+            -43.334683,
+            -22.882332
+          ],
+          [
+            -43.334879,
+            -22.882346
+          ],
+          [
+            -43.335186,
+            -22.882369
+          ],
+          [
+            -43.335043,
+            -22.880528
+          ],
+          [
+            -43.335056,
+            -22.880435
+          ],
+          [
+            -43.335078,
+            -22.88041
+          ],
+          [
+            -43.335143,
+            -22.880389
+          ],
+          [
+            -43.337386,
+            -22.880343
+          ],
+          [
+            -43.33734,
+            -22.879748
+          ],
+          [
+            -43.337338,
+            -22.879416
+          ],
+          [
+            -43.33728,
+            -22.879323
+          ],
+          [
+            -43.337231,
+            -22.879281
+          ],
+          [
+            -43.337267,
+            -22.879246
+          ],
+          [
+            -43.337327,
+            -22.879231
+          ],
+          [
+            -43.337386,
+            -22.879216
+          ],
+          [
+            -43.33739,
+            -22.879129
+          ],
+          [
+            -43.337442,
+            -22.879122
+          ],
+          [
+            -43.337441,
+            -22.879098
+          ],
+          [
+            -43.337564,
+            -22.879099
+          ],
+          [
+            -43.339624,
+            -22.87915
+          ],
+          [
+            -43.339801,
+            -22.879143
+          ],
+          [
+            -43.33982,
+            -22.87914
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756401430327,
+    "query": {
+      "coordinates": [
+        [
+          -43.3337007,
+          -22.882279
+        ],
+        [
+          -43.3398062,
+          -22.8790719
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

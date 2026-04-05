@@ -1,0 +1,252 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    31.310601,
+    30.121863,
+    31.312426,
+    30.126311
+  ],
+  "features": [
+    {
+      "bbox": [
+        31.310601,
+        30.121863,
+        31.312426,
+        30.126311
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 633.2,
+            "duration": 455.9,
+            "steps": [
+              {
+                "distance": 26.9,
+                "duration": 19.4,
+                "type": 11,
+                "instruction": "Head east on شارع البلسان",
+                "name": "شارع البلسان",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 122.8,
+                "duration": 88.4,
+                "type": 2,
+                "instruction": "Turn sharp left onto شارع منية مطر",
+                "name": "شارع منية مطر",
+                "way_points": [
+                  1,
+                  3
+                ]
+              },
+              {
+                "distance": 77.0,
+                "duration": 55.5,
+                "type": 6,
+                "instruction": "Continue straight onto شارع منية مطر",
+                "name": "شارع منية مطر",
+                "way_points": [
+                  3,
+                  5
+                ]
+              },
+              {
+                "distance": 226.3,
+                "duration": 162.9,
+                "type": 1,
+                "instruction": "Turn right onto شارع الملك المعز",
+                "name": "شارع الملك المعز",
+                "way_points": [
+                  5,
+                  11
+                ]
+              },
+              {
+                "distance": 3.0,
+                "duration": 2.2,
+                "type": 0,
+                "instruction": "Turn left onto شارع جعفر والي",
+                "name": "شارع جعفر والي",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 96.8,
+                "duration": 69.7,
+                "type": 1,
+                "instruction": "Turn right onto حارة محمد الامير",
+                "name": "حارة محمد الامير",
+                "way_points": [
+                  12,
+                  15
+                ]
+              },
+              {
+                "distance": 5.0,
+                "duration": 3.6,
+                "type": 1,
+                "instruction": "Turn right onto شارع محمد الامير",
+                "name": "شارع محمد الامير",
+                "way_points": [
+                  15,
+                  16
+                ]
+              },
+              {
+                "distance": 75.3,
+                "duration": 54.2,
+                "type": 0,
+                "instruction": "Turn left onto شارع الملك المعز",
+                "name": "شارع الملك المعز",
+                "way_points": [
+                  16,
+                  20
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at شارع الملك المعز, straight ahead",
+                "name": "-",
+                "way_points": [
+                  20,
+                  20
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          20
+        ],
+        "summary": {
+          "distance": 633.2,
+          "duration": 455.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            31.312159,
+            30.121863
+          ],
+          [
+            31.312426,
+            30.121935
+          ],
+          [
+            31.312096,
+            30.12208
+          ],
+          [
+            31.3113,
+            30.122456
+          ],
+          [
+            31.31071,
+            30.12274
+          ],
+          [
+            31.310601,
+            30.122793
+          ],
+          [
+            31.310679,
+            30.123091
+          ],
+          [
+            31.31079,
+            30.123513
+          ],
+          [
+            31.310944,
+            30.124097
+          ],
+          [
+            31.311014,
+            30.124282
+          ],
+          [
+            31.311072,
+            30.124385
+          ],
+          [
+            31.311092,
+            30.124774
+          ],
+          [
+            31.311061,
+            30.124776
+          ],
+          [
+            31.311036,
+            30.125335
+          ],
+          [
+            31.311056,
+            30.125416
+          ],
+          [
+            31.31103,
+            30.125643
+          ],
+          [
+            31.311081,
+            30.125639
+          ],
+          [
+            31.3111,
+            30.125858
+          ],
+          [
+            31.311086,
+            30.126084
+          ],
+          [
+            31.311058,
+            30.126157
+          ],
+          [
+            31.311058,
+            30.126311
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756732253449,
+    "query": {
+      "coordinates": [
+        [
+          31.312159,
+          30.1218626
+        ],
+        [
+          31.3110576,
+          30.1263113
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

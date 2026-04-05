@@ -1,0 +1,283 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -0.192215,
+    51.548453,
+    -0.185545,
+    51.550228
+  ],
+  "features": [
+    {
+      "bbox": [
+        -0.192215,
+        51.548453,
+        -0.185545,
+        51.550228
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 577.8,
+            "duration": 416.0,
+            "steps": [
+              {
+                "distance": 5.1,
+                "duration": 3.7,
+                "type": 11,
+                "instruction": "Head north",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 41.4,
+                "duration": 29.8,
+                "type": 1,
+                "instruction": "Turn right onto 1",
+                "name": "1",
+                "way_points": [
+                  1,
+                  3
+                ]
+              },
+              {
+                "distance": 10.3,
+                "duration": 7.4,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 2.7,
+                "duration": 1.9,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "distance": 32.8,
+                "duration": 23.6,
+                "type": 1,
+                "instruction": "Turn right onto Black Path",
+                "name": "Black Path",
+                "way_points": [
+                  5,
+                  7
+                ]
+              },
+              {
+                "distance": 6.3,
+                "duration": 4.5,
+                "type": 1,
+                "instruction": "Turn right onto West End Lane, B510",
+                "name": "West End Lane, B510",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 221.7,
+                "duration": 159.6,
+                "type": 0,
+                "instruction": "Turn left onto Potteries Path",
+                "name": "Potteries Path",
+                "way_points": [
+                  8,
+                  16
+                ]
+              },
+              {
+                "distance": 27.9,
+                "duration": 20.1,
+                "type": 0,
+                "instruction": "Turn left onto Crown Close",
+                "name": "Crown Close",
+                "way_points": [
+                  16,
+                  18
+                ]
+              },
+              {
+                "distance": 229.7,
+                "duration": 165.4,
+                "type": 1,
+                "instruction": "Turn right onto Lymington Road",
+                "name": "Lymington Road",
+                "way_points": [
+                  18,
+                  25
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Lymington Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  25,
+                  25
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          25
+        ],
+        "summary": {
+          "distance": 577.8,
+          "duration": 416.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -0.192215,
+            51.548546
+          ],
+          [
+            -0.192208,
+            51.548592
+          ],
+          [
+            -0.191635,
+            51.548564
+          ],
+          [
+            -0.191636,
+            51.548548
+          ],
+          [
+            -0.191488,
+            51.548546
+          ],
+          [
+            -0.191485,
+            51.54857
+          ],
+          [
+            -0.19118,
+            51.548537
+          ],
+          [
+            -0.191016,
+            51.548536
+          ],
+          [
+            -0.191003,
+            51.54848
+          ],
+          [
+            -0.190937,
+            51.548468
+          ],
+          [
+            -0.190155,
+            51.548453
+          ],
+          [
+            -0.190007,
+            51.548541
+          ],
+          [
+            -0.188903,
+            51.54852
+          ],
+          [
+            -0.188539,
+            51.548549
+          ],
+          [
+            -0.188539,
+            51.548686
+          ],
+          [
+            -0.188474,
+            51.548773
+          ],
+          [
+            -0.188225,
+            51.548883
+          ],
+          [
+            -0.18831,
+            51.549082
+          ],
+          [
+            -0.188348,
+            51.54912
+          ],
+          [
+            -0.188089,
+            51.54921
+          ],
+          [
+            -0.187714,
+            51.549364
+          ],
+          [
+            -0.187099,
+            51.549608
+          ],
+          [
+            -0.186466,
+            51.549857
+          ],
+          [
+            -0.185884,
+            51.550094
+          ],
+          [
+            -0.185611,
+            51.550202
+          ],
+          [
+            -0.185545,
+            51.550228
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756828749314,
+    "query": {
+      "coordinates": [
+        [
+          -0.1922149,
+          51.548546
+        ],
+        [
+          -0.1855452,
+          51.5502283
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

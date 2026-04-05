@@ -1,0 +1,229 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    31.30616,
+    30.121863,
+    31.312426,
+    30.124524
+  ],
+  "features": [
+    {
+      "bbox": [
+        31.30616,
+        30.121863,
+        31.312426,
+        30.124524
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 725.6,
+            "duration": 522.4,
+            "steps": [
+              {
+                "distance": 26.9,
+                "duration": 19.4,
+                "type": 11,
+                "instruction": "Head east on شارع البلسان",
+                "name": "شارع البلسان",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 122.8,
+                "duration": 88.4,
+                "type": 2,
+                "instruction": "Turn sharp left onto شارع منية مطر",
+                "name": "شارع منية مطر",
+                "way_points": [
+                  1,
+                  3
+                ]
+              },
+              {
+                "distance": 341.3,
+                "duration": 245.7,
+                "type": 6,
+                "instruction": "Continue straight onto شارع منية مطر",
+                "name": "شارع منية مطر",
+                "way_points": [
+                  3,
+                  12
+                ]
+              },
+              {
+                "distance": 25.7,
+                "duration": 18.5,
+                "type": 1,
+                "instruction": "Turn right onto شارع المطراوي",
+                "name": "شارع المطراوي",
+                "way_points": [
+                  12,
+                  13
+                ]
+              },
+              {
+                "distance": 86.6,
+                "duration": 62.3,
+                "type": 0,
+                "instruction": "Turn left onto شارع ابو زيد فرج",
+                "name": "شارع ابو زيد فرج",
+                "way_points": [
+                  13,
+                  14
+                ]
+              },
+              {
+                "distance": 9.9,
+                "duration": 7.2,
+                "type": 1,
+                "instruction": "Turn right onto شارع زغلول قليني",
+                "name": "شارع زغلول قليني",
+                "way_points": [
+                  14,
+                  15
+                ]
+              },
+              {
+                "distance": 112.3,
+                "duration": 80.8,
+                "type": 0,
+                "instruction": "Turn left onto شارع داوود",
+                "name": "شارع داوود",
+                "way_points": [
+                  15,
+                  17
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at شارع داوود, straight ahead",
+                "name": "-",
+                "way_points": [
+                  17,
+                  17
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          17
+        ],
+        "summary": {
+          "distance": 725.6,
+          "duration": 522.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            31.312159,
+            30.121863
+          ],
+          [
+            31.312426,
+            30.121935
+          ],
+          [
+            31.312096,
+            30.12208
+          ],
+          [
+            31.3113,
+            30.122456
+          ],
+          [
+            31.31071,
+            30.12274
+          ],
+          [
+            31.310601,
+            30.122793
+          ],
+          [
+            31.310227,
+            30.122987
+          ],
+          [
+            31.310122,
+            30.123041
+          ],
+          [
+            31.309865,
+            30.123163
+          ],
+          [
+            31.309175,
+            30.123489
+          ],
+          [
+            31.308994,
+            30.123582
+          ],
+          [
+            31.308484,
+            30.12386
+          ],
+          [
+            31.308205,
+            30.123947
+          ],
+          [
+            31.308186,
+            30.124178
+          ],
+          [
+            31.307287,
+            30.124229
+          ],
+          [
+            31.307303,
+            30.124318
+          ],
+          [
+            31.306658,
+            30.124434
+          ],
+          [
+            31.30616,
+            30.124524
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756732240270,
+    "query": {
+      "coordinates": [
+        [
+          31.312159,
+          30.1218626
+        ],
+        [
+          31.3061601,
+          30.1245236
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

@@ -1,0 +1,299 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    174.663484,
+    -36.796282,
+    174.667479,
+    -36.794571
+  ],
+  "features": [
+    {
+      "bbox": [
+        174.663484,
+        -36.796282,
+        174.667479,
+        -36.794571
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 598.2,
+            "duration": 430.7,
+            "steps": [
+              {
+                "distance": 5.9,
+                "duration": 4.3,
+                "type": 11,
+                "instruction": "Head west",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 58.2,
+                "duration": 41.9,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  3
+                ]
+              },
+              {
+                "distance": 77.5,
+                "duration": 55.8,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 163.3,
+                "duration": 117.6,
+                "type": 12,
+                "instruction": "Keep left",
+                "name": "-",
+                "way_points": [
+                  4,
+                  12
+                ]
+              },
+              {
+                "distance": 7.8,
+                "duration": 5.6,
+                "type": 0,
+                "instruction": "Turn left onto Flounder Road",
+                "name": "Flounder Road",
+                "way_points": [
+                  12,
+                  13
+                ]
+              },
+              {
+                "distance": 74.7,
+                "duration": 53.8,
+                "type": 1,
+                "instruction": "Turn right onto Bomb Point Drive",
+                "name": "Bomb Point Drive",
+                "way_points": [
+                  13,
+                  14
+                ]
+              },
+              {
+                "distance": 5.7,
+                "duration": 4.1,
+                "type": 2,
+                "instruction": "Turn sharp left",
+                "name": "-",
+                "way_points": [
+                  14,
+                  15
+                ]
+              },
+              {
+                "distance": 196.7,
+                "duration": 141.6,
+                "type": 5,
+                "instruction": "Turn slight right",
+                "name": "-",
+                "way_points": [
+                  15,
+                  28
+                ]
+              },
+              {
+                "distance": 8.3,
+                "duration": 6.0,
+                "type": 1,
+                "instruction": "Turn right onto Tahingamanu Road",
+                "name": "Tahingamanu Road",
+                "way_points": [
+                  28,
+                  29
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Tahingamanu Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  29,
+                  29
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          29
+        ],
+        "summary": {
+          "distance": 598.2,
+          "duration": 430.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            174.667479,
+            -36.794961
+          ],
+          [
+            174.667415,
+            -36.794947
+          ],
+          [
+            174.667246,
+            -36.79541
+          ],
+          [
+            174.667201,
+            -36.795429
+          ],
+          [
+            174.666372,
+            -36.795215
+          ],
+          [
+            174.666284,
+            -36.795194
+          ],
+          [
+            174.666178,
+            -36.79517
+          ],
+          [
+            174.665619,
+            -36.795031
+          ],
+          [
+            174.665537,
+            -36.795011
+          ],
+          [
+            174.665472,
+            -36.794994
+          ],
+          [
+            174.664911,
+            -36.794895
+          ],
+          [
+            174.66468,
+            -36.794823
+          ],
+          [
+            174.664616,
+            -36.7948
+          ],
+          [
+            174.664576,
+            -36.794862
+          ],
+          [
+            174.663819,
+            -36.794571
+          ],
+          [
+            174.663809,
+            -36.794621
+          ],
+          [
+            174.663719,
+            -36.794791
+          ],
+          [
+            174.663691,
+            -36.794915
+          ],
+          [
+            174.663776,
+            -36.795186
+          ],
+          [
+            174.663846,
+            -36.795417
+          ],
+          [
+            174.663887,
+            -36.795589
+          ],
+          [
+            174.66389,
+            -36.79562
+          ],
+          [
+            174.663893,
+            -36.795651
+          ],
+          [
+            174.663887,
+            -36.795784
+          ],
+          [
+            174.66383,
+            -36.795953
+          ],
+          [
+            174.663719,
+            -36.796115
+          ],
+          [
+            174.663609,
+            -36.796229
+          ],
+          [
+            174.663593,
+            -36.796245
+          ],
+          [
+            174.663557,
+            -36.796282
+          ],
+          [
+            174.663484,
+            -36.796236
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756373725502,
+    "query": {
+      "coordinates": [
+        [
+          174.6674785,
+          -36.794961
+        ],
+        [
+          174.6634841,
+          -36.7962361
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

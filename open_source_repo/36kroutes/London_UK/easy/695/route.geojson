@@ -1,0 +1,195 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -0.151053,
+    51.418118,
+    -0.147207,
+    51.420474
+  ],
+  "features": [
+    {
+      "bbox": [
+        -0.151053,
+        51.418118,
+        -0.147207,
+        51.420474
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 511.0,
+            "duration": 367.9,
+            "steps": [
+              {
+                "distance": 397.9,
+                "duration": 286.5,
+                "type": 11,
+                "instruction": "Head east",
+                "name": "-",
+                "way_points": [
+                  0,
+                  10
+                ]
+              },
+              {
+                "distance": 7.0,
+                "duration": 5.0,
+                "type": 0,
+                "instruction": "Turn left onto Seely Road",
+                "name": "Seely Road",
+                "way_points": [
+                  10,
+                  11
+                ]
+              },
+              {
+                "distance": 21.1,
+                "duration": 15.2,
+                "type": 1,
+                "instruction": "Turn right onto Streatham Road, A216",
+                "name": "Streatham Road, A216",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 35.2,
+                "duration": 25.4,
+                "type": 0,
+                "instruction": "Turn left onto Rustic Avenue",
+                "name": "Rustic Avenue",
+                "way_points": [
+                  12,
+                  13
+                ]
+              },
+              {
+                "distance": 49.8,
+                "duration": 35.9,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  13,
+                  14
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  14,
+                  14
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          14
+        ],
+        "summary": {
+          "distance": 511.0,
+          "duration": 367.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -0.151053,
+            51.42046
+          ],
+          [
+            -0.149895,
+            51.420474
+          ],
+          [
+            -0.149713,
+            51.420467
+          ],
+          [
+            -0.149493,
+            51.4204
+          ],
+          [
+            -0.148639,
+            51.42005
+          ],
+          [
+            -0.147241,
+            51.41948
+          ],
+          [
+            -0.147207,
+            51.419455
+          ],
+          [
+            -0.147226,
+            51.419417
+          ],
+          [
+            -0.147629,
+            51.419159
+          ],
+          [
+            -0.148128,
+            51.418856
+          ],
+          [
+            -0.148179,
+            51.418826
+          ],
+          [
+            -0.148113,
+            51.418779
+          ],
+          [
+            -0.148335,
+            51.41865
+          ],
+          [
+            -0.147992,
+            51.418417
+          ],
+          [
+            -0.148527,
+            51.418118
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756828636799,
+    "query": {
+      "coordinates": [
+        [
+          -0.1510526,
+          51.4204598
+        ],
+        [
+          -0.1485275,
+          51.418118
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

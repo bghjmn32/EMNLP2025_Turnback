@@ -1,0 +1,156 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    151.191813,
+    -33.808874,
+    151.192105,
+    -33.807926
+  ],
+  "features": [
+    {
+      "bbox": [
+        151.191813,
+        -33.808874,
+        151.192105,
+        -33.807926
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 131.1,
+            "duration": 94.4,
+            "steps": [
+              {
+                "distance": 24.6,
+                "duration": 17.7,
+                "type": 11,
+                "instruction": "Head northeast",
+                "name": "-",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 91.4,
+                "duration": 65.8,
+                "type": 0,
+                "instruction": "Turn left onto Cordia Way",
+                "name": "Cordia Way",
+                "way_points": [
+                  2,
+                  5
+                ]
+              },
+              {
+                "distance": 10.3,
+                "duration": 7.4,
+                "type": 3,
+                "instruction": "Turn sharp right",
+                "name": "-",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 4.9,
+                "duration": 3.5,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  7,
+                  7
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          7
+        ],
+        "summary": {
+          "distance": 131.1,
+          "duration": 94.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            151.191941,
+            -33.808874
+          ],
+          [
+            151.192016,
+            -33.808763
+          ],
+          [
+            151.192105,
+            -33.808704
+          ],
+          [
+            151.191972,
+            -33.808505
+          ],
+          [
+            151.191859,
+            -33.808048
+          ],
+          [
+            151.191813,
+            -33.807926
+          ],
+          [
+            151.191923,
+            -33.807934
+          ],
+          [
+            151.19193,
+            -33.807978
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756396280197,
+    "query": {
+      "coordinates": [
+        [
+          151.1919408,
+          -33.8088736
+        ],
+        [
+          151.1919297,
+          -33.8079776
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

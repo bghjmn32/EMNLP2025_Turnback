@@ -1,0 +1,138 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    31.329674,
+    29.770277,
+    31.336074,
+    29.772324
+  ],
+  "features": [
+    {
+      "bbox": [
+        31.329674,
+        29.770277,
+        31.336074,
+        29.772324
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 728.3,
+            "duration": 524.4,
+            "steps": [
+              {
+                "distance": 122.3,
+                "duration": 88.0,
+                "type": 11,
+                "instruction": "Head southwest on طريق النصر",
+                "name": "طريق النصر",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 606.0,
+                "duration": 436.4,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  8
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  8,
+                  8
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          8
+        ],
+        "summary": {
+          "distance": 728.3,
+          "duration": 524.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            31.336074,
+            29.771249
+          ],
+          [
+            31.335481,
+            29.770277
+          ],
+          [
+            31.335329,
+            29.770345
+          ],
+          [
+            31.333398,
+            29.77116
+          ],
+          [
+            31.332647,
+            29.77143
+          ],
+          [
+            31.331796,
+            29.771711
+          ],
+          [
+            31.331077,
+            29.77194
+          ],
+          [
+            31.330275,
+            29.772147
+          ],
+          [
+            31.329674,
+            29.772324
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756730048963,
+    "query": {
+      "coordinates": [
+        [
+          31.3360737,
+          29.7712485
+        ],
+        [
+          31.3296738,
+          29.7723237
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

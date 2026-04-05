@@ -1,0 +1,141 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.380536,
+    -22.836854,
+    -43.375496,
+    -22.833841
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.380536,
+        -22.836854,
+        -43.375496,
+        -22.833841
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 649.0,
+            "duration": 467.3,
+            "steps": [
+              {
+                "distance": 46.6,
+                "duration": 33.5,
+                "type": 11,
+                "instruction": "Head south",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 584.9,
+                "duration": 421.1,
+                "type": 1,
+                "instruction": "Turn right onto Rua Enéas Martins",
+                "name": "Rua Enéas Martins",
+                "way_points": [
+                  1,
+                  5
+                ]
+              },
+              {
+                "distance": 17.6,
+                "duration": 12.6,
+                "type": 0,
+                "instruction": "Turn left onto Rua Marcos de Macedo",
+                "name": "Rua Marcos de Macedo",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Rua Marcos de Macedo, straight ahead",
+                "name": "-",
+                "way_points": [
+                  6,
+                  6
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          6
+        ],
+        "summary": {
+          "distance": 649.0,
+          "duration": 467.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.375542,
+            -22.833841
+          ],
+          [
+            -43.375496,
+            -22.834258
+          ],
+          [
+            -43.375837,
+            -22.834408
+          ],
+          [
+            -43.375908,
+            -22.83444
+          ],
+          [
+            -43.378192,
+            -22.835577
+          ],
+          [
+            -43.380536,
+            -22.836723
+          ],
+          [
+            -43.380441,
+            -22.836854
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756392683599,
+    "query": {
+      "coordinates": [
+        [
+          -43.3755417,
+          -22.833841
+        ],
+        [
+          -43.3804407,
+          -22.8368542
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

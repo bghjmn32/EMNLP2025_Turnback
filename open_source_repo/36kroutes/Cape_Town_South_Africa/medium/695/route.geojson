@@ -1,0 +1,217 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.538703,
+    -33.862425,
+    18.549188,
+    -33.857106
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.538703,
+        -33.862425,
+        18.549188,
+        -33.857106
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1375.8,
+            "duration": 990.6,
+            "steps": [
+              {
+                "distance": 932.6,
+                "duration": 671.5,
+                "type": 11,
+                "instruction": "Head southwest on Mydrecht Street",
+                "name": "Mydrecht Street",
+                "way_points": [
+                  0,
+                  18
+                ]
+              },
+              {
+                "distance": 361.2,
+                "duration": 260.1,
+                "type": 1,
+                "instruction": "Turn right onto Vryburger Avenue",
+                "name": "Vryburger Avenue",
+                "way_points": [
+                  18,
+                  24
+                ]
+              },
+              {
+                "distance": 82.0,
+                "duration": 59.0,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  24,
+                  25
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  25,
+                  25
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          25
+        ],
+        "summary": {
+          "distance": 1375.8,
+          "duration": 990.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.549188,
+            -33.857106
+          ],
+          [
+            18.5488,
+            -33.857735
+          ],
+          [
+            18.54879,
+            -33.857813
+          ],
+          [
+            18.548974,
+            -33.858461
+          ],
+          [
+            18.548954,
+            -33.858527
+          ],
+          [
+            18.54758,
+            -33.859541
+          ],
+          [
+            18.546378,
+            -33.860395
+          ],
+          [
+            18.545471,
+            -33.86107
+          ],
+          [
+            18.545104,
+            -33.861342
+          ],
+          [
+            18.545004,
+            -33.861406
+          ],
+          [
+            18.544959,
+            -33.861417
+          ],
+          [
+            18.544839,
+            -33.861406
+          ],
+          [
+            18.544089,
+            -33.861255
+          ],
+          [
+            18.543093,
+            -33.861037
+          ],
+          [
+            18.543005,
+            -33.861028
+          ],
+          [
+            18.542916,
+            -33.861038
+          ],
+          [
+            18.542841,
+            -33.861246
+          ],
+          [
+            18.542797,
+            -33.86141
+          ],
+          [
+            18.542707,
+            -33.861736
+          ],
+          [
+            18.541771,
+            -33.861545
+          ],
+          [
+            18.541651,
+            -33.861532
+          ],
+          [
+            18.541528,
+            -33.861544
+          ],
+          [
+            18.541413,
+            -33.861576
+          ],
+          [
+            18.540888,
+            -33.861768
+          ],
+          [
+            18.539042,
+            -33.862425
+          ],
+          [
+            18.538703,
+            -33.861743
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756807837381,
+    "query": {
+      "coordinates": [
+        [
+          18.5491882,
+          -33.8571058
+        ],
+        [
+          18.5387026,
+          -33.8617434
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

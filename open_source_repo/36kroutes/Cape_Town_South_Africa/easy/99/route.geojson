@@ -1,0 +1,191 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.472134,
+    -33.806641,
+    18.475856,
+    -33.80477
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.472134,
+        -33.806641,
+        18.475856,
+        -33.80477
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 581.5,
+            "duration": 418.7,
+            "steps": [
+              {
+                "distance": 35.3,
+                "duration": 25.4,
+                "type": 11,
+                "instruction": "Head west on Aros Close",
+                "name": "Aros Close",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 215.6,
+                "duration": 155.2,
+                "type": 1,
+                "instruction": "Turn right onto Arundel Road",
+                "name": "Arundel Road",
+                "way_points": [
+                  1,
+                  7
+                ]
+              },
+              {
+                "distance": 69.6,
+                "duration": 50.1,
+                "type": 0,
+                "instruction": "Turn left onto Balmoral Road",
+                "name": "Balmoral Road",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 179.3,
+                "duration": 129.1,
+                "type": 1,
+                "instruction": "Turn right onto Rochester Road",
+                "name": "Rochester Road",
+                "way_points": [
+                  8,
+                  12
+                ]
+              },
+              {
+                "distance": 81.7,
+                "duration": 58.9,
+                "type": 0,
+                "instruction": "Turn left onto Sandown Road",
+                "name": "Sandown Road",
+                "way_points": [
+                  12,
+                  13
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Sandown Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  13,
+                  13
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          13
+        ],
+        "summary": {
+          "distance": 581.5,
+          "duration": 418.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.472516,
+            -33.806641
+          ],
+          [
+            18.472134,
+            -33.80664
+          ],
+          [
+            18.472138,
+            -33.806232
+          ],
+          [
+            18.472163,
+            -33.806178
+          ],
+          [
+            18.472211,
+            -33.806137
+          ],
+          [
+            18.472307,
+            -33.806112
+          ],
+          [
+            18.473136,
+            -33.806117
+          ],
+          [
+            18.47391,
+            -33.806122
+          ],
+          [
+            18.473912,
+            -33.805497
+          ],
+          [
+            18.474235,
+            -33.805498
+          ],
+          [
+            18.474522,
+            -33.805499
+          ],
+          [
+            18.475265,
+            -33.805502
+          ],
+          [
+            18.475852,
+            -33.805505
+          ],
+          [
+            18.475856,
+            -33.80477
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756803922525,
+    "query": {
+      "coordinates": [
+        [
+          18.4725163,
+          -33.8066411
+        ],
+        [
+          18.4758563,
+          -33.8047696
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

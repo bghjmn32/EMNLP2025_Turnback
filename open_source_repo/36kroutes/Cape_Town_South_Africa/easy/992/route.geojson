@@ -1,0 +1,218 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.512292,
+    -34.031301,
+    18.515895,
+    -34.028685
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.512292,
+        -34.031301,
+        18.515895,
+        -34.028685
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 620.9,
+            "duration": 447.0,
+            "steps": [
+              {
+                "distance": 78.6,
+                "duration": 56.6,
+                "type": 11,
+                "instruction": "Head south on Bruce Avenue",
+                "name": "Bruce Avenue",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 150.1,
+                "duration": 108.1,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  6
+                ]
+              },
+              {
+                "distance": 101.1,
+                "duration": 72.8,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  6,
+                  11
+                ]
+              },
+              {
+                "distance": 32.1,
+                "duration": 23.1,
+                "type": 0,
+                "instruction": "Turn left onto Conrad Road",
+                "name": "Conrad Road",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 122.0,
+                "duration": 87.9,
+                "type": 1,
+                "instruction": "Turn right onto Daniel Avenue",
+                "name": "Daniel Avenue",
+                "way_points": [
+                  12,
+                  15
+                ]
+              },
+              {
+                "distance": 136.8,
+                "duration": 98.5,
+                "type": 0,
+                "instruction": "Turn left onto Farm Crescent",
+                "name": "Farm Crescent",
+                "way_points": [
+                  15,
+                  17
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Farm Crescent, straight ahead",
+                "name": "-",
+                "way_points": [
+                  17,
+                  17
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          17
+        ],
+        "summary": {
+          "distance": 620.9,
+          "duration": 447.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.515837,
+            -34.028685
+          ],
+          [
+            18.515895,
+            -34.029391
+          ],
+          [
+            18.515597,
+            -34.029397
+          ],
+          [
+            18.515561,
+            -34.029387
+          ],
+          [
+            18.515476,
+            -34.029315
+          ],
+          [
+            18.5154,
+            -34.029307
+          ],
+          [
+            18.514307,
+            -34.029372
+          ],
+          [
+            18.514324,
+            -34.029614
+          ],
+          [
+            18.514299,
+            -34.029678
+          ],
+          [
+            18.514221,
+            -34.029704
+          ],
+          [
+            18.513977,
+            -34.029717
+          ],
+          [
+            18.513582,
+            -34.029739
+          ],
+          [
+            18.513613,
+            -34.030026
+          ],
+          [
+            18.51307,
+            -34.030057
+          ],
+          [
+            18.512482,
+            -34.030089
+          ],
+          [
+            18.512292,
+            -34.030073
+          ],
+          [
+            18.512341,
+            -34.030731
+          ],
+          [
+            18.512389,
+            -34.031301
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756806073079,
+    "query": {
+      "coordinates": [
+        [
+          18.5158368,
+          -34.0286851
+        ],
+        [
+          18.512389,
+          -34.0313012
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

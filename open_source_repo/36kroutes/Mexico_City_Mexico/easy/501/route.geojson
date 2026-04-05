@@ -1,0 +1,274 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.13788,
+    19.539398,
+    -99.135301,
+    19.544108
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.13788,
+        19.539398,
+        -99.135301,
+        19.544108
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 731.9,
+            "duration": 527.0,
+            "steps": [
+              {
+                "distance": 70.0,
+                "duration": 50.4,
+                "type": 11,
+                "instruction": "Head northeast",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 176.3,
+                "duration": 126.9,
+                "type": 0,
+                "instruction": "Turn left onto Calle Cux",
+                "name": "Calle Cux",
+                "way_points": [
+                  1,
+                  6
+                ]
+              },
+              {
+                "distance": 23.4,
+                "duration": 16.9,
+                "type": 1,
+                "instruction": "Turn right onto Avenida Ixbalanque",
+                "name": "Avenida Ixbalanque",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 40.6,
+                "duration": 29.3,
+                "type": 0,
+                "instruction": "Turn left onto Calle Zipacná",
+                "name": "Calle Zipacná",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 105.0,
+                "duration": 75.6,
+                "type": 1,
+                "instruction": "Turn right onto Calle Ixquic",
+                "name": "Calle Ixquic",
+                "way_points": [
+                  8,
+                  10
+                ]
+              },
+              {
+                "distance": 21.3,
+                "duration": 15.3,
+                "type": 6,
+                "instruction": "Continue straight onto Calle 20 de Noviembre",
+                "name": "Calle 20 de Noviembre",
+                "way_points": [
+                  10,
+                  11
+                ]
+              },
+              {
+                "distance": 68.3,
+                "duration": 49.2,
+                "type": 4,
+                "instruction": "Turn slight left onto Calle del Castillo",
+                "name": "Calle del Castillo",
+                "way_points": [
+                  11,
+                  15
+                ]
+              },
+              {
+                "distance": 41.2,
+                "duration": 29.6,
+                "type": 0,
+                "instruction": "Turn left onto Cerrada del Castillo",
+                "name": "Cerrada del Castillo",
+                "way_points": [
+                  15,
+                  16
+                ]
+              },
+              {
+                "distance": 48.6,
+                "duration": 35.0,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  16,
+                  19
+                ]
+              },
+              {
+                "distance": 137.2,
+                "duration": 98.8,
+                "type": 0,
+                "instruction": "Turn left onto Calle Benito Juárez",
+                "name": "Calle Benito Juárez",
+                "way_points": [
+                  19,
+                  20
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Benito Juárez, straight ahead",
+                "name": "-",
+                "way_points": [
+                  20,
+                  20
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          20
+        ],
+        "summary": {
+          "distance": 731.9,
+          "duration": 527.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.135774,
+            19.539398
+          ],
+          [
+            -99.135301,
+            19.539841
+          ],
+          [
+            -99.13546,
+            19.539982
+          ],
+          [
+            -99.135813,
+            19.540279
+          ],
+          [
+            -99.136157,
+            19.540509
+          ],
+          [
+            -99.136279,
+            19.540577
+          ],
+          [
+            -99.136642,
+            19.540789
+          ],
+          [
+            -99.136519,
+            19.540965
+          ],
+          [
+            -99.136858,
+            19.541142
+          ],
+          [
+            -99.136619,
+            19.541771
+          ],
+          [
+            -99.136656,
+            19.542045
+          ],
+          [
+            -99.136714,
+            19.542228
+          ],
+          [
+            -99.136866,
+            19.542495
+          ],
+          [
+            -99.136887,
+            19.542565
+          ],
+          [
+            -99.136887,
+            19.54267
+          ],
+          [
+            -99.136861,
+            19.542801
+          ],
+          [
+            -99.137173,
+            19.543026
+          ],
+          [
+            -99.136896,
+            19.543297
+          ],
+          [
+            -99.136857,
+            19.543338
+          ],
+          [
+            -99.136853,
+            19.543343
+          ],
+          [
+            -99.13788,
+            19.544108
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306310959,
+    "query": {
+      "coordinates": [
+        [
+          -99.1357737,
+          19.5393975
+        ],
+        [
+          -99.1378805,
+          19.5441078
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    11.362409,
+    48.118133,
+    11.368613,
+    48.122151
+  ],
+  "features": [
+    {
+      "bbox": [
+        11.362409,
+        48.118133,
+        11.368613,
+        48.122151
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 814.0,
+            "duration": 586.1,
+            "steps": [
+              {
+                "distance": 114.9,
+                "duration": 82.7,
+                "type": 11,
+                "instruction": "Head west on Friedhofstraße",
+                "name": "Friedhofstraße",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 31.9,
+                "duration": 23.0,
+                "type": 0,
+                "instruction": "Turn left onto Otto-Wagner-Straße",
+                "name": "Otto-Wagner-Straße",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 273.4,
+                "duration": 196.9,
+                "type": 1,
+                "instruction": "Turn right onto Am Vogelherd",
+                "name": "Am Vogelherd",
+                "way_points": [
+                  3,
+                  8
+                ]
+              },
+              {
+                "distance": 342.8,
+                "duration": 246.8,
+                "type": 12,
+                "instruction": "Keep left onto Eichendorffplatz",
+                "name": "Eichendorffplatz",
+                "way_points": [
+                  8,
+                  11
+                ]
+              },
+              {
+                "distance": 51.0,
+                "duration": 36.7,
+                "type": 0,
+                "instruction": "Turn left onto Friedenstraße",
+                "name": "Friedenstraße",
+                "way_points": [
+                  11,
+                  13
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Friedenstraße, straight ahead",
+                "name": "-",
+                "way_points": [
+                  13,
+                  13
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          13
+        ],
+        "summary": {
+          "distance": 814.0,
+          "duration": 586.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            11.368613,
+            48.118535
+          ],
+          [
+            11.368307,
+            48.118527
+          ],
+          [
+            11.367066,
+            48.118508
+          ],
+          [
+            11.367092,
+            48.118221
+          ],
+          [
+            11.366051,
+            48.118174
+          ],
+          [
+            11.365211,
+            48.118133
+          ],
+          [
+            11.365158,
+            48.118154
+          ],
+          [
+            11.364986,
+            48.11851
+          ],
+          [
+            11.364645,
+            48.119261
+          ],
+          [
+            11.364321,
+            48.11967
+          ],
+          [
+            11.364041,
+            48.120167
+          ],
+          [
+            11.363059,
+            48.122151
+          ],
+          [
+            11.362428,
+            48.122006
+          ],
+          [
+            11.362409,
+            48.122005
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756137297070,
+    "query": {
+      "coordinates": [
+        [
+          11.3686132,
+          48.118535
+        ],
+        [
+          11.3624087,
+          48.122005
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

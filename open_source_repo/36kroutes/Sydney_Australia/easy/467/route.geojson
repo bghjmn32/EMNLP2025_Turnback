@@ -1,0 +1,177 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    151.266308,
+    -33.672077,
+    151.270736,
+    -33.667291
+  ],
+  "features": [
+    {
+      "bbox": [
+        151.266308,
+        -33.672077,
+        151.270736,
+        -33.667291
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 884.5,
+            "duration": 636.9,
+            "steps": [
+              {
+                "distance": 318.6,
+                "duration": 229.4,
+                "type": 11,
+                "instruction": "Head south",
+                "name": "-",
+                "way_points": [
+                  0,
+                  6
+                ]
+              },
+              {
+                "distance": 411.0,
+                "duration": 296.0,
+                "type": 0,
+                "instruction": "Turn left onto Cicada Glen Road",
+                "name": "Cicada Glen Road",
+                "way_points": [
+                  6,
+                  8
+                ]
+              },
+              {
+                "distance": 154.9,
+                "duration": 111.5,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  8,
+                  15
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  15,
+                  15
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          15
+        ],
+        "summary": {
+          "distance": 884.5,
+          "duration": 636.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            151.266858,
+            -33.667291
+          ],
+          [
+            151.266833,
+            -33.667432
+          ],
+          [
+            151.266821,
+            -33.667507
+          ],
+          [
+            151.266603,
+            -33.668449
+          ],
+          [
+            151.26637,
+            -33.669604
+          ],
+          [
+            151.266321,
+            -33.670003
+          ],
+          [
+            151.266308,
+            -33.670118
+          ],
+          [
+            151.269622,
+            -33.670558
+          ],
+          [
+            151.270691,
+            -33.670717
+          ],
+          [
+            151.270682,
+            -33.670839
+          ],
+          [
+            151.270736,
+            -33.671062
+          ],
+          [
+            151.270736,
+            -33.67119
+          ],
+          [
+            151.270683,
+            -33.671339
+          ],
+          [
+            151.270598,
+            -33.671475
+          ],
+          [
+            151.27053,
+            -33.671858
+          ],
+          [
+            151.270511,
+            -33.672077
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756393033480,
+    "query": {
+      "coordinates": [
+        [
+          151.2668578,
+          -33.6672909
+        ],
+        [
+          151.2705114,
+          -33.6720769
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

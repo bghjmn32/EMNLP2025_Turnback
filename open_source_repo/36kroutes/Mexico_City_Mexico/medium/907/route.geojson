@@ -1,0 +1,292 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.117445,
+    19.461204,
+    -99.105058,
+    19.46668
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.117445,
+        19.461204,
+        -99.105058,
+        19.46668
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1579.8,
+            "duration": 1137.5,
+            "steps": [
+              {
+                "distance": 28.9,
+                "duration": 20.8,
+                "type": 11,
+                "instruction": "Head northeast on Avenida Ferrocarril Hidalgo",
+                "name": "Avenida Ferrocarril Hidalgo",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 1363.2,
+                "duration": 981.5,
+                "type": 1,
+                "instruction": "Turn right onto Calle Oriente 103",
+                "name": "Calle Oriente 103",
+                "way_points": [
+                  1,
+                  33
+                ]
+              },
+              {
+                "distance": 140.6,
+                "duration": 101.2,
+                "type": 1,
+                "instruction": "Turn right onto Avenida Ingeniero Eduardo Molina, EJE 3 OTE",
+                "name": "Avenida Ingeniero Eduardo Molina, EJE 3 OTE",
+                "way_points": [
+                  33,
+                  38
+                ]
+              },
+              {
+                "distance": 47.1,
+                "duration": 33.9,
+                "type": 0,
+                "instruction": "Turn left onto Transbordo Intermodal MB Oriente 101 - TB",
+                "name": "Transbordo Intermodal MB Oriente 101 - TB",
+                "way_points": [
+                  38,
+                  41
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Transbordo Intermodal MB Oriente 101 - TB, straight ahead",
+                "name": "-",
+                "way_points": [
+                  41,
+                  41
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          41
+        ],
+        "summary": {
+          "distance": 1579.8,
+          "duration": 1137.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.117445,
+            19.466468
+          ],
+          [
+            -99.117286,
+            19.46668
+          ],
+          [
+            -99.116989,
+            19.466567
+          ],
+          [
+            -99.116468,
+            19.466378
+          ],
+          [
+            -99.116101,
+            19.466246
+          ],
+          [
+            -99.115714,
+            19.466111
+          ],
+          [
+            -99.115329,
+            19.465987
+          ],
+          [
+            -99.114982,
+            19.465861
+          ],
+          [
+            -99.114644,
+            19.465725
+          ],
+          [
+            -99.114303,
+            19.465614
+          ],
+          [
+            -99.113951,
+            19.465493
+          ],
+          [
+            -99.113572,
+            19.465365
+          ],
+          [
+            -99.113172,
+            19.465223
+          ],
+          [
+            -99.112786,
+            19.465074
+          ],
+          [
+            -99.112547,
+            19.464991
+          ],
+          [
+            -99.1124,
+            19.46494
+          ],
+          [
+            -99.112004,
+            19.464803
+          ],
+          [
+            -99.111969,
+            19.46479
+          ],
+          [
+            -99.111841,
+            19.464746
+          ],
+          [
+            -99.111805,
+            19.464733
+          ],
+          [
+            -99.111185,
+            19.464527
+          ],
+          [
+            -99.110803,
+            19.464395
+          ],
+          [
+            -99.110308,
+            19.464227
+          ],
+          [
+            -99.109796,
+            19.464051
+          ],
+          [
+            -99.109321,
+            19.46387
+          ],
+          [
+            -99.108606,
+            19.463632
+          ],
+          [
+            -99.108159,
+            19.463484
+          ],
+          [
+            -99.107718,
+            19.463346
+          ],
+          [
+            -99.107273,
+            19.463211
+          ],
+          [
+            -99.106801,
+            19.463066
+          ],
+          [
+            -99.106325,
+            19.462918
+          ],
+          [
+            -99.10588,
+            19.462773
+          ],
+          [
+            -99.105484,
+            19.462658
+          ],
+          [
+            -99.105058,
+            19.462522
+          ],
+          [
+            -99.105375,
+            19.4618
+          ],
+          [
+            -99.105459,
+            19.461608
+          ],
+          [
+            -99.105486,
+            19.461544
+          ],
+          [
+            -99.105538,
+            19.461422
+          ],
+          [
+            -99.105566,
+            19.461353
+          ],
+          [
+            -99.105454,
+            19.461313
+          ],
+          [
+            -99.105214,
+            19.46123
+          ],
+          [
+            -99.105145,
+            19.461204
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756312767884,
+    "query": {
+      "coordinates": [
+        [
+          -99.1174452,
+          19.4664676
+        ],
+        [
+          -99.105145,
+          19.461204
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -104.933778,
+    39.833102,
+    -104.928454,
+    39.836305
+  ],
+  "features": [
+    {
+      "bbox": [
+        -104.933778,
+        39.833102,
+        -104.928454,
+        39.836305
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 850.9,
+            "duration": 612.6,
+            "steps": [
+              {
+                "distance": 265.9,
+                "duration": 191.4,
+                "type": 11,
+                "instruction": "Head west on East 77th Avenue",
+                "name": "East 77th Avenue",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 137.0,
+                "duration": 98.6,
+                "type": 0,
+                "instruction": "Turn left onto Dahlia Street",
+                "name": "Dahlia Street",
+                "way_points": [
+                  1,
+                  5
+                ]
+              },
+              {
+                "distance": 152.2,
+                "duration": 109.6,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  5,
+                  9
+                ]
+              },
+              {
+                "distance": 34.3,
+                "duration": 24.7,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  9,
+                  10
+                ]
+              },
+              {
+                "distance": 11.5,
+                "duration": 8.3,
+                "type": 0,
+                "instruction": "Turn left onto Dahlia Street",
+                "name": "Dahlia Street",
+                "way_points": [
+                  10,
+                  11
+                ]
+              },
+              {
+                "distance": 250.1,
+                "duration": 180.1,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  11,
+                  15
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  15,
+                  15
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          15
+        ],
+        "summary": {
+          "distance": 850.9,
+          "duration": 612.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -104.928454,
+            39.836301
+          ],
+          [
+            -104.931568,
+            39.836305
+          ],
+          [
+            -104.931566,
+            39.835859
+          ],
+          [
+            -104.931565,
+            39.835698
+          ],
+          [
+            -104.931562,
+            39.835256
+          ],
+          [
+            -104.93156,
+            39.835073
+          ],
+          [
+            -104.931179,
+            39.835074
+          ],
+          [
+            -104.93118,
+            39.835
+          ],
+          [
+            -104.931184,
+            39.834715
+          ],
+          [
+            -104.931155,
+            39.833998
+          ],
+          [
+            -104.931556,
+            39.833997
+          ],
+          [
+            -104.931556,
+            39.833893
+          ],
+          [
+            -104.931927,
+            39.833895
+          ],
+          [
+            -104.933118,
+            39.833889
+          ],
+          [
+            -104.933419,
+            39.833873
+          ],
+          [
+            -104.933778,
+            39.833102
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756304654388,
+    "query": {
+      "coordinates": [
+        [
+          -104.9284539,
+          39.8363008
+        ],
+        [
+          -104.933778,
+          39.8331024
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

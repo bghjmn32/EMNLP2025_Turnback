@@ -1,0 +1,216 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -105.01043,
+    39.689224,
+    -105.004622,
+    39.690175
+  ],
+  "features": [
+    {
+      "bbox": [
+        -105.01043,
+        39.689224,
+        -105.004622,
+        39.690175
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 607.8,
+            "duration": 437.6,
+            "steps": [
+              {
+                "distance": 81.1,
+                "duration": 58.4,
+                "type": 11,
+                "instruction": "Head south on South Shoshone Street",
+                "name": "South Shoshone Street",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 56.0,
+                "duration": 40.3,
+                "type": 0,
+                "instruction": "Turn left onto West Florida Avenue",
+                "name": "West Florida Avenue",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 7.6,
+                "duration": 5.5,
+                "type": 3,
+                "instruction": "Turn sharp right onto Sanderson Gulch Trail",
+                "name": "Sanderson Gulch Trail",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 463.1,
+                "duration": 333.4,
+                "type": 0,
+                "instruction": "Turn left onto Sanderson Gulch Bypass",
+                "name": "Sanderson Gulch Bypass",
+                "way_points": [
+                  3,
+                  22
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Sanderson Gulch Bypass, straight ahead",
+                "name": "-",
+                "way_points": [
+                  22,
+                  22
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          22
+        ],
+        "summary": {
+          "distance": 607.8,
+          "duration": 437.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -105.010413,
+            39.690175
+          ],
+          [
+            -105.01043,
+            39.689446
+          ],
+          [
+            -105.009776,
+            39.689444
+          ],
+          [
+            -105.009851,
+            39.689408
+          ],
+          [
+            -105.009775,
+            39.689343
+          ],
+          [
+            -105.009606,
+            39.689292
+          ],
+          [
+            -105.009089,
+            39.689292
+          ],
+          [
+            -105.008976,
+            39.689315
+          ],
+          [
+            -105.008863,
+            39.689401
+          ],
+          [
+            -105.00877,
+            39.689403
+          ],
+          [
+            -105.007821,
+            39.689399
+          ],
+          [
+            -105.006868,
+            39.689395
+          ],
+          [
+            -105.006355,
+            39.689392
+          ],
+          [
+            -105.005881,
+            39.689385
+          ],
+          [
+            -105.005713,
+            39.68934
+          ],
+          [
+            -105.005531,
+            39.689365
+          ],
+          [
+            -105.005424,
+            39.689347
+          ],
+          [
+            -105.005322,
+            39.689269
+          ],
+          [
+            -105.005223,
+            39.689242
+          ],
+          [
+            -105.005158,
+            39.68923
+          ],
+          [
+            -105.005111,
+            39.689224
+          ],
+          [
+            -105.005004,
+            39.689234
+          ],
+          [
+            -105.004622,
+            39.689321
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756307527851,
+    "query": {
+      "coordinates": [
+        [
+          -105.0104126,
+          39.6901747
+        ],
+        [
+          -105.0046222,
+          39.6893212
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

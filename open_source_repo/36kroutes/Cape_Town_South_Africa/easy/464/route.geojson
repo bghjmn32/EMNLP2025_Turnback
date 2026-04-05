@@ -1,0 +1,290 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.408599,
+    -33.912504,
+    18.410707,
+    -33.907994
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.408599,
+        -33.912504,
+        18.410707,
+        -33.907994
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 713.0,
+            "duration": 513.4,
+            "steps": [
+              {
+                "distance": 21.1,
+                "duration": 15.2,
+                "type": 11,
+                "instruction": "Head south",
+                "name": "-",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 27.7,
+                "duration": 19.9,
+                "type": 1,
+                "instruction": "Turn right onto Main Road, M61",
+                "name": "Main Road, M61",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 86.3,
+                "duration": 62.1,
+                "type": 0,
+                "instruction": "Turn left onto York Road",
+                "name": "York Road",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 7.1,
+                "duration": 5.1,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "distance": 49.9,
+                "duration": 35.9,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 9.4,
+                "duration": 6.8,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 66.2,
+                "duration": 47.7,
+                "type": 1,
+                "instruction": "Turn right onto York Road",
+                "name": "York Road",
+                "way_points": [
+                  7,
+                  10
+                ]
+              },
+              {
+                "distance": 172.6,
+                "duration": 124.2,
+                "type": 1,
+                "instruction": "Turn right onto Cavalcade Road",
+                "name": "Cavalcade Road",
+                "way_points": [
+                  10,
+                  16
+                ]
+              },
+              {
+                "distance": 125.7,
+                "duration": 90.5,
+                "type": 0,
+                "instruction": "Turn left onto High Level Road",
+                "name": "High Level Road",
+                "way_points": [
+                  16,
+                  20
+                ]
+              },
+              {
+                "distance": 147.1,
+                "duration": 105.9,
+                "type": 1,
+                "instruction": "Turn right onto Skye Way",
+                "name": "Skye Way",
+                "way_points": [
+                  20,
+                  24
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Skye Way, straight ahead",
+                "name": "-",
+                "way_points": [
+                  24,
+                  24
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          24
+        ],
+        "summary": {
+          "distance": 713.0,
+          "duration": 513.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.410707,
+            -33.907994
+          ],
+          [
+            18.410663,
+            -33.908083
+          ],
+          [
+            18.41062,
+            -33.908169
+          ],
+          [
+            18.410341,
+            -33.90808
+          ],
+          [
+            18.40993,
+            -33.908777
+          ],
+          [
+            18.409856,
+            -33.908759
+          ],
+          [
+            18.40961,
+            -33.909158
+          ],
+          [
+            18.409708,
+            -33.909181
+          ],
+          [
+            18.409587,
+            -33.909403
+          ],
+          [
+            18.409466,
+            -33.909625
+          ],
+          [
+            18.409436,
+            -33.909731
+          ],
+          [
+            18.409154,
+            -33.909745
+          ],
+          [
+            18.409043,
+            -33.909797
+          ],
+          [
+            18.408984,
+            -33.909858
+          ],
+          [
+            18.408934,
+            -33.909955
+          ],
+          [
+            18.408818,
+            -33.910291
+          ],
+          [
+            18.408599,
+            -33.910944
+          ],
+          [
+            18.40896,
+            -33.911034
+          ],
+          [
+            18.409416,
+            -33.911148
+          ],
+          [
+            18.409816,
+            -33.911249
+          ],
+          [
+            18.409903,
+            -33.911272
+          ],
+          [
+            18.409617,
+            -33.911879
+          ],
+          [
+            18.409413,
+            -33.912313
+          ],
+          [
+            18.409338,
+            -33.912472
+          ],
+          [
+            18.409323,
+            -33.912504
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756804886265,
+    "query": {
+      "coordinates": [
+        [
+          18.4107067,
+          -33.9079939
+        ],
+        [
+          18.4093232,
+          -33.9125041
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

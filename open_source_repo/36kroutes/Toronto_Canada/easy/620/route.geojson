@@ -1,0 +1,230 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -79.433912,
+    43.643703,
+    -79.43066,
+    43.646286
+  ],
+  "features": [
+    {
+      "bbox": [
+        -79.433912,
+        43.643703,
+        -79.43066,
+        43.646286
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 535.8,
+            "duration": 385.8,
+            "steps": [
+              {
+                "distance": 46.9,
+                "duration": 33.8,
+                "type": 11,
+                "instruction": "Head south",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 184.1,
+                "duration": 132.5,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  8
+                ]
+              },
+              {
+                "distance": 84.6,
+                "duration": 60.9,
+                "type": 12,
+                "instruction": "Keep left",
+                "name": "-",
+                "way_points": [
+                  8,
+                  13
+                ]
+              },
+              {
+                "distance": 3.9,
+                "duration": 2.8,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  13,
+                  14
+                ]
+              },
+              {
+                "distance": 7.4,
+                "duration": 5.3,
+                "type": 1,
+                "instruction": "Turn right onto Florence Street",
+                "name": "Florence Street",
+                "way_points": [
+                  14,
+                  15
+                ]
+              },
+              {
+                "distance": 209.0,
+                "duration": 150.5,
+                "type": 0,
+                "instruction": "Turn left onto Brock Avenue",
+                "name": "Brock Avenue",
+                "way_points": [
+                  15,
+                  20
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Brock Avenue, straight ahead",
+                "name": "-",
+                "way_points": [
+                  20,
+                  20
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          20
+        ],
+        "summary": {
+          "distance": 535.8,
+          "duration": 385.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -79.430818,
+            43.646286
+          ],
+          [
+            -79.43066,
+            43.645881
+          ],
+          [
+            -79.431907,
+            43.645637
+          ],
+          [
+            -79.431998,
+            43.645619
+          ],
+          [
+            -79.432096,
+            43.645599
+          ],
+          [
+            -79.432552,
+            43.645497
+          ],
+          [
+            -79.432636,
+            43.645502
+          ],
+          [
+            -79.432722,
+            43.645547
+          ],
+          [
+            -79.432827,
+            43.645604
+          ],
+          [
+            -79.432944,
+            43.645648
+          ],
+          [
+            -79.433143,
+            43.64568
+          ],
+          [
+            -79.433271,
+            43.645675
+          ],
+          [
+            -79.433369,
+            43.645654
+          ],
+          [
+            -79.433837,
+            43.64556
+          ],
+          [
+            -79.433823,
+            43.645527
+          ],
+          [
+            -79.433912,
+            43.645509
+          ],
+          [
+            -79.433733,
+            43.645024
+          ],
+          [
+            -79.433431,
+            43.644296
+          ],
+          [
+            -79.433299,
+            43.643969
+          ],
+          [
+            -79.433276,
+            43.643912
+          ],
+          [
+            -79.433192,
+            43.643703
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756125678070,
+    "query": {
+      "coordinates": [
+        [
+          -79.4308184,
+          43.6462862
+        ],
+        [
+          -79.433192,
+          43.6437032
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

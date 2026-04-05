@@ -1,0 +1,204 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.52982,
+    -33.996703,
+    18.538538,
+    -33.994945
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.52982,
+        -33.996703,
+        18.538538,
+        -33.994945
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 936.2,
+            "duration": 674.0,
+            "steps": [
+              {
+                "distance": 560.1,
+                "duration": 403.2,
+                "type": 11,
+                "instruction": "Head west on Lonedown Road",
+                "name": "Lonedown Road",
+                "way_points": [
+                  0,
+                  9
+                ]
+              },
+              {
+                "distance": 109.5,
+                "duration": 78.8,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  9,
+                  10
+                ]
+              },
+              {
+                "distance": 139.5,
+                "duration": 100.4,
+                "type": 12,
+                "instruction": "Keep left",
+                "name": "-",
+                "way_points": [
+                  10,
+                  14
+                ]
+              },
+              {
+                "distance": 127.1,
+                "duration": 91.5,
+                "type": 0,
+                "instruction": "Turn left onto Lanston Road",
+                "name": "Lanston Road",
+                "way_points": [
+                  14,
+                  19
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Lanston Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  19,
+                  19
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          19
+        ],
+        "summary": {
+          "distance": 936.2,
+          "duration": 674.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.538538,
+            -33.99628
+          ],
+          [
+            18.53686,
+            -33.9964
+          ],
+          [
+            18.535694,
+            -33.996489
+          ],
+          [
+            18.535421,
+            -33.996509
+          ],
+          [
+            18.535181,
+            -33.996527
+          ],
+          [
+            18.53459,
+            -33.99657
+          ],
+          [
+            18.53308,
+            -33.996676
+          ],
+          [
+            18.532836,
+            -33.996695
+          ],
+          [
+            18.532645,
+            -33.996703
+          ],
+          [
+            18.532486,
+            -33.996693
+          ],
+          [
+            18.532381,
+            -33.995712
+          ],
+          [
+            18.532195,
+            -33.995572
+          ],
+          [
+            18.531759,
+            -33.995285
+          ],
+          [
+            18.53128,
+            -33.995036
+          ],
+          [
+            18.531193,
+            -33.994945
+          ],
+          [
+            18.530992,
+            -33.994959
+          ],
+          [
+            18.530838,
+            -33.994971
+          ],
+          [
+            18.530253,
+            -33.995012
+          ],
+          [
+            18.530128,
+            -33.995021
+          ],
+          [
+            18.52982,
+            -33.995042
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756804573196,
+    "query": {
+      "coordinates": [
+        [
+          18.5385381,
+          -33.9962804
+        ],
+        [
+          18.5298196,
+          -33.9950418
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

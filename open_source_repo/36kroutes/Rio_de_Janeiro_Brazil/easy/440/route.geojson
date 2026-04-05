@@ -1,0 +1,186 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.570446,
+    -22.898399,
+    -43.565759,
+    -22.895593
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.570446,
+        -22.898399,
+        -43.565759,
+        -22.895593
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 823.7,
+            "duration": 593.1,
+            "steps": [
+              {
+                "distance": 183.7,
+                "duration": 132.3,
+                "type": 11,
+                "instruction": "Head north on Rua Torricelli",
+                "name": "Rua Torricelli",
+                "way_points": [
+                  0,
+                  4
+                ]
+              },
+              {
+                "distance": 29.5,
+                "duration": 21.2,
+                "type": 1,
+                "instruction": "Turn right onto Rua Rio Manso",
+                "name": "Rua Rio Manso",
+                "way_points": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "distance": 155.6,
+                "duration": 112.0,
+                "type": 0,
+                "instruction": "Turn left onto Rua Bertópolis",
+                "name": "Rua Bertópolis",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 11.5,
+                "duration": 8.3,
+                "type": 1,
+                "instruction": "Turn right onto Rua Campo Alegre",
+                "name": "Rua Campo Alegre",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 57.8,
+                "duration": 41.6,
+                "type": 0,
+                "instruction": "Turn left onto Rua Caldas",
+                "name": "Rua Caldas",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 385.6,
+                "duration": 277.6,
+                "type": 1,
+                "instruction": "Turn right onto Rua Pardal",
+                "name": "Rua Pardal",
+                "way_points": [
+                  8,
+                  9
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Rua Pardal, straight ahead",
+                "name": "-",
+                "way_points": [
+                  9,
+                  9
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          9
+        ],
+        "summary": {
+          "distance": 823.7,
+          "duration": 593.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.570446,
+            -22.898399
+          ],
+          [
+            -43.570304,
+            -22.897997
+          ],
+          [
+            -43.570282,
+            -22.897933
+          ],
+          [
+            -43.570129,
+            -22.897405
+          ],
+          [
+            -43.57005,
+            -22.896794
+          ],
+          [
+            -43.569763,
+            -22.896811
+          ],
+          [
+            -43.568649,
+            -22.89586
+          ],
+          [
+            -43.568576,
+            -22.895939
+          ],
+          [
+            -43.568155,
+            -22.895593
+          ],
+          [
+            -43.565759,
+            -22.898268
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756392502158,
+    "query": {
+      "coordinates": [
+        [
+          -43.570446,
+          -22.8983995
+        ],
+        [
+          -43.5657589,
+          -22.8982681
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    103.742853,
+    1.411384,
+    103.743702,
+    1.415858
+  ],
+  "features": [
+    {
+      "bbox": [
+        103.742853,
+        1.411384,
+        103.743702,
+        1.415858
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 550.7,
+            "duration": 396.5,
+            "steps": [
+              {
+                "distance": 21.4,
+                "duration": 15.4,
+                "type": 11,
+                "instruction": "Head east",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 88.4,
+                "duration": 63.6,
+                "type": 0,
+                "instruction": "Turn left onto Sungei Kadut Loop",
+                "name": "Sungei Kadut Loop",
+                "way_points": [
+                  1,
+                  5
+                ]
+              },
+              {
+                "distance": 9.7,
+                "duration": 7.0,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 418.6,
+                "duration": 301.4,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  6,
+                  12
+                ]
+              },
+              {
+                "distance": 10.2,
+                "duration": 7.3,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  12,
+                  13
+                ]
+              },
+              {
+                "distance": 2.6,
+                "duration": 1.8,
+                "type": 1,
+                "instruction": "Turn right onto Sungei Kadut Loop",
+                "name": "Sungei Kadut Loop",
+                "way_points": [
+                  13,
+                  14
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Sungei Kadut Loop, straight ahead",
+                "name": "-",
+                "way_points": [
+                  14,
+                  14
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          14
+        ],
+        "summary": {
+          "distance": 550.7,
+          "duration": 396.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            103.743364,
+            1.411426
+          ],
+          [
+            103.743552,
+            1.411384
+          ],
+          [
+            103.743579,
+            1.411544
+          ],
+          [
+            103.743592,
+            1.411623
+          ],
+          [
+            103.743637,
+            1.411825
+          ],
+          [
+            103.743702,
+            1.412164
+          ],
+          [
+            103.743617,
+            1.412183
+          ],
+          [
+            103.743646,
+            1.41266
+          ],
+          [
+            103.743632,
+            1.413085
+          ],
+          [
+            103.743546,
+            1.413731
+          ],
+          [
+            103.743353,
+            1.414377
+          ],
+          [
+            103.743253,
+            1.414683
+          ],
+          [
+            103.742853,
+            1.415828
+          ],
+          [
+            103.742939,
+            1.415858
+          ],
+          [
+            103.742947,
+            1.415836
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756390386118,
+    "query": {
+      "coordinates": [
+        [
+          103.7433641,
+          1.4114262
+        ],
+        [
+          103.742947,
+          1.4158364
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

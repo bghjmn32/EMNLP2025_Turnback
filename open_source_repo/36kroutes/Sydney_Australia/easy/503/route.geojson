@@ -1,0 +1,183 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    150.904082,
+    -33.643763,
+    150.90522,
+    -33.638948
+  ],
+  "features": [
+    {
+      "bbox": [
+        150.904082,
+        -33.643763,
+        150.90522,
+        -33.638948
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 702.9,
+            "duration": 506.0,
+            "steps": [
+              {
+                "distance": 12.8,
+                "duration": 9.2,
+                "type": 11,
+                "instruction": "Head east on Old Pitt Town Road",
+                "name": "Old Pitt Town Road",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 108.8,
+                "duration": 78.3,
+                "type": 1,
+                "instruction": "Turn right onto Terry Road",
+                "name": "Terry Road",
+                "way_points": [
+                  1,
+                  3
+                ]
+              },
+              {
+                "distance": 304.9,
+                "duration": 219.5,
+                "type": 0,
+                "instruction": "Turn left onto Mustang Avenue",
+                "name": "Mustang Avenue",
+                "way_points": [
+                  3,
+                  6
+                ]
+              },
+              {
+                "distance": 117.6,
+                "duration": 84.7,
+                "type": 0,
+                "instruction": "Turn left onto Cart Street",
+                "name": "Cart Street",
+                "way_points": [
+                  6,
+                  9
+                ]
+              },
+              {
+                "distance": 158.8,
+                "duration": 114.3,
+                "type": 1,
+                "instruction": "Turn right onto Brindle Parkway",
+                "name": "Brindle Parkway",
+                "way_points": [
+                  9,
+                  11
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Brindle Parkway, straight ahead",
+                "name": "-",
+                "way_points": [
+                  11,
+                  11
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          11
+        ],
+        "summary": {
+          "distance": 702.9,
+          "duration": 506.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            150.904307,
+            -33.638948
+          ],
+          [
+            150.904437,
+            -33.638988
+          ],
+          [
+            150.904307,
+            -33.639636
+          ],
+          [
+            150.904166,
+            -33.639934
+          ],
+          [
+            150.905085,
+            -33.64028
+          ],
+          [
+            150.90413,
+            -33.641908
+          ],
+          [
+            150.904082,
+            -33.64199
+          ],
+          [
+            150.904716,
+            -33.642251
+          ],
+          [
+            150.9049,
+            -33.642327
+          ],
+          [
+            150.90522,
+            -33.64246
+          ],
+          [
+            150.904843,
+            -33.643159
+          ],
+          [
+            150.904518,
+            -33.643763
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756393290984,
+    "query": {
+      "coordinates": [
+        [
+          150.9043072,
+          -33.638948
+        ],
+        [
+          150.9045183,
+          -33.6437626
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

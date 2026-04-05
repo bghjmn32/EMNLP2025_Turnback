@@ -1,0 +1,161 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -79.437375,
+    43.719978,
+    -79.434769,
+    43.724777
+  ],
+  "features": [
+    {
+      "bbox": [
+        -79.437375,
+        43.719978,
+        -79.434769,
+        43.724777
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 602.5,
+            "duration": 433.8,
+            "steps": [
+              {
+                "distance": 304.5,
+                "duration": 219.3,
+                "type": 11,
+                "instruction": "Head south",
+                "name": "-",
+                "way_points": [
+                  0,
+                  5
+                ]
+              },
+              {
+                "distance": 7.4,
+                "duration": 5.4,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 290.5,
+                "duration": 209.2,
+                "type": 3,
+                "instruction": "Turn sharp right onto Prince Charles Drive",
+                "name": "Prince Charles Drive",
+                "way_points": [
+                  6,
+                  11
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Prince Charles Drive, straight ahead",
+                "name": "-",
+                "way_points": [
+                  11,
+                  11
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          11
+        ],
+        "summary": {
+          "distance": 602.5,
+          "duration": 433.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -79.437375,
+            43.724777
+          ],
+          [
+            -79.43721,
+            43.724369
+          ],
+          [
+            -79.436943,
+            43.724133
+          ],
+          [
+            -79.436729,
+            43.723916
+          ],
+          [
+            -79.435977,
+            43.723308
+          ],
+          [
+            -79.43533,
+            43.722508
+          ],
+          [
+            -79.435241,
+            43.722528
+          ],
+          [
+            -79.435347,
+            43.72213
+          ],
+          [
+            -79.435364,
+            43.721671
+          ],
+          [
+            -79.435244,
+            43.721174
+          ],
+          [
+            -79.43509,
+            43.720788
+          ],
+          [
+            -79.434769,
+            43.719978
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756125673877,
+    "query": {
+      "coordinates": [
+        [
+          -79.4373746,
+          43.7247772
+        ],
+        [
+          -79.4347686,
+          43.7199784
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

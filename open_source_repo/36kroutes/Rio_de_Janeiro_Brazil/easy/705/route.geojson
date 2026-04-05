@@ -1,0 +1,235 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.688271,
+    -22.956418,
+    -43.685704,
+    -22.954345
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.688271,
+        -22.956418,
+        -43.685704,
+        -22.954345
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 542.3,
+            "duration": 390.4,
+            "steps": [
+              {
+                "distance": 32.0,
+                "duration": 23.1,
+                "type": 11,
+                "instruction": "Head southwest",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 46.0,
+                "duration": 33.1,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 128.1,
+                "duration": 92.3,
+                "type": 0,
+                "instruction": "Turn left onto Avenida 7",
+                "name": "Avenida 7",
+                "way_points": [
+                  2,
+                  4
+                ]
+              },
+              {
+                "distance": 87.8,
+                "duration": 63.2,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "distance": 15.8,
+                "duration": 11.4,
+                "type": 0,
+                "instruction": "Turn left onto Estrada de Sepetiba",
+                "name": "Estrada de Sepetiba",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 24.6,
+                "duration": 17.7,
+                "type": 3,
+                "instruction": "Turn sharp right",
+                "name": "-",
+                "way_points": [
+                  6,
+                  8
+                ]
+              },
+              {
+                "distance": 74.6,
+                "duration": 53.7,
+                "type": 0,
+                "instruction": "Turn left onto Avenida Dois",
+                "name": "Avenida Dois",
+                "way_points": [
+                  8,
+                  9
+                ]
+              },
+              {
+                "distance": 75.5,
+                "duration": 54.3,
+                "type": 3,
+                "instruction": "Turn sharp right onto Avenida 7",
+                "name": "Avenida 7",
+                "way_points": [
+                  9,
+                  12
+                ]
+              },
+              {
+                "distance": 57.9,
+                "duration": 41.7,
+                "type": 0,
+                "instruction": "Turn left onto Rua Doze",
+                "name": "Rua Doze",
+                "way_points": [
+                  12,
+                  13
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Rua Doze, straight ahead",
+                "name": "-",
+                "way_points": [
+                  13,
+                  13
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          13
+        ],
+        "summary": {
+          "distance": 542.3,
+          "duration": 390.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.688019,
+            -22.954345
+          ],
+          [
+            -43.688271,
+            -22.954516
+          ],
+          [
+            -43.687992,
+            -22.954841
+          ],
+          [
+            -43.68733,
+            -22.954519
+          ],
+          [
+            -43.686848,
+            -22.954388
+          ],
+          [
+            -43.686249,
+            -22.954954
+          ],
+          [
+            -43.686109,
+            -22.954895
+          ],
+          [
+            -43.686168,
+            -22.955012
+          ],
+          [
+            -43.68623,
+            -22.955085
+          ],
+          [
+            -43.685704,
+            -22.955548
+          ],
+          [
+            -43.685845,
+            -22.955587
+          ],
+          [
+            -43.685961,
+            -22.955674
+          ],
+          [
+            -43.686254,
+            -22.955977
+          ],
+          [
+            -43.685956,
+            -22.956418
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756393914534,
+    "query": {
+      "coordinates": [
+        [
+          -43.688019,
+          -22.9543452
+        ],
+        [
+          -43.6859558,
+          -22.9564185
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

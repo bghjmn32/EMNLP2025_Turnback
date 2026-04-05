@@ -1,0 +1,173 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.438689,
+    -22.892416,
+    -43.435407,
+    -22.889695
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.438689,
+        -22.892416,
+        -43.435407,
+        -22.889695
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 585.7,
+            "duration": 421.7,
+            "steps": [
+              {
+                "distance": 20.1,
+                "duration": 14.5,
+                "type": 11,
+                "instruction": "Head northwest",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 420.7,
+                "duration": 302.9,
+                "type": 0,
+                "instruction": "Turn left onto Rua Birigui",
+                "name": "Rua Birigui",
+                "way_points": [
+                  1,
+                  11
+                ]
+              },
+              {
+                "distance": 144.9,
+                "duration": 104.3,
+                "type": 1,
+                "instruction": "Turn right onto Rua do Governo",
+                "name": "Rua do Governo",
+                "way_points": [
+                  11,
+                  14
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Rua do Governo, straight ahead",
+                "name": "-",
+                "way_points": [
+                  14,
+                  14
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          14
+        ],
+        "summary": {
+          "distance": 585.7,
+          "duration": 421.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.435407,
+            -22.891921
+          ],
+          [
+            -43.435553,
+            -22.8918
+          ],
+          [
+            -43.436382,
+            -22.892376
+          ],
+          [
+            -43.436551,
+            -22.892415
+          ],
+          [
+            -43.43664,
+            -22.892416
+          ],
+          [
+            -43.436828,
+            -22.892356
+          ],
+          [
+            -43.436917,
+            -22.892263
+          ],
+          [
+            -43.436997,
+            -22.892177
+          ],
+          [
+            -43.437183,
+            -22.891985
+          ],
+          [
+            -43.437268,
+            -22.891904
+          ],
+          [
+            -43.437693,
+            -22.891501
+          ],
+          [
+            -43.438689,
+            -22.89068
+          ],
+          [
+            -43.438412,
+            -22.890386
+          ],
+          [
+            -43.438163,
+            -22.890128
+          ],
+          [
+            -43.437763,
+            -22.889695
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756390153223,
+    "query": {
+      "coordinates": [
+        [
+          -43.4354069,
+          -22.8919211
+        ],
+        [
+          -43.4377629,
+          -22.8896949
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

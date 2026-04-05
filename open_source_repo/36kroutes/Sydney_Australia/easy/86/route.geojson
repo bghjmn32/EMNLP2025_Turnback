@@ -1,0 +1,185 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    151.070452,
+    -33.755596,
+    151.078951,
+    -33.752913
+  ],
+  "features": [
+    {
+      "bbox": [
+        151.070452,
+        -33.755596,
+        151.078951,
+        -33.752913
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 907.6,
+            "duration": 653.4,
+            "steps": [
+              {
+                "distance": 94.0,
+                "duration": 67.7,
+                "type": 11,
+                "instruction": "Head southeast on Glenelg Place",
+                "name": "Glenelg Place",
+                "way_points": [
+                  0,
+                  4
+                ]
+              },
+              {
+                "distance": 807.2,
+                "duration": 581.2,
+                "type": 0,
+                "instruction": "Turn left onto Sutherland Road",
+                "name": "Sutherland Road",
+                "way_points": [
+                  4,
+                  16
+                ]
+              },
+              {
+                "distance": 6.3,
+                "duration": 4.6,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  16,
+                  17
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  17,
+                  17
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          17
+        ],
+        "summary": {
+          "distance": 907.6,
+          "duration": 653.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            151.070452,
+            -33.752913
+          ],
+          [
+            151.07064,
+            -33.753099
+          ],
+          [
+            151.07067,
+            -33.753273
+          ],
+          [
+            151.070662,
+            -33.753539
+          ],
+          [
+            151.07063,
+            -33.753697
+          ],
+          [
+            151.074077,
+            -33.754122
+          ],
+          [
+            151.074719,
+            -33.754222
+          ],
+          [
+            151.076213,
+            -33.754449
+          ],
+          [
+            151.076631,
+            -33.754533
+          ],
+          [
+            151.07703,
+            -33.754637
+          ],
+          [
+            151.0774,
+            -33.754755
+          ],
+          [
+            151.077748,
+            -33.754882
+          ],
+          [
+            151.078003,
+            -33.754993
+          ],
+          [
+            151.078232,
+            -33.755115
+          ],
+          [
+            151.078301,
+            -33.755146
+          ],
+          [
+            151.078373,
+            -33.755182
+          ],
+          [
+            151.078951,
+            -33.75555
+          ],
+          [
+            151.07891,
+            -33.755596
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756390384089,
+    "query": {
+      "coordinates": [
+        [
+          151.0704516,
+          -33.7529126
+        ],
+        [
+          151.07891,
+          -33.7555956
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

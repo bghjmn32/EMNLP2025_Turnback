@@ -1,0 +1,218 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -104.771745,
+    39.713534,
+    -104.765219,
+    39.715668
+  ],
+  "features": [
+    {
+      "bbox": [
+        -104.771745,
+        39.713534,
+        -104.765219,
+        39.715668
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 780.3,
+            "duration": 561.8,
+            "steps": [
+              {
+                "distance": 42.4,
+                "duration": 30.6,
+                "type": 11,
+                "instruction": "Head northeast",
+                "name": "-",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 8.8,
+                "duration": 6.3,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 418.9,
+                "duration": 301.6,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  4,
+                  13
+                ]
+              },
+              {
+                "distance": 6.8,
+                "duration": 4.9,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  13,
+                  14
+                ]
+              },
+              {
+                "distance": 103.7,
+                "duration": 74.7,
+                "type": 1,
+                "instruction": "Turn right onto Breckenridge Avenue",
+                "name": "Breckenridge Avenue",
+                "way_points": [
+                  14,
+                  15
+                ]
+              },
+              {
+                "distance": 199.6,
+                "duration": 143.7,
+                "type": 0,
+                "instruction": "Turn left onto Wolf Creek Street",
+                "name": "Wolf Creek Street",
+                "way_points": [
+                  15,
+                  17
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Wolf Creek Street, straight ahead",
+                "name": "-",
+                "way_points": [
+                  17,
+                  17
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          17
+        ],
+        "summary": {
+          "distance": 780.3,
+          "duration": 561.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -104.771745,
+            39.713534
+          ],
+          [
+            -104.771527,
+            39.7137
+          ],
+          [
+            -104.77147,
+            39.7137
+          ],
+          [
+            -104.771337,
+            39.713701
+          ],
+          [
+            -104.77134,
+            39.71378
+          ],
+          [
+            -104.771281,
+            39.71378
+          ],
+          [
+            -104.770251,
+            39.713784
+          ],
+          [
+            -104.76935,
+            39.713798
+          ],
+          [
+            -104.769308,
+            39.713775
+          ],
+          [
+            -104.76924,
+            39.713777
+          ],
+          [
+            -104.769155,
+            39.713779
+          ],
+          [
+            -104.769108,
+            39.713799
+          ],
+          [
+            -104.767361,
+            39.713805
+          ],
+          [
+            -104.766458,
+            39.713809
+          ],
+          [
+            -104.766457,
+            39.71387
+          ],
+          [
+            -104.765245,
+            39.713873
+          ],
+          [
+            -104.76522,
+            39.715188
+          ],
+          [
+            -104.765219,
+            39.715668
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756307752769,
+    "query": {
+      "coordinates": [
+        [
+          -104.7717447,
+          39.713534
+        ],
+        [
+          -104.7652194,
+          39.7156681
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

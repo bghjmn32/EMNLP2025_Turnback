@@ -1,0 +1,188 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    11.427214,
+    48.224844,
+    11.434236,
+    48.227977
+  ],
+  "features": [
+    {
+      "bbox": [
+        11.427214,
+        48.224844,
+        11.434236,
+        48.227977
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 840.0,
+            "duration": 604.8,
+            "steps": [
+              {
+                "distance": 325.1,
+                "duration": 234.1,
+                "type": 11,
+                "instruction": "Head west",
+                "name": "-",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 69.7,
+                "duration": 50.2,
+                "type": 3,
+                "instruction": "Turn sharp right onto Langwieder Straße",
+                "name": "Langwieder Straße",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 282.1,
+                "duration": 203.1,
+                "type": 0,
+                "instruction": "Turn left onto Langwieder Straße",
+                "name": "Langwieder Straße",
+                "way_points": [
+                  4,
+                  11
+                ]
+              },
+              {
+                "distance": 163.1,
+                "duration": 117.4,
+                "type": 2,
+                "instruction": "Turn sharp left onto Münchner Straße, DAH 12",
+                "name": "Münchner Straße, DAH 12",
+                "way_points": [
+                  11,
+                  15
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Münchner Straße, DAH 12, straight ahead",
+                "name": "-",
+                "way_points": [
+                  15,
+                  15
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          15
+        ],
+        "summary": {
+          "distance": 840.0,
+          "duration": 604.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            11.434236,
+            48.224844
+          ],
+          [
+            11.432666,
+            48.225128
+          ],
+          [
+            11.432586,
+            48.225088
+          ],
+          [
+            11.430019,
+            48.22556
+          ],
+          [
+            11.430718,
+            48.22598
+          ],
+          [
+            11.43057,
+            48.226151
+          ],
+          [
+            11.430266,
+            48.226638
+          ],
+          [
+            11.429752,
+            48.227191
+          ],
+          [
+            11.429374,
+            48.227568
+          ],
+          [
+            11.429051,
+            48.227726
+          ],
+          [
+            11.428842,
+            48.22782
+          ],
+          [
+            11.428506,
+            48.227977
+          ],
+          [
+            11.428465,
+            48.227868
+          ],
+          [
+            11.428262,
+            48.227552
+          ],
+          [
+            11.428,
+            48.227333
+          ],
+          [
+            11.427214,
+            48.226824
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756138150709,
+    "query": {
+      "coordinates": [
+        [
+          11.4342357,
+          48.2248435
+        ],
+        [
+          11.4272136,
+          48.2268236
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

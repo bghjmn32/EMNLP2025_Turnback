@@ -1,0 +1,177 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    150.787796,
+    -33.699013,
+    150.794794,
+    -33.697585
+  ],
+  "features": [
+    {
+      "bbox": [
+        150.787796,
+        -33.699013,
+        150.794794,
+        -33.697585
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 768.9,
+            "duration": 553.6,
+            "steps": [
+              {
+                "distance": 388.4,
+                "duration": 279.7,
+                "type": 11,
+                "instruction": "Head east on Diamondback Parade",
+                "name": "Diamondback Parade",
+                "way_points": [
+                  0,
+                  9
+                ]
+              },
+              {
+                "distance": 280.6,
+                "duration": 202.0,
+                "type": 1,
+                "instruction": "Turn right onto Trevally Street",
+                "name": "Trevally Street",
+                "way_points": [
+                  9,
+                  13
+                ]
+              },
+              {
+                "distance": 99.9,
+                "duration": 72.0,
+                "type": 0,
+                "instruction": "Turn left onto Flametree Drive",
+                "name": "Flametree Drive",
+                "way_points": [
+                  13,
+                  15
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Flametree Drive, on the right",
+                "name": "-",
+                "way_points": [
+                  15,
+                  15
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          15
+        ],
+        "summary": {
+          "distance": 768.9,
+          "duration": 553.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            150.787796,
+            -33.699013
+          ],
+          [
+            150.788027,
+            -33.698974
+          ],
+          [
+            150.788617,
+            -33.698826
+          ],
+          [
+            150.789609,
+            -33.698514
+          ],
+          [
+            150.790293,
+            -33.698298
+          ],
+          [
+            150.790673,
+            -33.698179
+          ],
+          [
+            150.790893,
+            -33.698082
+          ],
+          [
+            150.791107,
+            -33.697957
+          ],
+          [
+            150.791327,
+            -33.697791
+          ],
+          [
+            150.791562,
+            -33.697585
+          ],
+          [
+            150.792237,
+            -33.697876
+          ],
+          [
+            150.792873,
+            -33.69815
+          ],
+          [
+            150.793532,
+            -33.698434
+          ],
+          [
+            150.794255,
+            -33.698746
+          ],
+          [
+            150.794647,
+            -33.698179
+          ],
+          [
+            150.794794,
+            -33.697967
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756391657559,
+    "query": {
+      "coordinates": [
+        [
+          150.7877958,
+          -33.6990127
+        ],
+        [
+          150.7954204,
+          -33.6971875
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

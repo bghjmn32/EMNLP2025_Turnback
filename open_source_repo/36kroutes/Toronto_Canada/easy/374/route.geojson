@@ -1,0 +1,300 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -79.420763,
+    43.723019,
+    -79.415753,
+    43.727317
+  ],
+  "features": [
+    {
+      "bbox": [
+        -79.420763,
+        43.723019,
+        -79.415753,
+        43.727317
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 719.2,
+            "duration": 517.8,
+            "steps": [
+              {
+                "distance": 4.3,
+                "duration": 3.1,
+                "type": 11,
+                "instruction": "Head south on Grey Road",
+                "name": "Grey Road",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 39.9,
+                "duration": 28.7,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 292.4,
+                "duration": 210.5,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  2,
+                  19
+                ]
+              },
+              {
+                "distance": 48.8,
+                "duration": 35.1,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  19,
+                  23
+                ]
+              },
+              {
+                "distance": 5.6,
+                "duration": 4.0,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  23,
+                  24
+                ]
+              },
+              {
+                "distance": 16.1,
+                "duration": 11.6,
+                "type": 3,
+                "instruction": "Turn sharp right",
+                "name": "-",
+                "way_points": [
+                  24,
+                  25
+                ]
+              },
+              {
+                "distance": 22.2,
+                "duration": 16.0,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  25,
+                  27
+                ]
+              },
+              {
+                "distance": 289.9,
+                "duration": 208.7,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  27,
+                  32
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  32,
+                  32
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          32
+        ],
+        "summary": {
+          "distance": 719.2,
+          "duration": 517.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -79.420763,
+            43.727263
+          ],
+          [
+            -79.420747,
+            43.727226
+          ],
+          [
+            -79.420266,
+            43.727317
+          ],
+          [
+            -79.420254,
+            43.727293
+          ],
+          [
+            -79.420112,
+            43.72721
+          ],
+          [
+            -79.419995,
+            43.727031
+          ],
+          [
+            -79.419907,
+            43.726933
+          ],
+          [
+            -79.419717,
+            43.72691
+          ],
+          [
+            -79.41949,
+            43.726784
+          ],
+          [
+            -79.419326,
+            43.726722
+          ],
+          [
+            -79.419147,
+            43.72668
+          ],
+          [
+            -79.418879,
+            43.726548
+          ],
+          [
+            -79.418605,
+            43.726485
+          ],
+          [
+            -79.418518,
+            43.726452
+          ],
+          [
+            -79.418438,
+            43.726406
+          ],
+          [
+            -79.418097,
+            43.72608
+          ],
+          [
+            -79.418032,
+            43.726043
+          ],
+          [
+            -79.417939,
+            43.72592
+          ],
+          [
+            -79.417901,
+            43.725859
+          ],
+          [
+            -79.417674,
+            43.725634
+          ],
+          [
+            -79.417494,
+            43.725688
+          ],
+          [
+            -79.417359,
+            43.725695
+          ],
+          [
+            -79.417266,
+            43.725667
+          ],
+          [
+            -79.41713,
+            43.725586
+          ],
+          [
+            -79.417076,
+            43.725617
+          ],
+          [
+            -79.417039,
+            43.725475
+          ],
+          [
+            -79.416907,
+            43.725497
+          ],
+          [
+            -79.416769,
+            43.725521
+          ],
+          [
+            -79.416741,
+            43.72545
+          ],
+          [
+            -79.416718,
+            43.725394
+          ],
+          [
+            -79.416704,
+            43.725359
+          ],
+          [
+            -79.416063,
+            43.723744
+          ],
+          [
+            -79.415753,
+            43.723019
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756125026700,
+    "query": {
+      "coordinates": [
+        [
+          -79.4207627,
+          43.727263
+        ],
+        [
+          -79.4157528,
+          43.7230192
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

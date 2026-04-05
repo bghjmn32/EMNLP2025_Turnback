@@ -1,0 +1,193 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.146574,
+    19.537737,
+    -99.145082,
+    19.542041
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.146574,
+        19.537737,
+        -99.145082,
+        19.542041
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 603.5,
+            "duration": 434.5,
+            "steps": [
+              {
+                "distance": 307.5,
+                "duration": 221.4,
+                "type": 11,
+                "instruction": "Head north",
+                "name": "-",
+                "way_points": [
+                  0,
+                  12
+                ]
+              },
+              {
+                "distance": 117.2,
+                "duration": 84.3,
+                "type": 0,
+                "instruction": "Turn left onto Calle Justo Sierra",
+                "name": "Calle Justo Sierra",
+                "way_points": [
+                  12,
+                  13
+                ]
+              },
+              {
+                "distance": 178.8,
+                "duration": 128.8,
+                "type": 1,
+                "instruction": "Turn right onto Calle Politécnico Nacional",
+                "name": "Calle Politécnico Nacional",
+                "way_points": [
+                  13,
+                  19
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Politécnico Nacional, straight ahead",
+                "name": "-",
+                "way_points": [
+                  19,
+                  19
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          19
+        ],
+        "summary": {
+          "distance": 603.5,
+          "duration": 434.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.146574,
+            19.537737
+          ],
+          [
+            -99.146505,
+            19.537946
+          ],
+          [
+            -99.146435,
+            19.538061
+          ],
+          [
+            -99.146247,
+            19.538265
+          ],
+          [
+            -99.145871,
+            19.53855
+          ],
+          [
+            -99.145738,
+            19.538773
+          ],
+          [
+            -99.145696,
+            19.538917
+          ],
+          [
+            -99.145645,
+            19.539114
+          ],
+          [
+            -99.145481,
+            19.539384
+          ],
+          [
+            -99.145364,
+            19.539511
+          ],
+          [
+            -99.145173,
+            19.539758
+          ],
+          [
+            -99.145124,
+            19.539957
+          ],
+          [
+            -99.145086,
+            19.540041
+          ],
+          [
+            -99.14598,
+            19.540673
+          ],
+          [
+            -99.145771,
+            19.540991
+          ],
+          [
+            -99.145586,
+            19.541273
+          ],
+          [
+            -99.145408,
+            19.541544
+          ],
+          [
+            -99.145256,
+            19.541775
+          ],
+          [
+            -99.145167,
+            19.541914
+          ],
+          [
+            -99.145082,
+            19.542041
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756305049083,
+    "query": {
+      "coordinates": [
+        [
+          -99.1465742,
+          19.5377365
+        ],
+        [
+          -99.1450816,
+          19.5420408
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

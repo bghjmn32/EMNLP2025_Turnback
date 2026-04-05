@@ -1,0 +1,152 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.169362,
+    19.29381,
+    -99.168286,
+    19.297984
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.169362,
+        19.29381,
+        -99.168286,
+        19.297984
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 599.8,
+            "duration": 431.8,
+            "steps": [
+              {
+                "distance": 116.3,
+                "duration": 83.7,
+                "type": 11,
+                "instruction": "Head north on Calle Tesoreros",
+                "name": "Calle Tesoreros",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 115.2,
+                "duration": 82.9,
+                "type": 0,
+                "instruction": "Turn left onto Calle Cuauhtémoc",
+                "name": "Calle Cuauhtémoc",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 316.8,
+                "duration": 228.1,
+                "type": 1,
+                "instruction": "Turn right onto Calle Las Fuentes",
+                "name": "Calle Las Fuentes",
+                "way_points": [
+                  3,
+                  5
+                ]
+              },
+              {
+                "distance": 51.6,
+                "duration": 37.1,
+                "type": 0,
+                "instruction": "Turn left onto Calle Vicente Guerrero",
+                "name": "Calle Vicente Guerrero",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Vicente Guerrero, straight ahead",
+                "name": "-",
+                "way_points": [
+                  6,
+                  6
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          6
+        ],
+        "summary": {
+          "distance": 599.8,
+          "duration": 431.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.168718,
+            19.29381
+          ],
+          [
+            -99.168532,
+            19.294313
+          ],
+          [
+            -99.168335,
+            19.29479
+          ],
+          [
+            -99.169362,
+            19.295155
+          ],
+          [
+            -99.16899,
+            19.296127
+          ],
+          [
+            -99.168286,
+            19.297817
+          ],
+          [
+            -99.168744,
+            19.297984
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756307813265,
+    "query": {
+      "coordinates": [
+        [
+          -99.168718,
+          19.2938095
+        ],
+        [
+          -99.1687445,
+          19.2979838
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

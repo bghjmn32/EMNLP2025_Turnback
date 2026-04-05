@@ -1,0 +1,211 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.481516,
+    -23.032004,
+    -43.479838,
+    -23.02735
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.481516,
+        -23.032004,
+        -43.479838,
+        -23.02735
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 650.7,
+            "duration": 468.5,
+            "steps": [
+              {
+                "distance": 114.4,
+                "duration": 82.4,
+                "type": 11,
+                "instruction": "Head east",
+                "name": "-",
+                "way_points": [
+                  0,
+                  9
+                ]
+              },
+              {
+                "distance": 132.1,
+                "duration": 95.1,
+                "type": 1,
+                "instruction": "Turn right onto Ciclovia Eco Macumba",
+                "name": "Ciclovia Eco Macumba",
+                "way_points": [
+                  9,
+                  11
+                ]
+              },
+              {
+                "distance": 10.7,
+                "duration": 7.7,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  11,
+                  13
+                ]
+              },
+              {
+                "distance": 11.9,
+                "duration": 8.6,
+                "type": 1,
+                "instruction": "Turn right onto Estrada do Pontal",
+                "name": "Estrada do Pontal",
+                "way_points": [
+                  13,
+                  14
+                ]
+              },
+              {
+                "distance": 381.6,
+                "duration": 274.8,
+                "type": 0,
+                "instruction": "Turn left onto Rua Zélio Valverde",
+                "name": "Rua Zélio Valverde",
+                "way_points": [
+                  14,
+                  18
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Rua Zélio Valverde, straight ahead",
+                "name": "-",
+                "way_points": [
+                  18,
+                  18
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          18
+        ],
+        "summary": {
+          "distance": 650.7,
+          "duration": 468.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.481516,
+            -23.032004
+          ],
+          [
+            -43.481413,
+            -23.031972
+          ],
+          [
+            -43.481361,
+            -23.031923
+          ],
+          [
+            -43.481345,
+            -23.031869
+          ],
+          [
+            -43.48135,
+            -23.031749
+          ],
+          [
+            -43.48138,
+            -23.031551
+          ],
+          [
+            -43.481314,
+            -23.031433
+          ],
+          [
+            -43.481204,
+            -23.031366
+          ],
+          [
+            -43.481163,
+            -23.031301
+          ],
+          [
+            -43.481145,
+            -23.031146
+          ],
+          [
+            -43.480949,
+            -23.031027
+          ],
+          [
+            -43.479933,
+            -23.030761
+          ],
+          [
+            -43.479929,
+            -23.030724
+          ],
+          [
+            -43.479948,
+            -23.030668
+          ],
+          [
+            -43.479838,
+            -23.030635
+          ],
+          [
+            -43.48011,
+            -23.029831
+          ],
+          [
+            -43.480378,
+            -23.029018
+          ],
+          [
+            -43.480658,
+            -23.028154
+          ],
+          [
+            -43.480917,
+            -23.02735
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756391942499,
+    "query": {
+      "coordinates": [
+        [
+          -43.4815163,
+          -23.0320038
+        ],
+        [
+          -43.4809168,
+          -23.0273502
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

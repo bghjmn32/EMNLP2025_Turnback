@@ -1,0 +1,297 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    11.592573,
+    48.10025,
+    11.597051,
+    48.102914
+  ],
+  "features": [
+    {
+      "bbox": [
+        11.592573,
+        48.10025,
+        11.597051,
+        48.102914
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 593.3,
+            "duration": 427.2,
+            "steps": [
+              {
+                "distance": 22.9,
+                "duration": 16.5,
+                "type": 11,
+                "instruction": "Head east",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 87.4,
+                "duration": 62.9,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 100.5,
+                "duration": 72.3,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  2,
+                  6
+                ]
+              },
+              {
+                "distance": 26.5,
+                "duration": 19.1,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 27.8,
+                "duration": 20.0,
+                "type": 0,
+                "instruction": "Turn left onto Stadelheimer Straße",
+                "name": "Stadelheimer Straße",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 22.3,
+                "duration": 16.1,
+                "type": 1,
+                "instruction": "Turn right onto Scharfreiterplatz",
+                "name": "Scharfreiterplatz",
+                "way_points": [
+                  8,
+                  10
+                ]
+              },
+              {
+                "distance": 18.8,
+                "duration": 13.5,
+                "type": 0,
+                "instruction": "Turn left onto Stadelheimer Straße",
+                "name": "Stadelheimer Straße",
+                "way_points": [
+                  10,
+                  11
+                ]
+              },
+              {
+                "distance": 33.1,
+                "duration": 23.9,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  11,
+                  13
+                ]
+              },
+              {
+                "distance": 131.8,
+                "duration": 94.9,
+                "type": 4,
+                "instruction": "Turn slight left",
+                "name": "-",
+                "way_points": [
+                  13,
+                  18
+                ]
+              },
+              {
+                "distance": 37.0,
+                "duration": 26.6,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  18,
+                  20
+                ]
+              },
+              {
+                "distance": 85.1,
+                "duration": 61.3,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  20,
+                  23
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  23,
+                  23
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          23
+        ],
+        "summary": {
+          "distance": 593.3,
+          "duration": 427.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            11.592573,
+            48.102839
+          ],
+          [
+            11.592861,
+            48.102914
+          ],
+          [
+            11.593289,
+            48.102181
+          ],
+          [
+            11.593607,
+            48.102262
+          ],
+          [
+            11.594282,
+            48.102433
+          ],
+          [
+            11.594445,
+            48.102472
+          ],
+          [
+            11.594556,
+            48.102499
+          ],
+          [
+            11.594683,
+            48.102275
+          ],
+          [
+            11.595031,
+            48.102366
+          ],
+          [
+            11.595081,
+            48.102278
+          ],
+          [
+            11.595136,
+            48.102178
+          ],
+          [
+            11.595376,
+            48.102231
+          ],
+          [
+            11.595408,
+            48.102165
+          ],
+          [
+            11.595513,
+            48.101948
+          ],
+          [
+            11.595575,
+            48.101914
+          ],
+          [
+            11.595718,
+            48.101673
+          ],
+          [
+            11.595844,
+            48.101453
+          ],
+          [
+            11.596043,
+            48.101088
+          ],
+          [
+            11.596183,
+            48.100858
+          ],
+          [
+            11.596349,
+            48.100897
+          ],
+          [
+            11.596653,
+            48.100968
+          ],
+          [
+            11.596759,
+            48.100775
+          ],
+          [
+            11.596797,
+            48.100707
+          ],
+          [
+            11.597051,
+            48.10025
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756137773705,
+    "query": {
+      "coordinates": [
+        [
+          11.5925734,
+          48.1028388
+        ],
+        [
+          11.5970511,
+          48.1002498
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

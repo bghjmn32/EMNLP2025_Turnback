@@ -1,0 +1,233 @@
+{
+    "type": "FeatureCollection",
+    "bbox": [
+        2.256736,
+        48.896244,
+        2.269237,
+        48.899063
+    ],
+    "features": [
+        {
+            "bbox": [
+                2.256736,
+                48.896244,
+                2.269237,
+                48.899063
+            ],
+            "type": "Feature",
+            "properties": {
+                "segments": [
+                    {
+                        "distance": 1024.2,
+                        "duration": 737.4,
+                        "steps": [
+                            {
+                                "distance": 52.0,
+                                "duration": 37.5,
+                                "type": 11,
+                                "instruction": "Head west on Rue Jean-Baptiste Charcot",
+                                "name": "Rue Jean-Baptiste Charcot",
+                                "way_points": [
+                                    0,
+                                    2
+                                ]
+                            },
+                            {
+                                "distance": 185.4,
+                                "duration": 133.5,
+                                "type": 1,
+                                "instruction": "Turn right onto Rue Carpeaux",
+                                "name": "Rue Carpeaux",
+                                "way_points": [
+                                    2,
+                                    8
+                                ]
+                            },
+                            {
+                                "distance": 786.8,
+                                "duration": 566.5,
+                                "type": 0,
+                                "instruction": "Turn left onto Boulevard Saint-Denis, D 9",
+                                "name": "Boulevard Saint-Denis, D 9",
+                                "way_points": [
+                                    8,
+                                    29
+                                ]
+                            },
+                            {
+                                "distance": 0.0,
+                                "duration": 0.0,
+                                "type": 10,
+                                "instruction": "Arrive at Boulevard Saint-Denis, D 9, straight ahead",
+                                "name": "-",
+                                "way_points": [
+                                    29,
+                                    29
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "way_points": [
+                    0,
+                    29
+                ],
+                "summary": {
+                    "distance": 1024.2,
+                    "duration": 737.4
+                }
+            },
+            "geometry": {
+                "coordinates": [
+                    [
+                        2.269237,
+                        48.898562
+                    ],
+                    [
+                        2.268724,
+                        48.898561
+                    ],
+                    [
+                        2.26854,
+                        48.898512
+                    ],
+                    [
+                        2.268466,
+                        48.898547
+                    ],
+                    [
+                        2.26838,
+                        48.898556
+                    ],
+                    [
+                        2.267165,
+                        48.898502
+                    ],
+                    [
+                        2.267058,
+                        48.898524
+                    ],
+                    [
+                        2.266951,
+                        48.898589
+                    ],
+                    [
+                        2.266443,
+                        48.899063
+                    ],
+                    [
+                        2.265598,
+                        48.898701
+                    ],
+                    [
+                        2.265375,
+                        48.898612
+                    ],
+                    [
+                        2.265322,
+                        48.898592
+                    ],
+                    [
+                        2.264681,
+                        48.898357
+                    ],
+                    [
+                        2.263731,
+                        48.898022
+                    ],
+                    [
+                        2.263661,
+                        48.897996
+                    ],
+                    [
+                        2.263458,
+                        48.897934
+                    ],
+                    [
+                        2.263173,
+                        48.897824
+                    ],
+                    [
+                        2.262658,
+                        48.897644
+                    ],
+                    [
+                        2.261547,
+                        48.897262
+                    ],
+                    [
+                        2.260398,
+                        48.896815
+                    ],
+                    [
+                        2.260005,
+                        48.896685
+                    ],
+                    [
+                        2.259585,
+                        48.896577
+                    ],
+                    [
+                        2.258825,
+                        48.896405
+                    ],
+                    [
+                        2.25847,
+                        48.896356
+                    ],
+                    [
+                        2.257984,
+                        48.89629
+                    ],
+                    [
+                        2.257724,
+                        48.896263
+                    ],
+                    [
+                        2.257369,
+                        48.896244
+                    ],
+                    [
+                        2.257154,
+                        48.896251
+                    ],
+                    [
+                        2.256974,
+                        48.896276
+                    ],
+                    [
+                        2.256736,
+                        48.896302
+                    ]
+                ],
+                "type": "LineString"
+            }
+        }
+    ],
+    "metadata": {
+        "attribution": "openrouteservice.org | OpenStreetMap contributors",
+        "service": "routing",
+        "timestamp": 1755871057510,
+        "query": {
+            "coordinates": [
+                [
+                    2.2692369,
+                    48.8985623
+                ],
+                [
+                    2.2567359,
+                    48.8963023
+                ]
+            ],
+            "profile": "foot-walking",
+            "profileName": "foot-walking",
+            "format": "geojson"
+        },
+        "engine": {
+            "version": "9.3.0",
+            "build_date": "2025-06-06T15:39:25Z",
+            "graph_date": "2025-08-19T13:56:51Z",
+            "osm_date": "2025-08-10T23:59:57Z"
+        }
+    }
+}

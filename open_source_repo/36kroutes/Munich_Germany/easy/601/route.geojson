@@ -1,0 +1,299 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    11.49312,
+    48.125556,
+    11.495726,
+    48.13402
+  ],
+  "features": [
+    {
+      "bbox": [
+        11.49312,
+        48.125556,
+        11.495726,
+        48.13402
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1149.4,
+            "duration": 827.5,
+            "steps": [
+              {
+                "distance": 205.7,
+                "duration": 148.1,
+                "type": 11,
+                "instruction": "Head south on Sankt-Ulrich-Straße",
+                "name": "Sankt-Ulrich-Straße",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 33.9,
+                "duration": 24.4,
+                "type": 0,
+                "instruction": "Turn left onto Aindorferstraße",
+                "name": "Aindorferstraße",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 371.3,
+                "duration": 267.3,
+                "type": 1,
+                "instruction": "Turn right onto Haslangstraße",
+                "name": "Haslangstraße",
+                "way_points": [
+                  3,
+                  8
+                ]
+              },
+              {
+                "distance": 67.5,
+                "duration": 48.6,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  8,
+                  10
+                ]
+              },
+              {
+                "distance": 17.3,
+                "duration": 12.4,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  10,
+                  12
+                ]
+              },
+              {
+                "distance": 14.4,
+                "duration": 10.3,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  12,
+                  13
+                ]
+              },
+              {
+                "distance": 336.6,
+                "duration": 242.3,
+                "type": 1,
+                "instruction": "Turn right onto Menaristraße",
+                "name": "Menaristraße",
+                "way_points": [
+                  13,
+                  22
+                ]
+              },
+              {
+                "distance": 74.0,
+                "duration": 53.3,
+                "type": 0,
+                "instruction": "Turn left onto Ludlstraße",
+                "name": "Ludlstraße",
+                "way_points": [
+                  22,
+                  26
+                ]
+              },
+              {
+                "distance": 28.8,
+                "duration": 20.7,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  26,
+                  29
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  29,
+                  29
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          29
+        ],
+        "summary": {
+          "distance": 1149.4,
+          "duration": 827.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            11.495726,
+            48.13402
+          ],
+          [
+            11.495166,
+            48.132283
+          ],
+          [
+            11.495141,
+            48.132212
+          ],
+          [
+            11.495582,
+            48.132135
+          ],
+          [
+            11.49487,
+            48.130859
+          ],
+          [
+            11.494533,
+            48.130471
+          ],
+          [
+            11.494303,
+            48.130208
+          ],
+          [
+            11.493887,
+            48.129747
+          ],
+          [
+            11.49336,
+            48.129157
+          ],
+          [
+            11.493814,
+            48.128932
+          ],
+          [
+            11.494085,
+            48.12879
+          ],
+          [
+            11.494017,
+            48.12873
+          ],
+          [
+            11.493941,
+            48.128668
+          ],
+          [
+            11.494092,
+            48.128588
+          ],
+          [
+            11.493484,
+            48.128033
+          ],
+          [
+            11.493322,
+            48.127831
+          ],
+          [
+            11.493162,
+            48.127311
+          ],
+          [
+            11.493143,
+            48.127182
+          ],
+          [
+            11.49312,
+            48.127015
+          ],
+          [
+            11.493137,
+            48.126763
+          ],
+          [
+            11.493161,
+            48.126491
+          ],
+          [
+            11.493214,
+            48.126166
+          ],
+          [
+            11.493322,
+            48.125742
+          ],
+          [
+            11.493474,
+            48.125772
+          ],
+          [
+            11.493813,
+            48.125794
+          ],
+          [
+            11.493986,
+            48.125795
+          ],
+          [
+            11.494311,
+            48.125796
+          ],
+          [
+            11.49431,
+            48.125759
+          ],
+          [
+            11.494402,
+            48.125626
+          ],
+          [
+            11.494359,
+            48.125556
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756138503930,
+    "query": {
+      "coordinates": [
+        [
+          11.4957257,
+          48.1340203
+        ],
+        [
+          11.4943592,
+          48.1255561
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    103.936252,
+    1.31455,
+    103.938915,
+    1.316912
+  ],
+  "features": [
+    {
+      "bbox": [
+        103.936252,
+        1.31455,
+        103.938915,
+        1.316912
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 601.0,
+            "duration": 432.7,
+            "steps": [
+              {
+                "distance": 50.3,
+                "duration": 36.2,
+                "type": 11,
+                "instruction": "Head south",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 279.8,
+                "duration": 201.5,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  5
+                ]
+              },
+              {
+                "distance": 240.0,
+                "duration": 172.8,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  5,
+                  10
+                ]
+              },
+              {
+                "distance": 30.9,
+                "duration": 22.2,
+                "type": 0,
+                "instruction": "Turn left onto Sennett Lane",
+                "name": "Sennett Lane",
+                "way_points": [
+                  10,
+                  12
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Sennett Lane, straight ahead",
+                "name": "-",
+                "way_points": [
+                  12,
+                  12
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          12
+        ],
+        "summary": {
+          "distance": 601.0,
+          "duration": 432.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            103.936252,
+            1.314983
+          ],
+          [
+            103.936383,
+            1.31455
+          ],
+          [
+            103.936426,
+            1.314555
+          ],
+          [
+            103.93646,
+            1.314558
+          ],
+          [
+            103.938002,
+            1.314717
+          ],
+          [
+            103.938889,
+            1.314796
+          ],
+          [
+            103.938913,
+            1.314845
+          ],
+          [
+            103.938915,
+            1.31489
+          ],
+          [
+            103.938779,
+            1.315531
+          ],
+          [
+            103.938621,
+            1.316354
+          ],
+          [
+            103.938533,
+            1.316912
+          ],
+          [
+            103.938288,
+            1.316872
+          ],
+          [
+            103.938258,
+            1.316869
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756392046591,
+    "query": {
+      "coordinates": [
+        [
+          103.9362519,
+          1.3149828
+        ],
+        [
+          103.9382582,
+          1.3168685
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

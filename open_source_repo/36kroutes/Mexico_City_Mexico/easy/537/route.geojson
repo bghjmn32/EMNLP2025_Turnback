@@ -1,0 +1,169 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.169205,
+    19.259707,
+    -99.16654,
+    19.261979
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.169205,
+        19.259707,
+        -99.16654,
+        19.261979
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 510.8,
+            "duration": 367.8,
+            "steps": [
+              {
+                "distance": 272.6,
+                "duration": 196.2,
+                "type": 11,
+                "instruction": "Head northeast on Privada Clavel Sur",
+                "name": "Privada Clavel Sur",
+                "way_points": [
+                  0,
+                  7
+                ]
+              },
+              {
+                "distance": 224.2,
+                "duration": 161.4,
+                "type": 3,
+                "instruction": "Turn sharp right onto Calle Clavel Sur",
+                "name": "Calle Clavel Sur",
+                "way_points": [
+                  7,
+                  12
+                ]
+              },
+              {
+                "distance": 14.1,
+                "duration": 10.2,
+                "type": 1,
+                "instruction": "Turn right onto Calle de las Flores",
+                "name": "Calle de las Flores",
+                "way_points": [
+                  12,
+                  13
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle de las Flores, straight ahead",
+                "name": "-",
+                "way_points": [
+                  13,
+                  13
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          13
+        ],
+        "summary": {
+          "distance": 510.8,
+          "duration": 367.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.169205,
+            19.259707
+          ],
+          [
+            -99.168729,
+            19.260387
+          ],
+          [
+            -99.168682,
+            19.260446
+          ],
+          [
+            -99.168655,
+            19.260491
+          ],
+          [
+            -99.168642,
+            19.260634
+          ],
+          [
+            -99.168541,
+            19.261143
+          ],
+          [
+            -99.168497,
+            19.261369
+          ],
+          [
+            -99.168378,
+            19.261979
+          ],
+          [
+            -99.167609,
+            19.261555
+          ],
+          [
+            -99.166944,
+            19.261189
+          ],
+          [
+            -99.166913,
+            19.261172
+          ],
+          [
+            -99.166705,
+            19.261054
+          ],
+          [
+            -99.16654,
+            19.260954
+          ],
+          [
+            -99.166593,
+            19.260837
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306434439,
+    "query": {
+      "coordinates": [
+        [
+          -99.1692048,
+          19.259707
+        ],
+        [
+          -99.1665929,
+          19.2608373
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

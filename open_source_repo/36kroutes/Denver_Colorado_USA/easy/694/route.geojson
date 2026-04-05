@@ -1,0 +1,239 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -104.992536,
+    39.740794,
+    -104.988865,
+    39.74437
+  ],
+  "features": [
+    {
+      "bbox": [
+        -104.992536,
+        39.740794,
+        -104.988865,
+        39.74437
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 569.7,
+            "duration": 410.1,
+            "steps": [
+              {
+                "distance": 37.2,
+                "duration": 26.8,
+                "type": 11,
+                "instruction": "Head northeast",
+                "name": "-",
+                "way_points": [
+                  0,
+                  4
+                ]
+              },
+              {
+                "distance": 71.6,
+                "duration": 51.5,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "distance": 443.0,
+                "duration": 319.0,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  5,
+                  23
+                ]
+              },
+              {
+                "distance": 8.8,
+                "duration": 6.3,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  23,
+                  24
+                ]
+              },
+              {
+                "distance": 9.1,
+                "duration": 6.6,
+                "type": 0,
+                "instruction": "Turn left onto 15th Street",
+                "name": "15th Street",
+                "way_points": [
+                  24,
+                  25
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at 15th Street, straight ahead",
+                "name": "-",
+                "way_points": [
+                  25,
+                  25
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          25
+        ],
+        "summary": {
+          "distance": 569.7,
+          "duration": 410.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -104.992152,
+            39.74434
+          ],
+          [
+            -104.992113,
+            39.74437
+          ],
+          [
+            -104.991975,
+            39.744269
+          ],
+          [
+            -104.992019,
+            39.744235
+          ],
+          [
+            -104.991929,
+            39.744166
+          ],
+          [
+            -104.992536,
+            39.743723
+          ],
+          [
+            -104.992437,
+            39.743642
+          ],
+          [
+            -104.99239,
+            39.743605
+          ],
+          [
+            -104.992361,
+            39.743584
+          ],
+          [
+            -104.991999,
+            39.743306
+          ],
+          [
+            -104.991647,
+            39.743036
+          ],
+          [
+            -104.991576,
+            39.74298
+          ],
+          [
+            -104.991502,
+            39.742927
+          ],
+          [
+            -104.99114,
+            39.742648
+          ],
+          [
+            -104.990787,
+            39.742376
+          ],
+          [
+            -104.990693,
+            39.742304
+          ],
+          [
+            -104.990621,
+            39.742249
+          ],
+          [
+            -104.990424,
+            39.742097
+          ],
+          [
+            -104.989906,
+            39.741701
+          ],
+          [
+            -104.989825,
+            39.741638
+          ],
+          [
+            -104.989748,
+            39.741579
+          ],
+          [
+            -104.989038,
+            39.741033
+          ],
+          [
+            -104.98895,
+            39.740966
+          ],
+          [
+            -104.988871,
+            39.740907
+          ],
+          [
+            -104.988943,
+            39.74085
+          ],
+          [
+            -104.988865,
+            39.740794
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306667967,
+    "query": {
+      "coordinates": [
+        [
+          -104.9921525,
+          39.7443404
+        ],
+        [
+          -104.9888647,
+          39.7407944
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

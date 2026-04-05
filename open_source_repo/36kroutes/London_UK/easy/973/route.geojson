@@ -1,0 +1,208 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -0.08754,
+    51.380352,
+    -0.08178,
+    51.384226
+  ],
+  "features": [
+    {
+      "bbox": [
+        -0.08754,
+        51.380352,
+        -0.08178,
+        51.384226
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 668.0,
+            "duration": 481.0,
+            "steps": [
+              {
+                "distance": 59.4,
+                "duration": 42.8,
+                "type": 11,
+                "instruction": "Head east on Lower Addiscombe Road, A222",
+                "name": "Lower Addiscombe Road, A222",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 33.8,
+                "duration": 24.3,
+                "type": 12,
+                "instruction": "Keep left onto Lower Addiscombe Road, A222",
+                "name": "Lower Addiscombe Road, A222",
+                "way_points": [
+                  1,
+                  3
+                ]
+              },
+              {
+                "distance": 25.7,
+                "duration": 18.5,
+                "type": 7,
+                "instruction": "Enter the roundabout and take the 1st exit onto Morland Road, B243",
+                "name": "Morland Road, B243",
+                "exit_number": 1,
+                "way_points": [
+                  3,
+                  6
+                ]
+              },
+              {
+                "distance": 211.3,
+                "duration": 152.1,
+                "type": 12,
+                "instruction": "Keep left onto Morland Avenue",
+                "name": "Morland Avenue",
+                "way_points": [
+                  6,
+                  11
+                ]
+              },
+              {
+                "distance": 337.8,
+                "duration": 243.3,
+                "type": 3,
+                "instruction": "Turn sharp right onto Leicester Road",
+                "name": "Leicester Road",
+                "way_points": [
+                  11,
+                  17
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Leicester Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  17,
+                  17
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          17
+        ],
+        "summary": {
+          "distance": 668.0,
+          "duration": 481.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -0.08754,
+            51.380517
+          ],
+          [
+            -0.086726,
+            51.380352
+          ],
+          [
+            -0.086459,
+            51.380356
+          ],
+          [
+            -0.086242,
+            51.380378
+          ],
+          [
+            -0.086202,
+            51.380412
+          ],
+          [
+            -0.086133,
+            51.380432
+          ],
+          [
+            -0.085996,
+            51.380545
+          ],
+          [
+            -0.085904,
+            51.380831
+          ],
+          [
+            -0.085772,
+            51.38144
+          ],
+          [
+            -0.085627,
+            51.382112
+          ],
+          [
+            -0.085571,
+            51.382369
+          ],
+          [
+            -0.085585,
+            51.382424
+          ],
+          [
+            -0.085492,
+            51.382412
+          ],
+          [
+            -0.085285,
+            51.382429
+          ],
+          [
+            -0.084819,
+            51.382543
+          ],
+          [
+            -0.08462,
+            51.38264
+          ],
+          [
+            -0.083706,
+            51.383174
+          ],
+          [
+            -0.08178,
+            51.384226
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756829265036,
+    "query": {
+      "coordinates": [
+        [
+          -0.0875399,
+          51.3805169
+        ],
+        [
+          -0.0817805,
+          51.3842259
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

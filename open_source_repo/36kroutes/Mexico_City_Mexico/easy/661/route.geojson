@@ -1,0 +1,173 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.063609,
+    19.400941,
+    -99.059864,
+    19.403043
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.063609,
+        19.400941,
+        -99.059864,
+        19.403043
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 709.9,
+            "duration": 511.2,
+            "steps": [
+              {
+                "distance": 235.1,
+                "duration": 169.3,
+                "type": 11,
+                "instruction": "Head south on Calle 6",
+                "name": "Calle 6",
+                "way_points": [
+                  0,
+                  4
+                ]
+              },
+              {
+                "distance": 424.6,
+                "duration": 305.7,
+                "type": 3,
+                "instruction": "Turn sharp right onto Avenida Puebla",
+                "name": "Avenida Puebla",
+                "way_points": [
+                  4,
+                  13
+                ]
+              },
+              {
+                "distance": 50.3,
+                "duration": 36.2,
+                "type": 2,
+                "instruction": "Turn sharp left onto Calle 4",
+                "name": "Calle 4",
+                "way_points": [
+                  13,
+                  14
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle 4, straight ahead",
+                "name": "-",
+                "way_points": [
+                  14,
+                  14
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          14
+        ],
+        "summary": {
+          "distance": 709.9,
+          "duration": 511.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.059864,
+            19.403043
+          ],
+          [
+            -99.059924,
+            19.40253
+          ],
+          [
+            -99.059977,
+            19.402046
+          ],
+          [
+            -99.06002,
+            19.401558
+          ],
+          [
+            -99.060104,
+            19.400941
+          ],
+          [
+            -99.060542,
+            19.401195
+          ],
+          [
+            -99.060699,
+            19.40128
+          ],
+          [
+            -99.060899,
+            19.40139
+          ],
+          [
+            -99.061815,
+            19.4019
+          ],
+          [
+            -99.062351,
+            19.402217
+          ],
+          [
+            -99.062751,
+            19.402446
+          ],
+          [
+            -99.063141,
+            19.402668
+          ],
+          [
+            -99.063492,
+            19.402874
+          ],
+          [
+            -99.063554,
+            19.402933
+          ],
+          [
+            -99.063609,
+            19.402484
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306928581,
+    "query": {
+      "coordinates": [
+        [
+          -99.0598644,
+          19.4030427
+        ],
+        [
+          -99.0636092,
+          19.402484
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

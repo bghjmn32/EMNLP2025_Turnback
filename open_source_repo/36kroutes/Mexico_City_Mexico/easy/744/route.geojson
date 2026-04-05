@@ -1,0 +1,206 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.148764,
+    19.286924,
+    -99.14704,
+    19.2901
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.148764,
+        19.286924,
+        -99.14704,
+        19.2901
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 709.3,
+            "duration": 510.7,
+            "steps": [
+              {
+                "distance": 68.1,
+                "duration": 49.0,
+                "type": 11,
+                "instruction": "Head northeast",
+                "name": "-",
+                "way_points": [
+                  0,
+                  4
+                ]
+              },
+              {
+                "distance": 31.2,
+                "duration": 22.4,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "distance": 28.1,
+                "duration": 20.2,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 152.5,
+                "duration": 109.8,
+                "type": 1,
+                "instruction": "Turn right onto Calzada México-Xochimilco",
+                "name": "Calzada México-Xochimilco",
+                "way_points": [
+                  6,
+                  9
+                ]
+              },
+              {
+                "distance": 240.9,
+                "duration": 173.5,
+                "type": 1,
+                "instruction": "Turn right onto Calle Forestal",
+                "name": "Calle Forestal",
+                "way_points": [
+                  9,
+                  13
+                ]
+              },
+              {
+                "distance": 188.6,
+                "duration": 135.8,
+                "type": 2,
+                "instruction": "Turn sharp left onto Cerrada Forestal",
+                "name": "Cerrada Forestal",
+                "way_points": [
+                  13,
+                  14
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Cerrada Forestal, straight ahead",
+                "name": "-",
+                "way_points": [
+                  14,
+                  14
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          14
+        ],
+        "summary": {
+          "distance": 709.3,
+          "duration": 510.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.148273,
+            19.289471
+          ],
+          [
+            -99.148138,
+            19.289607
+          ],
+          [
+            -99.148275,
+            19.289717
+          ],
+          [
+            -99.148383,
+            19.289804
+          ],
+          [
+            -99.148474,
+            19.289718
+          ],
+          [
+            -99.148696,
+            19.289905
+          ],
+          [
+            -99.148527,
+            19.2901
+          ],
+          [
+            -99.147796,
+            19.289478
+          ],
+          [
+            -99.147595,
+            19.289307
+          ],
+          [
+            -99.14745,
+            19.28918
+          ],
+          [
+            -99.147982,
+            19.288461
+          ],
+          [
+            -99.14807,
+            19.288342
+          ],
+          [
+            -99.148637,
+            19.287575
+          ],
+          [
+            -99.148764,
+            19.287403
+          ],
+          [
+            -99.14704,
+            19.286924
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756307319961,
+    "query": {
+      "coordinates": [
+        [
+          -99.1482726,
+          19.2894708
+        ],
+        [
+          -99.1470396,
+          19.2869237
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

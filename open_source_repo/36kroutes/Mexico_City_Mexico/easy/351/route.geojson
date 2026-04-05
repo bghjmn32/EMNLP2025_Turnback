@@ -1,0 +1,274 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.165099,
+    19.522154,
+    -99.15867,
+    19.524549
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.165099,
+        19.522154,
+        -99.15867,
+        19.524549
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1005.8,
+            "duration": 724.2,
+            "steps": [
+              {
+                "distance": 52.0,
+                "duration": 37.4,
+                "type": 11,
+                "instruction": "Head northwest on Avenida Guadalupe",
+                "name": "Avenida Guadalupe",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 73.3,
+                "duration": 52.8,
+                "type": 0,
+                "instruction": "Turn left onto Calle 10",
+                "name": "Calle 10",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 171.4,
+                "duration": 123.4,
+                "type": 1,
+                "instruction": "Turn right onto Camino de Santiaguito",
+                "name": "Camino de Santiaguito",
+                "way_points": [
+                  2,
+                  6
+                ]
+              },
+              {
+                "distance": 24.1,
+                "duration": 17.4,
+                "type": 1,
+                "instruction": "Turn right onto Calle Rojo Gómez",
+                "name": "Calle Rojo Gómez",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 200.0,
+                "duration": 144.0,
+                "type": 0,
+                "instruction": "Turn left onto Camino de Santiaguito",
+                "name": "Camino de Santiaguito",
+                "way_points": [
+                  7,
+                  13
+                ]
+              },
+              {
+                "distance": 62.9,
+                "duration": 45.3,
+                "type": 3,
+                "instruction": "Turn sharp right onto Privada Santiaguito",
+                "name": "Privada Santiaguito",
+                "way_points": [
+                  13,
+                  14
+                ]
+              },
+              {
+                "distance": 39.4,
+                "duration": 28.4,
+                "type": 0,
+                "instruction": "Turn left onto Calle Central",
+                "name": "Calle Central",
+                "way_points": [
+                  14,
+                  15
+                ]
+              },
+              {
+                "distance": 6.5,
+                "duration": 4.7,
+                "type": 0,
+                "instruction": "Turn left onto Calle 3",
+                "name": "Calle 3",
+                "way_points": [
+                  15,
+                  16
+                ]
+              },
+              {
+                "distance": 166.9,
+                "duration": 120.2,
+                "type": 1,
+                "instruction": "Turn right onto Calle Central",
+                "name": "Calle Central",
+                "way_points": [
+                  16,
+                  19
+                ]
+              },
+              {
+                "distance": 209.1,
+                "duration": 150.5,
+                "type": 0,
+                "instruction": "Turn left onto Calle 1-A",
+                "name": "Calle 1-A",
+                "way_points": [
+                  19,
+                  20
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle 1-A, straight ahead",
+                "name": "-",
+                "way_points": [
+                  20,
+                  20
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          20
+        ],
+        "summary": {
+          "distance": 1005.8,
+          "duration": 724.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.15867,
+            19.522515
+          ],
+          [
+            -99.15911,
+            19.522732
+          ],
+          [
+            -99.159446,
+            19.522154
+          ],
+          [
+            -99.159933,
+            19.522309
+          ],
+          [
+            -99.160227,
+            19.522429
+          ],
+          [
+            -99.160421,
+            19.522504
+          ],
+          [
+            -99.160973,
+            19.522706
+          ],
+          [
+            -99.160887,
+            19.522907
+          ],
+          [
+            -99.161269,
+            19.523058
+          ],
+          [
+            -99.161731,
+            19.523258
+          ],
+          [
+            -99.161839,
+            19.523282
+          ],
+          [
+            -99.162147,
+            19.523315
+          ],
+          [
+            -99.162257,
+            19.52332
+          ],
+          [
+            -99.162712,
+            19.523307
+          ],
+          [
+            -99.162472,
+            19.523826
+          ],
+          [
+            -99.162815,
+            19.523972
+          ],
+          [
+            -99.162842,
+            19.523919
+          ],
+          [
+            -99.163291,
+            19.524115
+          ],
+          [
+            -99.163736,
+            19.524309
+          ],
+          [
+            -99.164288,
+            19.524549
+          ],
+          [
+            -99.165099,
+            19.522831
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756305640452,
+    "query": {
+      "coordinates": [
+        [
+          -99.1586703,
+          19.5225148
+        ],
+        [
+          -99.1650993,
+          19.5228311
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

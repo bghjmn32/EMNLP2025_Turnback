@@ -1,0 +1,196 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -79.287993,
+    43.721025,
+    -79.279161,
+    43.725391
+  ],
+  "features": [
+    {
+      "bbox": [
+        -79.287993,
+        43.721025,
+        -79.279161,
+        43.725391
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1050.2,
+            "duration": 756.2,
+            "steps": [
+              {
+                "distance": 224.4,
+                "duration": 161.6,
+                "type": 11,
+                "instruction": "Head east",
+                "name": "-",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 192.0,
+                "duration": 138.2,
+                "type": 12,
+                "instruction": "Keep left",
+                "name": "-",
+                "way_points": [
+                  2,
+                  6
+                ]
+              },
+              {
+                "distance": 565.4,
+                "duration": 407.0,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  6,
+                  15
+                ]
+              },
+              {
+                "distance": 68.5,
+                "duration": 49.3,
+                "type": 0,
+                "instruction": "Turn left onto Sinnott Road",
+                "name": "Sinnott Road",
+                "way_points": [
+                  15,
+                  17
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Sinnott Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  17,
+                  17
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          17
+        ],
+        "summary": {
+          "distance": 1050.2,
+          "duration": 756.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -79.287993,
+            43.721025
+          ],
+          [
+            -79.286686,
+            43.72131
+          ],
+          [
+            -79.285319,
+            43.721608
+          ],
+          [
+            -79.285266,
+            43.721659
+          ],
+          [
+            -79.28526,
+            43.721724
+          ],
+          [
+            -79.285488,
+            43.722303
+          ],
+          [
+            -79.285865,
+            43.723261
+          ],
+          [
+            -79.285771,
+            43.723283
+          ],
+          [
+            -79.285646,
+            43.723311
+          ],
+          [
+            -79.285311,
+            43.723388
+          ],
+          [
+            -79.284566,
+            43.723557
+          ],
+          [
+            -79.284344,
+            43.723608
+          ],
+          [
+            -79.284074,
+            43.723669
+          ],
+          [
+            -79.283821,
+            43.723727
+          ],
+          [
+            -79.28245,
+            43.724039
+          ],
+          [
+            -79.279161,
+            43.724804
+          ],
+          [
+            -79.279229,
+            43.724957
+          ],
+          [
+            -79.279422,
+            43.725391
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756125943157,
+    "query": {
+      "coordinates": [
+        [
+          -79.2879926,
+          43.7210253
+        ],
+        [
+          -79.2794219,
+          43.7253905
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

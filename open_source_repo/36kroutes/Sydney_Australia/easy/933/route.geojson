@@ -1,0 +1,291 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    151.227634,
+    -33.922789,
+    151.233476,
+    -33.918611
+  ],
+  "features": [
+    {
+      "bbox": [
+        151.227634,
+        -33.922789,
+        151.233476,
+        -33.918611
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 978.8,
+            "duration": 704.7,
+            "steps": [
+              {
+                "distance": 66.9,
+                "duration": 48.2,
+                "type": 11,
+                "instruction": "Head east on Meeks Street Plaza",
+                "name": "Meeks Street Plaza",
+                "way_points": [
+                  0,
+                  4
+                ]
+              },
+              {
+                "distance": 135.7,
+                "duration": 97.7,
+                "type": 7,
+                "instruction": "Enter the roundabout and take the 2nd exit onto Meeks Street",
+                "name": "Meeks Street",
+                "exit_number": 2,
+                "way_points": [
+                  4,
+                  11
+                ]
+              },
+              {
+                "distance": 316.1,
+                "duration": 227.6,
+                "type": 7,
+                "instruction": "Enter the roundabout and take the 1st exit onto Forsyth Street",
+                "name": "Forsyth Street",
+                "exit_number": 1,
+                "way_points": [
+                  11,
+                  17
+                ]
+              },
+              {
+                "distance": 11.6,
+                "duration": 8.3,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  17,
+                  18
+                ]
+              },
+              {
+                "distance": 17.5,
+                "duration": 12.6,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  18,
+                  22
+                ]
+              },
+              {
+                "distance": 245.6,
+                "duration": 176.8,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  22,
+                  27
+                ]
+              },
+              {
+                "distance": 185.3,
+                "duration": 133.4,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  27,
+                  32
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  32,
+                  32
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          32
+        ],
+        "summary": {
+          "distance": 978.8,
+          "duration": 704.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            151.227634,
+            -33.922717
+          ],
+          [
+            151.227669,
+            -33.92271
+          ],
+          [
+            151.227798,
+            -33.922685
+          ],
+          [
+            151.227868,
+            -33.922673
+          ],
+          [
+            151.228343,
+            -33.922589
+          ],
+          [
+            151.228345,
+            -33.922617
+          ],
+          [
+            151.228374,
+            -33.922651
+          ],
+          [
+            151.22843,
+            -33.922662
+          ],
+          [
+            151.228466,
+            -33.922649
+          ],
+          [
+            151.228492,
+            -33.922618
+          ],
+          [
+            151.229044,
+            -33.922685
+          ],
+          [
+            151.22972,
+            -33.922789
+          ],
+          [
+            151.229755,
+            -33.922741
+          ],
+          [
+            151.229823,
+            -33.922733
+          ],
+          [
+            151.230089,
+            -33.92127
+          ],
+          [
+            151.230108,
+            -33.921169
+          ],
+          [
+            151.230217,
+            -33.9206
+          ],
+          [
+            151.230331,
+            -33.920036
+          ],
+          [
+            151.230455,
+            -33.920053
+          ],
+          [
+            151.230463,
+            -33.920011
+          ],
+          [
+            151.230467,
+            -33.919987
+          ],
+          [
+            151.230478,
+            -33.919941
+          ],
+          [
+            151.230487,
+            -33.919897
+          ],
+          [
+            151.230619,
+            -33.919914
+          ],
+          [
+            151.231693,
+            -33.920063
+          ],
+          [
+            151.231765,
+            -33.920072
+          ],
+          [
+            151.232502,
+            -33.920169
+          ],
+          [
+            151.233114,
+            -33.92025
+          ],
+          [
+            151.23332,
+            -33.919288
+          ],
+          [
+            151.233342,
+            -33.919196
+          ],
+          [
+            151.233355,
+            -33.919137
+          ],
+          [
+            151.233365,
+            -33.919095
+          ],
+          [
+            151.233476,
+            -33.918611
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756396023538,
+    "query": {
+      "coordinates": [
+        [
+          151.2276341,
+          -33.9227174
+        ],
+        [
+          151.2334756,
+          -33.918611
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

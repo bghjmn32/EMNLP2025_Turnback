@@ -1,0 +1,215 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    11.502783,
+    48.182607,
+    11.504578,
+    48.187749
+  ],
+  "features": [
+    {
+      "bbox": [
+        11.502783,
+        48.182607,
+        11.504578,
+        48.187749
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 696.6,
+            "duration": 501.6,
+            "steps": [
+              {
+                "distance": 144.1,
+                "duration": 103.8,
+                "type": 11,
+                "instruction": "Head south on Dachauer Straße",
+                "name": "Dachauer Straße",
+                "way_points": [
+                  0,
+                  6
+                ]
+              },
+              {
+                "distance": 55.3,
+                "duration": 39.8,
+                "type": 1,
+                "instruction": "Turn right onto Paula-Ludwig-Weg",
+                "name": "Paula-Ludwig-Weg",
+                "way_points": [
+                  6,
+                  9
+                ]
+              },
+              {
+                "distance": 104.4,
+                "duration": 75.2,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  9,
+                  10
+                ]
+              },
+              {
+                "distance": 121.5,
+                "duration": 87.5,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  10,
+                  15
+                ]
+              },
+              {
+                "distance": 271.3,
+                "duration": 195.3,
+                "type": 0,
+                "instruction": "Turn left onto Rathgeberstraße",
+                "name": "Rathgeberstraße",
+                "way_points": [
+                  15,
+                  19
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Rathgeberstraße, straight ahead",
+                "name": "-",
+                "way_points": [
+                  19,
+                  19
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          19
+        ],
+        "summary": {
+          "distance": 696.6,
+          "duration": 501.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            11.504172,
+            48.187749
+          ],
+          [
+            11.504234,
+            48.187564
+          ],
+          [
+            11.504209,
+            48.187424
+          ],
+          [
+            11.504287,
+            48.187179
+          ],
+          [
+            11.504399,
+            48.186831
+          ],
+          [
+            11.504529,
+            48.186668
+          ],
+          [
+            11.504578,
+            48.186497
+          ],
+          [
+            11.504096,
+            48.186391
+          ],
+          [
+            11.50399,
+            48.186379
+          ],
+          [
+            11.503859,
+            48.18637
+          ],
+          [
+            11.5042,
+            48.18546
+          ],
+          [
+            11.503944,
+            48.185396
+          ],
+          [
+            11.503725,
+            48.185252
+          ],
+          [
+            11.503608,
+            48.185155
+          ],
+          [
+            11.503556,
+            48.185141
+          ],
+          [
+            11.502783,
+            48.184968
+          ],
+          [
+            11.502955,
+            48.184458
+          ],
+          [
+            11.503216,
+            48.183784
+          ],
+          [
+            11.503465,
+            48.183174
+          ],
+          [
+            11.5037,
+            48.182607
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756139240214,
+    "query": {
+      "coordinates": [
+        [
+          11.5041724,
+          48.1877493
+        ],
+        [
+          11.5037,
+          48.1826068
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

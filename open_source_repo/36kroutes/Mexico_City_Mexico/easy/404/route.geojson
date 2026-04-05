@@ -1,0 +1,184 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.071116,
+    19.321039,
+    -99.068671,
+    19.324482
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.071116,
+        19.321039,
+        -99.068671,
+        19.324482
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 633.6,
+            "duration": 456.2,
+            "steps": [
+              {
+                "distance": 45.4,
+                "duration": 32.7,
+                "type": 11,
+                "instruction": "Head southeast on Andador 9",
+                "name": "Andador 9",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 121.3,
+                "duration": 87.3,
+                "type": 1,
+                "instruction": "Turn right onto Calle Reforma",
+                "name": "Calle Reforma",
+                "way_points": [
+                  1,
+                  6
+                ]
+              },
+              {
+                "distance": 276.7,
+                "duration": 199.3,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  6,
+                  11
+                ]
+              },
+              {
+                "distance": 190.2,
+                "duration": 136.9,
+                "type": 0,
+                "instruction": "Turn left onto Calle Reforma",
+                "name": "Calle Reforma",
+                "way_points": [
+                  11,
+                  14
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Reforma, straight ahead",
+                "name": "-",
+                "way_points": [
+                  14,
+                  14
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          14
+        ],
+        "summary": {
+          "distance": 633.6,
+          "duration": 456.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.070762,
+            19.324482
+          ],
+          [
+            -99.07041,
+            19.324245
+          ],
+          [
+            -99.070505,
+            19.324131
+          ],
+          [
+            -99.070579,
+            19.324044
+          ],
+          [
+            -99.070716,
+            19.323872
+          ],
+          [
+            -99.071027,
+            19.323483
+          ],
+          [
+            -99.071116,
+            19.323381
+          ],
+          [
+            -99.070679,
+            19.323055
+          ],
+          [
+            -99.070508,
+            19.322957
+          ],
+          [
+            -99.06977,
+            19.322416
+          ],
+          [
+            -99.070224,
+            19.321872
+          ],
+          [
+            -99.07034,
+            19.321706
+          ],
+          [
+            -99.069505,
+            19.321371
+          ],
+          [
+            -99.068974,
+            19.321151
+          ],
+          [
+            -99.068671,
+            19.321039
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756305889288,
+    "query": {
+      "coordinates": [
+        [
+          -99.0707619,
+          19.3244819
+        ],
+        [
+          -99.0686714,
+          19.3210391
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,303 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    31.23161,
+    30.044983,
+    31.235998,
+    30.048808
+  ],
+  "features": [
+    {
+      "bbox": [
+        31.23161,
+        30.044983,
+        31.235998,
+        30.048808
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 852.9,
+            "duration": 614.1,
+            "steps": [
+              {
+                "distance": 5.1,
+                "duration": 3.6,
+                "type": 11,
+                "instruction": "Head west",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 88.8,
+                "duration": 64.0,
+                "type": 1,
+                "instruction": "Turn right onto شارع مريت باشا",
+                "name": "شارع مريت باشا",
+                "way_points": [
+                  1,
+                  4
+                ]
+              },
+              {
+                "distance": 13.8,
+                "duration": 10.0,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "distance": 48.3,
+                "duration": 34.8,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 13.5,
+                "duration": 9.7,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 115.1,
+                "duration": 82.8,
+                "type": 1,
+                "instruction": "Turn right onto شارع مريت باشا",
+                "name": "شارع مريت باشا",
+                "way_points": [
+                  7,
+                  10
+                ]
+              },
+              {
+                "distance": 312.7,
+                "duration": 225.1,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  10,
+                  22
+                ]
+              },
+              {
+                "distance": 153.1,
+                "duration": 110.2,
+                "type": 4,
+                "instruction": "Turn slight left",
+                "name": "-",
+                "way_points": [
+                  22,
+                  28
+                ]
+              },
+              {
+                "distance": 102.6,
+                "duration": 73.8,
+                "type": 3,
+                "instruction": "Turn sharp right onto شارع كورنيش النيل",
+                "name": "شارع كورنيش النيل",
+                "way_points": [
+                  28,
+                  30
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at شارع كورنيش النيل, straight ahead",
+                "name": "-",
+                "way_points": [
+                  30,
+                  30
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          30
+        ],
+        "summary": {
+          "distance": 852.9,
+          "duration": 614.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            31.235998,
+            30.044987
+          ],
+          [
+            31.235945,
+            30.044983
+          ],
+          [
+            31.235917,
+            30.04506
+          ],
+          [
+            31.235528,
+            30.045413
+          ],
+          [
+            31.23537,
+            30.045599
+          ],
+          [
+            31.235242,
+            30.045543
+          ],
+          [
+            31.235001,
+            30.045924
+          ],
+          [
+            31.234874,
+            30.045872
+          ],
+          [
+            31.234619,
+            30.04638
+          ],
+          [
+            31.234532,
+            30.046626
+          ],
+          [
+            31.234516,
+            30.046849
+          ],
+          [
+            31.2344,
+            30.046879
+          ],
+          [
+            31.234372,
+            30.046902
+          ],
+          [
+            31.234362,
+            30.04806
+          ],
+          [
+            31.234344,
+            30.048176
+          ],
+          [
+            31.234282,
+            30.048296
+          ],
+          [
+            31.234157,
+            30.048446
+          ],
+          [
+            31.234048,
+            30.048506
+          ],
+          [
+            31.233922,
+            30.048538
+          ],
+          [
+            31.233788,
+            30.048547
+          ],
+          [
+            31.233255,
+            30.048515
+          ],
+          [
+            31.233002,
+            30.048514
+          ],
+          [
+            31.232943,
+            30.048544
+          ],
+          [
+            31.232567,
+            30.048511
+          ],
+          [
+            31.232241,
+            30.048433
+          ],
+          [
+            31.232079,
+            30.048365
+          ],
+          [
+            31.232013,
+            30.048321
+          ],
+          [
+            31.231816,
+            30.048121
+          ],
+          [
+            31.231669,
+            30.047888
+          ],
+          [
+            31.231654,
+            30.048464
+          ],
+          [
+            31.23161,
+            30.048808
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756732364551,
+    "query": {
+      "coordinates": [
+        [
+          31.2359976,
+          30.0449872
+        ],
+        [
+          31.2316097,
+          30.0488076
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

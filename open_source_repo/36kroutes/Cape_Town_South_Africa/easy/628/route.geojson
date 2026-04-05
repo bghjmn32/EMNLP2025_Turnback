@@ -1,0 +1,190 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.466903,
+    -34.05232,
+    18.468754,
+    -34.044071
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.466903,
+        -34.05232,
+        18.468754,
+        -34.044071
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1081.5,
+            "duration": 778.7,
+            "steps": [
+              {
+                "distance": 349.1,
+                "duration": 251.3,
+                "type": 11,
+                "instruction": "Head north on Tissot Road",
+                "name": "Tissot Road",
+                "way_points": [
+                  0,
+                  10
+                ]
+              },
+              {
+                "distance": 732.4,
+                "duration": 527.3,
+                "type": 1,
+                "instruction": "Turn right onto Gordon Road",
+                "name": "Gordon Road",
+                "way_points": [
+                  10,
+                  21
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Gordon Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  21,
+                  21
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          21
+        ],
+        "summary": {
+          "distance": 1081.5,
+          "duration": 778.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.468164,
+            -34.05232
+          ],
+          [
+            18.468188,
+            -34.052263
+          ],
+          [
+            18.468454,
+            -34.051619
+          ],
+          [
+            18.468693,
+            -34.051043
+          ],
+          [
+            18.468753,
+            -34.050895
+          ],
+          [
+            18.468754,
+            -34.050838
+          ],
+          [
+            18.468729,
+            -34.05081
+          ],
+          [
+            18.468692,
+            -34.050801
+          ],
+          [
+            18.468205,
+            -34.050724
+          ],
+          [
+            18.467501,
+            -34.050612
+          ],
+          [
+            18.466903,
+            -34.050518
+          ],
+          [
+            18.467055,
+            -34.049936
+          ],
+          [
+            18.467211,
+            -34.049354
+          ],
+          [
+            18.467379,
+            -34.048777
+          ],
+          [
+            18.467559,
+            -34.048089
+          ],
+          [
+            18.467713,
+            -34.047505
+          ],
+          [
+            18.467787,
+            -34.047149
+          ],
+          [
+            18.467956,
+            -34.046348
+          ],
+          [
+            18.468103,
+            -34.045703
+          ],
+          [
+            18.468191,
+            -34.045344
+          ],
+          [
+            18.468358,
+            -34.044712
+          ],
+          [
+            18.46853,
+            -34.044071
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756805253641,
+    "query": {
+      "coordinates": [
+        [
+          18.4681644,
+          -34.0523201
+        ],
+        [
+          18.4685299,
+          -34.0440715
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

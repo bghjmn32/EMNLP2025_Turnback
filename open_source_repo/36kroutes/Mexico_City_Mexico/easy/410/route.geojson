@@ -1,0 +1,162 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.150819,
+    19.374149,
+    -99.147174,
+    19.380462
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.150819,
+        19.374149,
+        -99.147174,
+        19.380462
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1035.6,
+            "duration": 745.6,
+            "steps": [
+              {
+                "distance": 387.4,
+                "duration": 278.9,
+                "type": 11,
+                "instruction": "Head west on Calle Eleuterio Méndez",
+                "name": "Calle Eleuterio Méndez",
+                "way_points": [
+                  0,
+                  8
+                ]
+              },
+              {
+                "distance": 648.2,
+                "duration": 466.7,
+                "type": 1,
+                "instruction": "Turn right onto Calle Zempoala",
+                "name": "Calle Zempoala",
+                "way_points": [
+                  8,
+                  14
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Zempoala, straight ahead",
+                "name": "-",
+                "way_points": [
+                  14,
+                  14
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          14
+        ],
+        "summary": {
+          "distance": 1035.6,
+          "duration": 745.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.147174,
+            19.374149
+          ],
+          [
+            -99.147548,
+            19.374205
+          ],
+          [
+            -99.147959,
+            19.374266
+          ],
+          [
+            -99.148238,
+            19.374308
+          ],
+          [
+            -99.148359,
+            19.374326
+          ],
+          [
+            -99.149127,
+            19.374441
+          ],
+          [
+            -99.149875,
+            19.374558
+          ],
+          [
+            -99.1503,
+            19.374625
+          ],
+          [
+            -99.150819,
+            19.374706
+          ],
+          [
+            -99.150568,
+            19.37675
+          ],
+          [
+            -99.150399,
+            19.378004
+          ],
+          [
+            -99.150295,
+            19.378545
+          ],
+          [
+            -99.150238,
+            19.378842
+          ],
+          [
+            -99.150046,
+            19.379682
+          ],
+          [
+            -99.149875,
+            19.380462
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756305945546,
+    "query": {
+      "coordinates": [
+        [
+          -99.1471737,
+          19.374149
+        ],
+        [
+          -99.149875,
+          19.3804623
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

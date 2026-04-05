@@ -1,0 +1,181 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.126018,
+    19.43362,
+    -99.123822,
+    19.443619
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.126018,
+        19.43362,
+        -99.123822,
+        19.443619
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1241.6,
+            "duration": 893.9,
+            "steps": [
+              {
+                "distance": 39.9,
+                "duration": 28.7,
+                "type": 11,
+                "instruction": "Head west",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 1118.5,
+                "duration": 805.3,
+                "type": 1,
+                "instruction": "Turn right onto Calle Margil",
+                "name": "Calle Margil",
+                "way_points": [
+                  1,
+                  15
+                ]
+              },
+              {
+                "distance": 83.2,
+                "duration": 59.9,
+                "type": 1,
+                "instruction": "Turn right onto Calle Federico Díaz de León",
+                "name": "Calle Federico Díaz de León",
+                "way_points": [
+                  15,
+                  16
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Federico Díaz de León, straight ahead",
+                "name": "-",
+                "way_points": [
+                  16,
+                  16
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          16
+        ],
+        "summary": {
+          "distance": 1241.6,
+          "duration": 893.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.125639,
+            19.43362
+          ],
+          [
+            -99.126018,
+            19.43365
+          ],
+          [
+            -99.125948,
+            19.434108
+          ],
+          [
+            -99.125828,
+            19.434919
+          ],
+          [
+            -99.125714,
+            19.435773
+          ],
+          [
+            -99.125589,
+            19.436618
+          ],
+          [
+            -99.12551,
+            19.437185
+          ],
+          [
+            -99.125441,
+            19.437676
+          ],
+          [
+            -99.12528,
+            19.438765
+          ],
+          [
+            -99.125154,
+            19.439759
+          ],
+          [
+            -99.125089,
+            19.440186
+          ],
+          [
+            -99.12499,
+            19.440921
+          ],
+          [
+            -99.124898,
+            19.44162
+          ],
+          [
+            -99.124895,
+            19.441728
+          ],
+          [
+            -99.12477,
+            19.442824
+          ],
+          [
+            -99.124614,
+            19.443619
+          ],
+          [
+            -99.123822,
+            19.443576
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756311438642,
+    "query": {
+      "coordinates": [
+        [
+          -99.1256334,
+          19.4336621
+        ],
+        [
+          -99.1238226,
+          19.4435726
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

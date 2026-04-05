@@ -1,0 +1,225 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    11.64805,
+    48.244474,
+    11.65295,
+    48.245604
+  ],
+  "features": [
+    {
+      "bbox": [
+        11.64805,
+        48.244474,
+        11.65295,
+        48.245604
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 516.3,
+            "duration": 371.7,
+            "steps": [
+              {
+                "distance": 55.2,
+                "duration": 39.7,
+                "type": 11,
+                "instruction": "Head north on Danziger Straße",
+                "name": "Danziger Straße",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 124.2,
+                "duration": 89.4,
+                "type": 0,
+                "instruction": "Turn left onto Professor-Angermair-Ring",
+                "name": "Professor-Angermair-Ring",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 9.7,
+                "duration": 7.0,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 21.8,
+                "duration": 15.7,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  4,
+                  6
+                ]
+              },
+              {
+                "distance": 114.3,
+                "duration": 82.3,
+                "type": 0,
+                "instruction": "Turn left onto Danzerweg",
+                "name": "Danzerweg",
+                "way_points": [
+                  6,
+                  10
+                ]
+              },
+              {
+                "distance": 4.3,
+                "duration": 3.1,
+                "type": 0,
+                "instruction": "Turn left onto Frühlingstraße",
+                "name": "Frühlingstraße",
+                "way_points": [
+                  10,
+                  11
+                ]
+              },
+              {
+                "distance": 186.8,
+                "duration": 134.5,
+                "type": 1,
+                "instruction": "Turn right onto Danzerweg",
+                "name": "Danzerweg",
+                "way_points": [
+                  11,
+                  16
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Danzerweg, straight ahead",
+                "name": "-",
+                "way_points": [
+                  16,
+                  16
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          16
+        ],
+        "summary": {
+          "distance": 516.3,
+          "duration": 371.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            11.652908,
+            48.244474
+          ],
+          [
+            11.652944,
+            48.244902
+          ],
+          [
+            11.65295,
+            48.24497
+          ],
+          [
+            11.651275,
+            48.245034
+          ],
+          [
+            11.651271,
+            48.245122
+          ],
+          [
+            11.651186,
+            48.245159
+          ],
+          [
+            11.651177,
+            48.245287
+          ],
+          [
+            11.651116,
+            48.245288
+          ],
+          [
+            11.651035,
+            48.24529
+          ],
+          [
+            11.65065,
+            48.245326
+          ],
+          [
+            11.649653,
+            48.245442
+          ],
+          [
+            11.649638,
+            48.245404
+          ],
+          [
+            11.648903,
+            48.245508
+          ],
+          [
+            11.648364,
+            48.245604
+          ],
+          [
+            11.648359,
+            48.245589
+          ],
+          [
+            11.648201,
+            48.245143
+          ],
+          [
+            11.64805,
+            48.244823
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756138516651,
+    "query": {
+      "coordinates": [
+        [
+          11.6529076,
+          48.2444744
+        ],
+        [
+          11.64805,
+          48.2448232
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,251 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.553216,
+    -33.983429,
+    18.558988,
+    -33.981858
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.553216,
+        -33.983429,
+        18.558988,
+        -33.981858
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 715.0,
+            "duration": 514.8,
+            "steps": [
+              {
+                "distance": 144.7,
+                "duration": 104.2,
+                "type": 11,
+                "instruction": "Head east on Kasouga Road",
+                "name": "Kasouga Road",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 106.9,
+                "duration": 77.0,
+                "type": 1,
+                "instruction": "Turn right onto Kei Street",
+                "name": "Kei Street",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 61.1,
+                "duration": 44.0,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 15.7,
+                "duration": 11.3,
+                "type": 1,
+                "instruction": "Turn right onto Kei Street",
+                "name": "Kei Street",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 106.5,
+                "duration": 76.7,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "distance": 103.8,
+                "duration": 74.7,
+                "type": 1,
+                "instruction": "Turn right onto Duinefontein Road, M10",
+                "name": "Duinefontein Road, M10",
+                "way_points": [
+                  5,
+                  8
+                ]
+              },
+              {
+                "distance": 56.5,
+                "duration": 40.7,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  8,
+                  11
+                ]
+              },
+              {
+                "distance": 4.5,
+                "duration": 3.2,
+                "type": 5,
+                "instruction": "Turn slight right onto Silverstream Road",
+                "name": "Silverstream Road",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 115.4,
+                "duration": 83.1,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  12,
+                  17
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  17,
+                  17
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          17
+        ],
+        "summary": {
+          "distance": 715.0,
+          "duration": 514.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.553216,
+            -33.98222
+          ],
+          [
+            18.554723,
+            -33.981858
+          ],
+          [
+            18.55504,
+            -33.982783
+          ],
+          [
+            18.555678,
+            -33.982635
+          ],
+          [
+            18.555724,
+            -33.982771
+          ],
+          [
+            18.556842,
+            -33.982531
+          ],
+          [
+            18.556878,
+            -33.982638
+          ],
+          [
+            18.557011,
+            -33.98303
+          ],
+          [
+            18.557147,
+            -33.983429
+          ],
+          [
+            18.557347,
+            -33.983386
+          ],
+          [
+            18.557524,
+            -33.983337
+          ],
+          [
+            18.557716,
+            -33.98325
+          ],
+          [
+            18.557763,
+            -33.983258
+          ],
+          [
+            18.557817,
+            -33.98321
+          ],
+          [
+            18.55792,
+            -33.983209
+          ],
+          [
+            18.55803,
+            -33.983215
+          ],
+          [
+            18.558421,
+            -33.983232
+          ],
+          [
+            18.558988,
+            -33.983254
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756804913702,
+    "query": {
+      "coordinates": [
+        [
+          18.5532164,
+          -33.9822203
+        ],
+        [
+          18.5589878,
+          -33.9832537
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

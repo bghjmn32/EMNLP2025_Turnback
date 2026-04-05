@@ -1,0 +1,191 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    11.49564,
+    48.086309,
+    11.496776,
+    48.090082
+  ],
+  "features": [
+    {
+      "bbox": [
+        11.49564,
+        48.086309,
+        11.496776,
+        48.090082
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 501.7,
+            "duration": 361.2,
+            "steps": [
+              {
+                "distance": 12.9,
+                "duration": 9.3,
+                "type": 11,
+                "instruction": "Head north on Forstenrieder Allee, St 2344",
+                "name": "Forstenrieder Allee, St 2344",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 258.9,
+                "duration": 186.4,
+                "type": 6,
+                "instruction": "Continue straight onto Forstenrieder Allee",
+                "name": "Forstenrieder Allee",
+                "way_points": [
+                  1,
+                  7
+                ]
+              },
+              {
+                "distance": 5.9,
+                "duration": 4.3,
+                "type": 0,
+                "instruction": "Turn left onto Fritz-Baer-Straße",
+                "name": "Fritz-Baer-Straße",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 146.6,
+                "duration": 105.6,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  8,
+                  11
+                ]
+              },
+              {
+                "distance": 77.3,
+                "duration": 55.7,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  11,
+                  13
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  13,
+                  13
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          13
+        ],
+        "summary": {
+          "distance": 501.7,
+          "duration": 361.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            11.49564,
+            48.086309
+          ],
+          [
+            11.4957,
+            48.086418
+          ],
+          [
+            11.49572,
+            48.08647
+          ],
+          [
+            11.495776,
+            48.086639
+          ],
+          [
+            11.49597,
+            48.087288
+          ],
+          [
+            11.496153,
+            48.087873
+          ],
+          [
+            11.496243,
+            48.088165
+          ],
+          [
+            11.49642,
+            48.088696
+          ],
+          [
+            11.496342,
+            48.088707
+          ],
+          [
+            11.496722,
+            48.089836
+          ],
+          [
+            11.496746,
+            48.089905
+          ],
+          [
+            11.496776,
+            48.089993
+          ],
+          [
+            11.49621,
+            48.090047
+          ],
+          [
+            11.495743,
+            48.090082
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756139433830,
+    "query": {
+      "coordinates": [
+        [
+          11.4956396,
+          48.0863092
+        ],
+        [
+          11.4957433,
+          48.0900817
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

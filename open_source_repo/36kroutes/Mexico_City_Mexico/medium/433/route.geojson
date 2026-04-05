@@ -1,0 +1,203 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.036671,
+    19.362952,
+    -99.026259,
+    19.367564
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.036671,
+        19.362952,
+        -99.026259,
+        19.367564
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1426.0,
+            "duration": 1026.7,
+            "steps": [
+              {
+                "distance": 59.4,
+                "duration": 42.8,
+                "type": 11,
+                "instruction": "Head north on Calle Benito Juárez",
+                "name": "Calle Benito Juárez",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 582.9,
+                "duration": 419.7,
+                "type": 1,
+                "instruction": "Turn right onto Calle Luis González Obregón",
+                "name": "Calle Luis González Obregón",
+                "way_points": [
+                  2,
+                  8
+                ]
+              },
+              {
+                "distance": 418.1,
+                "duration": 301.0,
+                "type": 12,
+                "instruction": "Keep left onto Carlos Pacheco",
+                "name": "Carlos Pacheco",
+                "way_points": [
+                  8,
+                  11
+                ]
+              },
+              {
+                "distance": 65.7,
+                "duration": 47.3,
+                "type": 1,
+                "instruction": "Turn right onto Avenida Fuerte de Loreto",
+                "name": "Avenida Fuerte de Loreto",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 299.9,
+                "duration": 215.9,
+                "type": 0,
+                "instruction": "Turn left onto Calle Carlos Pacheco",
+                "name": "Calle Carlos Pacheco",
+                "way_points": [
+                  12,
+                  16
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Carlos Pacheco, straight ahead",
+                "name": "-",
+                "way_points": [
+                  16,
+                  16
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          16
+        ],
+        "summary": {
+          "distance": 1426.0,
+          "duration": 1026.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.036671,
+            19.363265
+          ],
+          [
+            -99.036667,
+            19.363292
+          ],
+          [
+            -99.036569,
+            19.363791
+          ],
+          [
+            -99.035493,
+            19.363619
+          ],
+          [
+            -99.034402,
+            19.36345
+          ],
+          [
+            -99.033315,
+            19.363273
+          ],
+          [
+            -99.03221,
+            19.363099
+          ],
+          [
+            -99.031524,
+            19.362988
+          ],
+          [
+            -99.031086,
+            19.362952
+          ],
+          [
+            -99.030918,
+            19.363088
+          ],
+          [
+            -99.030638,
+            19.363519
+          ],
+          [
+            -99.028966,
+            19.366125
+          ],
+          [
+            -99.028434,
+            19.365814
+          ],
+          [
+            -99.028266,
+            19.365934
+          ],
+          [
+            -99.028009,
+            19.366144
+          ],
+          [
+            -99.026416,
+            19.367433
+          ],
+          [
+            -99.026259,
+            19.367564
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756310688506,
+    "query": {
+      "coordinates": [
+        [
+          -99.0366709,
+          19.3632649
+        ],
+        [
+          -99.0262592,
+          19.3675642
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

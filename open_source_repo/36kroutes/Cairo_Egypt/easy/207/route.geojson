@@ -1,0 +1,209 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    31.252149,
+    29.97717,
+    31.252969,
+    29.982413
+  ],
+  "features": [
+    {
+      "bbox": [
+        31.252149,
+        29.97717,
+        31.252969,
+        29.982413
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 653.1,
+            "duration": 470.2,
+            "steps": [
+              {
+                "distance": 15.8,
+                "duration": 11.4,
+                "type": 11,
+                "instruction": "Head west on شارع صالح عابدين",
+                "name": "شارع صالح عابدين",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 180.3,
+                "duration": 129.8,
+                "type": 0,
+                "instruction": "Turn left onto شارع عبد الرؤوف عبد الرحيم",
+                "name": "شارع عبد الرؤوف عبد الرحيم",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 18.1,
+                "duration": 13.0,
+                "type": 1,
+                "instruction": "Turn right onto شارع المشير احمد اسماعيل",
+                "name": "شارع المشير احمد اسماعيل",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 158.9,
+                "duration": 114.4,
+                "type": 0,
+                "instruction": "Turn left onto شارع محمد عبد الله",
+                "name": "شارع محمد عبد الله",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 18.8,
+                "duration": 13.5,
+                "type": 1,
+                "instruction": "Turn right onto شارع أبو الوفا",
+                "name": "شارع أبو الوفا",
+                "way_points": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "distance": 245.3,
+                "duration": 176.6,
+                "type": 0,
+                "instruction": "Turn left onto شارع الامام الحسيني",
+                "name": "شارع الامام الحسيني",
+                "way_points": [
+                  5,
+                  11
+                ]
+              },
+              {
+                "distance": 16.0,
+                "duration": 11.5,
+                "type": 1,
+                "instruction": "Turn right onto شارع فرج يوسف",
+                "name": "شارع فرج يوسف",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at شارع فرج يوسف, straight ahead",
+                "name": "-",
+                "way_points": [
+                  12,
+                  12
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          12
+        ],
+        "summary": {
+          "distance": 653.1,
+          "duration": 470.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            31.252312,
+            29.982413
+          ],
+          [
+            31.252149,
+            29.982394
+          ],
+          [
+            31.252462,
+            29.980795
+          ],
+          [
+            31.252277,
+            29.980771
+          ],
+          [
+            31.252692,
+            29.979388
+          ],
+          [
+            31.2525,
+            29.97936
+          ],
+          [
+            31.252666,
+            29.978564
+          ],
+          [
+            31.252714,
+            29.978346
+          ],
+          [
+            31.252766,
+            29.97811
+          ],
+          [
+            31.252817,
+            29.977879
+          ],
+          [
+            31.252864,
+            29.977669
+          ],
+          [
+            31.252969,
+            29.977192
+          ],
+          [
+            31.252805,
+            29.97717
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756730579595,
+    "query": {
+      "coordinates": [
+        [
+          31.2523118,
+          29.982413
+        ],
+        [
+          31.2528046,
+          29.9771704
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

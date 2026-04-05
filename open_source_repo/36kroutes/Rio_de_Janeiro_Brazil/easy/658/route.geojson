@@ -1,0 +1,165 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.54405,
+    -22.877667,
+    -43.542369,
+    -22.873957
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.54405,
+        -22.877667,
+        -43.542369,
+        -22.873957
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 556.1,
+            "duration": 400.4,
+            "steps": [
+              {
+                "distance": 60.5,
+                "duration": 43.6,
+                "type": 11,
+                "instruction": "Head southwest on Rua Um",
+                "name": "Rua Um",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 388.4,
+                "duration": 279.6,
+                "type": 0,
+                "instruction": "Turn left onto Rua Campina Grande",
+                "name": "Rua Campina Grande",
+                "way_points": [
+                  1,
+                  10
+                ]
+              },
+              {
+                "distance": 107.3,
+                "duration": 77.2,
+                "type": 0,
+                "instruction": "Turn left onto Rua Cafuringa",
+                "name": "Rua Cafuringa",
+                "way_points": [
+                  10,
+                  12
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Rua Cafuringa, straight ahead",
+                "name": "-",
+                "way_points": [
+                  12,
+                  12
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          12
+        ],
+        "summary": {
+          "distance": 556.1,
+          "duration": 400.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.543538,
+            -22.873957
+          ],
+          [
+            -43.54405,
+            -22.874228
+          ],
+          [
+            -43.543968,
+            -22.87451
+          ],
+          [
+            -43.543933,
+            -22.874744
+          ],
+          [
+            -43.543818,
+            -22.875264
+          ],
+          [
+            -43.54377,
+            -22.875627
+          ],
+          [
+            -43.543621,
+            -22.876361
+          ],
+          [
+            -43.54361,
+            -22.876435
+          ],
+          [
+            -43.543534,
+            -22.876849
+          ],
+          [
+            -43.543469,
+            -22.877246
+          ],
+          [
+            -43.543407,
+            -22.877667
+          ],
+          [
+            -43.542821,
+            -22.877596
+          ],
+          [
+            -43.542369,
+            -22.877539
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756393652272,
+    "query": {
+      "coordinates": [
+        [
+          -43.5435377,
+          -22.8739572
+        ],
+        [
+          -43.5423695,
+          -22.8775391
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

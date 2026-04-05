@@ -1,0 +1,164 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.064224,
+    19.414069,
+    -99.062153,
+    19.417532
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.064224,
+        19.414069,
+        -99.062153,
+        19.417532
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 588.1,
+            "duration": 423.4,
+            "steps": [
+              {
+                "distance": 10.7,
+                "duration": 7.7,
+                "type": 11,
+                "instruction": "Head west on Cerrada Capitán Rodríguez Arenas",
+                "name": "Cerrada Capitán Rodríguez Arenas",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 163.0,
+                "duration": 117.3,
+                "type": 0,
+                "instruction": "Turn left onto Calle 3",
+                "name": "Calle 3",
+                "way_points": [
+                  1,
+                  3
+                ]
+              },
+              {
+                "distance": 219.2,
+                "duration": 157.8,
+                "type": 0,
+                "instruction": "Turn left onto Calle Michoacán",
+                "name": "Calle Michoacán",
+                "way_points": [
+                  3,
+                  5
+                ]
+              },
+              {
+                "distance": 195.3,
+                "duration": 140.6,
+                "type": 1,
+                "instruction": "Turn right onto Calle 4",
+                "name": "Calle 4",
+                "way_points": [
+                  5,
+                  9
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle 4, straight ahead",
+                "name": "-",
+                "way_points": [
+                  9,
+                  9
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          9
+        ],
+        "summary": {
+          "distance": 588.1,
+          "duration": 423.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.063958,
+            19.41753
+          ],
+          [
+            -99.06406,
+            19.417532
+          ],
+          [
+            -99.064121,
+            19.416889
+          ],
+          [
+            -99.064224,
+            19.416074
+          ],
+          [
+            -99.063195,
+            19.415939
+          ],
+          [
+            -99.062153,
+            19.415815
+          ],
+          [
+            -99.06227,
+            19.414783
+          ],
+          [
+            -99.062307,
+            19.414441
+          ],
+          [
+            -99.062328,
+            19.414243
+          ],
+          [
+            -99.062349,
+            19.414069
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756307156602,
+    "query": {
+      "coordinates": [
+        [
+          -99.0639578,
+          19.4175295
+        ],
+        [
+          -99.0623494,
+          19.4140688
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

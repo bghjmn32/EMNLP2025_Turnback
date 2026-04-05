@@ -1,0 +1,142 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.399608,
+    -22.827941,
+    -43.39583,
+    -22.824191
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.399608,
+        -22.827941,
+        -43.39583,
+        -22.824191
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 586.6,
+            "duration": 422.4,
+            "steps": [
+              {
+                "distance": 17.2,
+                "duration": 12.4,
+                "type": 11,
+                "instruction": "Head southwest on Rua Luís Vidal",
+                "name": "Rua Luís Vidal",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 569.4,
+                "duration": 410.0,
+                "type": 3,
+                "instruction": "Turn sharp right onto Rua Cumata",
+                "name": "Rua Cumata",
+                "way_points": [
+                  1,
+                  9
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Rua Cumata, straight ahead",
+                "name": "-",
+                "way_points": [
+                  9,
+                  9
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          9
+        ],
+        "summary": {
+          "distance": 586.6,
+          "duration": 422.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.39583,
+            -22.827803
+          ],
+          [
+            -43.395905,
+            -22.827941
+          ],
+          [
+            -43.396305,
+            -22.827626
+          ],
+          [
+            -43.396723,
+            -22.82728
+          ],
+          [
+            -43.397608,
+            -22.826558
+          ],
+          [
+            -43.398604,
+            -22.825658
+          ],
+          [
+            -43.398779,
+            -22.825485
+          ],
+          [
+            -43.398904,
+            -22.825335
+          ],
+          [
+            -43.399295,
+            -22.82478
+          ],
+          [
+            -43.399608,
+            -22.824191
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756393713400,
+    "query": {
+      "coordinates": [
+        [
+          -43.3958296,
+          -22.8278029
+        ],
+        [
+          -43.3996085,
+          -22.824191
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

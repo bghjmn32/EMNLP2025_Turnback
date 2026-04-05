@@ -1,0 +1,283 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.279985,
+    -22.905931,
+    -43.277265,
+    -22.899164
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.279985,
+        -22.905931,
+        -43.277265,
+        -22.899164
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1053.9,
+            "duration": 758.8,
+            "steps": [
+              {
+                "distance": 149.7,
+                "duration": 107.8,
+                "type": 11,
+                "instruction": "Head northwest on Rua Joaquina Rosa",
+                "name": "Rua Joaquina Rosa",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 366.6,
+                "duration": 264.0,
+                "type": 1,
+                "instruction": "Turn right onto Rua Joaquim Méier",
+                "name": "Rua Joaquim Méier",
+                "way_points": [
+                  1,
+                  7
+                ]
+              },
+              {
+                "distance": 17.6,
+                "duration": 12.6,
+                "type": 0,
+                "instruction": "Turn left onto Rua Vinte e Quatro de Maio",
+                "name": "Rua Vinte e Quatro de Maio",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 17.5,
+                "duration": 12.6,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  8,
+                  10
+                ]
+              },
+              {
+                "distance": 7.1,
+                "duration": 5.1,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  10,
+                  11
+                ]
+              },
+              {
+                "distance": 12.1,
+                "duration": 8.7,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 202.2,
+                "duration": 145.6,
+                "type": 6,
+                "instruction": "Continue straight onto 1",
+                "name": "1",
+                "way_points": [
+                  12,
+                  14
+                ]
+              },
+              {
+                "distance": 156.9,
+                "duration": 113.0,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  14,
+                  21
+                ]
+              },
+              {
+                "distance": 124.3,
+                "duration": 89.5,
+                "type": 0,
+                "instruction": "Turn left onto Rua Santa Fé",
+                "name": "Rua Santa Fé",
+                "way_points": [
+                  21,
+                  25
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Rua Santa Fé, straight ahead",
+                "name": "-",
+                "way_points": [
+                  25,
+                  25
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          25
+        ],
+        "summary": {
+          "distance": 1053.9,
+          "duration": 758.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.279063,
+            -22.905931
+          ],
+          [
+            -43.279985,
+            -22.904887
+          ],
+          [
+            -43.279631,
+            -22.904609
+          ],
+          [
+            -43.278754,
+            -22.903982
+          ],
+          [
+            -43.278591,
+            -22.903869
+          ],
+          [
+            -43.278566,
+            -22.90385
+          ],
+          [
+            -43.278277,
+            -22.903643
+          ],
+          [
+            -43.277265,
+            -22.90275
+          ],
+          [
+            -43.277382,
+            -22.902634
+          ],
+          [
+            -43.277345,
+            -22.902605
+          ],
+          [
+            -43.277421,
+            -22.902518
+          ],
+          [
+            -43.277369,
+            -22.902475
+          ],
+          [
+            -43.277448,
+            -22.902395
+          ],
+          [
+            -43.278649,
+            -22.901192
+          ],
+          [
+            -43.278769,
+            -22.901045
+          ],
+          [
+            -43.278676,
+            -22.900966
+          ],
+          [
+            -43.278516,
+            -22.900834
+          ],
+          [
+            -43.278372,
+            -22.900702
+          ],
+          [
+            -43.278212,
+            -22.900504
+          ],
+          [
+            -43.278142,
+            -22.900298
+          ],
+          [
+            -43.277994,
+            -22.90012
+          ],
+          [
+            -43.277826,
+            -22.89996
+          ],
+          [
+            -43.278416,
+            -22.899421
+          ],
+          [
+            -43.278495,
+            -22.899349
+          ],
+          [
+            -43.278551,
+            -22.899297
+          ],
+          [
+            -43.278679,
+            -22.899164
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756391040525,
+    "query": {
+      "coordinates": [
+        [
+          -43.279063,
+          -22.9059313
+        ],
+        [
+          -43.2786791,
+          -22.8991644
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,231 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    151.226146,
+    -33.921009,
+    151.2332,
+    -33.9172
+  ],
+  "features": [
+    {
+      "bbox": [
+        151.226146,
+        -33.921009,
+        151.2332,
+        -33.9172
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 944.8,
+            "duration": 680.3,
+            "steps": [
+              {
+                "distance": 65.4,
+                "duration": 47.1,
+                "type": 11,
+                "instruction": "Head north on Kennedy Street",
+                "name": "Kennedy Street",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 68.2,
+                "duration": 49.1,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  4
+                ]
+              },
+              {
+                "distance": 543.7,
+                "duration": 391.5,
+                "type": 6,
+                "instruction": "Continue straight",
+                "name": "-",
+                "way_points": [
+                  4,
+                  13
+                ]
+              },
+              {
+                "distance": 262.0,
+                "duration": 188.6,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  13,
+                  22
+                ]
+              },
+              {
+                "distance": 5.5,
+                "duration": 4.0,
+                "type": 0,
+                "instruction": "Turn left onto University Mall",
+                "name": "University Mall",
+                "way_points": [
+                  22,
+                  23
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at University Mall, straight ahead",
+                "name": "-",
+                "way_points": [
+                  23,
+                  23
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          23
+        ],
+        "summary": {
+          "distance": 944.8,
+          "duration": 680.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            151.233081,
+            -33.921009
+          ],
+          [
+            151.2332,
+            -33.920429
+          ],
+          [
+            151.23309,
+            -33.920414
+          ],
+          [
+            151.232705,
+            -33.92036
+          ],
+          [
+            151.232471,
+            -33.920326
+          ],
+          [
+            151.231733,
+            -33.920231
+          ],
+          [
+            151.231032,
+            -33.920133
+          ],
+          [
+            151.230455,
+            -33.920053
+          ],
+          [
+            151.230331,
+            -33.920036
+          ],
+          [
+            151.22814,
+            -33.91974
+          ],
+          [
+            151.227236,
+            -33.919612
+          ],
+          [
+            151.227159,
+            -33.919602
+          ],
+          [
+            151.226971,
+            -33.919578
+          ],
+          [
+            151.226655,
+            -33.91954
+          ],
+          [
+            151.22663,
+            -33.919448
+          ],
+          [
+            151.226607,
+            -33.91936
+          ],
+          [
+            151.226603,
+            -33.919338
+          ],
+          [
+            151.226384,
+            -33.918089
+          ],
+          [
+            151.226389,
+            -33.917978
+          ],
+          [
+            151.226374,
+            -33.917874
+          ],
+          [
+            151.226303,
+            -33.917502
+          ],
+          [
+            151.226218,
+            -33.917266
+          ],
+          [
+            151.226201,
+            -33.917219
+          ],
+          [
+            151.226146,
+            -33.9172
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756393840415,
+    "query": {
+      "coordinates": [
+        [
+          151.2330809,
+          -33.9210093
+        ],
+        [
+          151.2261461,
+          -33.9172004
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

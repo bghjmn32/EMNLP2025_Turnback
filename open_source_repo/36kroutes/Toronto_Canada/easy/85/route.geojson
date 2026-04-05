@@ -1,0 +1,196 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -79.330006,
+    43.631294,
+    -79.323785,
+    43.633664
+  ],
+  "features": [
+    {
+      "bbox": [
+        -79.330006,
+        43.631294,
+        -79.323785,
+        43.633664
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 662.1,
+            "duration": 476.7,
+            "steps": [
+              {
+                "distance": 317.2,
+                "duration": 228.4,
+                "type": 11,
+                "instruction": "Head east on APSC Access Road",
+                "name": "APSC Access Road",
+                "way_points": [
+                  0,
+                  4
+                ]
+              },
+              {
+                "distance": 312.2,
+                "duration": 224.8,
+                "type": 0,
+                "instruction": "Turn left onto Leslie Street Spit Trail",
+                "name": "Leslie Street Spit Trail",
+                "way_points": [
+                  4,
+                  14
+                ]
+              },
+              {
+                "distance": 5.0,
+                "duration": 3.6,
+                "type": 1,
+                "instruction": "Turn right onto Gull Pond Trail",
+                "name": "Gull Pond Trail",
+                "way_points": [
+                  14,
+                  15
+                ]
+              },
+              {
+                "distance": 27.7,
+                "duration": 19.9,
+                "type": 6,
+                "instruction": "Continue straight",
+                "name": "-",
+                "way_points": [
+                  15,
+                  17
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  17,
+                  17
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          17
+        ],
+        "summary": {
+          "distance": 662.1,
+          "duration": 476.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -79.330006,
+            43.631859
+          ],
+          [
+            -79.328959,
+            43.631726
+          ],
+          [
+            -79.327215,
+            43.631459
+          ],
+          [
+            -79.326475,
+            43.63133
+          ],
+          [
+            -79.326144,
+            43.631294
+          ],
+          [
+            -79.325943,
+            43.631583
+          ],
+          [
+            -79.325767,
+            43.631924
+          ],
+          [
+            -79.32544,
+            43.632392
+          ],
+          [
+            -79.325298,
+            43.632551
+          ],
+          [
+            -79.325151,
+            43.632641
+          ],
+          [
+            -79.324726,
+            43.633155
+          ],
+          [
+            -79.324511,
+            43.633305
+          ],
+          [
+            -79.324359,
+            43.633574
+          ],
+          [
+            -79.324328,
+            43.633602
+          ],
+          [
+            -79.324178,
+            43.633664
+          ],
+          [
+            -79.324123,
+            43.633644
+          ],
+          [
+            -79.324069,
+            43.633626
+          ],
+          [
+            -79.323785,
+            43.633613
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756124327189,
+    "query": {
+      "coordinates": [
+        [
+          -79.330006,
+          43.6318587
+        ],
+        [
+          -79.3237849,
+          43.6336127
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

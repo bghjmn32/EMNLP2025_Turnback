@@ -1,0 +1,297 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -79.436997,
+    43.729947,
+    -79.425174,
+    43.732101
+  ],
+  "features": [
+    {
+      "bbox": [
+        -79.436997,
+        43.729947,
+        -79.425174,
+        43.732101
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1300.1,
+            "duration": 936.1,
+            "steps": [
+              {
+                "distance": 91.1,
+                "duration": 65.6,
+                "type": 11,
+                "instruction": "Head south on Ledbury Street",
+                "name": "Ledbury Street",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 228.5,
+                "duration": 164.5,
+                "type": 1,
+                "instruction": "Turn right onto Old Orchard Grove",
+                "name": "Old Orchard Grove",
+                "way_points": [
+                  1,
+                  5
+                ]
+              },
+              {
+                "distance": 248.7,
+                "duration": 179.1,
+                "type": 1,
+                "instruction": "Turn right onto Falkirk Street",
+                "name": "Falkirk Street",
+                "way_points": [
+                  5,
+                  9
+                ]
+              },
+              {
+                "distance": 314.2,
+                "duration": 226.2,
+                "type": 0,
+                "instruction": "Turn left onto Bannockburn Avenue",
+                "name": "Bannockburn Avenue",
+                "way_points": [
+                  9,
+                  18
+                ]
+              },
+              {
+                "distance": 17.4,
+                "duration": 12.5,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  18,
+                  20
+                ]
+              },
+              {
+                "distance": 382.5,
+                "duration": 275.4,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  20,
+                  33
+                ]
+              },
+              {
+                "distance": 17.7,
+                "duration": 12.8,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  33,
+                  34
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  34,
+                  34
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          34
+        ],
+        "summary": {
+          "distance": 1300.1,
+          "duration": 936.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -79.425483,
+            43.731295
+          ],
+          [
+            -79.425174,
+            43.730507
+          ],
+          [
+            -79.425249,
+            43.730491
+          ],
+          [
+            -79.426552,
+            43.730232
+          ],
+          [
+            -79.427841,
+            43.729962
+          ],
+          [
+            -79.427911,
+            43.729947
+          ],
+          [
+            -79.428153,
+            43.730563
+          ],
+          [
+            -79.428204,
+            43.730898
+          ],
+          [
+            -79.428342,
+            43.731257
+          ],
+          [
+            -79.428719,
+            43.732101
+          ],
+          [
+            -79.42901,
+            43.732058
+          ],
+          [
+            -79.429542,
+            43.731884
+          ],
+          [
+            -79.429748,
+            43.731862
+          ],
+          [
+            -79.430333,
+            43.731851
+          ],
+          [
+            -79.430578,
+            43.73179
+          ],
+          [
+            -79.430797,
+            43.731691
+          ],
+          [
+            -79.431948,
+            43.73143
+          ],
+          [
+            -79.432293,
+            43.731353
+          ],
+          [
+            -79.432438,
+            43.73132
+          ],
+          [
+            -79.432464,
+            43.731393
+          ],
+          [
+            -79.432493,
+            43.731471
+          ],
+          [
+            -79.432583,
+            43.731452
+          ],
+          [
+            -79.432719,
+            43.731435
+          ],
+          [
+            -79.434069,
+            43.731134
+          ],
+          [
+            -79.43433,
+            43.73112
+          ],
+          [
+            -79.434486,
+            43.731137
+          ],
+          [
+            -79.434563,
+            43.731119
+          ],
+          [
+            -79.434574,
+            43.731116
+          ],
+          [
+            -79.434821,
+            43.730983
+          ],
+          [
+            -79.435021,
+            43.730902
+          ],
+          [
+            -79.43537,
+            43.730818
+          ],
+          [
+            -79.43562,
+            43.730764
+          ],
+          [
+            -79.436434,
+            43.730589
+          ],
+          [
+            -79.436997,
+            43.730467
+          ],
+          [
+            -79.43694,
+            43.730313
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756126839980,
+    "query": {
+      "coordinates": [
+        [
+          -79.4254826,
+          43.7312948
+        ],
+        [
+          -79.4369402,
+          43.7303129
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

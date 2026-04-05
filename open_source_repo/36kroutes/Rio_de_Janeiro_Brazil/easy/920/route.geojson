@@ -1,0 +1,165 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.462977,
+    -22.864209,
+    -43.460194,
+    -22.860307
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.462977,
+        -22.864209,
+        -43.460194,
+        -22.860307
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 625.1,
+            "duration": 450.0,
+            "steps": [
+              {
+                "distance": 402.4,
+                "duration": 289.7,
+                "type": 11,
+                "instruction": "Head northeast on Estrada da Água Branca",
+                "name": "Estrada da Água Branca",
+                "way_points": [
+                  0,
+                  8
+                ]
+              },
+              {
+                "distance": 209.9,
+                "duration": 151.1,
+                "type": 2,
+                "instruction": "Turn sharp left onto Rua Araquem",
+                "name": "Rua Araquem",
+                "way_points": [
+                  8,
+                  11
+                ]
+              },
+              {
+                "distance": 12.8,
+                "duration": 9.2,
+                "type": 3,
+                "instruction": "Turn sharp right onto Rua Gastão Cruls",
+                "name": "Rua Gastão Cruls",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Rua Gastão Cruls, straight ahead",
+                "name": "-",
+                "way_points": [
+                  12,
+                  12
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          12
+        ],
+        "summary": {
+          "distance": 625.1,
+          "duration": 450.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.462977,
+            -22.864209
+          ],
+          [
+            -43.462573,
+            -22.863615
+          ],
+          [
+            -43.462491,
+            -22.863502
+          ],
+          [
+            -43.461935,
+            -22.862693
+          ],
+          [
+            -43.461774,
+            -22.862515
+          ],
+          [
+            -43.461696,
+            -22.862456
+          ],
+          [
+            -43.461259,
+            -22.862179
+          ],
+          [
+            -43.460813,
+            -22.862025
+          ],
+          [
+            -43.460194,
+            -22.861988
+          ],
+          [
+            -43.460827,
+            -22.860584
+          ],
+          [
+            -43.460941,
+            -22.860454
+          ],
+          [
+            -43.46111,
+            -22.860328
+          ],
+          [
+            -43.460988,
+            -22.860307
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756395216567,
+    "query": {
+      "coordinates": [
+        [
+          -43.4629773,
+          -22.8642088
+        ],
+        [
+          -43.4609876,
+          -22.8603073
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

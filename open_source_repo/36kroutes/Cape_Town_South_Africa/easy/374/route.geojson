@@ -1,0 +1,176 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.484061,
+    -33.814969,
+    18.48763,
+    -33.811964
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.484061,
+        -33.814969,
+        18.48763,
+        -33.811964
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 584.1,
+            "duration": 420.6,
+            "steps": [
+              {
+                "distance": 78.4,
+                "duration": 56.5,
+                "type": 11,
+                "instruction": "Head west on Blouzicht",
+                "name": "Blouzicht",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 95.9,
+                "duration": 69.1,
+                "type": 1,
+                "instruction": "Turn right onto Willow Road",
+                "name": "Willow Road",
+                "way_points": [
+                  3,
+                  7
+                ]
+              },
+              {
+                "distance": 72.1,
+                "duration": 51.9,
+                "type": 0,
+                "instruction": "Turn left onto Viola Road",
+                "name": "Viola Road",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 337.6,
+                "duration": 243.1,
+                "type": 1,
+                "instruction": "Turn right onto Waterford Road",
+                "name": "Waterford Road",
+                "way_points": [
+                  8,
+                  12
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Waterford Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  12,
+                  12
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          12
+        ],
+        "summary": {
+          "distance": 584.1,
+          "duration": 420.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.48763,
+            -33.814953
+          ],
+          [
+            18.487045,
+            -33.814969
+          ],
+          [
+            18.486899,
+            -33.814955
+          ],
+          [
+            18.486787,
+            -33.814929
+          ],
+          [
+            18.486863,
+            -33.814584
+          ],
+          [
+            18.486858,
+            -33.814418
+          ],
+          [
+            18.486793,
+            -33.814217
+          ],
+          [
+            18.486711,
+            -33.814097
+          ],
+          [
+            18.486079,
+            -33.814477
+          ],
+          [
+            18.484774,
+            -33.812949
+          ],
+          [
+            18.484243,
+            -33.812327
+          ],
+          [
+            18.48412,
+            -33.812173
+          ],
+          [
+            18.484061,
+            -33.811964
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756804701098,
+    "query": {
+      "coordinates": [
+        [
+          18.4876298,
+          -33.8149531
+        ],
+        [
+          18.4840606,
+          -33.8119638
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

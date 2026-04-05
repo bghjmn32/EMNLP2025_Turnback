@@ -1,0 +1,181 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -0.094957,
+    51.379856,
+    -0.092321,
+    51.385941
+  ],
+  "features": [
+    {
+      "bbox": [
+        -0.094957,
+        51.379856,
+        -0.092321,
+        51.385941
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 782.2,
+            "duration": 563.2,
+            "steps": [
+              {
+                "distance": 6.1,
+                "duration": 4.4,
+                "type": 11,
+                "instruction": "Head west on Clarence Road",
+                "name": "Clarence Road",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 93.1,
+                "duration": 67.0,
+                "type": 1,
+                "instruction": "Turn right onto Clarence Road",
+                "name": "Clarence Road",
+                "way_points": [
+                  1,
+                  5
+                ]
+              },
+              {
+                "distance": 683.0,
+                "duration": 491.7,
+                "type": 1,
+                "instruction": "Turn right onto Sydenham Road",
+                "name": "Sydenham Road",
+                "way_points": [
+                  5,
+                  16
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Sydenham Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  16,
+                  16
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          16
+        ],
+        "summary": {
+          "distance": 782.2,
+          "duration": 563.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -0.09332,
+            51.385753
+          ],
+          [
+            -0.093403,
+            51.38577
+          ],
+          [
+            -0.093347,
+            51.385887
+          ],
+          [
+            -0.093297,
+            51.385877
+          ],
+          [
+            -0.093272,
+            51.385941
+          ],
+          [
+            -0.092321,
+            51.385773
+          ],
+          [
+            -0.092577,
+            51.385215
+          ],
+          [
+            -0.092753,
+            51.384813
+          ],
+          [
+            -0.092763,
+            51.38479
+          ],
+          [
+            -0.092862,
+            51.384553
+          ],
+          [
+            -0.092994,
+            51.384299
+          ],
+          [
+            -0.093587,
+            51.38303
+          ],
+          [
+            -0.093626,
+            51.382941
+          ],
+          [
+            -0.093883,
+            51.382394
+          ],
+          [
+            -0.094131,
+            51.381866
+          ],
+          [
+            -0.094289,
+            51.381483
+          ],
+          [
+            -0.094957,
+            51.379856
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756829337388,
+    "query": {
+      "coordinates": [
+        [
+          -0.0933198,
+          51.3857526
+        ],
+        [
+          -0.0949575,
+          51.3798561
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

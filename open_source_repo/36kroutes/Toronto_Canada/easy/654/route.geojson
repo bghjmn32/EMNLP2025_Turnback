@@ -1,0 +1,294 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -79.456097,
+    43.665488,
+    -79.451358,
+    43.671377
+  ],
+  "features": [
+    {
+      "bbox": [
+        -79.456097,
+        43.665488,
+        -79.451358,
+        43.671377
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1068.7,
+            "duration": 769.5,
+            "steps": [
+              {
+                "distance": 10.0,
+                "duration": 7.2,
+                "type": 11,
+                "instruction": "Head north on Perth Avenue",
+                "name": "Perth Avenue",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 90.2,
+                "duration": 65.0,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  4
+                ]
+              },
+              {
+                "distance": 312.2,
+                "duration": 224.8,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  4,
+                  7
+                ]
+              },
+              {
+                "distance": 38.4,
+                "duration": 27.7,
+                "type": 0,
+                "instruction": "Turn left onto Kingsley Avenue",
+                "name": "Kingsley Avenue",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 262.5,
+                "duration": 189.0,
+                "type": 1,
+                "instruction": "Turn right onto Chic and Min Johnston Lane",
+                "name": "Chic and Min Johnston Lane",
+                "way_points": [
+                  8,
+                  14
+                ]
+              },
+              {
+                "distance": 35.6,
+                "duration": 25.6,
+                "type": 1,
+                "instruction": "Turn right onto Perth Avenue",
+                "name": "Perth Avenue",
+                "way_points": [
+                  14,
+                  15
+                ]
+              },
+              {
+                "distance": 100.7,
+                "duration": 72.5,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  15,
+                  19
+                ]
+              },
+              {
+                "distance": 6.8,
+                "duration": 4.9,
+                "type": 13,
+                "instruction": "Keep right",
+                "name": "-",
+                "way_points": [
+                  19,
+                  20
+                ]
+              },
+              {
+                "distance": 101.0,
+                "duration": 72.7,
+                "type": 1,
+                "instruction": "Turn right onto Laughton Avenue",
+                "name": "Laughton Avenue",
+                "way_points": [
+                  20,
+                  24
+                ]
+              },
+              {
+                "distance": 111.2,
+                "duration": 80.1,
+                "type": 1,
+                "instruction": "Turn right onto Hibernia Avenue",
+                "name": "Hibernia Avenue",
+                "way_points": [
+                  24,
+                  25
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Hibernia Avenue, straight ahead",
+                "name": "-",
+                "way_points": [
+                  25,
+                  25
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          25
+        ],
+        "summary": {
+          "distance": 1068.7,
+          "duration": 769.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -79.452397,
+            43.665488
+          ],
+          [
+            -79.452436,
+            43.665574
+          ],
+          [
+            -79.45236,
+            43.66559
+          ],
+          [
+            -79.452278,
+            43.665592
+          ],
+          [
+            -79.451358,
+            43.66579
+          ],
+          [
+            -79.45241,
+            43.668369
+          ],
+          [
+            -79.452449,
+            43.668427
+          ],
+          [
+            -79.452467,
+            43.66848
+          ],
+          [
+            -79.452927,
+            43.668386
+          ],
+          [
+            -79.452944,
+            43.668424
+          ],
+          [
+            -79.453683,
+            43.670191
+          ],
+          [
+            -79.453712,
+            43.670215
+          ],
+          [
+            -79.453756,
+            43.670219
+          ],
+          [
+            -79.45425,
+            43.670128
+          ],
+          [
+            -79.454307,
+            43.670118
+          ],
+          [
+            -79.454435,
+            43.670424
+          ],
+          [
+            -79.454509,
+            43.670414
+          ],
+          [
+            -79.45556,
+            43.670264
+          ],
+          [
+            -79.455632,
+            43.670247
+          ],
+          [
+            -79.455649,
+            43.67023
+          ],
+          [
+            -79.455733,
+            43.67022
+          ],
+          [
+            -79.455776,
+            43.670315
+          ],
+          [
+            -79.455808,
+            43.670396
+          ],
+          [
+            -79.455921,
+            43.670667
+          ],
+          [
+            -79.456097,
+            43.671089
+          ],
+          [
+            -79.454772,
+            43.671377
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756125752108,
+    "query": {
+      "coordinates": [
+        [
+          -79.4523967,
+          43.665488
+        ],
+        [
+          -79.4547721,
+          43.6713768
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

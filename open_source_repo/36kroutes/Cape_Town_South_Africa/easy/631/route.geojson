@@ -1,0 +1,195 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.463416,
+    -34.055796,
+    18.468164,
+    -34.05232
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.463416,
+        -34.055796,
+        18.468164,
+        -34.05232
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 773.7,
+            "duration": 557.0,
+            "steps": [
+              {
+                "distance": 131.9,
+                "duration": 94.9,
+                "type": 11,
+                "instruction": "Head south on Tissot Road",
+                "name": "Tissot Road",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 194.7,
+                "duration": 140.2,
+                "type": 1,
+                "instruction": "Turn right onto Tralee Road",
+                "name": "Tralee Road",
+                "way_points": [
+                  2,
+                  5
+                ]
+              },
+              {
+                "distance": 82.7,
+                "duration": 59.6,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  5,
+                  7
+                ]
+              },
+              {
+                "distance": 129.5,
+                "duration": 93.2,
+                "type": 1,
+                "instruction": "Turn right onto Consort Road",
+                "name": "Consort Road",
+                "way_points": [
+                  7,
+                  10
+                ]
+              },
+              {
+                "distance": 234.8,
+                "duration": 169.1,
+                "type": 0,
+                "instruction": "Turn left onto Station Road",
+                "name": "Station Road",
+                "way_points": [
+                  10,
+                  14
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Station Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  14,
+                  14
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          14
+        ],
+        "summary": {
+          "distance": 773.7,
+          "duration": 557.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.468164,
+            -34.05232
+          ],
+          [
+            18.467859,
+            -34.053057
+          ],
+          [
+            18.4677,
+            -34.053442
+          ],
+          [
+            18.467635,
+            -34.053427
+          ],
+          [
+            18.465785,
+            -34.053264
+          ],
+          [
+            18.465601,
+            -34.053247
+          ],
+          [
+            18.465357,
+            -34.05351
+          ],
+          [
+            18.465086,
+            -34.053855
+          ],
+          [
+            18.464859,
+            -34.053828
+          ],
+          [
+            18.464714,
+            -34.053814
+          ],
+          [
+            18.463692,
+            -34.053703
+          ],
+          [
+            18.463565,
+            -34.054133
+          ],
+          [
+            18.463519,
+            -34.05437
+          ],
+          [
+            18.46349,
+            -34.054607
+          ],
+          [
+            18.463416,
+            -34.055796
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756805256460,
+    "query": {
+      "coordinates": [
+        [
+          18.4681644,
+          -34.0523201
+        ],
+        [
+          18.4634155,
+          -34.0557962
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

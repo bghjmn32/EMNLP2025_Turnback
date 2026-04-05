@@ -1,0 +1,193 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    31.347355,
+    30.132285,
+    31.353712,
+    30.134604
+  ],
+  "features": [
+    {
+      "bbox": [
+        31.347355,
+        30.132285,
+        31.353712,
+        30.134604
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 709.5,
+            "duration": 510.8,
+            "steps": [
+              {
+                "distance": 97.7,
+                "duration": 70.3,
+                "type": 11,
+                "instruction": "Head east on شارع عبد العزيز يوسف",
+                "name": "شارع عبد العزيز يوسف",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 63.2,
+                "duration": 45.5,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  3,
+                  5
+                ]
+              },
+              {
+                "distance": 548.6,
+                "duration": 395.0,
+                "type": 1,
+                "instruction": "Turn right onto شارع السوق",
+                "name": "شارع السوق",
+                "way_points": [
+                  5,
+                  19
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at شارع السوق, straight ahead",
+                "name": "-",
+                "way_points": [
+                  19,
+                  19
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          19
+        ],
+        "summary": {
+          "distance": 709.5,
+          "duration": 510.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            31.347355,
+            30.134206
+          ],
+          [
+            31.348011,
+            30.134136
+          ],
+          [
+            31.348236,
+            30.134115
+          ],
+          [
+            31.348364,
+            30.134106
+          ],
+          [
+            31.348593,
+            30.13447
+          ],
+          [
+            31.34868,
+            30.134604
+          ],
+          [
+            31.349414,
+            30.134296
+          ],
+          [
+            31.349455,
+            30.134278
+          ],
+          [
+            31.350047,
+            30.134025
+          ],
+          [
+            31.350321,
+            30.133895
+          ],
+          [
+            31.3506,
+            30.133768
+          ],
+          [
+            31.35095,
+            30.133605
+          ],
+          [
+            31.351171,
+            30.133507
+          ],
+          [
+            31.351597,
+            30.133298
+          ],
+          [
+            31.351645,
+            30.133272
+          ],
+          [
+            31.35227,
+            30.132953
+          ],
+          [
+            31.352776,
+            30.13271
+          ],
+          [
+            31.352945,
+            30.132634
+          ],
+          [
+            31.353402,
+            30.132428
+          ],
+          [
+            31.353712,
+            30.132285
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756730464696,
+    "query": {
+      "coordinates": [
+        [
+          31.3473548,
+          30.1342061
+        ],
+        [
+          31.3537119,
+          30.1322846
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

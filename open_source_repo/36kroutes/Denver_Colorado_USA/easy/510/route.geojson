@@ -1,0 +1,160 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -104.998309,
+    39.83664,
+    -104.993173,
+    39.838342
+  ],
+  "features": [
+    {
+      "bbox": [
+        -104.998309,
+        39.83664,
+        -104.993173,
+        39.838342
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 555.3,
+            "duration": 399.8,
+            "steps": [
+              {
+                "distance": 76.3,
+                "duration": 54.9,
+                "type": 11,
+                "instruction": "Head west on West 78th Place",
+                "name": "West 78th Place",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 346.6,
+                "duration": 249.6,
+                "type": 0,
+                "instruction": "Turn left onto Elbert Street",
+                "name": "Elbert Street",
+                "way_points": [
+                  3,
+                  6
+                ]
+              },
+              {
+                "distance": 89.1,
+                "duration": 64.2,
+                "type": 1,
+                "instruction": "Turn right onto Granada Road",
+                "name": "Granada Road",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 43.3,
+                "duration": 31.2,
+                "type": 0,
+                "instruction": "Turn left onto El Paso Boulevard",
+                "name": "El Paso Boulevard",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at El Paso Boulevard, straight ahead",
+                "name": "-",
+                "way_points": [
+                  8,
+                  8
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          8
+        ],
+        "summary": {
+          "distance": 555.3,
+          "duration": 399.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -104.993173,
+            39.838136
+          ],
+          [
+            -104.993353,
+            39.838148
+          ],
+          [
+            -104.993589,
+            39.838185
+          ],
+          [
+            -104.994014,
+            39.838342
+          ],
+          [
+            -104.994317,
+            39.838011
+          ],
+          [
+            -104.994515,
+            39.83785
+          ],
+          [
+            -104.997351,
+            39.83664
+          ],
+          [
+            -104.997862,
+            39.837339
+          ],
+          [
+            -104.998309,
+            39.837156
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306031836,
+    "query": {
+      "coordinates": [
+        [
+          -104.993173,
+          39.838136
+        ],
+        [
+          -104.998309,
+          39.8371556
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

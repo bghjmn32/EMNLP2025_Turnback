@@ -1,0 +1,189 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -104.882791,
+    39.789365,
+    -104.881836,
+    39.793447
+  ],
+  "features": [
+    {
+      "bbox": [
+        -104.882791,
+        39.789365,
+        -104.881836,
+        39.793447
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 529.1,
+            "duration": 380.9,
+            "steps": [
+              {
+                "distance": 86.7,
+                "duration": 62.4,
+                "type": 11,
+                "instruction": "Head west on East 52nd Drive",
+                "name": "East 52nd Drive",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 428.5,
+                "duration": 308.5,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  16
+                ]
+              },
+              {
+                "distance": 13.9,
+                "duration": 10.0,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  16,
+                  18
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  18,
+                  18
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          18
+        ],
+        "summary": {
+          "distance": 529.1,
+          "duration": 380.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -104.881836,
+            39.793447
+          ],
+          [
+            -104.882791,
+            39.793184
+          ],
+          [
+            -104.882756,
+            39.793108
+          ],
+          [
+            -104.882573,
+            39.792679
+          ],
+          [
+            -104.882466,
+            39.792299
+          ],
+          [
+            -104.882371,
+            39.791704
+          ],
+          [
+            -104.882374,
+            39.791437
+          ],
+          [
+            -104.882373,
+            39.791413
+          ],
+          [
+            -104.882373,
+            39.791341
+          ],
+          [
+            -104.882374,
+            39.791266
+          ],
+          [
+            -104.882377,
+            39.791231
+          ],
+          [
+            -104.882381,
+            39.790804
+          ],
+          [
+            -104.882381,
+            39.790734
+          ],
+          [
+            -104.882381,
+            39.790661
+          ],
+          [
+            -104.882381,
+            39.79059
+          ],
+          [
+            -104.882382,
+            39.790556
+          ],
+          [
+            -104.882391,
+            39.789371
+          ],
+          [
+            -104.882294,
+            39.789366
+          ],
+          [
+            -104.882229,
+            39.789365
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756307282512,
+    "query": {
+      "coordinates": [
+        [
+          -104.881836,
+          39.7934472
+        ],
+        [
+          -104.8822291,
+          39.7893645
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

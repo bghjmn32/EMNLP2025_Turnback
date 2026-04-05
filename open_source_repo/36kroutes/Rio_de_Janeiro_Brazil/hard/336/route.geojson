@@ -1,0 +1,189 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.339295,
+    -23.007294,
+    -43.324911,
+    -23.004556
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.339295,
+        -23.007294,
+        -43.324911,
+        -23.004556
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1757.8,
+            "duration": 1265.6,
+            "steps": [
+              {
+                "distance": 145.3,
+                "duration": 104.6,
+                "type": 11,
+                "instruction": "Head south",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 1425.5,
+                "duration": 1026.4,
+                "type": 1,
+                "instruction": "Turn right onto Avenida Prefeito Dulcídio Cardoso",
+                "name": "Avenida Prefeito Dulcídio Cardoso",
+                "way_points": [
+                  1,
+                  16
+                ]
+              },
+              {
+                "distance": 187.0,
+                "duration": 134.6,
+                "type": 3,
+                "instruction": "Turn sharp right onto Avenida Ministro Afrânio Costa",
+                "name": "Avenida Ministro Afrânio Costa",
+                "way_points": [
+                  16,
+                  18
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Avenida Ministro Afrânio Costa, straight ahead",
+                "name": "-",
+                "way_points": [
+                  18,
+                  18
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          18
+        ],
+        "summary": {
+          "distance": 1757.8,
+          "duration": 1265.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.324911,
+            -23.006087
+          ],
+          [
+            -43.325453,
+            -23.007294
+          ],
+          [
+            -43.325919,
+            -23.00722
+          ],
+          [
+            -43.327147,
+            -23.007035
+          ],
+          [
+            -43.327272,
+            -23.007017
+          ],
+          [
+            -43.327954,
+            -23.00692
+          ],
+          [
+            -43.328994,
+            -23.006718
+          ],
+          [
+            -43.329743,
+            -23.00662
+          ],
+          [
+            -43.330567,
+            -23.006516
+          ],
+          [
+            -43.330794,
+            -23.006482
+          ],
+          [
+            -43.331385,
+            -23.006425
+          ],
+          [
+            -43.333426,
+            -23.006336
+          ],
+          [
+            -43.33353,
+            -23.006329
+          ],
+          [
+            -43.3356,
+            -23.006238
+          ],
+          [
+            -43.33858,
+            -23.006094
+          ],
+          [
+            -43.338674,
+            -23.006089
+          ],
+          [
+            -43.339295,
+            -23.006074
+          ],
+          [
+            -43.339191,
+            -23.005885
+          ],
+          [
+            -43.338509,
+            -23.004556
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756404082220,
+    "query": {
+      "coordinates": [
+        [
+          -43.3255774,
+          -23.0057585
+        ],
+        [
+          -43.3385088,
+          -23.0045563
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

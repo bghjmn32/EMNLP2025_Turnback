@@ -1,0 +1,241 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -79.302855,
+    43.714634,
+    -79.298824,
+    43.716639
+  ],
+  "features": [
+    {
+      "bbox": [
+        -79.302855,
+        43.714634,
+        -79.298824,
+        43.716639
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 674.3,
+            "duration": 485.5,
+            "steps": [
+              {
+                "distance": 8.8,
+                "duration": 6.3,
+                "type": 11,
+                "instruction": "Head north",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 135.8,
+                "duration": 97.8,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  6
+                ]
+              },
+              {
+                "distance": 151.6,
+                "duration": 109.2,
+                "type": 1,
+                "instruction": "Turn right onto Parma Court",
+                "name": "Parma Court",
+                "way_points": [
+                  6,
+                  9
+                ]
+              },
+              {
+                "distance": 160.8,
+                "duration": 115.7,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  9,
+                  16
+                ]
+              },
+              {
+                "distance": 204.3,
+                "duration": 147.1,
+                "type": 13,
+                "instruction": "Keep right",
+                "name": "-",
+                "way_points": [
+                  16,
+                  18
+                ]
+              },
+              {
+                "distance": 6.2,
+                "duration": 4.5,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  18,
+                  19
+                ]
+              },
+              {
+                "distance": 6.8,
+                "duration": 4.9,
+                "type": 1,
+                "instruction": "Turn right onto Amsterdam Avenue",
+                "name": "Amsterdam Avenue",
+                "way_points": [
+                  19,
+                  20
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Amsterdam Avenue, straight ahead",
+                "name": "-",
+                "way_points": [
+                  20,
+                  20
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          20
+        ],
+        "summary": {
+          "distance": 674.3,
+          "duration": 485.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -79.30284,
+            43.715965
+          ],
+          [
+            -79.302855,
+            43.716043
+          ],
+          [
+            -79.302425,
+            43.716077
+          ],
+          [
+            -79.302373,
+            43.716092
+          ],
+          [
+            -79.302299,
+            43.716112
+          ],
+          [
+            -79.301906,
+            43.716191
+          ],
+          [
+            -79.301218,
+            43.716329
+          ],
+          [
+            -79.301203,
+            43.716294
+          ],
+          [
+            -79.301123,
+            43.716276
+          ],
+          [
+            -79.299444,
+            43.716639
+          ],
+          [
+            -79.299423,
+            43.71659
+          ],
+          [
+            -79.299326,
+            43.716358
+          ],
+          [
+            -79.299234,
+            43.716275
+          ],
+          [
+            -79.299117,
+            43.715956
+          ],
+          [
+            -79.299081,
+            43.715884
+          ],
+          [
+            -79.29904,
+            43.715798
+          ],
+          [
+            -79.298824,
+            43.715272
+          ],
+          [
+            -79.298862,
+            43.715222
+          ],
+          [
+            -79.301219,
+            43.714704
+          ],
+          [
+            -79.301191,
+            43.714652
+          ],
+          [
+            -79.301272,
+            43.714634
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756124786565,
+    "query": {
+      "coordinates": [
+        [
+          -79.3028401,
+          43.7159653
+        ],
+        [
+          -79.3012721,
+          43.7146335
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

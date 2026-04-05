@@ -1,0 +1,195 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    31.38182,
+    30.104909,
+    31.385568,
+    30.106167
+  ],
+  "features": [
+    {
+      "bbox": [
+        31.38182,
+        30.104909,
+        31.385568,
+        30.106167
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 537.4,
+            "duration": 386.9,
+            "steps": [
+              {
+                "distance": 23.9,
+                "duration": 17.2,
+                "type": 11,
+                "instruction": "Head southeast on شارع انقره",
+                "name": "شارع انقره",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 37.9,
+                "duration": 27.3,
+                "type": 5,
+                "instruction": "Turn slight right onto شارع عبد الحميد بدوى",
+                "name": "شارع عبد الحميد بدوى",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 187.7,
+                "duration": 135.1,
+                "type": 1,
+                "instruction": "Turn right onto شارع انقره",
+                "name": "شارع انقره",
+                "way_points": [
+                  3,
+                  8
+                ]
+              },
+              {
+                "distance": 196.0,
+                "duration": 141.1,
+                "type": 0,
+                "instruction": "Turn left onto شارع 14",
+                "name": "شارع 14",
+                "way_points": [
+                  8,
+                  11
+                ]
+              },
+              {
+                "distance": 91.9,
+                "duration": 66.2,
+                "type": 1,
+                "instruction": "Turn right onto شارع 12",
+                "name": "شارع 12",
+                "way_points": [
+                  11,
+                  14
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at شارع 12, straight ahead",
+                "name": "-",
+                "way_points": [
+                  14,
+                  14
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          14
+        ],
+        "summary": {
+          "distance": 537.4,
+          "duration": 386.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            31.385519,
+            30.105419
+          ],
+          [
+            31.385568,
+            30.105321
+          ],
+          [
+            31.385565,
+            30.105213
+          ],
+          [
+            31.385295,
+            30.104965
+          ],
+          [
+            31.385017,
+            30.105218
+          ],
+          [
+            31.384907,
+            30.10535
+          ],
+          [
+            31.384788,
+            30.105469
+          ],
+          [
+            31.383994,
+            30.106114
+          ],
+          [
+            31.383931,
+            30.106167
+          ],
+          [
+            31.383328,
+            30.105637
+          ],
+          [
+            31.383266,
+            30.105582
+          ],
+          [
+            31.382504,
+            30.104909
+          ],
+          [
+            31.382116,
+            30.105228
+          ],
+          [
+            31.381892,
+            30.105423
+          ],
+          [
+            31.38182,
+            30.105485
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756730818002,
+    "query": {
+      "coordinates": [
+        [
+          31.3855188,
+          30.1054194
+        ],
+        [
+          31.3818199,
+          30.1054854
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

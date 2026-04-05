@@ -1,0 +1,236 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -105.021099,
+    39.903749,
+    -105.019165,
+    39.909199
+  ],
+  "features": [
+    {
+      "bbox": [
+        -105.021099,
+        39.903749,
+        -105.019165,
+        39.909199
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 765.8,
+            "duration": 551.4,
+            "steps": [
+              {
+                "distance": 285.5,
+                "duration": 205.5,
+                "type": 11,
+                "instruction": "Head southeast on Decatur Drive",
+                "name": "Decatur Drive",
+                "way_points": [
+                  0,
+                  10
+                ]
+              },
+              {
+                "distance": 272.4,
+                "duration": 196.1,
+                "type": 0,
+                "instruction": "Turn left onto Decatur Street",
+                "name": "Decatur Street",
+                "way_points": [
+                  10,
+                  18
+                ]
+              },
+              {
+                "distance": 172.8,
+                "duration": 124.4,
+                "type": 0,
+                "instruction": "Turn left onto Ranch Reserve Parkway",
+                "name": "Ranch Reserve Parkway",
+                "way_points": [
+                  18,
+                  25
+                ]
+              },
+              {
+                "distance": 35.1,
+                "duration": 25.3,
+                "type": 1,
+                "instruction": "Turn right onto West 114th Court",
+                "name": "West 114th Court",
+                "way_points": [
+                  25,
+                  27
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at West 114th Court, straight ahead",
+                "name": "-",
+                "way_points": [
+                  27,
+                  27
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          27
+        ],
+        "summary": {
+          "distance": 765.8,
+          "duration": 551.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -105.020431,
+            39.909199
+          ],
+          [
+            -105.01974,
+            39.908313
+          ],
+          [
+            -105.019493,
+            39.908073
+          ],
+          [
+            -105.019218,
+            39.907819
+          ],
+          [
+            -105.019189,
+            39.907764
+          ],
+          [
+            -105.019165,
+            39.90765
+          ],
+          [
+            -105.019178,
+            39.907551
+          ],
+          [
+            -105.019281,
+            39.907404
+          ],
+          [
+            -105.019385,
+            39.907337
+          ],
+          [
+            -105.019471,
+            39.907311
+          ],
+          [
+            -105.019831,
+            39.907251
+          ],
+          [
+            -105.019775,
+            39.907032
+          ],
+          [
+            -105.019804,
+            39.906789
+          ],
+          [
+            -105.019801,
+            39.906397
+          ],
+          [
+            -105.01982,
+            39.906201
+          ],
+          [
+            -105.01985,
+            39.906103
+          ],
+          [
+            -105.019988,
+            39.905908
+          ],
+          [
+            -105.020106,
+            39.90582
+          ],
+          [
+            -105.021099,
+            39.90526
+          ],
+          [
+            -105.020951,
+            39.905089
+          ],
+          [
+            -105.020794,
+            39.904863
+          ],
+          [
+            -105.020709,
+            39.904696
+          ],
+          [
+            -105.020675,
+            39.90457
+          ],
+          [
+            -105.02066,
+            39.904518
+          ],
+          [
+            -105.020632,
+            39.904347
+          ],
+          [
+            -105.020633,
+            39.903788
+          ],
+          [
+            -105.020935,
+            39.903788
+          ],
+          [
+            -105.021032,
+            39.903749
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306886616,
+    "query": {
+      "coordinates": [
+        [
+          -105.020431,
+          39.909199
+        ],
+        [
+          -105.021032,
+          39.9037485
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

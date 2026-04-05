@@ -1,0 +1,166 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -79.311283,
+    43.705854,
+    -79.307007,
+    43.711244
+  ],
+  "features": [
+    {
+      "bbox": [
+        -79.311283,
+        43.705854,
+        -79.307007,
+        43.711244
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 732.0,
+            "duration": 527.1,
+            "steps": [
+              {
+                "distance": 639.8,
+                "duration": 460.7,
+                "type": 11,
+                "instruction": "Head southwest on Westview Boulevard",
+                "name": "Westview Boulevard",
+                "way_points": [
+                  0,
+                  12
+                ]
+              },
+              {
+                "distance": 92.2,
+                "duration": 66.4,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  12,
+                  15
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  15,
+                  15
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          15
+        ],
+        "summary": {
+          "distance": 732.0,
+          "duration": 527.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -79.307007,
+            43.711244
+          ],
+          [
+            -79.307048,
+            43.711195
+          ],
+          [
+            -79.307082,
+            43.711152
+          ],
+          [
+            -79.307658,
+            43.710428
+          ],
+          [
+            -79.307919,
+            43.710101
+          ],
+          [
+            -79.30825,
+            43.709657
+          ],
+          [
+            -79.308993,
+            43.708734
+          ],
+          [
+            -79.309668,
+            43.707866
+          ],
+          [
+            -79.310231,
+            43.707082
+          ],
+          [
+            -79.310318,
+            43.706845
+          ],
+          [
+            -79.310354,
+            43.706644
+          ],
+          [
+            -79.310291,
+            43.706338
+          ],
+          [
+            -79.310204,
+            43.706121
+          ],
+          [
+            -79.310283,
+            43.706098
+          ],
+          [
+            -79.310315,
+            43.70607
+          ],
+          [
+            -79.311283,
+            43.705854
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756126051079,
+    "query": {
+      "coordinates": [
+        [
+          -79.3070074,
+          43.7112441
+        ],
+        [
+          -79.3112827,
+          43.7058535
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

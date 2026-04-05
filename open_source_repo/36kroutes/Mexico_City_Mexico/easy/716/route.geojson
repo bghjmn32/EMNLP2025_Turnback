@@ -1,0 +1,154 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.070338,
+    19.401136,
+    -99.064468,
+    19.404487
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.070338,
+        19.401136,
+        -99.064468,
+        19.404487
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 757.1,
+            "duration": 545.1,
+            "steps": [
+              {
+                "distance": 48.6,
+                "duration": 35.0,
+                "type": 11,
+                "instruction": "Head north",
+                "name": "-",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 708.6,
+                "duration": 510.2,
+                "type": 1,
+                "instruction": "Turn right onto Calzada General Ignacio Zaragoza",
+                "name": "Calzada General Ignacio Zaragoza",
+                "way_points": [
+                  2,
+                  12
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calzada General Ignacio Zaragoza, straight ahead",
+                "name": "-",
+                "way_points": [
+                  12,
+                  12
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          12
+        ],
+        "summary": {
+          "distance": 757.1,
+          "duration": 545.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.070338,
+            19.404067
+          ],
+          [
+            -99.070252,
+            19.404396
+          ],
+          [
+            -99.070214,
+            19.404487
+          ],
+          [
+            -99.069959,
+            19.404326
+          ],
+          [
+            -99.069455,
+            19.404035
+          ],
+          [
+            -99.068587,
+            19.403518
+          ],
+          [
+            -99.067381,
+            19.402821
+          ],
+          [
+            -99.067085,
+            19.40266
+          ],
+          [
+            -99.066804,
+            19.402485
+          ],
+          [
+            -99.066291,
+            19.402199
+          ],
+          [
+            -99.065341,
+            19.401648
+          ],
+          [
+            -99.064861,
+            19.401364
+          ],
+          [
+            -99.064468,
+            19.401136
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756307172231,
+    "query": {
+      "coordinates": [
+        [
+          -99.0703379,
+          19.4040671
+        ],
+        [
+          -99.0644684,
+          19.4011358
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

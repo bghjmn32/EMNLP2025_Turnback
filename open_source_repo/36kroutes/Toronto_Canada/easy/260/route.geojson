@@ -1,0 +1,295 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -79.307208,
+    43.674451,
+    -79.304018,
+    43.682825
+  ],
+  "features": [
+    {
+      "bbox": [
+        -79.307208,
+        43.674451,
+        -79.304018,
+        43.682825
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1141.5,
+            "duration": 821.9,
+            "steps": [
+              {
+                "distance": 178.5,
+                "duration": 128.5,
+                "type": 11,
+                "instruction": "Head northeast",
+                "name": "-",
+                "way_points": [
+                  0,
+                  4
+                ]
+              },
+              {
+                "distance": 17.3,
+                "duration": 12.4,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  4,
+                  6
+                ]
+              },
+              {
+                "distance": 198.4,
+                "duration": 142.9,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  6,
+                  12
+                ]
+              },
+              {
+                "distance": 66.6,
+                "duration": 48.0,
+                "type": 0,
+                "instruction": "Turn left onto Brookside Drive",
+                "name": "Brookside Drive",
+                "way_points": [
+                  12,
+                  13
+                ]
+              },
+              {
+                "distance": 365.7,
+                "duration": 263.3,
+                "type": 1,
+                "instruction": "Turn right onto Corley Avenue",
+                "name": "Corley Avenue",
+                "way_points": [
+                  13,
+                  20
+                ]
+              },
+              {
+                "distance": 4.5,
+                "duration": 3.2,
+                "type": 1,
+                "instruction": "Turn right onto Glen Davis Crescent",
+                "name": "Glen Davis Crescent",
+                "way_points": [
+                  20,
+                  21
+                ]
+              },
+              {
+                "distance": 262.3,
+                "duration": 188.9,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  21,
+                  24
+                ]
+              },
+              {
+                "distance": 39.8,
+                "duration": 28.6,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  24,
+                  27
+                ]
+              },
+              {
+                "distance": 8.4,
+                "duration": 6.0,
+                "type": 0,
+                "instruction": "Turn left onto Kildonan Road",
+                "name": "Kildonan Road",
+                "way_points": [
+                  27,
+                  28
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Kildonan Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  28,
+                  28
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          28
+        ],
+        "summary": {
+          "distance": 1141.5,
+          "duration": 821.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -79.307208,
+            43.674451
+          ],
+          [
+            -79.307134,
+            43.674515
+          ],
+          [
+            -79.305948,
+            43.675556
+          ],
+          [
+            -79.305879,
+            43.675618
+          ],
+          [
+            -79.305798,
+            43.675691
+          ],
+          [
+            -79.30589,
+            43.675742
+          ],
+          [
+            -79.305968,
+            43.675786
+          ],
+          [
+            -79.30593,
+            43.675819
+          ],
+          [
+            -79.30574,
+            43.675983
+          ],
+          [
+            -79.305574,
+            43.676126
+          ],
+          [
+            -79.304914,
+            43.676613
+          ],
+          [
+            -79.30428,
+            43.676958
+          ],
+          [
+            -79.30418,
+            43.677003
+          ],
+          [
+            -79.304744,
+            43.677442
+          ],
+          [
+            -79.304609,
+            43.677542
+          ],
+          [
+            -79.304105,
+            43.67775
+          ],
+          [
+            -79.304018,
+            43.677821
+          ],
+          [
+            -79.304018,
+            43.677883
+          ],
+          [
+            -79.304351,
+            43.678691
+          ],
+          [
+            -79.304559,
+            43.679237
+          ],
+          [
+            -79.305033,
+            43.680349
+          ],
+          [
+            -79.304979,
+            43.68036
+          ],
+          [
+            -79.305026,
+            43.680467
+          ],
+          [
+            -79.305366,
+            43.681292
+          ],
+          [
+            -79.305901,
+            43.682623
+          ],
+          [
+            -79.305862,
+            43.682653
+          ],
+          [
+            -79.305487,
+            43.682743
+          ],
+          [
+            -79.305446,
+            43.682752
+          ],
+          [
+            -79.305475,
+            43.682825
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756124765393,
+    "query": {
+      "coordinates": [
+        [
+          -79.3072077,
+          43.6744509
+        ],
+        [
+          -79.3054746,
+          43.6828246
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    103.840815,
+    1.432979,
+    103.843012,
+    1.437339
+  ],
+  "features": [
+    {
+      "bbox": [
+        103.840815,
+        1.432979,
+        103.843012,
+        1.437339
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 684.5,
+            "duration": 492.9,
+            "steps": [
+              {
+                "distance": 2.8,
+                "duration": 2.0,
+                "type": 11,
+                "instruction": "Head south",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 315.3,
+                "duration": 227.0,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  6
+                ]
+              },
+              {
+                "distance": 338.7,
+                "duration": 243.8,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  6,
+                  11
+                ]
+              },
+              {
+                "distance": 19.8,
+                "duration": 14.3,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  11,
+                  13
+                ]
+              },
+              {
+                "distance": 8.0,
+                "duration": 5.8,
+                "type": 1,
+                "instruction": "Turn right onto Yishun Avenue 9",
+                "name": "Yishun Avenue 9",
+                "way_points": [
+                  13,
+                  14
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Yishun Avenue 9, straight ahead",
+                "name": "-",
+                "way_points": [
+                  14,
+                  14
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          14
+        ],
+        "summary": {
+          "distance": 684.5,
+          "duration": 492.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            103.84108,
+            1.437339
+          ],
+          [
+            103.841077,
+            1.437314
+          ],
+          [
+            103.841104,
+            1.437307
+          ],
+          [
+            103.842016,
+            1.436333
+          ],
+          [
+            103.842167,
+            1.436171
+          ],
+          [
+            103.842243,
+            1.436091
+          ],
+          [
+            103.843012,
+            1.435247
+          ],
+          [
+            103.842383,
+            1.434615
+          ],
+          [
+            103.842215,
+            1.434453
+          ],
+          [
+            103.841846,
+            1.434109
+          ],
+          [
+            103.841364,
+            1.433692
+          ],
+          [
+            103.840815,
+            1.433138
+          ],
+          [
+            103.840878,
+            1.433084
+          ],
+          [
+            103.840954,
+            1.433026
+          ],
+          [
+            103.840899,
+            1.432979
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756393336235,
+    "query": {
+      "coordinates": [
+        [
+          103.8410803,
+          1.4373389
+        ],
+        [
+          103.8408993,
+          1.432979
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,287 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.036567,
+    19.266489,
+    -99.030659,
+    19.276005
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.036567,
+        19.266489,
+        -99.030659,
+        19.276005
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1626.3,
+            "duration": 1170.9,
+            "steps": [
+              {
+                "distance": 47.1,
+                "duration": 33.9,
+                "type": 11,
+                "instruction": "Head south on Calle Francisco Jiménez",
+                "name": "Calle Francisco Jiménez",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 101.1,
+                "duration": 72.8,
+                "type": 0,
+                "instruction": "Turn left onto Calle Nardo",
+                "name": "Calle Nardo",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 51.5,
+                "duration": 37.0,
+                "type": 1,
+                "instruction": "Turn right onto Calle Sebastián Trejo",
+                "name": "Calle Sebastián Trejo",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 99.6,
+                "duration": 71.7,
+                "type": 0,
+                "instruction": "Turn left onto Calle Nardo",
+                "name": "Calle Nardo",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 418.1,
+                "duration": 301.0,
+                "type": 1,
+                "instruction": "Turn right onto Calle Emilio Laurent",
+                "name": "Calle Emilio Laurent",
+                "way_points": [
+                  4,
+                  14
+                ]
+              },
+              {
+                "distance": 133.5,
+                "duration": 96.1,
+                "type": 0,
+                "instruction": "Turn left onto Peatonal Canal de Chalco",
+                "name": "Peatonal Canal de Chalco",
+                "way_points": [
+                  14,
+                  16
+                ]
+              },
+              {
+                "distance": 285.8,
+                "duration": 205.8,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  16,
+                  21
+                ]
+              },
+              {
+                "distance": 400.3,
+                "duration": 288.2,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  21,
+                  25
+                ]
+              },
+              {
+                "distance": 89.3,
+                "duration": 64.3,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  25,
+                  26
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  26,
+                  26
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          26
+        ],
+        "summary": {
+          "distance": 1626.3,
+          "duration": 1170.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.036564,
+            19.276005
+          ],
+          [
+            -99.036567,
+            19.275581
+          ],
+          [
+            -99.035605,
+            19.275542
+          ],
+          [
+            -99.035593,
+            19.275079
+          ],
+          [
+            -99.034645,
+            19.275062
+          ],
+          [
+            -99.034648,
+            19.274612
+          ],
+          [
+            -99.03463,
+            19.274172
+          ],
+          [
+            -99.034638,
+            19.273706
+          ],
+          [
+            -99.034637,
+            19.273224
+          ],
+          [
+            -99.034639,
+            19.273141
+          ],
+          [
+            -99.034638,
+            19.272826
+          ],
+          [
+            -99.034638,
+            19.272784
+          ],
+          [
+            -99.034662,
+            19.272347
+          ],
+          [
+            -99.034726,
+            19.271412
+          ],
+          [
+            -99.034737,
+            19.271305
+          ],
+          [
+            -99.034388,
+            19.271203
+          ],
+          [
+            -99.033496,
+            19.271052
+          ],
+          [
+            -99.0335,
+            19.271018
+          ],
+          [
+            -99.033515,
+            19.270887
+          ],
+          [
+            -99.033527,
+            19.270838
+          ],
+          [
+            -99.033868,
+            19.269647
+          ],
+          [
+            -99.034196,
+            19.26857
+          ],
+          [
+            -99.033949,
+            19.268413
+          ],
+          [
+            -99.032611,
+            19.267897
+          ],
+          [
+            -99.031507,
+            19.267529
+          ],
+          [
+            -99.030659,
+            19.267246
+          ],
+          [
+            -99.030944,
+            19.266489
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756310016919,
+    "query": {
+      "coordinates": [
+        [
+          -99.0365639,
+          19.2760053
+        ],
+        [
+          -99.0309438,
+          19.2664893
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.147471,
+    19.36481,
+    -99.144778,
+    19.374149
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.147471,
+        19.36481,
+        -99.144778,
+        19.374149
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1280.3,
+            "duration": 921.8,
+            "steps": [
+              {
+                "distance": 192.5,
+                "duration": 138.6,
+                "type": 11,
+                "instruction": "Head south on Privada Santa Cruz",
+                "name": "Privada Santa Cruz",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 299.8,
+                "duration": 215.8,
+                "type": 0,
+                "instruction": "Turn left onto Calzada Santa Cruz",
+                "name": "Calzada Santa Cruz",
+                "way_points": [
+                  1,
+                  5
+                ]
+              },
+              {
+                "distance": 751.7,
+                "duration": 541.2,
+                "type": 1,
+                "instruction": "Turn right onto Calle Bélgica",
+                "name": "Calle Bélgica",
+                "way_points": [
+                  5,
+                  11
+                ]
+              },
+              {
+                "distance": 36.4,
+                "duration": 26.2,
+                "type": 0,
+                "instruction": "Turn left onto General Emiliano Zapata, EJE 7A SUR",
+                "name": "General Emiliano Zapata, EJE 7A SUR",
+                "way_points": [
+                  11,
+                  13
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at General Emiliano Zapata, EJE 7A SUR, straight ahead",
+                "name": "-",
+                "way_points": [
+                  13,
+                  13
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          13
+        ],
+        "summary": {
+          "distance": 1280.3,
+          "duration": 921.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.147174,
+            19.374149
+          ],
+          [
+            -99.147471,
+            19.372441
+          ],
+          [
+            -99.147111,
+            19.372302
+          ],
+          [
+            -99.146305,
+            19.372041
+          ],
+          [
+            -99.145541,
+            19.371779
+          ],
+          [
+            -99.144778,
+            19.371541
+          ],
+          [
+            -99.144852,
+            19.37112
+          ],
+          [
+            -99.14507,
+            19.369833
+          ],
+          [
+            -99.145295,
+            19.368563
+          ],
+          [
+            -99.145513,
+            19.367272
+          ],
+          [
+            -99.145724,
+            19.366039
+          ],
+          [
+            -99.145922,
+            19.364867
+          ],
+          [
+            -99.145818,
+            19.36485
+          ],
+          [
+            -99.14558,
+            19.36481
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756311448153,
+    "query": {
+      "coordinates": [
+        [
+          -99.1471737,
+          19.374149
+        ],
+        [
+          -99.1455803,
+          19.3648104
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,243 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    31.362886,
+    30.142093,
+    31.368713,
+    30.144793
+  ],
+  "features": [
+    {
+      "bbox": [
+        31.362886,
+        30.142093,
+        31.368713,
+        30.144793
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 834.5,
+            "duration": 600.8,
+            "steps": [
+              {
+                "distance": 10.2,
+                "duration": 7.3,
+                "type": 11,
+                "instruction": "Head northeast on شارع زايد عوف",
+                "name": "شارع زايد عوف",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 82.8,
+                "duration": 59.6,
+                "type": 0,
+                "instruction": "Turn left onto شارع سكة",
+                "name": "شارع سكة",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 66.5,
+                "duration": 47.9,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  2,
+                  4
+                ]
+              },
+              {
+                "distance": 36.4,
+                "duration": 26.2,
+                "type": 1,
+                "instruction": "Turn right onto شارع الشعراوي",
+                "name": "شارع الشعراوي",
+                "way_points": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "distance": 300.3,
+                "duration": 216.2,
+                "type": 0,
+                "instruction": "Turn left onto شارع مسجد المصطفي",
+                "name": "شارع مسجد المصطفي",
+                "way_points": [
+                  5,
+                  10
+                ]
+              },
+              {
+                "distance": 30.6,
+                "duration": 22.0,
+                "type": 0,
+                "instruction": "Turn left onto شارع الفرن",
+                "name": "شارع الفرن",
+                "way_points": [
+                  10,
+                  11
+                ]
+              },
+              {
+                "distance": 76.0,
+                "duration": 54.7,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 116.6,
+                "duration": 83.9,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  12,
+                  14
+                ]
+              },
+              {
+                "distance": 115.2,
+                "duration": 83.0,
+                "type": 0,
+                "instruction": "Turn left onto شارع التروللي",
+                "name": "شارع التروللي",
+                "way_points": [
+                  14,
+                  15
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at شارع التروللي, straight ahead",
+                "name": "-",
+                "way_points": [
+                  15,
+                  15
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          15
+        ],
+        "summary": {
+          "distance": 834.5,
+          "duration": 600.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            31.368636,
+            30.144175
+          ],
+          [
+            31.368713,
+            30.144237
+          ],
+          [
+            31.368141,
+            30.144793
+          ],
+          [
+            31.367903,
+            30.144555
+          ],
+          [
+            31.367673,
+            30.144353
+          ],
+          [
+            31.367427,
+            30.144601
+          ],
+          [
+            31.366814,
+            30.1441
+          ],
+          [
+            31.366243,
+            30.143638
+          ],
+          [
+            31.365854,
+            30.143277
+          ],
+          [
+            31.365642,
+            30.143116
+          ],
+          [
+            31.365119,
+            30.14279
+          ],
+          [
+            31.365317,
+            30.142575
+          ],
+          [
+            31.364757,
+            30.142093
+          ],
+          [
+            31.364163,
+            30.142545
+          ],
+          [
+            31.363864,
+            30.142801
+          ],
+          [
+            31.362886,
+            30.142202
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756731556728,
+    "query": {
+      "coordinates": [
+        [
+          31.3686356,
+          30.144175
+        ],
+        [
+          31.3628861,
+          30.1422021
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

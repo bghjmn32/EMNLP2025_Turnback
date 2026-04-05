@@ -1,0 +1,203 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.1196,
+    19.438451,
+    -99.113401,
+    19.443294
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.1196,
+        19.438451,
+        -99.113401,
+        19.443294
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1078.4,
+            "duration": 776.4,
+            "steps": [
+              {
+                "distance": 115.7,
+                "duration": 83.3,
+                "type": 11,
+                "instruction": "Head north on Calle Vulcanización",
+                "name": "Calle Vulcanización",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 192.8,
+                "duration": 138.8,
+                "type": 0,
+                "instruction": "Turn left onto Calle Herreros",
+                "name": "Calle Herreros",
+                "way_points": [
+                  1,
+                  6
+                ]
+              },
+              {
+                "distance": 141.3,
+                "duration": 101.7,
+                "type": 1,
+                "instruction": "Turn right onto Calle Ferrocarril Interoceánico",
+                "name": "Calle Ferrocarril Interoceánico",
+                "way_points": [
+                  6,
+                  8
+                ]
+              },
+              {
+                "distance": 392.4,
+                "duration": 282.5,
+                "type": 0,
+                "instruction": "Turn left onto Calle Hortelanos",
+                "name": "Calle Hortelanos",
+                "way_points": [
+                  8,
+                  14
+                ]
+              },
+              {
+                "distance": 236.1,
+                "duration": 170.0,
+                "type": 1,
+                "instruction": "Turn right onto Calle Hojalatería",
+                "name": "Calle Hojalatería",
+                "way_points": [
+                  14,
+                  16
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Hojalatería, straight ahead",
+                "name": "-",
+                "way_points": [
+                  16,
+                  16
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          16
+        ],
+        "summary": {
+          "distance": 1078.4,
+          "duration": 776.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.113638,
+            19.438451
+          ],
+          [
+            -99.113401,
+            19.439467
+          ],
+          [
+            -99.113839,
+            19.4395
+          ],
+          [
+            -99.11402,
+            19.439515
+          ],
+          [
+            -99.114196,
+            19.439534
+          ],
+          [
+            -99.114452,
+            19.439563
+          ],
+          [
+            -99.115231,
+            19.439636
+          ],
+          [
+            -99.115357,
+            19.440084
+          ],
+          [
+            -99.115698,
+            19.440824
+          ],
+          [
+            -99.116208,
+            19.440871
+          ],
+          [
+            -99.117265,
+            19.440975
+          ],
+          [
+            -99.117818,
+            19.441025
+          ],
+          [
+            -99.117983,
+            19.441045
+          ],
+          [
+            -99.118341,
+            19.441072
+          ],
+          [
+            -99.119421,
+            19.441177
+          ],
+          [
+            -99.119525,
+            19.442261
+          ],
+          [
+            -99.1196,
+            19.443294
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756305395967,
+    "query": {
+      "coordinates": [
+        [
+          -99.1136378,
+          19.4384507
+        ],
+        [
+          -99.1196003,
+          19.4432942
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

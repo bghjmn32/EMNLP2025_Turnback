@@ -1,0 +1,241 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -0.278443,
+    51.523311,
+    -0.276225,
+    51.526459
+  ],
+  "features": [
+    {
+      "bbox": [
+        -0.278443,
+        51.523311,
+        -0.276225,
+        51.526459
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 579.1,
+            "duration": 416.9,
+            "steps": [
+              {
+                "distance": 37.3,
+                "duration": 26.9,
+                "type": 11,
+                "instruction": "Head east",
+                "name": "-",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 30.2,
+                "duration": 21.7,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 67.0,
+                "duration": 48.2,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 316.2,
+                "duration": 227.7,
+                "type": 0,
+                "instruction": "Turn left onto Concord Road",
+                "name": "Concord Road",
+                "way_points": [
+                  4,
+                  12
+                ]
+              },
+              {
+                "distance": 109.9,
+                "duration": 79.1,
+                "type": 13,
+                "instruction": "Keep right onto Concorde Road",
+                "name": "Concorde Road",
+                "way_points": [
+                  12,
+                  17
+                ]
+              },
+              {
+                "distance": 11.4,
+                "duration": 8.2,
+                "type": 13,
+                "instruction": "Keep right onto Alliance Road",
+                "name": "Alliance Road",
+                "way_points": [
+                  17,
+                  18
+                ]
+              },
+              {
+                "distance": 7.1,
+                "duration": 5.1,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  18,
+                  20
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  20,
+                  20
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          20
+        ],
+        "summary": {
+          "distance": 579.1,
+          "duration": 416.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -0.278443,
+            51.523505
+          ],
+          [
+            -0.278238,
+            51.52353
+          ],
+          [
+            -0.277914,
+            51.52357
+          ],
+          [
+            -0.277786,
+            51.523311
+          ],
+          [
+            -0.276845,
+            51.523455
+          ],
+          [
+            -0.277069,
+            51.524085
+          ],
+          [
+            -0.2772,
+            51.524458
+          ],
+          [
+            -0.277537,
+            51.525414
+          ],
+          [
+            -0.277568,
+            51.525501
+          ],
+          [
+            -0.277596,
+            51.525581
+          ],
+          [
+            -0.277753,
+            51.526023
+          ],
+          [
+            -0.277802,
+            51.52617
+          ],
+          [
+            -0.277823,
+            51.526232
+          ],
+          [
+            -0.277758,
+            51.526365
+          ],
+          [
+            -0.277685,
+            51.526414
+          ],
+          [
+            -0.27761,
+            51.526448
+          ],
+          [
+            -0.27752,
+            51.526459
+          ],
+          [
+            -0.276456,
+            51.52637
+          ],
+          [
+            -0.276322,
+            51.526309
+          ],
+          [
+            -0.276278,
+            51.526322
+          ],
+          [
+            -0.276225,
+            51.526315
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756829304004,
+    "query": {
+      "coordinates": [
+        [
+          -0.2784432,
+          51.5235051
+        ],
+        [
+          -0.2762253,
+          51.5263154
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

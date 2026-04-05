@@ -1,0 +1,214 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.098778,
+    19.377794,
+    -99.095959,
+    19.37995
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.098778,
+        19.377794,
+        -99.095959,
+        19.37995
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 662.5,
+            "duration": 477.0,
+            "steps": [
+              {
+                "distance": 80.4,
+                "duration": 57.9,
+                "type": 11,
+                "instruction": "Head east on Avenida Canal de Apatlaco",
+                "name": "Avenida Canal de Apatlaco",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 12.8,
+                "duration": 9.2,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 103.4,
+                "duration": 74.4,
+                "type": 0,
+                "instruction": "Turn left onto Avenida Canal de Apatlaco",
+                "name": "Avenida Canal de Apatlaco",
+                "way_points": [
+                  4,
+                  7
+                ]
+              },
+              {
+                "distance": 124.8,
+                "duration": 89.9,
+                "type": 1,
+                "instruction": "Turn right onto Canal Río Churubusco, EJE 5 SUR",
+                "name": "Canal Río Churubusco, EJE 5 SUR",
+                "way_points": [
+                  7,
+                  9
+                ]
+              },
+              {
+                "distance": 228.8,
+                "duration": 164.8,
+                "type": 1,
+                "instruction": "Turn right onto Calle Analistas",
+                "name": "Calle Analistas",
+                "way_points": [
+                  9,
+                  15
+                ]
+              },
+              {
+                "distance": 112.2,
+                "duration": 80.8,
+                "type": 0,
+                "instruction": "Turn left onto Calle Perforistas",
+                "name": "Calle Perforistas",
+                "way_points": [
+                  15,
+                  16
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Perforistas, straight ahead",
+                "name": "-",
+                "way_points": [
+                  16,
+                  16
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          16
+        ],
+        "summary": {
+          "distance": 662.5,
+          "duration": 477.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.097632,
+            19.37995
+          ],
+          [
+            -99.097291,
+            19.379916
+          ],
+          [
+            -99.097053,
+            19.379897
+          ],
+          [
+            -99.096868,
+            19.379879
+          ],
+          [
+            -99.096889,
+            19.379766
+          ],
+          [
+            -99.0961,
+            19.379691
+          ],
+          [
+            -99.096017,
+            19.379655
+          ],
+          [
+            -99.095959,
+            19.379577
+          ],
+          [
+            -99.096206,
+            19.37911
+          ],
+          [
+            -99.096481,
+            19.378568
+          ],
+          [
+            -99.097037,
+            19.378631
+          ],
+          [
+            -99.09729,
+            19.378654
+          ],
+          [
+            -99.097561,
+            19.378685
+          ],
+          [
+            -99.097909,
+            19.37872
+          ],
+          [
+            -99.098238,
+            19.378755
+          ],
+          [
+            -99.098649,
+            19.378796
+          ],
+          [
+            -99.098778,
+            19.377794
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306308297,
+    "query": {
+      "coordinates": [
+        [
+          -99.0976317,
+          19.3799497
+        ],
+        [
+          -99.0987783,
+          19.377794
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

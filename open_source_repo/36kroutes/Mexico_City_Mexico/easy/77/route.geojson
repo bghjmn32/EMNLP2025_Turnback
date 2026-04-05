@@ -1,0 +1,183 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.049817,
+    19.200571,
+    -99.047639,
+    19.207466
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.049817,
+        19.200571,
+        -99.047639,
+        19.207466
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 974.3,
+            "duration": 701.5,
+            "steps": [
+              {
+                "distance": 365.4,
+                "duration": 263.1,
+                "type": 11,
+                "instruction": "Head south on Calle Niños Héroes",
+                "name": "Calle Niños Héroes",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 96.4,
+                "duration": 69.4,
+                "type": 1,
+                "instruction": "Turn right onto Calle Fray Bartolomé de las Casas",
+                "name": "Calle Fray Bartolomé de las Casas",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 256.9,
+                "duration": 185.0,
+                "type": 0,
+                "instruction": "Turn left onto Calle Cuitláhuac",
+                "name": "Calle Cuitláhuac",
+                "way_points": [
+                  4,
+                  7
+                ]
+              },
+              {
+                "distance": 107.5,
+                "duration": 77.4,
+                "type": 1,
+                "instruction": "Turn right onto Calle Venustiano Carranza",
+                "name": "Calle Venustiano Carranza",
+                "way_points": [
+                  7,
+                  9
+                ]
+              },
+              {
+                "distance": 148.1,
+                "duration": 106.6,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  9,
+                  11
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  11,
+                  11
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          11
+        ],
+        "summary": {
+          "distance": 974.3,
+          "duration": 701.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.047667,
+            19.207466
+          ],
+          [
+            -99.047639,
+            19.207086
+          ],
+          [
+            -99.047646,
+            19.206332
+          ],
+          [
+            -99.047774,
+            19.204185
+          ],
+          [
+            -99.048692,
+            19.204202
+          ],
+          [
+            -99.048713,
+            19.203469
+          ],
+          [
+            -99.048726,
+            19.202651
+          ],
+          [
+            -99.048751,
+            19.201892
+          ],
+          [
+            -99.049544,
+            19.201902
+          ],
+          [
+            -99.049775,
+            19.201902
+          ],
+          [
+            -99.049781,
+            19.201575
+          ],
+          [
+            -99.049817,
+            19.200571
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756304377863,
+    "query": {
+      "coordinates": [
+        [
+          -99.0476668,
+          19.2074662
+        ],
+        [
+          -99.0498175,
+          19.2005706
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,275 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.136858,
+    19.470941,
+    -99.125673,
+    19.476096
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.136858,
+        19.470941,
+        -99.125673,
+        19.476096
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1544.2,
+            "duration": 1111.8,
+            "steps": [
+              {
+                "distance": 18.2,
+                "duration": 13.1,
+                "type": 11,
+                "instruction": "Head east",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 51.5,
+                "duration": 37.1,
+                "type": 0,
+                "instruction": "Turn left onto Avenida Instituto Politécnico Nacional",
+                "name": "Avenida Instituto Politécnico Nacional",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 434.8,
+                "duration": 313.0,
+                "type": 1,
+                "instruction": "Turn right onto Calle Poniente 112",
+                "name": "Calle Poniente 112",
+                "way_points": [
+                  2,
+                  10
+                ]
+              },
+              {
+                "distance": 192.6,
+                "duration": 138.7,
+                "type": 1,
+                "instruction": "Turn right onto Calle Ingeniero Braulio Martínez",
+                "name": "Calle Ingeniero Braulio Martínez",
+                "way_points": [
+                  10,
+                  11
+                ]
+              },
+              {
+                "distance": 823.5,
+                "duration": 592.9,
+                "type": 0,
+                "instruction": "Turn left onto Calle Basiliso Romo Anguiano",
+                "name": "Calle Basiliso Romo Anguiano",
+                "way_points": [
+                  11,
+                  28
+                ]
+              },
+              {
+                "distance": 23.6,
+                "duration": 17.0,
+                "type": 7,
+                "instruction": "Enter the roundabout and take the 1st exit",
+                "name": "-",
+                "exit_number": 1,
+                "way_points": [
+                  28,
+                  31
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  31,
+                  31
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          31
+        ],
+        "summary": {
+          "distance": 1544.2,
+          "duration": 1111.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.136858,
+            19.475682
+          ],
+          [
+            -99.136689,
+            19.475646
+          ],
+          [
+            -99.136571,
+            19.476096
+          ],
+          [
+            -99.135968,
+            19.475998
+          ],
+          [
+            -99.134152,
+            19.475698
+          ],
+          [
+            -99.133619,
+            19.475596
+          ],
+          [
+            -99.133345,
+            19.475522
+          ],
+          [
+            -99.13308,
+            19.47543
+          ],
+          [
+            -99.132774,
+            19.475309
+          ],
+          [
+            -99.132675,
+            19.475271
+          ],
+          [
+            -99.132543,
+            19.475224
+          ],
+          [
+            -99.133185,
+            19.473601
+          ],
+          [
+            -99.13278,
+            19.473462
+          ],
+          [
+            -99.13244,
+            19.473329
+          ],
+          [
+            -99.132273,
+            19.473205
+          ],
+          [
+            -99.131605,
+            19.472959
+          ],
+          [
+            -99.131118,
+            19.472788
+          ],
+          [
+            -99.130997,
+            19.472743
+          ],
+          [
+            -99.130528,
+            19.472563
+          ],
+          [
+            -99.13011,
+            19.472431
+          ],
+          [
+            -99.129624,
+            19.472257
+          ],
+          [
+            -99.129148,
+            19.47209
+          ],
+          [
+            -99.128696,
+            19.471928
+          ],
+          [
+            -99.128332,
+            19.471807
+          ],
+          [
+            -99.127496,
+            19.471512
+          ],
+          [
+            -99.127042,
+            19.471349
+          ],
+          [
+            -99.126607,
+            19.4712
+          ],
+          [
+            -99.126177,
+            19.471046
+          ],
+          [
+            -99.125865,
+            19.470941
+          ],
+          [
+            -99.125803,
+            19.471005
+          ],
+          [
+            -99.12576,
+            19.471019
+          ],
+          [
+            -99.125673,
+            19.471013
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756310452317,
+    "query": {
+      "coordinates": [
+        [
+          -99.136858,
+          19.4756818
+        ],
+        [
+          -99.1256729,
+          19.4710128
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

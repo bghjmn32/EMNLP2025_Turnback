@@ -1,0 +1,259 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -104.946465,
+    39.773071,
+    -104.942893,
+    39.775214
+  ],
+  "features": [
+    {
+      "bbox": [
+        -104.946465,
+        39.773071,
+        -104.942893,
+        39.775214
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 633.8,
+            "duration": 456.3,
+            "steps": [
+              {
+                "distance": 74.5,
+                "duration": 53.6,
+                "type": 11,
+                "instruction": "Head east",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 7.7,
+                "duration": 5.6,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 102.1,
+                "duration": 73.5,
+                "type": 0,
+                "instruction": "Turn left onto East 42nd Avenue",
+                "name": "East 42nd Avenue",
+                "way_points": [
+                  2,
+                  5
+                ]
+              },
+              {
+                "distance": 10.7,
+                "duration": 7.7,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 117.8,
+                "duration": 84.8,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  6,
+                  14
+                ]
+              },
+              {
+                "distance": 44.4,
+                "duration": 31.9,
+                "type": 1,
+                "instruction": "Turn right onto East 42nd Avenue",
+                "name": "East 42nd Avenue",
+                "way_points": [
+                  14,
+                  15
+                ]
+              },
+              {
+                "distance": 139.6,
+                "duration": 100.5,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  15,
+                  17
+                ]
+              },
+              {
+                "distance": 48.6,
+                "duration": 35.0,
+                "type": 1,
+                "instruction": "Turn right onto East 41st Avenue",
+                "name": "East 41st Avenue",
+                "way_points": [
+                  17,
+                  18
+                ]
+              },
+              {
+                "distance": 88.4,
+                "duration": 63.7,
+                "type": 0,
+                "instruction": "Turn left onto North Madison Street",
+                "name": "North Madison Street",
+                "way_points": [
+                  18,
+                  19
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at North Madison Street, straight ahead",
+                "name": "-",
+                "way_points": [
+                  19,
+                  19
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          19
+        ],
+        "summary": {
+          "distance": 633.8,
+          "duration": 456.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -104.943768,
+            39.775046
+          ],
+          [
+            -104.942896,
+            39.775043
+          ],
+          [
+            -104.942893,
+            39.775113
+          ],
+          [
+            -104.942953,
+            39.775111
+          ],
+          [
+            -104.943626,
+            39.775114
+          ],
+          [
+            -104.944088,
+            39.775115
+          ],
+          [
+            -104.944087,
+            39.775212
+          ],
+          [
+            -104.944677,
+            39.775212
+          ],
+          [
+            -104.944815,
+            39.775212
+          ],
+          [
+            -104.945053,
+            39.775214
+          ],
+          [
+            -104.945188,
+            39.775191
+          ],
+          [
+            -104.945279,
+            39.775191
+          ],
+          [
+            -104.945382,
+            39.775169
+          ],
+          [
+            -104.945382,
+            39.775156
+          ],
+          [
+            -104.945382,
+            39.77511
+          ],
+          [
+            -104.945901,
+            39.775119
+          ],
+          [
+            -104.945896,
+            39.774775
+          ],
+          [
+            -104.945888,
+            39.773864
+          ],
+          [
+            -104.946457,
+            39.773866
+          ],
+          [
+            -104.946465,
+            39.773071
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756307221632,
+    "query": {
+      "coordinates": [
+        [
+          -104.9437679,
+          39.7750462
+        ],
+        [
+          -104.9464655,
+          39.7730706
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

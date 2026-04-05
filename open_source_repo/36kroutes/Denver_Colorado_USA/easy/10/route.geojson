@@ -1,0 +1,212 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -104.790236,
+    39.702353,
+    -104.78012,
+    39.70533
+  ],
+  "features": [
+    {
+      "bbox": [
+        -104.790236,
+        39.702353,
+        -104.78012,
+        39.70533
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1085.6,
+            "duration": 781.6,
+            "steps": [
+              {
+                "distance": 5.7,
+                "duration": 4.1,
+                "type": 11,
+                "instruction": "Head west on East Alameda Parkway",
+                "name": "East Alameda Parkway",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 510.6,
+                "duration": 367.6,
+                "type": 0,
+                "instruction": "Turn left onto East Ohio Drive",
+                "name": "East Ohio Drive",
+                "way_points": [
+                  1,
+                  10
+                ]
+              },
+              {
+                "distance": 166.1,
+                "duration": 119.6,
+                "type": 1,
+                "instruction": "Turn right onto South Richfield Street",
+                "name": "South Richfield Street",
+                "way_points": [
+                  10,
+                  12
+                ]
+              },
+              {
+                "distance": 403.3,
+                "duration": 290.4,
+                "type": 0,
+                "instruction": "Turn left onto East Ohio Place",
+                "name": "East Ohio Place",
+                "way_points": [
+                  12,
+                  21
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at East Ohio Place, straight ahead",
+                "name": "-",
+                "way_points": [
+                  21,
+                  21
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          21
+        ],
+        "summary": {
+          "distance": 1085.6,
+          "duration": 781.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -104.78012,
+            39.705314
+          ],
+          [
+            -104.780183,
+            39.70533
+          ],
+          [
+            -104.780243,
+            39.705191
+          ],
+          [
+            -104.780273,
+            39.705108
+          ],
+          [
+            -104.780415,
+            39.70475
+          ],
+          [
+            -104.780493,
+            39.704641
+          ],
+          [
+            -104.78063,
+            39.704513
+          ],
+          [
+            -104.781837,
+            39.703836
+          ],
+          [
+            -104.783225,
+            39.703071
+          ],
+          [
+            -104.783845,
+            39.702728
+          ],
+          [
+            -104.784526,
+            39.702353
+          ],
+          [
+            -104.785477,
+            39.703381
+          ],
+          [
+            -104.785651,
+            39.70357
+          ],
+          [
+            -104.786117,
+            39.70332
+          ],
+          [
+            -104.786251,
+            39.703268
+          ],
+          [
+            -104.786495,
+            39.703213
+          ],
+          [
+            -104.786622,
+            39.7032
+          ],
+          [
+            -104.787154,
+            39.703198
+          ],
+          [
+            -104.788198,
+            39.703194
+          ],
+          [
+            -104.788291,
+            39.703193
+          ],
+          [
+            -104.789576,
+            39.703193
+          ],
+          [
+            -104.790236,
+            39.703189
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756303919872,
+    "query": {
+      "coordinates": [
+        [
+          -104.7801201,
+          39.7053141
+        ],
+        [
+          -104.7902358,
+          39.7031887
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

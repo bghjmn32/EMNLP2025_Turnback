@@ -1,0 +1,258 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -79.447425,
+    43.68809,
+    -79.44252,
+    43.68986
+  ],
+  "features": [
+    {
+      "bbox": [
+        -79.447425,
+        43.68809,
+        -79.44252,
+        43.68986
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 665.3,
+            "duration": 479.0,
+            "steps": [
+              {
+                "distance": 142.6,
+                "duration": 102.7,
+                "type": 11,
+                "instruction": "Head south on Glenholme Avenue",
+                "name": "Glenholme Avenue",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 97.5,
+                "duration": 70.2,
+                "type": 1,
+                "instruction": "Turn right onto Genessee Avenue",
+                "name": "Genessee Avenue",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 21.2,
+                "duration": 15.3,
+                "type": 1,
+                "instruction": "Turn right onto Lauder Avenue",
+                "name": "Lauder Avenue",
+                "way_points": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "distance": 184.0,
+                "duration": 132.5,
+                "type": 0,
+                "instruction": "Turn left onto Genessee Avenue",
+                "name": "Genessee Avenue",
+                "way_points": [
+                  5,
+                  8
+                ]
+              },
+              {
+                "distance": 101.2,
+                "duration": 72.8,
+                "type": 1,
+                "instruction": "Turn right onto Westmount Avenue",
+                "name": "Westmount Avenue",
+                "way_points": [
+                  8,
+                  9
+                ]
+              },
+              {
+                "distance": 51.4,
+                "duration": 37.0,
+                "type": 0,
+                "instruction": "Turn left onto Martin Street",
+                "name": "Martin Street",
+                "way_points": [
+                  9,
+                  10
+                ]
+              },
+              {
+                "distance": 4.6,
+                "duration": 3.3,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  10,
+                  11
+                ]
+              },
+              {
+                "distance": 31.5,
+                "duration": 22.7,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  11,
+                  13
+                ]
+              },
+              {
+                "distance": 14.3,
+                "duration": 10.3,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  13,
+                  14
+                ]
+              },
+              {
+                "distance": 17.0,
+                "duration": 12.2,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  14,
+                  16
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  16,
+                  16
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          16
+        ],
+        "summary": {
+          "distance": 665.3,
+          "duration": 479.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -79.443039,
+            43.68986
+          ],
+          [
+            -79.442742,
+            43.689087
+          ],
+          [
+            -79.442637,
+            43.688788
+          ],
+          [
+            -79.44252,
+            43.688638
+          ],
+          [
+            -79.443681,
+            43.688385
+          ],
+          [
+            -79.44375,
+            43.688569
+          ],
+          [
+            -79.444868,
+            43.688331
+          ],
+          [
+            -79.445427,
+            43.688202
+          ],
+          [
+            -79.44594,
+            43.68809
+          ],
+          [
+            -79.446308,
+            43.68896
+          ],
+          [
+            -79.446924,
+            43.688837
+          ],
+          [
+            -79.446908,
+            43.688797
+          ],
+          [
+            -79.447231,
+            43.688733
+          ],
+          [
+            -79.447268,
+            43.688702
+          ],
+          [
+            -79.447223,
+            43.688577
+          ],
+          [
+            -79.447324,
+            43.688553
+          ],
+          [
+            -79.447425,
+            43.68853
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756124351963,
+    "query": {
+      "coordinates": [
+        [
+          -79.4430387,
+          43.6898601
+        ],
+        [
+          -79.4474246,
+          43.6885296
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

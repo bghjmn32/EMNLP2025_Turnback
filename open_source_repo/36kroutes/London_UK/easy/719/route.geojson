@@ -1,0 +1,201 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -0.105735,
+    51.413508,
+    -0.103773,
+    51.417671
+  ],
+  "features": [
+    {
+      "bbox": [
+        -0.105735,
+        51.413508,
+        -0.103773,
+        51.417671
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 594.9,
+            "duration": 428.3,
+            "steps": [
+              {
+                "distance": 19.7,
+                "duration": 14.2,
+                "type": 11,
+                "instruction": "Head west",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 52.5,
+                "duration": 37.8,
+                "type": 6,
+                "instruction": "Continue straight onto White Lodge",
+                "name": "White Lodge",
+                "way_points": [
+                  1,
+                  4
+                ]
+              },
+              {
+                "distance": 522.7,
+                "duration": 376.3,
+                "type": 0,
+                "instruction": "Turn left onto Biggin Hill",
+                "name": "Biggin Hill",
+                "way_points": [
+                  4,
+                  21
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Biggin Hill, straight ahead",
+                "name": "-",
+                "way_points": [
+                  21,
+                  21
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          21
+        ],
+        "summary": {
+          "distance": 594.9,
+          "duration": 428.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -0.103773,
+            51.41755
+          ],
+          [
+            -0.104057,
+            51.417535
+          ],
+          [
+            -0.104297,
+            51.417536
+          ],
+          [
+            -0.104693,
+            51.417649
+          ],
+          [
+            -0.104767,
+            51.417671
+          ],
+          [
+            -0.10489,
+            51.417443
+          ],
+          [
+            -0.104932,
+            51.417308
+          ],
+          [
+            -0.104879,
+            51.417151
+          ],
+          [
+            -0.104747,
+            51.416974
+          ],
+          [
+            -0.104304,
+            51.416533
+          ],
+          [
+            -0.104191,
+            51.416429
+          ],
+          [
+            -0.10414,
+            51.416351
+          ],
+          [
+            -0.104102,
+            51.416182
+          ],
+          [
+            -0.104092,
+            51.415992
+          ],
+          [
+            -0.104347,
+            51.415089
+          ],
+          [
+            -0.104592,
+            51.414393
+          ],
+          [
+            -0.104608,
+            51.414345
+          ],
+          [
+            -0.104634,
+            51.414271
+          ],
+          [
+            -0.104714,
+            51.414044
+          ],
+          [
+            -0.104808,
+            51.41382
+          ],
+          [
+            -0.105511,
+            51.413562
+          ],
+          [
+            -0.105735,
+            51.413508
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756828691310,
+    "query": {
+      "coordinates": [
+        [
+          -0.1037733,
+          51.4175499
+        ],
+        [
+          -0.1057351,
+          51.4135084
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -79.416654,
+    43.703064,
+    -79.414958,
+    43.708204
+  ],
+  "features": [
+    {
+      "bbox": [
+        -79.416654,
+        43.703064,
+        -79.414958,
+        43.708204
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 643.8,
+            "duration": 463.6,
+            "steps": [
+              {
+                "distance": 564.4,
+                "duration": 406.3,
+                "type": 11,
+                "instruction": "Head south on Castlewood Road",
+                "name": "Castlewood Road",
+                "way_points": [
+                  0,
+                  9
+                ]
+              },
+              {
+                "distance": 69.4,
+                "duration": 50.0,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  9,
+                  11
+                ]
+              },
+              {
+                "distance": 10.1,
+                "duration": 7.2,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  12,
+                  12
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          12
+        ],
+        "summary": {
+          "distance": 643.8,
+          "duration": 463.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -79.416654,
+            43.708204
+          ],
+          [
+            -79.416414,
+            43.707621
+          ],
+          [
+            -79.416155,
+            43.707373
+          ],
+          [
+            -79.416059,
+            43.70731
+          ],
+          [
+            -79.415869,
+            43.706995
+          ],
+          [
+            -79.415445,
+            43.705259
+          ],
+          [
+            -79.415174,
+            43.704273
+          ],
+          [
+            -79.415034,
+            43.703648
+          ],
+          [
+            -79.415007,
+            43.703536
+          ],
+          [
+            -79.414958,
+            43.703335
+          ],
+          [
+            -79.415577,
+            43.703197
+          ],
+          [
+            -79.415784,
+            43.703151
+          ],
+          [
+            -79.415751,
+            43.703064
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756125941115,
+    "query": {
+      "coordinates": [
+        [
+          -79.4166538,
+          43.708204
+        ],
+        [
+          -79.4157515,
+          43.7030638
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

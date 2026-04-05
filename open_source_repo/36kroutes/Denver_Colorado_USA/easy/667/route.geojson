@@ -1,0 +1,168 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -104.919541,
+    39.725338,
+    -104.91615,
+    39.728079
+  ],
+  "features": [
+    {
+      "bbox": [
+        -104.919541,
+        39.725338,
+        -104.91615,
+        39.728079
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 593.8,
+            "duration": 427.5,
+            "steps": [
+              {
+                "distance": 190.3,
+                "duration": 137.0,
+                "type": 11,
+                "instruction": "Head west on East Severn Place",
+                "name": "East Severn Place",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 283.7,
+                "duration": 204.3,
+                "type": 0,
+                "instruction": "Turn left onto Jasmine Street",
+                "name": "Jasmine Street",
+                "way_points": [
+                  2,
+                  5
+                ]
+              },
+              {
+                "distance": 101.5,
+                "duration": 73.1,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  5,
+                  7
+                ]
+              },
+              {
+                "distance": 18.2,
+                "duration": 13.1,
+                "type": 2,
+                "instruction": "Turn sharp left",
+                "name": "-",
+                "way_points": [
+                  7,
+                  10
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  10,
+                  10
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          10
+        ],
+        "summary": {
+          "distance": 593.8,
+          "duration": 427.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -104.91615,
+            39.728065
+          ],
+          [
+            -104.917266,
+            39.728079
+          ],
+          [
+            -104.918376,
+            39.728066
+          ],
+          [
+            -104.918359,
+            39.725741
+          ],
+          [
+            -104.918359,
+            39.725634
+          ],
+          [
+            -104.918357,
+            39.725514
+          ],
+          [
+            -104.918817,
+            39.725473
+          ],
+          [
+            -104.919541,
+            39.725485
+          ],
+          [
+            -104.91952,
+            39.725438
+          ],
+          [
+            -104.919476,
+            39.725403
+          ],
+          [
+            -104.919477,
+            39.725338
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306589582,
+    "query": {
+      "coordinates": [
+        [
+          -104.9161505,
+          39.7280646
+        ],
+        [
+          -104.9194773,
+          39.7253377
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

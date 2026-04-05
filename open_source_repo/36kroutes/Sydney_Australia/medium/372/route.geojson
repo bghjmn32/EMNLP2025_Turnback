@@ -1,0 +1,248 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    151.09683,
+    -33.957042,
+    151.099303,
+    -33.947456
+  ],
+  "features": [
+    {
+      "bbox": [
+        151.09683,
+        -33.957042,
+        151.099303,
+        -33.947456
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1458.3,
+            "duration": 1050.0,
+            "steps": [
+              {
+                "distance": 393.1,
+                "duration": 283.0,
+                "type": 11,
+                "instruction": "Head northwest on Hodge Street",
+                "name": "Hodge Street",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 269.6,
+                "duration": 194.1,
+                "type": 1,
+                "instruction": "Turn right onto Barnards Avenue",
+                "name": "Barnards Avenue",
+                "way_points": [
+                  1,
+                  7
+                ]
+              },
+              {
+                "distance": 307.0,
+                "duration": 221.0,
+                "type": 0,
+                "instruction": "Turn left onto Emily Street",
+                "name": "Emily Street",
+                "way_points": [
+                  7,
+                  11
+                ]
+              },
+              {
+                "distance": 46.3,
+                "duration": 33.4,
+                "type": 3,
+                "instruction": "Turn sharp right onto Stoney Creek Road",
+                "name": "Stoney Creek Road",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 214.2,
+                "duration": 154.3,
+                "type": 0,
+                "instruction": "Turn left onto St Elmo Parade",
+                "name": "St Elmo Parade",
+                "way_points": [
+                  12,
+                  16
+                ]
+              },
+              {
+                "distance": 124.9,
+                "duration": 89.9,
+                "type": 1,
+                "instruction": "Turn right onto Thorpe Road",
+                "name": "Thorpe Road",
+                "way_points": [
+                  16,
+                  17
+                ]
+              },
+              {
+                "distance": 85.6,
+                "duration": 61.6,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  17,
+                  18
+                ]
+              },
+              {
+                "distance": 17.7,
+                "duration": 12.7,
+                "type": 0,
+                "instruction": "Turn left onto Simmons Road",
+                "name": "Simmons Road",
+                "way_points": [
+                  18,
+                  19
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Simmons Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  19,
+                  19
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          19
+        ],
+        "summary": {
+          "distance": 1458.3,
+          "duration": 1050.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            151.099303,
+            -33.957042
+          ],
+          [
+            151.09683,
+            -33.954163
+          ],
+          [
+            151.096904,
+            -33.95412
+          ],
+          [
+            151.09718,
+            -33.953953
+          ],
+          [
+            151.097453,
+            -33.953654
+          ],
+          [
+            151.097541,
+            -33.953587
+          ],
+          [
+            151.098317,
+            -33.953117
+          ],
+          [
+            151.099089,
+            -33.952646
+          ],
+          [
+            151.09905,
+            -33.952601
+          ],
+          [
+            151.098517,
+            -33.951982
+          ],
+          [
+            151.0972,
+            -33.950481
+          ],
+          [
+            151.097141,
+            -33.950406
+          ],
+          [
+            151.097635,
+            -33.950331
+          ],
+          [
+            151.097621,
+            -33.950265
+          ],
+          [
+            151.097516,
+            -33.949765
+          ],
+          [
+            151.097536,
+            -33.949238
+          ],
+          [
+            151.097359,
+            -33.948426
+          ],
+          [
+            151.098688,
+            -33.948214
+          ],
+          [
+            151.098525,
+            -33.947456
+          ],
+          [
+            151.098336,
+            -33.947484
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756398539985,
+    "query": {
+      "coordinates": [
+        [
+          151.0993031,
+          -33.9570425
+        ],
+        [
+          151.0983359,
+          -33.9474839
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

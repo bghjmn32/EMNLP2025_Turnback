@@ -1,0 +1,293 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.234537,
+    19.40479,
+    -99.227064,
+    19.407624
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.234537,
+        19.40479,
+        -99.227064,
+        19.407624
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1210.5,
+            "duration": 871.6,
+            "steps": [
+              {
+                "distance": 157.7,
+                "duration": 113.5,
+                "type": 11,
+                "instruction": "Head southeast on Avenida Paseo de las Palmas",
+                "name": "Avenida Paseo de las Palmas",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 364.9,
+                "duration": 262.7,
+                "type": 3,
+                "instruction": "Turn sharp right onto Avenida Paseo de la Reforma",
+                "name": "Avenida Paseo de la Reforma",
+                "way_points": [
+                  3,
+                  11
+                ]
+              },
+              {
+                "distance": 476.7,
+                "duration": 343.2,
+                "type": 3,
+                "instruction": "Turn sharp right onto Avenida Paseo Bosque de la Reforma",
+                "name": "Avenida Paseo Bosque de la Reforma",
+                "way_points": [
+                  11,
+                  29
+                ]
+              },
+              {
+                "distance": 211.3,
+                "duration": 152.1,
+                "type": 7,
+                "instruction": "Enter the roundabout and take the 2nd exit onto Calle Bosque de Tecas",
+                "name": "Calle Bosque de Tecas",
+                "exit_number": 2,
+                "way_points": [
+                  29,
+                  41
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Bosque de Tecas, straight ahead",
+                "name": "-",
+                "way_points": [
+                  41,
+                  41
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          41
+        ],
+        "summary": {
+          "distance": 1210.5,
+          "duration": 871.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.22833,
+            19.407624
+          ],
+          [
+            -99.228122,
+            19.40747
+          ],
+          [
+            -99.227708,
+            19.407211
+          ],
+          [
+            -99.227064,
+            19.406863
+          ],
+          [
+            -99.227337,
+            19.406851
+          ],
+          [
+            -99.227512,
+            19.406815
+          ],
+          [
+            -99.227713,
+            19.406746
+          ],
+          [
+            -99.227882,
+            19.406658
+          ],
+          [
+            -99.2281,
+            19.406475
+          ],
+          [
+            -99.228777,
+            19.405715
+          ],
+          [
+            -99.229423,
+            19.404999
+          ],
+          [
+            -99.229593,
+            19.40479
+          ],
+          [
+            -99.229645,
+            19.404974
+          ],
+          [
+            -99.229671,
+            19.405011
+          ],
+          [
+            -99.23021,
+            19.405415
+          ],
+          [
+            -99.230565,
+            19.405631
+          ],
+          [
+            -99.230721,
+            19.405704
+          ],
+          [
+            -99.230839,
+            19.405713
+          ],
+          [
+            -99.230977,
+            19.405703
+          ],
+          [
+            -99.231367,
+            19.405568
+          ],
+          [
+            -99.231534,
+            19.405546
+          ],
+          [
+            -99.231729,
+            19.405573
+          ],
+          [
+            -99.231907,
+            19.405664
+          ],
+          [
+            -99.232034,
+            19.405792
+          ],
+          [
+            -99.232111,
+            19.405926
+          ],
+          [
+            -99.232336,
+            19.406593
+          ],
+          [
+            -99.232408,
+            19.406712
+          ],
+          [
+            -99.232512,
+            19.406777
+          ],
+          [
+            -99.232633,
+            19.406812
+          ],
+          [
+            -99.232915,
+            19.406853
+          ],
+          [
+            -99.23298,
+            19.406762
+          ],
+          [
+            -99.233086,
+            19.406664
+          ],
+          [
+            -99.23321,
+            19.406604
+          ],
+          [
+            -99.23337,
+            19.406574
+          ],
+          [
+            -99.233525,
+            19.406637
+          ],
+          [
+            -99.233642,
+            19.406753
+          ],
+          [
+            -99.233694,
+            19.4069
+          ],
+          [
+            -99.233876,
+            19.406733
+          ],
+          [
+            -99.23402,
+            19.40667
+          ],
+          [
+            -99.234154,
+            19.406668
+          ],
+          [
+            -99.234316,
+            19.406695
+          ],
+          [
+            -99.234537,
+            19.406765
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306138801,
+    "query": {
+      "coordinates": [
+        [
+          -99.2283296,
+          19.407624
+        ],
+        [
+          -99.2345373,
+          19.4067653
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

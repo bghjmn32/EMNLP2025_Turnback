@@ -1,0 +1,182 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    150.85843,
+    -34.052828,
+    150.860803,
+    -34.04866
+  ],
+  "features": [
+    {
+      "bbox": [
+        150.85843,
+        -34.052828,
+        150.860803,
+        -34.04866
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 667.0,
+            "duration": 480.2,
+            "steps": [
+              {
+                "distance": 420.5,
+                "duration": 302.7,
+                "type": 11,
+                "instruction": "Head north on PM Creek Track",
+                "name": "PM Creek Track",
+                "way_points": [
+                  0,
+                  11
+                ]
+              },
+              {
+                "distance": 246.5,
+                "duration": 177.5,
+                "type": 2,
+                "instruction": "Turn sharp left",
+                "name": "-",
+                "way_points": [
+                  11,
+                  19
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  19,
+                  19
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          19
+        ],
+        "summary": {
+          "distance": 667.0,
+          "duration": 480.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            150.85843,
+            -34.052828
+          ],
+          [
+            150.858613,
+            -34.052362
+          ],
+          [
+            150.858828,
+            -34.052181
+          ],
+          [
+            150.858831,
+            -34.051901
+          ],
+          [
+            150.858915,
+            -34.051742
+          ],
+          [
+            150.859165,
+            -34.051486
+          ],
+          [
+            150.859232,
+            -34.051253
+          ],
+          [
+            150.859471,
+            -34.051141
+          ],
+          [
+            150.859544,
+            -34.050797
+          ],
+          [
+            150.859984,
+            -34.050206
+          ],
+          [
+            150.860634,
+            -34.049934
+          ],
+          [
+            150.860803,
+            -34.04994
+          ],
+          [
+            150.860628,
+            -34.049786
+          ],
+          [
+            150.86047,
+            -34.049769
+          ],
+          [
+            150.860314,
+            -34.049651
+          ],
+          [
+            150.860585,
+            -34.049289
+          ],
+          [
+            150.860075,
+            -34.049331
+          ],
+          [
+            150.859897,
+            -34.049284
+          ],
+          [
+            150.859616,
+            -34.048757
+          ],
+          [
+            150.859535,
+            -34.04866
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756396043595,
+    "query": {
+      "coordinates": [
+        [
+          150.8584296,
+          -34.0528285
+        ],
+        [
+          150.8595352,
+          -34.0486603
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

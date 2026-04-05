@@ -1,0 +1,270 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.085042,
+    19.325868,
+    -99.080512,
+    19.334812
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.085042,
+        19.325868,
+        -99.080512,
+        19.334812
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1529.9,
+            "duration": 1101.5,
+            "steps": [
+              {
+                "distance": 102.1,
+                "duration": 73.5,
+                "type": 11,
+                "instruction": "Head east on Calle España",
+                "name": "Calle España",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 199.4,
+                "duration": 143.5,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  2,
+                  6
+                ]
+              },
+              {
+                "distance": 21.0,
+                "duration": 15.1,
+                "type": 3,
+                "instruction": "Turn sharp right",
+                "name": "-",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 122.8,
+                "duration": 88.4,
+                "type": 1,
+                "instruction": "Turn right onto Avenida Hidalgo",
+                "name": "Avenida Hidalgo",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 208.5,
+                "duration": 150.1,
+                "type": 0,
+                "instruction": "Turn left onto Avenida 11",
+                "name": "Avenida 11",
+                "way_points": [
+                  8,
+                  10
+                ]
+              },
+              {
+                "distance": 123.0,
+                "duration": 88.6,
+                "type": 1,
+                "instruction": "Turn right onto Calle Bilbao",
+                "name": "Calle Bilbao",
+                "way_points": [
+                  10,
+                  12
+                ]
+              },
+              {
+                "distance": 415.0,
+                "duration": 298.8,
+                "type": 0,
+                "instruction": "Turn left onto Calle Zinapácuaro",
+                "name": "Calle Zinapácuaro",
+                "way_points": [
+                  12,
+                  14
+                ]
+              },
+              {
+                "distance": 40.6,
+                "duration": 29.2,
+                "type": 0,
+                "instruction": "Turn left onto Calle Bellavista",
+                "name": "Calle Bellavista",
+                "way_points": [
+                  14,
+                  15
+                ]
+              },
+              {
+                "distance": 200.7,
+                "duration": 144.5,
+                "type": 1,
+                "instruction": "Turn right onto Calle Durazno",
+                "name": "Calle Durazno",
+                "way_points": [
+                  15,
+                  16
+                ]
+              },
+              {
+                "distance": 96.7,
+                "duration": 69.6,
+                "type": 0,
+                "instruction": "Turn left onto Calle Nautla",
+                "name": "Calle Nautla",
+                "way_points": [
+                  16,
+                  19
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Nautla, straight ahead",
+                "name": "-",
+                "way_points": [
+                  19,
+                  19
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          19
+        ],
+        "summary": {
+          "distance": 1529.9,
+          "duration": 1101.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.085042,
+            19.326045
+          ],
+          [
+            -99.084847,
+            19.32601
+          ],
+          [
+            -99.084087,
+            19.325868
+          ],
+          [
+            -99.083888,
+            19.326724
+          ],
+          [
+            -99.083784,
+            19.327412
+          ],
+          [
+            -99.083838,
+            19.327487
+          ],
+          [
+            -99.083971,
+            19.327523
+          ],
+          [
+            -99.083861,
+            19.327681
+          ],
+          [
+            -99.082708,
+            19.32749
+          ],
+          [
+            -99.082377,
+            19.329211
+          ],
+          [
+            -99.082354,
+            19.329335
+          ],
+          [
+            -99.081619,
+            19.329199
+          ],
+          [
+            -99.081202,
+            19.329131
+          ],
+          [
+            -99.080845,
+            19.330919
+          ],
+          [
+            -99.080512,
+            19.332805
+          ],
+          [
+            -99.080891,
+            19.332877
+          ],
+          [
+            -99.08055,
+            19.334653
+          ],
+          [
+            -99.080901,
+            19.334715
+          ],
+          [
+            -99.081282,
+            19.334781
+          ],
+          [
+            -99.081456,
+            19.334812
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756309762766,
+    "query": {
+      "coordinates": [
+        [
+          -99.0850419,
+          19.3260449
+        ],
+        [
+          -99.0814559,
+          19.3348117
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

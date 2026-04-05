@@ -1,0 +1,251 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.102282,
+    19.200114,
+    -99.096427,
+    19.201354
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.102282,
+        19.200114,
+        -99.096427,
+        19.201354
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 720.1,
+            "duration": 518.4,
+            "steps": [
+              {
+                "distance": 24.3,
+                "duration": 17.5,
+                "type": 11,
+                "instruction": "Head northwest on Calle Tepecuentech",
+                "name": "Calle Tepecuentech",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 505.4,
+                "duration": 363.9,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  19
+                ]
+              },
+              {
+                "distance": 64.8,
+                "duration": 46.6,
+                "type": 1,
+                "instruction": "Turn right onto Calle Violeta",
+                "name": "Calle Violeta",
+                "way_points": [
+                  19,
+                  22
+                ]
+              },
+              {
+                "distance": 76.9,
+                "duration": 55.4,
+                "type": 0,
+                "instruction": "Turn left onto Calle Violeta",
+                "name": "Calle Violeta",
+                "way_points": [
+                  22,
+                  26
+                ]
+              },
+              {
+                "distance": 48.7,
+                "duration": 35.1,
+                "type": 0,
+                "instruction": "Turn left onto Avenida San Isidro",
+                "name": "Avenida San Isidro",
+                "way_points": [
+                  26,
+                  28
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Avenida San Isidro, straight ahead",
+                "name": "-",
+                "way_points": [
+                  28,
+                  28
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          28
+        ],
+        "summary": {
+          "distance": 720.1,
+          "duration": 518.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.096427,
+            19.200114
+          ],
+          [
+            -99.096575,
+            19.200281
+          ],
+          [
+            -99.09685,
+            19.200245
+          ],
+          [
+            -99.096902,
+            19.20025
+          ],
+          [
+            -99.097253,
+            19.20034
+          ],
+          [
+            -99.097364,
+            19.200381
+          ],
+          [
+            -99.09747,
+            19.200404
+          ],
+          [
+            -99.098101,
+            19.20059
+          ],
+          [
+            -99.098365,
+            19.200602
+          ],
+          [
+            -99.098417,
+            19.200603
+          ],
+          [
+            -99.099149,
+            19.200662
+          ],
+          [
+            -99.099589,
+            19.200849
+          ],
+          [
+            -99.099812,
+            19.201024
+          ],
+          [
+            -99.100194,
+            19.201248
+          ],
+          [
+            -99.100427,
+            19.201347
+          ],
+          [
+            -99.100471,
+            19.201354
+          ],
+          [
+            -99.100665,
+            19.201308
+          ],
+          [
+            -99.100818,
+            19.201224
+          ],
+          [
+            -99.10086,
+            19.201184
+          ],
+          [
+            -99.100928,
+            19.200986
+          ],
+          [
+            -99.101144,
+            19.200954
+          ],
+          [
+            -99.101251,
+            19.200967
+          ],
+          [
+            -99.101523,
+            19.201062
+          ],
+          [
+            -99.101588,
+            19.200903
+          ],
+          [
+            -99.101613,
+            19.200886
+          ],
+          [
+            -99.101679,
+            19.200893
+          ],
+          [
+            -99.102115,
+            19.201015
+          ],
+          [
+            -99.102154,
+            19.200845
+          ],
+          [
+            -99.102282,
+            19.20061
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306433361,
+    "query": {
+      "coordinates": [
+        [
+          -99.0964267,
+          19.2001139
+        ],
+        [
+          -99.1022822,
+          19.2006101
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -104.903539,
+    39.679552,
+    -104.897325,
+    39.682091
+  ],
+  "features": [
+    {
+      "bbox": [
+        -104.903539,
+        39.679552,
+        -104.897325,
+        39.682091
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 699.4,
+            "duration": 503.6,
+            "steps": [
+              {
+                "distance": 5.3,
+                "duration": 3.8,
+                "type": 11,
+                "instruction": "Head southwest",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 325.9,
+                "duration": 234.7,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  10
+                ]
+              },
+              {
+                "distance": 368.2,
+                "duration": 265.1,
+                "type": 0,
+                "instruction": "Turn left onto East Jewell Avenue",
+                "name": "East Jewell Avenue",
+                "way_points": [
+                  10,
+                  20
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at East Jewell Avenue, straight ahead",
+                "name": "-",
+                "way_points": [
+                  20,
+                  20
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          20
+        ],
+        "summary": {
+          "distance": 699.4,
+          "duration": 503.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -104.897325,
+            39.679582
+          ],
+          [
+            -104.897373,
+            39.679552
+          ],
+          [
+            -104.897427,
+            39.679621
+          ],
+          [
+            -104.897523,
+            39.679754
+          ],
+          [
+            -104.897649,
+            39.679932
+          ],
+          [
+            -104.897959,
+            39.680532
+          ],
+          [
+            -104.898058,
+            39.680731
+          ],
+          [
+            -104.898293,
+            39.681052
+          ],
+          [
+            -104.898568,
+            39.681364
+          ],
+          [
+            -104.899169,
+            39.682018
+          ],
+          [
+            -104.899238,
+            39.682091
+          ],
+          [
+            -104.899313,
+            39.682083
+          ],
+          [
+            -104.900172,
+            39.682079
+          ],
+          [
+            -104.900413,
+            39.682079
+          ],
+          [
+            -104.900923,
+            39.68208
+          ],
+          [
+            -104.901682,
+            39.682081
+          ],
+          [
+            -104.90213,
+            39.682081
+          ],
+          [
+            -104.902365,
+            39.682081
+          ],
+          [
+            -104.903305,
+            39.682085
+          ],
+          [
+            -104.903383,
+            39.682076
+          ],
+          [
+            -104.903539,
+            39.682072
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756304898308,
+    "query": {
+      "coordinates": [
+        [
+          -104.8973249,
+          39.6795817
+        ],
+        [
+          -104.9035391,
+          39.6820718
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

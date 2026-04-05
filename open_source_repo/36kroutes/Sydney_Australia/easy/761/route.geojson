@@ -1,0 +1,242 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    151.116533,
+    -33.921456,
+    151.121826,
+    -33.919285
+  ],
+  "features": [
+    {
+      "bbox": [
+        151.116533,
+        -33.921456,
+        151.121826,
+        -33.919285
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 840.2,
+            "duration": 604.9,
+            "steps": [
+              {
+                "distance": 217.2,
+                "duration": 156.4,
+                "type": 11,
+                "instruction": "Head east on Fuller Avenue",
+                "name": "Fuller Avenue",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 123.9,
+                "duration": 89.2,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  2,
+                  7
+                ]
+              },
+              {
+                "distance": 16.1,
+                "duration": 11.6,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  7,
+                  11
+                ]
+              },
+              {
+                "distance": 206.6,
+                "duration": 148.8,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  11,
+                  21
+                ]
+              },
+              {
+                "distance": 202.4,
+                "duration": 145.7,
+                "type": 1,
+                "instruction": "Turn right onto River Street",
+                "name": "River Street",
+                "way_points": [
+                  21,
+                  22
+                ]
+              },
+              {
+                "distance": 74.0,
+                "duration": 53.3,
+                "type": 0,
+                "instruction": "Turn left onto Willow Lane",
+                "name": "Willow Lane",
+                "way_points": [
+                  22,
+                  23
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Willow Lane, straight ahead",
+                "name": "-",
+                "way_points": [
+                  23,
+                  23
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          23
+        ],
+        "summary": {
+          "distance": 840.2,
+          "duration": 604.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            151.116533,
+            -33.920077
+          ],
+          [
+            151.117343,
+            -33.920191
+          ],
+          [
+            151.118852,
+            -33.920409
+          ],
+          [
+            151.118864,
+            -33.92035
+          ],
+          [
+            151.119044,
+            -33.919469
+          ],
+          [
+            151.119056,
+            -33.919411
+          ],
+          [
+            151.119071,
+            -33.919341
+          ],
+          [
+            151.119077,
+            -33.91931
+          ],
+          [
+            151.119124,
+            -33.919318
+          ],
+          [
+            151.119167,
+            -33.919325
+          ],
+          [
+            151.119232,
+            -33.919334
+          ],
+          [
+            151.119249,
+            -33.919336
+          ],
+          [
+            151.119259,
+            -33.919285
+          ],
+          [
+            151.119339,
+            -33.919295
+          ],
+          [
+            151.119935,
+            -33.919369
+          ],
+          [
+            151.119973,
+            -33.919374
+          ],
+          [
+            151.120017,
+            -33.919379
+          ],
+          [
+            151.120644,
+            -33.91946
+          ],
+          [
+            151.120687,
+            -33.919466
+          ],
+          [
+            151.120731,
+            -33.919471
+          ],
+          [
+            151.121354,
+            -33.919553
+          ],
+          [
+            151.12141,
+            -33.919561
+          ],
+          [
+            151.121033,
+            -33.921354
+          ],
+          [
+            151.121826,
+            -33.921456
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756395118138,
+    "query": {
+      "coordinates": [
+        [
+          151.1165325,
+          -33.9200769
+        ],
+        [
+          151.1218258,
+          -33.9214564
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

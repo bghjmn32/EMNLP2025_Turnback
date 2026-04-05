@@ -1,0 +1,243 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -79.47323,
+    43.703105,
+    -79.469815,
+    43.70508
+  ],
+  "features": [
+    {
+      "bbox": [
+        -79.47323,
+        43.703105,
+        -79.469815,
+        43.70508
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 557.9,
+            "duration": 401.7,
+            "steps": [
+              {
+                "distance": 11.9,
+                "duration": 8.6,
+                "type": 11,
+                "instruction": "Head west",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 32.8,
+                "duration": 23.6,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  3
+                ]
+              },
+              {
+                "distance": 73.3,
+                "duration": 52.8,
+                "type": 0,
+                "instruction": "Turn left onto Sheffield Street",
+                "name": "Sheffield Street",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 10.9,
+                "duration": 7.8,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "distance": 25.5,
+                "duration": 18.3,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  5,
+                  7
+                ]
+              },
+              {
+                "distance": 11.4,
+                "duration": 8.2,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 100.3,
+                "duration": 72.2,
+                "type": 1,
+                "instruction": "Turn right onto Sheffield Street",
+                "name": "Sheffield Street",
+                "way_points": [
+                  8,
+                  9
+                ]
+              },
+              {
+                "distance": 219.0,
+                "duration": 157.7,
+                "type": 0,
+                "instruction": "Turn left onto Densley Avenue",
+                "name": "Densley Avenue",
+                "way_points": [
+                  9,
+                  13
+                ]
+              },
+              {
+                "distance": 73.0,
+                "duration": 52.5,
+                "type": 0,
+                "instruction": "Turn left onto Densley Avenue",
+                "name": "Densley Avenue",
+                "way_points": [
+                  13,
+                  15
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Densley Avenue, straight ahead",
+                "name": "-",
+                "way_points": [
+                  15,
+                  15
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          15
+        ],
+        "summary": {
+          "distance": 557.9,
+          "duration": 401.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -79.469815,
+            43.703133
+          ],
+          [
+            -79.469958,
+            43.703105
+          ],
+          [
+            -79.470061,
+            43.703302
+          ],
+          [
+            -79.469968,
+            43.703351
+          ],
+          [
+            -79.47024,
+            43.70398
+          ],
+          [
+            -79.470111,
+            43.70401
+          ],
+          [
+            -79.470176,
+            43.704168
+          ],
+          [
+            -79.470197,
+            43.70423
+          ],
+          [
+            -79.470333,
+            43.704203
+          ],
+          [
+            -79.470621,
+            43.70508
+          ],
+          [
+            -79.471595,
+            43.704877
+          ],
+          [
+            -79.4724,
+            43.704697
+          ],
+          [
+            -79.472953,
+            43.704573
+          ],
+          [
+            -79.47323,
+            43.704511
+          ],
+          [
+            -79.473031,
+            43.704023
+          ],
+          [
+            -79.472998,
+            43.703878
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756126675640,
+    "query": {
+      "coordinates": [
+        [
+          -79.4698146,
+          43.7031332
+        ],
+        [
+          -79.4729977,
+          43.703878
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.390072,
+    -33.923919,
+    18.394091,
+    -33.917344
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.390072,
+        -33.923919,
+        18.394091,
+        -33.917344
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1012.8,
+            "duration": 729.2,
+            "steps": [
+              {
+                "distance": 48.1,
+                "duration": 34.7,
+                "type": 11,
+                "instruction": "Head southeast on Clifford Road",
+                "name": "Clifford Road",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 388.6,
+                "duration": 279.8,
+                "type": 1,
+                "instruction": "Turn right onto Ocean View Drive",
+                "name": "Ocean View Drive",
+                "way_points": [
+                  1,
+                  9
+                ]
+              },
+              {
+                "distance": 48.5,
+                "duration": 34.9,
+                "type": 1,
+                "instruction": "Turn right onto Saint Johns Road",
+                "name": "Saint Johns Road",
+                "way_points": [
+                  9,
+                  10
+                ]
+              },
+              {
+                "distance": 284.4,
+                "duration": 204.8,
+                "type": 0,
+                "instruction": "Turn left onto Avenue St Charles",
+                "name": "Avenue St Charles",
+                "way_points": [
+                  10,
+                  12
+                ]
+              },
+              {
+                "distance": 169.3,
+                "duration": 121.9,
+                "type": 0,
+                "instruction": "Turn left onto Avenue de l'Hermite",
+                "name": "Avenue de l'Hermite",
+                "way_points": [
+                  12,
+                  14
+                ]
+              },
+              {
+                "distance": 73.8,
+                "duration": 53.2,
+                "type": 1,
+                "instruction": "Turn right onto Avenue Saint Bartholomew",
+                "name": "Avenue Saint Bartholomew",
+                "way_points": [
+                  14,
+                  17
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Avenue Saint Bartholomew, straight ahead",
+                "name": "-",
+                "way_points": [
+                  17,
+                  17
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          17
+        ],
+        "summary": {
+          "distance": 1012.8,
+          "duration": 729.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.393658,
+            -33.917344
+          ],
+          [
+            18.394091,
+            -33.917585
+          ],
+          [
+            18.393567,
+            -33.918233
+          ],
+          [
+            18.393382,
+            -33.918733
+          ],
+          [
+            18.393247,
+            -33.919093
+          ],
+          [
+            18.393193,
+            -33.919181
+          ],
+          [
+            18.392905,
+            -33.919534
+          ],
+          [
+            18.392646,
+            -33.919856
+          ],
+          [
+            18.392352,
+            -33.920224
+          ],
+          [
+            18.392051,
+            -33.920612
+          ],
+          [
+            18.391618,
+            -33.920366
+          ],
+          [
+            18.390681,
+            -33.921706
+          ],
+          [
+            18.390072,
+            -33.922579
+          ],
+          [
+            18.390874,
+            -33.922964
+          ],
+          [
+            18.391659,
+            -33.923344
+          ],
+          [
+            18.39153,
+            -33.92353
+          ],
+          [
+            18.391372,
+            -33.923759
+          ],
+          [
+            18.391259,
+            -33.923919
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756804945300,
+    "query": {
+      "coordinates": [
+        [
+          18.3936575,
+          -33.9173445
+        ],
+        [
+          18.3912593,
+          -33.9239189
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

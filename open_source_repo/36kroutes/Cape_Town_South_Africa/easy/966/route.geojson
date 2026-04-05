@@ -1,0 +1,182 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.500064,
+    -33.831001,
+    18.50457,
+    -33.828444
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.500064,
+        -33.831001,
+        18.50457,
+        -33.828444
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 596.8,
+            "duration": 429.7,
+            "steps": [
+              {
+                "distance": 356.3,
+                "duration": 256.5,
+                "type": 11,
+                "instruction": "Head northeast on Janssens Avenue",
+                "name": "Janssens Avenue",
+                "way_points": [
+                  0,
+                  13
+                ]
+              },
+              {
+                "distance": 240.5,
+                "duration": 173.2,
+                "type": 1,
+                "instruction": "Turn right onto Blaauwberg Road, M14",
+                "name": "Blaauwberg Road, M14",
+                "way_points": [
+                  13,
+                  19
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Blaauwberg Road, M14, straight ahead",
+                "name": "-",
+                "way_points": [
+                  19,
+                  19
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          19
+        ],
+        "summary": {
+          "distance": 596.8,
+          "duration": 429.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.500064,
+            -33.831001
+          ],
+          [
+            18.500094,
+            -33.830951
+          ],
+          [
+            18.500167,
+            -33.830806
+          ],
+          [
+            18.500259,
+            -33.830675
+          ],
+          [
+            18.500491,
+            -33.830394
+          ],
+          [
+            18.50052,
+            -33.830363
+          ],
+          [
+            18.500678,
+            -33.830248
+          ],
+          [
+            18.50084,
+            -33.830155
+          ],
+          [
+            18.501436,
+            -33.829896
+          ],
+          [
+            18.501505,
+            -33.82985
+          ],
+          [
+            18.501591,
+            -33.829742
+          ],
+          [
+            18.501739,
+            -33.829334
+          ],
+          [
+            18.501888,
+            -33.828958
+          ],
+          [
+            18.50208,
+            -33.828444
+          ],
+          [
+            18.502248,
+            -33.828487
+          ],
+          [
+            18.502794,
+            -33.828624
+          ],
+          [
+            18.503302,
+            -33.82875
+          ],
+          [
+            18.5038,
+            -33.828874
+          ],
+          [
+            18.504396,
+            -33.829029
+          ],
+          [
+            18.50457,
+            -33.829078
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756806023440,
+    "query": {
+      "coordinates": [
+        [
+          18.5000636,
+          -33.8310006
+        ],
+        [
+          18.5045703,
+          -33.8290778
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

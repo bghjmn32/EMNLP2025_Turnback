@@ -1,0 +1,185 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.190231,
+    -22.952931,
+    -43.184467,
+    -22.949745
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.190231,
+        -22.952931,
+        -43.184467,
+        -22.949745
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 878.9,
+            "duration": 632.8,
+            "steps": [
+              {
+                "distance": 455.7,
+                "duration": 328.1,
+                "type": 11,
+                "instruction": "Head west on Rua Voluntários da Pátria",
+                "name": "Rua Voluntários da Pátria",
+                "way_points": [
+                  0,
+                  10
+                ]
+              },
+              {
+                "distance": 373.3,
+                "duration": 268.8,
+                "type": 1,
+                "instruction": "Turn right onto Rua Dona Mariana",
+                "name": "Rua Dona Mariana",
+                "way_points": [
+                  10,
+                  13
+                ]
+              },
+              {
+                "distance": 49.9,
+                "duration": 35.9,
+                "type": 0,
+                "instruction": "Turn left onto Rua São Clemente",
+                "name": "Rua São Clemente",
+                "way_points": [
+                  13,
+                  17
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Rua São Clemente, straight ahead",
+                "name": "-",
+                "way_points": [
+                  17,
+                  17
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          17
+        ],
+        "summary": {
+          "distance": 878.9,
+          "duration": 632.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.184467,
+            -22.951436
+          ],
+          [
+            -43.184541,
+            -22.951463
+          ],
+          [
+            -43.186598,
+            -22.95222
+          ],
+          [
+            -43.187057,
+            -22.952382
+          ],
+          [
+            -43.187375,
+            -22.9525
+          ],
+          [
+            -43.187445,
+            -22.952527
+          ],
+          [
+            -43.187477,
+            -22.952539
+          ],
+          [
+            -43.187528,
+            -22.952556
+          ],
+          [
+            -43.187732,
+            -22.952622
+          ],
+          [
+            -43.188186,
+            -22.952781
+          ],
+          [
+            -43.188611,
+            -22.952931
+          ],
+          [
+            -43.188913,
+            -22.952089
+          ],
+          [
+            -43.189629,
+            -22.95011
+          ],
+          [
+            -43.189761,
+            -22.949745
+          ],
+          [
+            -43.189793,
+            -22.949752
+          ],
+          [
+            -43.189981,
+            -22.949799
+          ],
+          [
+            -43.19011,
+            -22.949831
+          ],
+          [
+            -43.190231,
+            -22.949861
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756392144322,
+    "query": {
+      "coordinates": [
+        [
+          -43.1844668,
+          -22.9514364
+        ],
+        [
+          -43.1902315,
+          -22.9498607
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

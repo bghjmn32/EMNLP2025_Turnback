@@ -1,0 +1,183 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.112081,
+    19.479015,
+    -99.1085,
+    19.481144
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.112081,
+        19.479015,
+        -99.1085,
+        19.481144
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 662.5,
+            "duration": 477.0,
+            "steps": [
+              {
+                "distance": 127.0,
+                "duration": 91.5,
+                "type": 11,
+                "instruction": "Head east on Calle Cuauhtémoc",
+                "name": "Calle Cuauhtémoc",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 168.5,
+                "duration": 121.3,
+                "type": 0,
+                "instruction": "Turn left onto Calle Mier y Pesado",
+                "name": "Calle Mier y Pesado",
+                "way_points": [
+                  1,
+                  4
+                ]
+              },
+              {
+                "distance": 85.0,
+                "duration": 61.2,
+                "type": 0,
+                "instruction": "Turn left onto Calle Pelícano",
+                "name": "Calle Pelícano",
+                "way_points": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "distance": 192.3,
+                "duration": 138.4,
+                "type": 3,
+                "instruction": "Turn sharp right onto Calle el Mexicano",
+                "name": "Calle el Mexicano",
+                "way_points": [
+                  5,
+                  8
+                ]
+              },
+              {
+                "distance": 89.7,
+                "duration": 64.6,
+                "type": 5,
+                "instruction": "Turn slight right onto Calle Francisco Moreno",
+                "name": "Calle Francisco Moreno",
+                "way_points": [
+                  8,
+                  11
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Francisco Moreno, straight ahead",
+                "name": "-",
+                "way_points": [
+                  11,
+                  11
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          11
+        ],
+        "summary": {
+          "distance": 662.5,
+          "duration": 477.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.112081,
+            19.479415
+          ],
+          [
+            -99.110945,
+            19.479015
+          ],
+          [
+            -99.110726,
+            19.479551
+          ],
+          [
+            -99.110544,
+            19.480032
+          ],
+          [
+            -99.110389,
+            19.480437
+          ],
+          [
+            -99.111069,
+            19.480853
+          ],
+          [
+            -99.110108,
+            19.480941
+          ],
+          [
+            -99.109694,
+            19.481018
+          ],
+          [
+            -99.109268,
+            19.481144
+          ],
+          [
+            -99.10914,
+            19.481089
+          ],
+          [
+            -99.108999,
+            19.481006
+          ],
+          [
+            -99.1085,
+            19.480789
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756304661486,
+    "query": {
+      "coordinates": [
+        [
+          -99.1120807,
+          19.4794148
+        ],
+        [
+          -99.1084998,
+          19.4807893
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

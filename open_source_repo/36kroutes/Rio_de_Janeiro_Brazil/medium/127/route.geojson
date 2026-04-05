@@ -1,0 +1,150 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.417951,
+    -22.838209,
+    -43.411762,
+    -22.82845
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.417951,
+        -22.838209,
+        -43.411762,
+        -22.82845
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1317.4,
+            "duration": 948.5,
+            "steps": [
+              {
+                "distance": 1137.8,
+                "duration": 819.2,
+                "type": 11,
+                "instruction": "Head northwest on Rua Silvestre Filippi",
+                "name": "Rua Silvestre Filippi",
+                "way_points": [
+                  0,
+                  8
+                ]
+              },
+              {
+                "distance": 179.6,
+                "duration": 129.3,
+                "type": 1,
+                "instruction": "Turn right onto Rua Waldemar de Araújo",
+                "name": "Rua Waldemar de Araújo",
+                "way_points": [
+                  8,
+                  11
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Rua Waldemar de Araújo, straight ahead",
+                "name": "-",
+                "way_points": [
+                  11,
+                  11
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          11
+        ],
+        "summary": {
+          "distance": 1317.4,
+          "duration": 948.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.411762,
+            -22.838209
+          ],
+          [
+            -43.41281,
+            -22.836981
+          ],
+          [
+            -43.413872,
+            -22.835482
+          ],
+          [
+            -43.414949,
+            -22.833973
+          ],
+          [
+            -43.415289,
+            -22.833473
+          ],
+          [
+            -43.416009,
+            -22.832444
+          ],
+          [
+            -43.416636,
+            -22.831615
+          ],
+          [
+            -43.416993,
+            -22.831097
+          ],
+          [
+            -43.417951,
+            -22.829721
+          ],
+          [
+            -43.41762,
+            -22.829358
+          ],
+          [
+            -43.417232,
+            -22.828896
+          ],
+          [
+            -43.416872,
+            -22.82845
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756396330526,
+    "query": {
+      "coordinates": [
+        [
+          -43.4117621,
+          -22.8382091
+        ],
+        [
+          -43.4168716,
+          -22.8284501
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

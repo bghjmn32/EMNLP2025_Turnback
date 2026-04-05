@@ -1,0 +1,190 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -79.425282,
+    43.680904,
+    -79.417596,
+    43.682168
+  ],
+  "features": [
+    {
+      "bbox": [
+        -79.425282,
+        43.680904,
+        -79.417596,
+        43.682168
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 698.1,
+            "duration": 502.7,
+            "steps": [
+              {
+                "distance": 523.2,
+                "duration": 376.7,
+                "type": 11,
+                "instruction": "Head east on Ellsworth Avenue",
+                "name": "Ellsworth Avenue",
+                "way_points": [
+                  0,
+                  8
+                ]
+              },
+              {
+                "distance": 175.0,
+                "duration": 126.0,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  8,
+                  21
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  21,
+                  21
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          21
+        ],
+        "summary": {
+          "distance": 698.1,
+          "duration": 502.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -79.425282,
+            43.680904
+          ],
+          [
+            -79.42331,
+            43.681313
+          ],
+          [
+            -79.423251,
+            43.681316
+          ],
+          [
+            -79.423144,
+            43.681305
+          ],
+          [
+            -79.423041,
+            43.681305
+          ],
+          [
+            -79.422524,
+            43.681408
+          ],
+          [
+            -79.419688,
+            43.682004
+          ],
+          [
+            -79.419068,
+            43.68214
+          ],
+          [
+            -79.419041,
+            43.682168
+          ],
+          [
+            -79.418947,
+            43.682123
+          ],
+          [
+            -79.418893,
+            43.682106
+          ],
+          [
+            -79.418529,
+            43.681828
+          ],
+          [
+            -79.418472,
+            43.681788
+          ],
+          [
+            -79.41842,
+            43.681751
+          ],
+          [
+            -79.41839,
+            43.681736
+          ],
+          [
+            -79.417865,
+            43.681311
+          ],
+          [
+            -79.417755,
+            43.681222
+          ],
+          [
+            -79.417696,
+            43.681174
+          ],
+          [
+            -79.417626,
+            43.681113
+          ],
+          [
+            -79.417625,
+            43.681066
+          ],
+          [
+            -79.417621,
+            43.68106
+          ],
+          [
+            -79.417596,
+            43.681021
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756125938025,
+    "query": {
+      "coordinates": [
+        [
+          -79.4252822,
+          43.6809041
+        ],
+        [
+          -79.4175962,
+          43.6810205
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

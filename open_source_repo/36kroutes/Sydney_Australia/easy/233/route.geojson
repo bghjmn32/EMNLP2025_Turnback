@@ -1,0 +1,150 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    150.982371,
+    -33.658189,
+    150.987613,
+    -33.653096
+  ],
+  "features": [
+    {
+      "bbox": [
+        150.982371,
+        -33.658189,
+        150.987613,
+        -33.653096
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1108.0,
+            "duration": 797.8,
+            "steps": [
+              {
+                "distance": 488.7,
+                "duration": 351.9,
+                "type": 11,
+                "instruction": "Head east on Pitt Town Road",
+                "name": "Pitt Town Road",
+                "way_points": [
+                  0,
+                  4
+                ]
+              },
+              {
+                "distance": 619.3,
+                "duration": 445.9,
+                "type": 1,
+                "instruction": "Turn right onto Emperor Place",
+                "name": "Emperor Place",
+                "way_points": [
+                  4,
+                  11
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Emperor Place, straight ahead",
+                "name": "-",
+                "way_points": [
+                  11,
+                  11
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          11
+        ],
+        "summary": {
+          "distance": 1108.0,
+          "duration": 797.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            150.982371,
+            -33.653554
+          ],
+          [
+            150.983159,
+            -33.653464
+          ],
+          [
+            150.986703,
+            -33.653109
+          ],
+          [
+            150.987136,
+            -33.653096
+          ],
+          [
+            150.987613,
+            -33.653152
+          ],
+          [
+            150.987591,
+            -33.653332
+          ],
+          [
+            150.987508,
+            -33.655231
+          ],
+          [
+            150.987477,
+            -33.655652
+          ],
+          [
+            150.987425,
+            -33.655851
+          ],
+          [
+            150.987307,
+            -33.656062
+          ],
+          [
+            150.987121,
+            -33.656304
+          ],
+          [
+            150.985451,
+            -33.658189
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756391455565,
+    "query": {
+      "coordinates": [
+        [
+          150.9823706,
+          -33.653554
+        ],
+        [
+          150.9854512,
+          -33.6581895
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

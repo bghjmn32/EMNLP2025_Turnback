@@ -1,0 +1,187 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -105.090877,
+    39.796098,
+    -105.087362,
+    39.798382
+  ],
+  "features": [
+    {
+      "bbox": [
+        -105.090877,
+        39.796098,
+        -105.087362,
+        39.798382
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 528.8,
+            "duration": 380.7,
+            "steps": [
+              {
+                "distance": 96.9,
+                "duration": 69.8,
+                "type": 11,
+                "instruction": "Head west on Grandview Avenue",
+                "name": "Grandview Avenue",
+                "way_points": [
+                  0,
+                  5
+                ]
+              },
+              {
+                "distance": 167.4,
+                "duration": 120.5,
+                "type": 0,
+                "instruction": "Turn left onto Balsam Street",
+                "name": "Balsam Street",
+                "way_points": [
+                  5,
+                  7
+                ]
+              },
+              {
+                "distance": 213.9,
+                "duration": 154.0,
+                "type": 1,
+                "instruction": "Turn right onto Reno Drive",
+                "name": "Reno Drive",
+                "way_points": [
+                  7,
+                  10
+                ]
+              },
+              {
+                "distance": 23.9,
+                "duration": 17.2,
+                "type": 0,
+                "instruction": "Turn left onto Carr Street",
+                "name": "Carr Street",
+                "way_points": [
+                  10,
+                  11
+                ]
+              },
+              {
+                "distance": 26.7,
+                "duration": 19.3,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  12,
+                  12
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          12
+        ],
+        "summary": {
+          "distance": 528.8,
+          "duration": 380.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -105.087362,
+            39.79837
+          ],
+          [
+            -105.087568,
+            39.798372
+          ],
+          [
+            -105.087615,
+            39.798372
+          ],
+          [
+            -105.087725,
+            39.798373
+          ],
+          [
+            -105.087926,
+            39.798377
+          ],
+          [
+            -105.088497,
+            39.798382
+          ],
+          [
+            -105.088489,
+            39.797088
+          ],
+          [
+            -105.088487,
+            39.796876
+          ],
+          [
+            -105.0896,
+            39.796641
+          ],
+          [
+            -105.090741,
+            39.796371
+          ],
+          [
+            -105.090877,
+            39.796313
+          ],
+          [
+            -105.09086,
+            39.796099
+          ],
+          [
+            -105.090547,
+            39.796098
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756305851273,
+    "query": {
+      "coordinates": [
+        [
+          -105.0873623,
+          39.7983696
+        ],
+        [
+          -105.0905474,
+          39.7960981
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

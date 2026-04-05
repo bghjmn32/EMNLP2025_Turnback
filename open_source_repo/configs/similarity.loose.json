@@ -1,0 +1,20 @@
+{
+  "weights": {
+    "angle": 0.02,
+    "edr": 0.03,
+    "endpoints_shift": 0.02,
+    "hausdorff": 0.05,
+    "iou": 0.5,
+    "length_ratio": 0.38
+  },
+  "thresholds": {
+    "nearest_junction_meters": 100.0,
+    "confidence_percentage": 0.9,
+    "buffer_meters": 24.0,
+    "hausdorff_scale_m": 65.0,
+    "endpoints_scale_m": 28.0,
+    "edr_resample_points": 64,
+    "edr_bearing_bins": 16,
+    "hausdorff_densify_points": 128
+  }
+}

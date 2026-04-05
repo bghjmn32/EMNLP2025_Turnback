@@ -1,0 +1,193 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.508607,
+    -34.027684,
+    18.514257,
+    -34.021464
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.508607,
+        -34.027684,
+        18.514257,
+        -34.021464
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1059.5,
+            "duration": 762.8,
+            "steps": [
+              {
+                "distance": 15.1,
+                "duration": 10.9,
+                "type": 11,
+                "instruction": "Head northeast",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 916.6,
+                "duration": 659.9,
+                "type": 1,
+                "instruction": "Turn right onto De Wet Road",
+                "name": "De Wet Road",
+                "way_points": [
+                  1,
+                  17
+                ]
+              },
+              {
+                "distance": 127.8,
+                "duration": 92.0,
+                "type": 0,
+                "instruction": "Turn left onto Aaron Avenue",
+                "name": "Aaron Avenue",
+                "way_points": [
+                  17,
+                  19
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Aaron Avenue, straight ahead",
+                "name": "-",
+                "way_points": [
+                  19,
+                  19
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          19
+        ],
+        "summary": {
+          "distance": 1059.5,
+          "duration": 762.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.508607,
+            -34.021538
+          ],
+          [
+            18.508744,
+            -34.021464
+          ],
+          [
+            18.509027,
+            -34.021998
+          ],
+          [
+            18.509339,
+            -34.022584
+          ],
+          [
+            18.509364,
+            -34.022632
+          ],
+          [
+            18.509709,
+            -34.023281
+          ],
+          [
+            18.510116,
+            -34.024048
+          ],
+          [
+            18.510369,
+            -34.02452
+          ],
+          [
+            18.510485,
+            -34.024646
+          ],
+          [
+            18.510651,
+            -34.024721
+          ],
+          [
+            18.510797,
+            -34.02474
+          ],
+          [
+            18.512312,
+            -34.024652
+          ],
+          [
+            18.51245,
+            -34.024663
+          ],
+          [
+            18.512579,
+            -34.024735
+          ],
+          [
+            18.512619,
+            -34.02482
+          ],
+          [
+            18.512638,
+            -34.024949
+          ],
+          [
+            18.512725,
+            -34.025959
+          ],
+          [
+            18.512874,
+            -34.027684
+          ],
+          [
+            18.513437,
+            -34.02765
+          ],
+          [
+            18.514257,
+            -34.027602
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756805811507,
+    "query": {
+      "coordinates": [
+        [
+          18.5086069,
+          -34.0215385
+        ],
+        [
+          18.5142571,
+          -34.0276025
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

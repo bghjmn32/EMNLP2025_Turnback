@@ -1,0 +1,249 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.437158,
+    -34.062078,
+    18.44266,
+    -34.055615
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.437158,
+        -34.062078,
+        18.44266,
+        -34.055615
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1293.3,
+            "duration": 931.1,
+            "steps": [
+              {
+                "distance": 106.5,
+                "duration": 76.7,
+                "type": 11,
+                "instruction": "Head east on Conifer Road",
+                "name": "Conifer Road",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 38.4,
+                "duration": 27.7,
+                "type": 0,
+                "instruction": "Turn left onto Myrtle Road",
+                "name": "Myrtle Road",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 148.7,
+                "duration": 107.1,
+                "type": 1,
+                "instruction": "Turn right onto Norfolk Road",
+                "name": "Norfolk Road",
+                "way_points": [
+                  2,
+                  4
+                ]
+              },
+              {
+                "distance": 104.4,
+                "duration": 75.1,
+                "type": 0,
+                "instruction": "Turn left onto Fir Lane",
+                "name": "Fir Lane",
+                "way_points": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "distance": 160.5,
+                "duration": 115.6,
+                "type": 1,
+                "instruction": "Turn right onto Bluegum Lane",
+                "name": "Bluegum Lane",
+                "way_points": [
+                  5,
+                  9
+                ]
+              },
+              {
+                "distance": 374.6,
+                "duration": 269.7,
+                "type": 0,
+                "instruction": "Turn left onto Lismore Avenue",
+                "name": "Lismore Avenue",
+                "way_points": [
+                  9,
+                  15
+                ]
+              },
+              {
+                "distance": 360.1,
+                "duration": 259.3,
+                "type": 0,
+                "instruction": "Turn left onto Maryland Avenue",
+                "name": "Maryland Avenue",
+                "way_points": [
+                  15,
+                  22
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Maryland Avenue, straight ahead",
+                "name": "-",
+                "way_points": [
+                  22,
+                  22
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          22
+        ],
+        "summary": {
+          "distance": 1293.3,
+          "duration": 931.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.437158,
+            -34.061889
+          ],
+          [
+            18.438291,
+            -34.062078
+          ],
+          [
+            18.438354,
+            -34.061736
+          ],
+          [
+            18.439173,
+            -34.061874
+          ],
+          [
+            18.439936,
+            -34.062003
+          ],
+          [
+            18.440163,
+            -34.061084
+          ],
+          [
+            18.440931,
+            -34.061217
+          ],
+          [
+            18.441706,
+            -34.06134
+          ],
+          [
+            18.441798,
+            -34.061351
+          ],
+          [
+            18.441873,
+            -34.061342
+          ],
+          [
+            18.441437,
+            -34.059722
+          ],
+          [
+            18.441414,
+            -34.05956
+          ],
+          [
+            18.441429,
+            -34.05949
+          ],
+          [
+            18.441473,
+            -34.059408
+          ],
+          [
+            18.441875,
+            -34.059065
+          ],
+          [
+            18.44266,
+            -34.058433
+          ],
+          [
+            18.442174,
+            -34.057736
+          ],
+          [
+            18.441601,
+            -34.056877
+          ],
+          [
+            18.441558,
+            -34.056817
+          ],
+          [
+            18.441503,
+            -34.056742
+          ],
+          [
+            18.441418,
+            -34.05662
+          ],
+          [
+            18.441288,
+            -34.056441
+          ],
+          [
+            18.440733,
+            -34.055615
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756805930033,
+    "query": {
+      "coordinates": [
+        [
+          18.4371576,
+          -34.0618893
+        ],
+        [
+          18.4407334,
+          -34.0556154
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

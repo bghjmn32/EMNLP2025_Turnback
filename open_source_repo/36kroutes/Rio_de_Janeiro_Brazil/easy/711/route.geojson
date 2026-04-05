@@ -1,0 +1,173 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.466409,
+    -22.990321,
+    -43.464398,
+    -22.981423
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.466409,
+        -22.990321,
+        -43.464398,
+        -22.981423
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1198.3,
+            "duration": 862.8,
+            "steps": [
+              {
+                "distance": 404.0,
+                "duration": 290.9,
+                "type": 11,
+                "instruction": "Head north on Rua Salomão Malina",
+                "name": "Rua Salomão Malina",
+                "way_points": [
+                  0,
+                  5
+                ]
+              },
+              {
+                "distance": 211.1,
+                "duration": 152.0,
+                "type": 1,
+                "instruction": "Turn right onto Rua Paulo Roberto Matheus",
+                "name": "Rua Paulo Roberto Matheus",
+                "way_points": [
+                  5,
+                  7
+                ]
+              },
+              {
+                "distance": 583.2,
+                "duration": 419.9,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  7,
+                  14
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  14,
+                  14
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          14
+        ],
+        "summary": {
+          "distance": 1198.3,
+          "duration": 862.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.464956,
+            -22.990321
+          ],
+          [
+            -43.465142,
+            -22.989901
+          ],
+          [
+            -43.465569,
+            -22.988922
+          ],
+          [
+            -43.465625,
+            -22.988786
+          ],
+          [
+            -43.465745,
+            -22.988494
+          ],
+          [
+            -43.466409,
+            -22.986943
+          ],
+          [
+            -43.465501,
+            -22.986648
+          ],
+          [
+            -43.464451,
+            -22.986348
+          ],
+          [
+            -43.465365,
+            -22.983982
+          ],
+          [
+            -43.464682,
+            -22.982695
+          ],
+          [
+            -43.464641,
+            -22.9824
+          ],
+          [
+            -43.46463,
+            -22.982312
+          ],
+          [
+            -43.4645,
+            -22.98184
+          ],
+          [
+            -43.464443,
+            -22.981669
+          ],
+          [
+            -43.464398,
+            -22.981423
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756393967785,
+    "query": {
+      "coordinates": [
+        [
+          -43.4649557,
+          -22.9903209
+        ],
+        [
+          -43.4643984,
+          -22.9814227
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

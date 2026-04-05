@@ -1,0 +1,248 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.508607,
+    -34.02289,
+    18.5144,
+    -34.020919
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.508607,
+        -34.02289,
+        18.5144,
+        -34.020919
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 807.6,
+            "duration": 581.4,
+            "steps": [
+              {
+                "distance": 15.1,
+                "duration": 10.9,
+                "type": 11,
+                "instruction": "Head northeast",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 12.0,
+                "duration": 8.6,
+                "type": 0,
+                "instruction": "Turn left onto De Wet Road",
+                "name": "De Wet Road",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 121.6,
+                "duration": 87.6,
+                "type": 1,
+                "instruction": "Turn right onto Topsham Road",
+                "name": "Topsham Road",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 153.9,
+                "duration": 110.8,
+                "type": 1,
+                "instruction": "Turn right onto Whimple Close",
+                "name": "Whimple Close",
+                "way_points": [
+                  3,
+                  5
+                ]
+              },
+              {
+                "distance": 5.8,
+                "duration": 4.2,
+                "type": 1,
+                "instruction": "Turn right onto Andersen Street",
+                "name": "Andersen Street",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 79.9,
+                "duration": 57.5,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  6,
+                  9
+                ]
+              },
+              {
+                "distance": 368.2,
+                "duration": 265.1,
+                "type": 0,
+                "instruction": "Turn left onto Melville Road",
+                "name": "Melville Road",
+                "way_points": [
+                  9,
+                  18
+                ]
+              },
+              {
+                "distance": 51.1,
+                "duration": 36.8,
+                "type": 1,
+                "instruction": "Turn right onto Ferndale Drive",
+                "name": "Ferndale Drive",
+                "way_points": [
+                  18,
+                  19
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Ferndale Drive, straight ahead",
+                "name": "-",
+                "way_points": [
+                  19,
+                  19
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          19
+        ],
+        "summary": {
+          "distance": 807.6,
+          "duration": 581.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.508607,
+            -34.021538
+          ],
+          [
+            18.508744,
+            -34.021464
+          ],
+          [
+            18.508691,
+            -34.021366
+          ],
+          [
+            18.509896,
+            -34.020919
+          ],
+          [
+            18.510241,
+            -34.021551
+          ],
+          [
+            18.510579,
+            -34.022182
+          ],
+          [
+            18.510521,
+            -34.022203
+          ],
+          [
+            18.510551,
+            -34.022263
+          ],
+          [
+            18.510684,
+            -34.022756
+          ],
+          [
+            18.510762,
+            -34.02289
+          ],
+          [
+            18.511677,
+            -34.022555
+          ],
+          [
+            18.511823,
+            -34.02264
+          ],
+          [
+            18.511952,
+            -34.022525
+          ],
+          [
+            18.511944,
+            -34.022478
+          ],
+          [
+            18.51206,
+            -34.02244
+          ],
+          [
+            18.512511,
+            -34.022191
+          ],
+          [
+            18.512559,
+            -34.022164
+          ],
+          [
+            18.51313,
+            -34.021857
+          ],
+          [
+            18.514085,
+            -34.021303
+          ],
+          [
+            18.5144,
+            -34.021682
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756805811401,
+    "query": {
+      "coordinates": [
+        [
+          18.5086069,
+          -34.0215385
+        ],
+        [
+          18.5144,
+          -34.0216816
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

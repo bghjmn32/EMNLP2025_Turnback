@@ -1,0 +1,189 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    103.841891,
+    1.279341,
+    103.844912,
+    1.281519
+  ],
+  "features": [
+    {
+      "bbox": [
+        103.841891,
+        1.279341,
+        103.844912,
+        1.281519
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 531.2,
+            "duration": 382.5,
+            "steps": [
+              {
+                "distance": 191.4,
+                "duration": 137.8,
+                "type": 11,
+                "instruction": "Head northwest",
+                "name": "-",
+                "way_points": [
+                  0,
+                  11
+                ]
+              },
+              {
+                "distance": 140.3,
+                "duration": 101.0,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  11,
+                  14
+                ]
+              },
+              {
+                "distance": 199.5,
+                "duration": 143.6,
+                "type": 1,
+                "instruction": "Turn right onto Kreta Ayer Road",
+                "name": "Kreta Ayer Road",
+                "way_points": [
+                  14,
+                  18
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Kreta Ayer Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  18,
+                  18
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          18
+        ],
+        "summary": {
+          "distance": 531.2,
+          "duration": 382.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            103.844912,
+            1.279341
+          ],
+          [
+            103.844675,
+            1.27967
+          ],
+          [
+            103.844543,
+            1.279778
+          ],
+          [
+            103.844231,
+            1.280209
+          ],
+          [
+            103.844145,
+            1.280277
+          ],
+          [
+            103.844114,
+            1.280283
+          ],
+          [
+            103.844013,
+            1.28032
+          ],
+          [
+            103.843983,
+            1.28033
+          ],
+          [
+            103.843992,
+            1.280385
+          ],
+          [
+            103.843976,
+            1.280416
+          ],
+          [
+            103.843912,
+            1.280466
+          ],
+          [
+            103.843812,
+            1.280593
+          ],
+          [
+            103.843504,
+            1.280377
+          ],
+          [
+            103.843134,
+            1.280131
+          ],
+          [
+            103.842737,
+            1.279938
+          ],
+          [
+            103.842677,
+            1.280088
+          ],
+          [
+            103.84235,
+            1.280714
+          ],
+          [
+            103.841979,
+            1.281364
+          ],
+          [
+            103.841891,
+            1.281519
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756395091809,
+    "query": {
+      "coordinates": [
+        [
+          103.8449115,
+          1.2793406
+        ],
+        [
+          103.8418912,
+          1.2815191
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

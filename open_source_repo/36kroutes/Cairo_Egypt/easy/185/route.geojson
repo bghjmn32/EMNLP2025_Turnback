@@ -1,0 +1,222 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    31.323828,
+    29.83728,
+    31.325351,
+    29.842682
+  ],
+  "features": [
+    {
+      "bbox": [
+        31.323828,
+        29.83728,
+        31.325351,
+        29.842682
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 873.9,
+            "duration": 629.2,
+            "steps": [
+              {
+                "distance": 173.9,
+                "duration": 125.2,
+                "type": 11,
+                "instruction": "Head northeast",
+                "name": "-",
+                "way_points": [
+                  0,
+                  4
+                ]
+              },
+              {
+                "distance": 174.4,
+                "duration": 125.6,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  4,
+                  9
+                ]
+              },
+              {
+                "distance": 63.5,
+                "duration": 45.7,
+                "type": 0,
+                "instruction": "Turn left onto شارع عمر بن عبد العزيز",
+                "name": "شارع عمر بن عبد العزيز",
+                "way_points": [
+                  9,
+                  10
+                ]
+              },
+              {
+                "distance": 202.3,
+                "duration": 145.7,
+                "type": 3,
+                "instruction": "Turn sharp right onto شارع القبلي",
+                "name": "شارع القبلي",
+                "way_points": [
+                  10,
+                  14
+                ]
+              },
+              {
+                "distance": 89.5,
+                "duration": 64.4,
+                "type": 2,
+                "instruction": "Turn sharp left onto شارع 12",
+                "name": "شارع 12",
+                "way_points": [
+                  14,
+                  15
+                ]
+              },
+              {
+                "distance": 170.3,
+                "duration": 122.6,
+                "type": 1,
+                "instruction": "Turn right onto شارع 1",
+                "name": "شارع 1",
+                "way_points": [
+                  15,
+                  18
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at شارع 1, straight ahead",
+                "name": "-",
+                "way_points": [
+                  18,
+                  18
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          18
+        ],
+        "summary": {
+          "distance": 873.9,
+          "duration": 629.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            31.323828,
+            29.83728
+          ],
+          [
+            31.324533,
+            29.837684
+          ],
+          [
+            31.325044,
+            29.837977
+          ],
+          [
+            31.32514,
+            29.838032
+          ],
+          [
+            31.325351,
+            29.838112
+          ],
+          [
+            31.325304,
+            29.838223
+          ],
+          [
+            31.325209,
+            29.838547
+          ],
+          [
+            31.325029,
+            29.839294
+          ],
+          [
+            31.324971,
+            29.839548
+          ],
+          [
+            31.324975,
+            29.839642
+          ],
+          [
+            31.324326,
+            29.839546
+          ],
+          [
+            31.324798,
+            29.840238
+          ],
+          [
+            31.324986,
+            29.840547
+          ],
+          [
+            31.325018,
+            29.840677
+          ],
+          [
+            31.325191,
+            29.841188
+          ],
+          [
+            31.324264,
+            29.841151
+          ],
+          [
+            31.324247,
+            29.841514
+          ],
+          [
+            31.324202,
+            29.842238
+          ],
+          [
+            31.324183,
+            29.842682
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756730545189,
+    "query": {
+      "coordinates": [
+        [
+          31.323828,
+          29.8372803
+        ],
+        [
+          31.3241826,
+          29.8426816
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

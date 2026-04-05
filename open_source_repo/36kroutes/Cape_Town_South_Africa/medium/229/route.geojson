@@ -1,0 +1,234 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.545732,
+    -33.900282,
+    18.55569,
+    -33.895872
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.545732,
+        -33.900282,
+        18.55569,
+        -33.895872
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1449.1,
+            "duration": 1043.4,
+            "steps": [
+              {
+                "distance": 69.6,
+                "duration": 50.1,
+                "type": 11,
+                "instruction": "Head east on Marshall Road",
+                "name": "Marshall Road",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 494.1,
+                "duration": 355.7,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  14
+                ]
+              },
+              {
+                "distance": 816.2,
+                "duration": 587.6,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  14,
+                  16
+                ]
+              },
+              {
+                "distance": 25.6,
+                "duration": 18.4,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  16,
+                  19
+                ]
+              },
+              {
+                "distance": 8.3,
+                "duration": 6.0,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  19,
+                  20
+                ]
+              },
+              {
+                "distance": 35.4,
+                "duration": 25.5,
+                "type": 1,
+                "instruction": "Turn right onto Alice Street",
+                "name": "Alice Street",
+                "way_points": [
+                  20,
+                  21
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Alice Street, straight ahead",
+                "name": "-",
+                "way_points": [
+                  21,
+                  21
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          21
+        ],
+        "summary": {
+          "distance": 1449.1,
+          "duration": 1043.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.554951,
+            -33.900282
+          ],
+          [
+            18.55569,
+            -33.900156
+          ],
+          [
+            18.55513,
+            -33.897888
+          ],
+          [
+            18.555095,
+            -33.897868
+          ],
+          [
+            18.555062,
+            -33.897872
+          ],
+          [
+            18.555051,
+            -33.897825
+          ],
+          [
+            18.555042,
+            -33.897791
+          ],
+          [
+            18.555081,
+            -33.89778
+          ],
+          [
+            18.555096,
+            -33.897752
+          ],
+          [
+            18.555017,
+            -33.897433
+          ],
+          [
+            18.554927,
+            -33.897075
+          ],
+          [
+            18.554824,
+            -33.896624
+          ],
+          [
+            18.554746,
+            -33.896336
+          ],
+          [
+            18.554648,
+            -33.895984
+          ],
+          [
+            18.55462,
+            -33.895875
+          ],
+          [
+            18.554563,
+            -33.895872
+          ],
+          [
+            18.545956,
+            -33.897338
+          ],
+          [
+            18.545939,
+            -33.897271
+          ],
+          [
+            18.545914,
+            -33.89717
+          ],
+          [
+            18.5459,
+            -33.897113
+          ],
+          [
+            18.545812,
+            -33.897128
+          ],
+          [
+            18.545732,
+            -33.896816
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756806735425,
+    "query": {
+      "coordinates": [
+        [
+          18.5549511,
+          -33.9002821
+        ],
+        [
+          18.5457319,
+          -33.8968163
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

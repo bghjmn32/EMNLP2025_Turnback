@@ -1,0 +1,206 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.474954,
+    -33.948981,
+    18.476443,
+    -33.944311
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.474954,
+        -33.948981,
+        18.476443,
+        -33.944311
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 745.7,
+            "duration": 536.9,
+            "steps": [
+              {
+                "distance": 67.2,
+                "duration": 48.4,
+                "type": 11,
+                "instruction": "Head west",
+                "name": "-",
+                "way_points": [
+                  0,
+                  5
+                ]
+              },
+              {
+                "distance": 82.0,
+                "duration": 59.0,
+                "type": 1,
+                "instruction": "Turn right onto Dixton Road",
+                "name": "Dixton Road",
+                "way_points": [
+                  5,
+                  9
+                ]
+              },
+              {
+                "distance": 394.0,
+                "duration": 283.7,
+                "type": 0,
+                "instruction": "Turn left onto Malleson Road",
+                "name": "Malleson Road",
+                "way_points": [
+                  9,
+                  11
+                ]
+              },
+              {
+                "distance": 7.5,
+                "duration": 5.4,
+                "type": 0,
+                "instruction": "Turn left onto Durban Road, M18",
+                "name": "Durban Road, M18",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 109.8,
+                "duration": 79.1,
+                "type": 1,
+                "instruction": "Turn right onto Selby Road",
+                "name": "Selby Road",
+                "way_points": [
+                  12,
+                  13
+                ]
+              },
+              {
+                "distance": 85.2,
+                "duration": 61.3,
+                "type": 1,
+                "instruction": "Turn right onto Sydney Road",
+                "name": "Sydney Road",
+                "way_points": [
+                  13,
+                  14
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Sydney Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  14,
+                  14
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          14
+        ],
+        "summary": {
+          "distance": 745.7,
+          "duration": 536.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.476443,
+            -33.944311
+          ],
+          [
+            18.476368,
+            -33.944319
+          ],
+          [
+            18.476178,
+            -33.944449
+          ],
+          [
+            18.476133,
+            -33.944493
+          ],
+          [
+            18.475837,
+            -33.94443
+          ],
+          [
+            18.475805,
+            -33.944435
+          ],
+          [
+            18.475788,
+            -33.944419
+          ],
+          [
+            18.475764,
+            -33.944405
+          ],
+          [
+            18.475664,
+            -33.944409
+          ],
+          [
+            18.474954,
+            -33.944558
+          ],
+          [
+            18.475449,
+            -33.946197
+          ],
+          [
+            18.475995,
+            -33.947995
+          ],
+          [
+            18.476076,
+            -33.947997
+          ],
+          [
+            18.475977,
+            -33.948981
+          ],
+          [
+            18.475055,
+            -33.948933
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756805020733,
+    "query": {
+      "coordinates": [
+        [
+          18.4764426,
+          -33.9443111
+        ],
+        [
+          18.4750551,
+          -33.9489335
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

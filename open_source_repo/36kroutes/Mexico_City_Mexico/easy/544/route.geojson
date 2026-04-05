@@ -1,0 +1,242 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.19578,
+    19.455242,
+    -99.191618,
+    19.458495
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.19578,
+        19.455242,
+        -99.191618,
+        19.458495
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 752.8,
+            "duration": 542.0,
+            "steps": [
+              {
+                "distance": 22.5,
+                "duration": 16.2,
+                "type": 11,
+                "instruction": "Head northwest",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 109.8,
+                "duration": 79.1,
+                "type": 1,
+                "instruction": "Turn right onto Calzada Legaria",
+                "name": "Calzada Legaria",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 128.5,
+                "duration": 92.5,
+                "type": 0,
+                "instruction": "Turn left onto Calle Lago Amatitlán",
+                "name": "Calle Lago Amatitlán",
+                "way_points": [
+                  2,
+                  5
+                ]
+              },
+              {
+                "distance": 67.9,
+                "duration": 48.9,
+                "type": 1,
+                "instruction": "Turn right onto 1ra Cerrada Legaria",
+                "name": "1ra Cerrada Legaria",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 43.9,
+                "duration": 31.6,
+                "type": 0,
+                "instruction": "Turn left onto Cerrada Lago Enare",
+                "name": "Cerrada Lago Enare",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 77.0,
+                "duration": 55.5,
+                "type": 1,
+                "instruction": "Turn right onto Calle Lago Enare",
+                "name": "Calle Lago Enare",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 80.8,
+                "duration": 58.2,
+                "type": 0,
+                "instruction": "Turn left onto Calzada Legaria",
+                "name": "Calzada Legaria",
+                "way_points": [
+                  8,
+                  9
+                ]
+              },
+              {
+                "distance": 21.3,
+                "duration": 15.4,
+                "type": 2,
+                "instruction": "Turn sharp left onto Calle Lago Superior",
+                "name": "Calle Lago Superior",
+                "way_points": [
+                  9,
+                  10
+                ]
+              },
+              {
+                "distance": 103.9,
+                "duration": 74.8,
+                "type": 1,
+                "instruction": "Turn right onto Calle Lago Esclavos",
+                "name": "Calle Lago Esclavos",
+                "way_points": [
+                  10,
+                  11
+                ]
+              },
+              {
+                "distance": 97.0,
+                "duration": 69.9,
+                "type": 1,
+                "instruction": "Turn right onto Calle Lago Güija",
+                "name": "Calle Lago Güija",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Lago Güija, straight ahead",
+                "name": "-",
+                "way_points": [
+                  12,
+                  12
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          12
+        ],
+        "summary": {
+          "distance": 752.8,
+          "duration": 542.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.195645,
+            19.455242
+          ],
+          [
+            -99.19578,
+            19.455399
+          ],
+          [
+            -99.194927,
+            19.455972
+          ],
+          [
+            -99.19494,
+            19.456031
+          ],
+          [
+            -99.194933,
+            19.456132
+          ],
+          [
+            -99.194662,
+            19.457093
+          ],
+          [
+            -99.194035,
+            19.456939
+          ],
+          [
+            -99.19394,
+            19.457324
+          ],
+          [
+            -99.193232,
+            19.457138
+          ],
+          [
+            -99.192593,
+            19.457545
+          ],
+          [
+            -99.192789,
+            19.457599
+          ],
+          [
+            -99.19251,
+            19.458495
+          ],
+          [
+            -99.191618,
+            19.458264
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306448704,
+    "query": {
+      "coordinates": [
+        [
+          -99.195645,
+          19.4552421
+        ],
+        [
+          -99.1916177,
+          19.4582638
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

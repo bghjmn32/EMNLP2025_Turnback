@@ -1,0 +1,185 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    151.188406,
+    -33.671944,
+    151.195139,
+    -33.66812
+  ],
+  "features": [
+    {
+      "bbox": [
+        151.188406,
+        -33.671944,
+        151.195139,
+        -33.66812
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 938.4,
+            "duration": 675.6,
+            "steps": [
+              {
+                "distance": 32.8,
+                "duration": 23.6,
+                "type": 11,
+                "instruction": "Head southwest",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 437.9,
+                "duration": 315.3,
+                "type": 0,
+                "instruction": "Turn left onto Eurabba Road",
+                "name": "Eurabba Road",
+                "way_points": [
+                  1,
+                  9
+                ]
+              },
+              {
+                "distance": 467.7,
+                "duration": 336.7,
+                "type": 0,
+                "instruction": "Turn left onto Booralie Road",
+                "name": "Booralie Road",
+                "way_points": [
+                  9,
+                  17
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Booralie Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  17,
+                  17
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          17
+        ],
+        "summary": {
+          "distance": 938.4,
+          "duration": 675.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            151.188595,
+            -33.66812
+          ],
+          [
+            151.188406,
+            -33.66837
+          ],
+          [
+            151.1889,
+            -33.668547
+          ],
+          [
+            151.18902,
+            -33.668721
+          ],
+          [
+            151.190003,
+            -33.670367
+          ],
+          [
+            151.190034,
+            -33.670448
+          ],
+          [
+            151.190243,
+            -33.670559
+          ],
+          [
+            151.190915,
+            -33.671015
+          ],
+          [
+            151.191085,
+            -33.671149
+          ],
+          [
+            151.19127,
+            -33.671339
+          ],
+          [
+            151.192727,
+            -33.670493
+          ],
+          [
+            151.193001,
+            -33.670395
+          ],
+          [
+            151.193094,
+            -33.670389
+          ],
+          [
+            151.193399,
+            -33.670421
+          ],
+          [
+            151.19375,
+            -33.670526
+          ],
+          [
+            151.193873,
+            -33.670593
+          ],
+          [
+            151.194001,
+            -33.670716
+          ],
+          [
+            151.195139,
+            -33.671944
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756392922000,
+    "query": {
+      "coordinates": [
+        [
+          151.1885947,
+          -33.6681201
+        ],
+        [
+          151.1951387,
+          -33.671944
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

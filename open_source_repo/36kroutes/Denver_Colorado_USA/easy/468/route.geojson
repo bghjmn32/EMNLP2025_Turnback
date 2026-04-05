@@ -1,0 +1,300 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -105.006115,
+    39.897333,
+    -105.004631,
+    39.902467
+  ],
+  "features": [
+    {
+      "bbox": [
+        -105.006115,
+        39.897333,
+        -105.004631,
+        39.902467
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 970.5,
+            "duration": 698.7,
+            "steps": [
+              {
+                "distance": 24.8,
+                "duration": 17.9,
+                "type": 11,
+                "instruction": "Head east",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 525.8,
+                "duration": 378.5,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  15
+                ]
+              },
+              {
+                "distance": 22.4,
+                "duration": 16.1,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  15,
+                  18
+                ]
+              },
+              {
+                "distance": 23.5,
+                "duration": 16.9,
+                "type": 0,
+                "instruction": "Turn left onto North Pecos Street",
+                "name": "North Pecos Street",
+                "way_points": [
+                  18,
+                  20
+                ]
+              },
+              {
+                "distance": 99.5,
+                "duration": 71.6,
+                "type": 6,
+                "instruction": "Continue straight onto West 111th Way",
+                "name": "West 111th Way",
+                "way_points": [
+                  20,
+                  21
+                ]
+              },
+              {
+                "distance": 48.9,
+                "duration": 35.2,
+                "type": 4,
+                "instruction": "Turn slight left onto West 111th Way",
+                "name": "West 111th Way",
+                "way_points": [
+                  21,
+                  24
+                ]
+              },
+              {
+                "distance": 143.9,
+                "duration": 103.6,
+                "type": 1,
+                "instruction": "Turn right onto Park Vista Drive",
+                "name": "Park Vista Drive",
+                "way_points": [
+                  24,
+                  29
+                ]
+              },
+              {
+                "distance": 81.8,
+                "duration": 58.9,
+                "type": 4,
+                "instruction": "Turn slight left onto West 111th Avenue",
+                "name": "West 111th Avenue",
+                "way_points": [
+                  29,
+                  32
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at West 111th Avenue, straight ahead",
+                "name": "-",
+                "way_points": [
+                  32,
+                  32
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          32
+        ],
+        "summary": {
+          "distance": 970.5,
+          "duration": 698.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -105.005575,
+            39.901125
+          ],
+          [
+            -105.005284,
+            39.901125
+          ],
+          [
+            -105.005284,
+            39.901636
+          ],
+          [
+            -105.005281,
+            39.901748
+          ],
+          [
+            -105.005237,
+            39.901875
+          ],
+          [
+            -105.005106,
+            39.901996
+          ],
+          [
+            -105.00483,
+            39.902178
+          ],
+          [
+            -105.004823,
+            39.902207
+          ],
+          [
+            -105.004974,
+            39.90233
+          ],
+          [
+            -105.00515,
+            39.902414
+          ],
+          [
+            -105.005248,
+            39.902443
+          ],
+          [
+            -105.005516,
+            39.902467
+          ],
+          [
+            -105.005859,
+            39.902467
+          ],
+          [
+            -105.00594,
+            39.902449
+          ],
+          [
+            -105.005929,
+            39.899942
+          ],
+          [
+            -105.005894,
+            39.899891
+          ],
+          [
+            -105.005955,
+            39.899856
+          ],
+          [
+            -105.006018,
+            39.899807
+          ],
+          [
+            -105.006115,
+            39.899811
+          ],
+          [
+            -105.006112,
+            39.899711
+          ],
+          [
+            -105.006106,
+            39.899599
+          ],
+          [
+            -105.006094,
+            39.898705
+          ],
+          [
+            -105.006046,
+            39.89866
+          ],
+          [
+            -105.005973,
+            39.898634
+          ],
+          [
+            -105.005556,
+            39.898631
+          ],
+          [
+            -105.005625,
+            39.898405
+          ],
+          [
+            -105.005642,
+            39.898255
+          ],
+          [
+            -105.005638,
+            39.897528
+          ],
+          [
+            -105.005603,
+            39.897436
+          ],
+          [
+            -105.005528,
+            39.897369
+          ],
+          [
+            -105.00541,
+            39.897334
+          ],
+          [
+            -105.00534,
+            39.897333
+          ],
+          [
+            -105.004631,
+            39.897547
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756305869036,
+    "query": {
+      "coordinates": [
+        [
+          -105.005575,
+          39.9011247
+        ],
+        [
+          -105.004631,
+          39.897547
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

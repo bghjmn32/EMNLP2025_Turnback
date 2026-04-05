@@ -1,0 +1,196 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    11.577506,
+    48.132689,
+    11.579639,
+    48.136035
+  ],
+  "features": [
+    {
+      "bbox": [
+        11.577506,
+        48.132689,
+        11.579639,
+        48.136035
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 497.9,
+            "duration": 358.5,
+            "steps": [
+              {
+                "distance": 8.1,
+                "duration": 5.8,
+                "type": 11,
+                "instruction": "Head southeast on Buttermelcherstraße",
+                "name": "Buttermelcherstraße",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 331.0,
+                "duration": 238.3,
+                "type": 0,
+                "instruction": "Turn left onto Klenzestraße",
+                "name": "Klenzestraße",
+                "way_points": [
+                  1,
+                  11
+                ]
+              },
+              {
+                "distance": 49.6,
+                "duration": 35.7,
+                "type": 0,
+                "instruction": "Turn left onto Westenriederstraße",
+                "name": "Westenriederstraße",
+                "way_points": [
+                  11,
+                  13
+                ]
+              },
+              {
+                "distance": 109.2,
+                "duration": 78.6,
+                "type": 1,
+                "instruction": "Turn right onto Radlsteg",
+                "name": "Radlsteg",
+                "way_points": [
+                  13,
+                  17
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Radlsteg, straight ahead",
+                "name": "-",
+                "way_points": [
+                  17,
+                  17
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          17
+        ],
+        "summary": {
+          "distance": 497.9,
+          "duration": 358.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            11.577506,
+            48.132723
+          ],
+          [
+            11.577602,
+            48.132689
+          ],
+          [
+            11.577711,
+            48.132752
+          ],
+          [
+            11.578794,
+            48.133386
+          ],
+          [
+            11.579577,
+            48.133886
+          ],
+          [
+            11.579639,
+            48.133964
+          ],
+          [
+            11.579635,
+            48.134044
+          ],
+          [
+            11.57963,
+            48.134507
+          ],
+          [
+            11.579629,
+            48.134539
+          ],
+          [
+            11.579622,
+            48.134604
+          ],
+          [
+            11.579627,
+            48.134715
+          ],
+          [
+            11.579616,
+            48.135071
+          ],
+          [
+            11.57916,
+            48.135082
+          ],
+          [
+            11.578947,
+            48.135075
+          ],
+          [
+            11.578945,
+            48.135288
+          ],
+          [
+            11.578989,
+            48.135578
+          ],
+          [
+            11.579168,
+            48.13597
+          ],
+          [
+            11.579197,
+            48.136035
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756137296033,
+    "query": {
+      "coordinates": [
+        [
+          11.5775061,
+          48.1327227
+        ],
+        [
+          11.5791971,
+          48.1360346
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,233 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -105.066168,
+    39.689535,
+    -105.056112,
+    39.691717
+  ],
+  "features": [
+    {
+      "bbox": [
+        -105.066168,
+        39.689535,
+        -105.056112,
+        39.691717
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1147.0,
+            "duration": 825.8,
+            "steps": [
+              {
+                "distance": 38.1,
+                "duration": 27.4,
+                "type": 11,
+                "instruction": "Head northeast",
+                "name": "-",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 16.9,
+                "duration": 12.2,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 25.3,
+                "duration": 18.2,
+                "type": 13,
+                "instruction": "Keep right",
+                "name": "-",
+                "way_points": [
+                  3,
+                  5
+                ]
+              },
+              {
+                "distance": 6.3,
+                "duration": 4.6,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 48.0,
+                "duration": 34.5,
+                "type": 1,
+                "instruction": "Turn right onto South Kendall Street",
+                "name": "South Kendall Street",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 810.5,
+                "duration": 583.5,
+                "type": 0,
+                "instruction": "Turn left onto West Arkansas Avenue",
+                "name": "West Arkansas Avenue",
+                "way_points": [
+                  7,
+                  17
+                ]
+              },
+              {
+                "distance": 201.9,
+                "duration": 145.4,
+                "type": 1,
+                "instruction": "Turn right onto South Chase Street",
+                "name": "South Chase Street",
+                "way_points": [
+                  17,
+                  18
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at South Chase Street, straight ahead",
+                "name": "-",
+                "way_points": [
+                  18,
+                  18
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          18
+        ],
+        "summary": {
+          "distance": 1147.0,
+          "duration": 825.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -105.066168,
+            39.691233
+          ],
+          [
+            -105.066151,
+            39.691239
+          ],
+          [
+            -105.065758,
+            39.691368
+          ],
+          [
+            -105.065756,
+            39.691521
+          ],
+          [
+            -105.065653,
+            39.691604
+          ],
+          [
+            -105.065653,
+            39.691717
+          ],
+          [
+            -105.065579,
+            39.691716
+          ],
+          [
+            -105.065584,
+            39.691284
+          ],
+          [
+            -105.06462,
+            39.691276
+          ],
+          [
+            -105.063679,
+            39.691292
+          ],
+          [
+            -105.062713,
+            39.691294
+          ],
+          [
+            -105.061788,
+            39.691313
+          ],
+          [
+            -105.060836,
+            39.691304
+          ],
+          [
+            -105.059911,
+            39.691316
+          ],
+          [
+            -105.058971,
+            39.691323
+          ],
+          [
+            -105.057946,
+            39.691344
+          ],
+          [
+            -105.057027,
+            39.69135
+          ],
+          [
+            -105.056114,
+            39.69135
+          ],
+          [
+            -105.056112,
+            39.689535
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756305666404,
+    "query": {
+      "coordinates": [
+        [
+          -105.0661676,
+          39.6912334
+        ],
+        [
+          -105.0561124,
+          39.6895345
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

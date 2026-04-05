@@ -1,0 +1,157 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -79.324637,
+    43.704468,
+    -79.320726,
+    43.707543
+  ],
+  "features": [
+    {
+      "bbox": [
+        -79.324637,
+        43.704468,
+        -79.320726,
+        43.707543
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 558.5,
+            "duration": 402.1,
+            "steps": [
+              {
+                "distance": 9.8,
+                "duration": 7.0,
+                "type": 11,
+                "instruction": "Head northeast",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 340.2,
+                "duration": 244.9,
+                "type": 1,
+                "instruction": "Turn right onto Elswick Road",
+                "name": "Elswick Road",
+                "way_points": [
+                  1,
+                  5
+                ]
+              },
+              {
+                "distance": 208.5,
+                "duration": 150.1,
+                "type": 0,
+                "instruction": "Turn left onto Parkview Hill Crescent",
+                "name": "Parkview Hill Crescent",
+                "way_points": [
+                  5,
+                  10
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Parkview Hill Crescent, straight ahead",
+                "name": "-",
+                "way_points": [
+                  10,
+                  10
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          10
+        ],
+        "summary": {
+          "distance": 558.5,
+          "duration": 402.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -79.324637,
+            43.7075
+          ],
+          [
+            -79.32453,
+            43.707543
+          ],
+          [
+            -79.323936,
+            43.706132
+          ],
+          [
+            -79.323909,
+            43.706075
+          ],
+          [
+            -79.323315,
+            43.704663
+          ],
+          [
+            -79.323298,
+            43.704616
+          ],
+          [
+            -79.323034,
+            43.704648
+          ],
+          [
+            -79.322762,
+            43.70466
+          ],
+          [
+            -79.322519,
+            43.704653
+          ],
+          [
+            -79.322083,
+            43.704615
+          ],
+          [
+            -79.320726,
+            43.704468
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756124697287,
+    "query": {
+      "coordinates": [
+        [
+          -79.3246372,
+          43.7075002
+        ],
+        [
+          -79.3207264,
+          43.7044684
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

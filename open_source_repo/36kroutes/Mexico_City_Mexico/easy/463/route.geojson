@@ -1,0 +1,255 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.18254,
+    19.367615,
+    -99.180273,
+    19.374408
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.18254,
+        19.367615,
+        -99.180273,
+        19.374408
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 985.9,
+            "duration": 709.9,
+            "steps": [
+              {
+                "distance": 6.8,
+                "duration": 4.9,
+                "type": 11,
+                "instruction": "Head north",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 5.8,
+                "duration": 4.1,
+                "type": 3,
+                "instruction": "Turn sharp right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 170.7,
+                "duration": 122.9,
+                "type": 2,
+                "instruction": "Turn sharp left onto Avenida Insurgentes Sur",
+                "name": "Avenida Insurgentes Sur",
+                "way_points": [
+                  2,
+                  6
+                ]
+              },
+              {
+                "distance": 6.7,
+                "duration": 4.8,
+                "type": 0,
+                "instruction": "Turn left onto Calle Asturias",
+                "name": "Calle Asturias",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 124.5,
+                "duration": 89.6,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  7,
+                  10
+                ]
+              },
+              {
+                "distance": 243.5,
+                "duration": 175.3,
+                "type": 0,
+                "instruction": "Turn left onto Calle Actipan",
+                "name": "Calle Actipan",
+                "way_points": [
+                  10,
+                  14
+                ]
+              },
+              {
+                "distance": 148.2,
+                "duration": 106.7,
+                "type": 1,
+                "instruction": "Turn right onto Calle Málaga",
+                "name": "Calle Málaga",
+                "way_points": [
+                  14,
+                  15
+                ]
+              },
+              {
+                "distance": 46.0,
+                "duration": 33.1,
+                "type": 0,
+                "instruction": "Turn left onto Calle Algeciras",
+                "name": "Calle Algeciras",
+                "way_points": [
+                  15,
+                  16
+                ]
+              },
+              {
+                "distance": 233.8,
+                "duration": 168.3,
+                "type": 1,
+                "instruction": "Turn right onto Calle Jerez",
+                "name": "Calle Jerez",
+                "way_points": [
+                  16,
+                  18
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Jerez, straight ahead",
+                "name": "-",
+                "way_points": [
+                  18,
+                  18
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          18
+        ],
+        "summary": {
+          "distance": 985.9,
+          "duration": 709.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.181107,
+            19.367615
+          ],
+          [
+            -99.181088,
+            19.367674
+          ],
+          [
+            -99.181044,
+            19.367643
+          ],
+          [
+            -99.18087,
+            19.368161
+          ],
+          [
+            -99.180836,
+            19.368264
+          ],
+          [
+            -99.18073,
+            19.368585
+          ],
+          [
+            -99.180563,
+            19.369109
+          ],
+          [
+            -99.180621,
+            19.369134
+          ],
+          [
+            -99.180487,
+            19.369545
+          ],
+          [
+            -99.180293,
+            19.37014
+          ],
+          [
+            -99.180273,
+            19.370204
+          ],
+          [
+            -99.180888,
+            19.370424
+          ],
+          [
+            -99.181183,
+            19.37053
+          ],
+          [
+            -99.181746,
+            19.37073
+          ],
+          [
+            -99.182445,
+            19.370978
+          ],
+          [
+            -99.182123,
+            19.372275
+          ],
+          [
+            -99.18254,
+            19.372403
+          ],
+          [
+            -99.182272,
+            19.373186
+          ],
+          [
+            -99.18187,
+            19.374408
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306141826,
+    "query": {
+      "coordinates": [
+        [
+          -99.1811068,
+          19.367615
+        ],
+        [
+          -99.18187,
+          19.3744079
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

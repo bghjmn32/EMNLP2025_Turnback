@@ -1,0 +1,180 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.197334,
+    19.373864,
+    -99.194977,
+    19.380518
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.197334,
+        19.373864,
+        -99.194977,
+        19.380518
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 824.2,
+            "duration": 593.4,
+            "steps": [
+              {
+                "distance": 5.1,
+                "duration": 3.6,
+                "type": 11,
+                "instruction": "Head west",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 167.2,
+                "duration": 120.4,
+                "type": 0,
+                "instruction": "Turn left onto Calle Santa Lucía",
+                "name": "Calle Santa Lucía",
+                "way_points": [
+                  1,
+                  6
+                ]
+              },
+              {
+                "distance": 92.3,
+                "duration": 66.5,
+                "type": 13,
+                "instruction": "Keep right onto Calle Santa Lucía",
+                "name": "Calle Santa Lucía",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 559.7,
+                "duration": 402.9,
+                "type": 0,
+                "instruction": "Turn left onto Calle Juan Cousin",
+                "name": "Calle Juan Cousin",
+                "way_points": [
+                  7,
+                  13
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Juan Cousin, straight ahead",
+                "name": "-",
+                "way_points": [
+                  13,
+                  13
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          13
+        ],
+        "summary": {
+          "distance": 824.2,
+          "duration": 593.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.194977,
+            19.380515
+          ],
+          [
+            -99.195025,
+            19.380518
+          ],
+          [
+            -99.195294,
+            19.380274
+          ],
+          [
+            -99.195388,
+            19.380176
+          ],
+          [
+            -99.195635,
+            19.379865
+          ],
+          [
+            -99.19584,
+            19.379628
+          ],
+          [
+            -99.196069,
+            19.379386
+          ],
+          [
+            -99.196756,
+            19.378867
+          ],
+          [
+            -99.19686,
+            19.377872
+          ],
+          [
+            -99.197,
+            19.376822
+          ],
+          [
+            -99.19711,
+            19.375933
+          ],
+          [
+            -99.197125,
+            19.37581
+          ],
+          [
+            -99.197226,
+            19.374772
+          ],
+          [
+            -99.197334,
+            19.373864
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756304899044,
+    "query": {
+      "coordinates": [
+        [
+          -99.194977,
+          19.3805147
+        ],
+        [
+          -99.197334,
+          19.3738635
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -104.861364,
+    39.790305,
+    -104.853819,
+    39.793679
+  ],
+  "features": [
+    {
+      "bbox": [
+        -104.861364,
+        39.790305,
+        -104.853819,
+        39.793679
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1019.8,
+            "duration": 734.2,
+            "steps": [
+              {
+                "distance": 375.1,
+                "duration": 270.1,
+                "type": 11,
+                "instruction": "Head south on Joliet Street",
+                "name": "Joliet Street",
+                "way_points": [
+                  0,
+                  9
+                ]
+              },
+              {
+                "distance": 644.7,
+                "duration": 464.2,
+                "type": 0,
+                "instruction": "Turn left onto East 51st Avenue",
+                "name": "East 51st Avenue",
+                "way_points": [
+                  9,
+                  21
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at East 51st Avenue, straight ahead",
+                "name": "-",
+                "way_points": [
+                  21,
+                  21
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          21
+        ],
+        "summary": {
+          "distance": 1019.8,
+          "duration": 734.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -104.861351,
+            39.793679
+          ],
+          [
+            -104.861355,
+            39.79313
+          ],
+          [
+            -104.861354,
+            39.792909
+          ],
+          [
+            -104.861354,
+            39.792614
+          ],
+          [
+            -104.861355,
+            39.792242
+          ],
+          [
+            -104.861356,
+            39.792084
+          ],
+          [
+            -104.86136,
+            39.791381
+          ],
+          [
+            -104.861362,
+            39.791049
+          ],
+          [
+            -104.861363,
+            39.790612
+          ],
+          [
+            -104.861364,
+            39.790305
+          ],
+          [
+            -104.859258,
+            39.790311
+          ],
+          [
+            -104.859035,
+            39.790311
+          ],
+          [
+            -104.858997,
+            39.790311
+          ],
+          [
+            -104.856931,
+            39.790317
+          ],
+          [
+            -104.856643,
+            39.790318
+          ],
+          [
+            -104.856619,
+            39.790318
+          ],
+          [
+            -104.856021,
+            39.790319
+          ],
+          [
+            -104.855569,
+            39.790321
+          ],
+          [
+            -104.855054,
+            39.790322
+          ],
+          [
+            -104.854878,
+            39.790323
+          ],
+          [
+            -104.854577,
+            39.790324
+          ],
+          [
+            -104.853819,
+            39.790328
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756304741902,
+    "query": {
+      "coordinates": [
+        [
+          -104.8613511,
+          39.7936786
+        ],
+        [
+          -104.853819,
+          39.7903275
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

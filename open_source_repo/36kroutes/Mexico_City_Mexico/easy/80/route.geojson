@@ -1,0 +1,187 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.097255,
+    19.328666,
+    -99.093625,
+    19.330877
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.097255,
+        19.328666,
+        -99.093625,
+        19.330877
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 558.4,
+            "duration": 402.1,
+            "steps": [
+              {
+                "distance": 286.3,
+                "duration": 206.1,
+                "type": 11,
+                "instruction": "Head east on Calle Rodolfo Diesel",
+                "name": "Calle Rodolfo Diesel",
+                "way_points": [
+                  0,
+                  6
+                ]
+              },
+              {
+                "distance": 48.4,
+                "duration": 34.8,
+                "type": 1,
+                "instruction": "Turn right onto Calle Juan de la Cierva",
+                "name": "Calle Juan de la Cierva",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 93.7,
+                "duration": 67.5,
+                "type": 0,
+                "instruction": "Turn left onto Calle Carlos Hank González",
+                "name": "Calle Carlos Hank González",
+                "way_points": [
+                  7,
+                  9
+                ]
+              },
+              {
+                "distance": 31.1,
+                "duration": 22.4,
+                "type": 6,
+                "instruction": "Continue straight onto Avenida Hidalgo",
+                "name": "Avenida Hidalgo",
+                "way_points": [
+                  9,
+                  11
+                ]
+              },
+              {
+                "distance": 98.9,
+                "duration": 71.2,
+                "type": 3,
+                "instruction": "Turn sharp right onto Cerrada Primera Parque Nacional",
+                "name": "Cerrada Primera Parque Nacional",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Cerrada Primera Parque Nacional, straight ahead",
+                "name": "-",
+                "way_points": [
+                  12,
+                  12
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          12
+        ],
+        "summary": {
+          "distance": 558.4,
+          "duration": 402.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.097255,
+            19.330877
+          ],
+          [
+            -99.096576,
+            19.330675
+          ],
+          [
+            -99.096217,
+            19.33057
+          ],
+          [
+            -99.095745,
+            19.33043
+          ],
+          [
+            -99.095532,
+            19.330378
+          ],
+          [
+            -99.095091,
+            19.330251
+          ],
+          [
+            -99.09465,
+            19.330113
+          ],
+          [
+            -99.094764,
+            19.329691
+          ],
+          [
+            -99.094253,
+            19.329505
+          ],
+          [
+            -99.093913,
+            19.329445
+          ],
+          [
+            -99.093741,
+            19.329407
+          ],
+          [
+            -99.093625,
+            19.329379
+          ],
+          [
+            -99.094189,
+            19.328666
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756304384801,
+    "query": {
+      "coordinates": [
+        [
+          -99.097255,
+          19.3308767
+        ],
+        [
+          -99.094189,
+          19.3286661
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

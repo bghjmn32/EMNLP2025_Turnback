@@ -1,0 +1,234 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    11.48661,
+    48.128827,
+    11.491453,
+    48.133916
+  ],
+  "features": [
+    {
+      "bbox": [
+        11.48661,
+        48.128827,
+        11.491453,
+        48.133916
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 895.5,
+            "duration": 644.7,
+            "steps": [
+              {
+                "distance": 18.1,
+                "duration": 13.1,
+                "type": 11,
+                "instruction": "Head northwest",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 82.8,
+                "duration": 59.6,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  4
+                ]
+              },
+              {
+                "distance": 274.1,
+                "duration": 197.4,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  4,
+                  14
+                ]
+              },
+              {
+                "distance": 286.9,
+                "duration": 206.6,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  14,
+                  18
+                ]
+              },
+              {
+                "distance": 85.7,
+                "duration": 61.7,
+                "type": 0,
+                "instruction": "Turn left onto Rechpacherstraße",
+                "name": "Rechpacherstraße",
+                "way_points": [
+                  18,
+                  19
+                ]
+              },
+              {
+                "distance": 147.8,
+                "duration": 106.4,
+                "type": 1,
+                "instruction": "Turn right onto Junkerstraße",
+                "name": "Junkerstraße",
+                "way_points": [
+                  19,
+                  21
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Junkerstraße, straight ahead",
+                "name": "-",
+                "way_points": [
+                  21,
+                  21
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          21
+        ],
+        "summary": {
+          "distance": 895.5,
+          "duration": 644.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            11.491453,
+            48.128827
+          ],
+          [
+            11.491263,
+            48.12893
+          ],
+          [
+            11.491283,
+            48.129222
+          ],
+          [
+            11.491405,
+            48.129474
+          ],
+          [
+            11.491412,
+            48.129662
+          ],
+          [
+            11.49107,
+            48.129732
+          ],
+          [
+            11.490869,
+            48.12976
+          ],
+          [
+            11.490135,
+            48.129842
+          ],
+          [
+            11.489785,
+            48.129851
+          ],
+          [
+            11.489587,
+            48.129832
+          ],
+          [
+            11.489131,
+            48.129837
+          ],
+          [
+            11.488573,
+            48.129852
+          ],
+          [
+            11.48844,
+            48.1299
+          ],
+          [
+            11.488229,
+            48.130018
+          ],
+          [
+            11.487836,
+            48.130037
+          ],
+          [
+            11.487838,
+            48.130084
+          ],
+          [
+            11.487838,
+            48.130153
+          ],
+          [
+            11.487823,
+            48.132052
+          ],
+          [
+            11.4878,
+            48.132617
+          ],
+          [
+            11.486647,
+            48.132587
+          ],
+          [
+            11.486615,
+            48.133325
+          ],
+          [
+            11.48661,
+            48.133916
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756139750825,
+    "query": {
+      "coordinates": [
+        [
+          11.4914528,
+          48.128827
+        ],
+        [
+          11.4866101,
+          48.1339157
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

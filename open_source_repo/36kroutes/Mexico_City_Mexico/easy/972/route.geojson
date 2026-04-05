@@ -1,0 +1,240 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.200178,
+    19.472504,
+    -99.193504,
+    19.475281
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.200178,
+        19.472504,
+        -99.193504,
+        19.475281
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 992.2,
+            "duration": 714.4,
+            "steps": [
+              {
+                "distance": 208.7,
+                "duration": 150.3,
+                "type": 11,
+                "instruction": "Head east on Avenida 5 de Mayo",
+                "name": "Avenida 5 de Mayo",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 23.1,
+                "duration": 16.6,
+                "type": 2,
+                "instruction": "Turn sharp left",
+                "name": "-",
+                "way_points": [
+                  3,
+                  5
+                ]
+              },
+              {
+                "distance": 32.3,
+                "duration": 23.2,
+                "type": 1,
+                "instruction": "Turn right onto Avenida 5 de Mayo",
+                "name": "Avenida 5 de Mayo",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 142.8,
+                "duration": 102.8,
+                "type": 0,
+                "instruction": "Turn left onto Calle Norte 137",
+                "name": "Calle Norte 137",
+                "way_points": [
+                  6,
+                  9
+                ]
+              },
+              {
+                "distance": 49.1,
+                "duration": 35.3,
+                "type": 6,
+                "instruction": "Continue straight onto Calle Norte 137",
+                "name": "Calle Norte 137",
+                "way_points": [
+                  9,
+                  10
+                ]
+              },
+              {
+                "distance": 84.5,
+                "duration": 60.9,
+                "type": 1,
+                "instruction": "Turn right onto Calle Poniente 78",
+                "name": "Calle Poniente 78",
+                "way_points": [
+                  10,
+                  12
+                ]
+              },
+              {
+                "distance": 135.7,
+                "duration": 97.7,
+                "type": 0,
+                "instruction": "Turn left onto Calle Norte 135-A",
+                "name": "Calle Norte 135-A",
+                "way_points": [
+                  12,
+                  14
+                ]
+              },
+              {
+                "distance": 316.0,
+                "duration": 227.5,
+                "type": 1,
+                "instruction": "Turn right onto Calle 1",
+                "name": "Calle 1",
+                "way_points": [
+                  14,
+                  17
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle 1, straight ahead",
+                "name": "-",
+                "way_points": [
+                  17,
+                  17
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          17
+        ],
+        "summary": {
+          "distance": 992.2,
+          "duration": 714.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.200178,
+            19.473082
+          ],
+          [
+            -99.200068,
+            19.47305
+          ],
+          [
+            -99.198961,
+            19.472717
+          ],
+          [
+            -99.198283,
+            19.472504
+          ],
+          [
+            -99.198285,
+            19.472608
+          ],
+          [
+            -99.198217,
+            19.47269
+          ],
+          [
+            -99.197923,
+            19.472603
+          ],
+          [
+            -99.197736,
+            19.473251
+          ],
+          [
+            -99.197643,
+            19.473581
+          ],
+          [
+            -99.197574,
+            19.473844
+          ],
+          [
+            -99.197456,
+            19.474271
+          ],
+          [
+            -99.197066,
+            19.474181
+          ],
+          [
+            -99.196676,
+            19.474079
+          ],
+          [
+            -99.196544,
+            19.474782
+          ],
+          [
+            -99.196451,
+            19.475281
+          ],
+          [
+            -99.194829,
+            19.474945
+          ],
+          [
+            -99.19464,
+            19.474906
+          ],
+          [
+            -99.193504,
+            19.474681
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756308628143,
+    "query": {
+      "coordinates": [
+        [
+          -99.2001776,
+          19.4730823
+        ],
+        [
+          -99.1935043,
+          19.4746814
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

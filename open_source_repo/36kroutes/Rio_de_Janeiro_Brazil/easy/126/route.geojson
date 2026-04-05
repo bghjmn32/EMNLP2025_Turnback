@@ -1,0 +1,149 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.570845,
+    -22.874408,
+    -43.567627,
+    -22.873368
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.570845,
+        -22.874408,
+        -43.567627,
+        -22.873368
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 510.4,
+            "duration": 367.5,
+            "steps": [
+              {
+                "distance": 92.1,
+                "duration": 66.3,
+                "type": 11,
+                "instruction": "Head north on Rua José Tales Valanzuela",
+                "name": "Rua José Tales Valanzuela",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 310.7,
+                "duration": 223.7,
+                "type": 1,
+                "instruction": "Turn right onto Rua João Cirilo de Oliveira",
+                "name": "Rua João Cirilo de Oliveira",
+                "way_points": [
+                  2,
+                  7
+                ]
+              },
+              {
+                "distance": 107.6,
+                "duration": 77.5,
+                "type": 1,
+                "instruction": "Turn right onto Rua Aldair Crisciuma",
+                "name": "Rua Aldair Crisciuma",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Rua Aldair Crisciuma, straight ahead",
+                "name": "-",
+                "way_points": [
+                  8,
+                  8
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          8
+        ],
+        "summary": {
+          "distance": 510.4,
+          "duration": 367.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.570754,
+            -22.874408
+          ],
+          [
+            -43.570793,
+            -22.874046
+          ],
+          [
+            -43.570845,
+            -22.873584
+          ],
+          [
+            -43.57023,
+            -22.873527
+          ],
+          [
+            -43.570144,
+            -22.873517
+          ],
+          [
+            -43.567999,
+            -22.873369
+          ],
+          [
+            -43.56791,
+            -22.873368
+          ],
+          [
+            -43.567825,
+            -22.873391
+          ],
+          [
+            -43.567627,
+            -22.874341
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756390754624,
+    "query": {
+      "coordinates": [
+        [
+          -43.5707545,
+          -22.8744077
+        ],
+        [
+          -43.5676266,
+          -22.8743415
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

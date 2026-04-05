@@ -1,0 +1,202 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.149577,
+    19.362601,
+    -99.147111,
+    19.374149
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.149577,
+        19.362601,
+        -99.147111,
+        19.374149
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1421.9,
+            "duration": 1023.7,
+            "steps": [
+              {
+                "distance": 192.5,
+                "duration": 138.6,
+                "type": 11,
+                "instruction": "Head south on Privada Santa Cruz",
+                "name": "Privada Santa Cruz",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 40.9,
+                "duration": 29.4,
+                "type": 0,
+                "instruction": "Turn left onto Calzada Santa Cruz",
+                "name": "Calzada Santa Cruz",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 684.4,
+                "duration": 492.8,
+                "type": 1,
+                "instruction": "Turn right onto Calle Filipinas",
+                "name": "Calle Filipinas",
+                "way_points": [
+                  2,
+                  8
+                ]
+              },
+              {
+                "distance": 280.0,
+                "duration": 201.6,
+                "type": 6,
+                "instruction": "Continue straight onto Calle Filipinas",
+                "name": "Calle Filipinas",
+                "way_points": [
+                  8,
+                  11
+                ]
+              },
+              {
+                "distance": 82.5,
+                "duration": 59.4,
+                "type": 1,
+                "instruction": "Turn right onto Avenida Repúblicas",
+                "name": "Avenida Repúblicas",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 141.6,
+                "duration": 102.0,
+                "type": 0,
+                "instruction": "Turn left onto Calle Odesa",
+                "name": "Calle Odesa",
+                "way_points": [
+                  12,
+                  13
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Odesa, straight ahead",
+                "name": "-",
+                "way_points": [
+                  13,
+                  13
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          13
+        ],
+        "summary": {
+          "distance": 1421.9,
+          "duration": 1023.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.147174,
+            19.374149
+          ],
+          [
+            -99.147471,
+            19.372441
+          ],
+          [
+            -99.147111,
+            19.372302
+          ],
+          [
+            -99.147249,
+            19.371494
+          ],
+          [
+            -99.14745,
+            19.370211
+          ],
+          [
+            -99.14767,
+            19.368934
+          ],
+          [
+            -99.147898,
+            19.367645
+          ],
+          [
+            -99.148101,
+            19.366422
+          ],
+          [
+            -99.148144,
+            19.366225
+          ],
+          [
+            -99.148327,
+            19.36524
+          ],
+          [
+            -99.148341,
+            19.365153
+          ],
+          [
+            -99.148584,
+            19.363741
+          ],
+          [
+            -99.149361,
+            19.363858
+          ],
+          [
+            -99.149577,
+            19.362601
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756311447191,
+    "query": {
+      "coordinates": [
+        [
+          -99.1471737,
+          19.374149
+        ],
+        [
+          -99.1495767,
+          19.3626008
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

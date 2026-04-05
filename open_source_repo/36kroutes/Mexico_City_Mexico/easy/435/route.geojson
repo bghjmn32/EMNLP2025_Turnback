@@ -1,0 +1,209 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.270556,
+    19.319678,
+    -99.268939,
+    19.32385
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.270556,
+        19.319678,
+        -99.268939,
+        19.32385
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 591.3,
+            "duration": 425.7,
+            "steps": [
+              {
+                "distance": 16.4,
+                "duration": 11.8,
+                "type": 11,
+                "instruction": "Head northeast on Calle Magnolia",
+                "name": "Calle Magnolia",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 275.4,
+                "duration": 198.3,
+                "type": 3,
+                "instruction": "Turn sharp right onto Calle Cedros",
+                "name": "Calle Cedros",
+                "way_points": [
+                  1,
+                  8
+                ]
+              },
+              {
+                "distance": 299.5,
+                "duration": 215.7,
+                "type": 4,
+                "instruction": "Turn slight left onto Calle Cedros",
+                "name": "Calle Cedros",
+                "way_points": [
+                  8,
+                  23
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Cedros, straight ahead",
+                "name": "-",
+                "way_points": [
+                  23,
+                  23
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          23
+        ],
+        "summary": {
+          "distance": 591.3,
+          "duration": 425.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.269112,
+            19.323744
+          ],
+          [
+            -99.269005,
+            19.32385
+          ],
+          [
+            -99.268939,
+            19.323091
+          ],
+          [
+            -99.269255,
+            19.322544
+          ],
+          [
+            -99.269373,
+            19.322303
+          ],
+          [
+            -99.269403,
+            19.322139
+          ],
+          [
+            -99.269479,
+            19.321865
+          ],
+          [
+            -99.269601,
+            19.321595
+          ],
+          [
+            -99.269623,
+            19.321514
+          ],
+          [
+            -99.269589,
+            19.321457
+          ],
+          [
+            -99.269244,
+            19.321253
+          ],
+          [
+            -99.269189,
+            19.321181
+          ],
+          [
+            -99.269155,
+            19.321119
+          ],
+          [
+            -99.269174,
+            19.321038
+          ],
+          [
+            -99.269268,
+            19.320874
+          ],
+          [
+            -99.269315,
+            19.320744
+          ],
+          [
+            -99.269372,
+            19.32058
+          ],
+          [
+            -99.269406,
+            19.320389
+          ],
+          [
+            -99.269482,
+            19.320336
+          ],
+          [
+            -99.269509,
+            19.32028
+          ],
+          [
+            -99.269758,
+            19.32014
+          ],
+          [
+            -99.270116,
+            19.31993
+          ],
+          [
+            -99.270265,
+            19.319805
+          ],
+          [
+            -99.270556,
+            19.319678
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306027016,
+    "query": {
+      "coordinates": [
+        [
+          -99.2691125,
+          19.3237436
+        ],
+        [
+          -99.2705557,
+          19.3196778
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

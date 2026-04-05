@@ -1,0 +1,217 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    151.072474,
+    -34.028356,
+    151.075977,
+    -34.023763
+  ],
+  "features": [
+    {
+      "bbox": [
+        151.072474,
+        -34.028356,
+        151.075977,
+        -34.023763
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 797.9,
+            "duration": 574.5,
+            "steps": [
+              {
+                "distance": 12.1,
+                "duration": 8.7,
+                "type": 11,
+                "instruction": "Head north",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 18.6,
+                "duration": 13.4,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  4
+                ]
+              },
+              {
+                "distance": 127.1,
+                "duration": 91.5,
+                "type": 6,
+                "instruction": "Continue straight",
+                "name": "-",
+                "way_points": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "distance": 7.4,
+                "duration": 5.3,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 198.8,
+                "duration": 143.1,
+                "type": 1,
+                "instruction": "Turn right onto Oak Road",
+                "name": "Oak Road",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 90.5,
+                "duration": 65.2,
+                "type": 1,
+                "instruction": "Turn right onto The Boulevarde",
+                "name": "The Boulevarde",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 343.5,
+                "duration": 247.3,
+                "type": 0,
+                "instruction": "Turn left onto Mokera Avenue",
+                "name": "Mokera Avenue",
+                "way_points": [
+                  8,
+                  14
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Mokera Avenue, straight ahead",
+                "name": "-",
+                "way_points": [
+                  14,
+                  14
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          14
+        ],
+        "summary": {
+          "distance": 797.9,
+          "duration": 574.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            151.072525,
+            -34.028356
+          ],
+          [
+            151.072547,
+            -34.028248
+          ],
+          [
+            151.072488,
+            -34.028215
+          ],
+          [
+            151.072474,
+            -34.028188
+          ],
+          [
+            151.072478,
+            -34.028109
+          ],
+          [
+            151.072704,
+            -34.026982
+          ],
+          [
+            151.072625,
+            -34.026971
+          ],
+          [
+            151.072994,
+            -34.02521
+          ],
+          [
+            151.073964,
+            -34.025342
+          ],
+          [
+            151.074244,
+            -34.02385
+          ],
+          [
+            151.074258,
+            -34.023763
+          ],
+          [
+            151.075266,
+            -34.023907
+          ],
+          [
+            151.07532,
+            -34.023982
+          ],
+          [
+            151.075697,
+            -34.024047
+          ],
+          [
+            151.075977,
+            -34.024097
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756390391159,
+    "query": {
+      "coordinates": [
+        [
+          151.0725248,
+          -34.0283556
+        ],
+        [
+          151.0759766,
+          -34.0240974
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

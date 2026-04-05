@@ -1,0 +1,176 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -105.103553,
+    39.861303,
+    -105.100031,
+    39.865283
+  ],
+  "features": [
+    {
+      "bbox": [
+        -105.103553,
+        39.861303,
+        -105.100031,
+        39.865283
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 912.1,
+            "duration": 656.7,
+            "steps": [
+              {
+                "distance": 239.5,
+                "duration": 172.5,
+                "type": 11,
+                "instruction": "Head east on West 93rd Avenue",
+                "name": "West 93rd Avenue",
+                "way_points": [
+                  0,
+                  5
+                ]
+              },
+              {
+                "distance": 437.4,
+                "duration": 314.9,
+                "type": 1,
+                "instruction": "Turn right onto Garrison Street",
+                "name": "Garrison Street",
+                "way_points": [
+                  5,
+                  9
+                ]
+              },
+              {
+                "distance": 80.4,
+                "duration": 57.9,
+                "type": 0,
+                "instruction": "Turn left onto West 90th Place",
+                "name": "West 90th Place",
+                "way_points": [
+                  9,
+                  10
+                ]
+              },
+              {
+                "distance": 154.8,
+                "duration": 111.5,
+                "type": 0,
+                "instruction": "Turn left onto Flower Court",
+                "name": "Flower Court",
+                "way_points": [
+                  10,
+                  12
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Flower Court, straight ahead",
+                "name": "-",
+                "way_points": [
+                  12,
+                  12
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          12
+        ],
+        "summary": {
+          "distance": 912.1,
+          "duration": 656.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -105.103553,
+            39.864838
+          ],
+          [
+            -105.102742,
+            39.864997
+          ],
+          [
+            -105.101892,
+            39.865201
+          ],
+          [
+            -105.10145,
+            39.865279
+          ],
+          [
+            -105.101246,
+            39.865283
+          ],
+          [
+            -105.100832,
+            39.865221
+          ],
+          [
+            -105.100932,
+            39.865042
+          ],
+          [
+            -105.100953,
+            39.864968
+          ],
+          [
+            -105.100972,
+            39.86336
+          ],
+          [
+            -105.100991,
+            39.861305
+          ],
+          [
+            -105.10005,
+            39.861303
+          ],
+          [
+            -105.100031,
+            39.861988
+          ],
+          [
+            -105.100037,
+            39.862695
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756307205291,
+    "query": {
+      "coordinates": [
+        [
+          -105.1035526,
+          39.8648382
+        ],
+        [
+          -105.1000369,
+          39.8626954
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

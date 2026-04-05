@@ -1,0 +1,236 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -105.080868,
+    39.731184,
+    -105.074323,
+    39.73591
+  ],
+  "features": [
+    {
+      "bbox": [
+        -105.080868,
+        39.731184,
+        -105.074323,
+        39.73591
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1057.2,
+            "duration": 761.2,
+            "steps": [
+              {
+                "distance": 121.5,
+                "duration": 87.5,
+                "type": 11,
+                "instruction": "Head south on Reed Street",
+                "name": "Reed Street",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 94.1,
+                "duration": 67.7,
+                "type": 1,
+                "instruction": "Turn right onto West 12th Avenue",
+                "name": "West 12th Avenue",
+                "way_points": [
+                  2,
+                  4
+                ]
+              },
+              {
+                "distance": 194.3,
+                "duration": 139.9,
+                "type": 0,
+                "instruction": "Turn left onto Saulsbury Street",
+                "name": "Saulsbury Street",
+                "way_points": [
+                  4,
+                  6
+                ]
+              },
+              {
+                "distance": 11.0,
+                "duration": 7.9,
+                "type": 1,
+                "instruction": "Turn right onto West 10th Avenue, CR 22",
+                "name": "West 10th Avenue, CR 22",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 109.1,
+                "duration": 78.5,
+                "type": 0,
+                "instruction": "Turn left onto Saulsbury Street",
+                "name": "Saulsbury Street",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 104.5,
+                "duration": 75.2,
+                "type": 1,
+                "instruction": "Turn right onto West 9th Place",
+                "name": "West 9th Place",
+                "way_points": [
+                  8,
+                  11
+                ]
+              },
+              {
+                "distance": 76.6,
+                "duration": 55.1,
+                "type": 0,
+                "instruction": "Turn left onto Teller Street",
+                "name": "Teller Street",
+                "way_points": [
+                  11,
+                  13
+                ]
+              },
+              {
+                "distance": 346.3,
+                "duration": 249.3,
+                "type": 1,
+                "instruction": "Turn right onto West 9th Avenue",
+                "name": "West 9th Avenue",
+                "way_points": [
+                  13,
+                  16
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at West 9th Avenue, straight ahead",
+                "name": "-",
+                "way_points": [
+                  16,
+                  16
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          16
+        ],
+        "summary": {
+          "distance": 1057.2,
+          "duration": 761.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -105.074326,
+            39.73591
+          ],
+          [
+            -105.074323,
+            39.734939
+          ],
+          [
+            -105.074375,
+            39.734825
+          ],
+          [
+            -105.074678,
+            39.7348
+          ],
+          [
+            -105.075473,
+            39.734793
+          ],
+          [
+            -105.075472,
+            39.734142
+          ],
+          [
+            -105.075469,
+            39.733045
+          ],
+          [
+            -105.075597,
+            39.733045
+          ],
+          [
+            -105.075597,
+            39.732064
+          ],
+          [
+            -105.075814,
+            39.732001
+          ],
+          [
+            -105.075958,
+            39.731978
+          ],
+          [
+            -105.076796,
+            39.731906
+          ],
+          [
+            -105.076858,
+            39.731399
+          ],
+          [
+            -105.076819,
+            39.731222
+          ],
+          [
+            -105.077605,
+            39.731216
+          ],
+          [
+            -105.078546,
+            39.731198
+          ],
+          [
+            -105.080868,
+            39.731184
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756304017804,
+    "query": {
+      "coordinates": [
+        [
+          -105.0743258,
+          39.7359104
+        ],
+        [
+          -105.0808678,
+          39.7311844
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

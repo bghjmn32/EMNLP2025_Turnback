@@ -1,0 +1,153 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.011037,
+    19.281724,
+    -99.006403,
+    19.285312
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.011037,
+        19.281724,
+        -99.006403,
+        19.285312
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 821.7,
+            "duration": 591.6,
+            "steps": [
+              {
+                "distance": 57.2,
+                "duration": 41.2,
+                "type": 11,
+                "instruction": "Head south on Calle Vicente Castañeda",
+                "name": "Calle Vicente Castañeda",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 492.3,
+                "duration": 354.4,
+                "type": 0,
+                "instruction": "Turn left onto Calle Mar de los Nublados",
+                "name": "Calle Mar de los Nublados",
+                "way_points": [
+                  1,
+                  6
+                ]
+              },
+              {
+                "distance": 272.2,
+                "duration": 196.0,
+                "type": 1,
+                "instruction": "Turn right onto Calle Montes Apeninos",
+                "name": "Calle Montes Apeninos",
+                "way_points": [
+                  6,
+                  9
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Montes Apeninos, straight ahead",
+                "name": "-",
+                "way_points": [
+                  9,
+                  9
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          9
+        ],
+        "summary": {
+          "distance": 821.7,
+          "duration": 591.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.01087,
+            19.285312
+          ],
+          [
+            -99.011037,
+            19.284822
+          ],
+          [
+            -99.010317,
+            19.284708
+          ],
+          [
+            -99.010224,
+            19.284696
+          ],
+          [
+            -99.008938,
+            19.284511
+          ],
+          [
+            -99.007672,
+            19.284324
+          ],
+          [
+            -99.006403,
+            19.284141
+          ],
+          [
+            -99.006547,
+            19.283267
+          ],
+          [
+            -99.006686,
+            19.282369
+          ],
+          [
+            -99.006808,
+            19.281724
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756307399692,
+    "query": {
+      "coordinates": [
+        [
+          -99.0108699,
+          19.2853123
+        ],
+        [
+          -99.0068081,
+          19.2817239
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

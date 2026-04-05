@@ -1,0 +1,188 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.45709,
+    -33.994111,
+    18.461869,
+    -33.992108
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.45709,
+        -33.994111,
+        18.461869,
+        -33.992108
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 659.7,
+            "duration": 475.0,
+            "steps": [
+              {
+                "distance": 186.6,
+                "duration": 134.4,
+                "type": 11,
+                "instruction": "Head northwest on Tennant Road, M152",
+                "name": "Tennant Road, M152",
+                "way_points": [
+                  0,
+                  4
+                ]
+              },
+              {
+                "distance": 274.3,
+                "duration": 197.5,
+                "type": 0,
+                "instruction": "Turn left onto Herschel Walk",
+                "name": "Herschel Walk",
+                "way_points": [
+                  4,
+                  12
+                ]
+              },
+              {
+                "distance": 12.8,
+                "duration": 9.2,
+                "type": 1,
+                "instruction": "Turn right onto Torquay Avenue",
+                "name": "Torquay Avenue",
+                "way_points": [
+                  12,
+                  13
+                ]
+              },
+              {
+                "distance": 186.0,
+                "duration": 133.9,
+                "type": 0,
+                "instruction": "Turn left onto Primrose Avenue",
+                "name": "Primrose Avenue",
+                "way_points": [
+                  13,
+                  15
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Primrose Avenue, straight ahead",
+                "name": "-",
+                "way_points": [
+                  15,
+                  15
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          15
+        ],
+        "summary": {
+          "distance": 659.7,
+          "duration": 475.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.461869,
+            -33.993623
+          ],
+          [
+            18.461621,
+            -33.993132
+          ],
+          [
+            18.461447,
+            -33.992829
+          ],
+          [
+            18.461107,
+            -33.992274
+          ],
+          [
+            18.461002,
+            -33.992108
+          ],
+          [
+            18.460915,
+            -33.992133
+          ],
+          [
+            18.460881,
+            -33.992158
+          ],
+          [
+            18.460833,
+            -33.992254
+          ],
+          [
+            18.460784,
+            -33.992436
+          ],
+          [
+            18.460739,
+            -33.992537
+          ],
+          [
+            18.460658,
+            -33.992655
+          ],
+          [
+            18.460303,
+            -33.993006
+          ],
+          [
+            18.459192,
+            -33.994008
+          ],
+          [
+            18.459095,
+            -33.993925
+          ],
+          [
+            18.457356,
+            -33.994077
+          ],
+          [
+            18.45709,
+            -33.994111
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756804140635,
+    "query": {
+      "coordinates": [
+        [
+          18.4618685,
+          -33.9936235
+        ],
+        [
+          18.4570903,
+          -33.9941112
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

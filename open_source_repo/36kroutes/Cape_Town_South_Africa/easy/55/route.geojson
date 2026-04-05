@@ -1,0 +1,290 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.462001,
+    -33.977497,
+    18.465809,
+    -33.975299
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.462001,
+        -33.977497,
+        18.465809,
+        -33.975299
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 688.4,
+            "duration": 495.6,
+            "steps": [
+              {
+                "distance": 84.1,
+                "duration": 60.6,
+                "type": 11,
+                "instruction": "Head north on Hemlock Street",
+                "name": "Hemlock Street",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 18.5,
+                "duration": 13.3,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 93.4,
+                "duration": 67.3,
+                "type": 12,
+                "instruction": "Keep left",
+                "name": "-",
+                "way_points": [
+                  3,
+                  5
+                ]
+              },
+              {
+                "distance": 172.2,
+                "duration": 124.0,
+                "type": 0,
+                "instruction": "Turn left onto Main Road, M4",
+                "name": "Main Road, M4",
+                "way_points": [
+                  5,
+                  8
+                ]
+              },
+              {
+                "distance": 15.2,
+                "duration": 10.9,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  8,
+                  10
+                ]
+              },
+              {
+                "distance": 11.3,
+                "duration": 8.1,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  10,
+                  12
+                ]
+              },
+              {
+                "distance": 49.3,
+                "duration": 35.5,
+                "type": 13,
+                "instruction": "Keep right",
+                "name": "-",
+                "way_points": [
+                  12,
+                  16
+                ]
+              },
+              {
+                "distance": 4.2,
+                "duration": 3.1,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  16,
+                  17
+                ]
+              },
+              {
+                "distance": 96.3,
+                "duration": 69.3,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  17,
+                  21
+                ]
+              },
+              {
+                "distance": 143.8,
+                "duration": 103.5,
+                "type": 0,
+                "instruction": "Turn left onto Glenhof Road",
+                "name": "Glenhof Road",
+                "way_points": [
+                  21,
+                  24
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Glenhof Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  24,
+                  24
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          24
+        ],
+        "summary": {
+          "distance": 688.4,
+          "duration": 495.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.465809,
+            -33.976114
+          ],
+          [
+            18.465739,
+            -33.975664
+          ],
+          [
+            18.465797,
+            -33.975365
+          ],
+          [
+            18.465613,
+            -33.975299
+          ],
+          [
+            18.464795,
+            -33.975312
+          ],
+          [
+            18.464601,
+            -33.975324
+          ],
+          [
+            18.464639,
+            -33.975839
+          ],
+          [
+            18.464665,
+            -33.976196
+          ],
+          [
+            18.464723,
+            -33.97687
+          ],
+          [
+            18.464612,
+            -33.976884
+          ],
+          [
+            18.46456,
+            -33.976891
+          ],
+          [
+            18.464566,
+            -33.976941
+          ],
+          [
+            18.464542,
+            -33.976988
+          ],
+          [
+            18.464333,
+            -33.977111
+          ],
+          [
+            18.464285,
+            -33.977144
+          ],
+          [
+            18.464223,
+            -33.977186
+          ],
+          [
+            18.464127,
+            -33.977266
+          ],
+          [
+            18.46409,
+            -33.977244
+          ],
+          [
+            18.463967,
+            -33.977339
+          ],
+          [
+            18.463902,
+            -33.977323
+          ],
+          [
+            18.463391,
+            -33.976901
+          ],
+          [
+            18.463344,
+            -33.97684
+          ],
+          [
+            18.463143,
+            -33.976939
+          ],
+          [
+            18.462541,
+            -33.977234
+          ],
+          [
+            18.462001,
+            -33.977497
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756803850270,
+    "query": {
+      "coordinates": [
+        [
+          18.4658089,
+          -33.9761138
+        ],
+        [
+          18.4620014,
+          -33.9774975
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

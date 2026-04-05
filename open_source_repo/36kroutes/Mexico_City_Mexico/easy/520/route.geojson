@@ -1,0 +1,187 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.077562,
+    19.331708,
+    -99.075919,
+    19.334104
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.077562,
+        19.331708,
+        -99.075919,
+        19.334104
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 519.2,
+            "duration": 373.9,
+            "steps": [
+              {
+                "distance": 10.4,
+                "duration": 7.5,
+                "type": 11,
+                "instruction": "Head north",
+                "name": "-",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 26.4,
+                "duration": 19.0,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 133.5,
+                "duration": 96.1,
+                "type": 0,
+                "instruction": "Turn left onto Calle Bellavista",
+                "name": "Calle Bellavista",
+                "way_points": [
+                  3,
+                  5
+                ]
+              },
+              {
+                "distance": 210.1,
+                "duration": 151.2,
+                "type": 1,
+                "instruction": "Turn right onto Calle Azucenas",
+                "name": "Calle Azucenas",
+                "way_points": [
+                  5,
+                  7
+                ]
+              },
+              {
+                "distance": 138.9,
+                "duration": 100.0,
+                "type": 1,
+                "instruction": "Turn right onto Calle Nautla",
+                "name": "Calle Nautla",
+                "way_points": [
+                  7,
+                  12
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Nautla, straight ahead",
+                "name": "-",
+                "way_points": [
+                  12,
+                  12
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          12
+        ],
+        "summary": {
+          "distance": 519.2,
+          "duration": 373.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.076398,
+            19.331708
+          ],
+          [
+            -99.076403,
+            19.331754
+          ],
+          [
+            -99.07636,
+            19.331776
+          ],
+          [
+            -99.076314,
+            19.33201
+          ],
+          [
+            -99.077317,
+            19.332193
+          ],
+          [
+            -99.077562,
+            19.332243
+          ],
+          [
+            -99.077355,
+            19.33343
+          ],
+          [
+            -99.077219,
+            19.334104
+          ],
+          [
+            -99.076661,
+            19.334003
+          ],
+          [
+            -99.076605,
+            19.333992
+          ],
+          [
+            -99.076529,
+            19.333982
+          ],
+          [
+            -99.07621,
+            19.333922
+          ],
+          [
+            -99.075919,
+            19.33387
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306378474,
+    "query": {
+      "coordinates": [
+        [
+          -99.0763984,
+          19.3317077
+        ],
+        [
+          -99.0759189,
+          19.3338699
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

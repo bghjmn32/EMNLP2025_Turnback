@@ -1,0 +1,215 @@
+{
+    "type": "FeatureCollection",
+    "bbox": [
+        2.457085,
+        48.888033,
+        2.462302,
+        48.895233
+    ],
+    "features": [
+        {
+            "bbox": [
+                2.457085,
+                48.888033,
+                2.462302,
+                48.895233
+            ],
+            "type": "Feature",
+            "properties": {
+                "segments": [
+                    {
+                        "distance": 930.1,
+                        "duration": 669.7,
+                        "steps": [
+                            {
+                                "distance": 24.4,
+                                "duration": 17.6,
+                                "type": 11,
+                                "instruction": "Head west on Rue de Br\u00e9ment, D 116",
+                                "name": "Rue de Br\u00e9ment, D 116",
+                                "way_points": [
+                                    0,
+                                    1
+                                ]
+                            },
+                            {
+                                "distance": 18.2,
+                                "duration": 13.1,
+                                "type": 1,
+                                "instruction": "Turn right",
+                                "name": "-",
+                                "way_points": [
+                                    1,
+                                    5
+                                ]
+                            },
+                            {
+                                "distance": 16.4,
+                                "duration": 11.8,
+                                "type": 0,
+                                "instruction": "Turn left onto Rue de Br\u00e9ment, D 116",
+                                "name": "Rue de Br\u00e9ment, D 116",
+                                "way_points": [
+                                    5,
+                                    6
+                                ]
+                            },
+                            {
+                                "distance": 855.7,
+                                "duration": 616.1,
+                                "type": 1,
+                                "instruction": "Turn right onto Boulevard Michelet",
+                                "name": "Boulevard Michelet",
+                                "way_points": [
+                                    6,
+                                    18
+                                ]
+                            },
+                            {
+                                "distance": 15.4,
+                                "duration": 11.1,
+                                "type": 0,
+                                "instruction": "Turn left onto Boulevard de la R\u00e9publique",
+                                "name": "Boulevard de la R\u00e9publique",
+                                "way_points": [
+                                    18,
+                                    19
+                                ]
+                            },
+                            {
+                                "distance": 0.0,
+                                "duration": 0.0,
+                                "type": 10,
+                                "instruction": "Arrive at Boulevard de la R\u00e9publique, straight ahead",
+                                "name": "-",
+                                "way_points": [
+                                    19,
+                                    19
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "way_points": [
+                    0,
+                    19
+                ],
+                "summary": {
+                    "distance": 930.1,
+                    "duration": 669.7
+                }
+            },
+            "geometry": {
+                "coordinates": [
+                    [
+                        2.457509,
+                        48.888033
+                    ],
+                    [
+                        2.457188,
+                        48.888096
+                    ],
+                    [
+                        2.457212,
+                        48.888148
+                    ],
+                    [
+                        2.457256,
+                        48.888139
+                    ],
+                    [
+                        2.457277,
+                        48.888185
+                    ],
+                    [
+                        2.457287,
+                        48.888215
+                    ],
+                    [
+                        2.457085,
+                        48.888279
+                    ],
+                    [
+                        2.457189,
+                        48.888424
+                    ],
+                    [
+                        2.457419,
+                        48.88867
+                    ],
+                    [
+                        2.458083,
+                        48.889301
+                    ],
+                    [
+                        2.459201,
+                        48.890434
+                    ],
+                    [
+                        2.459298,
+                        48.890534
+                    ],
+                    [
+                        2.460399,
+                        48.892273
+                    ],
+                    [
+                        2.461037,
+                        48.893206
+                    ],
+                    [
+                        2.461631,
+                        48.894126
+                    ],
+                    [
+                        2.461722,
+                        48.894267
+                    ],
+                    [
+                        2.461826,
+                        48.894414
+                    ],
+                    [
+                        2.461966,
+                        48.89464
+                    ],
+                    [
+                        2.462302,
+                        48.895138
+                    ],
+                    [
+                        2.462148,
+                        48.895233
+                    ]
+                ],
+                "type": "LineString"
+            }
+        }
+    ],
+    "metadata": {
+        "attribution": "openrouteservice.org | OpenStreetMap contributors",
+        "service": "routing",
+        "timestamp": 1755873214570,
+        "query": {
+            "coordinates": [
+                [
+                    2.4575085,
+                    48.8880325
+                ],
+                [
+                    2.462148,
+                    48.8952325
+                ]
+            ],
+            "profile": "foot-walking",
+            "profileName": "foot-walking",
+            "format": "geojson"
+        },
+        "engine": {
+            "version": "9.3.0",
+            "build_date": "2025-06-06T15:39:25Z",
+            "graph_date": "2025-08-19T13:56:51Z",
+            "osm_date": "2025-08-10T23:59:57Z"
+        }
+    }
+}

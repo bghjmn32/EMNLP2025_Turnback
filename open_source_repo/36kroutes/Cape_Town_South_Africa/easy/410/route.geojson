@@ -1,0 +1,194 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.541703,
+    -33.975426,
+    18.544362,
+    -33.972337
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.541703,
+        -33.975426,
+        18.544362,
+        -33.972337
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 548.5,
+            "duration": 394.9,
+            "steps": [
+              {
+                "distance": 71.4,
+                "duration": 51.4,
+                "type": 11,
+                "instruction": "Head south on Winter Crescent",
+                "name": "Winter Crescent",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 97.1,
+                "duration": 69.9,
+                "type": 0,
+                "instruction": "Turn left onto Torrid Road",
+                "name": "Torrid Road",
+                "way_points": [
+                  1,
+                  4
+                ]
+              },
+              {
+                "distance": 100.8,
+                "duration": 72.6,
+                "type": 1,
+                "instruction": "Turn right onto Saturn Road",
+                "name": "Saturn Road",
+                "way_points": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "distance": 120.8,
+                "duration": 87.0,
+                "type": 12,
+                "instruction": "Keep left",
+                "name": "-",
+                "way_points": [
+                  5,
+                  8
+                ]
+              },
+              {
+                "distance": 20.9,
+                "duration": 15.1,
+                "type": 1,
+                "instruction": "Turn right onto Orion Road",
+                "name": "Orion Road",
+                "way_points": [
+                  8,
+                  9
+                ]
+              },
+              {
+                "distance": 137.4,
+                "duration": 99.0,
+                "type": 0,
+                "instruction": "Turn left onto Durr Road",
+                "name": "Durr Road",
+                "way_points": [
+                  9,
+                  11
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Durr Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  11,
+                  11
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          11
+        ],
+        "summary": {
+          "distance": 548.5,
+          "duration": 394.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.541703,
+            -33.972337
+          ],
+          [
+            18.541741,
+            -33.972979
+          ],
+          [
+            18.542044,
+            -33.972963
+          ],
+          [
+            18.542185,
+            -33.97297
+          ],
+          [
+            18.542774,
+            -33.973095
+          ],
+          [
+            18.542498,
+            -33.973972
+          ],
+          [
+            18.542701,
+            -33.974493
+          ],
+          [
+            18.542848,
+            -33.974911
+          ],
+          [
+            18.542969,
+            -33.974935
+          ],
+          [
+            18.542918,
+            -33.975119
+          ],
+          [
+            18.543624,
+            -33.975266
+          ],
+          [
+            18.544362,
+            -33.975426
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756804772004,
+    "query": {
+      "coordinates": [
+        [
+          18.541703,
+          -33.9723375
+        ],
+        [
+          18.5443615,
+          -33.9754258
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

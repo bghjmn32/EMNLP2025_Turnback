@@ -1,0 +1,202 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    151.112088,
+    -33.87595,
+    151.11323,
+    -33.869972
+  ],
+  "features": [
+    {
+      "bbox": [
+        151.112088,
+        -33.87595,
+        151.11323,
+        -33.869972
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 727.2,
+            "duration": 523.6,
+            "steps": [
+              {
+                "distance": 45.7,
+                "duration": 32.9,
+                "type": 11,
+                "instruction": "Head west on Queen Street",
+                "name": "Queen Street",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 22.0,
+                "duration": 15.8,
+                "type": 6,
+                "instruction": "Continue straight onto Queen Street",
+                "name": "Queen Street",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 659.5,
+                "duration": 474.8,
+                "type": 7,
+                "instruction": "Enter the roundabout and take the 1st exit onto Cheltenham Road",
+                "name": "Cheltenham Road",
+                "exit_number": 1,
+                "way_points": [
+                  2,
+                  21
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Cheltenham Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  21,
+                  21
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          21
+        ],
+        "summary": {
+          "distance": 727.2,
+          "duration": 523.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            151.11281,
+            -33.87595
+          ],
+          [
+            151.112324,
+            -33.875872
+          ],
+          [
+            151.112093,
+            -33.875822
+          ],
+          [
+            151.112088,
+            -33.875815
+          ],
+          [
+            151.112093,
+            -33.875701
+          ],
+          [
+            151.112104,
+            -33.87565
+          ],
+          [
+            151.112103,
+            -33.875519
+          ],
+          [
+            151.112145,
+            -33.875308
+          ],
+          [
+            151.112251,
+            -33.87476
+          ],
+          [
+            151.112327,
+            -33.874371
+          ],
+          [
+            151.112398,
+            -33.873991
+          ],
+          [
+            151.112453,
+            -33.873751
+          ],
+          [
+            151.11246,
+            -33.873717
+          ],
+          [
+            151.112494,
+            -33.873555
+          ],
+          [
+            151.112508,
+            -33.873485
+          ],
+          [
+            151.112581,
+            -33.873134
+          ],
+          [
+            151.112812,
+            -33.871995
+          ],
+          [
+            151.112939,
+            -33.871418
+          ],
+          [
+            151.112969,
+            -33.871275
+          ],
+          [
+            151.113054,
+            -33.87085
+          ],
+          [
+            151.113125,
+            -33.870497
+          ],
+          [
+            151.11323,
+            -33.869972
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756392612924,
+    "query": {
+      "coordinates": [
+        [
+          151.1128103,
+          -33.8759496
+        ],
+        [
+          151.1132303,
+          -33.8699722
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

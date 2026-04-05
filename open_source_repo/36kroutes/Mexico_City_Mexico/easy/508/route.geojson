@@ -1,0 +1,222 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.12414,
+    19.35076,
+    -99.120351,
+    19.35679
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.12414,
+        19.35076,
+        -99.120351,
+        19.35679
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1053.1,
+            "duration": 758.2,
+            "steps": [
+              {
+                "distance": 27.1,
+                "duration": 19.5,
+                "type": 11,
+                "instruction": "Head southeast",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 58.2,
+                "duration": 41.9,
+                "type": 2,
+                "instruction": "Turn sharp left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  4
+                ]
+              },
+              {
+                "distance": 210.0,
+                "duration": 151.2,
+                "type": 4,
+                "instruction": "Turn slight left onto Calle Paseo Parque del Río",
+                "name": "Calle Paseo Parque del Río",
+                "way_points": [
+                  4,
+                  11
+                ]
+              },
+              {
+                "distance": 238.9,
+                "duration": 172.0,
+                "type": 13,
+                "instruction": "Keep right onto Calle Paseo Parque del Río",
+                "name": "Calle Paseo Parque del Río",
+                "way_points": [
+                  11,
+                  14
+                ]
+              },
+              {
+                "distance": 102.6,
+                "duration": 73.9,
+                "type": 0,
+                "instruction": "Turn left onto Calle Osa Menor",
+                "name": "Calle Osa Menor",
+                "way_points": [
+                  14,
+                  16
+                ]
+              },
+              {
+                "distance": 416.3,
+                "duration": 299.7,
+                "type": 1,
+                "instruction": "Turn right onto Privada Leo",
+                "name": "Privada Leo",
+                "way_points": [
+                  16,
+                  18
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Privada Leo, straight ahead",
+                "name": "-",
+                "way_points": [
+                  18,
+                  18
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          18
+        ],
+        "summary": {
+          "distance": 1053.1,
+          "duration": 758.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.120551,
+            19.350913
+          ],
+          [
+            -99.120351,
+            19.35076
+          ],
+          [
+            -99.12038,
+            19.350972
+          ],
+          [
+            -99.120552,
+            19.351063
+          ],
+          [
+            -99.120676,
+            19.351102
+          ],
+          [
+            -99.120735,
+            19.351091
+          ],
+          [
+            -99.121274,
+            19.351226
+          ],
+          [
+            -99.121552,
+            19.35126
+          ],
+          [
+            -99.121806,
+            19.351269
+          ],
+          [
+            -99.12212,
+            19.351255
+          ],
+          [
+            -99.122507,
+            19.351265
+          ],
+          [
+            -99.122651,
+            19.351295
+          ],
+          [
+            -99.122767,
+            19.351359
+          ],
+          [
+            -99.122798,
+            19.351397
+          ],
+          [
+            -99.122752,
+            19.35337
+          ],
+          [
+            -99.123243,
+            19.353384
+          ],
+          [
+            -99.12373,
+            19.353394
+          ],
+          [
+            -99.123668,
+            19.356677
+          ],
+          [
+            -99.12414,
+            19.35679
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306323176,
+    "query": {
+      "coordinates": [
+        [
+          -99.1205513,
+          19.3509125
+        ],
+        [
+          -99.1241401,
+          19.3567902
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

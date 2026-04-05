@@ -1,0 +1,216 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.472176,
+    -34.022546,
+    18.484443,
+    -34.017214
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.472176,
+        -34.022546,
+        18.484443,
+        -34.017214
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1463.6,
+            "duration": 1053.8,
+            "steps": [
+              {
+                "distance": 225.2,
+                "duration": 162.1,
+                "type": 11,
+                "instruction": "Head east on Firfield Road",
+                "name": "Firfield Road",
+                "way_points": [
+                  0,
+                  4
+                ]
+              },
+              {
+                "distance": 131.2,
+                "duration": 94.5,
+                "type": 0,
+                "instruction": "Turn left onto Ophir Road",
+                "name": "Ophir Road",
+                "way_points": [
+                  4,
+                  7
+                ]
+              },
+              {
+                "distance": 935.8,
+                "duration": 673.8,
+                "type": 1,
+                "instruction": "Turn right onto Severn Road",
+                "name": "Severn Road",
+                "way_points": [
+                  7,
+                  21
+                ]
+              },
+              {
+                "distance": 171.3,
+                "duration": 123.4,
+                "type": 0,
+                "instruction": "Turn left onto Totnes Road",
+                "name": "Totnes Road",
+                "way_points": [
+                  21,
+                  22
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Totnes Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  22,
+                  22
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          22
+        ],
+        "summary": {
+          "distance": 1463.6,
+          "duration": 1053.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.472176,
+            -34.022546
+          ],
+          [
+            18.472516,
+            -34.022523
+          ],
+          [
+            18.473172,
+            -34.022477
+          ],
+          [
+            18.4739,
+            -34.022428
+          ],
+          [
+            18.474612,
+            -34.022379
+          ],
+          [
+            18.474669,
+            -34.021983
+          ],
+          [
+            18.474707,
+            -34.021691
+          ],
+          [
+            18.474765,
+            -34.021205
+          ],
+          [
+            18.474815,
+            -34.021218
+          ],
+          [
+            18.47531,
+            -34.021088
+          ],
+          [
+            18.476026,
+            -34.020901
+          ],
+          [
+            18.476784,
+            -34.020702
+          ],
+          [
+            18.477528,
+            -34.020506
+          ],
+          [
+            18.478276,
+            -34.020309
+          ],
+          [
+            18.47904,
+            -34.020108
+          ],
+          [
+            18.479769,
+            -34.019916
+          ],
+          [
+            18.480517,
+            -34.019719
+          ],
+          [
+            18.48127,
+            -34.019521
+          ],
+          [
+            18.482148,
+            -34.01929
+          ],
+          [
+            18.482938,
+            -34.019081
+          ],
+          [
+            18.483684,
+            -34.018885
+          ],
+          [
+            18.484443,
+            -34.018685
+          ],
+          [
+            18.483888,
+            -34.017214
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756807276501,
+    "query": {
+      "coordinates": [
+        [
+          18.4721764,
+          -34.0225459
+        ],
+        [
+          18.4838881,
+          -34.0172144
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

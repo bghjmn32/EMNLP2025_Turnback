@@ -1,0 +1,189 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    150.931902,
+    -33.749831,
+    150.936341,
+    -33.747241
+  ],
+  "features": [
+    {
+      "bbox": [
+        150.931902,
+        -33.749831,
+        150.936341,
+        -33.747241
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 583.5,
+            "duration": 420.1,
+            "steps": [
+              {
+                "distance": 9.4,
+                "duration": 6.8,
+                "type": 11,
+                "instruction": "Head east on Whitby Road",
+                "name": "Whitby Road",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 11.6,
+                "duration": 8.3,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 562.6,
+                "duration": 405.1,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  2,
+                  18
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  18,
+                  18
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          18
+        ],
+        "summary": {
+          "distance": 583.5,
+          "duration": 420.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            150.936245,
+            -33.749501
+          ],
+          [
+            150.936341,
+            -33.749473
+          ],
+          [
+            150.936328,
+            -33.74937
+          ],
+          [
+            150.935575,
+            -33.749489
+          ],
+          [
+            150.935506,
+            -33.7495
+          ],
+          [
+            150.935438,
+            -33.749512
+          ],
+          [
+            150.935097,
+            -33.749607
+          ],
+          [
+            150.934929,
+            -33.749671
+          ],
+          [
+            150.93462,
+            -33.749819
+          ],
+          [
+            150.934564,
+            -33.749831
+          ],
+          [
+            150.934492,
+            -33.749817
+          ],
+          [
+            150.934476,
+            -33.74979
+          ],
+          [
+            150.933785,
+            -33.748622
+          ],
+          [
+            150.933733,
+            -33.748555
+          ],
+          [
+            150.933688,
+            -33.748497
+          ],
+          [
+            150.933241,
+            -33.748038
+          ],
+          [
+            150.932889,
+            -33.74776
+          ],
+          [
+            150.932503,
+            -33.747531
+          ],
+          [
+            150.931902,
+            -33.747241
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756394099547,
+    "query": {
+      "coordinates": [
+        [
+          150.9362454,
+          -33.7495008
+        ],
+        [
+          150.9319024,
+          -33.7472408
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

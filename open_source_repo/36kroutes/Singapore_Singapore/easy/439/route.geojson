@@ -1,0 +1,233 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    103.852423,
+    1.374849,
+    103.855436,
+    1.37693
+  ],
+  "features": [
+    {
+      "bbox": [
+        103.852423,
+        1.374849,
+        103.855436,
+        1.37693
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 562.9,
+            "duration": 405.3,
+            "steps": [
+              {
+                "distance": 118.6,
+                "duration": 85.4,
+                "type": 11,
+                "instruction": "Head north",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 230.7,
+                "duration": 166.1,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  6
+                ]
+              },
+              {
+                "distance": 34.6,
+                "duration": 24.9,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  6,
+                  9
+                ]
+              },
+              {
+                "distance": 6.7,
+                "duration": 4.8,
+                "type": 1,
+                "instruction": "Turn right onto Ang Mo Kio Park Connector",
+                "name": "Ang Mo Kio Park Connector",
+                "way_points": [
+                  9,
+                  10
+                ]
+              },
+              {
+                "distance": 115.9,
+                "duration": 83.5,
+                "type": 0,
+                "instruction": "Turn left onto Ang Mo Kio Drive",
+                "name": "Ang Mo Kio Drive",
+                "way_points": [
+                  10,
+                  16
+                ]
+              },
+              {
+                "distance": 31.3,
+                "duration": 22.5,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  16,
+                  17
+                ]
+              },
+              {
+                "distance": 25.2,
+                "duration": 18.1,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  17,
+                  18
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  18,
+                  18
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          18
+        ],
+        "summary": {
+          "distance": 562.9,
+          "duration": 405.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            103.852423,
+            1.374849
+          ],
+          [
+            103.852534,
+            1.375909
+          ],
+          [
+            103.85257,
+            1.375906
+          ],
+          [
+            103.852626,
+            1.375899
+          ],
+          [
+            103.853266,
+            1.375833
+          ],
+          [
+            103.853982,
+            1.375739
+          ],
+          [
+            103.854597,
+            1.375684
+          ],
+          [
+            103.854598,
+            1.37579
+          ],
+          [
+            103.854611,
+            1.37591
+          ],
+          [
+            103.854623,
+            1.375994
+          ],
+          [
+            103.854683,
+            1.375991
+          ],
+          [
+            103.85473,
+            1.376094
+          ],
+          [
+            103.85473,
+            1.376245
+          ],
+          [
+            103.854781,
+            1.376654
+          ],
+          [
+            103.85491,
+            1.376692
+          ],
+          [
+            103.854982,
+            1.376687
+          ],
+          [
+            103.855138,
+            1.376658
+          ],
+          [
+            103.855209,
+            1.37693
+          ],
+          [
+            103.855436,
+            1.376928
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756392482353,
+    "query": {
+      "coordinates": [
+        [
+          103.8524228,
+          1.3748487
+        ],
+        [
+          103.8554357,
+          1.3769277
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -79.363053,
+    43.703569,
+    -79.359304,
+    43.705592
+  ],
+  "features": [
+    {
+      "bbox": [
+        -79.363053,
+        43.703569,
+        -79.359304,
+        43.705592
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 554.1,
+            "duration": 398.9,
+            "steps": [
+              {
+                "distance": 185.6,
+                "duration": 133.6,
+                "type": 11,
+                "instruction": "Head west",
+                "name": "-",
+                "way_points": [
+                  0,
+                  6
+                ]
+              },
+              {
+                "distance": 31.8,
+                "duration": 22.9,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 50.9,
+                "duration": 36.7,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  7,
+                  10
+                ]
+              },
+              {
+                "distance": 106.9,
+                "duration": 77.0,
+                "type": 1,
+                "instruction": "Turn right onto Kenrae Road",
+                "name": "Kenrae Road",
+                "way_points": [
+                  10,
+                  16
+                ]
+              },
+              {
+                "distance": 178.8,
+                "duration": 128.7,
+                "type": 2,
+                "instruction": "Turn sharp left onto Randolph Road",
+                "name": "Randolph Road",
+                "way_points": [
+                  16,
+                  19
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Randolph Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  19,
+                  19
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          19
+        ],
+        "summary": {
+          "distance": 554.1,
+          "duration": 398.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -79.359304,
+            43.705574
+          ],
+          [
+            -79.359419,
+            43.705571
+          ],
+          [
+            -79.359656,
+            43.705592
+          ],
+          [
+            -79.36082,
+            43.705342
+          ],
+          [
+            -79.361309,
+            43.705237
+          ],
+          [
+            -79.361404,
+            43.70521
+          ],
+          [
+            -79.361524,
+            43.705178
+          ],
+          [
+            -79.361418,
+            43.704902
+          ],
+          [
+            -79.361666,
+            43.704851
+          ],
+          [
+            -79.361793,
+            43.704687
+          ],
+          [
+            -79.361849,
+            43.704614
+          ],
+          [
+            -79.362031,
+            43.70468
+          ],
+          [
+            -79.362334,
+            43.704824
+          ],
+          [
+            -79.362587,
+            43.704994
+          ],
+          [
+            -79.362683,
+            43.705087
+          ],
+          [
+            -79.362806,
+            43.705144
+          ],
+          [
+            -79.362912,
+            43.70517
+          ],
+          [
+            -79.3629,
+            43.704527
+          ],
+          [
+            -79.362948,
+            43.704067
+          ],
+          [
+            -79.363053,
+            43.703569
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756124535719,
+    "query": {
+      "coordinates": [
+        [
+          -79.3593039,
+          43.7055741
+        ],
+        [
+          -79.363053,
+          43.7035688
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

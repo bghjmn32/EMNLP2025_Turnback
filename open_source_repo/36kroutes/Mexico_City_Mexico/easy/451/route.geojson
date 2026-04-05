@@ -1,0 +1,207 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.13417,
+    19.489113,
+    -99.13345,
+    19.494511
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.13417,
+        19.489113,
+        -99.13345,
+        19.494511
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 667.6,
+            "duration": 480.7,
+            "steps": [
+              {
+                "distance": 16.5,
+                "duration": 11.8,
+                "type": 11,
+                "instruction": "Head southeast",
+                "name": "-",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 18.2,
+                "duration": 13.1,
+                "type": 0,
+                "instruction": "Turn left onto Avenida Wilfrido Massieu",
+                "name": "Avenida Wilfrido Massieu",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 412.8,
+                "duration": 297.2,
+                "type": 1,
+                "instruction": "Turn right onto Payta",
+                "name": "Payta",
+                "way_points": [
+                  3,
+                  8
+                ]
+              },
+              {
+                "distance": 133.7,
+                "duration": 96.3,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  8,
+                  14
+                ]
+              },
+              {
+                "distance": 86.4,
+                "duration": 62.2,
+                "type": 1,
+                "instruction": "Turn right onto Avenida Instituto Politécnico Nacional",
+                "name": "Avenida Instituto Politécnico Nacional",
+                "way_points": [
+                  14,
+                  17
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Avenida Instituto Politécnico Nacional, straight ahead",
+                "name": "-",
+                "way_points": [
+                  17,
+                  17
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          17
+        ],
+        "summary": {
+          "distance": 667.6,
+          "duration": 480.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.133657,
+            19.494511
+          ],
+          [
+            -99.133611,
+            19.494428
+          ],
+          [
+            -99.133619,
+            19.494375
+          ],
+          [
+            -99.13345,
+            19.494337
+          ],
+          [
+            -99.133699,
+            19.49303
+          ],
+          [
+            -99.134121,
+            19.490951
+          ],
+          [
+            -99.134133,
+            19.490888
+          ],
+          [
+            -99.134138,
+            19.49085
+          ],
+          [
+            -99.13417,
+            19.490687
+          ],
+          [
+            -99.133836,
+            19.490622
+          ],
+          [
+            -99.133794,
+            19.490593
+          ],
+          [
+            -99.13391,
+            19.489939
+          ],
+          [
+            -99.133902,
+            19.489908
+          ],
+          [
+            -99.133856,
+            19.489887
+          ],
+          [
+            -99.133763,
+            19.489876
+          ],
+          [
+            -99.133797,
+            19.489703
+          ],
+          [
+            -99.133878,
+            19.489306
+          ],
+          [
+            -99.133917,
+            19.489113
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306121600,
+    "query": {
+      "coordinates": [
+        [
+          -99.1336566,
+          19.4945114
+        ],
+        [
+          -99.1339174,
+          19.4891134
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

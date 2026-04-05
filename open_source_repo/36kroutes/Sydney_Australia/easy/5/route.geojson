@@ -1,0 +1,247 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    151.088547,
+    -33.820667,
+    151.089857,
+    -33.815715
+  ],
+  "features": [
+    {
+      "bbox": [
+        151.088547,
+        -33.820667,
+        151.089857,
+        -33.815715
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 585.1,
+            "duration": 421.3,
+            "steps": [
+              {
+                "distance": 4.7,
+                "duration": 3.4,
+                "type": 11,
+                "instruction": "Head west on Parramatta Valley Cycleway",
+                "name": "Parramatta Valley Cycleway",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 122.9,
+                "duration": 88.5,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  7
+                ]
+              },
+              {
+                "distance": 15.1,
+                "duration": 10.9,
+                "type": 0,
+                "instruction": "Turn left onto Meadow Crescent",
+                "name": "Meadow Crescent",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 272.4,
+                "duration": 196.1,
+                "type": 1,
+                "instruction": "Turn right onto Bank Street",
+                "name": "Bank Street",
+                "way_points": [
+                  8,
+                  13
+                ]
+              },
+              {
+                "distance": 143.7,
+                "duration": 103.5,
+                "type": 12,
+                "instruction": "Keep left onto Bank Street",
+                "name": "Bank Street",
+                "way_points": [
+                  13,
+                  18
+                ]
+              },
+              {
+                "distance": 26.3,
+                "duration": 18.9,
+                "type": 7,
+                "instruction": "Enter the roundabout and take the 1st exit onto Bank Street",
+                "name": "Bank Street",
+                "exit_number": 1,
+                "way_points": [
+                  18,
+                  24
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Bank Street, straight ahead",
+                "name": "-",
+                "way_points": [
+                  24,
+                  24
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          24
+        ],
+        "summary": {
+          "distance": 585.1,
+          "duration": 421.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            151.088596,
+            -33.820667
+          ],
+          [
+            151.088547,
+            -33.820655
+          ],
+          [
+            151.088558,
+            -33.820613
+          ],
+          [
+            151.088728,
+            -33.820315
+          ],
+          [
+            151.088787,
+            -33.820168
+          ],
+          [
+            151.088933,
+            -33.819734
+          ],
+          [
+            151.088954,
+            -33.819692
+          ],
+          [
+            151.089037,
+            -33.819648
+          ],
+          [
+            151.088994,
+            -33.819517
+          ],
+          [
+            151.089042,
+            -33.819486
+          ],
+          [
+            151.08908,
+            -33.819406
+          ],
+          [
+            151.089427,
+            -33.817666
+          ],
+          [
+            151.089515,
+            -33.817268
+          ],
+          [
+            151.089567,
+            -33.81713
+          ],
+          [
+            151.089526,
+            -33.816997
+          ],
+          [
+            151.08952,
+            -33.81681
+          ],
+          [
+            151.089683,
+            -33.815942
+          ],
+          [
+            151.089704,
+            -33.815896
+          ],
+          [
+            151.089734,
+            -33.815864
+          ],
+          [
+            151.089758,
+            -33.81587
+          ],
+          [
+            151.08983,
+            -33.815852
+          ],
+          [
+            151.089857,
+            -33.815815
+          ],
+          [
+            151.089855,
+            -33.815772
+          ],
+          [
+            151.089824,
+            -33.815737
+          ],
+          [
+            151.089814,
+            -33.815715
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756389983873,
+    "query": {
+      "coordinates": [
+        [
+          151.0885963,
+          -33.8206672
+        ],
+        [
+          151.0898139,
+          -33.8157154
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

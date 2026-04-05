@@ -1,0 +1,201 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    31.370002,
+    29.841919,
+    31.374983,
+    29.845875
+  ],
+  "features": [
+    {
+      "bbox": [
+        31.370002,
+        29.841919,
+        31.374983,
+        29.845875
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 821.6,
+            "duration": 591.6,
+            "steps": [
+              {
+                "distance": 591.4,
+                "duration": 425.8,
+                "type": 11,
+                "instruction": "Head east",
+                "name": "-",
+                "way_points": [
+                  0,
+                  11
+                ]
+              },
+              {
+                "distance": 55.0,
+                "duration": 39.6,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  11,
+                  13
+                ]
+              },
+              {
+                "distance": 130.7,
+                "duration": 94.1,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  13,
+                  15
+                ]
+              },
+              {
+                "distance": 44.5,
+                "duration": 32.0,
+                "type": 7,
+                "instruction": "Enter the roundabout and take the 1st exit onto شارع السادات",
+                "name": "شارع السادات",
+                "exit_number": 1,
+                "way_points": [
+                  15,
+                  18
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at شارع السادات, straight ahead",
+                "name": "-",
+                "way_points": [
+                  18,
+                  18
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          18
+        ],
+        "summary": {
+          "distance": 821.6,
+          "duration": 591.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            31.370002,
+            29.845875
+          ],
+          [
+            31.371192,
+            29.845868
+          ],
+          [
+            31.372195,
+            29.845862
+          ],
+          [
+            31.372326,
+            29.845846
+          ],
+          [
+            31.372471,
+            29.845813
+          ],
+          [
+            31.372766,
+            29.845697
+          ],
+          [
+            31.373005,
+            29.845497
+          ],
+          [
+            31.373087,
+            29.845401
+          ],
+          [
+            31.373203,
+            29.845207
+          ],
+          [
+            31.373288,
+            29.845019
+          ],
+          [
+            31.373437,
+            29.844665
+          ],
+          [
+            31.374034,
+            29.843061
+          ],
+          [
+            31.374087,
+            29.84307
+          ],
+          [
+            31.374586,
+            29.843187
+          ],
+          [
+            31.374897,
+            29.842419
+          ],
+          [
+            31.374983,
+            29.842065
+          ],
+          [
+            31.37496,
+            29.842032
+          ],
+          [
+            31.374791,
+            29.841965
+          ],
+          [
+            31.374567,
+            29.841919
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756732135766,
+    "query": {
+      "coordinates": [
+        [
+          31.3700015,
+          29.8458754
+        ],
+        [
+          31.3745665,
+          29.8419188
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

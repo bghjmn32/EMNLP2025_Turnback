@@ -1,0 +1,196 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.515837,
+    -34.029768,
+    18.522281,
+    -34.028455
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.515837,
+        -34.029768,
+        18.522281,
+        -34.028455
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 741.5,
+            "duration": 533.9,
+            "steps": [
+              {
+                "distance": 425.4,
+                "duration": 306.3,
+                "type": 11,
+                "instruction": "Head east on Edward Avenue",
+                "name": "Edward Avenue",
+                "way_points": [
+                  0,
+                  8
+                ]
+              },
+              {
+                "distance": 70.6,
+                "duration": 50.9,
+                "type": 1,
+                "instruction": "Turn right onto Hector Avenue",
+                "name": "Hector Avenue",
+                "way_points": [
+                  8,
+                  9
+                ]
+              },
+              {
+                "distance": 218.5,
+                "duration": 157.3,
+                "type": 6,
+                "instruction": "Continue straight onto Marius Road",
+                "name": "Marius Road",
+                "way_points": [
+                  9,
+                  16
+                ]
+              },
+              {
+                "distance": 27.0,
+                "duration": 19.4,
+                "type": 1,
+                "instruction": "Turn right onto Neil Close",
+                "name": "Neil Close",
+                "way_points": [
+                  16,
+                  17
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Neil Close, straight ahead",
+                "name": "-",
+                "way_points": [
+                  17,
+                  17
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          17
+        ],
+        "summary": {
+          "distance": 741.5,
+          "duration": 533.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.515837,
+            -34.028685
+          ],
+          [
+            18.517145,
+            -34.028612
+          ],
+          [
+            18.517426,
+            -34.028661
+          ],
+          [
+            18.5175,
+            -34.028673
+          ],
+          [
+            18.517604,
+            -34.028689
+          ],
+          [
+            18.517723,
+            -34.02871
+          ],
+          [
+            18.518272,
+            -34.02878
+          ],
+          [
+            18.518358,
+            -34.028772
+          ],
+          [
+            18.520396,
+            -34.028455
+          ],
+          [
+            18.520524,
+            -34.029081
+          ],
+          [
+            18.520585,
+            -34.029398
+          ],
+          [
+            18.520633,
+            -34.029646
+          ],
+          [
+            18.520669,
+            -34.029719
+          ],
+          [
+            18.520749,
+            -34.029747
+          ],
+          [
+            18.520818,
+            -34.029742
+          ],
+          [
+            18.521399,
+            -34.029656
+          ],
+          [
+            18.522225,
+            -34.029529
+          ],
+          [
+            18.522281,
+            -34.029768
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756806065891,
+    "query": {
+      "coordinates": [
+        [
+          18.5158368,
+          -34.0286851
+        ],
+        [
+          18.5222808,
+          -34.0297676
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

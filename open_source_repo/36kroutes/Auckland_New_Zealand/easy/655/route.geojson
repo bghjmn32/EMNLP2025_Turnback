@@ -1,0 +1,169 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    174.804665,
+    -36.882388,
+    174.810001,
+    -36.881501
+  ],
+  "features": [
+    {
+      "bbox": [
+        174.804665,
+        -36.882388,
+        174.810001,
+        -36.881501
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 519.6,
+            "duration": 374.1,
+            "steps": [
+              {
+                "distance": 176.1,
+                "duration": 126.8,
+                "type": 11,
+                "instruction": "Head southwest on Remuera Road, 9",
+                "name": "Remuera Road, 9",
+                "way_points": [
+                  0,
+                  6
+                ]
+              },
+              {
+                "distance": 26.6,
+                "duration": 19.1,
+                "type": 13,
+                "instruction": "Keep right onto Remuera Road, 9",
+                "name": "Remuera Road, 9",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 316.9,
+                "duration": 228.2,
+                "type": 6,
+                "instruction": "Continue straight onto Remuera Road",
+                "name": "Remuera Road",
+                "way_points": [
+                  7,
+                  13
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Remuera Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  13,
+                  13
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          13
+        ],
+        "summary": {
+          "distance": 519.6,
+          "duration": 374.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            174.810001,
+            -36.881606
+          ],
+          [
+            174.809784,
+            -36.881765
+          ],
+          [
+            174.809285,
+            -36.882109
+          ],
+          [
+            174.809092,
+            -36.882226
+          ],
+          [
+            174.808849,
+            -36.882312
+          ],
+          [
+            174.808539,
+            -36.882376
+          ],
+          [
+            174.808342,
+            -36.882388
+          ],
+          [
+            174.808055,
+            -36.882322
+          ],
+          [
+            174.807752,
+            -36.882257
+          ],
+          [
+            174.807137,
+            -36.882037
+          ],
+          [
+            174.806547,
+            -36.881821
+          ],
+          [
+            174.806227,
+            -36.881732
+          ],
+          [
+            174.805191,
+            -36.881581
+          ],
+          [
+            174.804665,
+            -36.881501
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756375221565,
+    "query": {
+      "coordinates": [
+        [
+          174.8100013,
+          -36.8816056
+        ],
+        [
+          174.8046648,
+          -36.8815013
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.476564,
+    -22.884274,
+    -43.474315,
+    -22.877566
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.476564,
+        -22.884274,
+        -43.474315,
+        -22.877566
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 926.6,
+            "duration": 667.2,
+            "steps": [
+              {
+                "distance": 574.3,
+                "duration": 413.5,
+                "type": 11,
+                "instruction": "Head south on Rua Iborá",
+                "name": "Rua Iborá",
+                "way_points": [
+                  0,
+                  7
+                ]
+              },
+              {
+                "distance": 179.5,
+                "duration": 129.2,
+                "type": 0,
+                "instruction": "Turn left onto Rua Francisco Barreto",
+                "name": "Rua Francisco Barreto",
+                "way_points": [
+                  7,
+                  9
+                ]
+              },
+              {
+                "distance": 172.8,
+                "duration": 124.4,
+                "type": 1,
+                "instruction": "Turn right onto Rua Cobé",
+                "name": "Rua Cobé",
+                "way_points": [
+                  9,
+                  10
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Rua Cobé, straight ahead",
+                "name": "-",
+                "way_points": [
+                  10,
+                  10
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          10
+        ],
+        "summary": {
+          "distance": 926.6,
+          "duration": 667.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.476564,
+            -22.877566
+          ],
+          [
+            -43.476464,
+            -22.878064
+          ],
+          [
+            -43.476218,
+            -22.879118
+          ],
+          [
+            -43.476178,
+            -22.879254
+          ],
+          [
+            -43.476159,
+            -22.879406
+          ],
+          [
+            -43.476123,
+            -22.880371
+          ],
+          [
+            -43.476136,
+            -22.881064
+          ],
+          [
+            -43.476106,
+            -22.882691
+          ],
+          [
+            -43.475255,
+            -22.882723
+          ],
+          [
+            -43.474355,
+            -22.88272
+          ],
+          [
+            -43.474315,
+            -22.884274
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756391148690,
+    "query": {
+      "coordinates": [
+        [
+          -43.4765641,
+          -22.8775661
+        ],
+        [
+          -43.4743146,
+          -22.8842742
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.302991,
+    -22.903195,
+    -43.295578,
+    -22.900653
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.302991,
+        -22.903195,
+        -43.295578,
+        -22.900653
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 999.9,
+            "duration": 719.9,
+            "steps": [
+              {
+                "distance": 294.8,
+                "duration": 212.2,
+                "type": 11,
+                "instruction": "Head north on Rua Dois de Fevereiro",
+                "name": "Rua Dois de Fevereiro",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 705.1,
+                "duration": 507.7,
+                "type": 1,
+                "instruction": "Turn right onto Rua Ramiro Magalhães",
+                "name": "Rua Ramiro Magalhães",
+                "way_points": [
+                  3,
+                  8
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Rua Ramiro Magalhães, straight ahead",
+                "name": "-",
+                "way_points": [
+                  8,
+                  8
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          8
+        ],
+        "summary": {
+          "distance": 999.9,
+          "duration": 719.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.302991,
+            -22.903195
+          ],
+          [
+            -43.302586,
+            -22.90193
+          ],
+          [
+            -43.302217,
+            -22.900795
+          ],
+          [
+            -43.302176,
+            -22.900653
+          ],
+          [
+            -43.30079,
+            -22.901033
+          ],
+          [
+            -43.299426,
+            -22.901411
+          ],
+          [
+            -43.298062,
+            -22.901769
+          ],
+          [
+            -43.29664,
+            -22.902175
+          ],
+          [
+            -43.295578,
+            -22.902461
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756393224204,
+    "query": {
+      "coordinates": [
+        [
+          -43.3029915,
+          -22.903195
+        ],
+        [
+          -43.2955778,
+          -22.9024614
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

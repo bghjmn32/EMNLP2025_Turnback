@@ -1,0 +1,175 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    151.259521,
+    -33.80483,
+    151.264189,
+    -33.802413
+  ],
+  "features": [
+    {
+      "bbox": [
+        151.259521,
+        -33.80483,
+        151.264189,
+        -33.802413
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 642.9,
+            "duration": 462.9,
+            "steps": [
+              {
+                "distance": 151.0,
+                "duration": 108.7,
+                "type": 11,
+                "instruction": "Head east on Ernest Street",
+                "name": "Ernest Street",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 211.6,
+                "duration": 152.3,
+                "type": 0,
+                "instruction": "Turn left onto Bungaloe Avenue",
+                "name": "Bungaloe Avenue",
+                "way_points": [
+                  3,
+                  6
+                ]
+              },
+              {
+                "distance": 86.5,
+                "duration": 62.3,
+                "type": 1,
+                "instruction": "Turn right onto Hilder Road",
+                "name": "Hilder Road",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 95.0,
+                "duration": 68.4,
+                "type": 0,
+                "instruction": "Turn left onto Condamine Street",
+                "name": "Condamine Street",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 98.8,
+                "duration": 71.1,
+                "type": 1,
+                "instruction": "Turn right onto Farrar Street",
+                "name": "Farrar Street",
+                "way_points": [
+                  8,
+                  9
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Farrar Street, straight ahead",
+                "name": "-",
+                "way_points": [
+                  9,
+                  9
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          9
+        ],
+        "summary": {
+          "distance": 642.9,
+          "duration": 462.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            151.259521,
+            -33.804608
+          ],
+          [
+            151.260453,
+            -33.804738
+          ],
+          [
+            151.260546,
+            -33.804751
+          ],
+          [
+            151.261134,
+            -33.80483
+          ],
+          [
+            151.26157,
+            -33.803638
+          ],
+          [
+            151.261691,
+            -33.803473
+          ],
+          [
+            151.262032,
+            -33.803106
+          ],
+          [
+            151.262952,
+            -33.803253
+          ],
+          [
+            151.263141,
+            -33.802413
+          ],
+          [
+            151.264189,
+            -33.802589
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756393093526,
+    "query": {
+      "coordinates": [
+        [
+          151.2595214,
+          -33.8046076
+        ],
+        [
+          151.2641885,
+          -33.8025888
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

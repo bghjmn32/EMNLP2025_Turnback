@@ -1,0 +1,169 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -79.419629,
+    43.728655,
+    -79.414341,
+    43.733107
+  ],
+  "features": [
+    {
+      "bbox": [
+        -79.419629,
+        43.728655,
+        -79.414341,
+        43.733107
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 833.7,
+            "duration": 600.3,
+            "steps": [
+              {
+                "distance": 31.8,
+                "duration": 22.9,
+                "type": 11,
+                "instruction": "Head south",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 285.6,
+                "duration": 205.6,
+                "type": 0,
+                "instruction": "Turn left onto Roe Avenue",
+                "name": "Roe Avenue",
+                "way_points": [
+                  1,
+                  5
+                ]
+              },
+              {
+                "distance": 516.3,
+                "duration": 371.7,
+                "type": 1,
+                "instruction": "Turn right onto Elm Road",
+                "name": "Elm Road",
+                "way_points": [
+                  5,
+                  13
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Elm Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  13,
+                  13
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          13
+        ],
+        "summary": {
+          "distance": 833.7,
+          "duration": 600.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -79.419629,
+            43.732664
+          ],
+          [
+            -79.419572,
+            43.732381
+          ],
+          [
+            -79.419426,
+            43.732421
+          ],
+          [
+            -79.41928,
+            43.732458
+          ],
+          [
+            -79.418884,
+            43.732537
+          ],
+          [
+            -79.416163,
+            43.733107
+          ],
+          [
+            -79.415871,
+            43.732393
+          ],
+          [
+            -79.415559,
+            43.731619
+          ],
+          [
+            -79.415132,
+            43.730587
+          ],
+          [
+            -79.41477,
+            43.729678
+          ],
+          [
+            -79.414737,
+            43.729608
+          ],
+          [
+            -79.414721,
+            43.729571
+          ],
+          [
+            -79.414356,
+            43.728701
+          ],
+          [
+            -79.414341,
+            43.728655
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756125881454,
+    "query": {
+      "coordinates": [
+        [
+          -79.4196286,
+          43.7326643
+        ],
+        [
+          -79.4143413,
+          43.7286547
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

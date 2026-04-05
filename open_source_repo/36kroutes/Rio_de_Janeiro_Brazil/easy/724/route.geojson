@@ -1,0 +1,221 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.384586,
+    -22.916987,
+    -43.377309,
+    -22.916058
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.384586,
+        -22.916987,
+        -43.377309,
+        -22.916058
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 793.6,
+            "duration": 571.4,
+            "steps": [
+              {
+                "distance": 9.7,
+                "duration": 6.9,
+                "type": 11,
+                "instruction": "Head south on Rua 674",
+                "name": "Rua 674",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 654.2,
+                "duration": 471.0,
+                "type": 0,
+                "instruction": "Turn left onto Avenida dos Mananciais",
+                "name": "Avenida dos Mananciais",
+                "way_points": [
+                  1,
+                  11
+                ]
+              },
+              {
+                "distance": 17.8,
+                "duration": 12.8,
+                "type": 12,
+                "instruction": "Keep left onto Avenida dos Mananciais",
+                "name": "Avenida dos Mananciais",
+                "way_points": [
+                  11,
+                  13
+                ]
+              },
+              {
+                "distance": 112.0,
+                "duration": 80.6,
+                "type": 7,
+                "instruction": "Enter the roundabout and take the 6th exit onto Praça Jauru",
+                "name": "Praça Jauru",
+                "exit_number": 6,
+                "way_points": [
+                  13,
+                  23
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Praça Jauru, straight ahead",
+                "name": "-",
+                "way_points": [
+                  23,
+                  23
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          23
+        ],
+        "summary": {
+          "distance": 793.6,
+          "duration": 571.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.384586,
+            -22.9169
+          ],
+          [
+            -43.384586,
+            -22.916987
+          ],
+          [
+            -43.38418,
+            -22.916952
+          ],
+          [
+            -43.383919,
+            -22.916923
+          ],
+          [
+            -43.383552,
+            -22.916892
+          ],
+          [
+            -43.382898,
+            -22.916832
+          ],
+          [
+            -43.381996,
+            -22.916749
+          ],
+          [
+            -43.381762,
+            -22.916731
+          ],
+          [
+            -43.379827,
+            -22.916585
+          ],
+          [
+            -43.379187,
+            -22.916532
+          ],
+          [
+            -43.378897,
+            -22.91651
+          ],
+          [
+            -43.378226,
+            -22.916443
+          ],
+          [
+            -43.378147,
+            -22.916404
+          ],
+          [
+            -43.378085,
+            -22.916352
+          ],
+          [
+            -43.37807,
+            -22.916299
+          ],
+          [
+            -43.378008,
+            -22.916194
+          ],
+          [
+            -43.377951,
+            -22.91614
+          ],
+          [
+            -43.377809,
+            -22.91607
+          ],
+          [
+            -43.377647,
+            -22.916058
+          ],
+          [
+            -43.377522,
+            -22.916093
+          ],
+          [
+            -43.377452,
+            -22.916134
+          ],
+          [
+            -43.377385,
+            -22.916197
+          ],
+          [
+            -43.377336,
+            -22.916272
+          ],
+          [
+            -43.377309,
+            -22.916356
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756394043721,
+    "query": {
+      "coordinates": [
+        [
+          -43.3845861,
+          -22.9169002
+        ],
+        [
+          -43.3773091,
+          -22.9163563
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

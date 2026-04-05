@@ -1,0 +1,227 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    11.528332,
+    48.066277,
+    11.529802,
+    48.070573
+  ],
+  "features": [
+    {
+      "bbox": [
+        11.528332,
+        48.066277,
+        11.529802,
+        48.070573
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 589.8,
+            "duration": 424.7,
+            "steps": [
+              {
+                "distance": 0.2,
+                "duration": 0.1,
+                "type": 11,
+                "instruction": "Head north",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 5.6,
+                "duration": 4.1,
+                "type": 0,
+                "instruction": "Turn left onto Am Grundelberg",
+                "name": "Am Grundelberg",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 190.8,
+                "duration": 137.4,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  2,
+                  9
+                ]
+              },
+              {
+                "distance": 112.8,
+                "duration": 81.2,
+                "type": 0,
+                "instruction": "Turn left onto Promenadeweg",
+                "name": "Promenadeweg",
+                "way_points": [
+                  9,
+                  14
+                ]
+              },
+              {
+                "distance": 280.4,
+                "duration": 201.9,
+                "type": 1,
+                "instruction": "Turn right onto Wettersteinstraße",
+                "name": "Wettersteinstraße",
+                "way_points": [
+                  14,
+                  22
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Wettersteinstraße, straight ahead",
+                "name": "-",
+                "way_points": [
+                  22,
+                  22
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          22
+        ],
+        "summary": {
+          "distance": 589.8,
+          "duration": 424.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            11.52932,
+            48.066277
+          ],
+          [
+            11.529321,
+            48.066278
+          ],
+          [
+            11.529246,
+            48.066287
+          ],
+          [
+            11.52934,
+            48.06657
+          ],
+          [
+            11.529353,
+            48.066675
+          ],
+          [
+            11.529584,
+            48.067319
+          ],
+          [
+            11.529763,
+            48.067578
+          ],
+          [
+            11.529777,
+            48.067703
+          ],
+          [
+            11.529773,
+            48.067761
+          ],
+          [
+            11.529802,
+            48.06795
+          ],
+          [
+            11.529639,
+            48.067978
+          ],
+          [
+            11.529108,
+            48.068072
+          ],
+          [
+            11.528826,
+            48.068115
+          ],
+          [
+            11.528463,
+            48.068175
+          ],
+          [
+            11.528332,
+            48.0682
+          ],
+          [
+            11.528427,
+            48.068337
+          ],
+          [
+            11.529017,
+            48.069321
+          ],
+          [
+            11.529324,
+            48.069964
+          ],
+          [
+            11.529389,
+            48.070101
+          ],
+          [
+            11.529403,
+            48.070129
+          ],
+          [
+            11.529533,
+            48.070403
+          ],
+          [
+            11.52954,
+            48.070418
+          ],
+          [
+            11.529597,
+            48.070573
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756139495985,
+    "query": {
+      "coordinates": [
+        [
+          11.5293205,
+          48.0662768
+        ],
+        [
+          11.529597,
+          48.0705726
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

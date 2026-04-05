@@ -1,0 +1,171 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    31.54499,
+    30.12019,
+    31.550627,
+    30.121974
+  ],
+  "features": [
+    {
+      "bbox": [
+        31.54499,
+        30.12019,
+        31.550627,
+        30.121974
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 754.2,
+            "duration": 543.0,
+            "steps": [
+              {
+                "distance": 78.7,
+                "duration": 56.6,
+                "type": 11,
+                "instruction": "Head north",
+                "name": "-",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 68.6,
+                "duration": 49.4,
+                "type": 12,
+                "instruction": "Keep left",
+                "name": "-",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 224.3,
+                "duration": 161.5,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  3,
+                  6
+                ]
+              },
+              {
+                "distance": 104.3,
+                "duration": 75.1,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 278.4,
+                "duration": 200.4,
+                "type": 0,
+                "instruction": "Turn left onto محور اللواء محمود نصر",
+                "name": "محور اللواء محمود نصر",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at محور اللواء محمود نصر, straight ahead",
+                "name": "-",
+                "way_points": [
+                  8,
+                  8
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          8
+        ],
+        "summary": {
+          "distance": 754.2,
+          "duration": 543.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            31.550627,
+            30.12019
+          ],
+          [
+            31.550547,
+            30.120541
+          ],
+          [
+            31.550469,
+            30.120884
+          ],
+          [
+            31.550332,
+            30.121489
+          ],
+          [
+            31.549918,
+            30.121403
+          ],
+          [
+            31.548818,
+            30.121201
+          ],
+          [
+            31.548055,
+            30.121056
+          ],
+          [
+            31.547833,
+            30.121974
+          ],
+          [
+            31.54499,
+            30.121503
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756731156402,
+    "query": {
+      "coordinates": [
+        [
+          31.5506268,
+          30.1201898
+        ],
+        [
+          31.5449902,
+          30.1215027
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

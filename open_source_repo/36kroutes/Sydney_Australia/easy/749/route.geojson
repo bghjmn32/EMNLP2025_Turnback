@@ -1,0 +1,206 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    151.121991,
+    -33.874744,
+    151.123901,
+    -33.871226
+  ],
+  "features": [
+    {
+      "bbox": [
+        151.121991,
+        -33.874744,
+        151.123901,
+        -33.871226
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 606.0,
+            "duration": 436.3,
+            "steps": [
+              {
+                "distance": 177.6,
+                "duration": 127.9,
+                "type": 11,
+                "instruction": "Head north on Burns Street",
+                "name": "Burns Street",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 127.0,
+                "duration": 91.5,
+                "type": 0,
+                "instruction": "Turn left onto Dalmar Street",
+                "name": "Dalmar Street",
+                "way_points": [
+                  3,
+                  5
+                ]
+              },
+              {
+                "distance": 125.5,
+                "duration": 90.4,
+                "type": 1,
+                "instruction": "Turn right onto Scott Street",
+                "name": "Scott Street",
+                "way_points": [
+                  5,
+                  8
+                ]
+              },
+              {
+                "distance": 147.7,
+                "duration": 106.3,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  8,
+                  10
+                ]
+              },
+              {
+                "distance": 17.7,
+                "duration": 12.8,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  10,
+                  12
+                ]
+              },
+              {
+                "distance": 10.5,
+                "duration": 7.5,
+                "type": 0,
+                "instruction": "Turn left onto Parramatta Road, A44",
+                "name": "Parramatta Road, A44",
+                "way_points": [
+                  12,
+                  14
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Parramatta Road, A44, straight ahead",
+                "name": "-",
+                "way_points": [
+                  14,
+                  14
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          14
+        ],
+        "summary": {
+          "distance": 606.0,
+          "duration": 436.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            151.123495,
+            -33.874744
+          ],
+          [
+            151.123802,
+            -33.873345
+          ],
+          [
+            151.123827,
+            -33.873285
+          ],
+          [
+            151.123901,
+            -33.873191
+          ],
+          [
+            151.122822,
+            -33.872597
+          ],
+          [
+            151.122747,
+            -33.87257
+          ],
+          [
+            151.122914,
+            -33.872363
+          ],
+          [
+            151.123499,
+            -33.871784
+          ],
+          [
+            151.123581,
+            -33.871681
+          ],
+          [
+            151.123384,
+            -33.871618
+          ],
+          [
+            151.122022,
+            -33.871393
+          ],
+          [
+            151.122041,
+            -33.871328
+          ],
+          [
+            151.122071,
+            -33.871238
+          ],
+          [
+            151.121991,
+            -33.871226
+          ],
+          [
+            151.121991,
+            -33.871226
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756395058093,
+    "query": {
+      "coordinates": [
+        [
+          151.1234948,
+          -33.8747439
+        ],
+        [
+          151.1219909,
+          -33.8712263
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

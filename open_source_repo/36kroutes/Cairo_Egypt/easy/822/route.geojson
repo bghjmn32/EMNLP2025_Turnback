@@ -1,0 +1,192 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    31.459786,
+    30.005498,
+    31.462493,
+    30.008293
+  ],
+  "features": [
+    {
+      "bbox": [
+        31.459786,
+        30.005498,
+        31.462493,
+        30.008293
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 586.0,
+            "duration": 421.9,
+            "steps": [
+              {
+                "distance": 144.2,
+                "duration": 103.8,
+                "type": 11,
+                "instruction": "Head southwest on شارع سميرة موسى",
+                "name": "شارع سميرة موسى",
+                "way_points": [
+                  0,
+                  10
+                ]
+              },
+              {
+                "distance": 82.1,
+                "duration": 59.1,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  10,
+                  11
+                ]
+              },
+              {
+                "distance": 130.6,
+                "duration": 94.1,
+                "type": 1,
+                "instruction": "Turn right onto شارع الفنان نجيب الريحانى",
+                "name": "شارع الفنان نجيب الريحانى",
+                "way_points": [
+                  11,
+                  14
+                ]
+              },
+              {
+                "distance": 229.1,
+                "duration": 164.9,
+                "type": 0,
+                "instruction": "Turn left onto شارع الفنان سيد درويش",
+                "name": "شارع الفنان سيد درويش",
+                "way_points": [
+                  14,
+                  16
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at شارع الفنان سيد درويش, straight ahead",
+                "name": "-",
+                "way_points": [
+                  16,
+                  16
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          16
+        ],
+        "summary": {
+          "distance": 586.0,
+          "duration": 421.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            31.462493,
+            30.007983
+          ],
+          [
+            31.462402,
+            30.00792
+          ],
+          [
+            31.462293,
+            30.007888
+          ],
+          [
+            31.462177,
+            30.00789
+          ],
+          [
+            31.462069,
+            30.007926
+          ],
+          [
+            31.461973,
+            30.008
+          ],
+          [
+            31.46194,
+            30.008047
+          ],
+          [
+            31.461649,
+            30.008199
+          ],
+          [
+            31.461485,
+            30.008251
+          ],
+          [
+            31.461314,
+            30.008283
+          ],
+          [
+            31.461162,
+            30.008293
+          ],
+          [
+            31.461151,
+            30.007554
+          ],
+          [
+            31.460729,
+            30.007558
+          ],
+          [
+            31.45992,
+            30.007558
+          ],
+          [
+            31.459794,
+            30.007558
+          ],
+          [
+            31.459789,
+            30.006101
+          ],
+          [
+            31.459786,
+            30.005498
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756731904895,
+    "query": {
+      "coordinates": [
+        [
+          31.4624927,
+          30.0079832
+        ],
+        [
+          31.4597858,
+          30.0054978
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

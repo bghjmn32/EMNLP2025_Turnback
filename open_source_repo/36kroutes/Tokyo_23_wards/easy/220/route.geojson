@@ -1,0 +1,207 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    139.673448,
+    35.78973,
+    139.680078,
+    35.791599
+  ],
+  "features": [
+    {
+      "bbox": [
+        139.673448,
+        35.78973,
+        139.680078,
+        35.791599
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 782.4,
+            "duration": 563.3,
+            "steps": [
+              {
+                "distance": 52.1,
+                "duration": 37.5,
+                "type": 11,
+                "instruction": "Head north on 蓮根駅前通り",
+                "name": "蓮根駅前通り",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 286.0,
+                "duration": 205.9,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  4
+                ]
+              },
+              {
+                "distance": 255.5,
+                "duration": 183.9,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  4,
+                  11
+                ]
+              },
+              {
+                "distance": 137.7,
+                "duration": 99.2,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  11,
+                  15
+                ]
+              },
+              {
+                "distance": 51.1,
+                "duration": 36.8,
+                "type": 1,
+                "instruction": "Turn right onto 市場通り",
+                "name": "市場通り",
+                "way_points": [
+                  15,
+                  17
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at 市場通り, straight ahead",
+                "name": "-",
+                "way_points": [
+                  17,
+                  17
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          17
+        ],
+        "summary": {
+          "distance": 782.4,
+          "duration": 563.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            139.680078,
+            35.791132
+          ],
+          [
+            139.680042,
+            35.791599
+          ],
+          [
+            139.678512,
+            35.791297
+          ],
+          [
+            139.677936,
+            35.791176
+          ],
+          [
+            139.676955,
+            35.79101
+          ],
+          [
+            139.676948,
+            35.791024
+          ],
+          [
+            139.676679,
+            35.790976
+          ],
+          [
+            139.676669,
+            35.791008
+          ],
+          [
+            139.676298,
+            35.790934
+          ],
+          [
+            139.675975,
+            35.790898
+          ],
+          [
+            139.675655,
+            35.790898
+          ],
+          [
+            139.674188,
+            35.790976
+          ],
+          [
+            139.674178,
+            35.790873
+          ],
+          [
+            139.674155,
+            35.79085
+          ],
+          [
+            139.674078,
+            35.790355
+          ],
+          [
+            139.674013,
+            35.789751
+          ],
+          [
+            139.673863,
+            35.789754
+          ],
+          [
+            139.673448,
+            35.78973
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756133517615,
+    "query": {
+      "coordinates": [
+        [
+          139.6800781,
+          35.7911316
+        ],
+        [
+          139.6734484,
+          35.7897303
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

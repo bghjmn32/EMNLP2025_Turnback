@@ -1,0 +1,300 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    11.57294,
+    48.141513,
+    11.581256,
+    48.143185
+  ],
+  "features": [
+    {
+      "bbox": [
+        11.57294,
+        48.141513,
+        11.581256,
+        48.143185
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 681.9,
+            "duration": 490.9,
+            "steps": [
+              {
+                "distance": 60.3,
+                "duration": 43.4,
+                "type": 11,
+                "instruction": "Head east on Brienner Straße",
+                "name": "Brienner Straße",
+                "way_points": [
+                  0,
+                  5
+                ]
+              },
+              {
+                "distance": 77.5,
+                "duration": 55.8,
+                "type": 4,
+                "instruction": "Turn slight left",
+                "name": "-",
+                "way_points": [
+                  5,
+                  10
+                ]
+              },
+              {
+                "distance": 204.8,
+                "duration": 147.4,
+                "type": 1,
+                "instruction": "Turn right onto Brienner Straße",
+                "name": "Brienner Straße",
+                "way_points": [
+                  10,
+                  15
+                ]
+              },
+              {
+                "distance": 4.2,
+                "duration": 3.0,
+                "type": 0,
+                "instruction": "Turn left onto Theatinerstraße",
+                "name": "Theatinerstraße",
+                "way_points": [
+                  15,
+                  16
+                ]
+              },
+              {
+                "distance": 5.6,
+                "duration": 4.0,
+                "type": 3,
+                "instruction": "Turn sharp right onto Odeonsplatz",
+                "name": "Odeonsplatz",
+                "way_points": [
+                  16,
+                  17
+                ]
+              },
+              {
+                "distance": 41.4,
+                "duration": 29.8,
+                "type": 12,
+                "instruction": "Keep left onto Odeonsplatz",
+                "name": "Odeonsplatz",
+                "way_points": [
+                  17,
+                  19
+                ]
+              },
+              {
+                "distance": 255.3,
+                "duration": 183.8,
+                "type": 6,
+                "instruction": "Continue straight",
+                "name": "-",
+                "way_points": [
+                  19,
+                  30
+                ]
+              },
+              {
+                "distance": 32.8,
+                "duration": 23.6,
+                "type": 1,
+                "instruction": "Turn right onto Hofgartenstraße",
+                "name": "Hofgartenstraße",
+                "way_points": [
+                  30,
+                  32
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Hofgartenstraße, straight ahead",
+                "name": "-",
+                "way_points": [
+                  32,
+                  32
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          32
+        ],
+        "summary": {
+          "distance": 681.9,
+          "duration": 490.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            11.57294,
+            48.143165
+          ],
+          [
+            11.57324,
+            48.143185
+          ],
+          [
+            11.573311,
+            48.143162
+          ],
+          [
+            11.573429,
+            48.143122
+          ],
+          [
+            11.573576,
+            48.143074
+          ],
+          [
+            11.573698,
+            48.143033
+          ],
+          [
+            11.574019,
+            48.14303
+          ],
+          [
+            11.574363,
+            48.143018
+          ],
+          [
+            11.574588,
+            48.143016
+          ],
+          [
+            11.574634,
+            48.143038
+          ],
+          [
+            11.574665,
+            48.143099
+          ],
+          [
+            11.575186,
+            48.14304
+          ],
+          [
+            11.575344,
+            48.143019
+          ],
+          [
+            11.575527,
+            48.142985
+          ],
+          [
+            11.576939,
+            48.142699
+          ],
+          [
+            11.577327,
+            48.142621
+          ],
+          [
+            11.577345,
+            48.142657
+          ],
+          [
+            11.577395,
+            48.142619
+          ],
+          [
+            11.577836,
+            48.142533
+          ],
+          [
+            11.577929,
+            48.142513
+          ],
+          [
+            11.578015,
+            48.142496
+          ],
+          [
+            11.578022,
+            48.142495
+          ],
+          [
+            11.578119,
+            48.142476
+          ],
+          [
+            11.578158,
+            48.142467
+          ],
+          [
+            11.578653,
+            48.142355
+          ],
+          [
+            11.578691,
+            48.142346
+          ],
+          [
+            11.579227,
+            48.142231
+          ],
+          [
+            11.579629,
+            48.142144
+          ],
+          [
+            11.580023,
+            48.142059
+          ],
+          [
+            11.580572,
+            48.141941
+          ],
+          [
+            11.581203,
+            48.141805
+          ],
+          [
+            11.581238,
+            48.141652
+          ],
+          [
+            11.581256,
+            48.141513
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756139942218,
+    "query": {
+      "coordinates": [
+        [
+          11.5729396,
+          48.1431654
+        ],
+        [
+          11.5812563,
+          48.1415125
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

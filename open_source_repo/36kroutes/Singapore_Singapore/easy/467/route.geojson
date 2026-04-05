@@ -1,0 +1,236 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    103.924457,
+    1.330861,
+    103.928134,
+    1.333423
+  ],
+  "features": [
+    {
+      "bbox": [
+        103.924457,
+        1.330861,
+        103.928134,
+        1.333423
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 619.8,
+            "duration": 446.2,
+            "steps": [
+              {
+                "distance": 191.7,
+                "duration": 138.0,
+                "type": 11,
+                "instruction": "Head east on Bedok North Street 3",
+                "name": "Bedok North Street 3",
+                "way_points": [
+                  0,
+                  8
+                ]
+              },
+              {
+                "distance": 78.9,
+                "duration": 56.8,
+                "type": 0,
+                "instruction": "Turn left onto Bedok North Avenue 1",
+                "name": "Bedok North Avenue 1",
+                "way_points": [
+                  8,
+                  11
+                ]
+              },
+              {
+                "distance": 9.9,
+                "duration": 7.1,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 85.7,
+                "duration": 61.7,
+                "type": 0,
+                "instruction": "Turn left onto Bedok North Avenue 1",
+                "name": "Bedok North Avenue 1",
+                "way_points": [
+                  12,
+                  15
+                ]
+              },
+              {
+                "distance": 253.6,
+                "duration": 182.6,
+                "type": 7,
+                "instruction": "Enter the roundabout and take the 1st exit onto Bedok North Street 3",
+                "name": "Bedok North Street 3",
+                "exit_number": 1,
+                "way_points": [
+                  15,
+                  24
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Bedok North Street 3, straight ahead",
+                "name": "-",
+                "way_points": [
+                  24,
+                  24
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          24
+        ],
+        "summary": {
+          "distance": 619.8,
+          "duration": 446.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            103.924457,
+            1.330861
+          ],
+          [
+            103.924582,
+            1.330886
+          ],
+          [
+            103.924704,
+            1.330911
+          ],
+          [
+            103.924982,
+            1.330967
+          ],
+          [
+            103.925263,
+            1.331024
+          ],
+          [
+            103.925359,
+            1.331044
+          ],
+          [
+            103.925711,
+            1.331115
+          ],
+          [
+            103.926108,
+            1.331195
+          ],
+          [
+            103.926147,
+            1.331203
+          ],
+          [
+            103.926103,
+            1.331459
+          ],
+          [
+            103.92606,
+            1.331705
+          ],
+          [
+            103.926023,
+            1.331902
+          ],
+          [
+            103.926111,
+            1.331919
+          ],
+          [
+            103.925991,
+            1.332538
+          ],
+          [
+            103.925985,
+            1.332611
+          ],
+          [
+            103.926003,
+            1.332675
+          ],
+          [
+            103.926012,
+            1.332698
+          ],
+          [
+            103.926048,
+            1.332747
+          ],
+          [
+            103.926108,
+            1.332785
+          ],
+          [
+            103.926435,
+            1.332892
+          ],
+          [
+            103.926563,
+            1.332933
+          ],
+          [
+            103.927109,
+            1.333103
+          ],
+          [
+            103.927808,
+            1.333321
+          ],
+          [
+            103.928068,
+            1.333402
+          ],
+          [
+            103.928134,
+            1.333423
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756392609415,
+    "query": {
+      "coordinates": [
+        [
+          103.924457,
+          1.330861
+        ],
+        [
+          103.9281343,
+          1.3334226
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

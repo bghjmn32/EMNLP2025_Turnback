@@ -1,0 +1,157 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -79.306896,
+    43.73336,
+    -79.301364,
+    43.734964
+  ],
+  "features": [
+    {
+      "bbox": [
+        -79.306896,
+        43.73336,
+        -79.301364,
+        43.734964
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 671.4,
+            "duration": 483.4,
+            "steps": [
+              {
+                "distance": 147.4,
+                "duration": 106.1,
+                "type": 11,
+                "instruction": "Head north",
+                "name": "-",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 143.6,
+                "duration": 103.4,
+                "type": 1,
+                "instruction": "Turn right onto Ruscica Drive",
+                "name": "Ruscica Drive",
+                "way_points": [
+                  2,
+                  5
+                ]
+              },
+              {
+                "distance": 380.4,
+                "duration": 273.9,
+                "type": 1,
+                "instruction": "Turn right onto Innisdale Drive",
+                "name": "Innisdale Drive",
+                "way_points": [
+                  5,
+                  10
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Innisdale Drive, straight ahead",
+                "name": "-",
+                "way_points": [
+                  10,
+                  10
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          10
+        ],
+        "summary": {
+          "distance": 671.4,
+          "duration": 483.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -79.30637,
+            43.73336
+          ],
+          [
+            -79.306661,
+            43.734065
+          ],
+          [
+            -79.306896,
+            43.734631
+          ],
+          [
+            -79.306758,
+            43.734653
+          ],
+          [
+            -79.306617,
+            43.734683
+          ],
+          [
+            -79.305169,
+            43.734964
+          ],
+          [
+            -79.30485,
+            43.734223
+          ],
+          [
+            -79.304768,
+            43.734166
+          ],
+          [
+            -79.304624,
+            43.734156
+          ],
+          [
+            -79.302979,
+            43.734517
+          ],
+          [
+            -79.301364,
+            43.734858
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756124246483,
+    "query": {
+      "coordinates": [
+        [
+          -79.3063699,
+          43.7333603
+        ],
+        [
+          -79.3013644,
+          43.7348584
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

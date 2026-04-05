@@ -1,0 +1,176 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -104.949344,
+    39.764468,
+    -104.948722,
+    39.771058
+  ],
+  "features": [
+    {
+      "bbox": [
+        -104.949344,
+        39.764468,
+        -104.948722,
+        39.771058
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 794.8,
+            "duration": 572.3,
+            "steps": [
+              {
+                "distance": 405.5,
+                "duration": 292.0,
+                "type": 11,
+                "instruction": "Head north",
+                "name": "-",
+                "way_points": [
+                  0,
+                  4
+                ]
+              },
+              {
+                "distance": 52.2,
+                "duration": 37.6,
+                "type": 1,
+                "instruction": "Turn right onto East 37th Avenue",
+                "name": "East 37th Avenue",
+                "way_points": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "distance": 327.4,
+                "duration": 235.7,
+                "type": 0,
+                "instruction": "Turn left onto Adams Street",
+                "name": "Adams Street",
+                "way_points": [
+                  5,
+                  11
+                ]
+              },
+              {
+                "distance": 9.7,
+                "duration": 7.0,
+                "type": 0,
+                "instruction": "Turn left onto East 39th Avenue",
+                "name": "East 39th Avenue",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at East 39th Avenue, straight ahead",
+                "name": "-",
+                "way_points": [
+                  12,
+                  12
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          12
+        ],
+        "summary": {
+          "distance": 794.8,
+          "duration": 572.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -104.949344,
+            39.764468
+          ],
+          [
+            -104.949344,
+            39.764563
+          ],
+          [
+            -104.949341,
+            39.765732
+          ],
+          [
+            -104.949339,
+            39.766973
+          ],
+          [
+            -104.949333,
+            39.768115
+          ],
+          [
+            -104.948722,
+            39.768114
+          ],
+          [
+            -104.948723,
+            39.768186
+          ],
+          [
+            -104.948724,
+            39.768415
+          ],
+          [
+            -104.948725,
+            39.768797
+          ],
+          [
+            -104.948727,
+            39.769207
+          ],
+          [
+            -104.948732,
+            39.770978
+          ],
+          [
+            -104.948731,
+            39.771058
+          ],
+          [
+            -104.948845,
+            39.771058
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756305055476,
+    "query": {
+      "coordinates": [
+        [
+          -104.949344,
+          39.7644683
+        ],
+        [
+          -104.9488453,
+          39.7710584
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

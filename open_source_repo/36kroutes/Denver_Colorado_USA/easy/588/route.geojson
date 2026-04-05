@@ -1,0 +1,208 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -104.988726,
+    39.621835,
+    -104.983176,
+    39.624055
+  ],
+  "features": [
+    {
+      "bbox": [
+        -104.988726,
+        39.621835,
+        -104.983176,
+        39.624055
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 687.8,
+            "duration": 495.2,
+            "steps": [
+              {
+                "distance": 16.0,
+                "duration": 11.5,
+                "type": 11,
+                "instruction": "Head east",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 16.5,
+                "duration": 11.9,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 474.9,
+                "duration": 341.9,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  2,
+                  17
+                ]
+              },
+              {
+                "distance": 180.4,
+                "duration": 129.9,
+                "type": 0,
+                "instruction": "Turn left onto South Logan Street",
+                "name": "South Logan Street",
+                "way_points": [
+                  17,
+                  20
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at South Logan Street, straight ahead",
+                "name": "-",
+                "way_points": [
+                  20,
+                  20
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          20
+        ],
+        "summary": {
+          "distance": 687.8,
+          "duration": 495.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -104.988726,
+            39.622096
+          ],
+          [
+            -104.988539,
+            39.622098
+          ],
+          [
+            -104.98854,
+            39.621949
+          ],
+          [
+            -104.988326,
+            39.621948
+          ],
+          [
+            -104.988175,
+            39.621947
+          ],
+          [
+            -104.987997,
+            39.621976
+          ],
+          [
+            -104.987401,
+            39.621975
+          ],
+          [
+            -104.987171,
+            39.621974
+          ],
+          [
+            -104.986672,
+            39.621988
+          ],
+          [
+            -104.98656,
+            39.622
+          ],
+          [
+            -104.986294,
+            39.62202
+          ],
+          [
+            -104.986045,
+            39.621961
+          ],
+          [
+            -104.985779,
+            39.621862
+          ],
+          [
+            -104.985565,
+            39.621835
+          ],
+          [
+            -104.985384,
+            39.621855
+          ],
+          [
+            -104.985144,
+            39.621921
+          ],
+          [
+            -104.984148,
+            39.622179
+          ],
+          [
+            -104.983176,
+            39.622444
+          ],
+          [
+            -104.983254,
+            39.622635
+          ],
+          [
+            -104.983292,
+            39.622816
+          ],
+          [
+            -104.983289,
+            39.624055
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306277948,
+    "query": {
+      "coordinates": [
+        [
+          -104.9887258,
+          39.6220958
+        ],
+        [
+          -104.9832891,
+          39.6240554
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

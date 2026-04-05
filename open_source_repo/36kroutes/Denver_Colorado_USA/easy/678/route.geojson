@@ -1,0 +1,287 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -104.968623,
+    39.8148,
+    -104.965401,
+    39.82196
+  ],
+  "features": [
+    {
+      "bbox": [
+        -104.968623,
+        39.8148,
+        -104.965401,
+        39.82196
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1222.7,
+            "duration": 880.3,
+            "steps": [
+              {
+                "distance": 17.7,
+                "duration": 12.7,
+                "type": 11,
+                "instruction": "Head south",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 95.9,
+                "duration": 69.1,
+                "type": 1,
+                "instruction": "Turn right onto East 69th Avenue",
+                "name": "East 69th Avenue",
+                "way_points": [
+                  1,
+                  6
+                ]
+              },
+              {
+                "distance": 605.9,
+                "duration": 436.3,
+                "type": 0,
+                "instruction": "Turn left onto Franklin Street",
+                "name": "Franklin Street",
+                "way_points": [
+                  6,
+                  15
+                ]
+              },
+              {
+                "distance": 130.3,
+                "duration": 93.8,
+                "type": 0,
+                "instruction": "Turn left onto East 66th Avenue",
+                "name": "East 66th Avenue",
+                "way_points": [
+                  15,
+                  17
+                ]
+              },
+              {
+                "distance": 79.5,
+                "duration": 57.2,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  17,
+                  19
+                ]
+              },
+              {
+                "distance": 9.9,
+                "duration": 7.1,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  19,
+                  20
+                ]
+              },
+              {
+                "distance": 69.2,
+                "duration": 49.8,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  20,
+                  22
+                ]
+              },
+              {
+                "distance": 41.0,
+                "duration": 29.5,
+                "type": 0,
+                "instruction": "Turn left onto East 66th Avenue",
+                "name": "East 66th Avenue",
+                "way_points": [
+                  22,
+                  23
+                ]
+              },
+              {
+                "distance": 173.3,
+                "duration": 124.8,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  23,
+                  26
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  26,
+                  26
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          26
+        ],
+        "summary": {
+          "distance": 1222.7,
+          "duration": 880.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -104.967465,
+            39.82196
+          ],
+          [
+            -104.967467,
+            39.821801
+          ],
+          [
+            -104.967684,
+            39.8218
+          ],
+          [
+            -104.968011,
+            39.821802
+          ],
+          [
+            -104.968167,
+            39.821803
+          ],
+          [
+            -104.968521,
+            39.821805
+          ],
+          [
+            -104.96859,
+            39.821805
+          ],
+          [
+            -104.968593,
+            39.821464
+          ],
+          [
+            -104.968595,
+            39.821083
+          ],
+          [
+            -104.968604,
+            39.819959
+          ],
+          [
+            -104.968608,
+            39.819235
+          ],
+          [
+            -104.968608,
+            39.819169
+          ],
+          [
+            -104.968615,
+            39.81799
+          ],
+          [
+            -104.968616,
+            39.817789
+          ],
+          [
+            -104.968619,
+            39.817123
+          ],
+          [
+            -104.968623,
+            39.816356
+          ],
+          [
+            -104.967678,
+            39.816359
+          ],
+          [
+            -104.967098,
+            39.816362
+          ],
+          [
+            -104.9671,
+            39.81663
+          ],
+          [
+            -104.966517,
+            39.816625
+          ],
+          [
+            -104.966514,
+            39.816536
+          ],
+          [
+            -104.96593,
+            39.816532
+          ],
+          [
+            -104.965927,
+            39.816359
+          ],
+          [
+            -104.965447,
+            39.816358
+          ],
+          [
+            -104.965433,
+            39.815774
+          ],
+          [
+            -104.965418,
+            39.8153
+          ],
+          [
+            -104.965401,
+            39.8148
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306618195,
+    "query": {
+      "coordinates": [
+        [
+          -104.9674653,
+          39.8219595
+        ],
+        [
+          -104.9654013,
+          39.8147995
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

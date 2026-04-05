@@ -1,0 +1,184 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.114667,
+    19.436064,
+    -99.111341,
+    19.437866
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.114667,
+        19.436064,
+        -99.111341,
+        19.437866
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 657.1,
+            "duration": 473.1,
+            "steps": [
+              {
+                "distance": 39.5,
+                "duration": 28.4,
+                "type": 11,
+                "instruction": "Head north",
+                "name": "-",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 93.4,
+                "duration": 67.2,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  3,
+                  9
+                ]
+              },
+              {
+                "distance": 321.5,
+                "duration": 231.5,
+                "type": 0,
+                "instruction": "Turn left onto Avenida Albañiles, EJE 1 NTE",
+                "name": "Avenida Albañiles, EJE 1 NTE",
+                "way_points": [
+                  9,
+                  12
+                ]
+              },
+              {
+                "distance": 202.7,
+                "duration": 145.9,
+                "type": 0,
+                "instruction": "Turn left onto Avenida Ingeniero Eduardo Molina, EJE 3 OTE",
+                "name": "Avenida Ingeniero Eduardo Molina, EJE 3 OTE",
+                "way_points": [
+                  12,
+                  14
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Avenida Ingeniero Eduardo Molina, EJE 3 OTE, on the right",
+                "name": "-",
+                "way_points": [
+                  14,
+                  14
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          14
+        ],
+        "summary": {
+          "distance": 657.1,
+          "duration": 473.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.111472,
+            19.436484
+          ],
+          [
+            -99.111472,
+            19.436661
+          ],
+          [
+            -99.11145,
+            19.436762
+          ],
+          [
+            -99.111397,
+            19.436818
+          ],
+          [
+            -99.111488,
+            19.436924
+          ],
+          [
+            -99.11152,
+            19.437091
+          ],
+          [
+            -99.111466,
+            19.437172
+          ],
+          [
+            -99.111343,
+            19.437187
+          ],
+          [
+            -99.111343,
+            19.437384
+          ],
+          [
+            -99.111341,
+            19.437507
+          ],
+          [
+            -99.111858,
+            19.437526
+          ],
+          [
+            -99.114198,
+            19.437826
+          ],
+          [
+            -99.114381,
+            19.437866
+          ],
+          [
+            -99.114599,
+            19.436491
+          ],
+          [
+            -99.114667,
+            19.436064
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756305118826,
+    "query": {
+      "coordinates": [
+        [
+          -99.1114717,
+          19.4364837
+        ],
+        [
+          -99.1149987,
+          19.43611
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

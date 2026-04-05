@@ -1,0 +1,183 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.269054,
+    -22.902902,
+    -43.267388,
+    -22.899895
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.269054,
+        -22.902902,
+        -43.267388,
+        -22.899895
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 577.7,
+            "duration": 415.9,
+            "steps": [
+              {
+                "distance": 176.0,
+                "duration": 126.7,
+                "type": 11,
+                "instruction": "Head southeast on Rua Bolívia",
+                "name": "Rua Bolívia",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 62.8,
+                "duration": 45.2,
+                "type": 0,
+                "instruction": "Turn left onto Rua Souza Barros",
+                "name": "Rua Souza Barros",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 214.6,
+                "duration": 154.5,
+                "type": 3,
+                "instruction": "Turn sharp right",
+                "name": "-",
+                "way_points": [
+                  2,
+                  7
+                ]
+              },
+              {
+                "distance": 53.6,
+                "duration": 38.6,
+                "type": 0,
+                "instruction": "Turn left onto Rua Silva Freire",
+                "name": "Rua Silva Freire",
+                "way_points": [
+                  7,
+                  9
+                ]
+              },
+              {
+                "distance": 70.7,
+                "duration": 50.9,
+                "type": 0,
+                "instruction": "Turn left onto Rua Vinte e Quatro de Maio",
+                "name": "Rua Vinte e Quatro de Maio",
+                "way_points": [
+                  9,
+                  11
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Rua Vinte e Quatro de Maio, straight ahead",
+                "name": "-",
+                "way_points": [
+                  11,
+                  11
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          11
+        ],
+        "summary": {
+          "distance": 577.7,
+          "duration": 415.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.269054,
+            -22.899895
+          ],
+          [
+            -43.267974,
+            -22.901126
+          ],
+          [
+            -43.267388,
+            -22.900959
+          ],
+          [
+            -43.26778,
+            -22.901828
+          ],
+          [
+            -43.267984,
+            -22.90211
+          ],
+          [
+            -43.268022,
+            -22.902152
+          ],
+          [
+            -43.268432,
+            -22.902365
+          ],
+          [
+            -43.268573,
+            -22.902462
+          ],
+          [
+            -43.268467,
+            -22.902613
+          ],
+          [
+            -43.26837,
+            -22.902902
+          ],
+          [
+            -43.267907,
+            -22.902798
+          ],
+          [
+            -43.267699,
+            -22.902755
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756390230763,
+    "query": {
+      "coordinates": [
+        [
+          -43.2690539,
+          -22.8998946
+        ],
+        [
+          -43.267699,
+          -22.9027546
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,254 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    174.834646,
+    -36.949527,
+    174.845532,
+    -36.945254
+  ],
+  "features": [
+    {
+      "bbox": [
+        174.834646,
+        -36.949527,
+        174.845532,
+        -36.945254
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1208.7,
+            "duration": 870.3,
+            "steps": [
+              {
+                "distance": 63.1,
+                "duration": 45.4,
+                "type": 11,
+                "instruction": "Head west on High Street",
+                "name": "High Street",
+                "way_points": [
+                  0,
+                  4
+                ]
+              },
+              {
+                "distance": 286.8,
+                "duration": 206.5,
+                "type": 0,
+                "instruction": "Turn left onto Park Avenue",
+                "name": "Park Avenue",
+                "way_points": [
+                  4,
+                  11
+                ]
+              },
+              {
+                "distance": 207.0,
+                "duration": 149.1,
+                "type": 13,
+                "instruction": "Keep right",
+                "name": "-",
+                "way_points": [
+                  11,
+                  15
+                ]
+              },
+              {
+                "distance": 10.0,
+                "duration": 7.2,
+                "type": 3,
+                "instruction": "Turn sharp right onto Nikau Road",
+                "name": "Nikau Road",
+                "way_points": [
+                  15,
+                  16
+                ]
+              },
+              {
+                "distance": 488.6,
+                "duration": 351.8,
+                "type": 2,
+                "instruction": "Turn sharp left onto Lippiatt Road",
+                "name": "Lippiatt Road",
+                "way_points": [
+                  16,
+                  20
+                ]
+              },
+              {
+                "distance": 153.3,
+                "duration": 110.4,
+                "type": 1,
+                "instruction": "Turn right onto Walmsley Road",
+                "name": "Walmsley Road",
+                "way_points": [
+                  20,
+                  26
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Walmsley Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  26,
+                  26
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          26
+        ],
+        "summary": {
+          "distance": 1208.7,
+          "duration": 870.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            174.845532,
+            -36.945254
+          ],
+          [
+            174.845449,
+            -36.945268
+          ],
+          [
+            174.845144,
+            -36.945338
+          ],
+          [
+            174.844918,
+            -36.945392
+          ],
+          [
+            174.844847,
+            -36.945388
+          ],
+          [
+            174.844791,
+            -36.94545
+          ],
+          [
+            174.844201,
+            -36.945815
+          ],
+          [
+            174.844129,
+            -36.945841
+          ],
+          [
+            174.844053,
+            -36.945867
+          ],
+          [
+            174.843459,
+            -36.946239
+          ],
+          [
+            174.843218,
+            -36.946378
+          ],
+          [
+            174.842278,
+            -36.946938
+          ],
+          [
+            174.842075,
+            -36.946981
+          ],
+          [
+            174.840953,
+            -36.947043
+          ],
+          [
+            174.840189,
+            -36.947099
+          ],
+          [
+            174.839961,
+            -36.947102
+          ],
+          [
+            174.839996,
+            -36.947016
+          ],
+          [
+            174.838722,
+            -36.947154
+          ],
+          [
+            174.838535,
+            -36.947215
+          ],
+          [
+            174.838018,
+            -36.947625
+          ],
+          [
+            174.835757,
+            -36.949527
+          ],
+          [
+            174.83545,
+            -36.949269
+          ],
+          [
+            174.83535,
+            -36.949185
+          ],
+          [
+            174.834898,
+            -36.948814
+          ],
+          [
+            174.834717,
+            -36.948608
+          ],
+          [
+            174.834654,
+            -36.948506
+          ],
+          [
+            174.834646,
+            -36.948484
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756377712561,
+    "query": {
+      "coordinates": [
+        [
+          174.8455318,
+          -36.9452538
+        ],
+        [
+          174.8346457,
+          -36.9484836
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

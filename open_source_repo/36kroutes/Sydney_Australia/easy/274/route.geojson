@@ -1,0 +1,170 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    151.27911,
+    -33.701381,
+    151.283003,
+    -33.69883
+  ],
+  "features": [
+    {
+      "bbox": [
+        151.27911,
+        -33.701381,
+        151.283003,
+        -33.69883
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 515.5,
+            "duration": 371.2,
+            "steps": [
+              {
+                "distance": 120.0,
+                "duration": 86.4,
+                "type": 11,
+                "instruction": "Head southeast",
+                "name": "-",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 4.7,
+                "duration": 3.4,
+                "type": 2,
+                "instruction": "Turn sharp left onto Coolangatta Avenue",
+                "name": "Coolangatta Avenue",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 390.8,
+                "duration": 281.4,
+                "type": 7,
+                "instruction": "Enter the roundabout and take the 2nd exit onto Marinna Road",
+                "name": "Marinna Road",
+                "exit_number": 2,
+                "way_points": [
+                  4,
+                  13
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Marinna Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  13,
+                  13
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          13
+        ],
+        "summary": {
+          "distance": 515.5,
+          "duration": 371.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            151.27911,
+            -33.700884
+          ],
+          [
+            151.280113,
+            -33.701277
+          ],
+          [
+            151.28021,
+            -33.70133
+          ],
+          [
+            151.280248,
+            -33.701381
+          ],
+          [
+            151.280259,
+            -33.70134
+          ],
+          [
+            151.280292,
+            -33.701341
+          ],
+          [
+            151.280336,
+            -33.701316
+          ],
+          [
+            151.280342,
+            -33.701274
+          ],
+          [
+            151.280296,
+            -33.701228
+          ],
+          [
+            151.280413,
+            -33.701102
+          ],
+          [
+            151.281553,
+            -33.700288
+          ],
+          [
+            151.282721,
+            -33.699388
+          ],
+          [
+            151.282765,
+            -33.699333
+          ],
+          [
+            151.283003,
+            -33.69883
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756391658918,
+    "query": {
+      "coordinates": [
+        [
+          151.2791097,
+          -33.7008842
+        ],
+        [
+          151.283003,
+          -33.6988296
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

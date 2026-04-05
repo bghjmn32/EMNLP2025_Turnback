@@ -1,0 +1,158 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.327147,
+    -23.007783,
+    -43.319941,
+    -23.007035
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.327147,
+        -23.007783,
+        -43.319941,
+        -23.007035
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 755.6,
+            "duration": 544.0,
+            "steps": [
+              {
+                "distance": 745.8,
+                "duration": 537.0,
+                "type": 11,
+                "instruction": "Head east on Avenida Prefeito Dulcídio Cardoso",
+                "name": "Avenida Prefeito Dulcídio Cardoso",
+                "way_points": [
+                  0,
+                  12
+                ]
+              },
+              {
+                "distance": 9.8,
+                "duration": 7.1,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  12,
+                  13
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  13,
+                  13
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          13
+        ],
+        "summary": {
+          "distance": 755.6,
+          "duration": 544.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.327147,
+            -23.007035
+          ],
+          [
+            -43.325919,
+            -23.00722
+          ],
+          [
+            -43.325453,
+            -23.007294
+          ],
+          [
+            -43.325316,
+            -23.007319
+          ],
+          [
+            -43.325011,
+            -23.007362
+          ],
+          [
+            -43.324424,
+            -23.007481
+          ],
+          [
+            -43.32356,
+            -23.00761
+          ],
+          [
+            -43.323137,
+            -23.00767
+          ],
+          [
+            -43.322375,
+            -23.007756
+          ],
+          [
+            -43.322151,
+            -23.007776
+          ],
+          [
+            -43.321468,
+            -23.007783
+          ],
+          [
+            -43.320679,
+            -23.007708
+          ],
+          [
+            -43.319941,
+            -23.007594
+          ],
+          [
+            -43.319965,
+            -23.007509
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756390076276,
+    "query": {
+      "coordinates": [
+        [
+          -43.3271472,
+          -23.0070351
+        ],
+        [
+          -43.3199649,
+          -23.0075089
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

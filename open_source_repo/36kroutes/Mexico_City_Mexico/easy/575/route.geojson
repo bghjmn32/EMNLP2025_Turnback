@@ -1,0 +1,157 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.157175,
+    19.380876,
+    -99.152905,
+    19.382592
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.157175,
+        19.380876,
+        -99.152905,
+        19.382592
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 617.5,
+            "duration": 444.6,
+            "steps": [
+              {
+                "distance": 187.2,
+                "duration": 134.8,
+                "type": 11,
+                "instruction": "Head north on Calle Ixcateopan",
+                "name": "Calle Ixcateopan",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 8.9,
+                "duration": 6.4,
+                "type": 5,
+                "instruction": "Turn slight right onto Avenida Universidad",
+                "name": "Avenida Universidad",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 421.4,
+                "duration": 303.4,
+                "type": 1,
+                "instruction": "Turn right onto Calle San Borja",
+                "name": "Calle San Borja",
+                "way_points": [
+                  3,
+                  10
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle San Borja, straight ahead",
+                "name": "-",
+                "way_points": [
+                  10,
+                  10
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          10
+        ],
+        "summary": {
+          "distance": 617.5,
+          "duration": 444.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.157175,
+            19.380876
+          ],
+          [
+            -99.156834,
+            19.382266
+          ],
+          [
+            -99.156882,
+            19.382519
+          ],
+          [
+            -99.156846,
+            19.382592
+          ],
+          [
+            -99.156759,
+            19.382572
+          ],
+          [
+            -99.156021,
+            19.382453
+          ],
+          [
+            -99.1553,
+            19.382305
+          ],
+          [
+            -99.154701,
+            19.38221
+          ],
+          [
+            -99.154128,
+            19.382094
+          ],
+          [
+            -99.153489,
+            19.381977
+          ],
+          [
+            -99.152905,
+            19.381858
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306560875,
+    "query": {
+      "coordinates": [
+        [
+          -99.1571752,
+          19.3808763
+        ],
+        [
+          -99.1529053,
+          19.3818584
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

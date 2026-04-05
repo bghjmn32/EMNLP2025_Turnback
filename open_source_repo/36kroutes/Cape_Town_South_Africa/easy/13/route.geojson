@@ -1,0 +1,238 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.478773,
+    -33.991384,
+    18.481617,
+    -33.989216
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.478773,
+        -33.991384,
+        18.481617,
+        -33.989216
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 507.8,
+            "duration": 365.6,
+            "steps": [
+              {
+                "distance": 48.7,
+                "duration": 35.1,
+                "type": 11,
+                "instruction": "Head north on Grant Street",
+                "name": "Grant Street",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 214.6,
+                "duration": 154.5,
+                "type": 0,
+                "instruction": "Turn left onto Mckinley Road",
+                "name": "Mckinley Road",
+                "way_points": [
+                  1,
+                  8
+                ]
+              },
+              {
+                "distance": 176.1,
+                "duration": 126.8,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  8,
+                  18
+                ]
+              },
+              {
+                "distance": 42.6,
+                "duration": 30.6,
+                "type": 0,
+                "instruction": "Turn left onto College Road",
+                "name": "College Road",
+                "way_points": [
+                  18,
+                  20
+                ]
+              },
+              {
+                "distance": 14.6,
+                "duration": 10.5,
+                "type": 1,
+                "instruction": "Turn right onto Rosmead Avenue, M28",
+                "name": "Rosmead Avenue, M28",
+                "way_points": [
+                  20,
+                  21
+                ]
+              },
+              {
+                "distance": 11.2,
+                "duration": 8.1,
+                "type": 0,
+                "instruction": "Turn left onto Peffers Street",
+                "name": "Peffers Street",
+                "way_points": [
+                  21,
+                  22
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Peffers Street, straight ahead",
+                "name": "-",
+                "way_points": [
+                  22,
+                  22
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          22
+        ],
+        "summary": {
+          "distance": 507.8,
+          "duration": 365.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.481605,
+            -33.991384
+          ],
+          [
+            18.481617,
+            -33.990947
+          ],
+          [
+            18.481132,
+            -33.99096
+          ],
+          [
+            18.481029,
+            -33.990964
+          ],
+          [
+            18.480836,
+            -33.99097
+          ],
+          [
+            18.480775,
+            -33.990971
+          ],
+          [
+            18.480066,
+            -33.990987
+          ],
+          [
+            18.479447,
+            -33.99097
+          ],
+          [
+            18.479294,
+            -33.990944
+          ],
+          [
+            18.479304,
+            -33.990735
+          ],
+          [
+            18.479309,
+            -33.990638
+          ],
+          [
+            18.479315,
+            -33.990491
+          ],
+          [
+            18.479322,
+            -33.990334
+          ],
+          [
+            18.479331,
+            -33.990173
+          ],
+          [
+            18.47934,
+            -33.990011
+          ],
+          [
+            18.479345,
+            -33.989854
+          ],
+          [
+            18.479353,
+            -33.989707
+          ],
+          [
+            18.479355,
+            -33.989539
+          ],
+          [
+            18.479348,
+            -33.989362
+          ],
+          [
+            18.478998,
+            -33.989352
+          ],
+          [
+            18.478887,
+            -33.989352
+          ],
+          [
+            18.478895,
+            -33.989221
+          ],
+          [
+            18.478773,
+            -33.989216
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756803719737,
+    "query": {
+      "coordinates": [
+        [
+          18.4816049,
+          -33.9913845
+        ],
+        [
+          18.4787734,
+          -33.9892163
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

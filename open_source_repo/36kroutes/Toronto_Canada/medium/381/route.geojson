@@ -1,0 +1,187 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -79.432518,
+    43.73223,
+    -79.419108,
+    43.735056
+  ],
+  "features": [
+    {
+      "bbox": [
+        -79.432518,
+        43.73223,
+        -79.419108,
+        43.735056
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1230.5,
+            "duration": 886.0,
+            "steps": [
+              {
+                "distance": 9.5,
+                "duration": 6.8,
+                "type": 11,
+                "instruction": "Head west",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 16.3,
+                "duration": 11.8,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 1070.8,
+                "duration": 771.0,
+                "type": 0,
+                "instruction": "Turn left onto Haddington Avenue",
+                "name": "Haddington Avenue",
+                "way_points": [
+                  2,
+                  10
+                ]
+              },
+              {
+                "distance": 98.9,
+                "duration": 71.2,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  10,
+                  11
+                ]
+              },
+              {
+                "distance": 34.9,
+                "duration": 25.1,
+                "type": 0,
+                "instruction": "Turn left onto Felbrigg Avenue",
+                "name": "Felbrigg Avenue",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Felbrigg Avenue, straight ahead",
+                "name": "-",
+                "way_points": [
+                  12,
+                  12
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          12
+        ],
+        "summary": {
+          "distance": 1230.5,
+          "duration": 886.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -79.432404,
+            43.732395
+          ],
+          [
+            -79.432518,
+            43.732374
+          ],
+          [
+            -79.432477,
+            43.73223
+          ],
+          [
+            -79.431137,
+            43.732528
+          ],
+          [
+            -79.42909,
+            43.732977
+          ],
+          [
+            -79.429012,
+            43.732995
+          ],
+          [
+            -79.424819,
+            43.733934
+          ],
+          [
+            -79.421563,
+            43.734641
+          ],
+          [
+            -79.420022,
+            43.734999
+          ],
+          [
+            -79.419897,
+            43.735024
+          ],
+          [
+            -79.419736,
+            43.735056
+          ],
+          [
+            -79.419525,
+            43.734179
+          ],
+          [
+            -79.419108,
+            43.734268
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756127644592,
+    "query": {
+      "coordinates": [
+        [
+          -79.4324044,
+          43.7323946
+        ],
+        [
+          -79.419108,
+          43.7342679
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

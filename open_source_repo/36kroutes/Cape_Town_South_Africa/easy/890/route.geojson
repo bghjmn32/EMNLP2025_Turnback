@@ -1,0 +1,217 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.476139,
+    -33.992067,
+    18.47975,
+    -33.99008
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.476139,
+        -33.992067,
+        18.47975,
+        -33.99008
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 555.4,
+            "duration": 399.9,
+            "steps": [
+              {
+                "distance": 92.7,
+                "duration": 66.8,
+                "type": 11,
+                "instruction": "Head west on Jesmond Road",
+                "name": "Jesmond Road",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 29.5,
+                "duration": 21.3,
+                "type": 1,
+                "instruction": "Turn right onto Rosmead Avenue, M28",
+                "name": "Rosmead Avenue, M28",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 157.4,
+                "duration": 113.3,
+                "type": 0,
+                "instruction": "Turn left onto Dingle Avenue",
+                "name": "Dingle Avenue",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 180.5,
+                "duration": 130.0,
+                "type": 1,
+                "instruction": "Turn right onto 3rd Avenue",
+                "name": "3rd Avenue",
+                "way_points": [
+                  4,
+                  11
+                ]
+              },
+              {
+                "distance": 56.0,
+                "duration": 40.3,
+                "type": 0,
+                "instruction": "Turn left onto Bell Road",
+                "name": "Bell Road",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 6.5,
+                "duration": 4.7,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  12,
+                  13
+                ]
+              },
+              {
+                "distance": 32.8,
+                "duration": 23.6,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  13,
+                  14
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  14,
+                  14
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          14
+        ],
+        "summary": {
+          "distance": 555.4,
+          "duration": 399.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.47975,
+            -33.992067
+          ],
+          [
+            18.478855,
+            -33.992035
+          ],
+          [
+            18.478745,
+            -33.992033
+          ],
+          [
+            18.478758,
+            -33.991768
+          ],
+          [
+            18.477052,
+            -33.991718
+          ],
+          [
+            18.477063,
+            -33.991385
+          ],
+          [
+            18.477066,
+            -33.991279
+          ],
+          [
+            18.477077,
+            -33.990948
+          ],
+          [
+            18.477079,
+            -33.99087
+          ],
+          [
+            18.477089,
+            -33.990557
+          ],
+          [
+            18.477094,
+            -33.990401
+          ],
+          [
+            18.477104,
+            -33.990095
+          ],
+          [
+            18.476498,
+            -33.99008
+          ],
+          [
+            18.476495,
+            -33.990138
+          ],
+          [
+            18.476139,
+            -33.990134
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756805871526,
+    "query": {
+      "coordinates": [
+        [
+          18.4797497,
+          -33.9920666
+        ],
+        [
+          18.4761391,
+          -33.9901345
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

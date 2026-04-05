@@ -1,0 +1,216 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    11.626806,
+    48.143676,
+    11.629917,
+    48.146452
+  ],
+  "features": [
+    {
+      "bbox": [
+        11.626806,
+        48.143676,
+        11.629917,
+        48.146452
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 530.7,
+            "duration": 382.1,
+            "steps": [
+              {
+                "distance": 108.3,
+                "duration": 78.0,
+                "type": 11,
+                "instruction": "Head northwest",
+                "name": "-",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 33.0,
+                "duration": 23.8,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 21.7,
+                "duration": 15.6,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  4,
+                  6
+                ]
+              },
+              {
+                "distance": 220.6,
+                "duration": 158.8,
+                "type": 2,
+                "instruction": "Turn sharp left",
+                "name": "-",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 8.1,
+                "duration": 5.9,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 7.5,
+                "duration": 5.4,
+                "type": 5,
+                "instruction": "Turn slight right onto Revaler Straße",
+                "name": "Revaler Straße",
+                "way_points": [
+                  8,
+                  9
+                ]
+              },
+              {
+                "distance": 69.6,
+                "duration": 50.1,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  9,
+                  10
+                ]
+              },
+              {
+                "distance": 61.9,
+                "duration": 44.6,
+                "type": 1,
+                "instruction": "Turn right onto Oderstraße",
+                "name": "Oderstraße",
+                "way_points": [
+                  10,
+                  11
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Oderstraße, straight ahead",
+                "name": "-",
+                "way_points": [
+                  11,
+                  11
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          11
+        ],
+        "summary": {
+          "distance": 530.7,
+          "duration": 382.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            11.629917,
+            48.145934
+          ],
+          [
+            11.629506,
+            48.146171
+          ],
+          [
+            11.629098,
+            48.146323
+          ],
+          [
+            11.628692,
+            48.146452
+          ],
+          [
+            11.62848,
+            48.146191
+          ],
+          [
+            11.628355,
+            48.146246
+          ],
+          [
+            11.628221,
+            48.146279
+          ],
+          [
+            11.627845,
+            48.144311
+          ],
+          [
+            11.627739,
+            48.144293
+          ],
+          [
+            11.627639,
+            48.144301
+          ],
+          [
+            11.627632,
+            48.143676
+          ],
+          [
+            11.626806,
+            48.143751
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756138376575,
+    "query": {
+      "coordinates": [
+        [
+          11.6299167,
+          48.1459339
+        ],
+        [
+          11.6268056,
+          48.1437507
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

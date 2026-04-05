@@ -1,0 +1,218 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -105.020845,
+    39.838994,
+    -105.015418,
+    39.843657
+  ],
+  "features": [
+    {
+      "bbox": [
+        -105.020845,
+        39.838994,
+        -105.015418,
+        39.843657
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1040.8,
+            "duration": 749.4,
+            "steps": [
+              {
+                "distance": 169.0,
+                "duration": 121.6,
+                "type": 11,
+                "instruction": "Head north on Elmwood Lane",
+                "name": "Elmwood Lane",
+                "way_points": [
+                  0,
+                  6
+                ]
+              },
+              {
+                "distance": 83.7,
+                "duration": 60.2,
+                "type": 0,
+                "instruction": "Turn left onto Fairview Avenue",
+                "name": "Fairview Avenue",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 402.3,
+                "duration": 289.6,
+                "type": 1,
+                "instruction": "Turn right onto Valleyview Drive",
+                "name": "Valleyview Drive",
+                "way_points": [
+                  7,
+                  11
+                ]
+              },
+              {
+                "distance": 241.4,
+                "duration": 173.8,
+                "type": 0,
+                "instruction": "Turn left onto Zuni Street",
+                "name": "Zuni Street",
+                "way_points": [
+                  11,
+                  13
+                ]
+              },
+              {
+                "distance": 91.0,
+                "duration": 65.5,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  13,
+                  16
+                ]
+              },
+              {
+                "distance": 53.5,
+                "duration": 38.5,
+                "type": 0,
+                "instruction": "Turn left onto Wyandott Drive",
+                "name": "Wyandott Drive",
+                "way_points": [
+                  16,
+                  17
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Wyandott Drive, straight ahead",
+                "name": "-",
+                "way_points": [
+                  17,
+                  17
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          17
+        ],
+        "summary": {
+          "distance": 1040.8,
+          "duration": 749.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -105.020845,
+            39.838994
+          ],
+          [
+            -105.020751,
+            39.839279
+          ],
+          [
+            -105.020624,
+            39.839485
+          ],
+          [
+            -105.020418,
+            39.839714
+          ],
+          [
+            -105.020287,
+            39.83982
+          ],
+          [
+            -105.020046,
+            39.839967
+          ],
+          [
+            -105.019663,
+            39.840131
+          ],
+          [
+            -105.020104,
+            39.840803
+          ],
+          [
+            -105.019736,
+            39.840928
+          ],
+          [
+            -105.019541,
+            39.84097
+          ],
+          [
+            -105.019207,
+            39.841003
+          ],
+          [
+            -105.015437,
+            39.840976
+          ],
+          [
+            -105.015432,
+            39.841738
+          ],
+          [
+            -105.015418,
+            39.843147
+          ],
+          [
+            -105.015674,
+            39.843151
+          ],
+          [
+            -105.015827,
+            39.843151
+          ],
+          [
+            -105.015827,
+            39.843655
+          ],
+          [
+            -105.016453,
+            39.843657
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756304199753,
+    "query": {
+      "coordinates": [
+        [
+          -105.020845,
+          39.838994
+        ],
+        [
+          -105.0164532,
+          39.8436574
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

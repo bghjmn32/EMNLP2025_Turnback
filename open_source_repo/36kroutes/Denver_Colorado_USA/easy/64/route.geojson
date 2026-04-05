@@ -1,0 +1,278 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -104.977749,
+    39.846655,
+    -104.96837,
+    39.849324
+  ],
+  "features": [
+    {
+      "bbox": [
+        -104.977749,
+        39.846655,
+        -104.96837,
+        39.849324
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1220.2,
+            "duration": 878.5,
+            "steps": [
+              {
+                "distance": 77.7,
+                "duration": 56.0,
+                "type": 11,
+                "instruction": "Head north on Franklin Street",
+                "name": "Franklin Street",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 218.4,
+                "duration": 157.2,
+                "type": 0,
+                "instruction": "Turn left onto East 84th Avenue",
+                "name": "East 84th Avenue",
+                "way_points": [
+                  1,
+                  3
+                ]
+              },
+              {
+                "distance": 85.9,
+                "duration": 61.8,
+                "type": 0,
+                "instruction": "Turn left onto Downing Drive",
+                "name": "Downing Drive",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 532.1,
+                "duration": 383.1,
+                "type": 1,
+                "instruction": "Turn right onto East 83rd Place",
+                "name": "East 83rd Place",
+                "way_points": [
+                  4,
+                  10
+                ]
+              },
+              {
+                "distance": 124.9,
+                "duration": 89.9,
+                "type": 0,
+                "instruction": "Turn left onto Clarkson Street",
+                "name": "Clarkson Street",
+                "way_points": [
+                  10,
+                  11
+                ]
+              },
+              {
+                "distance": 50.1,
+                "duration": 36.1,
+                "type": 1,
+                "instruction": "Turn right onto Coronado Parkway North",
+                "name": "Coronado Parkway North",
+                "way_points": [
+                  11,
+                  13
+                ]
+              },
+              {
+                "distance": 6.7,
+                "duration": 4.8,
+                "type": 0,
+                "instruction": "Turn left onto Niver Creek Trail",
+                "name": "Niver Creek Trail",
+                "way_points": [
+                  13,
+                  14
+                ]
+              },
+              {
+                "distance": 81.8,
+                "duration": 58.9,
+                "type": 5,
+                "instruction": "Turn slight right",
+                "name": "-",
+                "way_points": [
+                  14,
+                  18
+                ]
+              },
+              {
+                "distance": 41.1,
+                "duration": 29.6,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  18,
+                  20
+                ]
+              },
+              {
+                "distance": 1.5,
+                "duration": 1.1,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  20,
+                  21
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  21,
+                  21
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          21
+        ],
+        "summary": {
+          "distance": 1220.2,
+          "duration": 878.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -104.968385,
+            39.848606
+          ],
+          [
+            -104.96837,
+            39.849305
+          ],
+          [
+            -104.96934,
+            39.849309
+          ],
+          [
+            -104.970928,
+            39.849324
+          ],
+          [
+            -104.970896,
+            39.848552
+          ],
+          [
+            -104.971974,
+            39.848563
+          ],
+          [
+            -104.973009,
+            39.84857
+          ],
+          [
+            -104.97404,
+            39.848575
+          ],
+          [
+            -104.97507,
+            39.848577
+          ],
+          [
+            -104.976101,
+            39.848584
+          ],
+          [
+            -104.977129,
+            39.848588
+          ],
+          [
+            -104.977146,
+            39.847465
+          ],
+          [
+            -104.977392,
+            39.847479
+          ],
+          [
+            -104.977733,
+            39.847483
+          ],
+          [
+            -104.977722,
+            39.847424
+          ],
+          [
+            -104.977749,
+            39.847374
+          ],
+          [
+            -104.977747,
+            39.847026
+          ],
+          [
+            -104.977745,
+            39.846925
+          ],
+          [
+            -104.977744,
+            39.846693
+          ],
+          [
+            -104.977633,
+            39.84667
+          ],
+          [
+            -104.977267,
+            39.846667
+          ],
+          [
+            -104.977267,
+            39.846655
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756304110708,
+    "query": {
+      "coordinates": [
+        [
+          -104.9683849,
+          39.8486062
+        ],
+        [
+          -104.9772659,
+          39.8466547
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

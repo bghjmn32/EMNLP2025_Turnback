@@ -1,0 +1,218 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    31.319628,
+    30.082775,
+    31.321564,
+    30.087205
+  ],
+  "features": [
+    {
+      "bbox": [
+        31.319628,
+        30.082775,
+        31.321564,
+        30.087205
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 752.5,
+            "duration": 541.8,
+            "steps": [
+              {
+                "distance": 220.1,
+                "duration": 158.4,
+                "type": 11,
+                "instruction": "Head northeast on شارع صلاح سالم",
+                "name": "شارع صلاح سالم",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 111.0,
+                "duration": 79.9,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  3,
+                  5
+                ]
+              },
+              {
+                "distance": 95.7,
+                "duration": 68.9,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 144.9,
+                "duration": 104.3,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  6,
+                  8
+                ]
+              },
+              {
+                "distance": 105.9,
+                "duration": 76.3,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  8,
+                  10
+                ]
+              },
+              {
+                "distance": 74.8,
+                "duration": 53.9,
+                "type": 0,
+                "instruction": "Turn left onto شارع السيد الميرغنى",
+                "name": "شارع السيد الميرغنى",
+                "way_points": [
+                  10,
+                  17
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at شارع السيد الميرغنى, straight ahead",
+                "name": "-",
+                "way_points": [
+                  17,
+                  17
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          17
+        ],
+        "summary": {
+          "distance": 752.5,
+          "duration": 541.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            31.319628,
+            30.082775
+          ],
+          [
+            31.319708,
+            30.082817
+          ],
+          [
+            31.320977,
+            30.083509
+          ],
+          [
+            31.321564,
+            30.083829
+          ],
+          [
+            31.321017,
+            30.084346
+          ],
+          [
+            31.320747,
+            30.084531
+          ],
+          [
+            31.321404,
+            30.085179
+          ],
+          [
+            31.32112,
+            30.085457
+          ],
+          [
+            31.320304,
+            30.086065
+          ],
+          [
+            31.320442,
+            30.086197
+          ],
+          [
+            31.320978,
+            30.086818
+          ],
+          [
+            31.320925,
+            30.08685
+          ],
+          [
+            31.320836,
+            30.086904
+          ],
+          [
+            31.320727,
+            30.08697
+          ],
+          [
+            31.320632,
+            30.087028
+          ],
+          [
+            31.320533,
+            30.087088
+          ],
+          [
+            31.320441,
+            30.087145
+          ],
+          [
+            31.320341,
+            30.087205
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756731924764,
+    "query": {
+      "coordinates": [
+        [
+          31.3196283,
+          30.0827749
+        ],
+        [
+          31.3203411,
+          30.087205
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

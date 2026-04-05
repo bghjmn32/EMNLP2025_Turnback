@@ -1,0 +1,183 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.118659,
+    19.439007,
+    -99.118094,
+    19.445038
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.118659,
+        19.439007,
+        -99.118094,
+        19.445038
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 737.1,
+            "duration": 530.7,
+            "steps": [
+              {
+                "distance": 21.7,
+                "duration": 15.6,
+                "type": 11,
+                "instruction": "Head northwest on Avenida Circunvalación",
+                "name": "Avenida Circunvalación",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 16.8,
+                "duration": 12.1,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 30.9,
+                "duration": 22.3,
+                "type": 5,
+                "instruction": "Turn slight right onto Calle Mineros",
+                "name": "Calle Mineros",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 568.9,
+                "duration": 409.6,
+                "type": 0,
+                "instruction": "Turn left onto Calle Imprenta",
+                "name": "Calle Imprenta",
+                "way_points": [
+                  4,
+                  9
+                ]
+              },
+              {
+                "distance": 98.7,
+                "duration": 71.1,
+                "type": 5,
+                "instruction": "Turn slight right onto Avenida Congreso de la Unión, EJE 2 OTE",
+                "name": "Avenida Congreso de la Unión, EJE 2 OTE",
+                "way_points": [
+                  9,
+                  11
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Avenida Congreso de la Unión, EJE 2 OTE, straight ahead",
+                "name": "-",
+                "way_points": [
+                  11,
+                  11
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          11
+        ],
+        "summary": {
+          "distance": 737.1,
+          "duration": 530.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.118094,
+            19.444892
+          ],
+          [
+            -99.118193,
+            19.444998
+          ],
+          [
+            -99.118231,
+            19.445038
+          ],
+          [
+            -99.118365,
+            19.444955
+          ],
+          [
+            -99.118659,
+            19.444982
+          ],
+          [
+            -99.118594,
+            19.444173
+          ],
+          [
+            -99.118498,
+            19.443195
+          ],
+          [
+            -99.118415,
+            19.442154
+          ],
+          [
+            -99.118341,
+            19.441072
+          ],
+          [
+            -99.118216,
+            19.439883
+          ],
+          [
+            -99.118324,
+            19.439284
+          ],
+          [
+            -99.118366,
+            19.439007
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756305054625,
+    "query": {
+      "coordinates": [
+        [
+          -99.118094,
+          19.4448915
+        ],
+        [
+          -99.1183658,
+          19.4390065
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

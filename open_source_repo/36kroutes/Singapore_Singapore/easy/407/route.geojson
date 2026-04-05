@@ -1,0 +1,197 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    103.842037,
+    1.387961,
+    103.848609,
+    1.39198
+  ],
+  "features": [
+    {
+      "bbox": [
+        103.842037,
+        1.387961,
+        103.848609,
+        1.39198
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 867.8,
+            "duration": 624.8,
+            "steps": [
+              {
+                "distance": 57.9,
+                "duration": 41.7,
+                "type": 11,
+                "instruction": "Head northeast on Yio Chu Kang Road",
+                "name": "Yio Chu Kang Road",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 6.1,
+                "duration": 4.4,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 803.8,
+                "duration": 578.8,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  4,
+                  20
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  20,
+                  20
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          20
+        ],
+        "summary": {
+          "distance": 867.8,
+          "duration": 624.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            103.842037,
+            1.387961
+          ],
+          [
+            103.842164,
+            1.388059
+          ],
+          [
+            103.842404,
+            1.388203
+          ],
+          [
+            103.84247,
+            1.38825
+          ],
+          [
+            103.842494,
+            1.388201
+          ],
+          [
+            103.842976,
+            1.388564
+          ],
+          [
+            103.843067,
+            1.388633
+          ],
+          [
+            103.843275,
+            1.38878
+          ],
+          [
+            103.843415,
+            1.388868
+          ],
+          [
+            103.844729,
+            1.389815
+          ],
+          [
+            103.845172,
+            1.390134
+          ],
+          [
+            103.845231,
+            1.390173
+          ],
+          [
+            103.845274,
+            1.390209
+          ],
+          [
+            103.845301,
+            1.390233
+          ],
+          [
+            103.845925,
+            1.390663
+          ],
+          [
+            103.846668,
+            1.391104
+          ],
+          [
+            103.847261,
+            1.391491
+          ],
+          [
+            103.847439,
+            1.391568
+          ],
+          [
+            103.84846,
+            1.391939
+          ],
+          [
+            103.848569,
+            1.391969
+          ],
+          [
+            103.848609,
+            1.39198
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756392287342,
+    "query": {
+      "coordinates": [
+        [
+          103.8420373,
+          1.3879614
+        ],
+        [
+          103.8486086,
+          1.3919799
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

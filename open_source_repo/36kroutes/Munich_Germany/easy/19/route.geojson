@@ -1,0 +1,204 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    11.520958,
+    48.209427,
+    11.522088,
+    48.215054
+  ],
+  "features": [
+    {
+      "bbox": [
+        11.520958,
+        48.209427,
+        11.522088,
+        48.215054
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 711.3,
+            "duration": 512.2,
+            "steps": [
+              {
+                "distance": 477.7,
+                "duration": 343.9,
+                "type": 11,
+                "instruction": "Head north on Obermoosstraße",
+                "name": "Obermoosstraße",
+                "way_points": [
+                  0,
+                  9
+                ]
+              },
+              {
+                "distance": 82.6,
+                "duration": 59.5,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  9,
+                  12
+                ]
+              },
+              {
+                "distance": 46.1,
+                "duration": 33.2,
+                "type": 3,
+                "instruction": "Turn sharp right",
+                "name": "-",
+                "way_points": [
+                  12,
+                  15
+                ]
+              },
+              {
+                "distance": 104.9,
+                "duration": 75.5,
+                "type": 0,
+                "instruction": "Turn left onto Hammerschmiedstraße",
+                "name": "Hammerschmiedstraße",
+                "way_points": [
+                  15,
+                  19
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Hammerschmiedstraße, straight ahead",
+                "name": "-",
+                "way_points": [
+                  19,
+                  19
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          19
+        ],
+        "summary": {
+          "distance": 711.3,
+          "duration": 512.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            11.521802,
+            48.209427
+          ],
+          [
+            11.52183,
+            48.209658
+          ],
+          [
+            11.52185,
+            48.20983
+          ],
+          [
+            11.522088,
+            48.211353
+          ],
+          [
+            11.522077,
+            48.211454
+          ],
+          [
+            11.522013,
+            48.211549
+          ],
+          [
+            11.522028,
+            48.21172
+          ],
+          [
+            11.5218,
+            48.212808
+          ],
+          [
+            11.521812,
+            48.212936
+          ],
+          [
+            11.52204,
+            48.213678
+          ],
+          [
+            11.521856,
+            48.213745
+          ],
+          [
+            11.521543,
+            48.213791
+          ],
+          [
+            11.520958,
+            48.213795
+          ],
+          [
+            11.521028,
+            48.213846
+          ],
+          [
+            11.52105,
+            48.21395
+          ],
+          [
+            11.521258,
+            48.214147
+          ],
+          [
+            11.521213,
+            48.214162
+          ],
+          [
+            11.521165,
+            48.214259
+          ],
+          [
+            11.521297,
+            48.215006
+          ],
+          [
+            11.521338,
+            48.215054
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756136388547,
+    "query": {
+      "coordinates": [
+        [
+          11.5218023,
+          48.2094274
+        ],
+        [
+          11.5213379,
+          48.2150542
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

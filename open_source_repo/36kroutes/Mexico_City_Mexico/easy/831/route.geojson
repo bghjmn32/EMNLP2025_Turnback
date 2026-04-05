@@ -1,0 +1,149 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.168718,
+    19.293091,
+    -99.164039,
+    19.297893
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.168718,
+        19.293091,
+        -99.164039,
+        19.297893
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 854.8,
+            "duration": 615.5,
+            "steps": [
+              {
+                "distance": 229.2,
+                "duration": 165.1,
+                "type": 11,
+                "instruction": "Head east on Calle Coapa",
+                "name": "Calle Coapa",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 517.6,
+                "duration": 372.7,
+                "type": 0,
+                "instruction": "Turn left onto Calle Carrasco",
+                "name": "Calle Carrasco",
+                "way_points": [
+                  2,
+                  7
+                ]
+              },
+              {
+                "distance": 108.0,
+                "duration": 77.8,
+                "type": 13,
+                "instruction": "Keep right onto Calle Olcuautitlán",
+                "name": "Calle Olcuautitlán",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Olcuautitlán, straight ahead",
+                "name": "-",
+                "way_points": [
+                  8,
+                  8
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          8
+        ],
+        "summary": {
+          "distance": 854.8,
+          "duration": 615.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.168718,
+            19.29381
+          ],
+          [
+            -99.167676,
+            19.293444
+          ],
+          [
+            -99.16667,
+            19.293091
+          ],
+          [
+            -99.166283,
+            19.294062
+          ],
+          [
+            -99.165891,
+            19.295043
+          ],
+          [
+            -99.16551,
+            19.296029
+          ],
+          [
+            -99.165145,
+            19.296965
+          ],
+          [
+            -99.164958,
+            19.297457
+          ],
+          [
+            -99.164039,
+            19.297893
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756307834291,
+    "query": {
+      "coordinates": [
+        [
+          -99.168718,
+          19.2938095
+        ],
+        [
+          -99.1640386,
+          19.2978927
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

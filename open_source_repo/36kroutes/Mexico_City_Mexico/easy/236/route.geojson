@@ -1,0 +1,222 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.118193,
+    19.444892,
+    -99.114432,
+    19.451939
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.118193,
+        19.444892,
+        -99.114432,
+        19.451939
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1050.5,
+            "duration": 756.3,
+            "steps": [
+              {
+                "distance": 15.7,
+                "duration": 11.3,
+                "type": 11,
+                "instruction": "Head northwest on Avenida Circunvalación",
+                "name": "Avenida Circunvalación",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 759.1,
+                "duration": 546.6,
+                "type": 1,
+                "instruction": "Turn right onto Calle Yurécuaro",
+                "name": "Calle Yurécuaro",
+                "way_points": [
+                  1,
+                  8
+                ]
+              },
+              {
+                "distance": 127.1,
+                "duration": 91.5,
+                "type": 1,
+                "instruction": "Turn right onto Calle Aluminio",
+                "name": "Calle Aluminio",
+                "way_points": [
+                  8,
+                  10
+                ]
+              },
+              {
+                "distance": 23.3,
+                "duration": 16.8,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  10,
+                  12
+                ]
+              },
+              {
+                "distance": 97.0,
+                "duration": 69.8,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  12,
+                  16
+                ]
+              },
+              {
+                "distance": 28.3,
+                "duration": 20.3,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  16,
+                  18
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  18,
+                  18
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          18
+        ],
+        "summary": {
+          "distance": 1050.5,
+          "duration": 756.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.118094,
+            19.444892
+          ],
+          [
+            -99.118193,
+            19.444998
+          ],
+          [
+            -99.118035,
+            19.44564
+          ],
+          [
+            -99.117804,
+            19.446578
+          ],
+          [
+            -99.117642,
+            19.447224
+          ],
+          [
+            -99.117391,
+            19.448252
+          ],
+          [
+            -99.117148,
+            19.449237
+          ],
+          [
+            -99.116915,
+            19.450278
+          ],
+          [
+            -99.116608,
+            19.451658
+          ],
+          [
+            -99.11559,
+            19.45143
+          ],
+          [
+            -99.115428,
+            19.451396
+          ],
+          [
+            -99.115287,
+            19.451522
+          ],
+          [
+            -99.11528,
+            19.451548
+          ],
+          [
+            -99.115008,
+            19.451519
+          ],
+          [
+            -99.114816,
+            19.451548
+          ],
+          [
+            -99.114513,
+            19.451699
+          ],
+          [
+            -99.114432,
+            19.451775
+          ],
+          [
+            -99.114549,
+            19.451874
+          ],
+          [
+            -99.114638,
+            19.451939
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756305054538,
+    "query": {
+      "coordinates": [
+        [
+          -99.118094,
+          19.4448915
+        ],
+        [
+          -99.1146377,
+          19.4519387
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

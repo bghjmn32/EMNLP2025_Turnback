@@ -1,0 +1,179 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -104.908277,
+    39.809285,
+    -104.906393,
+    39.81377
+  ],
+  "features": [
+    {
+      "bbox": [
+        -104.908277,
+        39.809285,
+        -104.906393,
+        39.81377
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 657.1,
+            "duration": 473.1,
+            "steps": [
+              {
+                "distance": 35.4,
+                "duration": 25.5,
+                "type": 11,
+                "instruction": "Head west",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 62.1,
+                "duration": 44.7,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  3
+                ]
+              },
+              {
+                "distance": 50.7,
+                "duration": 36.5,
+                "type": 0,
+                "instruction": "Turn left onto Olive Street",
+                "name": "Olive Street",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 103.3,
+                "duration": 74.3,
+                "type": 1,
+                "instruction": "Turn right onto East 64th Avenue",
+                "name": "East 64th Avenue",
+                "way_points": [
+                  4,
+                  7
+                ]
+              },
+              {
+                "distance": 405.7,
+                "duration": 292.1,
+                "type": 0,
+                "instruction": "Turn left onto Oneida Street",
+                "name": "Oneida Street",
+                "way_points": [
+                  7,
+                  10
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Oneida Street, straight ahead",
+                "name": "-",
+                "way_points": [
+                  10,
+                  10
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          10
+        ],
+        "summary": {
+          "distance": 657.1,
+          "duration": 473.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -104.906393,
+            39.81377
+          ],
+          [
+            -104.906808,
+            39.813764
+          ],
+          [
+            -104.906812,
+            39.813399
+          ],
+          [
+            -104.907064,
+            39.813391
+          ],
+          [
+            -104.907068,
+            39.812935
+          ],
+          [
+            -104.907291,
+            39.812935
+          ],
+          [
+            -104.907546,
+            39.812934
+          ],
+          [
+            -104.908277,
+            39.812933
+          ],
+          [
+            -104.908255,
+            39.812281
+          ],
+          [
+            -104.908251,
+            39.810167
+          ],
+          [
+            -104.908246,
+            39.809285
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756307455608,
+    "query": {
+      "coordinates": [
+        [
+          -104.9063933,
+          39.8137705
+        ],
+        [
+          -104.908246,
+          39.809285
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

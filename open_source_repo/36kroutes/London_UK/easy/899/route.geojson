@@ -1,0 +1,197 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -0.197573,
+    51.423062,
+    -0.188771,
+    51.424896
+  ],
+  "features": [
+    {
+      "bbox": [
+        -0.197573,
+        51.423062,
+        -0.188771,
+        51.424896
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 723.0,
+            "duration": 520.5,
+            "steps": [
+              {
+                "distance": 5.2,
+                "duration": 3.8,
+                "type": 11,
+                "instruction": "Head east on Kings Road",
+                "name": "Kings Road",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 94.2,
+                "duration": 67.8,
+                "type": 0,
+                "instruction": "Turn left onto Trinity Road",
+                "name": "Trinity Road",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 623.6,
+                "duration": 449.0,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  2,
+                  20
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  20,
+                  20
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          20
+        ],
+        "summary": {
+          "distance": 723.0,
+          "duration": 520.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -0.197441,
+            51.423062
+          ],
+          [
+            -0.197368,
+            51.423074
+          ],
+          [
+            -0.197573,
+            51.423911
+          ],
+          [
+            -0.197503,
+            51.423925
+          ],
+          [
+            -0.197432,
+            51.423949
+          ],
+          [
+            -0.196756,
+            51.424071
+          ],
+          [
+            -0.195029,
+            51.42436
+          ],
+          [
+            -0.194131,
+            51.424469
+          ],
+          [
+            -0.194064,
+            51.424476
+          ],
+          [
+            -0.193987,
+            51.424483
+          ],
+          [
+            -0.193916,
+            51.424489
+          ],
+          [
+            -0.19375,
+            51.424508
+          ],
+          [
+            -0.19326,
+            51.424558
+          ],
+          [
+            -0.192399,
+            51.424648
+          ],
+          [
+            -0.190528,
+            51.424827
+          ],
+          [
+            -0.190459,
+            51.424835
+          ],
+          [
+            -0.190394,
+            51.424841
+          ],
+          [
+            -0.189855,
+            51.424893
+          ],
+          [
+            -0.189452,
+            51.424896
+          ],
+          [
+            -0.188976,
+            51.424844
+          ],
+          [
+            -0.188771,
+            51.424799
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756829096329,
+    "query": {
+      "coordinates": [
+        [
+          -0.1974411,
+          51.4230624
+        ],
+        [
+          -0.1887712,
+          51.4247987
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

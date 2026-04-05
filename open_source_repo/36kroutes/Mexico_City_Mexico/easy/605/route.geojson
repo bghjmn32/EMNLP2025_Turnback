@@ -1,0 +1,165 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.102753,
+    19.33749,
+    -99.097917,
+    19.337803
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.102753,
+        19.33749,
+        -99.097917,
+        19.337803
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 517.1,
+            "duration": 372.3,
+            "steps": [
+              {
+                "distance": 6.4,
+                "duration": 4.6,
+                "type": 11,
+                "instruction": "Head north on Andador 2",
+                "name": "Andador 2",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 266.7,
+                "duration": 192.0,
+                "type": 0,
+                "instruction": "Turn left onto Avenida José María Morelos y Pavón",
+                "name": "Avenida José María Morelos y Pavón",
+                "way_points": [
+                  1,
+                  8
+                ]
+              },
+              {
+                "distance": 244.0,
+                "duration": 175.7,
+                "type": 12,
+                "instruction": "Keep left onto Calle Luna",
+                "name": "Calle Luna",
+                "way_points": [
+                  8,
+                  12
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Luna, straight ahead",
+                "name": "-",
+                "way_points": [
+                  12,
+                  12
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          12
+        ],
+        "summary": {
+          "distance": 517.1,
+          "duration": 372.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.097924,
+            19.337582
+          ],
+          [
+            -99.097917,
+            19.337639
+          ],
+          [
+            -99.09815,
+            19.337656
+          ],
+          [
+            -99.098243,
+            19.337656
+          ],
+          [
+            -99.099339,
+            19.337736
+          ],
+          [
+            -99.099442,
+            19.337746
+          ],
+          [
+            -99.09994,
+            19.337764
+          ],
+          [
+            -99.100195,
+            19.337783
+          ],
+          [
+            -99.100453,
+            19.337803
+          ],
+          [
+            -99.100569,
+            19.337767
+          ],
+          [
+            -99.101662,
+            19.337632
+          ],
+          [
+            -99.102217,
+            19.337561
+          ],
+          [
+            -99.102753,
+            19.33749
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306733275,
+    "query": {
+      "coordinates": [
+        [
+          -99.097924,
+          19.337582
+        ],
+        [
+          -99.1027529,
+          19.3374896
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

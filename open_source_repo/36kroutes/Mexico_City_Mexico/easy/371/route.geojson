@@ -1,0 +1,210 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.15566,
+    19.398185,
+    -99.15008,
+    19.400137
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.15566,
+        19.398185,
+        -99.15008,
+        19.400137
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 813.3,
+            "duration": 585.6,
+            "steps": [
+              {
+                "distance": 16.4,
+                "duration": 11.8,
+                "type": 11,
+                "instruction": "Head north on Calle Monte Albán",
+                "name": "Calle Monte Albán",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 87.8,
+                "duration": 63.2,
+                "type": 0,
+                "instruction": "Turn left onto Calle La Morena",
+                "name": "Calle La Morena",
+                "way_points": [
+                  1,
+                  3
+                ]
+              },
+              {
+                "distance": 78.9,
+                "duration": 56.8,
+                "type": 1,
+                "instruction": "Turn right onto Avenida Doctor José María Vértiz",
+                "name": "Avenida Doctor José María Vértiz",
+                "way_points": [
+                  3,
+                  5
+                ]
+              },
+              {
+                "distance": 67.9,
+                "duration": 48.9,
+                "type": 0,
+                "instruction": "Turn left onto Calle Icacos",
+                "name": "Calle Icacos",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 118.9,
+                "duration": 85.6,
+                "type": 1,
+                "instruction": "Turn right onto Calle Palenque",
+                "name": "Calle Palenque",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 443.4,
+                "duration": 319.2,
+                "type": 0,
+                "instruction": "Turn left onto Calle Esperanza",
+                "name": "Calle Esperanza",
+                "way_points": [
+                  7,
+                  15
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Esperanza, straight ahead",
+                "name": "-",
+                "way_points": [
+                  15,
+                  15
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          15
+        ],
+        "summary": {
+          "distance": 813.3,
+          "duration": 585.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.150091,
+            19.398185
+          ],
+          [
+            -99.15008,
+            19.398331
+          ],
+          [
+            -99.150786,
+            19.398333
+          ],
+          [
+            -99.150917,
+            19.398334
+          ],
+          [
+            -99.150849,
+            19.398929
+          ],
+          [
+            -99.150837,
+            19.39904
+          ],
+          [
+            -99.151484,
+            19.399031
+          ],
+          [
+            -99.151433,
+            19.400099
+          ],
+          [
+            -99.151749,
+            19.400099
+          ],
+          [
+            -99.152079,
+            19.400104
+          ],
+          [
+            -99.153399,
+            19.400114
+          ],
+          [
+            -99.154177,
+            19.40012
+          ],
+          [
+            -99.154907,
+            19.400126
+          ],
+          [
+            -99.155142,
+            19.400127
+          ],
+          [
+            -99.155612,
+            19.400135
+          ],
+          [
+            -99.15566,
+            19.400137
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756305720329,
+    "query": {
+      "coordinates": [
+        [
+          -99.1500912,
+          19.3981846
+        ],
+        [
+          -99.1556597,
+          19.400138
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

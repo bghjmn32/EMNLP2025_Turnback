@@ -1,0 +1,172 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -104.875246,
+    39.732856,
+    -104.872895,
+    39.739281
+  ],
+  "features": [
+    {
+      "bbox": [
+        -104.875246,
+        39.732856,
+        -104.872895,
+        39.739281
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 915.2,
+            "duration": 658.9,
+            "steps": [
+              {
+                "distance": 51.0,
+                "duration": 36.7,
+                "type": 11,
+                "instruction": "Head east",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 32.5,
+                "duration": 23.4,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 150.2,
+                "duration": 108.2,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  2,
+                  6
+                ]
+              },
+              {
+                "distance": 681.4,
+                "duration": 490.6,
+                "type": 1,
+                "instruction": "Turn right onto Elmira Street",
+                "name": "Elmira Street",
+                "way_points": [
+                  6,
+                  11
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Elmira Street, straight ahead",
+                "name": "-",
+                "way_points": [
+                  11,
+                  11
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          11
+        ],
+        "summary": {
+          "distance": 915.2,
+          "duration": 658.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -104.875246,
+            39.739281
+          ],
+          [
+            -104.874649,
+            39.739279
+          ],
+          [
+            -104.874652,
+            39.738987
+          ],
+          [
+            -104.874066,
+            39.738984
+          ],
+          [
+            -104.873487,
+            39.738984
+          ],
+          [
+            -104.873108,
+            39.738984
+          ],
+          [
+            -104.872895,
+            39.738983
+          ],
+          [
+            -104.872898,
+            39.7383
+          ],
+          [
+            -104.872913,
+            39.736451
+          ],
+          [
+            -104.872921,
+            39.734659
+          ],
+          [
+            -104.87292,
+            39.734567
+          ],
+          [
+            -104.872944,
+            39.732856
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306351678,
+    "query": {
+      "coordinates": [
+        [
+          -104.8752456,
+          39.7392807
+        ],
+        [
+          -104.8729436,
+          39.7328556
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

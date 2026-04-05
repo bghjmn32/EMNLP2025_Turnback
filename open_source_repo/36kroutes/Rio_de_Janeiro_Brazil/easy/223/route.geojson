@@ -1,0 +1,158 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.234137,
+    -22.931272,
+    -43.229813,
+    -22.928549
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.234137,
+        -22.931272,
+        -43.229813,
+        -22.928549
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 582.2,
+            "duration": 419.2,
+            "steps": [
+              {
+                "distance": 119.4,
+                "duration": 86.0,
+                "type": 11,
+                "instruction": "Head northwest on Rua Potengi",
+                "name": "Rua Potengi",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 462.8,
+                "duration": 333.2,
+                "type": 0,
+                "instruction": "Turn left onto Rua Bom Pastor",
+                "name": "Rua Bom Pastor",
+                "way_points": [
+                  3,
+                  13
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Rua Bom Pastor, straight ahead",
+                "name": "-",
+                "way_points": [
+                  13,
+                  13
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          13
+        ],
+        "summary": {
+          "distance": 582.2,
+          "duration": 419.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.229813,
+            -22.92922
+          ],
+          [
+            -43.230048,
+            -22.929058
+          ],
+          [
+            -43.23027,
+            -22.928898
+          ],
+          [
+            -43.230723,
+            -22.928549
+          ],
+          [
+            -43.230981,
+            -22.928752
+          ],
+          [
+            -43.231514,
+            -22.929189
+          ],
+          [
+            -43.23174,
+            -22.929381
+          ],
+          [
+            -43.232081,
+            -22.929669
+          ],
+          [
+            -43.232279,
+            -22.929832
+          ],
+          [
+            -43.232511,
+            -22.930012
+          ],
+          [
+            -43.233154,
+            -22.930528
+          ],
+          [
+            -43.233559,
+            -22.930857
+          ],
+          [
+            -43.23374,
+            -22.931002
+          ],
+          [
+            -43.234137,
+            -22.931272
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756391326665,
+    "query": {
+      "coordinates": [
+        [
+          -43.2298132,
+          -22.9292201
+        ],
+        [
+          -43.2341375,
+          -22.9312722
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

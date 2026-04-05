@@ -1,0 +1,216 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.094386,
+    19.398083,
+    -99.09111,
+    19.400981
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.094386,
+        19.398083,
+        -99.09111,
+        19.400981
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 789.7,
+            "duration": 568.6,
+            "steps": [
+              {
+                "distance": 50.3,
+                "duration": 36.2,
+                "type": 11,
+                "instruction": "Head south",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 147.5,
+                "duration": 106.2,
+                "type": 1,
+                "instruction": "Turn right onto Calle Cafetal",
+                "name": "Calle Cafetal",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 223.4,
+                "duration": 160.8,
+                "type": 3,
+                "instruction": "Turn sharp right onto Calle Resina",
+                "name": "Calle Resina",
+                "way_points": [
+                  2,
+                  4
+                ]
+              },
+              {
+                "distance": 142.0,
+                "duration": 102.2,
+                "type": 1,
+                "instruction": "Turn right onto Calle Azafrán",
+                "name": "Calle Azafrán",
+                "way_points": [
+                  4,
+                  6
+                ]
+              },
+              {
+                "distance": 110.4,
+                "duration": 79.5,
+                "type": 0,
+                "instruction": "Turn left onto 9. Cerrada Alfalfar",
+                "name": "9. Cerrada Alfalfar",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 83.9,
+                "duration": 60.4,
+                "type": 1,
+                "instruction": "Turn right onto Calle Avena",
+                "name": "Calle Avena",
+                "way_points": [
+                  7,
+                  9
+                ]
+              },
+              {
+                "distance": 16.4,
+                "duration": 11.8,
+                "type": 2,
+                "instruction": "Turn sharp left onto Calle Coliflor",
+                "name": "Calle Coliflor",
+                "way_points": [
+                  9,
+                  10
+                ]
+              },
+              {
+                "distance": 15.9,
+                "duration": 11.4,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  10,
+                  11
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  11,
+                  11
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          11
+        ],
+        "summary": {
+          "distance": 789.7,
+          "duration": 568.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.092926,
+            19.398531
+          ],
+          [
+            -99.092992,
+            19.398083
+          ],
+          [
+            -99.094386,
+            19.398264
+          ],
+          [
+            -99.093934,
+            19.399246
+          ],
+          [
+            -99.093527,
+            19.400102
+          ],
+          [
+            -99.09279,
+            19.400002
+          ],
+          [
+            -99.092187,
+            19.399918
+          ],
+          [
+            -99.092032,
+            19.4009
+          ],
+          [
+            -99.091517,
+            19.400835
+          ],
+          [
+            -99.091239,
+            19.400797
+          ],
+          [
+            -99.091256,
+            19.400944
+          ],
+          [
+            -99.09111,
+            19.400981
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756305171643,
+    "query": {
+      "coordinates": [
+        [
+          -99.0929259,
+          19.3985308
+        ],
+        [
+          -99.0911103,
+          19.4009809
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

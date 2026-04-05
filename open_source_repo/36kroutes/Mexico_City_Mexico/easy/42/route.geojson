@@ -1,0 +1,230 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.142277,
+    19.331872,
+    -99.140925,
+    19.335949
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.142277,
+        19.331872,
+        -99.140925,
+        19.335949
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 715.3,
+            "duration": 515.0,
+            "steps": [
+              {
+                "distance": 60.4,
+                "duration": 43.5,
+                "type": 11,
+                "instruction": "Head west on Retorno 815",
+                "name": "Retorno 815",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 40.1,
+                "duration": 28.8,
+                "type": 0,
+                "instruction": "Turn left onto Calzada de Tlalpan, RADIAL 3",
+                "name": "Calzada de Tlalpan, RADIAL 3",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 78.1,
+                "duration": 56.2,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  2,
+                  8
+                ]
+              },
+              {
+                "distance": 20.7,
+                "duration": 14.9,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  8,
+                  10
+                ]
+              },
+              {
+                "distance": 369.1,
+                "duration": 265.7,
+                "type": 1,
+                "instruction": "Turn right onto Calzada de Tlalpan, RADIAL 3",
+                "name": "Calzada de Tlalpan, RADIAL 3",
+                "way_points": [
+                  10,
+                  15
+                ]
+              },
+              {
+                "distance": 147.0,
+                "duration": 105.8,
+                "type": 1,
+                "instruction": "Turn right onto Calle Bugambilia",
+                "name": "Calle Bugambilia",
+                "way_points": [
+                  15,
+                  20
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Bugambilia, straight ahead",
+                "name": "-",
+                "way_points": [
+                  20,
+                  20
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          20
+        ],
+        "summary": {
+          "distance": 715.3,
+          "duration": 515.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.141184,
+            19.335949
+          ],
+          [
+            -99.141738,
+            19.335802
+          ],
+          [
+            -99.141633,
+            19.335456
+          ],
+          [
+            -99.14153,
+            19.335482
+          ],
+          [
+            -99.141559,
+            19.335571
+          ],
+          [
+            -99.141702,
+            19.335474
+          ],
+          [
+            -99.14177,
+            19.335455
+          ],
+          [
+            -99.141986,
+            19.335399
+          ],
+          [
+            -99.142052,
+            19.335382
+          ],
+          [
+            -99.142038,
+            19.335326
+          ],
+          [
+            -99.141904,
+            19.335346
+          ],
+          [
+            -99.141824,
+            19.335082
+          ],
+          [
+            -99.141491,
+            19.334055
+          ],
+          [
+            -99.141358,
+            19.333604
+          ],
+          [
+            -99.141065,
+            19.332587
+          ],
+          [
+            -99.140925,
+            19.332158
+          ],
+          [
+            -99.141346,
+            19.332006
+          ],
+          [
+            -99.141616,
+            19.331923
+          ],
+          [
+            -99.141755,
+            19.331902
+          ],
+          [
+            -99.141949,
+            19.331872
+          ],
+          [
+            -99.142277,
+            19.331881
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756304197890,
+    "query": {
+      "coordinates": [
+        [
+          -99.1411839,
+          19.3359491
+        ],
+        [
+          -99.1422773,
+          19.3318806
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

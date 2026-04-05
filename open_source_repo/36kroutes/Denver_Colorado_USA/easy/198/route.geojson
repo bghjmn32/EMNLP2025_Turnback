@@ -1,0 +1,149 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -104.917099,
+    39.841732,
+    -104.914898,
+    39.844689
+  ],
+  "features": [
+    {
+      "bbox": [
+        -104.917099,
+        39.841732,
+        -104.914898,
+        39.844689
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 510.7,
+            "duration": 367.7,
+            "steps": [
+              {
+                "distance": 44.9,
+                "duration": 32.3,
+                "type": 11,
+                "instruction": "Head east on East 80th Avenue",
+                "name": "East 80th Avenue",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 328.4,
+                "duration": 236.5,
+                "type": 0,
+                "instruction": "Turn left onto Krameria Street",
+                "name": "Krameria Street",
+                "way_points": [
+                  1,
+                  5
+                ]
+              },
+              {
+                "distance": 137.4,
+                "duration": 98.9,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  5,
+                  8
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  8,
+                  8
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          8
+        ],
+        "summary": {
+          "distance": 510.7,
+          "duration": 367.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -104.917099,
+            39.841736
+          ],
+          [
+            -104.916573,
+            39.841732
+          ],
+          [
+            -104.916531,
+            39.843552
+          ],
+          [
+            -104.916521,
+            39.843995
+          ],
+          [
+            -104.91652,
+            39.844043
+          ],
+          [
+            -104.916507,
+            39.844685
+          ],
+          [
+            -104.915842,
+            39.84468
+          ],
+          [
+            -104.915782,
+            39.84468
+          ],
+          [
+            -104.914898,
+            39.844689
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756304753129,
+    "query": {
+      "coordinates": [
+        [
+          -104.9170987,
+          39.8417361
+        ],
+        [
+          -104.914898,
+          39.8446893
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

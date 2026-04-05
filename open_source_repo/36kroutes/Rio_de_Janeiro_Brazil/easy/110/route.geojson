@@ -1,0 +1,272 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.573284,
+    -22.902304,
+    -43.569014,
+    -22.896122
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.573284,
+        -22.902304,
+        -43.569014,
+        -22.896122
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1111.5,
+            "duration": 800.3,
+            "steps": [
+              {
+                "distance": 27.8,
+                "duration": 20.0,
+                "type": 11,
+                "instruction": "Head east",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 87.2,
+                "duration": 62.8,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  3
+                ]
+              },
+              {
+                "distance": 152.5,
+                "duration": 109.8,
+                "type": 1,
+                "instruction": "Turn right onto Estrada do Campinho",
+                "name": "Estrada do Campinho",
+                "way_points": [
+                  3,
+                  7
+                ]
+              },
+              {
+                "distance": 285.9,
+                "duration": 205.8,
+                "type": 1,
+                "instruction": "Turn right onto Rua Vila Saveiros",
+                "name": "Rua Vila Saveiros",
+                "way_points": [
+                  7,
+                  16
+                ]
+              },
+              {
+                "distance": 262.6,
+                "duration": 189.1,
+                "type": 6,
+                "instruction": "Continue straight onto Rua Menezes de Siqueira",
+                "name": "Rua Menezes de Siqueira",
+                "way_points": [
+                  16,
+                  21
+                ]
+              },
+              {
+                "distance": 55.2,
+                "duration": 39.8,
+                "type": 1,
+                "instruction": "Turn right onto Rua Teles da Silva",
+                "name": "Rua Teles da Silva",
+                "way_points": [
+                  21,
+                  22
+                ]
+              },
+              {
+                "distance": 76.7,
+                "duration": 55.2,
+                "type": 2,
+                "instruction": "Turn sharp left onto Rua Santo Terêncio",
+                "name": "Rua Santo Terêncio",
+                "way_points": [
+                  22,
+                  23
+                ]
+              },
+              {
+                "distance": 163.6,
+                "duration": 117.8,
+                "type": 1,
+                "instruction": "Turn right onto Rua Benjamin de Lima",
+                "name": "Rua Benjamin de Lima",
+                "way_points": [
+                  23,
+                  25
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Rua Benjamin de Lima, straight ahead",
+                "name": "-",
+                "way_points": [
+                  25,
+                  25
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          25
+        ],
+        "summary": {
+          "distance": 1111.5,
+          "duration": 800.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.569282,
+            -22.901489
+          ],
+          [
+            -43.569014,
+            -22.901523
+          ],
+          [
+            -43.569028,
+            -22.901563
+          ],
+          [
+            -43.569077,
+            -22.902304
+          ],
+          [
+            -43.569303,
+            -22.902272
+          ],
+          [
+            -43.569638,
+            -22.902186
+          ],
+          [
+            -43.569893,
+            -22.902094
+          ],
+          [
+            -43.570456,
+            -22.901815
+          ],
+          [
+            -43.57026,
+            -22.900582
+          ],
+          [
+            -43.570214,
+            -22.900466
+          ],
+          [
+            -43.570097,
+            -22.900264
+          ],
+          [
+            -43.570072,
+            -22.90004
+          ],
+          [
+            -43.570067,
+            -22.8999
+          ],
+          [
+            -43.570063,
+            -22.899686
+          ],
+          [
+            -43.570066,
+            -22.899437
+          ],
+          [
+            -43.570098,
+            -22.899379
+          ],
+          [
+            -43.570165,
+            -22.89933
+          ],
+          [
+            -43.570652,
+            -22.898991
+          ],
+          [
+            -43.570867,
+            -22.898843
+          ],
+          [
+            -43.571341,
+            -22.898532
+          ],
+          [
+            -43.571801,
+            -22.898214
+          ],
+          [
+            -43.572231,
+            -22.897932
+          ],
+          [
+            -43.571984,
+            -22.89749
+          ],
+          [
+            -43.572732,
+            -22.897503
+          ],
+          [
+            -43.572903,
+            -22.897048
+          ],
+          [
+            -43.573284,
+            -22.896122
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756390674833,
+    "query": {
+      "coordinates": [
+        [
+          -43.5692825,
+          -22.9014889
+        ],
+        [
+          -43.5732837,
+          -22.8961222
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

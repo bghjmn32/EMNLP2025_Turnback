@@ -1,0 +1,224 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.541463,
+    -33.901365,
+    18.547088,
+    -33.899321
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.541463,
+        -33.901365,
+        18.547088,
+        -33.899321
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 823.0,
+            "duration": 592.6,
+            "steps": [
+              {
+                "distance": 25.1,
+                "duration": 18.1,
+                "type": 11,
+                "instruction": "Head east on Rohm Road",
+                "name": "Rohm Road",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 20.7,
+                "duration": 14.9,
+                "type": 6,
+                "instruction": "Continue straight",
+                "name": "-",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 151.9,
+                "duration": 109.4,
+                "type": 0,
+                "instruction": "Turn left onto Alice Street",
+                "name": "Alice Street",
+                "way_points": [
+                  2,
+                  4
+                ]
+              },
+              {
+                "distance": 21.7,
+                "duration": 15.7,
+                "type": 0,
+                "instruction": "Turn left onto Van Rensburg Road",
+                "name": "Van Rensburg Road",
+                "way_points": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "distance": 75.9,
+                "duration": 54.6,
+                "type": 1,
+                "instruction": "Turn right onto Alice Street",
+                "name": "Alice Street",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 22.3,
+                "duration": 16.0,
+                "type": 0,
+                "instruction": "Turn left onto Smartt Road",
+                "name": "Smartt Road",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 430.2,
+                "duration": 309.7,
+                "type": 6,
+                "instruction": "Continue straight onto Smartt Road",
+                "name": "Smartt Road",
+                "way_points": [
+                  7,
+                  11
+                ]
+              },
+              {
+                "distance": 75.2,
+                "duration": 54.2,
+                "type": 1,
+                "instruction": "Turn right onto Roodekranz Road",
+                "name": "Roodekranz Road",
+                "way_points": [
+                  11,
+                  13
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Roodekranz Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  13,
+                  13
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          13
+        ],
+        "summary": {
+          "distance": 823.0,
+          "duration": 592.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.5466,
+            -33.901365
+          ],
+          [
+            18.546867,
+            -33.901319
+          ],
+          [
+            18.547088,
+            -33.901289
+          ],
+          [
+            18.546915,
+            -33.900618
+          ],
+          [
+            18.54675,
+            -33.899952
+          ],
+          [
+            18.546519,
+            -33.899989
+          ],
+          [
+            18.546352,
+            -33.899321
+          ],
+          [
+            18.546116,
+            -33.89936
+          ],
+          [
+            18.545547,
+            -33.899455
+          ],
+          [
+            18.544748,
+            -33.899597
+          ],
+          [
+            18.543948,
+            -33.899733
+          ],
+          [
+            18.541551,
+            -33.900143
+          ],
+          [
+            18.541463,
+            -33.899746
+          ],
+          [
+            18.541538,
+            -33.89948
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756805045590,
+    "query": {
+      "coordinates": [
+        [
+          18.5466001,
+          -33.9013653
+        ],
+        [
+          18.5415383,
+          -33.8994801
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

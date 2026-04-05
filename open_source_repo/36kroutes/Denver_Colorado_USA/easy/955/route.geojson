@@ -1,0 +1,232 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -105.006403,
+    39.884946,
+    -104.997469,
+    39.889037
+  ],
+  "features": [
+    {
+      "bbox": [
+        -105.006403,
+        39.884946,
+        -104.997469,
+        39.889037
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1216.6,
+            "duration": 875.9,
+            "steps": [
+              {
+                "distance": 313.0,
+                "duration": 225.4,
+                "type": 11,
+                "instruction": "Head east on West 106th Avenue",
+                "name": "West 106th Avenue",
+                "way_points": [
+                  0,
+                  8
+                ]
+              },
+              {
+                "distance": 394.6,
+                "duration": 284.1,
+                "type": 1,
+                "instruction": "Turn right onto Livingston Drive",
+                "name": "Livingston Drive",
+                "way_points": [
+                  8,
+                  17
+                ]
+              },
+              {
+                "distance": 500.0,
+                "duration": 360.0,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  17,
+                  25
+                ]
+              },
+              {
+                "distance": 8.9,
+                "duration": 6.4,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  25,
+                  26
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  26,
+                  26
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          26
+        ],
+        "summary": {
+          "distance": 1216.6,
+          "duration": 875.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -105.006403,
+            39.8889
+          ],
+          [
+            -105.006092,
+            39.888862
+          ],
+          [
+            -105.005644,
+            39.888875
+          ],
+          [
+            -105.005479,
+            39.888903
+          ],
+          [
+            -105.00508,
+            39.889006
+          ],
+          [
+            -105.004893,
+            39.889037
+          ],
+          [
+            -105.004823,
+            39.889033
+          ],
+          [
+            -105.003888,
+            39.888761
+          ],
+          [
+            -105.002901,
+            39.888477
+          ],
+          [
+            -105.003106,
+            39.887995
+          ],
+          [
+            -105.003205,
+            39.887666
+          ],
+          [
+            -105.003276,
+            39.887325
+          ],
+          [
+            -105.00331,
+            39.886844
+          ],
+          [
+            -105.003328,
+            39.885836
+          ],
+          [
+            -105.003318,
+            39.885386
+          ],
+          [
+            -105.003316,
+            39.885273
+          ],
+          [
+            -105.003316,
+            39.885075
+          ],
+          [
+            -105.003325,
+            39.884967
+          ],
+          [
+            -105.002942,
+            39.884946
+          ],
+          [
+            -104.999982,
+            39.884964
+          ],
+          [
+            -104.999561,
+            39.884958
+          ],
+          [
+            -104.998921,
+            39.884964
+          ],
+          [
+            -104.998618,
+            39.884981
+          ],
+          [
+            -104.998307,
+            39.88497
+          ],
+          [
+            -104.998085,
+            39.884966
+          ],
+          [
+            -104.997469,
+            39.885009
+          ],
+          [
+            -104.99747,
+            39.88509
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756307699716,
+    "query": {
+      "coordinates": [
+        [
+          -105.006403,
+          39.8889
+        ],
+        [
+          -104.9974697,
+          39.8850897
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.550054,
+    -33.883568,
+    18.553317,
+    -33.878881
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.550054,
+        -33.883568,
+        18.553317,
+        -33.878881
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 806.3,
+            "duration": 580.5,
+            "steps": [
+              {
+                "distance": 304.5,
+                "duration": 219.3,
+                "type": 11,
+                "instruction": "Head southeast on Serrurier Street",
+                "name": "Serrurier Street",
+                "way_points": [
+                  0,
+                  4
+                ]
+              },
+              {
+                "distance": 87.3,
+                "duration": 62.9,
+                "type": 1,
+                "instruction": "Turn right onto Visagie Street",
+                "name": "Visagie Street",
+                "way_points": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "distance": 77.3,
+                "duration": 55.7,
+                "type": 0,
+                "instruction": "Turn left onto Huising Avenue",
+                "name": "Huising Avenue",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 186.6,
+                "duration": 134.4,
+                "type": 1,
+                "instruction": "Turn right onto Mostert Street",
+                "name": "Mostert Street",
+                "way_points": [
+                  6,
+                  8
+                ]
+              },
+              {
+                "distance": 150.6,
+                "duration": 108.4,
+                "type": 0,
+                "instruction": "Turn left onto Imhoff Street",
+                "name": "Imhoff Street",
+                "way_points": [
+                  8,
+                  10
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Imhoff Street, straight ahead",
+                "name": "-",
+                "way_points": [
+                  10,
+                  10
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          10
+        ],
+        "summary": {
+          "distance": 806.3,
+          "duration": 580.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.550054,
+            -33.878881
+          ],
+          [
+            18.550741,
+            -33.879249
+          ],
+          [
+            18.551429,
+            -33.879616
+          ],
+          [
+            18.552116,
+            -33.879983
+          ],
+          [
+            18.552827,
+            -33.880364
+          ],
+          [
+            18.552328,
+            -33.88103
+          ],
+          [
+            18.553028,
+            -33.881412
+          ],
+          [
+            18.552394,
+            -33.882246
+          ],
+          [
+            18.551949,
+            -33.882831
+          ],
+          [
+            18.552635,
+            -33.883189
+          ],
+          [
+            18.553317,
+            -33.883568
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756805282606,
+    "query": {
+      "coordinates": [
+        [
+          18.5500535,
+          -33.8788813
+        ],
+        [
+          18.5533172,
+          -33.8835685
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

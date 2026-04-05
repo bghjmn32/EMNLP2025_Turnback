@@ -1,0 +1,158 @@
+{
+    "type": "FeatureCollection",
+    "bbox": [
+        2.249095,
+        48.896716,
+        2.254906,
+        48.900509
+    ],
+    "features": [
+        {
+            "bbox": [
+                2.249095,
+                48.896716,
+                2.254906,
+                48.900509
+            ],
+            "type": "Feature",
+            "properties": {
+                "segments": [
+                    {
+                        "distance": 694.2,
+                        "duration": 499.8,
+                        "steps": [
+                            {
+                                "distance": 486.2,
+                                "duration": 350.0,
+                                "type": 11,
+                                "instruction": "Head southwest on Avenue de Ch\u00e2teau du Loir",
+                                "name": "Avenue de Ch\u00e2teau du Loir",
+                                "way_points": [
+                                    0,
+                                    7
+                                ]
+                            },
+                            {
+                                "distance": 208.0,
+                                "duration": 149.8,
+                                "type": 0,
+                                "instruction": "Turn left onto Rue Adam Ledoux",
+                                "name": "Rue Adam Ledoux",
+                                "way_points": [
+                                    7,
+                                    13
+                                ]
+                            },
+                            {
+                                "distance": 0.0,
+                                "duration": 0.0,
+                                "type": 10,
+                                "instruction": "Arrive at Rue Adam Ledoux, straight ahead",
+                                "name": "-",
+                                "way_points": [
+                                    13,
+                                    13
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "way_points": [
+                    0,
+                    13
+                ],
+                "summary": {
+                    "distance": 694.2,
+                    "duration": 499.8
+                }
+            },
+            "geometry": {
+                "coordinates": [
+                    [
+                        2.254906,
+                        48.900509
+                    ],
+                    [
+                        2.254551,
+                        48.900381
+                    ],
+                    [
+                        2.251361,
+                        48.899318
+                    ],
+                    [
+                        2.251171,
+                        48.899287
+                    ],
+                    [
+                        2.251063,
+                        48.899246
+                    ],
+                    [
+                        2.249479,
+                        48.898602
+                    ],
+                    [
+                        2.249171,
+                        48.898444
+                    ],
+                    [
+                        2.249095,
+                        48.898406
+                    ],
+                    [
+                        2.249312,
+                        48.898094
+                    ],
+                    [
+                        2.249688,
+                        48.897602
+                    ],
+                    [
+                        2.249874,
+                        48.89729
+                    ],
+                    [
+                        2.249953,
+                        48.897117
+                    ],
+                    [
+                        2.250086,
+                        48.897007
+                    ],
+                    [
+                        2.250292,
+                        48.896716
+                    ]
+                ],
+                "type": "LineString"
+            }
+        }
+    ],
+    "metadata": {
+        "attribution": "openrouteservice.org | OpenStreetMap contributors",
+        "service": "routing",
+        "timestamp": 1755873215775,
+        "query": {
+            "coordinates": [
+                [
+                    2.2549063,
+                    48.9005091
+                ],
+                [
+                    2.2502924,
+                    48.896716
+                ]
+            ],
+            "profile": "foot-walking",
+            "profileName": "foot-walking",
+            "format": "geojson"
+        },
+        "engine": {
+            "version": "9.3.0",
+            "build_date": "2025-06-06T15:39:25Z",
+            "graph_date": "2025-08-19T13:56:51Z",
+            "osm_date": "2025-08-10T23:59:57Z"
+        }
+    }
+}

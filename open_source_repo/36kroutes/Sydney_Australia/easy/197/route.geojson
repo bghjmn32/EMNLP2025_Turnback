@@ -1,0 +1,199 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    150.547753,
+    -33.688873,
+    150.550569,
+    -33.686902
+  ],
+  "features": [
+    {
+      "bbox": [
+        150.547753,
+        -33.688873,
+        150.550569,
+        -33.686902
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 568.7,
+            "duration": 409.5,
+            "steps": [
+              {
+                "distance": 11.3,
+                "duration": 8.1,
+                "type": 11,
+                "instruction": "Head east on Cuddlepie Place",
+                "name": "Cuddlepie Place",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 42.3,
+                "duration": 30.5,
+                "type": 1,
+                "instruction": "Turn right onto Cuddlepie Place",
+                "name": "Cuddlepie Place",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 176.0,
+                "duration": 126.7,
+                "type": 1,
+                "instruction": "Turn right onto Snugglepot Drive",
+                "name": "Snugglepot Drive",
+                "way_points": [
+                  2,
+                  8
+                ]
+              },
+              {
+                "distance": 102.2,
+                "duration": 73.6,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  8,
+                  11
+                ]
+              },
+              {
+                "distance": 236.9,
+                "duration": 170.6,
+                "type": 3,
+                "instruction": "Turn sharp right",
+                "name": "-",
+                "way_points": [
+                  11,
+                  15
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  15,
+                  15
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          15
+        ],
+        "summary": {
+          "distance": 568.7,
+          "duration": 409.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            150.550269,
+            -33.688088
+          ],
+          [
+            150.550385,
+            -33.688117
+          ],
+          [
+            150.550569,
+            -33.688466
+          ],
+          [
+            150.550126,
+            -33.688689
+          ],
+          [
+            150.549826,
+            -33.68878
+          ],
+          [
+            150.549503,
+            -33.688816
+          ],
+          [
+            150.548921,
+            -33.688771
+          ],
+          [
+            150.548874,
+            -33.688807
+          ],
+          [
+            150.548829,
+            -33.688873
+          ],
+          [
+            150.548776,
+            -33.68885
+          ],
+          [
+            150.548726,
+            -33.688832
+          ],
+          [
+            150.547753,
+            -33.688682
+          ],
+          [
+            150.548832,
+            -33.687051
+          ],
+          [
+            150.548879,
+            -33.687018
+          ],
+          [
+            150.549072,
+            -33.686941
+          ],
+          [
+            150.549078,
+            -33.686902
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756391147849,
+    "query": {
+      "coordinates": [
+        [
+          150.5502687,
+          -33.6880877
+        ],
+        [
+          150.5490778,
+          -33.686902
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

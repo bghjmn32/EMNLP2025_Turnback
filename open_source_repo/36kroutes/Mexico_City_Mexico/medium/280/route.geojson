@@ -1,0 +1,295 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.060503,
+    19.182797,
+    -99.050106,
+    19.185678
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.060503,
+        19.182797,
+        -99.050106,
+        19.185678
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1403.2,
+            "duration": 1010.3,
+            "steps": [
+              {
+                "distance": 57.1,
+                "duration": 41.1,
+                "type": 11,
+                "instruction": "Head east",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 33.4,
+                "duration": 24.0,
+                "type": 3,
+                "instruction": "Turn sharp right onto Calle Real a San Pedro",
+                "name": "Calle Real a San Pedro",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 165.0,
+                "duration": 118.8,
+                "type": 2,
+                "instruction": "Turn sharp left onto Calle Cuauhtémoc",
+                "name": "Calle Cuauhtémoc",
+                "way_points": [
+                  2,
+                  5
+                ]
+              },
+              {
+                "distance": 150.0,
+                "duration": 108.0,
+                "type": 13,
+                "instruction": "Keep right",
+                "name": "-",
+                "way_points": [
+                  5,
+                  8
+                ]
+              },
+              {
+                "distance": 232.3,
+                "duration": 167.2,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  8,
+                  15
+                ]
+              },
+              {
+                "distance": 468.9,
+                "duration": 337.6,
+                "type": 1,
+                "instruction": "Turn right onto Calle Cuauhtémoc",
+                "name": "Calle Cuauhtémoc",
+                "way_points": [
+                  15,
+                  20
+                ]
+              },
+              {
+                "distance": 100.4,
+                "duration": 72.3,
+                "type": 13,
+                "instruction": "Keep right",
+                "name": "-",
+                "way_points": [
+                  20,
+                  25
+                ]
+              },
+              {
+                "distance": 45.9,
+                "duration": 33.1,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  25,
+                  27
+                ]
+              },
+              {
+                "distance": 150.0,
+                "duration": 108.0,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  27,
+                  28
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  28,
+                  28
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          28
+        ],
+        "summary": {
+          "distance": 1403.2,
+          "duration": 1010.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.060503,
+            19.185678
+          ],
+          [
+            -99.059994,
+            19.185497
+          ],
+          [
+            -99.060179,
+            19.185252
+          ],
+          [
+            -99.058948,
+            19.184814
+          ],
+          [
+            -99.058849,
+            19.18477
+          ],
+          [
+            -99.058732,
+            19.184687
+          ],
+          [
+            -99.058342,
+            19.183606
+          ],
+          [
+            -99.058323,
+            19.183494
+          ],
+          [
+            -99.058333,
+            19.183401
+          ],
+          [
+            -99.058147,
+            19.183265
+          ],
+          [
+            -99.057727,
+            19.183073
+          ],
+          [
+            -99.057607,
+            19.182974
+          ],
+          [
+            -99.057311,
+            19.182798
+          ],
+          [
+            -99.057274,
+            19.182797
+          ],
+          [
+            -99.057246,
+            19.18282
+          ],
+          [
+            -99.056922,
+            19.18364
+          ],
+          [
+            -99.056771,
+            19.18365
+          ],
+          [
+            -99.055111,
+            19.183889
+          ],
+          [
+            -99.054455,
+            19.183985
+          ],
+          [
+            -99.053065,
+            19.18421
+          ],
+          [
+            -99.052511,
+            19.184287
+          ],
+          [
+            -99.052369,
+            19.184225
+          ],
+          [
+            -99.052137,
+            19.184244
+          ],
+          [
+            -99.051725,
+            19.18438
+          ],
+          [
+            -99.05169,
+            19.184404
+          ],
+          [
+            -99.051604,
+            19.18442
+          ],
+          [
+            -99.051569,
+            19.184546
+          ],
+          [
+            -99.051499,
+            19.184821
+          ],
+          [
+            -99.050106,
+            19.185119
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756310130043,
+    "query": {
+      "coordinates": [
+        [
+          -99.0605034,
+          19.1856783
+        ],
+        [
+          -99.0501058,
+          19.1851185
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -79.304855,
+    43.708394,
+    -79.303226,
+    43.711894
+  ],
+  "features": [
+    {
+      "bbox": [
+        -79.304855,
+        43.708394,
+        -79.303226,
+        43.711894
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 583.6,
+            "duration": 420.2,
+            "steps": [
+              {
+                "distance": 154.0,
+                "duration": 110.9,
+                "type": 11,
+                "instruction": "Head northeast",
+                "name": "-",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 74.3,
+                "duration": 53.5,
+                "type": 0,
+                "instruction": "Turn left onto Valor Boulevard",
+                "name": "Valor Boulevard",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 12.4,
+                "duration": 8.9,
+                "type": 1,
+                "instruction": "Turn right onto Furnival Road",
+                "name": "Furnival Road",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 80.6,
+                "duration": 58.1,
+                "type": 0,
+                "instruction": "Turn left onto Valor Boulevard",
+                "name": "Valor Boulevard",
+                "way_points": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "distance": 140.0,
+                "duration": 100.8,
+                "type": 1,
+                "instruction": "Turn right onto Topham Road",
+                "name": "Topham Road",
+                "way_points": [
+                  5,
+                  10
+                ]
+              },
+              {
+                "distance": 105.5,
+                "duration": 75.9,
+                "type": 1,
+                "instruction": "Turn right onto Tiago Avenue",
+                "name": "Tiago Avenue",
+                "way_points": [
+                  10,
+                  11
+                ]
+              },
+              {
+                "distance": 6.4,
+                "duration": 4.6,
+                "type": 0,
+                "instruction": "Turn left onto Barron Road",
+                "name": "Barron Road",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 10.3,
+                "duration": 7.4,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  12,
+                  13
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  13,
+                  13
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          13
+        ],
+        "summary": {
+          "distance": 583.6,
+          "duration": 420.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -79.304101,
+            43.708394
+          ],
+          [
+            -79.303253,
+            43.70959
+          ],
+          [
+            -79.303226,
+            43.709627
+          ],
+          [
+            -79.304044,
+            43.709938
+          ],
+          [
+            -79.30397,
+            43.710036
+          ],
+          [
+            -79.304855,
+            43.710378
+          ],
+          [
+            -79.304788,
+            43.710477
+          ],
+          [
+            -79.304567,
+            43.710796
+          ],
+          [
+            -79.304543,
+            43.710843
+          ],
+          [
+            -79.304543,
+            43.7109
+          ],
+          [
+            -79.304813,
+            43.711557
+          ],
+          [
+            -79.30356,
+            43.711839
+          ],
+          [
+            -79.303583,
+            43.711894
+          ],
+          [
+            -79.303706,
+            43.711866
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756124434272,
+    "query": {
+      "coordinates": [
+        [
+          -79.3041006,
+          43.708394
+        ],
+        [
+          -79.303706,
+          43.7118661
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

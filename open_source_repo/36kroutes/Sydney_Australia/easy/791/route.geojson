@@ -1,0 +1,199 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    150.86347,
+    -33.954723,
+    150.86584,
+    -33.95001
+  ],
+  "features": [
+    {
+      "bbox": [
+        150.86347,
+        -33.954723,
+        150.86584,
+        -33.95001
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 625.6,
+            "duration": 450.4,
+            "steps": [
+              {
+                "distance": 62.0,
+                "duration": 44.6,
+                "type": 11,
+                "instruction": "Head east",
+                "name": "-",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 5.7,
+                "duration": 4.1,
+                "type": 0,
+                "instruction": "Turn left onto Camden Valley Way cycleway",
+                "name": "Camden Valley Way cycleway",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 526.2,
+                "duration": 378.9,
+                "type": 1,
+                "instruction": "Turn right onto Bernera Road Shared Path",
+                "name": "Bernera Road Shared Path",
+                "way_points": [
+                  3,
+                  11
+                ]
+              },
+              {
+                "distance": 15.9,
+                "duration": 11.5,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  11,
+                  13
+                ]
+              },
+              {
+                "distance": 15.7,
+                "duration": 11.3,
+                "type": 0,
+                "instruction": "Turn left onto Bernera Road",
+                "name": "Bernera Road",
+                "way_points": [
+                  13,
+                  15
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Bernera Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  15,
+                  15
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          15
+        ],
+        "summary": {
+          "distance": 625.6,
+          "duration": 450.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            150.86347,
+            -33.954698
+          ],
+          [
+            150.863827,
+            -33.954723
+          ],
+          [
+            150.86414,
+            -33.954706
+          ],
+          [
+            150.864122,
+            -33.954657
+          ],
+          [
+            150.864199,
+            -33.954606
+          ],
+          [
+            150.864245,
+            -33.954521
+          ],
+          [
+            150.864259,
+            -33.954373
+          ],
+          [
+            150.864332,
+            -33.954137
+          ],
+          [
+            150.864403,
+            -33.953961
+          ],
+          [
+            150.86549,
+            -33.950536
+          ],
+          [
+            150.865545,
+            -33.950364
+          ],
+          [
+            150.86563,
+            -33.950113
+          ],
+          [
+            150.865693,
+            -33.950125
+          ],
+          [
+            150.865798,
+            -33.950147
+          ],
+          [
+            150.865823,
+            -33.950065
+          ],
+          [
+            150.86584,
+            -33.95001
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756395250640,
+    "query": {
+      "coordinates": [
+        [
+          150.8634697,
+          -33.9546985
+        ],
+        [
+          150.8658403,
+          -33.9500102
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

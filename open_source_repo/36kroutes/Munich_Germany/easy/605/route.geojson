@@ -1,0 +1,154 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    11.432414,
+    48.213966,
+    11.436132,
+    48.220115
+  ],
+  "features": [
+    {
+      "bbox": [
+        11.432414,
+        48.213966,
+        11.436132,
+        48.220115
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 793.6,
+            "duration": 571.4,
+            "steps": [
+              {
+                "distance": 79.0,
+                "duration": 56.9,
+                "type": 11,
+                "instruction": "Head east",
+                "name": "-",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 714.5,
+                "duration": 514.4,
+                "type": 0,
+                "instruction": "Turn left onto Hadinger Weg",
+                "name": "Hadinger Weg",
+                "way_points": [
+                  2,
+                  12
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Hadinger Weg, straight ahead",
+                "name": "-",
+                "way_points": [
+                  12,
+                  12
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          12
+        ],
+        "summary": {
+          "distance": 793.6,
+          "duration": 571.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            11.432414,
+            48.21397
+          ],
+          [
+            11.433193,
+            48.213967
+          ],
+          [
+            11.43348,
+            48.213966
+          ],
+          [
+            11.433496,
+            48.214019
+          ],
+          [
+            11.433927,
+            48.215507
+          ],
+          [
+            11.434183,
+            48.216333
+          ],
+          [
+            11.434359,
+            48.21692
+          ],
+          [
+            11.43447,
+            48.217279
+          ],
+          [
+            11.43454,
+            48.217434
+          ],
+          [
+            11.435442,
+            48.218932
+          ],
+          [
+            11.43604,
+            48.219912
+          ],
+          [
+            11.436115,
+            48.220035
+          ],
+          [
+            11.436132,
+            48.220115
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756138509498,
+    "query": {
+      "coordinates": [
+        [
+          11.4324135,
+          48.2139696
+        ],
+        [
+          11.4361323,
+          48.220115
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

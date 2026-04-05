@@ -1,0 +1,192 @@
+{
+    "type": "FeatureCollection",
+    "bbox": [
+        2.435009,
+        48.881032,
+        2.441448,
+        48.88318
+    ],
+    "features": [
+        {
+            "bbox": [
+                2.435009,
+                48.881032,
+                2.441448,
+                48.88318
+            ],
+            "type": "Feature",
+            "properties": {
+                "segments": [
+                    {
+                        "distance": 587.3,
+                        "duration": 422.8,
+                        "steps": [
+                            {
+                                "distance": 50.3,
+                                "duration": 36.2,
+                                "type": 11,
+                                "instruction": "Head southwest",
+                                "name": "-",
+                                "way_points": [
+                                    0,
+                                    3
+                                ]
+                            },
+                            {
+                                "distance": 14.4,
+                                "duration": 10.4,
+                                "type": 1,
+                                "instruction": "Turn right onto Avenue de Verdun",
+                                "name": "Avenue de Verdun",
+                                "way_points": [
+                                    3,
+                                    4
+                                ]
+                            },
+                            {
+                                "distance": 479.3,
+                                "duration": 345.1,
+                                "type": 2,
+                                "instruction": "Turn sharp left onto Avenue du Docteur David Rosenfeld",
+                                "name": "Avenue du Docteur David Rosenfeld",
+                                "way_points": [
+                                    4,
+                                    13
+                                ]
+                            },
+                            {
+                                "distance": 43.3,
+                                "duration": 31.2,
+                                "type": 1,
+                                "instruction": "Turn right onto Rue Jean Jaur\u00e8s",
+                                "name": "Rue Jean Jaur\u00e8s",
+                                "way_points": [
+                                    13,
+                                    16
+                                ]
+                            },
+                            {
+                                "distance": 0.0,
+                                "duration": 0.0,
+                                "type": 10,
+                                "instruction": "Arrive at Rue Jean Jaur\u00e8s, straight ahead",
+                                "name": "-",
+                                "way_points": [
+                                    16,
+                                    16
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "way_points": [
+                    0,
+                    16
+                ],
+                "summary": {
+                    "distance": 587.3,
+                    "duration": 422.8
+                }
+            },
+            "geometry": {
+                "coordinates": [
+                    [
+                        2.435196,
+                        48.88318
+                    ],
+                    [
+                        2.435054,
+                        48.883003
+                    ],
+                    [
+                        2.435133,
+                        48.882937
+                    ],
+                    [
+                        2.435199,
+                        48.882775
+                    ],
+                    [
+                        2.435009,
+                        48.882739
+                    ],
+                    [
+                        2.435197,
+                        48.882642
+                    ],
+                    [
+                        2.435314,
+                        48.882607
+                    ],
+                    [
+                        2.436335,
+                        48.882455
+                    ],
+                    [
+                        2.439362,
+                        48.881992
+                    ],
+                    [
+                        2.439464,
+                        48.881964
+                    ],
+                    [
+                        2.440465,
+                        48.881508
+                    ],
+                    [
+                        2.440815,
+                        48.881345
+                    ],
+                    [
+                        2.440996,
+                        48.88131
+                    ],
+                    [
+                        2.441083,
+                        48.881312
+                    ],
+                    [
+                        2.44113,
+                        48.881189
+                    ],
+                    [
+                        2.441222,
+                        48.881128
+                    ],
+                    [
+                        2.441448,
+                        48.881032
+                    ]
+                ],
+                "type": "LineString"
+            }
+        }
+    ],
+    "metadata": {
+        "attribution": "openrouteservice.org | OpenStreetMap contributors",
+        "service": "routing",
+        "timestamp": 1755871954431,
+        "query": {
+            "coordinates": [
+                [
+                    2.4351962,
+                    48.8831799
+                ],
+                [
+                    2.4414484,
+                    48.8810315
+                ]
+            ],
+            "profile": "foot-walking",
+            "profileName": "foot-walking",
+            "format": "geojson"
+        },
+        "engine": {
+            "version": "9.3.0",
+            "build_date": "2025-06-06T15:39:25Z",
+            "graph_date": "2025-08-19T13:56:51Z",
+            "osm_date": "2025-08-10T23:59:57Z"
+        }
+    }
+}

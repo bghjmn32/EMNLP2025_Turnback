@@ -1,0 +1,301 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.186726,
+    19.305186,
+    -99.185328,
+    19.313581
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.186726,
+        19.305186,
+        -99.185328,
+        19.313581
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1111.6,
+            "duration": 800.3,
+            "steps": [
+              {
+                "distance": 69.9,
+                "duration": 50.4,
+                "type": 11,
+                "instruction": "Head north",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 38.2,
+                "duration": 27.5,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  3
+                ]
+              },
+              {
+                "distance": 390.2,
+                "duration": 280.9,
+                "type": 1,
+                "instruction": "Turn right onto Avenida Insurgentes Sur",
+                "name": "Avenida Insurgentes Sur",
+                "way_points": [
+                  3,
+                  9
+                ]
+              },
+              {
+                "distance": 357.9,
+                "duration": 257.7,
+                "type": 13,
+                "instruction": "Keep right",
+                "name": "-",
+                "way_points": [
+                  9,
+                  21
+                ]
+              },
+              {
+                "distance": 125.1,
+                "duration": 90.0,
+                "type": 2,
+                "instruction": "Turn sharp left onto Circuito Cultural",
+                "name": "Circuito Cultural",
+                "way_points": [
+                  21,
+                  27
+                ]
+              },
+              {
+                "distance": 38.4,
+                "duration": 27.6,
+                "type": 13,
+                "instruction": "Keep right",
+                "name": "-",
+                "way_points": [
+                  27,
+                  32
+                ]
+              },
+              {
+                "distance": 91.9,
+                "duration": 66.2,
+                "type": 2,
+                "instruction": "Turn sharp left onto Circuito Cultural",
+                "name": "Circuito Cultural",
+                "way_points": [
+                  32,
+                  35
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Circuito Cultural, straight ahead",
+                "name": "-",
+                "way_points": [
+                  35,
+                  35
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          35
+        ],
+        "summary": {
+          "distance": 1111.6,
+          "duration": 800.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.185754,
+            19.305186
+          ],
+          [
+            -99.185853,
+            19.305808
+          ],
+          [
+            -99.185946,
+            19.3058
+          ],
+          [
+            -99.186214,
+            19.305771
+          ],
+          [
+            -99.186325,
+            19.306678
+          ],
+          [
+            -99.186334,
+            19.306739
+          ],
+          [
+            -99.186551,
+            19.30849
+          ],
+          [
+            -99.186617,
+            19.308742
+          ],
+          [
+            -99.186651,
+            19.308985
+          ],
+          [
+            -99.186691,
+            19.309249
+          ],
+          [
+            -99.186658,
+            19.309604
+          ],
+          [
+            -99.186681,
+            19.309819
+          ],
+          [
+            -99.186691,
+            19.309945
+          ],
+          [
+            -99.186726,
+            19.31083
+          ],
+          [
+            -99.186662,
+            19.310965
+          ],
+          [
+            -99.186606,
+            19.311031
+          ],
+          [
+            -99.186512,
+            19.311089
+          ],
+          [
+            -99.186331,
+            19.311178
+          ],
+          [
+            -99.18597,
+            19.31139
+          ],
+          [
+            -99.185929,
+            19.311414
+          ],
+          [
+            -99.185738,
+            19.311519
+          ],
+          [
+            -99.185328,
+            19.311745
+          ],
+          [
+            -99.185456,
+            19.311787
+          ],
+          [
+            -99.185567,
+            19.311851
+          ],
+          [
+            -99.185667,
+            19.311965
+          ],
+          [
+            -99.185717,
+            19.312069
+          ],
+          [
+            -99.185854,
+            19.312345
+          ],
+          [
+            -99.185966,
+            19.312634
+          ],
+          [
+            -99.185979,
+            19.312702
+          ],
+          [
+            -99.185951,
+            19.312766
+          ],
+          [
+            -99.185892,
+            19.312807
+          ],
+          [
+            -99.185819,
+            19.312812
+          ],
+          [
+            -99.185755,
+            19.31278
+          ],
+          [
+            -99.185861,
+            19.313047
+          ],
+          [
+            -99.1859,
+            19.313179
+          ],
+          [
+            -99.185947,
+            19.313581
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306498667,
+    "query": {
+      "coordinates": [
+        [
+          -99.1857538,
+          19.3051858
+        ],
+        [
+          -99.1859472,
+          19.3135806
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

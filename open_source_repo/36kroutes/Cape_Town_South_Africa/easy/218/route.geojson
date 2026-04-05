@@ -1,0 +1,255 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.505406,
+    -33.918519,
+    18.511739,
+    -33.913696
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.505406,
+        -33.918519,
+        18.511739,
+        -33.913696
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1208.4,
+            "duration": 870.0,
+            "steps": [
+              {
+                "distance": 157.7,
+                "duration": 113.5,
+                "type": 11,
+                "instruction": "Head north on 6th Avenue",
+                "name": "6th Avenue",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 123.8,
+                "duration": 89.2,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  3,
+                  5
+                ]
+              },
+              {
+                "distance": 7.8,
+                "duration": 5.6,
+                "type": 1,
+                "instruction": "Turn right onto 7th Avenue",
+                "name": "7th Avenue",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 288.9,
+                "duration": 208.0,
+                "type": 0,
+                "instruction": "Turn left onto Nyman Street",
+                "name": "Nyman Street",
+                "way_points": [
+                  6,
+                  10
+                ]
+              },
+              {
+                "distance": 25.1,
+                "duration": 18.1,
+                "type": 0,
+                "instruction": "Turn left onto 9th Avenue",
+                "name": "9th Avenue",
+                "way_points": [
+                  10,
+                  11
+                ]
+              },
+              {
+                "distance": 144.9,
+                "duration": 104.3,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 262.9,
+                "duration": 189.3,
+                "type": 0,
+                "instruction": "Turn left onto 10th Avenue",
+                "name": "10th Avenue",
+                "way_points": [
+                  12,
+                  15
+                ]
+              },
+              {
+                "distance": 71.4,
+                "duration": 51.4,
+                "type": 1,
+                "instruction": "Turn right onto Pearl Street",
+                "name": "Pearl Street",
+                "way_points": [
+                  15,
+                  16
+                ]
+              },
+              {
+                "distance": 125.8,
+                "duration": 90.6,
+                "type": 1,
+                "instruction": "Turn right onto Goliath Street",
+                "name": "Goliath Street",
+                "way_points": [
+                  16,
+                  18
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Goliath Street, straight ahead",
+                "name": "-",
+                "way_points": [
+                  18,
+                  18
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          18
+        ],
+        "summary": {
+          "distance": 1208.4,
+          "duration": 870.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.505751,
+            -33.918519
+          ],
+          [
+            18.505611,
+            -33.917945
+          ],
+          [
+            18.505469,
+            -33.917385
+          ],
+          [
+            18.505406,
+            -33.91713
+          ],
+          [
+            18.506185,
+            -33.91701
+          ],
+          [
+            18.506724,
+            -33.917097
+          ],
+          [
+            18.506741,
+            -33.917165
+          ],
+          [
+            18.50775,
+            -33.916994
+          ],
+          [
+            18.508276,
+            -33.916905
+          ],
+          [
+            18.509044,
+            -33.916773
+          ],
+          [
+            18.509808,
+            -33.916642
+          ],
+          [
+            18.509754,
+            -33.916421
+          ],
+          [
+            18.511289,
+            -33.916143
+          ],
+          [
+            18.511281,
+            -33.916108
+          ],
+          [
+            18.510747,
+            -33.913936
+          ],
+          [
+            18.51072,
+            -33.913827
+          ],
+          [
+            18.511478,
+            -33.913696
+          ],
+          [
+            18.511633,
+            -33.914303
+          ],
+          [
+            18.511739,
+            -33.914807
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756804330020,
+    "query": {
+      "coordinates": [
+        [
+          18.5057512,
+          -33.9185188
+        ],
+        [
+          18.5117391,
+          -33.9148066
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

@@ -1,0 +1,277 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    150.998721,
+    -33.884994,
+    151.006664,
+    -33.882384
+  ],
+  "features": [
+    {
+      "bbox": [
+        150.998721,
+        -33.884994,
+        151.006664,
+        -33.882384
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 947.0,
+            "duration": 681.8,
+            "steps": [
+              {
+                "distance": 87.5,
+                "duration": 63.0,
+                "type": 11,
+                "instruction": "Head east on Frost Lane",
+                "name": "Frost Lane",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 35.7,
+                "duration": 25.7,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  3
+                ]
+              },
+              {
+                "distance": 110.7,
+                "duration": 79.7,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  3,
+                  8
+                ]
+              },
+              {
+                "distance": 18.7,
+                "duration": 13.4,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  8,
+                  10
+                ]
+              },
+              {
+                "distance": 682.4,
+                "duration": 491.3,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  10,
+                  27
+                ]
+              },
+              {
+                "distance": 8.1,
+                "duration": 5.8,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  27,
+                  28
+                ]
+              },
+              {
+                "distance": 3.9,
+                "duration": 2.8,
+                "type": 0,
+                "instruction": "Turn left onto Hector Street",
+                "name": "Hector Street",
+                "way_points": [
+                  28,
+                  29
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Hector Street, straight ahead",
+                "name": "-",
+                "way_points": [
+                  29,
+                  29
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          29
+        ],
+        "summary": {
+          "distance": 947.0,
+          "duration": 681.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            150.998721,
+            -33.882384
+          ],
+          [
+            150.999655,
+            -33.882515
+          ],
+          [
+            150.999651,
+            -33.882539
+          ],
+          [
+            150.999603,
+            -33.882833
+          ],
+          [
+            150.999672,
+            -33.882846
+          ],
+          [
+            150.99976,
+            -33.882863
+          ],
+          [
+            150.999805,
+            -33.882887
+          ],
+          [
+            151.000535,
+            -33.882987
+          ],
+          [
+            151.000777,
+            -33.88302
+          ],
+          [
+            151.000762,
+            -33.883105
+          ],
+          [
+            151.000748,
+            -33.883186
+          ],
+          [
+            151.00119,
+            -33.883229
+          ],
+          [
+            151.001838,
+            -33.883312
+          ],
+          [
+            151.001958,
+            -33.883344
+          ],
+          [
+            151.002236,
+            -33.883379
+          ],
+          [
+            151.004385,
+            -33.883675
+          ],
+          [
+            151.005636,
+            -33.883844
+          ],
+          [
+            151.005802,
+            -33.883854
+          ],
+          [
+            151.006108,
+            -33.883839
+          ],
+          [
+            151.00629,
+            -33.883809
+          ],
+          [
+            151.006591,
+            -33.883805
+          ],
+          [
+            151.006645,
+            -33.88383
+          ],
+          [
+            151.006664,
+            -33.883869
+          ],
+          [
+            151.006657,
+            -33.883932
+          ],
+          [
+            151.006568,
+            -33.884356
+          ],
+          [
+            151.006578,
+            -33.884561
+          ],
+          [
+            151.006499,
+            -33.884766
+          ],
+          [
+            151.006453,
+            -33.884983
+          ],
+          [
+            151.00654,
+            -33.884994
+          ],
+          [
+            151.006547,
+            -33.884959
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756393704428,
+    "query": {
+      "coordinates": [
+        [
+          150.9987206,
+          -33.8823836
+        ],
+        [
+          151.0065467,
+          -33.884959
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

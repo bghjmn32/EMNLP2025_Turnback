@@ -1,0 +1,191 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.382295,
+    -33.927315,
+    18.386285,
+    -33.92469
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.382295,
+        -33.927315,
+        18.386285,
+        -33.92469
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 552.0,
+            "duration": 397.5,
+            "steps": [
+              {
+                "distance": 235.8,
+                "duration": 169.8,
+                "type": 11,
+                "instruction": "Head southeast on Avenue Brittany",
+                "name": "Avenue Brittany",
+                "way_points": [
+                  0,
+                  5
+                ]
+              },
+              {
+                "distance": 15.7,
+                "duration": 11.3,
+                "type": 1,
+                "instruction": "Turn right onto Avenue Alexandra",
+                "name": "Avenue Alexandra",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 233.9,
+                "duration": 168.4,
+                "type": 0,
+                "instruction": "Turn left onto Avenue Le Sueur",
+                "name": "Avenue Le Sueur",
+                "way_points": [
+                  6,
+                  11
+                ]
+              },
+              {
+                "distance": 61.6,
+                "duration": 44.4,
+                "type": 1,
+                "instruction": "Turn right onto Avenue Fresnaye",
+                "name": "Avenue Fresnaye",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 5.0,
+                "duration": 3.6,
+                "type": 12,
+                "instruction": "Keep left onto Avenue Fresnaye",
+                "name": "Avenue Fresnaye",
+                "way_points": [
+                  12,
+                  13
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Avenue Fresnaye, straight ahead",
+                "name": "-",
+                "way_points": [
+                  13,
+                  13
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          13
+        ],
+        "summary": {
+          "distance": 552.0,
+          "duration": 397.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.382295,
+            -33.926822
+          ],
+          [
+            18.382922,
+            -33.927287
+          ],
+          [
+            18.382974,
+            -33.927315
+          ],
+          [
+            18.383053,
+            -33.927305
+          ],
+          [
+            18.383557,
+            -33.926828
+          ],
+          [
+            18.384091,
+            -33.926324
+          ],
+          [
+            18.384221,
+            -33.926415
+          ],
+          [
+            18.384746,
+            -33.925912
+          ],
+          [
+            18.3849,
+            -33.925754
+          ],
+          [
+            18.385047,
+            -33.925549
+          ],
+          [
+            18.385269,
+            -33.925226
+          ],
+          [
+            18.385655,
+            -33.92469
+          ],
+          [
+            18.386231,
+            -33.92497
+          ],
+          [
+            18.386285,
+            -33.924971
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756803741510,
+    "query": {
+      "coordinates": [
+        [
+          18.382295,
+          -33.9268217
+        ],
+        [
+          18.3862847,
+          -33.9249708
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

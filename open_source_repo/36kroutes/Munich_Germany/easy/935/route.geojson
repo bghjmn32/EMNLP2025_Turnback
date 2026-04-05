@@ -1,0 +1,201 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    11.534955,
+    48.142814,
+    11.539388,
+    48.146834
+  ],
+  "features": [
+    {
+      "bbox": [
+        11.534955,
+        48.142814,
+        11.539388,
+        48.146834
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 699.0,
+            "duration": 503.3,
+            "steps": [
+              {
+                "distance": 424.8,
+                "duration": 305.9,
+                "type": 11,
+                "instruction": "Head north",
+                "name": "-",
+                "way_points": [
+                  0,
+                  14
+                ]
+              },
+              {
+                "distance": 164.1,
+                "duration": 118.1,
+                "type": 1,
+                "instruction": "Turn right onto Arnulfstraße",
+                "name": "Arnulfstraße",
+                "way_points": [
+                  14,
+                  19
+                ]
+              },
+              {
+                "distance": 110.1,
+                "duration": 79.2,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  19,
+                  21
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  21,
+                  21
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          21
+        ],
+        "summary": {
+          "distance": 699.0,
+          "duration": 503.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            11.534955,
+            48.142814
+          ],
+          [
+            11.534973,
+            48.142914
+          ],
+          [
+            11.53498,
+            48.142958
+          ],
+          [
+            11.535029,
+            48.143258
+          ],
+          [
+            11.535175,
+            48.144117
+          ],
+          [
+            11.535335,
+            48.144913
+          ],
+          [
+            11.535454,
+            48.145206
+          ],
+          [
+            11.535573,
+            48.145413
+          ],
+          [
+            11.535743,
+            48.145649
+          ],
+          [
+            11.535961,
+            48.145889
+          ],
+          [
+            11.536136,
+            48.146072
+          ],
+          [
+            11.536207,
+            48.146152
+          ],
+          [
+            11.536246,
+            48.146197
+          ],
+          [
+            11.536358,
+            48.146328
+          ],
+          [
+            11.536448,
+            48.146438
+          ],
+          [
+            11.537011,
+            48.146348
+          ],
+          [
+            11.537127,
+            48.146314
+          ],
+          [
+            11.537304,
+            48.14626
+          ],
+          [
+            11.537925,
+            48.146153
+          ],
+          [
+            11.538561,
+            48.146012
+          ],
+          [
+            11.538974,
+            48.146414
+          ],
+          [
+            11.539388,
+            48.146834
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756139690753,
+    "query": {
+      "coordinates": [
+        [
+          11.5349549,
+          48.1428136
+        ],
+        [
+          11.5393875,
+          48.1468339
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

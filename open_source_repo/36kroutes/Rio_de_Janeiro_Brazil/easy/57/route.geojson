@@ -1,0 +1,157 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.448075,
+    -22.99303,
+    -43.443018,
+    -22.991995
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.448075,
+        -22.99303,
+        -43.443018,
+        -22.991995
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 635.5,
+            "duration": 457.6,
+            "steps": [
+              {
+                "distance": 236.2,
+                "duration": 170.0,
+                "type": 11,
+                "instruction": "Head east on Estrada dos Bandeirantes",
+                "name": "Estrada dos Bandeirantes",
+                "way_points": [
+                  0,
+                  8
+                ]
+              },
+              {
+                "distance": 122.5,
+                "duration": 88.2,
+                "type": 1,
+                "instruction": "Turn right onto Rua Célio Fernandes dos Santos",
+                "name": "Rua Célio Fernandes dos Santos",
+                "way_points": [
+                  8,
+                  9
+                ]
+              },
+              {
+                "distance": 276.9,
+                "duration": 199.4,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  9,
+                  10
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  10,
+                  10
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          10
+        ],
+        "summary": {
+          "distance": 635.5,
+          "duration": 457.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.448075,
+            -22.992898
+          ],
+          [
+            -43.447823,
+            -22.992843
+          ],
+          [
+            -43.447663,
+            -22.992791
+          ],
+          [
+            -43.44748,
+            -22.992716
+          ],
+          [
+            -43.446837,
+            -22.992397
+          ],
+          [
+            -43.446434,
+            -22.992193
+          ],
+          [
+            -43.446361,
+            -22.992167
+          ],
+          [
+            -43.446314,
+            -22.992168
+          ],
+          [
+            -43.446004,
+            -22.991995
+          ],
+          [
+            -43.445593,
+            -22.99303
+          ],
+          [
+            -43.443018,
+            -22.992268
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756390306361,
+    "query": {
+      "coordinates": [
+        [
+          -43.4480749,
+          -22.9928982
+        ],
+        [
+          -43.4430184,
+          -22.9922676
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

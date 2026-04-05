@@ -1,0 +1,234 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -79.45852,
+    43.653172,
+    -79.452538,
+    43.656212
+  ],
+  "features": [
+    {
+      "bbox": [
+        -79.45852,
+        43.653172,
+        -79.452538,
+        43.656212
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 711.2,
+            "duration": 512.1,
+            "steps": [
+              {
+                "distance": 1.2,
+                "duration": 0.9,
+                "type": 11,
+                "instruction": "Head southwest",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 96.7,
+                "duration": 69.6,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  4
+                ]
+              },
+              {
+                "distance": 406.0,
+                "duration": 292.3,
+                "type": 13,
+                "instruction": "Keep right",
+                "name": "-",
+                "way_points": [
+                  4,
+                  15
+                ]
+              },
+              {
+                "distance": 129.3,
+                "duration": 93.1,
+                "type": 12,
+                "instruction": "Keep left",
+                "name": "-",
+                "way_points": [
+                  15,
+                  19
+                ]
+              },
+              {
+                "distance": 5.5,
+                "duration": 4.0,
+                "type": 1,
+                "instruction": "Turn right onto Indian Trail",
+                "name": "Indian Trail",
+                "way_points": [
+                  19,
+                  20
+                ]
+              },
+              {
+                "distance": 72.5,
+                "duration": 52.2,
+                "type": 0,
+                "instruction": "Turn left onto Indian Grove",
+                "name": "Indian Grove",
+                "way_points": [
+                  20,
+                  21
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Indian Grove, straight ahead",
+                "name": "-",
+                "way_points": [
+                  21,
+                  21
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          21
+        ],
+        "summary": {
+          "distance": 711.2,
+          "duration": 512.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -79.452538,
+            43.656212
+          ],
+          [
+            -79.452547,
+            43.656203
+          ],
+          [
+            -79.452605,
+            43.65621
+          ],
+          [
+            -79.453672,
+            43.655975
+          ],
+          [
+            -79.45369,
+            43.655959
+          ],
+          [
+            -79.453751,
+            43.655947
+          ],
+          [
+            -79.453835,
+            43.655931
+          ],
+          [
+            -79.454321,
+            43.655832
+          ],
+          [
+            -79.456869,
+            43.655289
+          ],
+          [
+            -79.456888,
+            43.655283
+          ],
+          [
+            -79.45692,
+            43.655269
+          ],
+          [
+            -79.456998,
+            43.65525
+          ],
+          [
+            -79.457091,
+            43.655228
+          ],
+          [
+            -79.457159,
+            43.655228
+          ],
+          [
+            -79.458507,
+            43.65493
+          ],
+          [
+            -79.45852,
+            43.65492
+          ],
+          [
+            -79.458518,
+            43.654873
+          ],
+          [
+            -79.458189,
+            43.654085
+          ],
+          [
+            -79.458075,
+            43.653863
+          ],
+          [
+            -79.458053,
+            43.653809
+          ],
+          [
+            -79.458119,
+            43.653795
+          ],
+          [
+            -79.457853,
+            43.653172
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756125154186,
+    "query": {
+      "coordinates": [
+        [
+          -79.4525321,
+          43.6562086
+        ],
+        [
+          -79.4578534,
+          43.6531722
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

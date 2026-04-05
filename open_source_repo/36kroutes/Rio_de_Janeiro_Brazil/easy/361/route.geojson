@@ -1,0 +1,176 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.279588,
+    -22.833309,
+    -43.27092,
+    -22.830529
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.279588,
+        -22.833309,
+        -43.27092,
+        -22.830529
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1159.8,
+            "duration": 835.0,
+            "steps": [
+              {
+                "distance": 86.5,
+                "duration": 62.2,
+                "type": 11,
+                "instruction": "Head northwest on Rua Cuba",
+                "name": "Rua Cuba",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 166.3,
+                "duration": 119.8,
+                "type": 0,
+                "instruction": "Turn left onto Rua Ingaí",
+                "name": "Rua Ingaí",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 637.1,
+                "duration": 458.7,
+                "type": 1,
+                "instruction": "Turn right onto Rua Guatemala",
+                "name": "Rua Guatemala",
+                "way_points": [
+                  3,
+                  9
+                ]
+              },
+              {
+                "distance": 269.9,
+                "duration": 194.3,
+                "type": 0,
+                "instruction": "Turn left onto Avenida Lôbo Júnior",
+                "name": "Avenida Lôbo Júnior",
+                "way_points": [
+                  9,
+                  12
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Avenida Lôbo Júnior, straight ahead",
+                "name": "-",
+                "way_points": [
+                  12,
+                  12
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          12
+        ],
+        "summary": {
+          "distance": 1159.8,
+          "duration": 835.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.27092,
+            -22.832441
+          ],
+          [
+            -43.271021,
+            -22.83238
+          ],
+          [
+            -43.271641,
+            -22.832037
+          ],
+          [
+            -43.272496,
+            -22.833309
+          ],
+          [
+            -43.272817,
+            -22.833144
+          ],
+          [
+            -43.273707,
+            -22.832679
+          ],
+          [
+            -43.274682,
+            -22.832171
+          ],
+          [
+            -43.275713,
+            -22.831631
+          ],
+          [
+            -43.276725,
+            -22.831137
+          ],
+          [
+            -43.277931,
+            -22.830529
+          ],
+          [
+            -43.278493,
+            -22.831206
+          ],
+          [
+            -43.279048,
+            -22.831862
+          ],
+          [
+            -43.279588,
+            -22.832414
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756392075531,
+    "query": {
+      "coordinates": [
+        [
+          -43.2709205,
+          -22.8324409
+        ],
+        [
+          -43.2795884,
+          -22.8324138
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

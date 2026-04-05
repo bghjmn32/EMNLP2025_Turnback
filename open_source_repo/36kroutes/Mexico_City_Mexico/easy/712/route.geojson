@@ -1,0 +1,191 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.071316,
+    19.400184,
+    -99.070214,
+    19.404713
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.071316,
+        19.400184,
+        -99.070214,
+        19.404713
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 687.7,
+            "duration": 495.2,
+            "steps": [
+              {
+                "distance": 48.6,
+                "duration": 35.0,
+                "type": 11,
+                "instruction": "Head north",
+                "name": "-",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 49.2,
+                "duration": 35.4,
+                "type": 0,
+                "instruction": "Turn left onto Calzada General Ignacio Zaragoza",
+                "name": "Calzada General Ignacio Zaragoza",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 237.6,
+                "duration": 171.0,
+                "type": 12,
+                "instruction": "Keep left onto Avenida Licenciado Javier Rojo Gómez, EJE 5 OTE",
+                "name": "Avenida Licenciado Javier Rojo Gómez, EJE 5 OTE",
+                "way_points": [
+                  3,
+                  9
+                ]
+              },
+              {
+                "distance": 64.0,
+                "duration": 46.1,
+                "type": 0,
+                "instruction": "Turn left onto Calle Sur 4",
+                "name": "Calle Sur 4",
+                "way_points": [
+                  9,
+                  10
+                ]
+              },
+              {
+                "distance": 288.4,
+                "duration": 207.6,
+                "type": 1,
+                "instruction": "Turn right onto Retorno 1 Sur 4",
+                "name": "Retorno 1 Sur 4",
+                "way_points": [
+                  10,
+                  13
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Retorno 1 Sur 4, straight ahead",
+                "name": "-",
+                "way_points": [
+                  13,
+                  13
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          13
+        ],
+        "summary": {
+          "distance": 687.7,
+          "duration": 495.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.070338,
+            19.404067
+          ],
+          [
+            -99.070252,
+            19.404396
+          ],
+          [
+            -99.070214,
+            19.404487
+          ],
+          [
+            -99.070617,
+            19.404713
+          ],
+          [
+            -99.07078,
+            19.404704
+          ],
+          [
+            -99.070847,
+            19.404676
+          ],
+          [
+            -99.070895,
+            19.404607
+          ],
+          [
+            -99.070963,
+            19.404314
+          ],
+          [
+            -99.071051,
+            19.403937
+          ],
+          [
+            -99.071316,
+            19.40282
+          ],
+          [
+            -99.070715,
+            19.40272
+          ],
+          [
+            -99.070839,
+            19.402176
+          ],
+          [
+            -99.070999,
+            19.401477
+          ],
+          [
+            -99.071293,
+            19.400184
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756307160705,
+    "query": {
+      "coordinates": [
+        [
+          -99.0703379,
+          19.4040671
+        ],
+        [
+          -99.0712934,
+          19.4001842
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.647707,
+    -22.946062,
+    -43.639361,
+    -22.944465
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.647707,
+        -22.946062,
+        -43.639361,
+        -22.944465
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1005.2,
+            "duration": 723.7,
+            "steps": [
+              {
+                "distance": 6.6,
+                "duration": 4.7,
+                "type": 11,
+                "instruction": "Head south",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 810.6,
+                "duration": 583.6,
+                "type": 0,
+                "instruction": "Turn left onto Rua Aporuna",
+                "name": "Rua Aporuna",
+                "way_points": [
+                  1,
+                  14
+                ]
+              },
+              {
+                "distance": 188.0,
+                "duration": 135.4,
+                "type": 0,
+                "instruction": "Turn left onto Estrada de Santa Eugênia",
+                "name": "Estrada de Santa Eugênia",
+                "way_points": [
+                  14,
+                  16
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Estrada de Santa Eugênia, straight ahead",
+                "name": "-",
+                "way_points": [
+                  16,
+                  16
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          16
+        ],
+        "summary": {
+          "distance": 1005.2,
+          "duration": 723.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.6477,
+            -22.944882
+          ],
+          [
+            -43.647707,
+            -22.944941
+          ],
+          [
+            -43.646699,
+            -22.944839
+          ],
+          [
+            -43.646315,
+            -22.944826
+          ],
+          [
+            -43.64596,
+            -22.944876
+          ],
+          [
+            -43.645617,
+            -22.944931
+          ],
+          [
+            -43.645256,
+            -22.944981
+          ],
+          [
+            -43.643909,
+            -22.9452
+          ],
+          [
+            -43.643787,
+            -22.945217
+          ],
+          [
+            -43.643315,
+            -22.945284
+          ],
+          [
+            -43.642493,
+            -22.945394
+          ],
+          [
+            -43.641881,
+            -22.945475
+          ],
+          [
+            -43.64112,
+            -22.94562
+          ],
+          [
+            -43.640733,
+            -22.945787
+          ],
+          [
+            -43.639965,
+            -22.946062
+          ],
+          [
+            -43.639731,
+            -22.945431
+          ],
+          [
+            -43.639361,
+            -22.944465
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756390227497,
+    "query": {
+      "coordinates": [
+        [
+          -43.6477,
+          -22.9448819
+        ],
+        [
+          -43.6393607,
+          -22.944465
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.532652,
+    -33.979546,
+    18.536724,
+    -33.974941
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.532652,
+        -33.979546,
+        18.536724,
+        -33.974941
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 922.9,
+            "duration": 664.5,
+            "steps": [
+              {
+                "distance": 277.2,
+                "duration": 199.6,
+                "type": 11,
+                "instruction": "Head east on College Road",
+                "name": "College Road",
+                "way_points": [
+                  0,
+                  4
+                ]
+              },
+              {
+                "distance": 295.6,
+                "duration": 212.8,
+                "type": 1,
+                "instruction": "Turn right onto Latvan Road",
+                "name": "Latvan Road",
+                "way_points": [
+                  4,
+                  6
+                ]
+              },
+              {
+                "distance": 56.9,
+                "duration": 41.0,
+                "type": 1,
+                "instruction": "Turn right onto Noll Avenue",
+                "name": "Noll Avenue",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 105.9,
+                "duration": 76.3,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 156.2,
+                "duration": 112.4,
+                "type": 0,
+                "instruction": "Turn left onto Claude Road",
+                "name": "Claude Road",
+                "way_points": [
+                  8,
+                  12
+                ]
+              },
+              {
+                "distance": 31.1,
+                "duration": 22.4,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  12,
+                  13
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  13,
+                  13
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          13
+        ],
+        "summary": {
+          "distance": 922.9,
+          "duration": 664.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.532652,
+            -33.974941
+          ],
+          [
+            18.533186,
+            -33.975079
+          ],
+          [
+            18.533936,
+            -33.975273
+          ],
+          [
+            18.53472,
+            -33.975478
+          ],
+          [
+            18.53552,
+            -33.975688
+          ],
+          [
+            18.535552,
+            -33.97658
+          ],
+          [
+            18.535607,
+            -33.978345
+          ],
+          [
+            18.53499,
+            -33.97836
+          ],
+          [
+            18.535024,
+            -33.979313
+          ],
+          [
+            18.535966,
+            -33.979287
+          ],
+          [
+            18.536049,
+            -33.979285
+          ],
+          [
+            18.536595,
+            -33.97927
+          ],
+          [
+            18.536717,
+            -33.979267
+          ],
+          [
+            18.536724,
+            -33.979546
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756803880853,
+    "query": {
+      "coordinates": [
+        [
+          18.5326518,
+          -33.9749414
+        ],
+        [
+          18.5367237,
+          -33.9795463
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

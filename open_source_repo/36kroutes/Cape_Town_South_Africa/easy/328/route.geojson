@@ -1,0 +1,189 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.493088,
+    -33.88581,
+    18.498832,
+    -33.883834
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.493088,
+        -33.88581,
+        18.498832,
+        -33.883834
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 735.2,
+            "duration": 529.3,
+            "steps": [
+              {
+                "distance": 179.4,
+                "duration": 129.1,
+                "type": 11,
+                "instruction": "Head east on Jansen Road",
+                "name": "Jansen Road",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 219.8,
+                "duration": 158.3,
+                "type": 0,
+                "instruction": "Turn left onto Koeberg Road, M5",
+                "name": "Koeberg Road, M5",
+                "way_points": [
+                  3,
+                  8
+                ]
+              },
+              {
+                "distance": 336.0,
+                "duration": 241.9,
+                "type": 1,
+                "instruction": "Turn right onto Knysna Road",
+                "name": "Knysna Road",
+                "way_points": [
+                  8,
+                  18
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Knysna Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  18,
+                  18
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          18
+        ],
+        "summary": {
+          "distance": 735.2,
+          "duration": 529.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.493088,
+            -33.885407
+          ],
+          [
+            18.494014,
+            -33.885605
+          ],
+          [
+            18.49436,
+            -33.885679
+          ],
+          [
+            18.49497,
+            -33.88581
+          ],
+          [
+            18.495035,
+            -33.885257
+          ],
+          [
+            18.495039,
+            -33.885225
+          ],
+          [
+            18.49514,
+            -33.884439
+          ],
+          [
+            18.495197,
+            -33.884161
+          ],
+          [
+            18.495298,
+            -33.883856
+          ],
+          [
+            18.495381,
+            -33.883838
+          ],
+          [
+            18.4955,
+            -33.883859
+          ],
+          [
+            18.49558,
+            -33.883834
+          ],
+          [
+            18.495652,
+            -33.883849
+          ],
+          [
+            18.496203,
+            -33.883961
+          ],
+          [
+            18.49632,
+            -33.883986
+          ],
+          [
+            18.496427,
+            -33.884006
+          ],
+          [
+            18.497236,
+            -33.884172
+          ],
+          [
+            18.497992,
+            -33.884325
+          ],
+          [
+            18.498832,
+            -33.884494
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756804605188,
+    "query": {
+      "coordinates": [
+        [
+          18.4930884,
+          -33.8854073
+        ],
+        [
+          18.4988324,
+          -33.8844937
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

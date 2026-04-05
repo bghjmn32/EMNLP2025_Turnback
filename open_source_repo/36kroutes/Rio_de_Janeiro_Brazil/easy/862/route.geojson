@@ -1,0 +1,165 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.55574,
+    -22.925842,
+    -43.551656,
+    -22.924027
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.55574,
+        -22.925842,
+        -43.551656,
+        -22.924027
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 541.9,
+            "duration": 390.1,
+            "steps": [
+              {
+                "distance": 138.6,
+                "duration": 99.8,
+                "type": 11,
+                "instruction": "Head south on Estrada da Cachamorra",
+                "name": "Estrada da Cachamorra",
+                "way_points": [
+                  0,
+                  4
+                ]
+              },
+              {
+                "distance": 19.8,
+                "duration": 14.2,
+                "type": 1,
+                "instruction": "Turn right onto Rua Gilberto José Peixoto",
+                "name": "Rua Gilberto José Peixoto",
+                "way_points": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "distance": 383.5,
+                "duration": 276.1,
+                "type": 0,
+                "instruction": "Turn left onto Estrada da Cachamorra",
+                "name": "Estrada da Cachamorra",
+                "way_points": [
+                  5,
+                  12
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Estrada da Cachamorra, straight ahead",
+                "name": "-",
+                "way_points": [
+                  12,
+                  12
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          12
+        ],
+        "summary": {
+          "distance": 541.9,
+          "duration": 390.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.551656,
+            -22.924027
+          ],
+          [
+            -43.551726,
+            -22.92422
+          ],
+          [
+            -43.551827,
+            -22.924509
+          ],
+          [
+            -43.551991,
+            -22.924943
+          ],
+          [
+            -43.552115,
+            -22.925198
+          ],
+          [
+            -43.552289,
+            -22.92512
+          ],
+          [
+            -43.552786,
+            -22.925678
+          ],
+          [
+            -43.552844,
+            -22.925692
+          ],
+          [
+            -43.553262,
+            -22.925704
+          ],
+          [
+            -43.55335,
+            -22.925705
+          ],
+          [
+            -43.553834,
+            -22.925734
+          ],
+          [
+            -43.554201,
+            -22.925753
+          ],
+          [
+            -43.55574,
+            -22.925842
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756394843087,
+    "query": {
+      "coordinates": [
+        [
+          -43.5516558,
+          -22.9240272
+        ],
+        [
+          -43.5557404,
+          -22.9258418
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

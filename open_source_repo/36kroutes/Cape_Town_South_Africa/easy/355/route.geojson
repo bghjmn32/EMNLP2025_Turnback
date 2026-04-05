@@ -1,0 +1,201 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.453595,
+    -33.92851,
+    18.459641,
+    -33.927311
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.453595,
+        -33.92851,
+        18.459641,
+        -33.927311
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 595.1,
+            "duration": 428.4,
+            "steps": [
+              {
+                "distance": 27.4,
+                "duration": 19.7,
+                "type": 11,
+                "instruction": "Head east",
+                "name": "-",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 562.5,
+                "duration": 405.0,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  3,
+                  20
+                ]
+              },
+              {
+                "distance": 5.2,
+                "duration": 3.7,
+                "type": 2,
+                "instruction": "Turn sharp left onto Durham Avenue",
+                "name": "Durham Avenue",
+                "way_points": [
+                  20,
+                  21
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Durham Avenue, straight ahead",
+                "name": "-",
+                "way_points": [
+                  21,
+                  21
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          21
+        ],
+        "summary": {
+          "distance": 595.1,
+          "duration": 428.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.453595,
+            -33.927407
+          ],
+          [
+            18.453756,
+            -33.927422
+          ],
+          [
+            18.453764,
+            -33.927371
+          ],
+          [
+            18.453771,
+            -33.927311
+          ],
+          [
+            18.454046,
+            -33.927342
+          ],
+          [
+            18.454216,
+            -33.927362
+          ],
+          [
+            18.454414,
+            -33.927384
+          ],
+          [
+            18.454788,
+            -33.927427
+          ],
+          [
+            18.455414,
+            -33.927498
+          ],
+          [
+            18.455923,
+            -33.927556
+          ],
+          [
+            18.456371,
+            -33.927612
+          ],
+          [
+            18.456786,
+            -33.927678
+          ],
+          [
+            18.457329,
+            -33.927793
+          ],
+          [
+            18.458263,
+            -33.928041
+          ],
+          [
+            18.458574,
+            -33.928126
+          ],
+          [
+            18.458752,
+            -33.928174
+          ],
+          [
+            18.459327,
+            -33.928331
+          ],
+          [
+            18.459483,
+            -33.928404
+          ],
+          [
+            18.459509,
+            -33.928438
+          ],
+          [
+            18.459551,
+            -33.928473
+          ],
+          [
+            18.459641,
+            -33.92851
+          ],
+          [
+            18.459621,
+            -33.928467
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756804660590,
+    "query": {
+      "coordinates": [
+        [
+          18.453595,
+          -33.9274069
+        ],
+        [
+          18.4596205,
+          -33.9284671
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

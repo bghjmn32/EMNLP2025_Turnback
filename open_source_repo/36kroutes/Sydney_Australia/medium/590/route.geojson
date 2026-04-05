@@ -1,0 +1,284 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    150.963825,
+    -33.871103,
+    150.975638,
+    -33.868916
+  ],
+  "features": [
+    {
+      "bbox": [
+        150.963825,
+        -33.871103,
+        150.975638,
+        -33.868916
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1303.4,
+            "duration": 938.5,
+            "steps": [
+              {
+                "distance": 368.2,
+                "duration": 265.1,
+                "type": 11,
+                "instruction": "Head west",
+                "name": "-",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 7.7,
+                "duration": 5.6,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 133.5,
+                "duration": 96.1,
+                "type": 0,
+                "instruction": "Turn left onto Lisbon Street",
+                "name": "Lisbon Street",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 72.1,
+                "duration": 51.9,
+                "type": 1,
+                "instruction": "Turn right onto Crown Street",
+                "name": "Crown Street",
+                "way_points": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "distance": 377.2,
+                "duration": 271.6,
+                "type": 0,
+                "instruction": "Turn left onto Veron Street",
+                "name": "Veron Street",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 131.2,
+                "duration": 94.5,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 8.2,
+                "duration": 5.9,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 8.4,
+                "duration": 6.0,
+                "type": 1,
+                "instruction": "Turn right onto Victory Street",
+                "name": "Victory Street",
+                "way_points": [
+                  8,
+                  9
+                ]
+              },
+              {
+                "distance": 69.7,
+                "duration": 50.2,
+                "type": 0,
+                "instruction": "Turn left onto Fairfield Street",
+                "name": "Fairfield Street",
+                "way_points": [
+                  9,
+                  10
+                ]
+              },
+              {
+                "distance": 39.1,
+                "duration": 28.1,
+                "type": 13,
+                "instruction": "Keep right onto Fairfield Road",
+                "name": "Fairfield Road",
+                "way_points": [
+                  10,
+                  11
+                ]
+              },
+              {
+                "distance": 8.3,
+                "duration": 6.0,
+                "type": 1,
+                "instruction": "Turn right onto Railway Street",
+                "name": "Railway Street",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 79.9,
+                "duration": 57.5,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  12,
+                  17
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  17,
+                  17
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          17
+        ],
+        "summary": {
+          "distance": 1303.4,
+          "duration": 938.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            150.975638,
+            -33.871103
+          ],
+          [
+            150.971729,
+            -33.870581
+          ],
+          [
+            150.9717,
+            -33.870577
+          ],
+          [
+            150.971713,
+            -33.870508
+          ],
+          [
+            150.970286,
+            -33.870318
+          ],
+          [
+            150.970179,
+            -33.869675
+          ],
+          [
+            150.966135,
+            -33.870152
+          ],
+          [
+            150.965944,
+            -33.868982
+          ],
+          [
+            150.965855,
+            -33.868991
+          ],
+          [
+            150.965845,
+            -33.868916
+          ],
+          [
+            150.965098,
+            -33.869008
+          ],
+          [
+            150.964676,
+            -33.868998
+          ],
+          [
+            150.964663,
+            -33.868924
+          ],
+          [
+            150.964586,
+            -33.868924
+          ],
+          [
+            150.964106,
+            -33.868997
+          ],
+          [
+            150.963975,
+            -33.868993
+          ],
+          [
+            150.96389,
+            -33.868957
+          ],
+          [
+            150.963825,
+            -33.868987
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756399735859,
+    "query": {
+      "coordinates": [
+        [
+          150.9756378,
+          -33.8711028
+        ],
+        [
+          150.9638254,
+          -33.8689866
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

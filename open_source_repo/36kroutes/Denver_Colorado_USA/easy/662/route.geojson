@@ -1,0 +1,295 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -105.000923,
+    39.748627,
+    -104.998272,
+    39.752954
+  ],
+  "features": [
+    {
+      "bbox": [
+        -105.000923,
+        39.748627,
+        -104.998272,
+        39.752954
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 673.2,
+            "duration": 484.7,
+            "steps": [
+              {
+                "distance": 38.1,
+                "duration": 27.4,
+                "type": 11,
+                "instruction": "Head southeast",
+                "name": "-",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 106.9,
+                "duration": 77.0,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  3,
+                  5
+                ]
+              },
+              {
+                "distance": 65.7,
+                "duration": 47.3,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  5,
+                  11
+                ]
+              },
+              {
+                "distance": 9.1,
+                "duration": 6.5,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 263.1,
+                "duration": 189.5,
+                "type": 0,
+                "instruction": "Turn left onto 16th Street Mall",
+                "name": "16th Street Mall",
+                "way_points": [
+                  12,
+                  23
+                ]
+              },
+              {
+                "distance": 9.4,
+                "duration": 6.7,
+                "type": 13,
+                "instruction": "Keep right onto 16th Street Mall",
+                "name": "16th Street Mall",
+                "way_points": [
+                  23,
+                  24
+                ]
+              },
+              {
+                "distance": 129.9,
+                "duration": 93.5,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  24,
+                  26
+                ]
+              },
+              {
+                "distance": 42.7,
+                "duration": 30.7,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  26,
+                  27
+                ]
+              },
+              {
+                "distance": 8.3,
+                "duration": 6.0,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  27,
+                  28
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  28,
+                  28
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          28
+        ],
+        "summary": {
+          "distance": 673.2,
+          "duration": 484.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -105.000344,
+            39.752954
+          ],
+          [
+            -105.000296,
+            39.752917
+          ],
+          [
+            -105.000178,
+            39.752827
+          ],
+          [
+            -105.000028,
+            39.752712
+          ],
+          [
+            -105.000476,
+            39.752364
+          ],
+          [
+            -105.000923,
+            39.752042
+          ],
+          [
+            -105.000894,
+            39.752018
+          ],
+          [
+            -105.000884,
+            39.752011
+          ],
+          [
+            -105.000823,
+            39.751963
+          ],
+          [
+            -105.000769,
+            39.751921
+          ],
+          [
+            -105.000751,
+            39.751893
+          ],
+          [
+            -105.000401,
+            39.75161
+          ],
+          [
+            -105.00047,
+            39.751548
+          ],
+          [
+            -105.000128,
+            39.751281
+          ],
+          [
+            -105.000039,
+            39.751213
+          ],
+          [
+            -104.999962,
+            39.751152
+          ],
+          [
+            -104.999608,
+            39.750874
+          ],
+          [
+            -104.999253,
+            39.750594
+          ],
+          [
+            -104.999233,
+            39.750578
+          ],
+          [
+            -104.999179,
+            39.750536
+          ],
+          [
+            -104.999104,
+            39.750477
+          ],
+          [
+            -104.998753,
+            39.750201
+          ],
+          [
+            -104.998408,
+            39.749929
+          ],
+          [
+            -104.998317,
+            39.749857
+          ],
+          [
+            -104.998272,
+            39.74978
+          ],
+          [
+            -104.998306,
+            39.749754
+          ],
+          [
+            -104.999343,
+            39.748951
+          ],
+          [
+            -104.99899,
+            39.74868
+          ],
+          [
+            -104.999059,
+            39.748627
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306554064,
+    "query": {
+      "coordinates": [
+        [
+          -105.0003439,
+          39.752954
+        ],
+        [
+          -104.9990592,
+          39.748627
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

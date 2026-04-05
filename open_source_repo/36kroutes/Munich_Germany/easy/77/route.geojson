@@ -1,0 +1,230 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    11.609154,
+    48.087967,
+    11.61117,
+    48.092426
+  ],
+  "features": [
+    {
+      "bbox": [
+        11.609154,
+        48.087967,
+        11.61117,
+        48.092426
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 764.0,
+            "duration": 550.0,
+            "steps": [
+              {
+                "distance": 337.0,
+                "duration": 242.6,
+                "type": 11,
+                "instruction": "Head south on Balanstraße",
+                "name": "Balanstraße",
+                "way_points": [
+                  0,
+                  12
+                ]
+              },
+              {
+                "distance": 11.4,
+                "duration": 8.2,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  12,
+                  14
+                ]
+              },
+              {
+                "distance": 158.1,
+                "duration": 113.9,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  14,
+                  15
+                ]
+              },
+              {
+                "distance": 114.6,
+                "duration": 82.5,
+                "type": 0,
+                "instruction": "Turn left onto Kiesmüllerstraße",
+                "name": "Kiesmüllerstraße",
+                "way_points": [
+                  15,
+                  18
+                ]
+              },
+              {
+                "distance": 83.4,
+                "duration": 60.0,
+                "type": 0,
+                "instruction": "Turn left onto Kulmbacher Platz",
+                "name": "Kulmbacher Platz",
+                "way_points": [
+                  18,
+                  19
+                ]
+              },
+              {
+                "distance": 59.5,
+                "duration": 42.8,
+                "type": 0,
+                "instruction": "Turn left onto Seemüllerstraße",
+                "name": "Seemüllerstraße",
+                "way_points": [
+                  19,
+                  20
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Seemüllerstraße, straight ahead",
+                "name": "-",
+                "way_points": [
+                  20,
+                  20
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          20
+        ],
+        "summary": {
+          "distance": 764.0,
+          "duration": 550.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            11.609857,
+            48.092426
+          ],
+          [
+            11.610135,
+            48.091704
+          ],
+          [
+            11.610238,
+            48.091479
+          ],
+          [
+            11.610408,
+            48.091105
+          ],
+          [
+            11.610513,
+            48.090896
+          ],
+          [
+            11.610596,
+            48.090729
+          ],
+          [
+            11.610721,
+            48.090479
+          ],
+          [
+            11.610775,
+            48.09037
+          ],
+          [
+            11.610788,
+            48.090343
+          ],
+          [
+            11.610893,
+            48.090133
+          ],
+          [
+            11.611015,
+            48.089908
+          ],
+          [
+            11.61117,
+            48.089607
+          ],
+          [
+            11.611109,
+            48.089542
+          ],
+          [
+            11.611133,
+            48.0895
+          ],
+          [
+            11.611159,
+            48.089446
+          ],
+          [
+            11.609154,
+            48.088967
+          ],
+          [
+            11.609224,
+            48.088818
+          ],
+          [
+            11.609347,
+            48.088533
+          ],
+          [
+            11.609525,
+            48.087967
+          ],
+          [
+            11.610631,
+            48.088095
+          ],
+          [
+            11.610477,
+            48.08862
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756136691748,
+    "query": {
+      "coordinates": [
+        [
+          11.6098565,
+          48.092426
+        ],
+        [
+          11.6104774,
+          48.08862
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

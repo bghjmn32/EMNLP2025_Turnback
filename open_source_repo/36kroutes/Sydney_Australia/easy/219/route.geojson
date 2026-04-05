@@ -1,0 +1,127 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    150.599125,
+    -33.849184,
+    150.606153,
+    -33.845313
+  ],
+  "features": [
+    {
+      "bbox": [
+        150.599125,
+        -33.849184,
+        150.606153,
+        -33.845313
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 793.0,
+            "duration": 571.0,
+            "steps": [
+              {
+                "distance": 793.0,
+                "duration": 571.0,
+                "type": 11,
+                "instruction": "Head southeast on Park River Close",
+                "name": "Park River Close",
+                "way_points": [
+                  0,
+                  8
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Park River Close, straight ahead",
+                "name": "-",
+                "way_points": [
+                  8,
+                  8
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          8
+        ],
+        "summary": {
+          "distance": 793.0,
+          "duration": 571.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            150.599125,
+            -33.845313
+          ],
+          [
+            150.599311,
+            -33.845643
+          ],
+          [
+            150.599463,
+            -33.845847
+          ],
+          [
+            150.599777,
+            -33.846183
+          ],
+          [
+            150.600072,
+            -33.846411
+          ],
+          [
+            150.600468,
+            -33.846647
+          ],
+          [
+            150.600679,
+            -33.846752
+          ],
+          [
+            150.604019,
+            -33.84816
+          ],
+          [
+            150.606153,
+            -33.849184
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756391332256,
+    "query": {
+      "coordinates": [
+        [
+          150.5991248,
+          -33.8453126
+        ],
+        [
+          150.606153,
+          -33.8491842
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

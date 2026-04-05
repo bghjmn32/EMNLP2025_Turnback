@@ -1,0 +1,249 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    11.405397,
+    48.095311,
+    11.408416,
+    48.101709
+  ],
+  "features": [
+    {
+      "bbox": [
+        11.405397,
+        48.095311,
+        11.408416,
+        48.101709
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1023.0,
+            "duration": 736.5,
+            "steps": [
+              {
+                "distance": 75.2,
+                "duration": 54.2,
+                "type": 11,
+                "instruction": "Head northwest on Schlangenweg",
+                "name": "Schlangenweg",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 305.6,
+                "duration": 220.0,
+                "type": 1,
+                "instruction": "Turn right onto Bergstraße",
+                "name": "Bergstraße",
+                "way_points": [
+                  1,
+                  6
+                ]
+              },
+              {
+                "distance": 41.5,
+                "duration": 29.9,
+                "type": 0,
+                "instruction": "Turn left onto Pentenrieder Straße",
+                "name": "Pentenrieder Straße",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 4.8,
+                "duration": 3.5,
+                "type": 1,
+                "instruction": "Turn right onto Höhenweg",
+                "name": "Höhenweg",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 147.6,
+                "duration": 106.3,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  8,
+                  13
+                ]
+              },
+              {
+                "distance": 364.3,
+                "duration": 262.3,
+                "type": 1,
+                "instruction": "Turn right onto Rudolf-von-Hirsch-Straße",
+                "name": "Rudolf-von-Hirsch-Straße",
+                "way_points": [
+                  13,
+                  20
+                ]
+              },
+              {
+                "distance": 83.8,
+                "duration": 60.4,
+                "type": 1,
+                "instruction": "Turn right onto Starenweg",
+                "name": "Starenweg",
+                "way_points": [
+                  20,
+                  22
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Starenweg, straight ahead",
+                "name": "-",
+                "way_points": [
+                  22,
+                  22
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          22
+        ],
+        "summary": {
+          "distance": 1023.0,
+          "duration": 736.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            11.406308,
+            48.095311
+          ],
+          [
+            11.405438,
+            48.095658
+          ],
+          [
+            11.405489,
+            48.095727
+          ],
+          [
+            11.406071,
+            48.096284
+          ],
+          [
+            11.406579,
+            48.096855
+          ],
+          [
+            11.407263,
+            48.097586
+          ],
+          [
+            11.407655,
+            48.097972
+          ],
+          [
+            11.40717,
+            48.098158
+          ],
+          [
+            11.407208,
+            48.098193
+          ],
+          [
+            11.406582,
+            48.098411
+          ],
+          [
+            11.405704,
+            48.09864
+          ],
+          [
+            11.405515,
+            48.098654
+          ],
+          [
+            11.405446,
+            48.098677
+          ],
+          [
+            11.405397,
+            48.098712
+          ],
+          [
+            11.405646,
+            48.099054
+          ],
+          [
+            11.40577,
+            48.09924
+          ],
+          [
+            11.406056,
+            48.099667
+          ],
+          [
+            11.406384,
+            48.100167
+          ],
+          [
+            11.406791,
+            48.100779
+          ],
+          [
+            11.40688,
+            48.100919
+          ],
+          [
+            11.407381,
+            48.101709
+          ],
+          [
+            11.407655,
+            48.101629
+          ],
+          [
+            11.408416,
+            48.101409
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756139884234,
+    "query": {
+      "coordinates": [
+        [
+          11.4063075,
+          48.0953109
+        ],
+        [
+          11.4084164,
+          48.1014094
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.524232,
+    -33.965009,
+    18.528477,
+    -33.961975
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.524232,
+        -33.965009,
+        18.528477,
+        -33.961975
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 764.6,
+            "duration": 550.5,
+            "steps": [
+              {
+                "distance": 98.7,
+                "duration": 71.0,
+                "type": 11,
+                "instruction": "Head northwest",
+                "name": "-",
+                "way_points": [
+                  0,
+                  6
+                ]
+              },
+              {
+                "distance": 43.5,
+                "duration": 31.3,
+                "type": 1,
+                "instruction": "Turn right onto Overton Road",
+                "name": "Overton Road",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 130.0,
+                "duration": 93.6,
+                "type": 0,
+                "instruction": "Turn left onto Overton Road",
+                "name": "Overton Road",
+                "way_points": [
+                  7,
+                  8
+                ]
+              },
+              {
+                "distance": 363.5,
+                "duration": 261.7,
+                "type": 0,
+                "instruction": "Turn left onto Sondou Lane",
+                "name": "Sondou Lane",
+                "way_points": [
+                  8,
+                  11
+                ]
+              },
+              {
+                "distance": 129.0,
+                "duration": 92.9,
+                "type": 1,
+                "instruction": "Turn right onto Colwyn Road",
+                "name": "Colwyn Road",
+                "way_points": [
+                  11,
+                  13
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Colwyn Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  13,
+                  13
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          13
+        ],
+        "summary": {
+          "distance": 764.6,
+          "duration": 550.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.524621,
+            -33.963758
+          ],
+          [
+            18.524492,
+            -33.963713
+          ],
+          [
+            18.52443,
+            -33.963724
+          ],
+          [
+            18.524387,
+            -33.963749
+          ],
+          [
+            18.524232,
+            -33.964051
+          ],
+          [
+            18.524243,
+            -33.964086
+          ],
+          [
+            18.524588,
+            -33.964208
+          ],
+          [
+            18.524406,
+            -33.964569
+          ],
+          [
+            18.525713,
+            -33.965009
+          ],
+          [
+            18.526442,
+            -33.963534
+          ],
+          [
+            18.526479,
+            -33.963455
+          ],
+          [
+            18.527179,
+            -33.961975
+          ],
+          [
+            18.527974,
+            -33.962227
+          ],
+          [
+            18.528477,
+            -33.962407
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756805149757,
+    "query": {
+      "coordinates": [
+        [
+          18.5246209,
+          -33.9637581
+        ],
+        [
+          18.5284766,
+          -33.9624071
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

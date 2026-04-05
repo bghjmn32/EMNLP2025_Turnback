@@ -1,0 +1,201 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -105.004375,
+    39.636335,
+    -104.999445,
+    39.638579
+  ],
+  "features": [
+    {
+      "bbox": [
+        -105.004375,
+        39.636335,
+        -104.999445,
+        39.638579
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 927.2,
+            "duration": 667.6,
+            "steps": [
+              {
+                "distance": 418.0,
+                "duration": 300.9,
+                "type": 11,
+                "instruction": "Head west on West Quincy Avenue",
+                "name": "West Quincy Avenue",
+                "way_points": [
+                  0,
+                  9
+                ]
+              },
+              {
+                "distance": 201.4,
+                "duration": 145.0,
+                "type": 0,
+                "instruction": "Turn left onto South Navajo Street",
+                "name": "South Navajo Street",
+                "way_points": [
+                  9,
+                  12
+                ]
+              },
+              {
+                "distance": 307.9,
+                "duration": 221.7,
+                "type": 0,
+                "instruction": "Turn left onto West Radcliff Avenue",
+                "name": "West Radcliff Avenue",
+                "way_points": [
+                  12,
+                  21
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at West Radcliff Avenue, straight ahead",
+                "name": "-",
+                "way_points": [
+                  21,
+                  21
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          21
+        ],
+        "summary": {
+          "distance": 927.2,
+          "duration": 667.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -104.999445,
+            39.638559
+          ],
+          [
+            -104.999966,
+            39.63856
+          ],
+          [
+            -105.000923,
+            39.638563
+          ],
+          [
+            -105.001813,
+            39.638562
+          ],
+          [
+            -105.002459,
+            39.638567
+          ],
+          [
+            -105.002553,
+            39.638567
+          ],
+          [
+            -105.003062,
+            39.638571
+          ],
+          [
+            -105.003534,
+            39.638574
+          ],
+          [
+            -105.004034,
+            39.638577
+          ],
+          [
+            -105.004326,
+            39.638579
+          ],
+          [
+            -105.004353,
+            39.638356
+          ],
+          [
+            -105.004359,
+            39.637042
+          ],
+          [
+            -105.004375,
+            39.636769
+          ],
+          [
+            -105.003967,
+            39.636751
+          ],
+          [
+            -105.003554,
+            39.636717
+          ],
+          [
+            -105.003359,
+            39.636675
+          ],
+          [
+            -105.00329,
+            39.636654
+          ],
+          [
+            -105.003129,
+            39.636702
+          ],
+          [
+            -105.002393,
+            39.636699
+          ],
+          [
+            -105.001321,
+            39.63669
+          ],
+          [
+            -105.00126,
+            39.636623
+          ],
+          [
+            -105.001421,
+            39.636335
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756305159355,
+    "query": {
+      "coordinates": [
+        [
+          -104.9994454,
+          39.638559
+        ],
+        [
+          -105.0014207,
+          39.6363349
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

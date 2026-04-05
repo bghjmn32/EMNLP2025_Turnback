@@ -1,0 +1,172 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.190565,
+    19.410688,
+    -99.186851,
+    19.413568
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.190565,
+        19.410688,
+        -99.186851,
+        19.413568
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 690.0,
+            "duration": 496.8,
+            "steps": [
+              {
+                "distance": 247.2,
+                "duration": 178.0,
+                "type": 11,
+                "instruction": "Head north on Calle Gobernador Melchor Múzquiz",
+                "name": "Calle Gobernador Melchor Múzquiz",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 14.2,
+                "duration": 10.2,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  3,
+                  5
+                ]
+              },
+              {
+                "distance": 249.1,
+                "duration": 179.4,
+                "type": 1,
+                "instruction": "Turn right onto Calle Gobernador Gregorio V. Gelati",
+                "name": "Calle Gobernador Gregorio V. Gelati",
+                "way_points": [
+                  5,
+                  8
+                ]
+              },
+              {
+                "distance": 179.5,
+                "duration": 129.2,
+                "type": 0,
+                "instruction": "Turn left onto Calle Gobernador Rafaél Rebollar",
+                "name": "Calle Gobernador Rafaél Rebollar",
+                "way_points": [
+                  8,
+                  11
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Gobernador Rafaél Rebollar, straight ahead",
+                "name": "-",
+                "way_points": [
+                  11,
+                  11
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          11
+        ],
+        "summary": {
+          "distance": 690.0,
+          "duration": 496.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.190565,
+            19.410688
+          ],
+          [
+            -99.190492,
+            19.410869
+          ],
+          [
+            -99.190094,
+            19.411858
+          ],
+          [
+            -99.189774,
+            19.412781
+          ],
+          [
+            -99.189687,
+            19.412791
+          ],
+          [
+            -99.189671,
+            19.412834
+          ],
+          [
+            -99.188585,
+            19.412454
+          ],
+          [
+            -99.188039,
+            19.41227
+          ],
+          [
+            -99.187444,
+            19.412054
+          ],
+          [
+            -99.187225,
+            19.412615
+          ],
+          [
+            -99.18705,
+            19.413064
+          ],
+          [
+            -99.186851,
+            19.413568
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756305963432,
+    "query": {
+      "coordinates": [
+        [
+          -99.190565,
+          19.4106876
+        ],
+        [
+          -99.1868506,
+          19.4135681
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

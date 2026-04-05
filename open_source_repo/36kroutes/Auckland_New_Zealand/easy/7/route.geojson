@@ -1,0 +1,227 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    174.756066,
+    -36.885369,
+    174.758039,
+    -36.882279
+  ],
+  "features": [
+    {
+      "bbox": [
+        174.756066,
+        -36.885369,
+        174.758039,
+        -36.882279
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 547.1,
+            "duration": 393.9,
+            "steps": [
+              {
+                "distance": 8.8,
+                "duration": 6.3,
+                "type": 11,
+                "instruction": "Head south",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 132.0,
+                "duration": 95.0,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  4
+                ]
+              },
+              {
+                "distance": 386.3,
+                "duration": 278.2,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  4,
+                  14
+                ]
+              },
+              {
+                "distance": 12.5,
+                "duration": 9.0,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  14,
+                  17
+                ]
+              },
+              {
+                "distance": 4.4,
+                "duration": 3.2,
+                "type": 0,
+                "instruction": "Turn left onto Henley Road",
+                "name": "Henley Road",
+                "way_points": [
+                  17,
+                  18
+                ]
+              },
+              {
+                "distance": 3.1,
+                "duration": 2.2,
+                "type": 7,
+                "instruction": "Enter the roundabout and take the 1st exit",
+                "name": "-",
+                "exit_number": 1,
+                "way_points": [
+                  18,
+                  19
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  19,
+                  19
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          19
+        ],
+        "summary": {
+          "distance": 547.1,
+          "duration": 393.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            174.758039,
+            -36.882547
+          ],
+          [
+            174.758014,
+            -36.882624
+          ],
+          [
+            174.757552,
+            -36.882512
+          ],
+          [
+            174.757478,
+            -36.882494
+          ],
+          [
+            174.756594,
+            -36.882279
+          ],
+          [
+            174.756229,
+            -36.883393
+          ],
+          [
+            174.756257,
+            -36.883422
+          ],
+          [
+            174.756734,
+            -36.883519
+          ],
+          [
+            174.756774,
+            -36.88356
+          ],
+          [
+            174.756608,
+            -36.884152
+          ],
+          [
+            174.756599,
+            -36.884183
+          ],
+          [
+            174.756583,
+            -36.884233
+          ],
+          [
+            174.756567,
+            -36.884281
+          ],
+          [
+            174.756558,
+            -36.884307
+          ],
+          [
+            174.756238,
+            -36.88535
+          ],
+          [
+            174.756202,
+            -36.885337
+          ],
+          [
+            174.75618,
+            -36.885331
+          ],
+          [
+            174.756104,
+            -36.885316
+          ],
+          [
+            174.756096,
+            -36.885355
+          ],
+          [
+            174.756066,
+            -36.885369
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756373598301,
+    "query": {
+      "coordinates": [
+        [
+          174.7580387,
+          -36.8825473
+        ],
+        [
+          174.7560657,
+          -36.8853694
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

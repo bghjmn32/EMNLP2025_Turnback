@@ -1,0 +1,271 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    31.305188,
+    30.093835,
+    31.31131,
+    30.098368
+  ],
+  "features": [
+    {
+      "bbox": [
+        31.305188,
+        30.093835,
+        31.31131,
+        30.098368
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 918.2,
+            "duration": 661.1,
+            "steps": [
+              {
+                "distance": 47.5,
+                "duration": 34.2,
+                "type": 11,
+                "instruction": "Head southwest on شارع عارف",
+                "name": "شارع عارف",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 67.8,
+                "duration": 48.8,
+                "type": 1,
+                "instruction": "Turn right onto شارع الجامع",
+                "name": "شارع الجامع",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 175.9,
+                "duration": 126.6,
+                "type": 0,
+                "instruction": "Turn left onto شارع طومان باى",
+                "name": "شارع طومان باى",
+                "way_points": [
+                  2,
+                  7
+                ]
+              },
+              {
+                "distance": 463.3,
+                "duration": 333.5,
+                "type": 7,
+                "instruction": "Enter the roundabout and take the 3rd exit onto شارع طومان باى",
+                "name": "شارع طومان باى",
+                "exit_number": 3,
+                "way_points": [
+                  7,
+                  24
+                ]
+              },
+              {
+                "distance": 148.0,
+                "duration": 106.6,
+                "type": 1,
+                "instruction": "Turn right onto حارة احمد الفى",
+                "name": "حارة احمد الفى",
+                "way_points": [
+                  24,
+                  29
+                ]
+              },
+              {
+                "distance": 15.7,
+                "duration": 11.3,
+                "type": 0,
+                "instruction": "Turn left onto شارع ابن سندر",
+                "name": "شارع ابن سندر",
+                "way_points": [
+                  29,
+                  30
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at شارع ابن سندر, straight ahead",
+                "name": "-",
+                "way_points": [
+                  30,
+                  30
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          30
+        ],
+        "summary": {
+          "distance": 918.2,
+          "duration": 661.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            31.31131,
+            30.09832
+          ],
+          [
+            31.310988,
+            30.097996
+          ],
+          [
+            31.310429,
+            30.098368
+          ],
+          [
+            31.310249,
+            30.098146
+          ],
+          [
+            31.310022,
+            30.097861
+          ],
+          [
+            31.309675,
+            30.097425
+          ],
+          [
+            31.309566,
+            30.097229
+          ],
+          [
+            31.30949,
+            30.097022
+          ],
+          [
+            31.309492,
+            30.097011
+          ],
+          [
+            31.309486,
+            30.096932
+          ],
+          [
+            31.309444,
+            30.096862
+          ],
+          [
+            31.30933,
+            30.096797
+          ],
+          [
+            31.309297,
+            30.096791
+          ],
+          [
+            31.30923,
+            30.096793
+          ],
+          [
+            31.309161,
+            30.096815
+          ],
+          [
+            31.308933,
+            30.096547
+          ],
+          [
+            31.308761,
+            30.096351
+          ],
+          [
+            31.308336,
+            30.09588
+          ],
+          [
+            31.308188,
+            30.095701
+          ],
+          [
+            31.30794,
+            30.095405
+          ],
+          [
+            31.307555,
+            30.094965
+          ],
+          [
+            31.30718,
+            30.094544
+          ],
+          [
+            31.306868,
+            30.094183
+          ],
+          [
+            31.306614,
+            30.093885
+          ],
+          [
+            31.306572,
+            30.093835
+          ],
+          [
+            31.306352,
+            30.093963
+          ],
+          [
+            31.306125,
+            30.094094
+          ],
+          [
+            31.306059,
+            30.094133
+          ],
+          [
+            31.305833,
+            30.094261
+          ],
+          [
+            31.305266,
+            30.094537
+          ],
+          [
+            31.305188,
+            30.094414
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756730558311,
+    "query": {
+      "coordinates": [
+        [
+          31.3113097,
+          30.0983199
+        ],
+        [
+          31.3051875,
+          30.0944136
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

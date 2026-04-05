@@ -1,0 +1,204 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    174.908048,
+    -36.902704,
+    174.909373,
+    -36.898273
+  ],
+  "features": [
+    {
+      "bbox": [
+        174.908048,
+        -36.902704,
+        174.909373,
+        -36.898273
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 547.9,
+            "duration": 394.5,
+            "steps": [
+              {
+                "distance": 44.8,
+                "duration": 32.2,
+                "type": 11,
+                "instruction": "Head west on Struan Place",
+                "name": "Struan Place",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 211.1,
+                "duration": 152.0,
+                "type": 1,
+                "instruction": "Turn right onto Aberfeldy Avenue",
+                "name": "Aberfeldy Avenue",
+                "way_points": [
+                  1,
+                  3
+                ]
+              },
+              {
+                "distance": 13.5,
+                "duration": 9.7,
+                "type": 12,
+                "instruction": "Keep left onto Aberfeldy Avenue",
+                "name": "Aberfeldy Avenue",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 156.2,
+                "duration": 112.4,
+                "type": 7,
+                "instruction": "Enter the roundabout and take the 3rd exit onto Aberfeldy Avenue",
+                "name": "Aberfeldy Avenue",
+                "exit_number": 3,
+                "way_points": [
+                  4,
+                  11
+                ]
+              },
+              {
+                "distance": 122.4,
+                "duration": 88.1,
+                "type": 12,
+                "instruction": "Keep left onto Aberfeldy Avenue",
+                "name": "Aberfeldy Avenue",
+                "way_points": [
+                  11,
+                  16
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Aberfeldy Avenue, straight ahead",
+                "name": "-",
+                "way_points": [
+                  16,
+                  16
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          16
+        ],
+        "summary": {
+          "distance": 547.9,
+          "duration": 394.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            174.908525,
+            -36.902704
+          ],
+          [
+            174.908048,
+            -36.902574
+          ],
+          [
+            174.908385,
+            -36.901821
+          ],
+          [
+            174.90884,
+            -36.900784
+          ],
+          [
+            174.908822,
+            -36.900664
+          ],
+          [
+            174.908778,
+            -36.900601
+          ],
+          [
+            174.908775,
+            -36.900565
+          ],
+          [
+            174.908806,
+            -36.9005
+          ],
+          [
+            174.908904,
+            -36.900452
+          ],
+          [
+            174.908986,
+            -36.900341
+          ],
+          [
+            174.909105,
+            -36.899736
+          ],
+          [
+            174.90919,
+            -36.899349
+          ],
+          [
+            174.909164,
+            -36.899197
+          ],
+          [
+            174.909209,
+            -36.898886
+          ],
+          [
+            174.909249,
+            -36.898618
+          ],
+          [
+            174.909293,
+            -36.898388
+          ],
+          [
+            174.909373,
+            -36.898273
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756374669862,
+    "query": {
+      "coordinates": [
+        [
+          174.9085246,
+          -36.9027037
+        ],
+        [
+          174.9093734,
+          -36.8982731
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

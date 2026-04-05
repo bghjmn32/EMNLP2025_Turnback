@@ -1,0 +1,211 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    174.906294,
+    -36.974409,
+    174.911495,
+    -36.973002
+  ],
+  "features": [
+    {
+      "bbox": [
+        174.906294,
+        -36.974409,
+        174.911495,
+        -36.973002
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 675.8,
+            "duration": 486.5,
+            "steps": [
+              {
+                "distance": 387.4,
+                "duration": 278.9,
+                "type": 11,
+                "instruction": "Head east on Kawa Drive",
+                "name": "Kawa Drive",
+                "way_points": [
+                  0,
+                  8
+                ]
+              },
+              {
+                "distance": 78.7,
+                "duration": 56.7,
+                "type": 0,
+                "instruction": "Turn left onto Castlebane Drive",
+                "name": "Castlebane Drive",
+                "way_points": [
+                  8,
+                  9
+                ]
+              },
+              {
+                "distance": 6.0,
+                "duration": 4.3,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  9,
+                  10
+                ]
+              },
+              {
+                "distance": 65.7,
+                "duration": 47.3,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  10,
+                  15
+                ]
+              },
+              {
+                "distance": 137.9,
+                "duration": 99.3,
+                "type": 1,
+                "instruction": "Turn right onto Carrickdawson Drive",
+                "name": "Carrickdawson Drive",
+                "way_points": [
+                  15,
+                  18
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Carrickdawson Drive, straight ahead",
+                "name": "-",
+                "way_points": [
+                  18,
+                  18
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          18
+        ],
+        "summary": {
+          "distance": 675.8,
+          "duration": 486.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            174.906294,
+            -36.973002
+          ],
+          [
+            174.907256,
+            -36.973177
+          ],
+          [
+            174.907385,
+            -36.973199
+          ],
+          [
+            174.907509,
+            -36.973224
+          ],
+          [
+            174.907776,
+            -36.973272
+          ],
+          [
+            174.908108,
+            -36.973335
+          ],
+          [
+            174.908613,
+            -36.973424
+          ],
+          [
+            174.908747,
+            -36.97345
+          ],
+          [
+            174.910548,
+            -36.97377
+          ],
+          [
+            174.910745,
+            -36.97308
+          ],
+          [
+            174.910811,
+            -36.973093
+          ],
+          [
+            174.910871,
+            -36.97306
+          ],
+          [
+            174.911368,
+            -36.973149
+          ],
+          [
+            174.911408,
+            -36.973191
+          ],
+          [
+            174.911444,
+            -36.973203
+          ],
+          [
+            174.911495,
+            -36.973215
+          ],
+          [
+            174.911342,
+            -36.973766
+          ],
+          [
+            174.911135,
+            -36.974194
+          ],
+          [
+            174.911095,
+            -36.974409
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756374910423,
+    "query": {
+      "coordinates": [
+        [
+          174.9062944,
+          -36.9730025
+        ],
+        [
+          174.9110949,
+          -36.9744088
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

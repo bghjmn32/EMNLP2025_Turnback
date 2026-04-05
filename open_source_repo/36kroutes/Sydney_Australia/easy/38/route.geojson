@@ -1,0 +1,215 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    150.750612,
+    -34.052349,
+    150.754858,
+    -34.051118
+  ],
+  "features": [
+    {
+      "bbox": [
+        150.750612,
+        -34.052349,
+        150.754858,
+        -34.051118
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 495.3,
+            "duration": 356.6,
+            "steps": [
+              {
+                "distance": 29.8,
+                "duration": 21.5,
+                "type": 11,
+                "instruction": "Head west on Waterworth Drive",
+                "name": "Waterworth Drive",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 4.1,
+                "duration": 2.9,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 288.7,
+                "duration": 207.9,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  2,
+                  13
+                ]
+              },
+              {
+                "distance": 74.6,
+                "duration": 53.7,
+                "type": 3,
+                "instruction": "Turn sharp right",
+                "name": "-",
+                "way_points": [
+                  13,
+                  16
+                ]
+              },
+              {
+                "distance": 98.0,
+                "duration": 70.6,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  16,
+                  19
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  19,
+                  19
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          19
+        ],
+        "summary": {
+          "distance": 495.3,
+          "duration": 356.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            150.754858,
+            -34.051118
+          ],
+          [
+            150.754541,
+            -34.051172
+          ],
+          [
+            150.754525,
+            -34.051138
+          ],
+          [
+            150.753896,
+            -34.051377
+          ],
+          [
+            150.753611,
+            -34.051462
+          ],
+          [
+            150.753367,
+            -34.051557
+          ],
+          [
+            150.752569,
+            -34.051987
+          ],
+          [
+            150.752442,
+            -34.052047
+          ],
+          [
+            150.752278,
+            -34.052099
+          ],
+          [
+            150.752184,
+            -34.052162
+          ],
+          [
+            150.751963,
+            -34.052263
+          ],
+          [
+            150.75194,
+            -34.052291
+          ],
+          [
+            150.751865,
+            -34.052307
+          ],
+          [
+            150.751774,
+            -34.052349
+          ],
+          [
+            150.751768,
+            -34.052178
+          ],
+          [
+            150.751638,
+            -34.051972
+          ],
+          [
+            150.751562,
+            -34.051712
+          ],
+          [
+            150.751205,
+            -34.051818
+          ],
+          [
+            150.751067,
+            -34.051822
+          ],
+          [
+            150.750612,
+            -34.052073
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756390077971,
+    "query": {
+      "coordinates": [
+        [
+          150.7548578,
+          -34.0511183
+        ],
+        [
+          150.7506116,
+          -34.0520727
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

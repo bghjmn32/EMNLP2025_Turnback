@@ -1,0 +1,300 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    150.823559,
+    -33.824422,
+    150.832976,
+    -33.812837
+  ],
+  "features": [
+    {
+      "bbox": [
+        150.823559,
+        -33.824422,
+        150.832976,
+        -33.812837
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1731.4,
+            "duration": 1246.6,
+            "steps": [
+              {
+                "distance": 189.9,
+                "duration": 136.7,
+                "type": 11,
+                "instruction": "Head east",
+                "name": "-",
+                "way_points": [
+                  0,
+                  4
+                ]
+              },
+              {
+                "distance": 11.7,
+                "duration": 8.4,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  4,
+                  6
+                ]
+              },
+              {
+                "distance": 19.7,
+                "duration": 14.2,
+                "type": 1,
+                "instruction": "Turn right onto Millner Avenue",
+                "name": "Millner Avenue",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 799.3,
+                "duration": 575.5,
+                "type": 0,
+                "instruction": "Turn left onto Old Wallgrove Road",
+                "name": "Old Wallgrove Road",
+                "way_points": [
+                  7,
+                  17
+                ]
+              },
+              {
+                "distance": 8.6,
+                "duration": 6.2,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  17,
+                  18
+                ]
+              },
+              {
+                "distance": 658.1,
+                "duration": 473.8,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  18,
+                  27
+                ]
+              },
+              {
+                "distance": 21.3,
+                "duration": 15.3,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  27,
+                  30
+                ]
+              },
+              {
+                "distance": 22.9,
+                "duration": 16.5,
+                "type": 0,
+                "instruction": "Turn left onto Old Wallgrove Road",
+                "name": "Old Wallgrove Road",
+                "way_points": [
+                  30,
+                  32
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Old Wallgrove Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  32,
+                  32
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          32
+        ],
+        "summary": {
+          "distance": 1731.4,
+          "duration": 1246.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            150.823559,
+            -33.82422
+          ],
+          [
+            150.823799,
+            -33.824217
+          ],
+          [
+            150.82432,
+            -33.824273
+          ],
+          [
+            150.825547,
+            -33.824407
+          ],
+          [
+            150.825596,
+            -33.824422
+          ],
+          [
+            150.825601,
+            -33.824398
+          ],
+          [
+            150.825611,
+            -33.824318
+          ],
+          [
+            150.825823,
+            -33.824341
+          ],
+          [
+            150.825833,
+            -33.824179
+          ],
+          [
+            150.826179,
+            -33.822034
+          ],
+          [
+            150.826251,
+            -33.821781
+          ],
+          [
+            150.826348,
+            -33.821603
+          ],
+          [
+            150.826538,
+            -33.821375
+          ],
+          [
+            150.826671,
+            -33.821264
+          ],
+          [
+            150.827473,
+            -33.820758
+          ],
+          [
+            150.827861,
+            -33.82049
+          ],
+          [
+            150.828616,
+            -33.81961
+          ],
+          [
+            150.829733,
+            -33.818263
+          ],
+          [
+            150.829655,
+            -33.818222
+          ],
+          [
+            150.830914,
+            -33.816702
+          ],
+          [
+            150.832159,
+            -33.815197
+          ],
+          [
+            150.832416,
+            -33.814833
+          ],
+          [
+            150.832539,
+            -33.814626
+          ],
+          [
+            150.832647,
+            -33.814374
+          ],
+          [
+            150.832726,
+            -33.81408
+          ],
+          [
+            150.832802,
+            -33.813684
+          ],
+          [
+            150.83283,
+            -33.81333
+          ],
+          [
+            150.832739,
+            -33.813071
+          ],
+          [
+            150.832781,
+            -33.813056
+          ],
+          [
+            150.832847,
+            -33.81303
+          ],
+          [
+            150.832958,
+            -33.813043
+          ],
+          [
+            150.832969,
+            -33.812946
+          ],
+          [
+            150.832976,
+            -33.812837
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756398004459,
+    "query": {
+      "coordinates": [
+        [
+          150.8235591,
+          -33.8242196
+        ],
+        [
+          150.8329756,
+          -33.8128373
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

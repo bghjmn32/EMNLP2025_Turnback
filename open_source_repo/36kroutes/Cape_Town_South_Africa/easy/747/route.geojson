@@ -1,0 +1,170 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.459377,
+    -33.990187,
+    18.46139,
+    -33.983857
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.459377,
+        -33.990187,
+        18.46139,
+        -33.983857
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 736.9,
+            "duration": 530.5,
+            "steps": [
+              {
+                "distance": 598.0,
+                "duration": 430.6,
+                "type": 11,
+                "instruction": "Head southeast on Morris Road",
+                "name": "Morris Road",
+                "way_points": [
+                  0,
+                  11
+                ]
+              },
+              {
+                "distance": 138.9,
+                "duration": 100.0,
+                "type": 5,
+                "instruction": "Turn slight right onto Herschel Road",
+                "name": "Herschel Road",
+                "way_points": [
+                  11,
+                  16
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Herschel Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  16,
+                  16
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          16
+        ],
+        "summary": {
+          "distance": 736.9,
+          "duration": 530.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.459377,
+            -33.983857
+          ],
+          [
+            18.459597,
+            -33.984236
+          ],
+          [
+            18.459644,
+            -33.984317
+          ],
+          [
+            18.459955,
+            -33.984859
+          ],
+          [
+            18.460399,
+            -33.985611
+          ],
+          [
+            18.46044,
+            -33.98568
+          ],
+          [
+            18.460595,
+            -33.986231
+          ],
+          [
+            18.460773,
+            -33.986868
+          ],
+          [
+            18.460953,
+            -33.98751
+          ],
+          [
+            18.461134,
+            -33.98815
+          ],
+          [
+            18.46131,
+            -33.9888
+          ],
+          [
+            18.461351,
+            -33.988946
+          ],
+          [
+            18.461326,
+            -33.989108
+          ],
+          [
+            18.461372,
+            -33.989458
+          ],
+          [
+            18.46139,
+            -33.989781
+          ],
+          [
+            18.461365,
+            -33.990012
+          ],
+          [
+            18.461319,
+            -33.990187
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756805560977,
+    "query": {
+      "coordinates": [
+        [
+          18.4593771,
+          -33.9838567
+        ],
+        [
+          18.4613194,
+          -33.9901866
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

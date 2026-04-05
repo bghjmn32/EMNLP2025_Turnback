@@ -1,0 +1,184 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    151.233843,
+    -33.933478,
+    151.237586,
+    -33.932211
+  ],
+  "features": [
+    {
+      "bbox": [
+        151.233843,
+        -33.933478,
+        151.237586,
+        -33.932211
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 517.6,
+            "duration": 372.6,
+            "steps": [
+              {
+                "distance": 57.9,
+                "duration": 41.7,
+                "type": 11,
+                "instruction": "Head west",
+                "name": "-",
+                "way_points": [
+                  0,
+                  5
+                ]
+              },
+              {
+                "distance": 44.8,
+                "duration": 32.3,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  5,
+                  7
+                ]
+              },
+              {
+                "distance": 272.9,
+                "duration": 196.5,
+                "type": 0,
+                "instruction": "Turn left onto Fischer Street",
+                "name": "Fischer Street",
+                "way_points": [
+                  7,
+                  10
+                ]
+              },
+              {
+                "distance": 141.9,
+                "duration": 102.2,
+                "type": 0,
+                "instruction": "Turn left onto Irvine Street",
+                "name": "Irvine Street",
+                "way_points": [
+                  10,
+                  14
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Irvine Street, straight ahead",
+                "name": "-",
+                "way_points": [
+                  14,
+                  14
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          14
+        ],
+        "summary": {
+          "distance": 517.6,
+          "duration": 372.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            151.237586,
+            -33.933023
+          ],
+          [
+            151.237539,
+            -33.933029
+          ],
+          [
+            151.237184,
+            -33.933074
+          ],
+          [
+            151.237172,
+            -33.933017
+          ],
+          [
+            151.237101,
+            -33.933013
+          ],
+          [
+            151.237021,
+            -33.933009
+          ],
+          [
+            151.23694,
+            -33.932661
+          ],
+          [
+            151.236927,
+            -33.932614
+          ],
+          [
+            151.23601,
+            -33.932487
+          ],
+          [
+            151.235737,
+            -33.93245
+          ],
+          [
+            151.234009,
+            -33.932211
+          ],
+          [
+            151.234007,
+            -33.932447
+          ],
+          [
+            151.233993,
+            -33.932702
+          ],
+          [
+            151.233889,
+            -33.93322
+          ],
+          [
+            151.233843,
+            -33.933478
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756393521400,
+    "query": {
+      "coordinates": [
+        [
+          151.2375859,
+          -33.9330226
+        ],
+        [
+          151.2338433,
+          -33.9334777
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

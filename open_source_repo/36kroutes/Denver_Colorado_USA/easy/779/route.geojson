@@ -1,0 +1,226 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -104.850929,
+    39.909903,
+    -104.847749,
+    39.912687
+  ],
+  "features": [
+    {
+      "bbox": [
+        -104.850929,
+        39.909903,
+        -104.847749,
+        39.912687
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 676.8,
+            "duration": 487.3,
+            "steps": [
+              {
+                "distance": 116.5,
+                "duration": 83.8,
+                "type": 11,
+                "instruction": "Head west on East 119th Avenue",
+                "name": "East 119th Avenue",
+                "way_points": [
+                  0,
+                  4
+                ]
+              },
+              {
+                "distance": 111.2,
+                "duration": 80.1,
+                "type": 0,
+                "instruction": "Turn left onto Nome Street",
+                "name": "Nome Street",
+                "way_points": [
+                  4,
+                  6
+                ]
+              },
+              {
+                "distance": 82.5,
+                "duration": 59.4,
+                "type": 0,
+                "instruction": "Turn left onto East 118th Place",
+                "name": "East 118th Place",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 162.4,
+                "duration": 116.9,
+                "type": 1,
+                "instruction": "Turn right onto Oakland Drive",
+                "name": "Oakland Drive",
+                "way_points": [
+                  7,
+                  9
+                ]
+              },
+              {
+                "distance": 75.5,
+                "duration": 54.3,
+                "type": 0,
+                "instruction": "Turn left onto East 117th Place",
+                "name": "East 117th Place",
+                "way_points": [
+                  9,
+                  12
+                ]
+              },
+              {
+                "distance": 128.8,
+                "duration": 92.8,
+                "type": 12,
+                "instruction": "Keep left",
+                "name": "-",
+                "way_points": [
+                  12,
+                  19
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  19,
+                  19
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          19
+        ],
+        "summary": {
+          "distance": 676.8,
+          "duration": 487.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -104.849564,
+            39.912676
+          ],
+          [
+            -104.849688,
+            39.912658
+          ],
+          [
+            -104.849789,
+            39.912645
+          ],
+          [
+            -104.849928,
+            39.912674
+          ],
+          [
+            -104.85092,
+            39.912687
+          ],
+          [
+            -104.850924,
+            39.912281
+          ],
+          [
+            -104.850929,
+            39.911687
+          ],
+          [
+            -104.849962,
+            39.911673
+          ],
+          [
+            -104.849947,
+            39.910951
+          ],
+          [
+            -104.849954,
+            39.910212
+          ],
+          [
+            -104.849295,
+            39.910214
+          ],
+          [
+            -104.849188,
+            39.910188
+          ],
+          [
+            -104.8491,
+            39.910133
+          ],
+          [
+            -104.848537,
+            39.910156
+          ],
+          [
+            -104.848444,
+            39.910107
+          ],
+          [
+            -104.848363,
+            39.909994
+          ],
+          [
+            -104.848233,
+            39.909931
+          ],
+          [
+            -104.848111,
+            39.909903
+          ],
+          [
+            -104.847941,
+            39.909923
+          ],
+          [
+            -104.847749,
+            39.909994
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756307033822,
+    "query": {
+      "coordinates": [
+        [
+          -104.8495636,
+          39.9126762
+        ],
+        [
+          -104.8477493,
+          39.9099938
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

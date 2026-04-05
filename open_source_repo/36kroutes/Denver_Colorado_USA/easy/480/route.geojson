@@ -1,0 +1,168 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -105.016863,
+    39.682325,
+    -105.011136,
+    39.684121
+  ],
+  "features": [
+    {
+      "bbox": [
+        -105.016863,
+        39.682325,
+        -105.011136,
+        39.684121
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 708.5,
+            "duration": 510.1,
+            "steps": [
+              {
+                "distance": 96.3,
+                "duration": 69.3,
+                "type": 11,
+                "instruction": "Head north",
+                "name": "-",
+                "way_points": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "distance": 6.2,
+                "duration": 4.5,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "distance": 406.3,
+                "duration": 292.5,
+                "type": 0,
+                "instruction": "Turn left onto West Colorado Avenue",
+                "name": "West Colorado Avenue",
+                "way_points": [
+                  4,
+                  9
+                ]
+              },
+              {
+                "distance": 199.7,
+                "duration": 143.8,
+                "type": 0,
+                "instruction": "Turn left onto South Alcott Street",
+                "name": "South Alcott Street",
+                "way_points": [
+                  9,
+                  10
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at South Alcott Street, straight ahead",
+                "name": "-",
+                "way_points": [
+                  10,
+                  10
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          10
+        ],
+        "summary": {
+          "distance": 708.5,
+          "duration": 510.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -105.011136,
+            39.683882
+          ],
+          [
+            -105.011137,
+            39.683983
+          ],
+          [
+            -105.011175,
+            39.684013
+          ],
+          [
+            -105.012115,
+            39.684023
+          ],
+          [
+            -105.012116,
+            39.684078
+          ],
+          [
+            -105.012893,
+            39.684078
+          ],
+          [
+            -105.013803,
+            39.684078
+          ],
+          [
+            -105.014747,
+            39.684111
+          ],
+          [
+            -105.015674,
+            39.684111
+          ],
+          [
+            -105.016863,
+            39.684121
+          ],
+          [
+            -105.016863,
+            39.682325
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756305918947,
+    "query": {
+      "coordinates": [
+        [
+          -105.0111362,
+          39.6838823
+        ],
+        [
+          -105.0168632,
+          39.6823253
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

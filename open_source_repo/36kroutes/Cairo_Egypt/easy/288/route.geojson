@@ -1,0 +1,236 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    31.432195,
+    30.030181,
+    31.434694,
+    30.033401
+  ],
+  "features": [
+    {
+      "bbox": [
+        31.432195,
+        30.030181,
+        31.434694,
+        30.033401
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 553.5,
+            "duration": 398.5,
+            "steps": [
+              {
+                "distance": 41.1,
+                "duration": 29.6,
+                "type": 11,
+                "instruction": "Head north on شارع عمرو بن العاص",
+                "name": "شارع عمرو بن العاص",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 194.8,
+                "duration": 140.3,
+                "type": 1,
+                "instruction": "Turn right onto شارع سالم محمد موسى",
+                "name": "شارع سالم محمد موسى",
+                "way_points": [
+                  2,
+                  8
+                ]
+              },
+              {
+                "distance": 201.5,
+                "duration": 145.1,
+                "type": 7,
+                "instruction": "Enter the roundabout and take the 1st exit onto شارع عباس محمود العقاد",
+                "name": "شارع عباس محمود العقاد",
+                "exit_number": 1,
+                "way_points": [
+                  8,
+                  13
+                ]
+              },
+              {
+                "distance": 76.1,
+                "duration": 54.8,
+                "type": 7,
+                "instruction": "Enter the roundabout and take the 3rd exit onto شارع عباس محمود العقاد",
+                "name": "شارع عباس محمود العقاد",
+                "exit_number": 3,
+                "way_points": [
+                  13,
+                  19
+                ]
+              },
+              {
+                "distance": 29.0,
+                "duration": 20.9,
+                "type": 6,
+                "instruction": "Continue straight onto شارع عباس محمود العقاد",
+                "name": "شارع عباس محمود العقاد",
+                "way_points": [
+                  19,
+                  20
+                ]
+              },
+              {
+                "distance": 11.0,
+                "duration": 7.9,
+                "type": 1,
+                "instruction": "Turn right onto شارع توفيق الحكيم",
+                "name": "شارع توفيق الحكيم",
+                "way_points": [
+                  20,
+                  21
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at شارع توفيق الحكيم, straight ahead",
+                "name": "-",
+                "way_points": [
+                  21,
+                  21
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          21
+        ],
+        "summary": {
+          "distance": 553.5,
+          "duration": 398.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            31.432195,
+            30.030181
+          ],
+          [
+            31.432201,
+            30.030447
+          ],
+          [
+            31.432203,
+            30.030551
+          ],
+          [
+            31.4325,
+            30.030551
+          ],
+          [
+            31.433658,
+            30.030579
+          ],
+          [
+            31.433823,
+            30.030601
+          ],
+          [
+            31.433953,
+            30.030637
+          ],
+          [
+            31.434078,
+            30.030691
+          ],
+          [
+            31.434176,
+            30.030757
+          ],
+          [
+            31.434285,
+            30.030858
+          ],
+          [
+            31.434454,
+            30.031097
+          ],
+          [
+            31.43451,
+            30.03125
+          ],
+          [
+            31.434535,
+            30.031752
+          ],
+          [
+            31.434546,
+            30.032483
+          ],
+          [
+            31.434505,
+            30.032524
+          ],
+          [
+            31.434485,
+            30.032612
+          ],
+          [
+            31.4345,
+            30.032655
+          ],
+          [
+            31.43453,
+            30.032692
+          ],
+          [
+            31.434567,
+            30.032891
+          ],
+          [
+            31.434575,
+            30.03314
+          ],
+          [
+            31.43458,
+            30.033401
+          ],
+          [
+            31.434694,
+            30.033398
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756730798941,
+    "query": {
+      "coordinates": [
+        [
+          31.4321954,
+          30.0301814
+        ],
+        [
+          31.4346944,
+          30.0333984
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

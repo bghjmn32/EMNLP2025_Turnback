@@ -1,0 +1,295 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.171588,
+    19.395932,
+    -99.170286,
+    19.405468
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.171588,
+        19.395932,
+        -99.170286,
+        19.405468
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1108.5,
+            "duration": 798.1,
+            "steps": [
+              {
+                "distance": 547.4,
+                "duration": 394.1,
+                "type": 11,
+                "instruction": "Head south on Avenida Nuevo León",
+                "name": "Avenida Nuevo León",
+                "way_points": [
+                  0,
+                  9
+                ]
+              },
+              {
+                "distance": 15.0,
+                "duration": 10.8,
+                "type": 13,
+                "instruction": "Keep right",
+                "name": "-",
+                "way_points": [
+                  9,
+                  10
+                ]
+              },
+              {
+                "distance": 12.9,
+                "duration": 9.3,
+                "type": 12,
+                "instruction": "Keep left",
+                "name": "-",
+                "way_points": [
+                  10,
+                  11
+                ]
+              },
+              {
+                "distance": 31.8,
+                "duration": 22.9,
+                "type": 12,
+                "instruction": "Keep left",
+                "name": "-",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 29.3,
+                "duration": 21.1,
+                "type": 12,
+                "instruction": "Keep left",
+                "name": "-",
+                "way_points": [
+                  12,
+                  15
+                ]
+              },
+              {
+                "distance": 16.1,
+                "duration": 11.6,
+                "type": 13,
+                "instruction": "Keep right",
+                "name": "-",
+                "way_points": [
+                  15,
+                  16
+                ]
+              },
+              {
+                "distance": 7.0,
+                "duration": 5.1,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  16,
+                  17
+                ]
+              },
+              {
+                "distance": 291.4,
+                "duration": 209.8,
+                "type": 0,
+                "instruction": "Turn left onto Avenida Insurgentes Sur",
+                "name": "Avenida Insurgentes Sur",
+                "way_points": [
+                  17,
+                  26
+                ]
+              },
+              {
+                "distance": 157.6,
+                "duration": 113.5,
+                "type": 12,
+                "instruction": "Keep left onto Avenida Valle de Arizpe",
+                "name": "Avenida Valle de Arizpe",
+                "way_points": [
+                  26,
+                  28
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Avenida Valle de Arizpe, straight ahead",
+                "name": "-",
+                "way_points": [
+                  28,
+                  28
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          28
+        ],
+        "summary": {
+          "distance": 1108.5,
+          "duration": 798.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.171588,
+            19.405468
+          ],
+          [
+            -99.171309,
+            19.404361
+          ],
+          [
+            -99.171289,
+            19.404281
+          ],
+          [
+            -99.171129,
+            19.403578
+          ],
+          [
+            -99.1711,
+            19.403442
+          ],
+          [
+            -99.170816,
+            19.402292
+          ],
+          [
+            -99.170682,
+            19.401778
+          ],
+          [
+            -99.170654,
+            19.401671
+          ],
+          [
+            -99.170462,
+            19.400943
+          ],
+          [
+            -99.170392,
+            19.400677
+          ],
+          [
+            -99.170434,
+            19.400548
+          ],
+          [
+            -99.170402,
+            19.400436
+          ],
+          [
+            -99.170323,
+            19.40016
+          ],
+          [
+            -99.170286,
+            19.40003
+          ],
+          [
+            -99.170313,
+            19.399955
+          ],
+          [
+            -99.17033,
+            19.399908
+          ],
+          [
+            -99.170379,
+            19.399771
+          ],
+          [
+            -99.170443,
+            19.39979
+          ],
+          [
+            -99.170499,
+            19.399621
+          ],
+          [
+            -99.170533,
+            19.399516
+          ],
+          [
+            -99.170589,
+            19.399347
+          ],
+          [
+            -99.170881,
+            19.39846
+          ],
+          [
+            -99.170903,
+            19.398393
+          ],
+          [
+            -99.17094,
+            19.39828
+          ],
+          [
+            -99.171024,
+            19.39802
+          ],
+          [
+            -99.171059,
+            19.397912
+          ],
+          [
+            -99.171262,
+            19.397287
+          ],
+          [
+            -99.171186,
+            19.397078
+          ],
+          [
+            -99.170819,
+            19.395932
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756307898407,
+    "query": {
+      "coordinates": [
+        [
+          -99.1715883,
+          19.4054684
+        ],
+        [
+          -99.1708192,
+          19.3959323
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    18.479766,
+    -34.020965,
+    18.483487,
+    -34.01555
+  ],
+  "features": [
+    {
+      "bbox": [
+        18.479766,
+        -34.020965,
+        18.483487,
+        -34.01555
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 792.2,
+            "duration": 570.4,
+            "steps": [
+              {
+                "distance": 631.2,
+                "duration": 454.4,
+                "type": 11,
+                "instruction": "Head south on Milford Road",
+                "name": "Milford Road",
+                "way_points": [
+                  0,
+                  4
+                ]
+              },
+              {
+                "distance": 161.1,
+                "duration": 116.0,
+                "type": 0,
+                "instruction": "Turn left onto Basil Road",
+                "name": "Basil Road",
+                "way_points": [
+                  4,
+                  7
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Basil Road, straight ahead",
+                "name": "-",
+                "way_points": [
+                  7,
+                  7
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          7
+        ],
+        "summary": {
+          "distance": 792.2,
+          "duration": 570.4
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            18.479766,
+            -34.01555
+          ],
+          [
+            18.480095,
+            -34.016438
+          ],
+          [
+            18.480716,
+            -34.018062
+          ],
+          [
+            18.48127,
+            -34.019521
+          ],
+          [
+            18.48182,
+            -34.020965
+          ],
+          [
+            18.482691,
+            -34.020737
+          ],
+          [
+            18.483037,
+            -34.020646
+          ],
+          [
+            18.483487,
+            -34.020528
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756805749368,
+    "query": {
+      "coordinates": [
+        [
+          18.4797662,
+          -34.0155501
+        ],
+        [
+          18.4834865,
+          -34.0205284
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

@@ -1,0 +1,293 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    0.058436,
+    51.523213,
+    0.06423,
+    51.526003
+  ],
+  "features": [
+    {
+      "bbox": [
+        0.058436,
+        51.523213,
+        0.06423,
+        51.526003
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 635.8,
+            "duration": 457.8,
+            "steps": [
+              {
+                "distance": 11.6,
+                "duration": 8.3,
+                "type": 11,
+                "instruction": "Head north",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 21.1,
+                "duration": 15.2,
+                "type": 1,
+                "instruction": "Turn right onto Vicarage Lane",
+                "name": "Vicarage Lane",
+                "way_points": [
+                  1,
+                  3
+                ]
+              },
+              {
+                "distance": 96.3,
+                "duration": 69.3,
+                "type": 1,
+                "instruction": "Turn right onto Elderberry Way",
+                "name": "Elderberry Way",
+                "way_points": [
+                  3,
+                  7
+                ]
+              },
+              {
+                "distance": 36.0,
+                "duration": 25.9,
+                "type": 1,
+                "instruction": "Turn right onto Elderberry Way",
+                "name": "Elderberry Way",
+                "way_points": [
+                  7,
+                  9
+                ]
+              },
+              {
+                "distance": 110.6,
+                "duration": 79.6,
+                "type": 6,
+                "instruction": "Continue straight onto Manbrough Avenue",
+                "name": "Manbrough Avenue",
+                "way_points": [
+                  9,
+                  12
+                ]
+              },
+              {
+                "distance": 69.7,
+                "duration": 50.2,
+                "type": 0,
+                "instruction": "Turn left onto Charlemont Road",
+                "name": "Charlemont Road",
+                "way_points": [
+                  12,
+                  13
+                ]
+              },
+              {
+                "distance": 176.9,
+                "duration": 127.3,
+                "type": 1,
+                "instruction": "Turn right onto St Albans Avenue",
+                "name": "St Albans Avenue",
+                "way_points": [
+                  13,
+                  17
+                ]
+              },
+              {
+                "distance": 24.2,
+                "duration": 17.4,
+                "type": 4,
+                "instruction": "Turn slight left",
+                "name": "-",
+                "way_points": [
+                  17,
+                  19
+                ]
+              },
+              {
+                "distance": 52.7,
+                "duration": 37.9,
+                "type": 6,
+                "instruction": "Continue straight onto St. Albans Avenue",
+                "name": "St. Albans Avenue",
+                "way_points": [
+                  19,
+                  20
+                ]
+              },
+              {
+                "distance": 13.0,
+                "duration": 9.4,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  20,
+                  21
+                ]
+              },
+              {
+                "distance": 23.9,
+                "duration": 17.2,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  21,
+                  22
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  22,
+                  22
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          22
+        ],
+        "summary": {
+          "distance": 635.8,
+          "duration": 457.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            0.058497,
+            51.525795
+          ],
+          [
+            0.058436,
+            51.525892
+          ],
+          [
+            0.058586,
+            51.525928
+          ],
+          [
+            0.058666,
+            51.526003
+          ],
+          [
+            0.058823,
+            51.525953
+          ],
+          [
+            0.059034,
+            51.525822
+          ],
+          [
+            0.059141,
+            51.525765
+          ],
+          [
+            0.059618,
+            51.525384
+          ],
+          [
+            0.059508,
+            51.525332
+          ],
+          [
+            0.059719,
+            51.525134
+          ],
+          [
+            0.059933,
+            51.524971
+          ],
+          [
+            0.060182,
+            51.524769
+          ],
+          [
+            0.060708,
+            51.524353
+          ],
+          [
+            0.061504,
+            51.524737
+          ],
+          [
+            0.062705,
+            51.523804
+          ],
+          [
+            0.062994,
+            51.523577
+          ],
+          [
+            0.063043,
+            51.523591
+          ],
+          [
+            0.063075,
+            51.523523
+          ],
+          [
+            0.063192,
+            51.523465
+          ],
+          [
+            0.063371,
+            51.52341
+          ],
+          [
+            0.064063,
+            51.523213
+          ],
+          [
+            0.06423,
+            51.523267
+          ],
+          [
+            0.064064,
+            51.523455
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756828396376,
+    "query": {
+      "coordinates": [
+        [
+          0.0584967,
+          51.525795
+        ],
+        [
+          0.0640639,
+          51.5234551
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

@@ -1,0 +1,260 @@
+{
+    "type": "FeatureCollection",
+    "bbox": [
+        2.45685,
+        48.888565,
+        2.462174,
+        48.889555
+    ],
+    "features": [
+        {
+            "bbox": [
+                2.45685,
+                48.888565,
+                2.462174,
+                48.889555
+            ],
+            "type": "Feature",
+            "properties": {
+                "segments": [
+                    {
+                        "distance": 521.9,
+                        "duration": 375.8,
+                        "steps": [
+                            {
+                                "distance": 82.2,
+                                "duration": 59.2,
+                                "type": 11,
+                                "instruction": "Head northeast on Rue Marcellin Berthelot",
+                                "name": "Rue Marcellin Berthelot",
+                                "way_points": [
+                                    0,
+                                    1
+                                ]
+                            },
+                            {
+                                "distance": 222.2,
+                                "duration": 160.0,
+                                "type": 1,
+                                "instruction": "Turn right onto Rue Moissan",
+                                "name": "Rue Moissan",
+                                "way_points": [
+                                    1,
+                                    3
+                                ]
+                            },
+                            {
+                                "distance": 18.9,
+                                "duration": 13.6,
+                                "type": 0,
+                                "instruction": "Turn left onto Rue Parmentier",
+                                "name": "Rue Parmentier",
+                                "way_points": [
+                                    3,
+                                    4
+                                ]
+                            },
+                            {
+                                "distance": 100.4,
+                                "duration": 72.3,
+                                "type": 3,
+                                "instruction": "Turn sharp right",
+                                "name": "-",
+                                "way_points": [
+                                    4,
+                                    13
+                                ]
+                            },
+                            {
+                                "distance": 38.1,
+                                "duration": 27.4,
+                                "type": 1,
+                                "instruction": "Turn right",
+                                "name": "-",
+                                "way_points": [
+                                    13,
+                                    17
+                                ]
+                            },
+                            {
+                                "distance": 20.0,
+                                "duration": 14.4,
+                                "type": 1,
+                                "instruction": "Turn right",
+                                "name": "-",
+                                "way_points": [
+                                    17,
+                                    20
+                                ]
+                            },
+                            {
+                                "distance": 5.7,
+                                "duration": 4.1,
+                                "type": 1,
+                                "instruction": "Turn right onto Rue Poniatowski",
+                                "name": "Rue Poniatowski",
+                                "way_points": [
+                                    20,
+                                    21
+                                ]
+                            },
+                            {
+                                "distance": 34.3,
+                                "duration": 24.7,
+                                "type": 0,
+                                "instruction": "Turn left onto Rue Jean Sobieski",
+                                "name": "Rue Jean Sobieski",
+                                "way_points": [
+                                    21,
+                                    22
+                                ]
+                            },
+                            {
+                                "distance": 0.0,
+                                "duration": 0.0,
+                                "type": 10,
+                                "instruction": "Arrive at Rue Jean Sobieski, straight ahead",
+                                "name": "-",
+                                "way_points": [
+                                    22,
+                                    22
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "way_points": [
+                    0,
+                    22
+                ],
+                "summary": {
+                    "distance": 521.9,
+                    "duration": 375.8
+                }
+            },
+            "geometry": {
+                "coordinates": [
+                    [
+                        2.45685,
+                        48.888974
+                    ],
+                    [
+                        2.457546,
+                        48.889555
+                    ],
+                    [
+                        2.458083,
+                        48.889301
+                    ],
+                    [
+                        2.460181,
+                        48.888565
+                    ],
+                    [
+                        2.460279,
+                        48.888723
+                    ],
+                    [
+                        2.460348,
+                        48.888686
+                    ],
+                    [
+                        2.460407,
+                        48.88876
+                    ],
+                    [
+                        2.460514,
+                        48.88875
+                    ],
+                    [
+                        2.460653,
+                        48.888767
+                    ],
+                    [
+                        2.46075,
+                        48.888866
+                    ],
+                    [
+                        2.460868,
+                        48.888914
+                    ],
+                    [
+                        2.460924,
+                        48.888958
+                    ],
+                    [
+                        2.460919,
+                        48.889064
+                    ],
+                    [
+                        2.461041,
+                        48.889274
+                    ],
+                    [
+                        2.461112,
+                        48.889259
+                    ],
+                    [
+                        2.461171,
+                        48.889292
+                    ],
+                    [
+                        2.461268,
+                        48.889357
+                    ],
+                    [
+                        2.461439,
+                        48.889459
+                    ],
+                    [
+                        2.461501,
+                        48.889453
+                    ],
+                    [
+                        2.461625,
+                        48.889443
+                    ],
+                    [
+                        2.46171,
+                        48.889435
+                    ],
+                    [
+                        2.461706,
+                        48.889383
+                    ],
+                    [
+                        2.462174,
+                        48.88936
+                    ]
+                ],
+                "type": "LineString"
+            }
+        }
+    ],
+    "metadata": {
+        "attribution": "openrouteservice.org | OpenStreetMap contributors",
+        "service": "routing",
+        "timestamp": 1755870845009,
+        "query": {
+            "coordinates": [
+                [
+                    2.4568498,
+                    48.8889738
+                ],
+                [
+                    2.462174,
+                    48.88936
+                ]
+            ],
+            "profile": "foot-walking",
+            "profileName": "foot-walking",
+            "format": "geojson"
+        },
+        "engine": {
+            "version": "9.3.0",
+            "build_date": "2025-06-06T15:39:25Z",
+            "graph_date": "2025-08-19T13:56:51Z",
+            "osm_date": "2025-08-10T23:59:57Z"
+        }
+    }
+}

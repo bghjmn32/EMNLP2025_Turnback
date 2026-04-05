@@ -1,0 +1,195 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -105.075812,
+    39.820032,
+    -105.072045,
+    39.823746
+  ],
+  "features": [
+    {
+      "bbox": [
+        -105.075812,
+        39.820032,
+        -105.072045,
+        39.823746
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 733.5,
+            "duration": 528.1,
+            "steps": [
+              {
+                "distance": 80.0,
+                "duration": 57.6,
+                "type": 11,
+                "instruction": "Head east",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 7.6,
+                "duration": 5.5,
+                "type": 0,
+                "instruction": "Turn left onto Quay Court",
+                "name": "Quay Court",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 4.6,
+                "duration": 3.3,
+                "type": 1,
+                "instruction": "Turn right onto West 68th Avenue",
+                "name": "West 68th Avenue",
+                "way_points": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "distance": 405.0,
+                "duration": 291.6,
+                "type": 0,
+                "instruction": "Turn left onto Quay Court",
+                "name": "Quay Court",
+                "way_points": [
+                  3,
+                  10
+                ]
+              },
+              {
+                "distance": 236.4,
+                "duration": 170.2,
+                "type": 1,
+                "instruction": "Turn right onto West 70th Avenue",
+                "name": "West 70th Avenue",
+                "way_points": [
+                  10,
+                  14
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at West 70th Avenue, straight ahead",
+                "name": "-",
+                "way_points": [
+                  14,
+                  14
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          14
+        ],
+        "summary": {
+          "distance": 733.5,
+          "duration": 528.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -105.075812,
+            39.820035
+          ],
+          [
+            -105.074875,
+            39.820032
+          ],
+          [
+            -105.074874,
+            39.8201
+          ],
+          [
+            -105.07482,
+            39.820102
+          ],
+          [
+            -105.074819,
+            39.820164
+          ],
+          [
+            -105.07484,
+            39.821379
+          ],
+          [
+            -105.074846,
+            39.822192
+          ],
+          [
+            -105.074835,
+            39.82299
+          ],
+          [
+            -105.074843,
+            39.823216
+          ],
+          [
+            -105.074811,
+            39.823356
+          ],
+          [
+            -105.074814,
+            39.823742
+          ],
+          [
+            -105.074535,
+            39.823742
+          ],
+          [
+            -105.073735,
+            39.823745
+          ],
+          [
+            -105.072954,
+            39.823745
+          ],
+          [
+            -105.072045,
+            39.823746
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756307789742,
+    "query": {
+      "coordinates": [
+        [
+          -105.0758117,
+          39.8200354
+        ],
+        [
+          -105.0720455,
+          39.8237457
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    150.974828,
+    -33.708186,
+    150.979131,
+    -33.705923
+  ],
+  "features": [
+    {
+      "bbox": [
+        150.974828,
+        -33.708186,
+        150.979131,
+        -33.705923
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 633.5,
+            "duration": 456.1,
+            "steps": [
+              {
+                "distance": 46.4,
+                "duration": 33.4,
+                "type": 11,
+                "instruction": "Head south",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 408.1,
+                "duration": 293.9,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  1,
+                  11
+                ]
+              },
+              {
+                "distance": 79.5,
+                "duration": 57.3,
+                "type": 0,
+                "instruction": "Turn left onto McManus Street",
+                "name": "McManus Street",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 99.4,
+                "duration": 71.6,
+                "type": 0,
+                "instruction": "Turn left onto McManus Street",
+                "name": "McManus Street",
+                "way_points": [
+                  12,
+                  17
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at McManus Street, straight ahead",
+                "name": "-",
+                "way_points": [
+                  17,
+                  17
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          17
+        ],
+        "summary": {
+          "distance": 633.5,
+          "duration": 456.1
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            150.974828,
+            -33.707794
+          ],
+          [
+            150.974998,
+            -33.708186
+          ],
+          [
+            150.975309,
+            -33.708087
+          ],
+          [
+            150.97536,
+            -33.708052
+          ],
+          [
+            150.975759,
+            -33.707929
+          ],
+          [
+            150.975819,
+            -33.707919
+          ],
+          [
+            150.975876,
+            -33.707929
+          ],
+          [
+            150.976669,
+            -33.707682
+          ],
+          [
+            150.976757,
+            -33.707655
+          ],
+          [
+            150.976821,
+            -33.707635
+          ],
+          [
+            150.978,
+            -33.707277
+          ],
+          [
+            150.979131,
+            -33.706932
+          ],
+          [
+            150.978832,
+            -33.706262
+          ],
+          [
+            150.978525,
+            -33.706352
+          ],
+          [
+            150.978441,
+            -33.706348
+          ],
+          [
+            150.978384,
+            -33.706294
+          ],
+          [
+            150.978284,
+            -33.706064
+          ],
+          [
+            150.978057,
+            -33.705923
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756395655561,
+    "query": {
+      "coordinates": [
+        [
+          150.9748282,
+          -33.7077938
+        ],
+        [
+          150.9780566,
+          -33.7059226
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

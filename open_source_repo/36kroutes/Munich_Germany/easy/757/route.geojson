@@ -1,0 +1,150 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    11.585073,
+    48.20084,
+    11.586896,
+    48.210162
+  ],
+  "features": [
+    {
+      "bbox": [
+        11.585073,
+        48.20084,
+        11.586896,
+        48.210162
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1053.6,
+            "duration": 758.6,
+            "steps": [
+              {
+                "distance": 1042.1,
+                "duration": 750.3,
+                "type": 11,
+                "instruction": "Head south",
+                "name": "-",
+                "way_points": [
+                  0,
+                  9
+                ]
+              },
+              {
+                "distance": 11.5,
+                "duration": 8.3,
+                "type": 0,
+                "instruction": "Turn left onto Heidemannstraße",
+                "name": "Heidemannstraße",
+                "way_points": [
+                  9,
+                  11
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Heidemannstraße, straight ahead",
+                "name": "-",
+                "way_points": [
+                  11,
+                  11
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          11
+        ],
+        "summary": {
+          "distance": 1053.6,
+          "duration": 758.6
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            11.586896,
+            48.210162
+          ],
+          [
+            11.586052,
+            48.205845
+          ],
+          [
+            11.586025,
+            48.205709
+          ],
+          [
+            11.585991,
+            48.205534
+          ],
+          [
+            11.585593,
+            48.203501
+          ],
+          [
+            11.585456,
+            48.202812
+          ],
+          [
+            11.585419,
+            48.20265
+          ],
+          [
+            11.585151,
+            48.201181
+          ],
+          [
+            11.585083,
+            48.200926
+          ],
+          [
+            11.585073,
+            48.20087
+          ],
+          [
+            11.585129,
+            48.200848
+          ],
+          [
+            11.585219,
+            48.20084
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756139048722,
+    "query": {
+      "coordinates": [
+        [
+          11.5868959,
+          48.2101624
+        ],
+        [
+          11.5852187,
+          48.2008403
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

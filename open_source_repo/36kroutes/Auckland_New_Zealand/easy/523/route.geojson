@@ -1,0 +1,211 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    174.785016,
+    -36.818558,
+    174.793034,
+    -36.81468
+  ],
+  "features": [
+    {
+      "bbox": [
+        174.785016,
+        -36.818558,
+        174.793034,
+        -36.81468
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 967.0,
+            "duration": 696.2,
+            "steps": [
+              {
+                "distance": 5.4,
+                "duration": 3.9,
+                "type": 11,
+                "instruction": "Head north",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 710.8,
+                "duration": 511.8,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  1,
+                  10
+                ]
+              },
+              {
+                "distance": 7.0,
+                "duration": 5.1,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  10,
+                  12
+                ]
+              },
+              {
+                "distance": 21.6,
+                "duration": 15.6,
+                "type": 0,
+                "instruction": "Turn left onto Regent Street",
+                "name": "Regent Street",
+                "way_points": [
+                  12,
+                  14
+                ]
+              },
+              {
+                "distance": 222.2,
+                "duration": 159.9,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  14,
+                  18
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  18,
+                  18
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          18
+        ],
+        "summary": {
+          "distance": 967.0,
+          "duration": 696.2
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            174.785037,
+            -36.818558
+          ],
+          [
+            174.785016,
+            -36.818513
+          ],
+          [
+            174.789262,
+            -36.817232
+          ],
+          [
+            174.789279,
+            -36.817217
+          ],
+          [
+            174.789378,
+            -36.817193
+          ],
+          [
+            174.789484,
+            -36.817167
+          ],
+          [
+            174.791186,
+            -36.816648
+          ],
+          [
+            174.791191,
+            -36.816634
+          ],
+          [
+            174.791198,
+            -36.816612
+          ],
+          [
+            174.790879,
+            -36.815926
+          ],
+          [
+            174.79073,
+            -36.815606
+          ],
+          [
+            174.790744,
+            -36.815602
+          ],
+          [
+            174.790804,
+            -36.815585
+          ],
+          [
+            174.790757,
+            -36.815487
+          ],
+          [
+            174.790718,
+            -36.815403
+          ],
+          [
+            174.790806,
+            -36.815377
+          ],
+          [
+            174.79239,
+            -36.8149
+          ],
+          [
+            174.792943,
+            -36.814748
+          ],
+          [
+            174.793034,
+            -36.81468
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756374930430,
+    "query": {
+      "coordinates": [
+        [
+          174.7850369,
+          -36.8185583
+        ],
+        [
+          174.7930337,
+          -36.8146802
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

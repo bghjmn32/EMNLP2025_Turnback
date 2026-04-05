@@ -1,0 +1,179 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.132952,
+    19.429447,
+    -99.127265,
+    19.431395
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.132952,
+        19.429447,
+        -99.127265,
+        19.431395
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 817.1,
+            "duration": 588.3,
+            "steps": [
+              {
+                "distance": 43.4,
+                "duration": 31.2,
+                "type": 11,
+                "instruction": "Head east on Calle Rinconada de Jesús",
+                "name": "Calle Rinconada de Jesús",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 53.4,
+                "duration": 38.5,
+                "type": 0,
+                "instruction": "Turn left onto Avenida José María Pino Suárez",
+                "name": "Avenida José María Pino Suárez",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 215.5,
+                "duration": 155.2,
+                "type": 1,
+                "instruction": "Turn right onto Calle República de Uruguay",
+                "name": "Calle República de Uruguay",
+                "way_points": [
+                  2,
+                  5
+                ]
+              },
+              {
+                "distance": 197.9,
+                "duration": 142.5,
+                "type": 0,
+                "instruction": "Turn left onto Correo Mayor",
+                "name": "Correo Mayor",
+                "way_points": [
+                  5,
+                  7
+                ]
+              },
+              {
+                "distance": 306.9,
+                "duration": 220.9,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  7,
+                  10
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  10,
+                  10
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          10
+        ],
+        "summary": {
+          "distance": 817.1,
+          "duration": 588.3
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.132952,
+            19.429496
+          ],
+          [
+            -99.132541,
+            19.429447
+          ],
+          [
+            -99.132469,
+            19.429922
+          ],
+          [
+            -99.131618,
+            19.429802
+          ],
+          [
+            -99.130996,
+            19.429713
+          ],
+          [
+            -99.130436,
+            19.429634
+          ],
+          [
+            -99.130298,
+            19.430496
+          ],
+          [
+            -99.130164,
+            19.431395
+          ],
+          [
+            -99.129652,
+            19.431336
+          ],
+          [
+            -99.128118,
+            19.431138
+          ],
+          [
+            -99.127265,
+            19.431021
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756308438556,
+    "query": {
+      "coordinates": [
+        [
+          -99.132952,
+          19.4294956
+        ],
+        [
+          -99.1272647,
+          19.4310207
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

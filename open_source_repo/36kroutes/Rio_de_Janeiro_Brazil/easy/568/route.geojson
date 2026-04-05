@@ -1,0 +1,156 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -43.471688,
+    -23.019728,
+    -43.465106,
+    -23.017672
+  ],
+  "features": [
+    {
+      "bbox": [
+        -43.471688,
+        -23.019728,
+        -43.465106,
+        -23.017672
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 817.6,
+            "duration": 588.7,
+            "steps": [
+              {
+                "distance": 86.7,
+                "duration": 62.4,
+                "type": 11,
+                "instruction": "Head north on Alameda Sandra Alvim",
+                "name": "Alameda Sandra Alvim",
+                "way_points": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "distance": 518.1,
+                "duration": 373.0,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  2,
+                  5
+                ]
+              },
+              {
+                "distance": 42.2,
+                "duration": 30.4,
+                "type": 1,
+                "instruction": "Turn right onto Rua Ismael Silva",
+                "name": "Rua Ismael Silva",
+                "way_points": [
+                  5,
+                  6
+                ]
+              },
+              {
+                "distance": 170.6,
+                "duration": 122.9,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  7,
+                  7
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          7
+        ],
+        "summary": {
+          "distance": 817.6,
+          "duration": 588.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -43.471462,
+            -23.019728
+          ],
+          [
+            -43.471584,
+            -23.019403
+          ],
+          [
+            -43.471688,
+            -23.018978
+          ],
+          [
+            -43.471381,
+            -23.018898
+          ],
+          [
+            -43.469397,
+            -23.018385
+          ],
+          [
+            -43.466809,
+            -23.017736
+          ],
+          [
+            -43.466706,
+            -23.018103
+          ],
+          [
+            -43.465106,
+            -23.017672
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756393215376,
+    "query": {
+      "coordinates": [
+        [
+          -43.4714618,
+          -23.0197277
+        ],
+        [
+          -43.465106,
+          -23.0176716
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

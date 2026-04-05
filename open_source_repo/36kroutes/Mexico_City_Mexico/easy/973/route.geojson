@@ -1,0 +1,199 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.20112,
+    19.473082,
+    -99.199855,
+    19.477849
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.20112,
+        19.473082,
+        -99.199855,
+        19.477849
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 669.4,
+            "duration": 481.9,
+            "steps": [
+              {
+                "distance": 84.5,
+                "duration": 60.9,
+                "type": 11,
+                "instruction": "Head west on Avenida 5 de Mayo",
+                "name": "Avenida 5 de Mayo",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 43.3,
+                "duration": 31.2,
+                "type": 13,
+                "instruction": "Keep right onto Avenida 5 de Mayo",
+                "name": "Avenida 5 de Mayo",
+                "way_points": [
+                  1,
+                  3
+                ]
+              },
+              {
+                "distance": 476.3,
+                "duration": 342.9,
+                "type": 5,
+                "instruction": "Turn slight right onto Avenida Tezozómoc",
+                "name": "Avenida Tezozómoc",
+                "way_points": [
+                  3,
+                  13
+                ]
+              },
+              {
+                "distance": 37.5,
+                "duration": 27.0,
+                "type": 0,
+                "instruction": "Turn left onto Calle Campo Cantemoc",
+                "name": "Calle Campo Cantemoc",
+                "way_points": [
+                  13,
+                  14
+                ]
+              },
+              {
+                "distance": 27.8,
+                "duration": 20.0,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  14,
+                  15
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  15,
+                  15
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          15
+        ],
+        "summary": {
+          "distance": 669.4,
+          "duration": 481.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.200178,
+            19.473082
+          ],
+          [
+            -99.200954,
+            19.473286
+          ],
+          [
+            -99.20103,
+            19.473407
+          ],
+          [
+            -99.20112,
+            19.473641
+          ],
+          [
+            -99.201032,
+            19.473954
+          ],
+          [
+            -99.200873,
+            19.474531
+          ],
+          [
+            -99.200757,
+            19.474905
+          ],
+          [
+            -99.200466,
+            19.475823
+          ],
+          [
+            -99.20036,
+            19.476159
+          ],
+          [
+            -99.200245,
+            19.47652
+          ],
+          [
+            -99.200174,
+            19.476744
+          ],
+          [
+            -99.200115,
+            19.476931
+          ],
+          [
+            -99.200012,
+            19.477257
+          ],
+          [
+            -99.199855,
+            19.477754
+          ],
+          [
+            -99.200198,
+            19.477849
+          ],
+          [
+            -99.200265,
+            19.477607
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756308629377,
+    "query": {
+      "coordinates": [
+        [
+          -99.2001776,
+          19.4730823
+        ],
+        [
+          -99.2002646,
+          19.477607
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

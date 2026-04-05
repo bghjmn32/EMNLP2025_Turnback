@@ -1,0 +1,201 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    11.535226,
+    48.146769,
+    11.537321,
+    48.152184
+  ],
+  "features": [
+    {
+      "bbox": [
+        11.535226,
+        48.146769,
+        11.537321,
+        48.152184
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 707.6,
+            "duration": 509.5,
+            "steps": [
+              {
+                "distance": 531.0,
+                "duration": 382.3,
+                "type": 11,
+                "instruction": "Head north on Landshuter Allee",
+                "name": "Landshuter Allee",
+                "way_points": [
+                  0,
+                  13
+                ]
+              },
+              {
+                "distance": 170.1,
+                "duration": 122.5,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  13,
+                  20
+                ]
+              },
+              {
+                "distance": 6.5,
+                "duration": 4.7,
+                "type": 1,
+                "instruction": "Turn right onto Blutenburgstraße",
+                "name": "Blutenburgstraße",
+                "way_points": [
+                  20,
+                  21
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Blutenburgstraße, straight ahead",
+                "name": "-",
+                "way_points": [
+                  21,
+                  21
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          21
+        ],
+        "summary": {
+          "distance": 707.6,
+          "duration": 509.5
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            11.536675,
+            48.146769
+          ],
+          [
+            11.536866,
+            48.14722
+          ],
+          [
+            11.53694,
+            48.147475
+          ],
+          [
+            11.537071,
+            48.149053
+          ],
+          [
+            11.537078,
+            48.149125
+          ],
+          [
+            11.537103,
+            48.149527
+          ],
+          [
+            11.537134,
+            48.14991
+          ],
+          [
+            11.53714,
+            48.149961
+          ],
+          [
+            11.537154,
+            48.150147
+          ],
+          [
+            11.537158,
+            48.150198
+          ],
+          [
+            11.537189,
+            48.150421
+          ],
+          [
+            11.537217,
+            48.150488
+          ],
+          [
+            11.537245,
+            48.150554
+          ],
+          [
+            11.537321,
+            48.15151
+          ],
+          [
+            11.537268,
+            48.151523
+          ],
+          [
+            11.537174,
+            48.151546
+          ],
+          [
+            11.536755,
+            48.151654
+          ],
+          [
+            11.536631,
+            48.151686
+          ],
+          [
+            11.535977,
+            48.151872
+          ],
+          [
+            11.535333,
+            48.152091
+          ],
+          [
+            11.535226,
+            48.152128
+          ],
+          [
+            11.535248,
+            48.152184
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756137716140,
+    "query": {
+      "coordinates": [
+        [
+          11.5366746,
+          48.1467686
+        ],
+        [
+          11.5352479,
+          48.1521844
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

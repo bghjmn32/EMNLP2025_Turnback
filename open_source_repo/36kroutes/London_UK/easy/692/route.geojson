@@ -1,0 +1,185 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -0.151053,
+    51.418087,
+    -0.147207,
+    51.420474
+  ],
+  "features": [
+    {
+      "bbox": [
+        -0.151053,
+        51.418087,
+        -0.147207,
+        51.420474
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 523.1,
+            "duration": 376.7,
+            "steps": [
+              {
+                "distance": 503.2,
+                "duration": 362.3,
+                "type": 11,
+                "instruction": "Head east",
+                "name": "-",
+                "way_points": [
+                  0,
+                  15
+                ]
+              },
+              {
+                "distance": 7.0,
+                "duration": 5.1,
+                "type": 0,
+                "instruction": "Turn left",
+                "name": "-",
+                "way_points": [
+                  15,
+                  16
+                ]
+              },
+              {
+                "distance": 12.9,
+                "duration": 9.3,
+                "type": 1,
+                "instruction": "Turn right onto Streatham Road, A216",
+                "name": "Streatham Road, A216",
+                "way_points": [
+                  16,
+                  17
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Streatham Road, A216, straight ahead",
+                "name": "-",
+                "way_points": [
+                  17,
+                  17
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          17
+        ],
+        "summary": {
+          "distance": 523.1,
+          "duration": 376.7
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -0.151053,
+            51.42046
+          ],
+          [
+            -0.149895,
+            51.420474
+          ],
+          [
+            -0.149713,
+            51.420467
+          ],
+          [
+            -0.149493,
+            51.4204
+          ],
+          [
+            -0.148639,
+            51.42005
+          ],
+          [
+            -0.147241,
+            51.41948
+          ],
+          [
+            -0.147207,
+            51.419455
+          ],
+          [
+            -0.147226,
+            51.419417
+          ],
+          [
+            -0.147629,
+            51.419159
+          ],
+          [
+            -0.148128,
+            51.418856
+          ],
+          [
+            -0.148179,
+            51.418826
+          ],
+          [
+            -0.148223,
+            51.418801
+          ],
+          [
+            -0.148836,
+            51.418442
+          ],
+          [
+            -0.148879,
+            51.418417
+          ],
+          [
+            -0.148927,
+            51.418389
+          ],
+          [
+            -0.14932,
+            51.418203
+          ],
+          [
+            -0.149262,
+            51.418152
+          ],
+          [
+            -0.149417,
+            51.418087
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756828633665,
+    "query": {
+      "coordinates": [
+        [
+          -0.1510526,
+          51.4204598
+        ],
+        [
+          -0.1494173,
+          51.4180873
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-26T15:10:22Z",
+      "osm_date": "2025-08-18T00:00:00Z"
+    }
+  }
+}

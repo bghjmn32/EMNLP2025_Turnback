@@ -1,0 +1,174 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.197964,
+    19.318552,
+    -99.196114,
+    19.324043
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.197964,
+        19.318552,
+        -99.196114,
+        19.324043
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 688.8,
+            "duration": 496.0,
+            "steps": [
+              {
+                "distance": 29.5,
+                "duration": 21.2,
+                "type": 11,
+                "instruction": "Head east on Calle Rocas",
+                "name": "Calle Rocas",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 659.4,
+                "duration": 474.7,
+                "type": 1,
+                "instruction": "Turn right onto Calle Fuego",
+                "name": "Calle Fuego",
+                "way_points": [
+                  1,
+                  17
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Fuego, straight ahead",
+                "name": "-",
+                "way_points": [
+                  17,
+                  17
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          17
+        ],
+        "summary": {
+          "distance": 688.8,
+          "duration": 496.0
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.196394,
+            19.324043
+          ],
+          [
+            -99.196114,
+            19.324027
+          ],
+          [
+            -99.196143,
+            19.323003
+          ],
+          [
+            -99.196178,
+            19.32269
+          ],
+          [
+            -99.196218,
+            19.322509
+          ],
+          [
+            -99.196348,
+            19.322061
+          ],
+          [
+            -99.196408,
+            19.321843
+          ],
+          [
+            -99.196519,
+            19.321294
+          ],
+          [
+            -99.196523,
+            19.321209
+          ],
+          [
+            -99.19653,
+            19.320847
+          ],
+          [
+            -99.196537,
+            19.32067
+          ],
+          [
+            -99.196575,
+            19.320488
+          ],
+          [
+            -99.196613,
+            19.320385
+          ],
+          [
+            -99.19666,
+            19.320275
+          ],
+          [
+            -99.196846,
+            19.319979
+          ],
+          [
+            -99.197126,
+            19.319577
+          ],
+          [
+            -99.197331,
+            19.319298
+          ],
+          [
+            -99.197964,
+            19.318552
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756306941017,
+    "query": {
+      "coordinates": [
+        [
+          -99.1963942,
+          19.324043
+        ],
+        [
+          -99.1979638,
+          19.3185518
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.096458,
+    19.249244,
+    -99.094609,
+    19.253579
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.096458,
+        19.249244,
+        -99.094609,
+        19.253579
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 662.2,
+            "duration": 476.8,
+            "steps": [
+              {
+                "distance": 41.3,
+                "duration": 29.8,
+                "type": 11,
+                "instruction": "Head east on Calle Hermenegildo Galeana",
+                "name": "Calle Hermenegildo Galeana",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 326.3,
+                "duration": 234.9,
+                "type": 1,
+                "instruction": "Turn right onto Calle Ciclamen",
+                "name": "Calle Ciclamen",
+                "way_points": [
+                  1,
+                  4
+                ]
+              },
+              {
+                "distance": 203.9,
+                "duration": 146.8,
+                "type": 0,
+                "instruction": "Turn left onto Camino a Nativitas",
+                "name": "Camino a Nativitas",
+                "way_points": [
+                  4,
+                  11
+                ]
+              },
+              {
+                "distance": 90.7,
+                "duration": 65.3,
+                "type": 1,
+                "instruction": "Turn right onto Calle Mercado",
+                "name": "Calle Mercado",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Calle Mercado, straight ahead",
+                "name": "-",
+                "way_points": [
+                  12,
+                  12
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          12
+        ],
+        "summary": {
+          "distance": 662.2,
+          "duration": 476.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.096381,
+            19.253579
+          ],
+          [
+            -99.096001,
+            19.253483
+          ],
+          [
+            -99.096225,
+            19.252037
+          ],
+          [
+            -99.096336,
+            19.251353
+          ],
+          [
+            -99.096458,
+            19.250581
+          ],
+          [
+            -99.096328,
+            19.250551
+          ],
+          [
+            -99.096174,
+            19.250515
+          ],
+          [
+            -99.095965,
+            19.250467
+          ],
+          [
+            -99.095838,
+            19.250439
+          ],
+          [
+            -99.095076,
+            19.250253
+          ],
+          [
+            -99.094816,
+            19.250165
+          ],
+          [
+            -99.094609,
+            19.250048
+          ],
+          [
+            -99.094752,
+            19.249244
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756304041493,
+    "query": {
+      "coordinates": [
+        [
+          -99.0963811,
+          19.2535794
+        ],
+        [
+          -99.0947525,
+          19.249244
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

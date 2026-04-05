@@ -1,0 +1,221 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    -99.13232,
+    19.432958,
+    -99.125639,
+    19.434103
+  ],
+  "features": [
+    {
+      "bbox": [
+        -99.13232,
+        19.432958,
+        -99.125639,
+        19.434103
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 824.8,
+            "duration": 593.8,
+            "steps": [
+              {
+                "distance": 39.9,
+                "duration": 28.7,
+                "type": 11,
+                "instruction": "Head west",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 77.6,
+                "duration": 55.9,
+                "type": 0,
+                "instruction": "Turn left onto Calle Margil",
+                "name": "Calle Margil",
+                "way_points": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "distance": 615.9,
+                "duration": 443.5,
+                "type": 1,
+                "instruction": "Turn right onto Calle Emiliano Zapata",
+                "name": "Calle Emiliano Zapata",
+                "way_points": [
+                  2,
+                  11
+                ]
+              },
+              {
+                "distance": 4.8,
+                "duration": 3.4,
+                "type": 1,
+                "instruction": "Turn right onto Seminario",
+                "name": "Seminario",
+                "way_points": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "distance": 1.5,
+                "duration": 1.1,
+                "type": 0,
+                "instruction": "Turn left onto Plaza Manuel Gamio",
+                "name": "Plaza Manuel Gamio",
+                "way_points": [
+                  12,
+                  13
+                ]
+              },
+              {
+                "distance": 39.1,
+                "duration": 28.2,
+                "type": 6,
+                "instruction": "Continue straight onto Plaza Manuel Gamio",
+                "name": "Plaza Manuel Gamio",
+                "way_points": [
+                  13,
+                  14
+                ]
+              },
+              {
+                "distance": 45.9,
+                "duration": 33.1,
+                "type": 1,
+                "instruction": "Turn right",
+                "name": "-",
+                "way_points": [
+                  14,
+                  15
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at your destination, straight ahead",
+                "name": "-",
+                "way_points": [
+                  15,
+                  15
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          15
+        ],
+        "summary": {
+          "distance": 824.8,
+          "duration": 593.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            -99.125639,
+            19.43362
+          ],
+          [
+            -99.126018,
+            19.43365
+          ],
+          [
+            -99.126118,
+            19.432958
+          ],
+          [
+            -99.126989,
+            19.433058
+          ],
+          [
+            -99.12786,
+            19.433157
+          ],
+          [
+            -99.128804,
+            19.433287
+          ],
+          [
+            -99.12887,
+            19.43328
+          ],
+          [
+            -99.129031,
+            19.433249
+          ],
+          [
+            -99.129904,
+            19.433363
+          ],
+          [
+            -99.130919,
+            19.433485
+          ],
+          [
+            -99.131072,
+            19.433504
+          ],
+          [
+            -99.131941,
+            19.433605
+          ],
+          [
+            -99.131935,
+            19.433648
+          ],
+          [
+            -99.131949,
+            19.43365
+          ],
+          [
+            -99.13232,
+            19.433694
+          ],
+          [
+            -99.132263,
+            19.434103
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756305899253,
+    "query": {
+      "coordinates": [
+        [
+          -99.1256334,
+          19.4336621
+        ],
+        [
+          -99.1322628,
+          19.4341027
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

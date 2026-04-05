@@ -1,0 +1,194 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    11.639529,
+    48.147247,
+    11.641597,
+    48.155987
+  ],
+  "features": [
+    {
+      "bbox": [
+        11.639529,
+        48.147247,
+        11.641597,
+        48.155987
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 1026.3,
+            "duration": 738.9,
+            "steps": [
+              {
+                "distance": 46.5,
+                "duration": 33.5,
+                "type": 11,
+                "instruction": "Head east",
+                "name": "-",
+                "way_points": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "distance": 979.8,
+                "duration": 705.4,
+                "type": 0,
+                "instruction": "Turn left onto Ostpreußenstraße",
+                "name": "Ostpreußenstraße",
+                "way_points": [
+                  1,
+                  22
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Ostpreußenstraße, straight ahead",
+                "name": "-",
+                "way_points": [
+                  22,
+                  22
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          22
+        ],
+        "summary": {
+          "distance": 1026.3,
+          "duration": 738.9
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            11.639529,
+            48.147275
+          ],
+          [
+            11.640154,
+            48.147247
+          ],
+          [
+            11.640265,
+            48.147537
+          ],
+          [
+            11.640372,
+            48.147811
+          ],
+          [
+            11.640399,
+            48.148017
+          ],
+          [
+            11.640408,
+            48.148189
+          ],
+          [
+            11.640433,
+            48.148593
+          ],
+          [
+            11.640427,
+            48.148887
+          ],
+          [
+            11.640422,
+            48.149391
+          ],
+          [
+            11.640448,
+            48.149703
+          ],
+          [
+            11.640456,
+            48.149772
+          ],
+          [
+            11.640459,
+            48.149826
+          ],
+          [
+            11.64051,
+            48.150197
+          ],
+          [
+            11.640602,
+            48.15058
+          ],
+          [
+            11.640777,
+            48.15137
+          ],
+          [
+            11.640863,
+            48.151817
+          ],
+          [
+            11.640892,
+            48.151923
+          ],
+          [
+            11.641051,
+            48.152537
+          ],
+          [
+            11.641197,
+            48.153207
+          ],
+          [
+            11.641215,
+            48.153329
+          ],
+          [
+            11.641423,
+            48.155091
+          ],
+          [
+            11.64157,
+            48.155838
+          ],
+          [
+            11.641597,
+            48.155987
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756137228893,
+    "query": {
+      "coordinates": [
+        [
+          11.639529,
+          48.1472747
+        ],
+        [
+          11.6415969,
+          48.1559874
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}

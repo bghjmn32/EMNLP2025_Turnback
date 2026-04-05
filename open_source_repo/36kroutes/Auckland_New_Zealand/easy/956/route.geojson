@@ -1,0 +1,161 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [
+    174.792985,
+    -36.873787,
+    174.795402,
+    -36.868135
+  ],
+  "features": [
+    {
+      "bbox": [
+        174.792985,
+        -36.873787,
+        174.795402,
+        -36.868135
+      ],
+      "type": "Feature",
+      "properties": {
+        "segments": [
+          {
+            "distance": 766.4,
+            "duration": 551.8,
+            "steps": [
+              {
+                "distance": 495.5,
+                "duration": 356.8,
+                "type": 11,
+                "instruction": "Head west on Shera Road",
+                "name": "Shera Road",
+                "way_points": [
+                  0,
+                  7
+                ]
+              },
+              {
+                "distance": 52.7,
+                "duration": 38.0,
+                "type": 1,
+                "instruction": "Turn right onto Scherff Road",
+                "name": "Scherff Road",
+                "way_points": [
+                  7,
+                  9
+                ]
+              },
+              {
+                "distance": 218.1,
+                "duration": 157.1,
+                "type": 0,
+                "instruction": "Turn left onto Standen Avenue",
+                "name": "Standen Avenue",
+                "way_points": [
+                  9,
+                  11
+                ]
+              },
+              {
+                "distance": 0.0,
+                "duration": 0.0,
+                "type": 10,
+                "instruction": "Arrive at Standen Avenue, straight ahead",
+                "name": "-",
+                "way_points": [
+                  11,
+                  11
+                ]
+              }
+            ]
+          }
+        ],
+        "way_points": [
+          0,
+          11
+        ],
+        "summary": {
+          "distance": 766.4,
+          "duration": 551.8
+        }
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            174.793949,
+            -36.873787
+          ],
+          [
+            174.793042,
+            -36.873489
+          ],
+          [
+            174.792985,
+            -36.873444
+          ],
+          [
+            174.79299,
+            -36.873355
+          ],
+          [
+            174.79336,
+            -36.873003
+          ],
+          [
+            174.793404,
+            -36.87292
+          ],
+          [
+            174.793511,
+            -36.872842
+          ],
+          [
+            174.794733,
+            -36.870162
+          ],
+          [
+            174.794889,
+            -36.870116
+          ],
+          [
+            174.795315,
+            -36.870095
+          ],
+          [
+            174.7954,
+            -36.868278
+          ],
+          [
+            174.795402,
+            -36.868135
+          ]
+        ],
+        "type": "LineString"
+      }
+    }
+  ],
+  "metadata": {
+    "attribution": "openrouteservice.org | OpenStreetMap contributors",
+    "service": "routing",
+    "timestamp": 1756375860464,
+    "query": {
+      "coordinates": [
+        [
+          174.7939492,
+          -36.8737869
+        ],
+        [
+          174.7954022,
+          -36.8681351
+        ]
+      ],
+      "profile": "foot-walking",
+      "profileName": "foot-walking",
+      "format": "geojson"
+    },
+    "engine": {
+      "version": "9.3.0",
+      "build_date": "2025-06-06T15:39:25Z",
+      "graph_date": "2025-08-19T13:56:51Z",
+      "osm_date": "2025-08-10T23:59:57Z"
+    }
+  }
+}
