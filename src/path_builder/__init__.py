@@ -1,4 +1,4 @@
-from .datasets import corpus_summary, load_36k_example, load_route_example
+from .datasets import load_36k_example, load_route_example
 from .execution import PathBuilder
 from .instructions import parse_instruction, parse_instruction_file
 from .models import ExecutionState, NavigationCommand, SimilarityThresholds, SimilarityWeights
@@ -13,7 +13,6 @@ __all__ = [
     "SimilarityThresholds",
     "SimilarityWeights",
     "clean_reverse_route_response",
-    "corpus_summary",
     "create_reverse_route_provider",
     "load_36k_example",
     "load_route_example",

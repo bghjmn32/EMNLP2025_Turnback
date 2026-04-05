@@ -7,39 +7,16 @@
 
 [English](README.md) | 简体中文
 
-本仓库是 **TurnBack: A Geospatial Route Cognition Benchmark for Large Language Models through Reverse Route** 的公开代码与数据发布版本。
+本仓库是论文 **TurnBack: A Geospatial Route Cognition Benchmark for Large Language Models through Reverse Route** 的公开发布版本。
 
-这次公开发布只保留四类核心内容：
+仓库只保留四类真正对外可用的内容：
 
-1. `36kroutes/`：公开发布的原始路线集合
-2. `Path Builder`：路线执行引擎
-3. `easy / medium / hard` 三档路线生成代码
-4. 面向外部大模型 API 的反转指令生成代码
+1. `36kroutes/`：公开发布的原始路线语料
+2. `path-builder execute`：公开版 Path Builder 执行器
+3. `path-builder generate-routes`：`easy / medium / hard` 三档路线生成器
+4. `path-builder generate-reverse`：面向外部大模型 API 的反转指令生成器
 
-本仓库**不依赖**私有 benchmark split、隐藏图缓存、未公开 audit 工件或内部相似度服务。
-
-## 你可以用这个仓库做什么
-
-- 查看和复用 `36kroutes` 原始路线语料
-- 生成新的三档步行路线
-- 用自己的 OpenAI 或 Gemini key 生成反转指令
-- 用 Path Builder 执行这些指令
-- 用本地相似度实现对恢复路线打分
-
-## 仓库结构
-
-```text
-.
-├── 36kroutes/          # 已发布路线语料
-├── configs/            # 运行所需配置
-├── src/path_builder/   # Path Builder、生成、prompting、评分
-├── scripts/            # 小型辅助脚本
-├── tests/              # 自包含公开测试集
-├── README.md           # 英文 README
-├── README.zh-CN.md     # 中文 README
-├── CITATION.cff        # 引用信息
-└── pyproject.toml      # 安装与 CLI 入口
-```
+![TurnBack 流程图](assets/route_generation.png)
 
 ## 快速开始
 
@@ -51,7 +28,7 @@ source .venv/bin/activate
 pip install -e .[dev,llm]
 ```
 
-生成新路线：
+生成三档新路线：
 
 ```bash
 path-builder generate-routes \
@@ -63,7 +40,7 @@ path-builder generate-routes \
   --ors-api-key "$ORS_API_KEY"
 ```
 
-用你自己的 API key 生成反转指令：
+用你自己的大模型 API key 生成反转指令：
 
 ```bash
 path-builder generate-reverse \
@@ -74,7 +51,7 @@ path-builder generate-reverse \
   --clean-output tmp/reverse_clean.txt
 ```
 
-用 Path Builder 执行：
+用 Path Builder 执行反转指令：
 
 ```bash
 path-builder execute \
@@ -87,7 +64,7 @@ path-builder execute \
   --output tmp/recovered_route.geojson
 ```
 
-对恢复路线打分：
+将恢复路线与参考路线做相似度评分：
 
 ```bash
 path-builder score \
@@ -96,27 +73,42 @@ path-builder score \
   --config configs/similarity.paper.json
 ```
 
-## 数据概况
+## 论文结果摘要
 
-- 城市数：`13`
-- 路线文件夹数：`40,752`
-- 含实际 `route.geojson` 的文件夹数：`40,728`
+![论文主结果图](assets/main_results.png)
 
-仓库保持原始发布状态，不会为了表面一致性去改写原始目录。
+- EMNLP 2025 论文提出了一个覆盖 `12` 个大都市、总计 `36,000` 条路线、包含三档难度的 benchmark。
+- 论文中 Path Builder 在 Toronto、Tokyo、Munich 上的成功率分别为 `96%`、`90%`、`94%`。
+- 在代表性的 easy 反转样例上，没有模型能精确回到起点；Gemini 的相似度达到 `73.4`，Llama 为 `22.6`。
+- 在 Toronto 的 `200` 条 easy 路线上，给 GPT-4o 增加向量地图提示后，return rate 从 `6.4%` 提升到 `43.7%`，similarity 从 `41.06` 提升到 `73.08`。
 
-## 仓库中包含什么
+## 为什么目录还叫 `36kroutes`？
 
-- 公开路线语料
-- 公开的生成、prompting、执行、评分代码
-- 运行所需配置
-- 公开测试与 CI
+`36kroutes` 是论文时期沿用下来的发布名称。当前仓库中的这个目录不是重新命名后的“精确 36k 子集”，而是后续保留下来的原始发布快照。
 
-## 仓库中不包含什么
+当前磁盘目录快照：
 
-- `data_set/`
-- 未公开 audit manifest
-- 私有 API 或内部服务
-- 本地冻结图缓存
+- 城市目录数：`13`
+- 路线文件夹总数：`40,752`
+- 含 `route.geojson` 的有效路线文件夹：`40,728`
+
+论文中写的 `36,000` 条路线，对应的是论文使用的原始 benchmark 子集；当前公开目录为了保持连续性，沿用了 `36kroutes` 这个历史名称，而没有在后续增补后改名。当前城市列表见 [36kroutes/README.md](36kroutes/README.md)。
+
+## 仓库结构
+
+```text
+.
+├── 36kroutes/                # 已发布原始路线语料
+├── assets/                   # 复用自论文的图
+├── configs/similarity.paper.json
+├── src/path_builder/         # Path Builder、路线生成、prompting、评分
+├── scripts/quick_check.sh    # 本地 smoke test
+├── tests/                    # 公开测试集
+├── README.md                 # 英文 README
+├── README.zh-CN.md           # 中文 README
+├── CITATION.cff
+└── pyproject.toml
+```
 
 ## 快速检查
 
@@ -129,4 +121,4 @@ pytest -q
 
 ## 引用
 
-如果你使用了代码或数据，请引用 TurnBack 论文。引用元信息见 [CITATION.cff](CITATION.cff)。
+如果你使用了本仓库的代码或数据，请引用 TurnBack 论文。引用元信息见 [CITATION.cff](CITATION.cff)。

@@ -3,15 +3,6 @@ import json
 import pytest
 
 from path_builder.cli import build_parser, main
-
-
-def test_corpus_summary_parser_uses_36k_root_default():
-    parser = build_parser()
-    args = parser.parse_args(["corpus-summary"])
-    assert args.command == "corpus-summary"
-    assert args.root == "36kroutes"
-
-
 def test_execute_parser_accepts_hybrid_executor():
     parser = build_parser()
     args = parser.parse_args(
@@ -33,10 +24,14 @@ def test_execute_parser_accepts_hybrid_executor():
     assert args.root == "36kroutes"
 
 
-def test_removed_internal_command_is_not_exposed():
+def test_removed_auxiliary_commands_are_not_exposed():
     parser = build_parser()
     with pytest.raises(SystemExit):
         parser.parse_args(["audit-corpus"])
+    with pytest.raises(SystemExit):
+        parser.parse_args(["corpus-summary"])
+    with pytest.raises(SystemExit):
+        parser.parse_args(["plot-routes"])
 
 
 def test_generate_routes_parser_accepts_expected_arguments():

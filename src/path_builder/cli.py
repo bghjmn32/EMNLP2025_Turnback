@@ -5,7 +5,7 @@ import json
 import os
 from pathlib import Path
 
-from .datasets import corpus_summary, load_36k_example, load_route_example
+from .datasets import load_36k_example, load_route_example
 from .execution import PathBuilder, recommended_graph_dist
 from .generation import generate_routes_pipeline
 from .instructions import parse_instruction_file
@@ -13,7 +13,6 @@ from .io import load_geojson
 from .models import ExecutionState, SimilarityThresholds, SimilarityWeights
 from .prompting import create_reverse_route_provider, write_reverse_route_outputs
 from .similarity import score_geojson_routes
-from .visualization import plot_route_pair
 
 
 def _load_weights(path: str | Path | None) -> tuple[SimilarityWeights, SimilarityThresholds]:
@@ -42,9 +41,6 @@ def build_parser() -> argparse.ArgumentParser:
     )
     subparsers = parser.add_subparsers(dest="command", required=True)
 
-    corpus_cmd = subparsers.add_parser("corpus-summary", help="Summarize the released 36kroutes corpus.")
-    corpus_cmd.add_argument("--root", default="36kroutes")
-
     reverse_cmd = subparsers.add_parser(
         "generate-reverse",
         help="Call an external LLM provider and write raw + cleaned reverse-route instructions.",
@@ -61,12 +57,6 @@ def build_parser() -> argparse.ArgumentParser:
     score_cmd.add_argument("prediction")
     score_cmd.add_argument("reference")
     score_cmd.add_argument("--config")
-
-    visualize_cmd = subparsers.add_parser("plot-routes", help="Plot an overlay of a predicted route and a reference route.")
-    visualize_cmd.add_argument("prediction")
-    visualize_cmd.add_argument("reference")
-    visualize_cmd.add_argument("output")
-    visualize_cmd.add_argument("--title", default="Route Comparison")
 
     execute_cmd = subparsers.add_parser("execute", help="Execute reverse instructions against a street graph with Path Builder.")
     execute_cmd.add_argument("example_id", nargs="?")
@@ -108,10 +98,6 @@ def main(argv: list[str] | None = None) -> int:
     parser = build_parser()
     args = parser.parse_args(argv)
 
-    if args.command == "corpus-summary":
-        print(json.dumps(corpus_summary("36kroutes", root=args.root), indent=2, ensure_ascii=False))
-        return 0
-
     if args.command == "generate-reverse":
         instructions_text = Path(args.input_file).read_text(encoding="utf-8")
         provider = create_reverse_route_provider(args.provider, api_key=args.api_key, model_name=args.model)
@@ -143,11 +129,6 @@ def main(argv: list[str] | None = None) -> int:
                 indent=2,
             )
         )
-        return 0
-
-    if args.command == "plot-routes":
-        plot_route_pair(load_geojson(args.reference), load_geojson(args.prediction), output_path=args.output, title=args.title)
-        print(f"Wrote route overlay to {args.output}")
         return 0
 
     if args.command == "execute":

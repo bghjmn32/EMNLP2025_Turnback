@@ -7,39 +7,16 @@
 
 English | [简体中文](README.zh-CN.md)
 
-This repository is the public code and data release for **TurnBack: A Geospatial Route Cognition Benchmark for Large Language Models through Reverse Route**.
+Public release for **TurnBack: A Geospatial Route Cognition Benchmark for Large Language Models through Reverse Route**.
 
-The release is intentionally narrow and centered on four items:
+This repository is intentionally narrow. It gives you exactly four practical pieces:
 
-1. `36kroutes/`: the released raw route collection
-2. `Path Builder`: the route execution engine
-3. route generation code for `easy / medium / hard`
-4. reverse-instruction generation code for external LLM APIs
+1. `36kroutes/`: the released raw route corpus
+2. `path-builder execute`: the public Path Builder executor
+3. `path-builder generate-routes`: the easy / medium / hard route generator
+4. `path-builder generate-reverse`: the reverse-instruction generator for external LLM APIs
 
-This repository does **not** depend on private benchmark splits, hidden graph caches, unpublished audit artifacts, or internal similarity services.
-
-## What You Can Do
-
-- inspect and reuse the released `36kroutes` corpus
-- generate new pedestrian routes in three difficulty levels
-- call your own OpenAI or Gemini API to create reverse instructions
-- execute those instructions with Path Builder
-- score recovered routes with the local similarity implementation
-
-## Repository Layout
-
-```text
-.
-├── 36kroutes/          # released route corpus
-├── configs/            # required runtime config
-├── src/path_builder/   # Path Builder, generation, prompting, scoring
-├── scripts/            # small helper scripts
-├── tests/              # self-contained public test suite
-├── README.md           # English README
-├── README.zh-CN.md     # Chinese README
-├── CITATION.cff        # citation metadata
-└── pyproject.toml      # install + CLI entry points
-```
+![TurnBack pipeline](assets/route_generation.png)
 
 ## Quick Start
 
@@ -51,7 +28,7 @@ source .venv/bin/activate
 pip install -e .[dev,llm]
 ```
 
-Generate new routes:
+Generate new routes in three difficulty levels:
 
 ```bash
 path-builder generate-routes \
@@ -63,7 +40,7 @@ path-builder generate-routes \
   --ors-api-key "$ORS_API_KEY"
 ```
 
-Generate reverse instructions with your own API key:
+Generate reverse instructions with your own LLM API key:
 
 ```bash
 path-builder generate-reverse \
@@ -74,7 +51,7 @@ path-builder generate-reverse \
   --clean-output tmp/reverse_clean.txt
 ```
 
-Execute with Path Builder:
+Execute the reversed instructions with Path Builder:
 
 ```bash
 path-builder execute \
@@ -87,7 +64,7 @@ path-builder execute \
   --output tmp/recovered_route.geojson
 ```
 
-Score the recovered route:
+Score the recovered route against the reference route:
 
 ```bash
 path-builder score \
@@ -96,27 +73,42 @@ path-builder score \
   --config configs/similarity.paper.json
 ```
 
-## Data Snapshot
+## Paper Snapshot
 
-- cities: `13`
+![Main benchmark results](assets/main_results.png)
+
+- The EMNLP 2025 paper introduces a `36,000`-route benchmark over `12` metropolitan areas and three difficulty levels.
+- The paper reports that Path Builder reaches `96%` success in Toronto, `90%` in Tokyo, and `94%` in Munich.
+- On a representative easy reversal example, no model returned exactly to the start; Gemini reached `73.4` similarity while Llama reached `22.6`.
+- On `200` easy Toronto routes with GPT-4o, adding a vector map at inference time raised return rate from `6.4%` to `43.7%` and similarity from `41.06` to `73.08`.
+
+## Why Is The Folder Still Named `36kroutes`?
+
+`36kroutes` is the historical release name used in the paper. The directory currently published in this repository is a later raw release snapshot kept under the same name for continuity.
+
+Current on-disk snapshot:
+
+- city folders: `13`
 - route folders: `40,752`
-- folders with populated `route.geojson`: `40,728`
+- populated route folders with `route.geojson`: `40,728`
 
-The raw directory state is preserved as released rather than cosmetically rewritten.
+The paper-reported `36,000` routes refer to the original paper benchmark subset. The current raw release keeps the historical directory name instead of renaming the corpus after later additions. The current city list is documented in [36kroutes/README.md](36kroutes/README.md).
 
-## Included
+## Repository Layout
 
-- public route corpus
-- public code for generation, prompting, execution, and scoring
-- required runtime configuration
-- public tests and CI
-
-## Not Included
-
-- `data_set/`
-- unpublished audit manifests
-- private APIs or internal services
-- local frozen graph caches
+```text
+.
+├── 36kroutes/                # released raw route corpus
+├── assets/                   # figures reused from the paper
+├── configs/similarity.paper.json
+├── src/path_builder/         # Path Builder, route generation, prompting, scoring
+├── scripts/quick_check.sh    # local smoke test
+├── tests/                    # public test suite
+├── README.md                 # English README
+├── README.zh-CN.md           # Chinese README
+├── CITATION.cff
+└── pyproject.toml
+```
 
 ## Quick Check
 
