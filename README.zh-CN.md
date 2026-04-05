@@ -31,7 +31,7 @@
 ```text
 .
 ├── 36kroutes/          # 已发布路线语料
-├── configs/            # 公开评分配置
+├── configs/            # 运行所需配置
 ├── src/path_builder/   # Path Builder、生成、prompting、评分
 ├── scripts/            # 小型辅助脚本
 ├── tests/              # 自包含公开测试集
@@ -78,7 +78,6 @@ path-builder generate-reverse \
 
 ```bash
 path-builder execute \
-  --corpus 36kroutes \
   --root 36kroutes \
   --city Toronto_Canada \
   --difficulty easy \
@@ -109,7 +108,7 @@ path-builder score \
 
 - 公开路线语料
 - 公开的生成、prompting、执行、评分代码
-- 公开配置文件
+- 运行所需配置
 - 公开测试与 CI
 
 ## 仓库中不包含什么

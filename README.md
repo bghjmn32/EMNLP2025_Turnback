@@ -31,7 +31,7 @@ This repository does **not** depend on private benchmark splits, hidden graph ca
 ```text
 .
 ├── 36kroutes/          # released route corpus
-├── configs/            # public scoring configs
+├── configs/            # required runtime config
 ├── src/path_builder/   # Path Builder, generation, prompting, scoring
 ├── scripts/            # small helper scripts
 ├── tests/              # self-contained public test suite
@@ -78,7 +78,6 @@ Execute with Path Builder:
 
 ```bash
 path-builder execute \
-  --corpus 36kroutes \
   --root 36kroutes \
   --city Toronto_Canada \
   --difficulty easy \
@@ -109,7 +108,7 @@ The raw directory state is preserved as released rather than cosmetically rewrit
 
 - public route corpus
 - public code for generation, prompting, execution, and scoring
-- public configuration files
+- required runtime configuration
 - public tests and CI
 
 ## Not Included
